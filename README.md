@@ -1,70 +1,171 @@
 # TheBrief
 
-TheBrief is an automated daily pipeline that monitors a curated list of YouTube podcast channels, extracts audio from new long-form episodes, transcribes them, and delivers a structured **Intelligence Brief (BKM v2)**. The output is a high-signal, decision-grade dashboard that distills hours of audio into less than 3 minutes of reading per episode.
+TheBrief is an automated intelligence pipeline that monitors a curated list of long-form YouTube podcast channels, extracts audio from newly published episodes, transcribes them, and generates a structured **BKM v2 Intelligence Brief**.
+
+The output is a high-signal, decision-grade dashboard that compresses hours of audio into under three minutes of disciplined, structured reading per episode.
+
+> This is not a summary engine.
+> It is an epistemic signal extractor.
+
+## Core Philosophy
+
+TheBrief enforces:
+- Strict separation of fact vs speculation
+- Explicit narrative pressure scoring
+- Incentive alignment analysis
+- Disconfirming conditions
+- Signal-to-narrative ratio estimation
+- Strategic classification (Actionable / Sentiment / Context / Noise)
+
+> The goal is not completeness.
+> The goal is decision usefulness.
 
 ## System Architecture
 
-The pipeline runs as a single Python script (`main.py`) with four discrete stages:
+The pipeline runs as a single Python orchestrator (`main.py`) composed of four discrete stages:
 
-1. **Discovery**: Monitors configured channels in `channels.json` and identifies new episodes published in the last 24 hours that are longer than 20 minutes (excluding Shorts).
-2. **Audio Extraction**: Extracts only the audio stream from each queued video using `yt-dlp` and downsamples it to 16kHz mono `mp3`. No video is downloaded.
-3. **Transcription**: Converts the audio to a full text transcript using **Google Gemini 1.5 Pro** via the fast, multimodal File API. (Also supports `faster-whisper` for offline processing).
-4. **Intelligence Summarization**: Feeds each transcript into **Google Gemini 2.0 Flash** with a massive, nested 10-point JSON prompt. The engine enforces strict epistemic discipline to generate a BKM v2 schema (Signal Snapshot, Reality Layer, Risk Layer, Causal Maps, and Disconfirming Conditions). The dashboard is saved as a Markdown file in `/briefs/` and optionally emailed.
+### 1. Discovery
+- Monitors configured channels in `channels.json`
+- Identifies new episodes published in the last 24 hours
+- Filters for long-form content (>20 minutes)
+- Excludes Shorts automatically
 
-### Quick Start
-1.  **Clone the Repo**: `git clone https://github.com/kvwilliamson/TheBrief.git`
-2.  **API Keys**: Create a `.env` file (see `.env.example`) and add your `YOUTUBE_API_KEY`, `GOOGLE_AI_API_KEY`, etc.
-3.  **Launch**: Run `./run.sh` from the terminal. 🚀
+### 2. Audio Extraction
+- Uses `yt-dlp`
+- Extracts audio stream only (no video download)
+- Downsamples to 16kHz mono `mp3`
+- Optimized for transcription efficiency
 
-## Local Setup
+### 3. Transcription
+**Primary:**
+- Google Gemini 1.5 Pro (multimodal File API)
 
-1. **Clone the repository**:
+**Optional:**
+- `faster-whisper` for offline processing
+- OpenAI Whisper API fallback
+
+Outputs a full transcript for downstream structured analysis.
+
+### 4. Intelligence Summarization (BKM v2 Engine)
+Transcripts are processed through Google Gemini 2.0 Flash using a strictly enforced, structured JSON schema.
+
+The engine generates:
+- **Episode Intelligence Profile**
+- **Signal Snapshot** (compact scoring grid)
+- **Reality Layer** (hard claims only)
+- **Forward Projections** (risk layer)
+- **Causal Maps**
+- **Narrative Profile** (decomposed subscores)
+- **Incentive Vector**
+- **Signal-to-Narrative Ratio**
+- **Disconfirming Conditions**
+- **Final Intelligence Take** (strategic classification)
+
+**Output:**
+- Saved as Markdown in `/briefs/`
+- Optionally emailed
+- Fully structured JSON retained internally for scoring and longitudinal analysis
+
+## Output Characteristics (BKM v2)
+Each episode brief:
+- 400–700 words
+- <3 minutes reading time
+- Compact scoring tables
+- Max 6 bullets per section
+- Strict compression of thesis (1 sentence)
+- Final strategic classification required
+
+*TheBrief is optimized for cognitive efficiency, not verbosity.*
+
+## Quick Start
+
+1. **Clone the repository:**
    ```bash
    git clone https://github.com/kvwilliamson/TheBrief.git
    cd TheBrief
    ```
 
-2. **Set up a virtual environment and install dependencies**:
+2. **Create a virtual environment and install dependencies:**
    ```bash
    python3 -m venv venv
    source venv/bin/activate
    pip install -r requirements.txt
    ```
 
-3. **Configure Environment Variables**:
-   Copy the example environment file and fill in your API keys:
+3. **Configure environment variables:**
    ```bash
    cp .env.example .env
    ```
-   Open `.env` and configure:
-   - `YOUTUBE_API_KEY`: Required for Phase 1 to find new videos.
-   - `GOOGLE_AI_API_KEY`: Required for Gemini summarization.
-   - `OPENAI_API_KEY`: Required for Whisper API transcription (and as a fallback for summarization).
-   - Email Delivery (Optional): Set `SEND_EMAIL=true` and provide your `EMAIL_TO`, `EMAIL_FROM`, `SMTP_HOST` (e.g. `smtp.gmail.com:587`), and `SMTP_PASSWORD` (use an App Password, not your real password).
+   Edit `.env` and configure:
+   - `YOUTUBE_API_KEY` – Required for discovery
+   - `GOOGLE_AI_API_KEY` – Required for Gemini transcription + summarization
+   - `OPENAI_API_KEY` – Optional Whisper fallback
 
-4. **Curate Channels**:
-   Update `channels.json` with the names and actual YouTube Channel IDs you wish to track.
+   *(Optional) Email configuration:*
+   - `SEND_EMAIL=true`
+   - `EMAIL_TO`
+   - `EMAIL_FROM`
+   - `SMTP_HOST`
+   - `SMTP_PASSWORD` (App Password recommended)
 
-5. **Run the Dashboard UI (Recommended)**:
-   ```bash
-   streamlit run app.py
-   ```
-   *This will open a local web page where you can view your briefs, manage channels, and manually trigger the pipeline.*
+4. **Curate channels:**
+   Edit `channels.json` with channel names and official YouTube Channel IDs.
 
-6. **Run the Pipeline Headless**:
-   ```bash
-   python main.py
-   ```
+## Running the System
 
-## GitHub Actions
+### Recommended: Dashboard UI
+```bash
+streamlit run app.py
+```
+Opens a local web interface to:
+- View briefs
+- Manage tracked channels
+- Trigger pipeline manually
 
-The pipeline is pre-configured to run automatically every day at 6:00 AM UTC via GitHub Actions (`.github/workflows/daily_brief.yml`). 
+### Headless Mode
+```bash
+python main.py
+```
+Runs the full discovery → extraction → transcription → intelligence pipeline.
 
-To enable this action on GitHub:
-1. Go to your repository **Settings** > **Secrets and variables** > **Actions**.
-2. Add the following **Repository Secrets**:
+## GitHub Actions Automation
+
+A scheduled workflow runs daily at **6:00 AM UTC**.
+
+**Configuration file:** `.github/workflows/daily_brief.yml`
+
+**To enable:**
+1. Go to Repository → **Settings** → **Secrets and variables** → **Actions**
+2. Add:
    - `YOUTUBE_API_KEY`
    - `GOOGLE_AI_API_KEY`
    - `OPENAI_API_KEY`
-   - (Optional) `SMTP_PASSWORD` and other email credentials if you update the workflow to pass them in. 
-3. The cron job will run daily, process new podcasts, and commit the generated Markdown summaries directly back to the `briefs/` folder in the repository.
+   - *(Optional)* `SMTP_PASSWORD`
+
+The cron job processes new long-form episodes, generates BKM v2 briefs, and commits Markdown files into `/briefs/`—fully automated.
+
+## Design Intent
+
+TheBrief is built for:
+- High-agency thinkers
+- Portfolio decision-makers
+- Researchers
+- Signal-oriented operators
+
+*It is not designed for entertainment recaps.*
+
+It is designed to answer:
+- What was claimed?
+- How strong is the evidence?
+- Where is the narrative pressure?
+- What would break the thesis?
+- Does this matter?
+
+## Roadmap (Future Expansion)
+
+Planned architecture supports:
+- Prediction tracking & calibration scoring
+- Channel Credibility Index
+- Base-rate modeling for financial claims
+- Longitudinal narrative drift detection
+- Automated fact-check layering
