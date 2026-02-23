@@ -3,6 +3,7 @@ import glob
 import json
 import streamlit as st
 import subprocess
+import requests
 from datetime import datetime
 from dotenv import load_dotenv
 
@@ -56,6 +57,24 @@ def load_queue():
             return json.load(f)
     except:
         return []
+
+@st.cache_data(ttl=3600)
+def is_url_valid(url):
+    """Check if an image URL is accessible via a HEAD request."""
+    if not url:
+        return False
+    try:
+        response = requests.head(url, timeout=2)
+        return response.status_code == 200
+    except:
+        return False
+
+def show_channel_image(url):
+    """Safely render a channel image or fallback icon."""
+    if is_url_valid(url):
+        st.image(url, width=80)
+    else:
+        st.markdown("<div style='width:80px;height:80px;display:flex;align-items:center;justify-content:center;background:#333;border-radius:50%;font-size:30px;'>📻</div>", unsafe_allow_html=True)
 
 # --- Session State Initialization ---
 if 'channels' not in st.session_state:
@@ -215,10 +234,7 @@ with tab3:
         for item in st.session_state.search_results:
             col1, col2, col3 = st.columns([1, 4, 1])
             with col1:
-                try:
-                    st.image(item["thumb"], width=80)
-                except:
-                    st.write("🖼️") # Fallback for image errors
+                show_channel_image(item["thumb"])
             with col2:
                 st.markdown(f"**{item['name']}**")
                 st.caption(item['desc'][:150] + ("..." if len(item['desc'])>150 else ""))
@@ -275,10 +291,7 @@ with tab3:
         for item in st.session_state.recommendations:
             col1, col2, col3 = st.columns([1, 4, 1])
             with col1:
-                try:
-                    st.image(item["thumb"], width=80)
-                except:
-                    st.write("🖼️")
+                show_channel_image(item["thumb"])
             with col2:
                 st.markdown(f"**{item['name']}**")
                 st.caption(item['desc'][:150] + ("..." if len(item['desc'])>150 else ""))
