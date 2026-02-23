@@ -57,6 +57,19 @@ def load_queue():
     except:
         return []
 
+# --- Session State Initialization ---
+if 'channels' not in st.session_state:
+    st.session_state.channels = load_channels()
+
+if 'search_results' not in st.session_state:
+    st.session_state.search_results = []
+
+if 'recommendations' not in st.session_state:
+    st.session_state.recommendations = []
+
+def refresh_channels():
+    st.session_state.channels = load_channels()
+
 # --- Custom Styling ---
 st.markdown("""
     <style>
@@ -143,28 +156,28 @@ with tab2:
                                 resp = youtube.channels().list(part="snippet", id=c_id).execute()
                                 c_name = resp["items"][0]["snippet"]["title"] if resp.get("items") else "Unknown"
                                 
-                            if any(c.get("id") == c_id for c in channels):
+                            if any(c.get("id") == c_id for c in st.session_state.channels):
                                 st.warning(f"Channel '{c_name}' is already being tracked.")
                             else:
-                                channels.append({"name": c_name, "id": c_id})
-                                save_channels(channels)
+                                st.session_state.channels.append({"name": c_name, "id": c_id})
+                                save_channels(st.session_state.channels)
                                 st.success(f"Added {c_name}!")
                                 st.rerun()
 
     st.divider()
     
     # Display existing channels with delete buttons
-    if not channels:
+    if not st.session_state.channels:
         st.info("No channels are currently being tracked.")
     else:
-        for i, channel in enumerate(channels):
+        for i, channel in enumerate(st.session_state.channels):
             col1, col2 = st.columns([4, 1])
             with col1:
                 st.markdown(f"**{channel['name']}**  \n`{channel['id']}`")
             with col2:
                 if st.button("Remove", key=f"del_{i}", type="secondary", use_container_width=True):
-                    channels.pop(i)
-                    save_channels(channels)
+                    st.session_state.channels.pop(i)
+                    save_channels(st.session_state.channels)
                     st.rerun()
             st.divider()
 
@@ -180,93 +193,105 @@ with tab3:
         if discover_query:
             with st.spinner("Searching YouTube..."):
                 try:
-                    channels = load_channels()
                     youtube = build("youtube", "v3", developerKey=os.getenv("YOUTUBE_API_KEY"))
                     resp = youtube.search().list(part="snippet", type="channel", q=discover_query, maxResults=10).execute()
                     
+                    st.session_state.search_results = []
                     items = resp.get("items", [])
-                    if not items:
-                        st.info("No channels found for that query.")
-                    else:
-                        for item in items:
-                            snippet = item["snippet"]
-                            c_name = snippet["title"]
-                            c_id = snippet["channelId"]
-                            desc = snippet.get("description", "No description provided.")
-                            thumb = snippet["thumbnails"]["default"]["url"]
-                            
-                            col1, col2, col3 = st.columns([1, 4, 1])
-                            with col1:
-                                st.image(thumb, width=80)
-                            with col2:
-                                st.markdown(f"**{c_name}**")
-                                st.caption(desc[:150] + ("..." if len(desc)>150 else ""))
-                            with col3:
-                                st.markdown("<br>", unsafe_allow_html=True)
-                                if any(c.get("id") == c_id for c in channels):
-                                    st.button("Tracking", disabled=True, key=f"btn_track_{c_id}")
-                                else:
-                                    if st.button("Add to Tracked", key=f"btn_add_{c_id}", type="primary"):
-                                        channels.append({"name": c_name, "id": c_id})
-                                        save_channels(channels)
-                                        st.success(f"Added {c_name}!")
-                                        st.rerun()
-                            st.divider()
+                    for item in items:
+                        snippet = item["snippet"]
+                        st.session_state.search_results.append({
+                            "name": snippet["title"],
+                            "id": snippet["channelId"],
+                            "desc": snippet.get("description", "No description provided."),
+                            "thumb": snippet["thumbnails"]["default"]["url"]
+                        })
                 except Exception as e:
                     st.error(f"Error searching YouTube: {e}")
+
+    # Display Search Results from Session State
+    if st.session_state.search_results:
+        st.subheader("Search Results")
+        for item in st.session_state.search_results:
+            col1, col2, col3 = st.columns([1, 4, 1])
+            with col1:
+                try:
+                    st.image(item["thumb"], width=80)
+                except:
+                    st.write("🖼️") # Fallback for image errors
+            with col2:
+                st.markdown(f"**{item['name']}**")
+                st.caption(item['desc'][:150] + ("..." if len(item['desc'])>150 else ""))
+            with col3:
+                st.markdown("<br>", unsafe_allow_html=True)
+                if any(c.get("id") == item["id"] for c in st.session_state.channels):
+                    st.button("Tracking", disabled=True, key=f"btn_track_{item['id']}")
+                else:
+                    if st.button("Add", key=f"btn_add_{item['id']}", type="primary"):
+                        st.session_state.channels.append({"name": item["name"], "id": item["id"]})
+                        save_channels(st.session_state.channels)
+                        st.success(f"Added {item['name']}!")
+                        # Don't rerun immediately to stay in Discover tab and see other results
+                        # But we need to update state so "Add" becomes "Tracking"
+                        st.rerun()
+            st.divider()
                     
     st.divider()
     st.subheader("Recommended for You")
-    channels = load_channels()
-    if not channels:
-        st.info("Add some channels to get recommendations!")
-    else:
-        # Simple recommendation engine: search for channels similar to a random tracked one
-        import random
-        seed_channel = random.choice(channels)["name"]
-        st.write(f"*Based on your interest in **{seed_channel}***:")
-        
-        if st.button("Refresh Recommendations"):
-            pass # Streamlit will rerun and pick a new random seed
+    
+    if st.button("Refresh Recommendations") or not st.session_state.recommendations:
+        if st.session_state.channels:
+            import random
+            seed_channel = random.choice(st.session_state.channels)["name"]
+            st.session_state.recommend_seed = seed_channel
             
-        with st.spinner("Fetching recommendations..."):
-            try:
-                youtube = build("youtube", "v3", developerKey=os.getenv("YOUTUBE_API_KEY"))
-                resp = youtube.search().list(
-                    part="snippet", 
-                    type="channel", 
-                    q=f"podcasts like {seed_channel}", 
-                    maxResults=5
-                ).execute()
-                
-                items = [item for item in resp.get("items", []) if item["snippet"]["channelId"] not in [c["id"] for c in channels]]
-                
-                if not items:
-                    st.write("No new recommendations right now.")
-                else:
-                    for item in items:
+            with st.spinner(f"Fetching recommendations based on {seed_channel}..."):
+                try:
+                    youtube = build("youtube", "v3", developerKey=os.getenv("YOUTUBE_API_KEY"))
+                    resp = youtube.search().list(
+                        part="snippet", 
+                        type="channel", 
+                        q=f"podcasts like {seed_channel}", 
+                        maxResults=5
+                    ).execute()
+                    
+                    st.session_state.recommendations = []
+                    for item in resp.get("items", []):
                         snippet = item["snippet"]
-                        c_name = snippet["title"]
-                        c_id = snippet["channelId"]
-                        desc = snippet.get("description", "")
-                        thumb = snippet["thumbnails"]["default"]["url"]
-                        
-                        col1, col2, col3 = st.columns([1, 4, 1])
-                        with col1:
-                            st.image(thumb, width=80)
-                        with col2:
-                            st.markdown(f"**{c_name}**")
-                            st.caption(desc[:150] + ("..." if len(desc)>150 else ""))
-                        with col3:
-                            st.markdown("<br>", unsafe_allow_html=True)
-                            if st.button("Add", key=f"btn_rec_{c_id}", type="secondary"):
-                                channels.append({"name": c_name, "id": c_id})
-                                save_channels(channels)
-                                st.success(f"Added {c_name}!")
-                                st.rerun()
-                        st.divider()
-            except Exception as e:
-                st.error(f"Error fetching recommendations: {e}")
+                        if snippet["channelId"] not in [c["id"] for c in st.session_state.channels]:
+                            st.session_state.recommendations.append({
+                                "name": snippet["title"],
+                                "id": snippet["channelId"],
+                                "desc": snippet.get("description", ""),
+                                "thumb": snippet["thumbnails"]["default"]["url"]
+                            })
+                except Exception as e:
+                    st.error(f"Error fetching recommendations: {e}")
+        else:
+            st.info("Add some channels to get recommendations!")
+
+    if st.session_state.recommendations:
+        st.write(f"*Based on your interest in **{st.session_state.get('recommend_seed', '')}***:")
+        for item in st.session_state.recommendations:
+            col1, col2, col3 = st.columns([1, 4, 1])
+            with col1:
+                try:
+                    st.image(item["thumb"], width=80)
+                except:
+                    st.write("🖼️")
+            with col2:
+                st.markdown(f"**{item['name']}**")
+                st.caption(item['desc'][:150] + ("..." if len(item['desc'])>150 else ""))
+            with col3:
+                st.markdown("<br>", unsafe_allow_html=True)
+                if st.button("Add", key=f"btn_rec_{item['id']}", type="secondary"):
+                    st.session_state.channels.append({"name": item["name"], "id": item["id"]})
+                    save_channels(st.session_state.channels)
+                    st.success(f"Added {item['name']}!")
+                    # Filter out from recommendations list in session state
+                    st.session_state.recommendations = [r for r in st.session_state.recommendations if r['id'] != item['id']]
+                    st.rerun()
+            st.divider()
 
 # === TAB 4: Pipeline & Queue ===
 with tab4:
