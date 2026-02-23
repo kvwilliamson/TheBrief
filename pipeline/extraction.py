@@ -5,6 +5,29 @@ import logging
 
 logger = logging.getLogger(__name__)
 
+def get_ffmpeg_path():
+    """Locate the ffmpeg binary from the local static-ffmpeg package."""
+    # Check common locations in venv
+    venv_site_packages = os.path.join(os.getcwd(), "venv", "lib", "python3.9", "site-packages")
+    local_path = os.path.join(venv_site_packages, "static_ffmpeg", "bin", "darwin_arm64", "ffmpeg")
+    
+    if os.path.exists(local_path):
+        return local_path
+        
+    # Fallback to searching if venv path is different or not in cwd
+    try:
+        import static_ffmpeg
+        # static_ffmpeg doesn't have a direct "get_path" in some versions, 
+        # but we can try to find it via its module location
+        base = os.path.dirname(static_ffmpeg.__file__)
+        search_path = os.path.join(base, "bin", "darwin_arm64", "ffmpeg")
+        if os.path.exists(search_path):
+            return search_path
+    except ImportError:
+        pass
+        
+    return "ffmpeg" # Fallback to system path
+
 def extract_audio_for_video(video):
     """Extracts audio for a single video using yt-dlp."""
     video_id = video["id"]
@@ -22,11 +45,15 @@ def extract_audio_for_video(video):
         
     logger.info(f"Extracting audio for {video_id} ({video['title']})...")
     
+    ffmpeg_path = get_ffmpeg_path()
+    
     command = [
-        "yt-dlp",
+        os.path.join(os.getcwd(), "venv", "bin", "yt-dlp"), # Use venv path explicitly
         "-x",
         "--audio-format", "mp3",
         "--postprocessor-args", "-ar 16000 -ac 1",
+        "--ffmpeg-location", ffmpeg_path,
+        "--extractor-args", "youtube:player-client=ios,android",
         "-o", output_template,
         video_url
     ]
