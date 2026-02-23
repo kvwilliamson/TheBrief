@@ -59,20 +59,23 @@ def load_queue():
         return []
 
 @st.cache_data(ttl=3600)
-def is_url_valid(url):
-    """Check if an image URL is accessible via a HEAD request."""
+def get_image_bytes(url):
+    """Fetch image bytes on the backend to avoid browser console errors."""
     if not url:
-        return False
+        return None
     try:
-        response = requests.head(url, timeout=2)
-        return response.status_code == 200
+        response = requests.get(url, timeout=3)
+        if response.status_code == 200:
+            return response.content
     except:
-        return False
+        pass
+    return None
 
 def show_channel_image(url):
-    """Safely render a channel image or fallback icon."""
-    if is_url_valid(url):
-        st.image(url, width=80)
+    """Safely render a channel image by fetching bytes on the backend."""
+    img_bytes = get_image_bytes(url)
+    if img_bytes:
+        st.image(img_bytes, width=80)
     else:
         st.markdown("<div style='width:80px;height:80px;display:flex;align-items:center;justify-content:center;background:#333;border-radius:50%;font-size:30px;'>📻</div>", unsafe_allow_html=True)
 
