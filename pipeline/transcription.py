@@ -21,15 +21,41 @@ def transcribe_local(audio_path, model_size="medium"):
     return transcript
 
 def transcribe_api(audio_path):
-    """Transcribes audio using OpenAI Whisper API."""
-    logger.info("Transcribing via OpenAI Whisper API...")
-    client = openai.OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
+    """Transcribes audio using Google Gemini 1.5 Pro via File API."""
+    logger.info("Transcribing via Google Gemini 1.5 Pro...")
+    import google.generativeai as genai
+    import time
     
-    with open(audio_path, "rb") as audio_file:
-        response = client.audio.transcriptions.create(
-            model="whisper-1",
-            file=audio_file
-        )
+    genai.configure(api_key=os.getenv("GOOGLE_AI_API_KEY"))
+    
+    # Upload the file to the Gemini File API
+    logger.info(f"Uploading {audio_path} to Gemini File API...")
+    file_handle = genai.upload_file(path=audio_path, mime_type="audio/mpeg")
+    
+    # Wait for processing
+    while file_handle.state.name == "PROCESSING":
+        logger.info("Gemini is processing the audio file...")
+        time.sleep(2)
+        file_handle = genai.get_file(file_handle.name)
+        
+    if file_handle.state.name == "FAILED":
+        raise Exception(f"Gemini File API processing failed: {file_handle.state.name}")
+        
+    model = genai.GenerativeModel("gemini-2.0-flash")
+    
+    logger.info("Generating transcription with gemini-2.0-flash...")
+    response = model.generate_content([
+        "Please provide a highly accurate, verbatim transcription of this audio. "
+        "Do not summarize. Include speaker turns if detectable.",
+        file_handle
+    ])
+    
+    # Clean up the file from the File API
+    try:
+        genai.delete_file(file_handle.name)
+    except Exception as e:
+        logger.warning(f"Failed to delete file from Gemini API: {e}")
+        
     return response.text
 
 def run_transcription():

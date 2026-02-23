@@ -32,7 +32,7 @@ def get_llm():
     if model_choice == "gemini":
         try:
             return ChatGoogleGenerativeAI(
-                model="gemini-1.5-pro",
+                model="gemini-2.0-flash",
                 temperature=0.2,
                 google_api_key=os.getenv("GOOGLE_AI_API_KEY")
             )
