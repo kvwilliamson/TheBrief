@@ -37,7 +37,7 @@ def get_llm():
                 google_api_key=os.getenv("GOOGLE_AI_API_KEY")
             )
         except Exception as e:
-            print(f"Failed to initialize Gemini: {e}. Falling back to OpenAI.")
+            logger.warning(f"Failed to initialize Gemini: {e}. Falling back to OpenAI.")
             return ChatOpenAI(
                 model="gpt-4o",
                 temperature=0.2,
@@ -51,7 +51,7 @@ def get_llm():
         )
 
 def summarize_transcript(video, llm):
-    print(f"Summarizing: {video['title']}")
+    logger.info(f"Summarizing: {video['title']}")
     
     parser = JsonOutputParser(pydantic_object=BriefSchema)
     
@@ -74,10 +74,10 @@ def summarize_transcript(video, llm):
         })
         return result
     except OutputParserException as e:
-        print(f"Failed to parse LLM output for {video['title']}: {e}")
+        logger.error(f"Failed to parse LLM output for {video['title']}: {e}")
         return None
     except Exception as e:
-        print(f"Error during summarization for {video['title']}: {e}")
+        logger.error(f"Error during summarization for {video['title']}: {e}")
         return None
 
 def format_markdown(brief_json):
@@ -132,14 +132,14 @@ def format_html(brief_json):
     return html
 
 def send_email_digest(html_content, date_str):
-    print("Preparing email digest...")
+    logger.info("Preparing email digest...")
     email_to = os.getenv("EMAIL_TO")
     email_from = os.getenv("EMAIL_FROM")
     smtp_host = os.getenv("SMTP_HOST")
     smtp_password = os.getenv("SMTP_PASSWORD")
     
     if not all([email_to, email_from, smtp_host, smtp_password]):
-        print("Missing email configuration, skipping email delivery.")
+        logger.info("Missing email configuration, skipping email delivery.")
         return
         
     msg = MIMEMultipart("alternative")
@@ -157,16 +157,16 @@ def send_email_digest(html_content, date_str):
             host, port_str = smtp_host.split(":")
             port = int(port_str)
             
-        print(f"Connecting to SMTP server {host}:{port}")
+        logger.info(f"Connecting to SMTP server {host}:{port}")
         server = smtplib.SMTP(host, port)
         server.starttls()
         smtp_user = os.getenv("SMTP_USER", email_from)
         server.login(smtp_user, smtp_password)
         server.sendmail(email_from, email_to, msg.as_string())
         server.quit()
-        print("Email digest sent successfully.")
+        logger.info("Email digest sent successfully.")
     except Exception as e:
-        print(f"Failed to send email: {e}")
+        logger.error(f"Failed to send email: {e}")
 
 def run_summarization():
     queue_path = os.path.join("data", "queue.json")

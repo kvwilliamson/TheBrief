@@ -8,21 +8,21 @@ logger = logging.getLogger(__name__)
 
 def transcribe_local(audio_path, model_size="medium"):
     """Transcribes audio using local faster-whisper model."""
-    print(f"Transcribing locally with faster-whisper (model: {model_size})...")
+    logger.info(f"Transcribing locally with faster-whisper (model: {model_size})...")
     
     # device="auto" automatically uses MPS on Apple Silicon or CUDA if available
     model = WhisperModel(model_size, device="auto", compute_type="default")
     
     segments, info = model.transcribe(audio_path, language=None)
     
-    print(f"Detected language '{info.language}' with probability {info.language_probability:.2f}")
+    logger.info(f"Detected language '{info.language}' with probability {info.language_probability:.2f}")
     
     transcript = " ".join([segment.text for segment in segments])
     return transcript
 
 def transcribe_api(audio_path):
     """Transcribes audio using OpenAI Whisper API."""
-    print("Transcribing via OpenAI Whisper API...")
+    logger.info("Transcribing via OpenAI Whisper API...")
     client = openai.OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
     
     with open(audio_path, "rb") as audio_file:

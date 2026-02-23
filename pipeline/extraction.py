@@ -22,7 +22,14 @@ def extract_audio_for_video(video):
         
     logger.info(f"Extracting audio for {video_id} ({video['title']})...")
     
-    # ... (command definition)
+    command = [
+        "yt-dlp",
+        "-x",
+        "--audio-format", "mp3",
+        "--postprocessor-args", "-ar 16000 -ac 1",
+        "-o", output_template,
+        video_url
+    ]
     
     try:
         subprocess.run(command, check=True, capture_output=True)
