@@ -120,9 +120,10 @@ def run_discovery():
         print("No channels configured.")
         return []
     
-    # Threshold: 24 hours ago
-    published_after = datetime.now(timezone.utc) - timedelta(hours=24)
-    print(f"Discovering videos published after {published_after.isoformat()}")
+    # Threshold: X hours ago (default 24)
+    lookback_hours = int(os.getenv("DISCOVERY_LOOKBACK_HOURS", "24"))
+    published_after = datetime.now(timezone.utc) - timedelta(hours=lookback_hours)
+    print(f"Discovering videos published after {published_after.isoformat()} ({lookback_hours}h lookback)")
     
     all_recent_videos = []
     for channel in channels:

@@ -315,19 +315,34 @@ with tab4:
     
     with col1:
         st.header("Pipeline Execution")
-        st.markdown("The pipeline runs automatically every day at 6AM UTC via GitHub actions. You can also trigger it manually here.")
+        
+        # Lookback Period Selector
+        lookback_options = {
+            "24 Hours (Daily)": 24,
+            "48 Hours": 48,
+            "7 Days (Weekly)": 168,
+            "14 Days": 336,
+            "30 Days (Monthly)": 720
+        }
+        selected_label = st.selectbox("Discovery Lookback Period", options=list(lookback_options.keys()), index=0)
+        lookback_hours = lookback_options[selected_label]
+        
+        st.markdown(f"The pipeline will search for videos published in the last **{selected_label}**.")
         
         if st.button("▶️ Run Pipeline Now", type="primary", use_container_width=True):
             with st.status("Running TheBrief Pipeline...", expanded=True) as status:
-                st.write("Initializing...")
+                st.write(f"Initializing with {lookback_hours}h lookback...")
                 try:
-                    # Run main.py as a subprocess and capture output
-                    # Using Popen to stream output if we want, but for simplicity here we just run it blockingly
+                    # Pass the lookback override via environment variables
+                    env = os.environ.copy()
+                    env["DISCOVERY_LOOKBACK_HOURS"] = str(lookback_hours)
+                    
                     process = subprocess.Popen(
                         ["python", "main.py"],
                         stdout=subprocess.PIPE,
                         stderr=subprocess.STDOUT,
-                        text=True
+                        text=True,
+                        env=env
                     )
                     
                     # Read output line by line
@@ -348,6 +363,21 @@ with tab4:
                 except Exception as e:
                     st.error(f"Error running pipeline: {e}")
                     status.update(label="Pipeline failed.", state="error")
+        
+        # Log Viewer Section
+        st.divider()
+        st.subheader("Pipeline Logs")
+        if os.path.exists("data/pipeline.log"):
+            with open("data/pipeline.log", "r") as f:
+                logs = f.readlines()
+                # Show last 50 lines
+                st.code("".join(logs[-50:]))
+            if st.button("Clear Logs"):
+                with open("data/pipeline.log", "w") as f:
+                    pass
+                st.rerun()
+        else:
+            st.info("No logs available yet. Run the pipeline to generate logs.")
 
     with col2:
         st.header("Current Queue")
