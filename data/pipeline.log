@@ -1,0 +1,325 @@
+2026-02-23 09:19:58,056 - INFO - ==================================================
+2026-02-23 09:19:58,056 - INFO - Starting TheBrief Daily Pipeline
+2026-02-23 09:19:58,056 - INFO - ==================================================
+2026-02-23 09:19:58,056 - INFO - 
+--- Phase 1: Discovery ---
+2026-02-23 09:19:58,059 - INFO - Discovering videos published after 2026-02-22T14:19:58.059072+00:00 (24h lookback)
+2026-02-23 09:19:58,059 - INFO - Checking channel: Bald Guy Money (UCtPdiTVqTkg3t3PjQZqOaCA)
+2026-02-23 09:19:58,645 - INFO -   Found 1 recent videos.
+2026-02-23 09:19:58,645 - INFO - Checking channel: GoldSilver  (UCThv5tYUVaG4ZPA3p6EXZbQ)
+2026-02-23 09:19:58,974 - INFO -   Found 0 recent videos.
+2026-02-23 09:19:58,975 - INFO - Checking channel: Silver Dragons (UCucqfNRyBkieAop_LDUqHEg)
+2026-02-23 09:19:59,484 - INFO -   Found 0 recent videos.
+2026-02-23 09:19:59,485 - INFO - Checking channel: Rons Basement (UC7KRV9tVt7JqaSO3t6ifAsA)
+2026-02-23 09:19:59,720 - INFO -   Found 2 recent videos.
+2026-02-23 09:19:59,721 - INFO - Checking channel: Wall Street Bullion  (UCXWoMTRWJTIZwUblljo5aDQ)
+2026-02-23 09:19:59,981 - INFO -   Found 1 recent videos.
+2026-02-23 09:19:59,982 - INFO - Checking channel: Kitco NEWS (UC9ijza42jVR3T6b8bColgvg)
+2026-02-23 09:20:00,355 - INFO -   Found 0 recent videos.
+2026-02-23 09:20:00,355 - INFO - Checking channel: Yankee Stacking (UCSlo5dl8jvbmpJi-zcbqq6w)
+2026-02-23 09:20:00,647 - INFO -   Found 0 recent videos.
+2026-02-23 09:20:00,744 - INFO - Found 2 total long-form videos across all channels.
+2026-02-23 09:20:00,746 - INFO - Discovery complete. Added 2 new videos to queue.
+2026-02-23 09:20:00,747 - INFO - 
+--- Phase 2: Extraction ---
+2026-02-23 09:20:00,747 - INFO - Extracting audio for afGOiVEhUdQ (How Much Gold & Silver Can Americans Afford In 2026? The Shocking Truth!)...
+2026-02-23 09:20:08,561 - ERROR - Error extracting audio for https://www.youtube.com/watch?v=afGOiVEhUdQ: Command '['yt-dlp', '-x', '--audio-format', 'mp3', '--postprocessor-args', '-ar 16000 -ac 1', '-o', 'audio/afGOiVEhUdQ.%(ext)s', 'https://www.youtube.com/watch?v=afGOiVEhUdQ']' returned non-zero exit status 1.
+2026-02-23 09:20:08,562 - INFO - Extracting audio for pTmmnMb7_78 (🚨 This is "GAME-CHANGING" 🚨 - SILVER Stackers Best Listen Up! - (Gold Price News Update too))...
+2026-02-23 09:20:17,153 - ERROR - Error extracting audio for https://www.youtube.com/watch?v=pTmmnMb7_78: Command '['yt-dlp', '-x', '--audio-format', 'mp3', '--postprocessor-args', '-ar 16000 -ac 1', '-o', 'audio/pTmmnMb7_78.%(ext)s', 'https://www.youtube.com/watch?v=pTmmnMb7_78']' returned non-zero exit status 1.
+2026-02-23 09:20:17,154 - INFO - Extraction complete. 0 audio files ready.
+2026-02-23 09:20:17,154 - INFO - 
+--- Phase 3: Transcription ---
+2026-02-23 09:20:17,155 - INFO - Transcription complete. 0 transcripts ready.
+2026-02-23 09:20:17,155 - INFO - 
+--- Phase 4: Summarization ---
+2026-02-23 09:20:17,155 - INFO - Queue is empty, nothing to summarize.
+2026-02-23 09:20:17,155 - INFO - ==================================================
+2026-02-23 09:20:17,155 - INFO - Pipeline Execution Complete
+2026-02-23 09:20:17,155 - INFO - ==================================================
+2026-02-23 09:22:13,910 - INFO - ==================================================
+2026-02-23 09:22:13,911 - INFO - Starting TheBrief Daily Pipeline
+2026-02-23 09:22:13,911 - INFO - ==================================================
+2026-02-23 09:22:13,911 - INFO - 
+--- Phase 1: Discovery ---
+2026-02-23 09:22:13,914 - INFO - Discovering videos published after 2026-02-22T14:22:13.914435+00:00 (24h lookback)
+2026-02-23 09:22:13,914 - INFO - Checking channel: Bald Guy Money (UCtPdiTVqTkg3t3PjQZqOaCA)
+2026-02-23 09:22:14,568 - INFO -   Found 1 recent videos.
+2026-02-23 09:22:14,569 - INFO - Checking channel: GoldSilver  (UCThv5tYUVaG4ZPA3p6EXZbQ)
+2026-02-23 09:22:14,989 - INFO -   Found 0 recent videos.
+2026-02-23 09:22:14,989 - INFO - Checking channel: Silver Dragons (UCucqfNRyBkieAop_LDUqHEg)
+2026-02-23 09:22:15,307 - INFO -   Found 0 recent videos.
+2026-02-23 09:22:15,307 - INFO - Checking channel: Rons Basement (UC7KRV9tVt7JqaSO3t6ifAsA)
+2026-02-23 09:22:15,610 - INFO -   Found 2 recent videos.
+2026-02-23 09:22:15,610 - INFO - Checking channel: Wall Street Bullion  (UCXWoMTRWJTIZwUblljo5aDQ)
+2026-02-23 09:22:16,136 - INFO -   Found 1 recent videos.
+2026-02-23 09:22:16,136 - INFO - Checking channel: Kitco NEWS (UC9ijza42jVR3T6b8bColgvg)
+2026-02-23 09:22:16,520 - INFO -   Found 0 recent videos.
+2026-02-23 09:22:16,520 - INFO - Checking channel: Yankee Stacking (UCSlo5dl8jvbmpJi-zcbqq6w)
+2026-02-23 09:22:17,261 - INFO -   Found 0 recent videos.
+2026-02-23 09:22:17,389 - INFO - Found 2 total long-form videos across all channels.
+2026-02-23 09:22:17,391 - INFO - Discovery complete. Added 2 new videos to queue.
+2026-02-23 09:22:17,392 - INFO - 
+--- Phase 2: Extraction ---
+2026-02-23 09:22:17,392 - INFO - Extracting audio for afGOiVEhUdQ (How Much Gold & Silver Can Americans Afford In 2026? The Shocking Truth!)...
+2026-02-23 09:22:24,537 - ERROR - Error extracting audio for https://www.youtube.com/watch?v=afGOiVEhUdQ: Command '['/Users/Owner/Projects/Python/TheBrief/venv/bin/yt-dlp', '-x', '--audio-format', 'mp3', '--postprocessor-args', '-ar 16000 -ac 1', '--ffmpeg-location', '/Users/Owner/Projects/Python/TheBrief/venv/lib/python3.9/site-packages/static_ffmpeg/bin/darwin_arm64/ffmpeg', '-o', 'audio/afGOiVEhUdQ.%(ext)s', 'https://www.youtube.com/watch?v=afGOiVEhUdQ']' returned non-zero exit status 1.
+2026-02-23 09:22:24,539 - INFO - Extracting audio for pTmmnMb7_78 (🚨 This is "GAME-CHANGING" 🚨 - SILVER Stackers Best Listen Up! - (Gold Price News Update too))...
+2026-02-23 09:22:32,794 - ERROR - Error extracting audio for https://www.youtube.com/watch?v=pTmmnMb7_78: Command '['/Users/Owner/Projects/Python/TheBrief/venv/bin/yt-dlp', '-x', '--audio-format', 'mp3', '--postprocessor-args', '-ar 16000 -ac 1', '--ffmpeg-location', '/Users/Owner/Projects/Python/TheBrief/venv/lib/python3.9/site-packages/static_ffmpeg/bin/darwin_arm64/ffmpeg', '-o', 'audio/pTmmnMb7_78.%(ext)s', 'https://www.youtube.com/watch?v=pTmmnMb7_78']' returned non-zero exit status 1.
+2026-02-23 09:22:32,795 - INFO - Extraction complete. 0 audio files ready.
+2026-02-23 09:22:32,795 - INFO - 
+--- Phase 3: Transcription ---
+2026-02-23 09:22:32,795 - INFO - Transcription complete. 0 transcripts ready.
+2026-02-23 09:22:32,795 - INFO - 
+--- Phase 4: Summarization ---
+2026-02-23 09:22:32,796 - INFO - Queue is empty, nothing to summarize.
+2026-02-23 09:22:32,796 - INFO - ==================================================
+2026-02-23 09:22:32,796 - INFO - Pipeline Execution Complete
+2026-02-23 09:22:32,796 - INFO - ==================================================
+2026-02-23 09:23:54,387 - INFO - ==================================================
+2026-02-23 09:23:54,387 - INFO - Starting TheBrief Daily Pipeline
+2026-02-23 09:23:54,387 - INFO - ==================================================
+2026-02-23 09:23:54,388 - INFO - 
+--- Phase 1: Discovery ---
+2026-02-23 09:23:54,391 - INFO - Discovering videos published after 2026-02-22T14:23:54.391177+00:00 (24h lookback)
+2026-02-23 09:23:54,391 - INFO - Checking channel: Bald Guy Money (UCtPdiTVqTkg3t3PjQZqOaCA)
+2026-02-23 09:23:55,224 - INFO -   Found 1 recent videos.
+2026-02-23 09:23:55,225 - INFO - Checking channel: GoldSilver  (UCThv5tYUVaG4ZPA3p6EXZbQ)
+2026-02-23 09:23:55,591 - INFO -   Found 0 recent videos.
+2026-02-23 09:23:55,591 - INFO - Checking channel: Silver Dragons (UCucqfNRyBkieAop_LDUqHEg)
+2026-02-23 09:23:55,959 - INFO -   Found 0 recent videos.
+2026-02-23 09:23:55,960 - INFO - Checking channel: Rons Basement (UC7KRV9tVt7JqaSO3t6ifAsA)
+2026-02-23 09:23:56,234 - INFO -   Found 2 recent videos.
+2026-02-23 09:23:56,235 - INFO - Checking channel: Wall Street Bullion  (UCXWoMTRWJTIZwUblljo5aDQ)
+2026-02-23 09:23:56,518 - INFO -   Found 1 recent videos.
+2026-02-23 09:23:56,519 - INFO - Checking channel: Kitco NEWS (UC9ijza42jVR3T6b8bColgvg)
+2026-02-23 09:23:56,962 - INFO -   Found 0 recent videos.
+2026-02-23 09:23:56,963 - INFO - Checking channel: Yankee Stacking (UCSlo5dl8jvbmpJi-zcbqq6w)
+2026-02-23 09:23:57,590 - INFO -   Found 0 recent videos.
+2026-02-23 09:23:57,769 - INFO - Found 2 total long-form videos across all channels.
+2026-02-23 09:23:57,771 - INFO - Discovery complete. Added 2 new videos to queue.
+2026-02-23 09:23:57,771 - INFO - 
+--- Phase 2: Extraction ---
+2026-02-23 09:23:57,771 - INFO - Extracting audio for afGOiVEhUdQ (How Much Gold & Silver Can Americans Afford In 2026? The Shocking Truth!)...
+2026-02-23 09:24:57,997 - INFO - Successfully extracted: audio/afGOiVEhUdQ.mp3
+2026-02-23 09:24:57,998 - INFO - Extracting audio for pTmmnMb7_78 (🚨 This is "GAME-CHANGING" 🚨 - SILVER Stackers Best Listen Up! - (Gold Price News Update too))...
+2026-02-23 09:25:41,667 - INFO - Successfully extracted: audio/pTmmnMb7_78.mp3
+2026-02-23 09:25:41,668 - INFO - Extraction complete. 2 audio files ready.
+2026-02-23 09:25:41,668 - INFO - 
+--- Phase 3: Transcription ---
+2026-02-23 09:25:41,668 - INFO - Transcribing: How Much Gold & Silver Can Americans Afford In 2026? The Shocking Truth!
+2026-02-23 09:25:41,668 - INFO - Transcribing via OpenAI Whisper API...
+2026-02-23 09:25:47,411 - INFO - Retrying request to /audio/transcriptions in 0.385384 seconds
+2026-02-23 09:25:52,840 - INFO - Retrying request to /audio/transcriptions in 0.908429 seconds
+2026-02-23 09:25:58,808 - ERROR - Error transcribing How Much Gold & Silver Can Americans Afford In 2026? The Shocking Truth!: Request timed out.
+2026-02-23 09:25:58,811 - INFO - Transcribing: 🚨 This is "GAME-CHANGING" 🚨 - SILVER Stackers Best Listen Up! - (Gold Price News Update too)
+2026-02-23 09:25:58,811 - INFO - Transcribing via OpenAI Whisper API...
+2026-02-23 09:26:03,869 - INFO - Retrying request to /audio/transcriptions in 0.477985 seconds
+2026-02-23 09:26:09,966 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/transcriptions "HTTP/1.1 429 Too Many Requests"
+2026-02-23 09:26:09,968 - INFO - Retrying request to /audio/transcriptions in 0.914574 seconds
+2026-02-23 09:26:13,267 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/transcriptions "HTTP/1.1 429 Too Many Requests"
+2026-02-23 09:26:13,272 - ERROR - Error transcribing 🚨 This is "GAME-CHANGING" 🚨 - SILVER Stackers Best Listen Up! - (Gold Price News Update too): Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2026-02-23 09:26:13,273 - INFO - Transcription complete. 0 transcripts ready.
+2026-02-23 09:26:13,273 - INFO - 
+--- Phase 4: Summarization ---
+2026-02-23 09:26:13,273 - INFO - Queue is empty, nothing to summarize.
+2026-02-23 09:26:13,273 - INFO - ==================================================
+2026-02-23 09:26:13,273 - INFO - Pipeline Execution Complete
+2026-02-23 09:26:13,273 - INFO - ==================================================
+2026-02-23 09:27:47,807 - INFO - ==================================================
+2026-02-23 09:27:47,807 - INFO - Starting TheBrief Daily Pipeline
+2026-02-23 09:27:47,807 - INFO - ==================================================
+2026-02-23 09:27:47,808 - INFO - 
+--- Phase 1: Discovery ---
+2026-02-23 09:27:47,811 - INFO - Discovering videos published after 2026-02-22T14:27:47.811235+00:00 (24h lookback)
+2026-02-23 09:27:47,811 - INFO - Checking channel: Bald Guy Money (UCtPdiTVqTkg3t3PjQZqOaCA)
+2026-02-23 09:27:48,320 - INFO -   Found 1 recent videos.
+2026-02-23 09:27:48,320 - INFO - Checking channel: GoldSilver  (UCThv5tYUVaG4ZPA3p6EXZbQ)
+2026-02-23 09:27:48,584 - INFO -   Found 0 recent videos.
+2026-02-23 09:27:48,585 - INFO - Checking channel: Silver Dragons (UCucqfNRyBkieAop_LDUqHEg)
+2026-02-23 09:27:48,883 - INFO -   Found 0 recent videos.
+2026-02-23 09:27:48,884 - INFO - Checking channel: Rons Basement (UC7KRV9tVt7JqaSO3t6ifAsA)
+2026-02-23 09:27:49,617 - INFO -   Found 2 recent videos.
+2026-02-23 09:27:49,617 - INFO - Checking channel: Wall Street Bullion  (UCXWoMTRWJTIZwUblljo5aDQ)
+2026-02-23 09:27:49,863 - INFO -   Found 1 recent videos.
+2026-02-23 09:27:49,864 - INFO - Checking channel: Kitco NEWS (UC9ijza42jVR3T6b8bColgvg)
+2026-02-23 09:27:50,143 - INFO -   Found 0 recent videos.
+2026-02-23 09:27:50,143 - INFO - Checking channel: Yankee Stacking (UCSlo5dl8jvbmpJi-zcbqq6w)
+2026-02-23 09:27:50,409 - INFO -   Found 0 recent videos.
+2026-02-23 09:27:50,513 - INFO - Found 2 total long-form videos across all channels.
+2026-02-23 09:27:50,515 - INFO - Discovery complete. Added 2 new videos to queue.
+2026-02-23 09:27:50,515 - INFO - 
+--- Phase 2: Extraction ---
+2026-02-23 09:27:50,515 - INFO - Audio already exists for afGOiVEhUdQ, skipping extraction.
+2026-02-23 09:27:50,516 - INFO - Audio already exists for pTmmnMb7_78, skipping extraction.
+2026-02-23 09:27:50,516 - INFO - Extraction complete. 2 audio files ready.
+2026-02-23 09:27:50,516 - INFO - 
+--- Phase 3: Transcription ---
+2026-02-23 09:27:50,516 - INFO - Transcribing: How Much Gold & Silver Can Americans Afford In 2026? The Shocking Truth!
+2026-02-23 09:27:50,516 - INFO - Transcribing via Google Gemini 1.5 Pro...
+2026-02-23 09:27:50,516 - INFO - Uploading audio/afGOiVEhUdQ.mp3 to Gemini File API...
+2026-02-23 09:27:55,077 - INFO - Generating transcription...
+2026-02-23 09:27:55,523 - ERROR - Error transcribing How Much Gold & Silver Can Americans Afford In 2026? The Shocking Truth!: 404 models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-02-23 09:27:55,523 - INFO - Transcribing: 🚨 This is "GAME-CHANGING" 🚨 - SILVER Stackers Best Listen Up! - (Gold Price News Update too)
+2026-02-23 09:27:55,523 - INFO - Transcribing via Google Gemini 1.5 Pro...
+2026-02-23 09:27:55,524 - INFO - Uploading audio/pTmmnMb7_78.mp3 to Gemini File API...
+2026-02-23 09:28:00,673 - INFO - Generating transcription...
+2026-02-23 09:28:00,951 - ERROR - Error transcribing 🚨 This is "GAME-CHANGING" 🚨 - SILVER Stackers Best Listen Up! - (Gold Price News Update too): 404 models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-02-23 09:28:00,952 - INFO - Transcription complete. 0 transcripts ready.
+2026-02-23 09:28:00,953 - INFO - 
+--- Phase 4: Summarization ---
+2026-02-23 09:28:00,953 - INFO - Queue is empty, nothing to summarize.
+2026-02-23 09:28:00,953 - INFO - ==================================================
+2026-02-23 09:28:00,953 - INFO - Pipeline Execution Complete
+2026-02-23 09:28:00,953 - INFO - ==================================================
+2026-02-23 09:28:33,506 - INFO - ==================================================
+2026-02-23 09:28:33,506 - INFO - Starting TheBrief Daily Pipeline
+2026-02-23 09:28:33,506 - INFO - ==================================================
+2026-02-23 09:28:33,507 - INFO - 
+--- Phase 1: Discovery ---
+2026-02-23 09:28:33,509 - INFO - Discovering videos published after 2026-02-22T14:28:33.509988+00:00 (24h lookback)
+2026-02-23 09:28:33,510 - INFO - Checking channel: Bald Guy Money (UCtPdiTVqTkg3t3PjQZqOaCA)
+2026-02-23 09:28:34,081 - INFO -   Found 1 recent videos.
+2026-02-23 09:28:34,082 - INFO - Checking channel: GoldSilver  (UCThv5tYUVaG4ZPA3p6EXZbQ)
+2026-02-23 09:28:34,380 - INFO -   Found 0 recent videos.
+2026-02-23 09:28:34,380 - INFO - Checking channel: Silver Dragons (UCucqfNRyBkieAop_LDUqHEg)
+2026-02-23 09:28:35,246 - INFO -   Found 0 recent videos.
+2026-02-23 09:28:35,247 - INFO - Checking channel: Rons Basement (UC7KRV9tVt7JqaSO3t6ifAsA)
+2026-02-23 09:28:35,512 - INFO -   Found 2 recent videos.
+2026-02-23 09:28:35,512 - INFO - Checking channel: Wall Street Bullion  (UCXWoMTRWJTIZwUblljo5aDQ)
+2026-02-23 09:28:35,768 - INFO -   Found 1 recent videos.
+2026-02-23 09:28:35,768 - INFO - Checking channel: Kitco NEWS (UC9ijza42jVR3T6b8bColgvg)
+2026-02-23 09:28:36,111 - INFO -   Found 0 recent videos.
+2026-02-23 09:28:36,111 - INFO - Checking channel: Yankee Stacking (UCSlo5dl8jvbmpJi-zcbqq6w)
+2026-02-23 09:28:36,478 - INFO -   Found 0 recent videos.
+2026-02-23 09:28:36,672 - INFO - Found 2 total long-form videos across all channels.
+2026-02-23 09:28:36,674 - INFO - Discovery complete. Added 2 new videos to queue.
+2026-02-23 09:28:36,675 - INFO - 
+--- Phase 2: Extraction ---
+2026-02-23 09:28:36,675 - INFO - Audio already exists for afGOiVEhUdQ, skipping extraction.
+2026-02-23 09:28:36,675 - INFO - Audio already exists for pTmmnMb7_78, skipping extraction.
+2026-02-23 09:28:36,675 - INFO - Extraction complete. 2 audio files ready.
+2026-02-23 09:28:36,676 - INFO - 
+--- Phase 3: Transcription ---
+2026-02-23 09:28:36,676 - INFO - Transcribing: How Much Gold & Silver Can Americans Afford In 2026? The Shocking Truth!
+2026-02-23 09:28:36,676 - INFO - Transcribing via Google Gemini 1.5 Pro...
+2026-02-23 09:28:36,676 - INFO - Uploading audio/afGOiVEhUdQ.mp3 to Gemini File API...
+2026-02-23 09:28:41,043 - INFO - Generating transcription with gemini-1.5-flash...
+2026-02-23 09:28:41,287 - ERROR - Error transcribing How Much Gold & Silver Can Americans Afford In 2026? The Shocking Truth!: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-02-23 09:28:41,287 - INFO - Transcribing: 🚨 This is "GAME-CHANGING" 🚨 - SILVER Stackers Best Listen Up! - (Gold Price News Update too)
+2026-02-23 09:28:41,288 - INFO - Transcribing via Google Gemini 1.5 Pro...
+2026-02-23 09:28:41,288 - INFO - Uploading audio/pTmmnMb7_78.mp3 to Gemini File API...
+2026-02-23 09:28:45,912 - INFO - Generating transcription with gemini-1.5-flash...
+2026-02-23 09:28:46,208 - ERROR - Error transcribing 🚨 This is "GAME-CHANGING" 🚨 - SILVER Stackers Best Listen Up! - (Gold Price News Update too): 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-02-23 09:28:46,209 - INFO - Transcription complete. 0 transcripts ready.
+2026-02-23 09:28:46,209 - INFO - 
+--- Phase 4: Summarization ---
+2026-02-23 09:28:46,209 - INFO - Queue is empty, nothing to summarize.
+2026-02-23 09:28:46,209 - INFO - ==================================================
+2026-02-23 09:28:46,209 - INFO - Pipeline Execution Complete
+2026-02-23 09:28:46,209 - INFO - ==================================================
+2026-02-23 09:29:21,839 - INFO - ==================================================
+2026-02-23 09:29:21,839 - INFO - Starting TheBrief Daily Pipeline
+2026-02-23 09:29:21,839 - INFO - ==================================================
+2026-02-23 09:29:21,840 - INFO - 
+--- Phase 1: Discovery ---
+2026-02-23 09:29:21,843 - INFO - Discovering videos published after 2026-02-22T14:29:21.843086+00:00 (24h lookback)
+2026-02-23 09:29:21,843 - INFO - Checking channel: Bald Guy Money (UCtPdiTVqTkg3t3PjQZqOaCA)
+2026-02-23 09:29:22,326 - INFO -   Found 1 recent videos.
+2026-02-23 09:29:22,326 - INFO - Checking channel: GoldSilver  (UCThv5tYUVaG4ZPA3p6EXZbQ)
+2026-02-23 09:29:22,572 - INFO -   Found 0 recent videos.
+2026-02-23 09:29:22,572 - INFO - Checking channel: Silver Dragons (UCucqfNRyBkieAop_LDUqHEg)
+2026-02-23 09:29:22,893 - INFO -   Found 0 recent videos.
+2026-02-23 09:29:22,893 - INFO - Checking channel: Rons Basement (UC7KRV9tVt7JqaSO3t6ifAsA)
+2026-02-23 09:29:23,214 - INFO -   Found 2 recent videos.
+2026-02-23 09:29:23,214 - INFO - Checking channel: Wall Street Bullion  (UCXWoMTRWJTIZwUblljo5aDQ)
+2026-02-23 09:29:23,432 - INFO -   Found 1 recent videos.
+2026-02-23 09:29:23,432 - INFO - Checking channel: Kitco NEWS (UC9ijza42jVR3T6b8bColgvg)
+2026-02-23 09:29:23,828 - INFO -   Found 0 recent videos.
+2026-02-23 09:29:23,829 - INFO - Checking channel: Yankee Stacking (UCSlo5dl8jvbmpJi-zcbqq6w)
+2026-02-23 09:29:24,226 - INFO -   Found 0 recent videos.
+2026-02-23 09:29:24,408 - INFO - Found 2 total long-form videos across all channels.
+2026-02-23 09:29:24,410 - INFO - Discovery complete. Added 2 new videos to queue.
+2026-02-23 09:29:24,410 - INFO - 
+--- Phase 2: Extraction ---
+2026-02-23 09:29:24,411 - INFO - Audio already exists for afGOiVEhUdQ, skipping extraction.
+2026-02-23 09:29:24,411 - INFO - Audio already exists for pTmmnMb7_78, skipping extraction.
+2026-02-23 09:29:24,411 - INFO - Extraction complete. 2 audio files ready.
+2026-02-23 09:29:24,411 - INFO - 
+--- Phase 3: Transcription ---
+2026-02-23 09:29:24,411 - INFO - Transcribing: How Much Gold & Silver Can Americans Afford In 2026? The Shocking Truth!
+2026-02-23 09:29:24,411 - INFO - Transcribing via Google Gemini 1.5 Pro...
+2026-02-23 09:29:24,411 - INFO - Uploading audio/afGOiVEhUdQ.mp3 to Gemini File API...
+2026-02-23 09:29:28,090 - INFO - Generating transcription with gemini-2.0-flash...
+2026-02-23 09:29:51,894 - INFO - Deleted temp audio file: audio/afGOiVEhUdQ.mp3
+2026-02-23 09:29:51,895 - INFO - Transcribing: 🚨 This is "GAME-CHANGING" 🚨 - SILVER Stackers Best Listen Up! - (Gold Price News Update too)
+2026-02-23 09:29:51,895 - INFO - Transcribing via Google Gemini 1.5 Pro...
+2026-02-23 09:29:51,895 - INFO - Uploading audio/pTmmnMb7_78.mp3 to Gemini File API...
+2026-02-23 09:29:56,463 - INFO - Generating transcription with gemini-2.0-flash...
+2026-02-23 09:31:05,686 - INFO - Deleted temp audio file: audio/pTmmnMb7_78.mp3
+2026-02-23 09:31:05,689 - INFO - Transcription complete. 2 transcripts ready.
+2026-02-23 09:31:05,689 - INFO - 
+--- Phase 4: Summarization ---
+2026-02-23 09:31:05,719 - INFO - Summarizing: How Much Gold & Silver Can Americans Afford In 2026? The Shocking Truth!
+2026-02-23 09:31:06,094 - WARNING - Retrying langchain_google_genai.chat_models._chat_with_retry.<locals>._chat_with_retry in 2.0 seconds as it raised NotFound: 404 models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods..
+2026-02-23 09:31:08,269 - ERROR - Error during summarization for How Much Gold & Silver Can Americans Afford In 2026? The Shocking Truth!: 404 models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-02-23 09:31:08,270 - INFO - Summarizing: 🚨 This is "GAME-CHANGING" 🚨 - SILVER Stackers Best Listen Up! - (Gold Price News Update too)
+2026-02-23 09:31:08,409 - WARNING - Retrying langchain_google_genai.chat_models._chat_with_retry.<locals>._chat_with_retry in 2.0 seconds as it raised NotFound: 404 models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods..
+2026-02-23 09:31:10,566 - ERROR - Error during summarization for 🚨 This is "GAME-CHANGING" 🚨 - SILVER Stackers Best Listen Up! - (Gold Price News Update too): 404 models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-02-23 09:31:10,566 - INFO - Summarization complete. 0 briefs written to briefs/2026-02-23.md
+2026-02-23 09:31:10,567 - INFO - Queue cleared.
+2026-02-23 09:31:10,567 - INFO - ==================================================
+2026-02-23 09:31:10,567 - INFO - Pipeline Execution Complete
+2026-02-23 09:31:10,567 - INFO - ==================================================
+2026-02-23 09:31:30,364 - INFO - ==================================================
+2026-02-23 09:31:30,364 - INFO - Starting TheBrief Daily Pipeline
+2026-02-23 09:31:30,364 - INFO - ==================================================
+2026-02-23 09:31:30,364 - INFO - 
+--- Phase 1: Discovery ---
+2026-02-23 09:31:30,367 - INFO - Discovering videos published after 2026-02-22T14:31:30.367840+00:00 (24h lookback)
+2026-02-23 09:31:30,367 - INFO - Checking channel: Bald Guy Money (UCtPdiTVqTkg3t3PjQZqOaCA)
+2026-02-23 09:31:30,924 - INFO -   Found 1 recent videos.
+2026-02-23 09:31:30,925 - INFO - Checking channel: GoldSilver  (UCThv5tYUVaG4ZPA3p6EXZbQ)
+2026-02-23 09:31:31,166 - INFO -   Found 0 recent videos.
+2026-02-23 09:31:31,166 - INFO - Checking channel: Silver Dragons (UCucqfNRyBkieAop_LDUqHEg)
+2026-02-23 09:31:31,435 - INFO -   Found 0 recent videos.
+2026-02-23 09:31:31,435 - INFO - Checking channel: Rons Basement (UC7KRV9tVt7JqaSO3t6ifAsA)
+2026-02-23 09:31:32,130 - INFO -   Found 2 recent videos.
+2026-02-23 09:31:32,130 - INFO - Checking channel: Wall Street Bullion  (UCXWoMTRWJTIZwUblljo5aDQ)
+2026-02-23 09:31:32,336 - INFO -   Found 1 recent videos.
+2026-02-23 09:31:32,336 - INFO - Checking channel: Kitco NEWS (UC9ijza42jVR3T6b8bColgvg)
+2026-02-23 09:31:33,354 - INFO -   Found 0 recent videos.
+2026-02-23 09:31:33,354 - INFO - Checking channel: Yankee Stacking (UCSlo5dl8jvbmpJi-zcbqq6w)
+2026-02-23 09:31:33,628 - INFO -   Found 0 recent videos.
+2026-02-23 09:31:33,722 - INFO - Found 2 total long-form videos across all channels.
+2026-02-23 09:31:33,724 - INFO - Discovery complete. Added 2 new videos to queue.
+2026-02-23 09:31:33,724 - INFO - 
+--- Phase 2: Extraction ---
+2026-02-23 09:31:33,725 - INFO - Extracting audio for afGOiVEhUdQ (How Much Gold & Silver Can Americans Afford In 2026? The Shocking Truth!)...
+2026-02-23 09:31:46,648 - INFO - Successfully extracted: audio/afGOiVEhUdQ.mp3
+2026-02-23 09:31:46,648 - INFO - Extracting audio for pTmmnMb7_78 (🚨 This is "GAME-CHANGING" 🚨 - SILVER Stackers Best Listen Up! - (Gold Price News Update too))...
+2026-02-23 09:32:02,400 - INFO - Successfully extracted: audio/pTmmnMb7_78.mp3
+2026-02-23 09:32:02,400 - INFO - Extraction complete. 2 audio files ready.
+2026-02-23 09:32:02,400 - INFO - 
+--- Phase 3: Transcription ---
+2026-02-23 09:32:02,400 - INFO - Transcribing: How Much Gold & Silver Can Americans Afford In 2026? The Shocking Truth!
+2026-02-23 09:32:02,400 - INFO - Transcribing via Google Gemini 1.5 Pro...
+2026-02-23 09:32:02,400 - INFO - Uploading audio/afGOiVEhUdQ.mp3 to Gemini File API...
+2026-02-23 09:32:06,332 - INFO - Generating transcription with gemini-2.0-flash...
+2026-02-23 09:32:42,277 - INFO - Deleted temp audio file: audio/afGOiVEhUdQ.mp3
+2026-02-23 09:32:42,277 - INFO - Transcribing: 🚨 This is "GAME-CHANGING" 🚨 - SILVER Stackers Best Listen Up! - (Gold Price News Update too)
+2026-02-23 09:32:42,278 - INFO - Transcribing via Google Gemini 1.5 Pro...
+2026-02-23 09:32:42,279 - INFO - Uploading audio/pTmmnMb7_78.mp3 to Gemini File API...
+2026-02-23 09:32:46,577 - INFO - Generating transcription with gemini-2.0-flash...
+2026-02-23 09:33:39,389 - INFO - Deleted temp audio file: audio/pTmmnMb7_78.mp3
+2026-02-23 09:33:39,391 - INFO - Transcription complete. 2 transcripts ready.
+2026-02-23 09:33:39,391 - INFO - 
+--- Phase 4: Summarization ---
+2026-02-23 09:33:39,416 - INFO - Summarizing: How Much Gold & Silver Can Americans Afford In 2026? The Shocking Truth!
+2026-02-23 09:33:43,703 - INFO - Summarizing: 🚨 This is "GAME-CHANGING" 🚨 - SILVER Stackers Best Listen Up! - (Gold Price News Update too)
+2026-02-23 09:33:47,483 - INFO - Summarization complete. 2 briefs written to briefs/2026-02-23.md
+2026-02-23 09:33:47,484 - INFO - Preparing email digest...
+2026-02-23 09:33:47,484 - INFO - Connecting to SMTP server smtp.gmail.com:587
+2026-02-23 09:33:49,645 - INFO - Email digest sent successfully.
+2026-02-23 09:33:49,647 - INFO - Queue cleared.
+2026-02-23 09:33:49,647 - INFO - ==================================================
+2026-02-23 09:33:49,647 - INFO - Pipeline Execution Complete
+2026-02-23 09:33:49,647 - INFO - ==================================================

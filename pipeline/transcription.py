@@ -2,7 +2,7 @@ import os
 import json
 import logging
 from faster_whisper import WhisperModel
-import openai
+from faster_whisper import WhisperModel
 
 logger = logging.getLogger(__name__)
 
