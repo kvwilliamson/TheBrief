@@ -4,11 +4,6 @@ import logging
 from datetime import datetime
 from dotenv import load_dotenv
 
-from pipeline.discovery import run_discovery
-from pipeline.extraction import run_extraction
-from pipeline.transcription import run_transcription
-from pipeline.summarization import run_summarization
-
 # Global Logging Setup
 os.makedirs("data", exist_ok=True)
 log_file = os.path.join("data", "pipeline.log")
@@ -21,6 +16,12 @@ logging.basicConfig(
         logging.StreamHandler(sys.stdout)
     ]
 )
+
+# Imports must happen AFTER root logger is configured
+from pipeline.discovery import run_discovery
+from pipeline.extraction import run_extraction
+from pipeline.transcription import run_transcription
+from pipeline.summarization import run_summarization
 
 def main():
     logging.info("="*50)

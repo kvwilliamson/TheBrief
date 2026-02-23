@@ -372,10 +372,21 @@ with tab4:
                 logs = f.readlines()
                 # Show last 50 lines
                 st.code("".join(logs[-50:]))
-            if st.button("Clear Logs"):
-                with open("data/pipeline.log", "w") as f:
-                    pass
-                st.rerun()
+            
+            c1, c2 = st.columns(2)
+            with c1:
+                if st.button("Clear Logs", use_container_width=True):
+                    with open("data/pipeline.log", "w") as f:
+                        pass
+                    st.rerun()
+            with c2:
+                if st.button("🔄 Reset Discovery History", help="Clears the database of already processed videos, allowing them to be found again.", use_container_width=True):
+                    db_path = os.path.join("data", "processed_videos.json")
+                    if os.path.exists(db_path):
+                        with open(db_path, "w") as f:
+                            f.write("")
+                    st.success("History cleared! Next run will find all recent videos again.")
+                    st.rerun()
         else:
             st.info("No logs available yet. Run the pipeline to generate logs.")
 

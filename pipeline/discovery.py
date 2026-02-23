@@ -17,7 +17,7 @@ def get_recent_videos(youtube, channel_id, published_after):
         ).execute()
         
         if not channels_response.get("items"):
-            print(f"Channel not found: {channel_id}")
+            logger.warning(f"Channel not found: {channel_id}")
             return []
             
         uploads_playlist_id = channels_response["items"][0]["contentDetails"]["relatedPlaylists"]["uploads"]
@@ -62,7 +62,7 @@ def get_recent_videos(youtube, channel_id, published_after):
                 
         return videos
     except Exception as e:
-        print(f"Error fetching for channel {channel_id}: {e}")
+        logger.error(f"Error fetching for channel {channel_id}: {e}")
         return []
 
 def filter_long_form(youtube, videos):
@@ -96,9 +96,9 @@ def filter_long_form(youtube, videos):
                         original_video["url"] = f"https://www.youtube.com/watch?v={item['id']}"
                         long_videos.append(original_video)
                 except Exception as e:
-                    print(f"Error parsing duration {duration_iso} for video {item['id']}: {e}")
+                    logger.error(f"Error parsing duration {duration_iso} for video {item['id']}: {e}")
         except Exception as e:
-            print(f"Error fetching details for batch: {e}")
+            logger.error(f"Error fetching details for batch: {e}")
             
     return long_videos
 
