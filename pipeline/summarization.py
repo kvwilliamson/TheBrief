@@ -151,9 +151,9 @@ def summarize_transcript(video, llm):
         return None
 
 def format_markdown(brief: dict) -> str:
-    md = f"## {brief.get('channel', 'Unknown')} - {brief.get('episode_title', 'Unknown Title')}\n"
+    md = f"## {brief.get('episode_title', 'Unknown Title')} "
+    md += f"*(Channel: {brief.get('channel', 'Unknown')} | Length: {brief.get('duration_minutes', 0)} min)*\n\n"
     md += f"**Topic Domain:** {brief.get('topic_domain', 'Unknown')}\n"
-    md += f"**Runtime:** {brief.get('duration_minutes', 0)} min\n"
     md += f"**Central Thesis:** {brief.get('central_thesis', 'Unknown')}\n\n"
 
     sig = brief.get('signal_snapshot', {})
@@ -227,9 +227,9 @@ def format_markdown(brief: dict) -> str:
     return md
 
 def format_html(brief: dict) -> str:
-    html = f"<h2>{brief.get('channel', 'Unknown')} - {brief.get('episode_title', 'Unknown Title')}</h2>"
+    html = f"<h2>{brief.get('episode_title', 'Unknown Title')}</h2>"
+    html += f"<p><em>(Channel: {brief.get('channel', 'Unknown')} | Length: {brief.get('duration_minutes', 0)} min)</em></p>"
     html += f"<p><strong>Topic Domain:</strong> {brief.get('topic_domain', 'Unknown')}<br/>"
-    html += f"<strong>Runtime:</strong> {brief.get('duration_minutes', 0)} min<br/>"
     html += f"<strong>Central Thesis:</strong> {brief.get('central_thesis', 'Unknown')}</p>"
 
     sig = brief.get('signal_snapshot', {})
