@@ -156,15 +156,6 @@ def format_markdown(brief: dict) -> str:
     md += f"**Topic Domain:** {brief.get('topic_domain', 'Unknown')}\n"
     md += f"**Central Thesis:** {brief.get('central_thesis', 'Unknown')}\n\n"
 
-    sig = brief.get('signal_snapshot', {})
-    md += "### 🎯 SIGNAL SNAPSHOT\n"
-    md += "| Metric | Score | Interpretation |\n|---|---|---|\n"
-    md += f"| Evidence Strength | {sig.get('evidence_strength')} | |\n"
-    md += f"| Analytical Depth | {sig.get('analytical_depth')} | |\n"
-    md += f"| Narrative Pressure | {sig.get('narrative_pressure')} | |\n"
-    md += f"| Speculation Load | {sig.get('speculation_load')} | |\n"
-    md += f"| Novelty Level | {sig.get('novelty_level')} | |\n"
-    md += f"| Incentive Alignment | {sig.get('incentive_alignment')} | |\n\n"
 
     real = brief.get('reality_layer', {})
     md += "### 📊 WHAT WAS SAID (Reality Layer)\n"
@@ -191,17 +182,6 @@ def format_markdown(brief: dict) -> str:
             md += f"| {c.get('cause')} | {c.get('mechanism')} | {c.get('outcome')} | {c.get('mechanism_clarity_score')} |\n"
         md += "\n"
 
-    narr = brief.get('narrative_profile', {})
-    sub = narr.get('subscores', {})
-    md += "### 🎭 NARRATIVE PROFILE (Decomposed)\n"
-    md += "| Dimension | Intensity (0-10) |\n|---|---|\n"
-    md += f"| Emotional Amplification | {sub.get('emotional_amplification')} |\n"
-    md += f"| Certainty Overreach | {sub.get('certainty_overreach')} |\n"
-    md += f"| Catastrophic Framing | {sub.get('catastrophic_framing')} |\n"
-    md += f"| Tribal Framing | {sub.get('tribal_framing')} |\n"
-    md += f"| Institutional Distrust | {sub.get('institutional_distrust')} |\n"
-    md += f"| Sensationalism | {sub.get('sensationalism')} |\n\n"
-    md += f"**Summary:** {narr.get('summary')}\n\n"
 
     inc = brief.get('incentive_vector', {})
     md += "### 💰 INCENTIVE VECTOR\n"
@@ -232,15 +212,6 @@ def format_html(brief: dict) -> str:
     html += f"<p><strong>Topic Domain:</strong> {brief.get('topic_domain', 'Unknown')}<br/>"
     html += f"<strong>Central Thesis:</strong> {brief.get('central_thesis', 'Unknown')}</p>"
 
-    sig = brief.get('signal_snapshot', {})
-    html += "<h3>🎯 SIGNAL SNAPSHOT</h3>"
-    html += "<table border='1'><tr><th>Metric</th><th>Score</th><th>Interpretation</th></tr>"
-    html += f"<tr><td>Evidence Strength</td><td>{sig.get('evidence_strength')}</td><td></td></tr>"
-    html += f"<tr><td>Analytical Depth</td><td>{sig.get('analytical_depth')}</td><td></td></tr>"
-    html += f"<tr><td>Narrative Pressure</td><td>{sig.get('narrative_pressure')}</td><td></td></tr>"
-    html += f"<tr><td>Speculation Load</td><td>{sig.get('speculation_load')}</td><td></td></tr>"
-    html += f"<tr><td>Novelty Level</td><td>{sig.get('novelty_level')}</td><td></td></tr>"
-    html += f"<tr><td>Incentive Alignment</td><td>{sig.get('incentive_alignment')}</td><td></td></tr></table>"
 
     real = brief.get('reality_layer', {})
     html += "<h3>📊 WHAT WAS SAID (Reality Layer)</h3><ul>"
@@ -267,17 +238,6 @@ def format_html(brief: dict) -> str:
             html += f"<tr><td>{c.get('cause')}</td><td>{c.get('mechanism')}</td><td>{c.get('outcome')}</td><td>{c.get('mechanism_clarity_score')}</td></tr>"
         html += "</table>"
 
-    narr = brief.get('narrative_profile', {})
-    sub = narr.get('subscores', {})
-    html += "<h3>🎭 NARRATIVE PROFILE (Decomposed)</h3>"
-    html += "<table border='1'><tr><th>Dimension</th><th>Intensity (0-10)</th></tr>"
-    html += f"<tr><td>Emotional Amplification</td><td>{sub.get('emotional_amplification')}</td></tr>"
-    html += f"<tr><td>Certainty Overreach</td><td>{sub.get('certainty_overreach')}</td></tr>"
-    html += f"<tr><td>Catastrophic Framing</td><td>{sub.get('catastrophic_framing')}</td></tr>"
-    html += f"<tr><td>Tribal Framing</td><td>{sub.get('tribal_framing')}</td></tr>"
-    html += f"<tr><td>Institutional Distrust</td><td>{sub.get('institutional_distrust')}</td></tr>"
-    html += f"<tr><td>Sensationalism</td><td>{sub.get('sensationalism')}</td></tr></table>"
-    html += f"<p><strong>Summary:</strong> {narr.get('summary')}</p>"
 
     inc = brief.get('incentive_vector', {})
     html += "<h3>💰 INCENTIVE VECTOR</h3><ul>"
