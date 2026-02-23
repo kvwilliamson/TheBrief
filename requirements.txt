@@ -1,0 +1,10 @@
+google-api-python-client
+yt-dlp
+faster-whisper
+openai
+google-generativeai
+langchain
+langchain-google-genai
+langchain-openai
+tinydb
+isodate

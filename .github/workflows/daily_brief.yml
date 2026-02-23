@@ -1,0 +1,39 @@
+name: TheBrief Daily Pipeline
+on:
+  schedule:
+    - cron: '0 6 * * *'  # Run every day at 6:00 AM UTC
+  workflow_dispatch:     # Allow manual trigger from GitHub UI
+
+jobs:
+  run-pipeline:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          # yt-dlp needs ffmpeg
+          sudo apt-get update && sudo apt-get install -y ffmpeg
+          pip install -r requirements.txt
+          
+      - name: Run pipeline
+        run: python main.py
+        env:
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          GOOGLE_AI_API_KEY: ${{ secrets.GOOGLE_AI_API_KEY }}
+          
+      - name: Commit artifacts (Data db and Briefs)
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add data/processed_videos.json briefs/
+          # Only commit if there are changes
+          git diff --quiet && git diff --staged --quiet || git commit -m "chore: Daily run updates [skip ci]"
+          git push
