@@ -1,5 +1,6 @@
 import os
 import json
+import logging
 from datetime import datetime
 import smtplib
 from email.mime.text import MIMEText
@@ -11,6 +12,8 @@ from langchain_openai import ChatOpenAI
 from langchain_core.exceptions import OutputParserException
 from pydantic import BaseModel, Field
 from typing import List
+
+logger = logging.getLogger(__name__)
 
 # Define the expected Pydantic schema
 class BriefSchema(BaseModel):
@@ -168,14 +171,14 @@ def send_email_digest(html_content, date_str):
 def run_summarization():
     queue_path = os.path.join("data", "queue.json")
     if not os.path.exists(queue_path):
-        print("No queue found. Run transcription first.")
+        logger.error("No queue found. Run transcription first.")
         return
         
     with open(queue_path, "r") as f:
         queue = json.load(f)
         
     if not queue:
-        print("Queue is empty, nothing to summarize.")
+        logger.info("Queue is empty, nothing to summarize.")
         return
         
     llm = get_llm()
@@ -206,9 +209,9 @@ def run_summarization():
                     db = TinyDB(db_path)
                     db.insert({"id": video["id"], "title": video["title"], "processed_at": datetime.now().isoformat()})
                 except Exception as e:
-                    print(f"Note: Error updating processed_videos db: {e}")
+                    logger.warning(f"Note: Error updating processed_videos db: {e}")
                     
-    print(f"Summarization complete. {briefs_generated} briefs written to {md_file_path}")
+    logger.info(f"Summarization complete. {briefs_generated} briefs written to {md_file_path}")
     
     send_email = str(os.getenv("SEND_EMAIL", "false")).lower() == "true"
     if send_email and briefs_generated > 0:
@@ -217,7 +220,7 @@ def run_summarization():
     # Clear queue after successful processing
     with open(queue_path, "w") as f:
         json.dump([], f)
-    print("Queue cleared.")
+    logger.info("Queue cleared.")
 
 if __name__ == "__main__":
     from dotenv import load_dotenv

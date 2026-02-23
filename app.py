@@ -387,6 +387,11 @@ with tab4:
             st.info("Queue is empty. No unprocessed videos discovered.")
         else:
             st.warning(f"There are {len(queue)} videos in the queue.")
+            if st.button("🗑️ Clear Queue", use_container_width=True):
+                with open("data/queue.json", "w") as f:
+                    json.dump([], f)
+                st.rerun()
+                
             for i, video in enumerate(queue):
                 with st.expander(f"📺 {video.get('title', 'Unknown')}", expanded=(i==0)):
                     st.markdown(f"**Channel:** {video.get('channel', 'Unknown')}")

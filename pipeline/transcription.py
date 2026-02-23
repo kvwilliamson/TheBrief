@@ -1,7 +1,10 @@
 import os
 import json
+import logging
 from faster_whisper import WhisperModel
 import openai
+
+logger = logging.getLogger(__name__)
 
 def transcribe_local(audio_path, model_size="medium"):
     """Transcribes audio using local faster-whisper model."""
@@ -32,7 +35,7 @@ def transcribe_api(audio_path):
 def run_transcription():
     queue_path = os.path.join("data", "queue.json")
     if not os.path.exists(queue_path):
-        print("No queue found. Run extraction first.")
+        logger.error("No queue found. Run extraction first.")
         return []
         
     with open(queue_path, "r") as f:
@@ -46,10 +49,10 @@ def run_transcription():
     for video in queue:
         audio_path = video.get("audio_path")
         if not audio_path or not os.path.exists(audio_path):
-            print(f"Audio file missing for '{video.get('title')}', skipping transcription.")
+            logger.warning(f"Audio file missing for '{video.get('title')}', skipping transcription.")
             continue
             
-        print(f"Transcribing: {video['title']}")
+        logger.info(f"Transcribing: {video['title']}")
         
         try:
             if mode == "local":
@@ -63,18 +66,18 @@ def run_transcription():
             # Delete audio file to conserve disk space per spec
             try:
                 os.remove(audio_path)
-                print(f"Deleted temp audio file: {audio_path}")
+                logger.info(f"Deleted temp audio file: {audio_path}")
             except OSError as e:
-                print(f"Error deleting {audio_path}: {e}")
+                logger.error(f"Error deleting {audio_path}: {e}")
                 
         except Exception as e:
-            print(f"Error transcribing {video['title']}: {e}")
+            logger.error(f"Error transcribing {video['title']}: {e}")
             
     # Update queue with transcript texts
     with open(queue_path, "w") as f:
         json.dump(processed_queue, f, indent=2)
         
-    print(f"Transcription complete. {len(processed_queue)} transcripts ready.")
+    logger.info(f"Transcription complete. {len(processed_queue)} transcripts ready.")
     return processed_queue
 
 if __name__ == "__main__":

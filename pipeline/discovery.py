@@ -1,9 +1,12 @@
 import os
 import json
+import logging
 from datetime import datetime, timedelta, timezone
 from googleapiclient.discovery import build
 import isodate
 from tinydb import TinyDB, Query
+
+logger = logging.getLogger(__name__)
 
 def get_recent_videos(youtube, channel_id, published_after):
     """Fetch videos from a channel published after a certain date."""
@@ -102,14 +105,14 @@ def filter_long_form(youtube, videos):
 def run_discovery():
     api_key = os.getenv("YOUTUBE_API_KEY")
     if not api_key:
-        print("Warning: YOUTUBE_API_KEY not found in environment.")
+        logger.warning("YOUTUBE_API_KEY not found in environment.")
         return []
         
-    youtube = build("youtube", "v3", developerKey=api_key)
+    youtube = build("youtube", "v3", developerKey=api_key, cache_discovery=False)
     
     channels_file = "channels.json"
     if not os.path.exists(channels_file):
-        print(f"Error: {channels_file} not found.")
+        logger.error(f"{channels_file} not found.")
         return []
         
     with open(channels_file, "r") as f:
@@ -117,24 +120,24 @@ def run_discovery():
         
     channels = channels_data.get("channels", [])
     if not channels:
-        print("No channels configured.")
+        logger.info("No channels configured.")
         return []
     
     # Threshold: X hours ago (default 24)
     lookback_hours = int(os.getenv("DISCOVERY_LOOKBACK_HOURS", "24"))
     published_after = datetime.now(timezone.utc) - timedelta(hours=lookback_hours)
-    print(f"Discovering videos published after {published_after.isoformat()} ({lookback_hours}h lookback)")
+    logger.info(f"Discovering videos published after {published_after.isoformat()} ({lookback_hours}h lookback)")
     
     all_recent_videos = []
     for channel in channels:
-        print(f"Checking channel: {channel['name']} ({channel['id']})")
+        logger.info(f"Checking channel: {channel['name']} ({channel['id']})")
         recent = get_recent_videos(youtube, channel["id"], published_after)
-        print(f"  Found {len(recent)} recent videos.")
+        logger.info(f"  Found {len(recent)} recent videos.")
         all_recent_videos.extend(recent)
         
     # Filter by duration > 20 mins
     long_videos = filter_long_form(youtube, all_recent_videos)
-    print(f"Found {len(long_videos)} total long-form videos across all channels.")
+    logger.info(f"Found {len(long_videos)} total long-form videos across all channels.")
     
     # Deduplicate against processed videos
     os.makedirs("data", exist_ok=True)
@@ -147,14 +150,14 @@ def run_discovery():
         if not db.contains(Video.id == video["id"]):
             queue.append(video)
         else:
-            print(f"Skipping previously processed video: {video['title']}")
+            logger.info(f"Skipping previously processed video: {video['title']}")
             
     # Save queue for next phase
     queue_path = os.path.join("data", "queue.json")
     with open(queue_path, "w") as f:
         json.dump(queue, f, indent=2)
         
-    print(f"Discovery complete. Added {len(queue)} new videos to queue.")
+    logger.info(f"Discovery complete. Added {len(queue)} new videos to queue.")
     return queue
 
 if __name__ == "__main__":

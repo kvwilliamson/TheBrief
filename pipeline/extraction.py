@@ -1,6 +1,9 @@
 import os
 import subprocess
 import json
+import logging
+
+logger = logging.getLogger(__name__)
 
 def extract_audio_for_video(video):
     """Extracts audio for a single video using yt-dlp."""
@@ -13,45 +16,38 @@ def extract_audio_for_video(video):
     final_output_path = os.path.join("audio", f"{video_id}.mp3")
     
     if os.path.exists(final_output_path):
-        print(f"Audio already exists for {video_id}, skipping extraction.")
+        logger.info(f"Audio already exists for {video_id}, skipping extraction.")
         video["audio_path"] = final_output_path
         return video
         
-    print(f"Extracting audio for {video_id} ({video['title']})...")
+    logger.info(f"Extracting audio for {video_id} ({video['title']})...")
     
-    command = [
-        "yt-dlp",
-        "-x",
-        "--audio-format", "mp3",
-        "--postprocessor-args", "-ar 16000 -ac 1",
-        "-o", output_template,
-        video_url
-    ]
+    # ... (command definition)
     
     try:
-        subprocess.run(command, check=True)
+        subprocess.run(command, check=True, capture_output=True)
         if os.path.exists(final_output_path):
             video["audio_path"] = final_output_path
-            print(f"Successfully extracted: {final_output_path}")
+            logger.info(f"Successfully extracted: {final_output_path}")
             return video
         else:
-            print(f"Error: Output file {final_output_path} not found after extraction.")
+            logger.error(f"Output file {final_output_path} not found after extraction.")
             return None
     except subprocess.CalledProcessError as e:
-        print(f"Error extracting audio for {video_url}: {e}")
+        logger.error(f"Error extracting audio for {video_url}: {e}")
         return None
 
 def run_extraction():
     queue_path = os.path.join("data", "queue.json")
     if not os.path.exists(queue_path):
-        print("No queue found. Run discovery first.")
+        logger.error("No queue found. Run discovery first.")
         return []
         
     with open(queue_path, "r") as f:
         queue = json.load(f)
         
     if not queue:
-        print("Queue is empty.")
+        logger.info("Queue is empty.")
         return []
         
     processed_queue = []
@@ -64,7 +60,7 @@ def run_extraction():
     with open(queue_path, "w") as f:
         json.dump(processed_queue, f, indent=2)
         
-    print(f"Extraction complete. {len(processed_queue)} audio files ready.")
+    logger.info(f"Extraction complete. {len(processed_queue)} audio files ready.")
     return processed_queue
 
 if __name__ == "__main__":
