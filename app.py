@@ -370,8 +370,8 @@ with tab4:
         if os.path.exists("data/pipeline.log"):
             with open("data/pipeline.log", "r") as f:
                 logs = f.readlines()
-                # Show last 50 lines
-                st.code("".join(logs[-50:]))
+                # Show last 100 lines
+                st.code("".join(logs[-100:]))
             
             c1, c2 = st.columns(2)
             with c1:
@@ -383,8 +383,7 @@ with tab4:
                 if st.button("🔄 Reset Discovery History", help="Clears the database of already processed videos, allowing them to be found again.", use_container_width=True):
                     db_path = os.path.join("data", "processed_videos.json")
                     if os.path.exists(db_path):
-                        with open(db_path, "w") as f:
-                            f.write("")
+                        os.remove(db_path)
                     st.success("History cleared! Next run will find all recent videos again.")
                     st.rerun()
         else:

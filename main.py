@@ -56,7 +56,7 @@ def main():
     logging.info("\n--- Phase 4: Summarization ---")
     run_summarization()
     
-    logging.info("\n="*50)
+    logging.info("="*50)
     logging.info("Pipeline Execution Complete")
     logging.info("="*50)
 
