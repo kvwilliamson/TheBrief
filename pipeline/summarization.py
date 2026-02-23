@@ -15,17 +15,77 @@ from typing import List
 
 logger = logging.getLogger(__name__)
 
-# Define the expected Pydantic schema
+# --- Intelligence Brief Schemas (BKM v2) ---
+
+class SignalSnapshot(BaseModel):
+    evidence_strength: str = Field(description="Score out of 10 with brief qualifier (e.g. 7/10 - Strong empirical data)")
+    analytical_depth: str = Field(description="Score out of 10 with brief qualifier")
+    narrative_pressure: str = Field(description="Score out of 10 with brief qualifier")
+    speculation_load: str = Field(description="Percentage estimate (e.g., 40%)")
+    novelty_level: str = Field(description="Low / Medium / High")
+    incentive_alignment: str = Field(description="Low / Moderate / High")
+
+class HardClaim(BaseModel):
+    claim: str = Field(description="High-impact, verifiable claim")
+
+class RealityLayer(BaseModel):
+    hard_claims: List[HardClaim] = Field(description="Only high-impact verifiable claims")
+    overall_evidence_pattern: str = Field(description="1-2 line summary of evidence pattern")
+    verification_density: str = Field(description="1-2 line summary of verification density")
+
+class ForwardProjection(BaseModel):
+    prediction: str = Field(description="State prediction")
+    required_assumptions: List[str] = Field(description="Assumptions required for prediction")
+    base_rate_context: str = Field(description="Base-rate context if available, else 'N/A'")
+    falsifiability_condition: str = Field(description="Brief falsifiability condition")
+
+class CausalNode(BaseModel):
+    cause: str = Field(description="Cause")
+    mechanism: str = Field(description="Mechanism")
+    outcome: str = Field(description="Outcome")
+    mechanism_clarity_score: str = Field(description="Score out of 10")
+
+class NarrativeSubscores(BaseModel):
+    emotional_amplification: int = Field(description="0-10 intensity")
+    certainty_overreach: int = Field(description="0-10 intensity")
+    catastrophic_framing: int = Field(description="0-10 intensity")
+    tribal_framing: int = Field(description="0-10 intensity")
+    institutional_distrust: int = Field(description="0-10 intensity")
+    sensationalism: int = Field(description="0-10 intensity")
+
+class NarrativeProfile(BaseModel):
+    subscores: NarrativeSubscores
+    summary: str = Field(description="2-3 line summary of narrative profile")
+
+class IncentiveVector(BaseModel):
+    monetization_model: str = Field(description="Monetization model")
+    alignment_strength: str = Field(description="Alignment strength")
+    transparency_level: str = Field(description="Transparency level")
+
+class SignalToNarrativeRatio(BaseModel):
+    signal_pct: int = Field(description="Signal (data + mechanism) percentage")
+    narrative_pct: int = Field(description="Narrative (emotion + repetition) percentage")
+    novel_information: str = Field(description="Low / Medium / High")
+
+class FinalIntelligenceTake(BaseModel):
+    classification: str = Field(description="Actionable / Sentiment Indicator / Background Context / Noise")
+    strategic_assessment: str = Field(description="Max 5 sentences short strategic assessment")
+
 class BriefSchema(BaseModel):
     episode_title: str = Field(description="Title of the episode")
     channel: str = Field(description="Name of the channel")
     duration_minutes: int = Field(description="Duration in minutes")
-    tldr: str = Field(description="One sentence. Max 25 words.")
-    key_takeaways: List[str] = Field(description="3-5 items")
-    controversial_ideas: List[str] = Field(description="0-3 items")
-    notable_quotes: List[str] = Field(description="1-2 verbatim quotes")
-    topics_covered: List[str] = Field(description="comma-style tags")
-
+    topic_domain: str = Field(description="Broad topic domain")
+    central_thesis: str = Field(description="Strict 1 sentence compression of the episode's core claim")
+    signal_snapshot: SignalSnapshot
+    reality_layer: RealityLayer
+    forward_projections: List[ForwardProjection]
+    causal_map: List[CausalNode]
+    narrative_profile: NarrativeProfile
+    incentive_vector: IncentiveVector
+    signal_to_narrative_ratio: SignalToNarrativeRatio
+    disconfirming_conditions: List[str] = Field(description="3-5 concrete disconfirming conditions that break the thesis")
+    final_intelligence_take: FinalIntelligenceTake
 def get_llm():
     model_choice = os.getenv("SUMMARY_MODEL", "gemini").lower()
     
@@ -56,9 +116,19 @@ def summarize_transcript(video, llm):
     parser = JsonOutputParser(pydantic_object=BriefSchema)
     
     prompt = PromptTemplate(
-        template="You are an expert transcriber and summarizer. Please analyze the following transcript and output a JSON object matching the exact format instructions.\n\n"
+        template="You are an expert epistemic intelligence analyst generating a high-signal, decision-grade Intelligence Brief. "
+                 "Your strict constraints:\n"
+                 "1. Tone: analytical, sharp, compressed. Forbid academic verbosity, forbid marketing tone, forbid emotional language.\n"
+                 "2. Limit bullets per section to 6. Enforce 400-700 word output total.\n"
+                 "3. Enforce exactly one sentence for central thesis.\n"
+                 "4. Enforce 5-sentence max for Final Intelligence Take.\n"
+                 "5. Prioritize signal density over completeness.\n"
+                 "6. Do not restate narrative language. Classify it.\n"
+                 "7. Optimize for decision usefulness, not summarization completeness.\n\n"
+                 "Analyze the following transcript and output a JSON object matching the exact format instructions.\n\n"
                  "Video details:\nTitle: {title}\nChannel: {channel}\nDuration: {duration_minutes} minutes\n\n"
-                 "Transcript: {transcript}\n\nFormat instructions: {format_instructions}\n\n",
+                 "Transcript:\n{transcript}\n\n"
+                 "Format instructions:\n{format_instructions}\n\n",
         input_variables=["title", "channel", "duration_minutes", "transcript"],
         partial_variables={"format_instructions": parser.get_format_instructions()},
     )
@@ -80,54 +150,156 @@ def summarize_transcript(video, llm):
         logger.error(f"Error during summarization for {video['title']}: {e}")
         return None
 
-def format_markdown(brief_json):
-    md = f"## {brief_json['episode_title']} "
-    md += f"*(Channel: {brief_json['channel']} | Length: {brief_json['duration_minutes']} min)*\n\n"
-    md += f"**TL;DR:** {brief_json['tldr']}\n\n"
+def format_markdown(brief: dict) -> str:
+    md = f"## 🧠 EPISODE INTELLIGENCE PROFILE\n"
+    md += f"**Channel:** {brief.get('channel', 'Unknown')}\n"
+    md += f"**Topic Domain:** {brief.get('topic_domain', 'Unknown')}\n"
+    md += f"**Runtime:** {brief.get('duration_minutes', 0)} min\n"
+    md += f"**Central Thesis:** {brief.get('central_thesis', 'Unknown')}\n\n"
+
+    sig = brief.get('signal_snapshot', {})
+    md += "### 🎯 SIGNAL SNAPSHOT\n"
+    md += "| Metric | Score | Interpretation |\n|---|---|---|\n"
+    md += f"| Evidence Strength | {sig.get('evidence_strength')} | |\n"
+    md += f"| Analytical Depth | {sig.get('analytical_depth')} | |\n"
+    md += f"| Narrative Pressure | {sig.get('narrative_pressure')} | |\n"
+    md += f"| Speculation Load | {sig.get('speculation_load')} | |\n"
+    md += f"| Novelty Level | {sig.get('novelty_level')} | |\n"
+    md += f"| Incentive Alignment | {sig.get('incentive_alignment')} | |\n\n"
+
+    real = brief.get('reality_layer', {})
+    md += "### 📊 WHAT WAS SAID (Reality Layer)\n"
+    for claim in real.get('hard_claims', []):
+        md += f"- {claim.get('claim')}\n"
+    md += f"\n**Overall evidence pattern:** {real.get('overall_evidence_pattern')}\n"
+    md += f"**Verification density:** {real.get('verification_density')}\n\n"
+
+    projs = brief.get('forward_projections', [])
+    if projs:
+        md += "### 🔮 FORWARD PROJECTIONS (Risk Layer)\n"
+        for p in projs[:6]:
+            md += f"- **Prediction:** {p.get('prediction')}\n"
+            md += f"  - *Assumptions:* {', '.join(p.get('required_assumptions', []))}\n"
+            md += f"  - *Base-rate context:* {p.get('base_rate_context')}\n"
+            md += f"  - *Falsifiability:* {p.get('falsifiability_condition')}\n"
+        md += "\n"
+
+    caus = brief.get('causal_map', [])
+    if caus:
+        md += "### 🧠 CAUSAL MAP\n"
+        md += "| Cause | Mechanism | Outcome | Clarity |\n|---|---|---|---|\n"
+        for c in caus[:6]:
+            md += f"| {c.get('cause')} | {c.get('mechanism')} | {c.get('outcome')} | {c.get('mechanism_clarity_score')} |\n"
+        md += "\n"
+
+    narr = brief.get('narrative_profile', {})
+    sub = narr.get('subscores', {})
+    md += "### 🎭 NARRATIVE PROFILE (Decomposed)\n"
+    md += "| Dimension | Intensity (0-10) |\n|---|---|\n"
+    md += f"| Emotional Amplification | {sub.get('emotional_amplification')} |\n"
+    md += f"| Certainty Overreach | {sub.get('certainty_overreach')} |\n"
+    md += f"| Catastrophic Framing | {sub.get('catastrophic_framing')} |\n"
+    md += f"| Tribal Framing | {sub.get('tribal_framing')} |\n"
+    md += f"| Institutional Distrust | {sub.get('institutional_distrust')} |\n"
+    md += f"| Sensationalism | {sub.get('sensationalism')} |\n\n"
+    md += f"**Summary:** {narr.get('summary')}\n\n"
+
+    inc = brief.get('incentive_vector', {})
+    md += "### 💰 INCENTIVE VECTOR\n"
+    md += f"- **Monetization Model:** {inc.get('monetization_model')}\n"
+    md += f"- **Alignment Strength:** {inc.get('alignment_strength')}\n"
+    md += f"- **Transparency Level:** {inc.get('transparency_level')}\n\n"
+
+    ratio = brief.get('signal_to_narrative_ratio', {})
+    md += "### 📡 SIGNAL-TO-NARRATIVE RATIO\n"
+    md += f"**Signal:** {ratio.get('signal_pct')}% | **Narrative:** {ratio.get('narrative_pct')}% | **Novel Information:** {ratio.get('novel_information')}\n\n"
+
+    md += "### 🧨 WHAT WOULD BREAK THIS THESIS?\n"
+    for cond in brief.get('disconfirming_conditions', [])[:5]:
+        md += f"- {cond}\n"
+    md += "\n"
+
+    take = brief.get('final_intelligence_take', {})
+    md += "### 🏁 FINAL INTELLIGENCE TAKE\n"
+    md += f"**Classification:** {take.get('classification')}\n\n"
+    md += f"{take.get('strategic_assessment')}\n\n"
     
-    md += "### Key Takeaways\n"
-    for item in brief_json['key_takeaways']:
-        md += f"- {item}\n"
-        
-    if brief_json.get('controversial_ideas'):
-        md += "\n### Controversial Ideas\n"
-        for item in brief_json['controversial_ideas']:
-            md += f"- {item}\n"
-            
-    if brief_json.get('notable_quotes'):
-        md += "\n### Notable Quotes\n"
-        for item in brief_json['notable_quotes']:
-            md += f"> \"{item}\"\n"
-            
-    md += "\n### Topics Covered\n"
-    md += ", ".join(brief_json['topics_covered']) + "\n\n---\n\n"
-    
+    md += f"---\n\n"
     return md
 
-def format_html(brief_json):
-    html = f"<h2>{brief_json['episode_title']}</h2>"
-    html += f"<p><em>(Channel: {brief_json['channel']} | Length: {brief_json['duration_minutes']} min)</em></p>"
-    html += f"<p><strong>TL;DR:</strong> {brief_json['tldr']}</p>"
-    
-    html += "<h3>Key Takeaways</h3><ul>"
-    for item in brief_json['key_takeaways']:
-        html += f"<li>{item}</li>"
+def format_html(brief: dict) -> str:
+    html = f"<h2>🧠 EPISODE INTELLIGENCE PROFILE</h2>"
+    html += f"<p><strong>Channel:</strong> {brief.get('channel', 'Unknown')}<br/>"
+    html += f"<strong>Topic Domain:</strong> {brief.get('topic_domain', 'Unknown')}<br/>"
+    html += f"<strong>Runtime:</strong> {brief.get('duration_minutes', 0)} min<br/>"
+    html += f"<strong>Central Thesis:</strong> {brief.get('central_thesis', 'Unknown')}</p>"
+
+    sig = brief.get('signal_snapshot', {})
+    html += "<h3>🎯 SIGNAL SNAPSHOT</h3>"
+    html += "<table border='1'><tr><th>Metric</th><th>Score</th><th>Interpretation</th></tr>"
+    html += f"<tr><td>Evidence Strength</td><td>{sig.get('evidence_strength')}</td><td></td></tr>"
+    html += f"<tr><td>Analytical Depth</td><td>{sig.get('analytical_depth')}</td><td></td></tr>"
+    html += f"<tr><td>Narrative Pressure</td><td>{sig.get('narrative_pressure')}</td><td></td></tr>"
+    html += f"<tr><td>Speculation Load</td><td>{sig.get('speculation_load')}</td><td></td></tr>"
+    html += f"<tr><td>Novelty Level</td><td>{sig.get('novelty_level')}</td><td></td></tr>"
+    html += f"<tr><td>Incentive Alignment</td><td>{sig.get('incentive_alignment')}</td><td></td></tr></table>"
+
+    real = brief.get('reality_layer', {})
+    html += "<h3>📊 WHAT WAS SAID (Reality Layer)</h3><ul>"
+    for claim in real.get('hard_claims', []):
+        html += f"<li>{claim.get('claim')}</li>"
+    html += f"</ul><p><strong>Overall evidence pattern:</strong> {real.get('overall_evidence_pattern')}<br/>"
+    html += f"<strong>Verification density:</strong> {real.get('verification_density')}</p>"
+
+    projs = brief.get('forward_projections', [])
+    if projs:
+        html += "<h3>🔮 FORWARD PROJECTIONS (Risk Layer)</h3><ul>"
+        for p in projs[:6]:
+            html += f"<li><strong>Prediction:</strong> {p.get('prediction')}<ul>"
+            html += f"<li><em>Assumptions:</em> {', '.join(p.get('required_assumptions', []))}</li>"
+            html += f"<li><em>Base-rate context:</em> {p.get('base_rate_context')}</li>"
+            html += f"<li><em>Falsifiability:</em> {p.get('falsifiability_condition')}</li></ul></li>"
+        html += "</ul>"
+
+    caus = brief.get('causal_map', [])
+    if caus:
+        html += "<h3>🧠 CAUSAL MAP</h3>"
+        html += "<table border='1'><tr><th>Cause</th><th>Mechanism</th><th>Outcome</th><th>Clarity</th></tr>"
+        for c in caus[:6]:
+            html += f"<tr><td>{c.get('cause')}</td><td>{c.get('mechanism')}</td><td>{c.get('outcome')}</td><td>{c.get('mechanism_clarity_score')}</td></tr>"
+        html += "</table>"
+
+    narr = brief.get('narrative_profile', {})
+    sub = narr.get('subscores', {})
+    html += "<h3>🎭 NARRATIVE PROFILE (Decomposed)</h3>"
+    html += "<table border='1'><tr><th>Dimension</th><th>Intensity (0-10)</th></tr>"
+    html += f"<tr><td>Emotional Amplification</td><td>{sub.get('emotional_amplification')}</td></tr>"
+    html += f"<tr><td>Certainty Overreach</td><td>{sub.get('certainty_overreach')}</td></tr>"
+    html += f"<tr><td>Catastrophic Framing</td><td>{sub.get('catastrophic_framing')}</td></tr>"
+    html += f"<tr><td>Tribal Framing</td><td>{sub.get('tribal_framing')}</td></tr>"
+    html += f"<tr><td>Institutional Distrust</td><td>{sub.get('institutional_distrust')}</td></tr>"
+    html += f"<tr><td>Sensationalism</td><td>{sub.get('sensationalism')}</td></tr></table>"
+    html += f"<p><strong>Summary:</strong> {narr.get('summary')}</p>"
+
+    inc = brief.get('incentive_vector', {})
+    html += "<h3>💰 INCENTIVE VECTOR</h3><ul>"
+    html += f"<li><strong>Monetization Model:</strong> {inc.get('monetization_model')}</li>"
+    html += f"<li><strong>Alignment Strength:</strong> {inc.get('alignment_strength')}</li>"
+    html += f"<li><strong>Transparency Level:</strong> {inc.get('transparency_level')}</li></ul>"
+
+    ratio = brief.get('signal_to_narrative_ratio', {})
+    html += "<h3>📡 SIGNAL-TO-NARRATIVE RATIO</h3>"
+    html += f"<p><strong>Signal:</strong> {ratio.get('signal_pct')}% | <strong>Narrative:</strong> {ratio.get('narrative_pct')}% | <strong>Novel Information:</strong> {ratio.get('novel_information')}</p>"
+
+    html += "<h3>🧨 WHAT WOULD BREAK THIS THESIS?</h3><ul>"
+    for cond in brief.get('disconfirming_conditions', [])[:5]:
+        html += f"<li>{cond}</li>"
     html += "</ul>"
-        
-    if brief_json.get('controversial_ideas'):
-        html += "<h3>Controversial Ideas</h3><ul>"
-        for item in brief_json['controversial_ideas']:
-            html += f"<li>{item}</li>"
-        html += "</ul>"
-            
-    if brief_json.get('notable_quotes'):
-        html += "<h3>Notable Quotes</h3><ul>"
-        for item in brief_json['notable_quotes']:
-            html += f"<li><em>\"{item}\"</em></li>"
-        html += "</ul>"
-            
-    html += "<h3>Topics Covered</h3>"
-    html += "<p>" + ", ".join(brief_json['topics_covered']) + "</p><hr/>"
+
+    take = brief.get('final_intelligence_take', {})
+    html += "<h3>🏁 FINAL INTELLIGENCE TAKE</h3>"
+    html += f"<p><strong>Classification:</strong> {take.get('classification')}</p>"
+    html += f"<p>{take.get('strategic_assessment')}</p><hr/>"
     
     return html
 

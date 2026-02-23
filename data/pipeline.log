@@ -323,3 +323,211 @@
 2026-02-23 09:33:49,647 - INFO - ==================================================
 2026-02-23 09:33:49,647 - INFO - Pipeline Execution Complete
 2026-02-23 09:33:49,647 - INFO - ==================================================
+2026-02-23 16:17:35,890 - INFO - ==================================================
+2026-02-23 16:17:35,890 - INFO - Starting TheBrief Daily Pipeline
+2026-02-23 16:17:35,890 - INFO - ==================================================
+2026-02-23 16:17:35,891 - INFO - 
+--- Phase 1: Discovery ---
+2026-02-23 16:17:35,894 - INFO - Discovering videos published after 2026-02-22T21:17:35.894294+00:00 (24h lookback)
+2026-02-23 16:17:35,894 - INFO - Checking channel: Bald Guy Money (UCtPdiTVqTkg3t3PjQZqOaCA)
+2026-02-23 16:17:36,495 - INFO -   Found 0 recent videos.
+2026-02-23 16:17:36,496 - INFO - Checking channel: GoldSilver  (UCThv5tYUVaG4ZPA3p6EXZbQ)
+2026-02-23 16:17:37,125 - INFO -   Found 3 recent videos.
+2026-02-23 16:17:37,125 - INFO - Checking channel: Silver Dragons (UCucqfNRyBkieAop_LDUqHEg)
+2026-02-23 16:17:38,083 - INFO -   Found 1 recent videos.
+2026-02-23 16:17:38,083 - INFO - Checking channel: Rons Basement (UC7KRV9tVt7JqaSO3t6ifAsA)
+2026-02-23 16:17:38,606 - INFO -   Found 2 recent videos.
+2026-02-23 16:17:38,607 - INFO - Checking channel: Wall Street Bullion  (UCXWoMTRWJTIZwUblljo5aDQ)
+2026-02-23 16:17:38,916 - INFO -   Found 1 recent videos.
+2026-02-23 16:17:38,916 - INFO - Checking channel: Kitco NEWS (UC9ijza42jVR3T6b8bColgvg)
+2026-02-23 16:17:39,304 - INFO -   Found 0 recent videos.
+2026-02-23 16:17:39,304 - INFO - Checking channel: Yankee Stacking (UCSlo5dl8jvbmpJi-zcbqq6w)
+2026-02-23 16:17:39,823 - INFO -   Found 0 recent videos.
+2026-02-23 16:17:39,824 - INFO - Checking channel: Arcadia Economics (UC0xbkSGGxkI4AVp0BQRjnAA)
+2026-02-23 16:17:40,100 - INFO -   Found 1 recent videos.
+2026-02-23 16:17:40,100 - INFO - Checking channel: AI News & Strategy Daily | Nate B Jones (UC0C-17n9iuUQPylguM1d-lQ)
+2026-02-23 16:17:40,493 - INFO -   Found 1 recent videos.
+2026-02-23 16:17:40,494 - INFO - Checking channel: Clive Thompson (UCrlFUp4OtXJSiDfiPMFnk3A)
+2026-02-23 16:17:40,966 - INFO -   Found 1 recent videos.
+2026-02-23 16:17:40,967 - INFO - Checking channel: David Lin  (UClBMLpP3UHXLmgEypMmXPuA)
+2026-02-23 16:17:41,243 - INFO -   Found 1 recent videos.
+2026-02-23 16:17:41,243 - INFO - Checking channel: TheTechnicalTraders (UCenLy4V5NgxEz7pwosA9hiw)
+2026-02-23 16:17:41,822 - INFO -   Found 1 recent videos.
+2026-02-23 16:17:41,823 - INFO - Checking channel: Verified Investing (UCZ-J2m1AUSLnifUEKam5_dA)
+2026-02-23 16:17:42,324 - INFO -   Found 5 recent videos.
+2026-02-23 16:17:42,324 - INFO - Checking channel: Felix & Friends (Goat Academy) (UCJtfma0mE_XrBAD9uakcjfA)
+2026-02-23 16:17:42,641 - INFO -   Found 1 recent videos.
+2026-02-23 16:17:42,641 - INFO - Checking channel: Miles Franklin Media (UC_EzgYSqu4a6-Po65FxAoKg)
+2026-02-23 16:17:43,113 - INFO -   Found 2 recent videos.
+2026-02-23 16:17:43,113 - INFO - Checking channel: Adam Taggart | Thoughtful Money® (UCjqe6xtZYTfvA4pHs0HgJsQ)
+2026-02-23 16:17:43,527 - INFO -   Found 0 recent videos.
+2026-02-23 16:17:43,528 - INFO - Checking channel: CPM Group (UC59ED7RkMYTD9eTGr1dn98A)
+2026-02-23 16:17:43,835 - INFO -   Found 0 recent videos.
+2026-02-23 16:17:43,835 - INFO - Checking channel: Commodity Culture (UC8n-nG-Wui_Ho1v_RgmJbTw)
+2026-02-23 16:17:44,072 - INFO -   Found 0 recent videos.
+2026-02-23 16:17:44,239 - INFO - Found 5 total long-form videos across all channels.
+2026-02-23 16:17:44,241 - INFO - Discovery complete. Added 5 new videos to queue.
+2026-02-23 16:17:44,242 - INFO - 
+--- Phase 2: Extraction ---
+2026-02-23 16:17:44,242 - INFO - Extracting audio for MVRijW_s_gw (🚨 Silver PANIC! - You Can EXPECT This! 🦍🦍 (China - Gold Price and Precious Metals NEWS Update))...
+2026-02-23 16:40:19,034 - INFO - Successfully extracted: audio/MVRijW_s_gw.mp3
+2026-02-23 16:40:19,035 - INFO - Extracting audio for 8jKAT8GNDE0 (Google's New AI Is Smarter Than Everyone's But It Costs HALF as Much. Here's Why They Don't Care.)...
+2026-02-23 16:41:03,653 - INFO - Successfully extracted: audio/8jKAT8GNDE0.mp3
+2026-02-23 16:41:03,653 - INFO - Extracting audio for akJK52ODU8c (Worst Stock Market Vs. World Since '95; Where Should Investors Go? | Robin Brooks)...
+2026-02-23 16:41:31,444 - INFO - Successfully extracted: audio/akJK52ODU8c.mp3
+2026-02-23 16:41:31,444 - INFO - Extracting audio for BP171WxPXU4 (US Panic: Japan’s Debt Just Collapsed)...
+2026-02-23 16:41:57,768 - INFO - Successfully extracted: audio/BP171WxPXU4.mp3
+2026-02-23 16:41:57,768 - INFO - Extracting audio for qJVb29D5rfw (The U.S. Debt ‘Black Hole’: We’ve Crossed the Event Horizon | Greg Weldon & Andy Schectman)...
+2026-02-23 16:42:45,794 - INFO - Successfully extracted: audio/qJVb29D5rfw.mp3
+2026-02-23 16:42:45,795 - INFO - Extraction complete. 5 audio files ready.
+2026-02-23 16:42:45,795 - INFO - 
+--- Phase 3: Transcription ---
+2026-02-23 16:42:45,795 - INFO - Transcribing: 🚨 Silver PANIC! - You Can EXPECT This! 🦍🦍 (China - Gold Price and Precious Metals NEWS Update)
+2026-02-23 16:42:45,795 - INFO - Transcribing via Google Gemini 1.5 Pro...
+2026-02-23 16:42:45,796 - INFO - Uploading audio/MVRijW_s_gw.mp3 to Gemini File API...
+2026-02-23 16:42:52,374 - INFO - Generating transcription with gemini-2.0-flash...
+2026-02-23 16:43:20,461 - INFO - Deleted temp audio file: audio/MVRijW_s_gw.mp3
+2026-02-23 16:43:20,462 - INFO - Transcribing: Google's New AI Is Smarter Than Everyone's But It Costs HALF as Much. Here's Why They Don't Care.
+2026-02-23 16:43:20,462 - INFO - Transcribing via Google Gemini 1.5 Pro...
+2026-02-23 16:43:20,462 - INFO - Uploading audio/8jKAT8GNDE0.mp3 to Gemini File API...
+2026-02-23 16:43:26,244 - INFO - Generating transcription with gemini-2.0-flash...
+2026-02-23 16:44:02,011 - INFO - Deleted temp audio file: audio/8jKAT8GNDE0.mp3
+2026-02-23 16:44:02,011 - INFO - Transcribing: Worst Stock Market Vs. World Since '95; Where Should Investors Go? | Robin Brooks
+2026-02-23 16:44:02,011 - INFO - Transcribing via Google Gemini 1.5 Pro...
+2026-02-23 16:44:02,011 - INFO - Uploading audio/akJK52ODU8c.mp3 to Gemini File API...
+2026-02-23 16:44:08,072 - INFO - Generating transcription with gemini-2.0-flash...
+2026-02-23 16:44:36,321 - INFO - Deleted temp audio file: audio/akJK52ODU8c.mp3
+2026-02-23 16:44:36,322 - INFO - Transcribing: US Panic: Japan’s Debt Just Collapsed
+2026-02-23 16:44:36,322 - INFO - Transcribing via Google Gemini 1.5 Pro...
+2026-02-23 16:44:36,322 - INFO - Uploading audio/BP171WxPXU4.mp3 to Gemini File API...
+2026-02-23 16:44:41,322 - INFO - Generating transcription with gemini-2.0-flash...
+2026-02-23 16:45:16,724 - INFO - Deleted temp audio file: audio/BP171WxPXU4.mp3
+2026-02-23 16:45:16,725 - INFO - Transcribing: The U.S. Debt ‘Black Hole’: We’ve Crossed the Event Horizon | Greg Weldon & Andy Schectman
+2026-02-23 16:45:16,725 - INFO - Transcribing via Google Gemini 1.5 Pro...
+2026-02-23 16:45:16,725 - INFO - Uploading audio/qJVb29D5rfw.mp3 to Gemini File API...
+2026-02-23 16:45:24,718 - INFO - Generating transcription with gemini-2.0-flash...
+2026-02-23 16:46:10,582 - INFO - Deleted temp audio file: audio/qJVb29D5rfw.mp3
+2026-02-23 16:46:10,584 - INFO - Transcription complete. 5 transcripts ready.
+2026-02-23 16:46:10,584 - INFO - 
+--- Phase 4: Summarization ---
+2026-02-23 16:46:10,596 - INFO - Summarizing: 🚨 Silver PANIC! - You Can EXPECT This! 🦍🦍 (China - Gold Price and Precious Metals NEWS Update)
+2026-02-23 16:46:22,687 - INFO - Summarizing: Google's New AI Is Smarter Than Everyone's But It Costs HALF as Much. Here's Why They Don't Care.
+2026-02-23 16:46:35,542 - INFO - Summarizing: Worst Stock Market Vs. World Since '95; Where Should Investors Go? | Robin Brooks
+2026-02-23 16:46:47,454 - INFO - Summarizing: US Panic: Japan’s Debt Just Collapsed
+2026-02-23 16:47:00,509 - INFO - Summarizing: The U.S. Debt ‘Black Hole’: We’ve Crossed the Event Horizon | Greg Weldon & Andy Schectman
+2026-02-23 16:47:12,724 - INFO - Summarization complete. 5 briefs written to briefs/2026-02-23.md
+2026-02-23 16:47:12,724 - INFO - Preparing email digest...
+2026-02-23 16:47:12,725 - INFO - Connecting to SMTP server smtp.gmail.com:587
+2026-02-23 16:47:14,183 - INFO - Email digest sent successfully.
+2026-02-23 16:47:14,184 - INFO - Queue cleared.
+2026-02-23 16:47:14,185 - INFO - ==================================================
+2026-02-23 16:47:14,185 - INFO - Pipeline Execution Complete
+2026-02-23 16:47:14,185 - INFO - ==================================================
+2026-02-23 17:15:36,045 - INFO - ==================================================
+2026-02-23 17:15:36,045 - INFO - Starting TheBrief Daily Pipeline
+2026-02-23 17:15:36,045 - INFO - ==================================================
+2026-02-23 17:15:36,046 - INFO - 
+--- Phase 1: Discovery ---
+2026-02-23 17:15:36,048 - INFO - Discovering videos published after 2026-02-22T22:15:36.048780+00:00 (24h lookback)
+2026-02-23 17:15:36,048 - INFO - Checking channel: Bald Guy Money (UCtPdiTVqTkg3t3PjQZqOaCA)
+2026-02-23 17:15:36,738 - INFO -   Found 0 recent videos.
+2026-02-23 17:15:36,739 - INFO - Checking channel: GoldSilver  (UCThv5tYUVaG4ZPA3p6EXZbQ)
+2026-02-23 17:15:37,032 - INFO -   Found 3 recent videos.
+2026-02-23 17:15:37,032 - INFO - Checking channel: Silver Dragons (UCucqfNRyBkieAop_LDUqHEg)
+2026-02-23 17:15:37,794 - INFO -   Found 1 recent videos.
+2026-02-23 17:15:37,794 - INFO - Checking channel: Rons Basement (UC7KRV9tVt7JqaSO3t6ifAsA)
+2026-02-23 17:15:38,044 - INFO -   Found 2 recent videos.
+2026-02-23 17:15:38,044 - INFO - Checking channel: Wall Street Bullion  (UCXWoMTRWJTIZwUblljo5aDQ)
+2026-02-23 17:15:38,302 - INFO -   Found 1 recent videos.
+2026-02-23 17:15:38,302 - INFO - Checking channel: Kitco NEWS (UC9ijza42jVR3T6b8bColgvg)
+2026-02-23 17:15:38,636 - INFO -   Found 0 recent videos.
+2026-02-23 17:15:38,636 - INFO - Checking channel: Yankee Stacking (UCSlo5dl8jvbmpJi-zcbqq6w)
+2026-02-23 17:15:38,919 - INFO -   Found 0 recent videos.
+2026-02-23 17:15:38,919 - INFO - Checking channel: Arcadia Economics (UC0xbkSGGxkI4AVp0BQRjnAA)
+2026-02-23 17:15:39,237 - INFO -   Found 1 recent videos.
+2026-02-23 17:15:39,238 - INFO - Checking channel: AI News & Strategy Daily | Nate B Jones (UC0C-17n9iuUQPylguM1d-lQ)
+2026-02-23 17:15:39,555 - INFO -   Found 1 recent videos.
+2026-02-23 17:15:39,556 - INFO - Checking channel: Clive Thompson (UCrlFUp4OtXJSiDfiPMFnk3A)
+2026-02-23 17:15:39,933 - INFO -   Found 1 recent videos.
+2026-02-23 17:15:39,934 - INFO - Checking channel: David Lin  (UClBMLpP3UHXLmgEypMmXPuA)
+2026-02-23 17:15:40,363 - INFO -   Found 1 recent videos.
+2026-02-23 17:15:40,363 - INFO - Checking channel: TheTechnicalTraders (UCenLy4V5NgxEz7pwosA9hiw)
+2026-02-23 17:15:40,836 - INFO -   Found 1 recent videos.
+2026-02-23 17:15:40,836 - INFO - Checking channel: Verified Investing (UCZ-J2m1AUSLnifUEKam5_dA)
+2026-02-23 17:15:41,263 - INFO -   Found 5 recent videos.
+2026-02-23 17:15:41,263 - INFO - Checking channel: Felix & Friends (Goat Academy) (UCJtfma0mE_XrBAD9uakcjfA)
+2026-02-23 17:15:41,481 - INFO -   Found 1 recent videos.
+2026-02-23 17:15:41,481 - INFO - Checking channel: Miles Franklin Media (UC_EzgYSqu4a6-Po65FxAoKg)
+2026-02-23 17:15:41,843 - INFO -   Found 2 recent videos.
+2026-02-23 17:15:41,843 - INFO - Checking channel: Adam Taggart | Thoughtful Money® (UCjqe6xtZYTfvA4pHs0HgJsQ)
+2026-02-23 17:15:42,223 - INFO -   Found 0 recent videos.
+2026-02-23 17:15:42,223 - INFO - Checking channel: CPM Group (UC59ED7RkMYTD9eTGr1dn98A)
+2026-02-23 17:15:42,804 - INFO -   Found 0 recent videos.
+2026-02-23 17:15:42,805 - INFO - Checking channel: Commodity Culture (UC8n-nG-Wui_Ho1v_RgmJbTw)
+2026-02-23 17:15:43,046 - INFO -   Found 0 recent videos.
+2026-02-23 17:15:43,185 - INFO - Found 6 total long-form videos across all channels.
+2026-02-23 17:15:43,188 - INFO - Discovery complete. Added 6 new videos to queue.
+2026-02-23 17:15:43,188 - INFO - 
+--- Phase 2: Extraction ---
+2026-02-23 17:15:43,188 - INFO - Extracting audio for MVRijW_s_gw (🚨 Silver PANIC! - You Can EXPECT This! 🦍🦍 (China - Gold Price and Precious Metals NEWS Update))...
+2026-02-23 17:38:49,026 - INFO - Successfully extracted: audio/MVRijW_s_gw.mp3
+2026-02-23 17:38:49,026 - INFO - Extracting audio for 8jKAT8GNDE0 (Google's New AI Is Smarter Than Everyone's But It Costs HALF as Much. Here's Why They Don't Care.)...
+2026-02-23 17:39:27,825 - INFO - Successfully extracted: audio/8jKAT8GNDE0.mp3
+2026-02-23 17:39:27,825 - INFO - Extracting audio for akJK52ODU8c (Worst Stock Market Vs. World Since '95; Where Should Investors Go? | Robin Brooks)...
+2026-02-23 17:39:51,593 - INFO - Successfully extracted: audio/akJK52ODU8c.mp3
+2026-02-23 17:39:51,593 - INFO - Extracting audio for zDnkb-H-qws (TARIFF WAR 2.0! 🚨 Why Markets Pulled Back on New 15% Duty)...
+2026-02-23 17:40:27,270 - INFO - Successfully extracted: audio/zDnkb-H-qws.mp3
+2026-02-23 17:40:27,270 - INFO - Extracting audio for BP171WxPXU4 (US Panic: Japan’s Debt Just Collapsed)...
+2026-02-23 17:40:49,517 - INFO - Successfully extracted: audio/BP171WxPXU4.mp3
+2026-02-23 17:40:49,518 - INFO - Extracting audio for qJVb29D5rfw (The U.S. Debt ‘Black Hole’: We’ve Crossed the Event Horizon | Greg Weldon & Andy Schectman)...
+2026-02-23 17:42:02,469 - INFO - Successfully extracted: audio/qJVb29D5rfw.mp3
+2026-02-23 17:42:02,470 - INFO - Extraction complete. 6 audio files ready.
+2026-02-23 17:42:02,470 - INFO - 
+--- Phase 3: Transcription ---
+2026-02-23 17:42:02,471 - INFO - Transcribing: 🚨 Silver PANIC! - You Can EXPECT This! 🦍🦍 (China - Gold Price and Precious Metals NEWS Update)
+2026-02-23 17:42:02,471 - INFO - Transcribing via Google Gemini 1.5 Pro...
+2026-02-23 17:42:02,471 - INFO - Uploading audio/MVRijW_s_gw.mp3 to Gemini File API...
+2026-02-23 17:42:08,180 - INFO - Generating transcription with gemini-2.0-flash...
+2026-02-23 17:42:37,656 - INFO - Deleted temp audio file: audio/MVRijW_s_gw.mp3
+2026-02-23 17:42:37,657 - INFO - Transcribing: Google's New AI Is Smarter Than Everyone's But It Costs HALF as Much. Here's Why They Don't Care.
+2026-02-23 17:42:37,657 - INFO - Transcribing via Google Gemini 1.5 Pro...
+2026-02-23 17:42:37,657 - INFO - Uploading audio/8jKAT8GNDE0.mp3 to Gemini File API...
+2026-02-23 17:42:43,172 - INFO - Generating transcription with gemini-2.0-flash...
+2026-02-23 17:43:19,950 - INFO - Deleted temp audio file: audio/8jKAT8GNDE0.mp3
+2026-02-23 17:43:19,951 - INFO - Transcribing: Worst Stock Market Vs. World Since '95; Where Should Investors Go? | Robin Brooks
+2026-02-23 17:43:19,951 - INFO - Transcribing via Google Gemini 1.5 Pro...
+2026-02-23 17:43:19,952 - INFO - Uploading audio/akJK52ODU8c.mp3 to Gemini File API...
+2026-02-23 17:43:25,318 - INFO - Generating transcription with gemini-2.0-flash...
+2026-02-23 17:43:45,957 - INFO - Deleted temp audio file: audio/akJK52ODU8c.mp3
+2026-02-23 17:43:45,958 - INFO - Transcribing: TARIFF WAR 2.0! 🚨 Why Markets Pulled Back on New 15% Duty
+2026-02-23 17:43:45,958 - INFO - Transcribing via Google Gemini 1.5 Pro...
+2026-02-23 17:43:45,958 - INFO - Uploading audio/zDnkb-H-qws.mp3 to Gemini File API...
+2026-02-23 17:43:53,708 - INFO - Generating transcription with gemini-2.0-flash...
+2026-02-23 17:46:12,020 - INFO - Deleted temp audio file: audio/zDnkb-H-qws.mp3
+2026-02-23 17:46:12,020 - INFO - Transcribing: US Panic: Japan’s Debt Just Collapsed
+2026-02-23 17:46:12,020 - INFO - Transcribing via Google Gemini 1.5 Pro...
+2026-02-23 17:46:12,020 - INFO - Uploading audio/BP171WxPXU4.mp3 to Gemini File API...
+2026-02-23 17:46:15,761 - INFO - Generating transcription with gemini-2.0-flash...
+2026-02-23 17:46:52,842 - INFO - Deleted temp audio file: audio/BP171WxPXU4.mp3
+2026-02-23 17:46:52,845 - INFO - Transcribing: The U.S. Debt ‘Black Hole’: We’ve Crossed the Event Horizon | Greg Weldon & Andy Schectman
+2026-02-23 17:46:52,845 - INFO - Transcribing via Google Gemini 1.5 Pro...
+2026-02-23 17:46:52,845 - INFO - Uploading audio/qJVb29D5rfw.mp3 to Gemini File API...
+2026-02-23 17:46:59,118 - INFO - Generating transcription with gemini-2.0-flash...
+2026-02-23 17:49:09,547 - INFO - Deleted temp audio file: audio/qJVb29D5rfw.mp3
+2026-02-23 17:49:09,551 - INFO - Transcription complete. 6 transcripts ready.
+2026-02-23 17:49:09,551 - INFO - 
+--- Phase 4: Summarization ---
+2026-02-23 17:49:09,567 - INFO - Summarizing: 🚨 Silver PANIC! - You Can EXPECT This! 🦍🦍 (China - Gold Price and Precious Metals NEWS Update)
+2026-02-23 17:49:18,867 - INFO - Summarizing: Google's New AI Is Smarter Than Everyone's But It Costs HALF as Much. Here's Why They Don't Care.
+2026-02-23 17:49:28,940 - INFO - Summarizing: Worst Stock Market Vs. World Since '95; Where Should Investors Go? | Robin Brooks
+2026-02-23 17:49:38,047 - INFO - Summarizing: TARIFF WAR 2.0! 🚨 Why Markets Pulled Back on New 15% Duty
+2026-02-23 17:49:45,899 - INFO - Summarizing: US Panic: Japan’s Debt Just Collapsed
+2026-02-23 17:49:54,906 - INFO - Summarizing: The U.S. Debt ‘Black Hole’: We’ve Crossed the Event Horizon | Greg Weldon & Andy Schectman
+2026-02-23 17:50:04,823 - INFO - Summarization complete. 6 briefs written to briefs/2026-02-23.md
+2026-02-23 17:50:04,824 - INFO - Preparing email digest...
+2026-02-23 17:50:04,824 - INFO - Connecting to SMTP server smtp.gmail.com:587
+2026-02-23 17:50:07,474 - INFO - Email digest sent successfully.
+2026-02-23 17:50:07,475 - INFO - Queue cleared.
+2026-02-23 17:50:07,476 - INFO - ==================================================
+2026-02-23 17:50:07,476 - INFO - Pipeline Execution Complete
+2026-02-23 17:50:07,476 - INFO - ==================================================

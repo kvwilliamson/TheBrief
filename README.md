@@ -1,15 +1,15 @@
 # TheBrief
 
-TheBrief is an automated daily pipeline that monitors a curated list of YouTube podcast channels, extracts audio from new long-form episodes, transcribes them, and delivers a structured AI-generated briefing. The output is a clean, scannable summary that distills hours of audio into minutes of reading.
+TheBrief is an automated daily pipeline that monitors a curated list of YouTube podcast channels, extracts audio from new long-form episodes, transcribes them, and delivers a structured **Intelligence Brief (BKM v2)**. The output is a high-signal, decision-grade dashboard that distills hours of audio into less than 3 minutes of reading per episode.
 
 ## System Architecture
 
 The pipeline runs as a single Python script (`main.py`) with four discrete stages:
 
 1. **Discovery**: Monitors configured channels in `channels.json` and identifies new episodes published in the last 24 hours that are longer than 20 minutes (excluding Shorts).
-2. **Audio Extraction**: Extracts only the audio stream from each queued video using `yt-dlp` and downsamples it to 16kHz mono `mp3` to optimize for Whisper transcription. No video is downloaded.
-3. **Transcription**: Converts the audio to a full text transcript. Can be configured to run locally (free) via `faster-whisper` or via the OpenAI Whisper API.
-4. **Summarization & Delivery**: Feeds each transcript into an LLM (Google Gemini 1.5 Pro, with an OpenAI fallback) with a structured prompt to generate a JSON summary. The summary is saved as a Markdown file in `/briefs/` and optionally emailed.
+2. **Audio Extraction**: Extracts only the audio stream from each queued video using `yt-dlp` and downsamples it to 16kHz mono `mp3`. No video is downloaded.
+3. **Transcription**: Converts the audio to a full text transcript using **Google Gemini 1.5 Pro** via the fast, multimodal File API. (Also supports `faster-whisper` for offline processing).
+4. **Intelligence Summarization**: Feeds each transcript into **Google Gemini 2.0 Flash** with a massive, nested 10-point JSON prompt. The engine enforces strict epistemic discipline to generate a BKM v2 schema (Signal Snapshot, Reality Layer, Risk Layer, Causal Maps, and Disconfirming Conditions). The dashboard is saved as a Markdown file in `/briefs/` and optionally emailed.
 
 ### Quick Start
 1.  **Clone the Repo**: `git clone https://github.com/kvwilliamson/TheBrief.git`
