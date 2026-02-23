@@ -40,7 +40,13 @@ The pipeline runs as a single Python script (`main.py`) with four discrete stage
 4. **Curate Channels**:
    Update `channels.json` with the names and actual YouTube Channel IDs you wish to track.
 
-5. **Run the Pipeline**:
+5. **Run the Dashboard UI (Recommended)**:
+   ```bash
+   streamlit run app.py
+   ```
+   *This will open a local web page where you can view your briefs, manage channels, and manually trigger the pipeline.*
+
+6. **Run the Pipeline Headless**:
    ```bash
    python main.py
    ```

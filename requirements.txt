@@ -8,3 +8,4 @@ langchain-google-genai
 langchain-openai
 tinydb
 isodate
+streamlit>=1.40.0
