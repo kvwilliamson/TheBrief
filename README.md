@@ -11,6 +11,11 @@ The pipeline runs as a single Python script (`main.py`) with four discrete stage
 3. **Transcription**: Converts the audio to a full text transcript. Can be configured to run locally (free) via `faster-whisper` or via the OpenAI Whisper API.
 4. **Summarization & Delivery**: Feeds each transcript into an LLM (Google Gemini 1.5 Pro, with an OpenAI fallback) with a structured prompt to generate a JSON summary. The summary is saved as a Markdown file in `/briefs/` and optionally emailed.
 
+### Quick Start
+1.  **Clone the Repo**: `git clone https://github.com/kvwilliamson/TheBrief.git`
+2.  **API Keys**: Create a `.env` file (see `.env.example`) and add your `YOUTUBE_API_KEY`, `GOOGLE_AI_API_KEY`, etc.
+3.  **Launch**: Run `./run.sh` from the terminal. 🚀
+
 ## Local Setup
 
 1. **Clone the repository**:

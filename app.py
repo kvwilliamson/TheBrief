@@ -126,7 +126,32 @@ tab1, tab2, tab3, tab4 = st.tabs(["📑 Daily Briefs", "📺 Channels", "🔍 Di
 with tab1:
     st.header("Latest Briefs")
     briefs = load_briefs()
+    queue = load_queue()
     
+    # --- Status Overview Card ---
+    last_brief_date = briefs[0]["date"] if briefs else "Never"
+    pending_count = len(queue)
+    
+    st.markdown(f"""
+        <div style='background-color: #1e1e1e; padding: 20px; border-radius: 10px; border-left: 5px solid #00d1b2; margin-bottom: 25px;'>
+            <h3 style='margin-top: 0;'>Welcome Back! 👋</h3>
+            <p style='margin-bottom: 5px;'>📅 <b>Last Brief Generated:</b> {last_brief_date}</p>
+            <p style='margin-bottom: 10px;'>📹 <b>Pending in Queue:</b> {pending_count} new video{'s' if pending_count != 1 else ''} ready to be briefed.</p>
+        </div>
+    """, unsafe_allow_html=True)
+    
+    col_btn, _ = st.columns([1, 3])
+    with col_btn:
+        if st.button("✨ Check for New Videos", use_container_width=True):
+            with st.spinner("Scanning channels..."):
+                try:
+                    from pipeline.discovery import run_discovery
+                    new_videos = run_discovery()
+                    st.success(f"Discovered {len(new_videos)} new videos!")
+                    st.rerun()
+                except Exception as e:
+                    st.error(f"Discovery failed: {e}")
+
     if not briefs:
         st.info("No briefs generated yet. Run the pipeline to generate your first brief!")
     else:
@@ -166,22 +191,28 @@ with tab2:
                         c_id, c_name = None, None
                         
                         if "youtube.com" in new_channel_input or "youtu.be" in new_channel_input:
-                            c_id, c_name = get_channel_id_from_url(youtube, new_channel_input)
+                            c_id, c_name, c_thumb = get_channel_id_from_url(youtube, new_channel_input)
                         else:
-                            c_id, c_name = search_channel_by_name(youtube, new_channel_input)
+                            c_id, c_name, c_thumb = search_channel_by_name(youtube, new_channel_input)
                             
                         if not c_id:
                             st.error(f"Could not find a channel matching '{new_channel_input}'")
                         else:
-                            # Fetch name if missing
-                            if not c_name:
+                            # Fetch name/thumb if missing
+                            if not c_name or not c_thumb:
                                 resp = youtube.channels().list(part="snippet", id=c_id).execute()
-                                c_name = resp["items"][0]["snippet"]["title"] if resp.get("items") else "Unknown"
+                                if resp.get("items"):
+                                    snippet = resp["items"][0]["snippet"]
+                                    c_name = c_name or snippet["title"]
+                                    c_thumb = c_thumb or snippet["thumbnails"]["default"]["url"]
+                                else:
+                                    c_name = c_name or "Unknown"
+                                    c_thumb = c_thumb or ""
                                 
                             if any(c.get("id") == c_id for c in st.session_state.channels):
                                 st.warning(f"Channel '{c_name}' is already being tracked.")
                             else:
-                                st.session_state.channels.append({"name": c_name, "id": c_id})
+                                st.session_state.channels.append({"name": c_name, "id": c_id, "thumbnail": c_thumb})
                                 save_channels(st.session_state.channels)
                                 st.success(f"Added {c_name}!")
                                 st.rerun()
@@ -193,10 +224,12 @@ with tab2:
         st.info("No channels are currently being tracked.")
     else:
         for i, channel in enumerate(st.session_state.channels):
-            col1, col2 = st.columns([4, 1])
+            col1, col2, col3 = st.columns([1, 4, 1])
             with col1:
-                st.markdown(f"**{channel['name']}**  \n`{channel['id']}`")
+                show_channel_image(channel.get("thumbnail"))
             with col2:
+                st.markdown(f"**{channel['name']}**  \n`{channel['id']}`")
+            with col3:
                 if st.button("Remove", key=f"del_{i}", type="secondary", use_container_width=True):
                     st.session_state.channels.pop(i)
                     save_channels(st.session_state.channels)
@@ -247,7 +280,11 @@ with tab3:
                     st.button("Tracking", disabled=True, key=f"btn_track_{item['id']}")
                 else:
                     if st.button("Add", key=f"btn_add_{item['id']}", type="primary"):
-                        st.session_state.channels.append({"name": item["name"], "id": item["id"]})
+                        st.session_state.channels.append({
+                            "name": item["name"], 
+                            "id": item["id"], 
+                            "thumbnail": item["thumb"]
+                        })
                         save_channels(st.session_state.channels)
                         st.success(f"Added {item['name']}!")
                         # Don't rerun immediately to stay in Discover tab and see other results
