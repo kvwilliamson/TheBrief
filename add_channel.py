@@ -23,7 +23,8 @@ def get_channel_id_from_url(youtube, url):
         try:
             resp = youtube.search().list(part="snippet", type="channel", q=handle, maxResults=1).execute()
             if resp.get("items"):
-                return resp["items"][0]["snippet"]["channelId"], resp["items"][0]["snippet"]["title"]
+                snippet = resp["items"][0]["snippet"]
+                return snippet["channelId"], snippet["title"], snippet["thumbnails"]["default"]["url"]
         except Exception as e:
             print(f"Error searching for handle {handle}: {e}")
             
@@ -36,10 +37,10 @@ def search_channel_by_name(youtube, name):
         resp = youtube.search().list(part="snippet", type="channel", q=name, maxResults=1).execute()
         if resp.get("items"):
             item = resp["items"][0]["snippet"]
-            return item["channelId"], item["channelTitle"]
+            return item["channelId"], item["channelTitle"], item["thumbnails"]["default"]["url"]
     except Exception as e:
         print(f"Error searching for channel '{name}': {e}")
-    return None, None
+    return None, None, None
 
 def add_channel():
     load_dotenv()
@@ -68,28 +69,32 @@ def add_channel():
         if not query:
             break
             
-        channel_id, channel_name = None, None
+        channel_id, channel_name, channel_thumb = None, None, None
         
         # Try as URL first, fallback to name search
         if "youtube.com" in query or "youtu.be" in query:
-            channel_id, channel_name = get_channel_id_from_url(youtube, query)
+            channel_id, channel_name, channel_thumb = get_channel_id_from_url(youtube, query)
         else:
-            channel_id, channel_name = search_channel_by_name(youtube, query)
+            channel_id, channel_name, channel_thumb = search_channel_by_name(youtube, query)
             
         if not channel_id:
             print(f"❌ Could not find a channel matching: '{query}'")
             continue
             
-        # If we got an ID but no name (e.g. from a raw /channel/ URL), fetch the name
-        if not channel_name:
+        # If we got an ID but no name or thumb, fetch them
+        if not channel_name or not channel_thumb:
             try:
                 resp = youtube.channels().list(part="snippet", id=channel_id).execute()
                 if resp.get("items"):
-                    channel_name = resp["items"][0]["snippet"]["title"]
+                    snippet = resp["items"][0]["snippet"]
+                    channel_name = channel_name or snippet["title"]
+                    channel_thumb = channel_thumb or snippet["thumbnails"]["default"]["url"]
                 else:
-                    channel_name = "Unknown Channel"
+                    channel_name = channel_name or "Unknown Channel"
+                    channel_thumb = channel_thumb or ""
             except Exception:
-                channel_name = "Unknown Channel"
+                channel_name = channel_name or "Unknown Channel"
+                channel_thumb = channel_thumb or ""
                 
         # Check for duplicates
         if any(c.get("id") == channel_id for c in data["channels"]):
@@ -97,7 +102,7 @@ def add_channel():
             continue
             
         # Add and save
-        new_channel = {"name": channel_name, "id": channel_id}
+        new_channel = {"name": channel_name, "id": channel_id, "thumbnail": channel_thumb}
         data["channels"].append(new_channel)
         
         with open(channels_file, "w") as f:
