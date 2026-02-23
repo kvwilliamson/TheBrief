@@ -133,8 +133,8 @@ with tab1:
     pending_count = len(queue)
     
     st.markdown(f"""
-        <div style='background-color: #1e1e1e; padding: 20px; border-radius: 10px; border-left: 5px solid #00d1b2; margin-bottom: 25px;'>
-            <h3 style='margin-top: 0;'>Welcome Back! 👋</h3>
+        <div style='background-color: #1e1e1e; padding: 20px; border-radius: 10px; border-left: 5px solid #00d1b2; margin-bottom: 25px; color: #ffffff;'>
+            <h3 style='margin-top: 0; color: #ffffff;'>Welcome Back! 👋</h3>
             <p style='margin-bottom: 5px;'>📅 <b>Last Brief Generated:</b> {last_brief_date}</p>
             <p style='margin-bottom: 10px;'>📹 <b>Pending in Queue:</b> {pending_count} new video{'s' if pending_count != 1 else ''} ready to be briefed.</p>
         </div>
