@@ -20,7 +20,6 @@ logging.basicConfig(
 # Imports must happen AFTER root logger is configured
 from pipeline.discovery import run_discovery
 from pipeline.extraction import run_extraction
-from pipeline.transcription import run_transcription
 from pipeline.summarization import run_summarization
 
 def main():
@@ -49,11 +48,7 @@ def main():
     run_extraction()
     
     # Phase 3
-    logging.info("\n--- Phase 3: Transcription ---")
-    run_transcription()
-    
-    # Phase 4
-    logging.info("\n--- Phase 4: Summarization ---")
+    logging.info("\n--- Phase 3: Summarization (Direct Audio) ---")
     run_summarization()
     
     logging.info("="*50)

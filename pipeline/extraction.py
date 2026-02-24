@@ -2,6 +2,9 @@ import os
 import subprocess
 import json
 import logging
+import concurrent.futures
+import time
+import random
 
 logger = logging.getLogger(__name__)
 
@@ -30,6 +33,9 @@ def get_ffmpeg_path():
 
 def extract_audio_for_video(video):
     """Extracts audio for a single video using yt-dlp."""
+    # Introduce random jitter (1-4 seconds) to prevent YouTube bot detection when threaded
+    time.sleep(random.uniform(1, 4))
+
     video_id = video["id"]
     video_url = video["url"]
     
@@ -49,6 +55,7 @@ def extract_audio_for_video(video):
     
     command = [
         os.path.join(os.getcwd(), "venv", "bin", "yt-dlp"), # Use venv path explicitly
+        "--cookies-from-browser", "chrome",
         "-x",
         "--audio-format", "mp3",
         "--postprocessor-args", "-ar 16000 -ac 1",
@@ -85,10 +92,17 @@ def run_extraction():
         return []
         
     processed_queue = []
-    for video in queue:
-        result = extract_audio_for_video(video)
-        if result:
-            processed_queue.append(result)
+    
+    # Run audio extraction concurrently with a lower worker pool to avoid 429s
+    with concurrent.futures.ThreadPoolExecutor(max_workers=2) as executor:
+        # Submit all extraction jobs
+        future_to_video = {executor.submit(extract_audio_for_video, video): video for video in queue}
+        
+        # Collect results as they complete
+        for future in concurrent.futures.as_completed(future_to_video):
+            result = future.result()
+            if result:
+                processed_queue.append(result)
             
     # Update queue with audio paths
     with open(queue_path, "w") as f:

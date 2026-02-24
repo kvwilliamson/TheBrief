@@ -1,6 +1,7 @@
 import os
 import json
 import logging
+import concurrent.futures
 from datetime import datetime
 import smtplib
 from email.mime.text import MIMEText
@@ -12,6 +13,8 @@ from langchain_openai import ChatOpenAI
 from langchain_core.exceptions import OutputParserException
 from pydantic import BaseModel, Field
 from typing import List
+import google.generativeai as genai
+import time
 
 logger = logging.getLogger(__name__)
 
@@ -53,8 +56,9 @@ def get_llm():
     
     if model_choice == "gemini":
         try:
+            # We must use gemini-2.5-flash for native audio understanding
             return ChatGoogleGenerativeAI(
-                model="gemini-2.0-flash",
+                model="gemini-2.5-flash",
                 temperature=0.2,
                 google_api_key=os.getenv("GOOGLE_AI_API_KEY")
             )
@@ -73,12 +77,35 @@ def get_llm():
         )
 
 def summarize_transcript(video, llm):
-    logger.info(f"Summarizing: {video['title']}")
+    logger.info(f"Summarizing natively via Audio: {video['title']}")
     
     parser = JsonOutputParser(pydantic_object=BriefSchema)
     
+    # 1. Upload Audio to Gemini
+    audio_path = video.get("audio_path")
+    if not audio_path or not os.path.exists(audio_path):
+        logger.error(f"Missing audio path for {video['title']}")
+        return None
+        
+    genai.configure(api_key=os.getenv("GOOGLE_AI_API_KEY"))
+    logger.info(f"  Uploading {audio_path} to Gemini...")
+    file_handle = genai.upload_file(path=audio_path, mime_type="audio/mpeg")
+    
+    # Wait for processing
+    while file_handle.state.name == "PROCESSING":
+        time.sleep(2)
+        file_handle = genai.get_file(file_handle.name)
+        
+    if file_handle.state.name == "FAILED":
+        logger.error(f"Gemini File API processing failed for {video['title']}")
+        return None
+        
+    logger.info(f"  File ready. Generating High-Utility Decision Brief...")
+    
+    # 2. Build the LLM Chain natively passing the file_handle
     prompt = PromptTemplate(
-        template="You are an expert intelligence analyst generating a high-utility, decision-oriented Intelligence Brief.\n"
+        template="You are an expert intelligence analyst generating a high-utility, decision-oriented Intelligence Brief directly from an audio file.\n"
+                 "Listen to the attached audio and extract the core thesis and arguments.\n\n"
                  "Your strict constraints:\n"
                  "1. Tone: Intelligence memo, not analyst blog. No academic verbosity, no marketing tone, no emotional language, no hype formatting, no emojis.\n"
                  "2. Limit bullets per section to 6. Max total word count 400-600 words.\n"
@@ -86,30 +113,46 @@ def summarize_transcript(video, llm):
                  "4. Output MUST conform exactly to the JSON schema.\n"
                  "5. Disconfirming signals must be observable, time-bound, and max 3 items. No generic macro hedging language.\n"
                  "6. Provide a Historical Parallel if applicable in one tight paragraph.\n\n"
-                 "Analyze the following transcript and output a JSON object matching the exact format instructions.\n\n"
                  "Video details:\nTitle: {title}\nChannel: {channel}\nDuration: {duration_minutes} minutes\n\n"
-                 "Transcript:\n{transcript}\n\n"
                  "Format instructions:\n{format_instructions}\n\n",
-        input_variables=["title", "channel", "duration_minutes", "transcript"],
+        input_variables=["title", "channel", "duration_minutes"],
         partial_variables={"format_instructions": parser.get_format_instructions()},
     )
     
-    chain = prompt | llm | parser
-    
     try:
-        result = chain.invoke({
-            "title": video["title"],
-            "channel": video["channel"],
-            "duration_minutes": int(video.get("duration_minutes", 0)),
-            "transcript": video.get("transcript", "")
-        })
-        return result
-    except OutputParserException as e:
-        logger.error(f"Failed to parse LLM output for {video['title']}: {e}")
-        return None
+        # Langchain Google GenAI accepts a list of [prompt_text, gemini_file_uri]
+        formatted_prompt = prompt.format(
+            title=video.get("title", ""),
+            channel=video.get("channel", ""),
+            duration_minutes=video.get("duration_minutes", 0)
+        )
+        
+        # Invoke native multi-modal model
+        response = llm.invoke([formatted_prompt, file_handle.uri])
+        
+        # Parse the JSON response manually since we bypassed the standard chain
+        try:
+            result = parser.parse(response.content)
+            return result
+        except OutputParserException as e:
+            logger.error(f"Schema parsing error for {video['title']}: {e}")
+            return None
+            
     except Exception as e:
-        logger.error(f"Error during summarization for {video['title']}: {e}")
+        logger.error(f"Error summarising audio {video['title']}: {e}")
         return None
+    finally:
+        # 3. Clean up the file from the File API
+        try:
+            genai.delete_file(file_handle.name)
+        except Exception as e:
+            logger.warning(f"Failed to delete file from Gemini API: {e}")
+            
+        # Delete local copy
+        try:
+            os.remove(audio_path)
+        except OSError:
+            pass
 
 def format_markdown(brief: dict) -> str:
     md = f"## {brief.get('episode_title', 'Unknown Title')}\n"
@@ -249,51 +292,77 @@ def send_email_digest(html_content, date_str):
 def run_summarization():
     queue_path = os.path.join("data", "queue.json")
     if not os.path.exists(queue_path):
-        logger.error("No queue found. Run transcription first.")
-        return
+        logger.error("No queue found. Run extraction first.")
+        return []
         
     with open(queue_path, "r") as f:
         queue = json.load(f)
         
     if not queue:
-        logger.info("Queue is empty, nothing to summarize.")
-        return
+        logger.info("Queue is empty. No transcripts to summarize.")
+        return []
         
     llm = get_llm()
-    
+    processed_queue = []
+    briefs_content = []
+
+    def process_video_summary(video):
+        # Transcripts no longer required; we pass audio directly
+        brief = summarize_transcript(video, llm)
+        if brief:
+            video["brief"] = brief
+            # Generate markdown and HTML components
+            md = format_markdown(brief)
+            html = format_html(brief)
+            
+            # Update DB to mark as processed
+            db_path = os.path.join("data", "processed_videos.json")
+            try:
+                from tinydb import TinyDB
+                db = TinyDB(db_path)
+                db.insert({"id": video["id"], "title": video["title"], "processed_at": datetime.now().isoformat()})
+            except Exception as e:
+                logger.warning(f"Note: Error updating processed_videos db: {e}")
+                
+            return video, (md, html)
+        return None, None
+
+    # Run summarization concurrently
+    with concurrent.futures.ThreadPoolExecutor(max_workers=3) as executor:
+        future_to_video = {executor.submit(process_video_summary, video): video for video in queue}
+        for future in concurrent.futures.as_completed(future_to_video):
+            v_res, format_res = future.result()
+            if v_res and format_res:
+                processed_queue.append(v_res)
+                briefs_content.append(format_res)
+                
+    if not processed_queue:
+        logger.warning("No briefs were successfully generated.")
+        return []
+        
+    # Compile final outputs
     date_str = datetime.now().strftime("%Y-%m-%d")
+    md_filename = os.path.join("briefs", f"{date_str}.md")
     os.makedirs("briefs", exist_ok=True)
-    md_file_path = os.path.join("briefs", f"{date_str}.md")
     
-    all_html_content = f"<h1>TheBrief - Daily Digest ({date_str})</h1>"
+    # Sort briefs by original queue order (or just append)
+    final_md = ""
+    final_html = f"<html><body><h1>TheBrief Daily Digest - {date_str}</h1>"
     
-    briefs_generated = 0
-    with open(md_file_path, "a") as md_file:
-        for video in queue:
-            if not video.get("transcript"):
-                continue
-                
-            brief_json = summarize_transcript(video, llm)
-            if brief_json:
-                md_content = format_markdown(brief_json)
-                md_file.write(md_content)
-                all_html_content += format_html(brief_json)
-                briefs_generated += 1
-                
-                # Update DB to mark as processed
-                db_path = os.path.join("data", "processed_videos.json")
-                try:
-                    from tinydb import TinyDB
-                    db = TinyDB(db_path)
-                    db.insert({"id": video["id"], "title": video["title"], "processed_at": datetime.now().isoformat()})
-                except Exception as e:
-                    logger.warning(f"Note: Error updating processed_videos db: {e}")
-                    
-    logger.info(f"Summarization complete. {briefs_generated} briefs written to {md_file_path}")
+    for md, html in briefs_content:
+        final_md += md
+        final_html += html
+        
+    final_html += "</body></html>"
+    
+    # Write or append to the daily Markdown file
+    mode = "a" if os.path.exists(md_filename) else "w"
+    with open(md_filename, mode) as f:
+        f.write(final_md)
+        
+    logger.info(f"Summarization complete. {len(processed_queue)} briefs written to {md_filename}")
     
     send_email = str(os.getenv("SEND_EMAIL", "false")).lower() == "true"
-    if send_email and briefs_generated > 0:
-        send_email_digest(all_html_content, date_str)
         
     # Clear queue after successful processing
     with open(queue_path, "w") as f:

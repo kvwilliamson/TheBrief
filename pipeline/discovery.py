@@ -1,6 +1,7 @@
 import os
 import json
 import logging
+import concurrent.futures
 from datetime import datetime, timedelta, timezone
 from googleapiclient.discovery import build
 import isodate
@@ -123,17 +124,25 @@ def run_discovery():
         logger.info("No channels configured.")
         return []
     
-    # Threshold: X hours ago (default 24)
     lookback_hours = int(os.getenv("DISCOVERY_LOOKBACK_HOURS", "24"))
     published_after = datetime.now(timezone.utc) - timedelta(hours=lookback_hours)
     logger.info(f"Discovering videos published after {published_after.isoformat()} ({lookback_hours}h lookback)")
     
     all_recent_videos = []
-    for channel in channels:
+    
+    def process_channel(channel):
         logger.info(f"Checking channel: {channel['name']} ({channel['id']})")
-        recent = get_recent_videos(youtube, channel["id"], published_after)
-        logger.info(f"  Found {len(recent)} recent videos.")
-        all_recent_videos.extend(recent)
+        # Build a new fast google client for each thread to avoid Http2 issues
+        local_youtube = build("youtube", "v3", developerKey=api_key, cache_discovery=False)
+        recent = get_recent_videos(local_youtube, channel["id"], published_after)
+        logger.info(f"  [{channel['name']}] Found {len(recent)} recent videos.")
+        return recent
+
+    # Run YouTube API requests concurrently
+    with concurrent.futures.ThreadPoolExecutor(max_workers=5) as executor:
+        results = executor.map(process_channel, channels)
+        for res in results:
+            all_recent_videos.extend(res)
         
     # Filter by duration > 20 mins
     long_videos = filter_long_form(youtube, all_recent_videos)
