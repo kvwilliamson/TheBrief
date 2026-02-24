@@ -85,19 +85,24 @@ def filter_long_form(youtube, videos):
             ).execute()
             
             for item in video_response.get("items", []):
-                duration_iso = item["contentDetails"]["duration"]
+                content_details = item.get("contentDetails", {})
+                duration_iso = content_details.get("duration")
+                if not duration_iso:
+                    continue # Skip premiere or live stream without a set duration
+                    
                 try:
                     duration = isodate.parse_duration(duration_iso)
                     duration_mins = duration.total_seconds() / 60
                     
                     if duration_mins > 5: 
-                        original_video = next(v for v in videos if v["id"] == item["id"])
-                        # Add duration info
-                        original_video["duration_iso"] = duration_iso
-                        original_video["duration_minutes"] = duration_mins
-                        original_video["url"] = f"https://www.youtube.com/watch?v={item['id']}"
-                        original_video["tags"] = item["snippet"].get("tags", [])
-                        long_videos.append(original_video)
+                        original_video = next((v for v in videos if v["id"] == item["id"]), None)
+                        if original_video:
+                            # Add duration info
+                            original_video["duration_iso"] = duration_iso
+                            original_video["duration_minutes"] = duration_mins
+                            original_video["url"] = f"https://www.youtube.com/watch?v={item['id']}"
+                            original_video["tags"] = item["snippet"].get("tags", [])
+                            long_videos.append(original_video)
                 except Exception as e:
                     logger.error(f"Error parsing duration {duration_iso} for video {item['id']}: {e}")
         except Exception as e:
