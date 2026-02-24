@@ -58,6 +58,8 @@ def extract_audio_for_video(video):
         "--audio-format", "mp3",
         "--postprocessor-args", "-ar 16000 -ac 1",
         "--ffmpeg-location", ffmpeg_path,
+        "--force-ipv4",
+        "--extractor-args", "youtube:player_client=ios,android",
         "-o", output_template,
         video_url
     ]
