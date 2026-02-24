@@ -13,7 +13,7 @@ from langchain_openai import ChatOpenAI
 from langchain_core.exceptions import OutputParserException
 from pydantic import BaseModel, Field
 from typing import List
-import google.generativeai as genai
+from google import genai
 import time
 
 logger = logging.getLogger(__name__)
@@ -50,6 +50,8 @@ class BriefSchema(BaseModel):
     mechanism: Mechanism = Field(description="Plain-language mechanism summary")
     disconfirming_signals: List[str] = Field(description="Max 3 observable, time-bound disconfirming signals to watch")
     historical_parallel: str = Field(description="Optional one brief comparison to a historical parallel. Empty string if not applicable.")
+    one_line_summary: str = Field(description="A single sentence summarizes the core thesis.")
+    emotional_conviction: str = Field(description="Summary of the speaker's tone, inflection, and underlying hesitation or conviction. (e.g., 'Assertive but avoids specifics' or 'Notably defensive')")
     positioning_risk: str = Field(description="Strictly one of: Crowded, Neutral, Underowned, Unknown. Only if financial topic, otherwise empty.")
 def get_llm():
     model_choice = os.getenv("SUMMARY_MODEL", "gemini").lower()
@@ -77,7 +79,7 @@ def get_llm():
         )
 
 def summarize_transcript(video, llm):
-    logger.info(f"Summarizing natively via Audio: {video['title']}")
+    # Start briefing
     
     parser = JsonOutputParser(pydantic_object=BriefSchema)
     
@@ -87,20 +89,20 @@ def summarize_transcript(video, llm):
         logger.error(f"Missing audio path for {video['title']}")
         return None
         
-    genai.configure(api_key=os.getenv("GOOGLE_AI_API_KEY"))
-    logger.info(f"  Uploading {audio_path} to Gemini...")
-    file_handle = genai.upload_file(path=audio_path, mime_type="audio/mpeg")
+    client = genai.Client(api_key=os.getenv("GOOGLE_AI_API_KEY"))
+    # logger.info(f"Uploading {audio_path}...")
+    file_handle = client.files.upload(file=audio_path)
     
     # Wait for processing
-    while file_handle.state.name == "PROCESSING":
+    while file_handle.state == "PROCESSING":
         time.sleep(2)
-        file_handle = genai.get_file(file_handle.name)
+        file_handle = client.files.get(name=file_handle.name)
         
-    if file_handle.state.name == "FAILED":
-        logger.error(f"Gemini File API processing failed for {video['title']}")
+    if file_handle.state == "FAILED":
+        logger.error(f"Gemini processing failed for {video['title']}")
         return None
         
-    logger.info(f"  File ready. Generating High-Utility Decision Brief...")
+    logger.info(f"Generating Brief for {video['title']}...")
     
     # 2. Build the LLM Chain natively passing the file_handle
     prompt = PromptTemplate(
@@ -112,10 +114,12 @@ def summarize_transcript(video, llm):
                  "3. Short paragraphs. No section may exceed 25% of total length. If thesis is repetitive, shorten proportionally.\n"
                  "4. Output MUST conform exactly to the JSON schema.\n"
                  "5. Disconfirming signals must be observable, time-bound, and max 3 items. No generic macro hedging language.\n"
-                 "6. Provide a Historical Parallel if applicable in one tight paragraph.\n\n"
-                 "Video details:\nTitle: {title}\nChannel: {channel}\nDuration: {duration_minutes} minutes\n\n"
+                 "6. Provide a Historical Parallel if applicable in one tight paragraph.\n"
+                 "7. The 'one_line_summary' must be a single, punchy sentence that captures the absolute core thesis for a quick-scan index.\n"
+                 "8. AUDIO ANALYSIS: You are listening to raw audio. Pay close attention to tone of voice, pacing, and inflection. In the 'emotional_conviction' field, note if the speaker sounds genuinely worried, overly defensive, or high-conviction. Detect 'unspoken' signals like sarcasm or hesitation.\n\n"
+                 "Video details:\nTitle: {title}\nChannel: {channel}\nDuration: {duration_minutes} minutes\nKeywords: {tags}\n\n"
                  "Format instructions:\n{format_instructions}\n\n",
-        input_variables=["title", "channel", "duration_minutes"],
+        input_variables=["title", "channel", "duration_minutes", "tags"],
         partial_variables={"format_instructions": parser.get_format_instructions()},
     )
     
@@ -124,7 +128,8 @@ def summarize_transcript(video, llm):
         formatted_prompt = prompt.format(
             title=video.get("title", ""),
             channel=video.get("channel", ""),
-            duration_minutes=video.get("duration_minutes", 0)
+            duration_minutes=video.get("duration_minutes", 0),
+            tags=", ".join(video.get("tags", []))
         )
         
         # Invoke native multi-modal model
@@ -144,7 +149,7 @@ def summarize_transcript(video, llm):
     finally:
         # 3. Clean up the file from the File API
         try:
-            genai.delete_file(file_handle.name)
+            client.files.delete(name=file_handle.name)
         except Exception as e:
             logger.warning(f"Failed to delete file from Gemini API: {e}")
             
@@ -154,31 +159,28 @@ def summarize_transcript(video, llm):
         except OSError:
             pass
 
-def format_markdown(brief: dict) -> str:
-    md = f"## {brief.get('episode_title', 'Unknown Title')}\n"
+def format_markdown(brief: dict, video_url: str = "") -> str:
+    title = brief.get('episode_title', 'Unknown Title')
+    if video_url:
+        md = f"## [{title}]({video_url})\n"
+    else:
+        md = f"## {title}\n"
     md += f"**{brief.get('channel', 'Unknown')}** | **Length:** {brief.get('duration_minutes', 0)} min | **Domain:** {brief.get('topic_domain', 'Unknown')}\n\n"
     
     euc = brief.get('executive_use_case', {})
-    md += "### Executive Use Case\n"
-    md += f"- **Signal type:** {euc.get('signal_type')}\n"
-    md += f"- **Positioning impact:** {euc.get('positioning_impact')}\n"
-    md += f"- **Time horizon:** {euc.get('time_horizon')}\n"
-    md += f"- **Confidence:** {euc.get('confidence_level')}\n"
-    md += f"- **Incentive bias:** {euc.get('incentive_bias')}\n"
-    md += f"- **Consensus context:** {euc.get('consensus_context')}\n"
-    
-    pos_risk = brief.get('positioning_risk')
-    if pos_risk:
-        md += f"- **Positioning Risk:** {pos_risk}\n"
-    md += "\n"
+    md += f"**Signal:** {euc.get('signal_type')} | "
+    md += f"**Impact:** {euc.get('positioning_impact')} | "
+    md += f"**Horizon:** {euc.get('time_horizon')} | "
+    md += f"**Tone:** {brief.get('emotional_conviction')}\n"
+    md += f"**Confidence:** {euc.get('confidence_level')} | "
+    md += f"**Context:** {euc.get('consensus_context')}\n\n"
 
     claims = brief.get('core_claims', [])
     if claims:
         md += "### Core Claims\n"
-        for i, claim in enumerate(claims[:6], 1):
-            md += f"**Claim {i}:** {claim.get('claim')}\n"
-            md += f"- **Evidence:** {claim.get('evidence_cited')} (Type: {claim.get('evidence_type')})\n"
-            md += f"- **Strength:** {claim.get('evidence_strength')}\n\n"
+        for claim in claims[:6]:
+            md += f"- **{claim.get('claim')}**\n"
+            md += f"  *Evidence:* {claim.get('evidence_cited')} ({claim.get('evidence_strength')} strength {claim.get('evidence_type')})\n\n"
 
     mech = brief.get('mechanism', {})
     if mech:
@@ -203,31 +205,30 @@ def format_markdown(brief: dict) -> str:
     md += "---\n\n"
     return md
 
-def format_html(brief: dict) -> str:
-    html = f"<h2>{brief.get('episode_title', 'Unknown Title')}</h2>"
+def format_html(brief: dict, video_url: str = "") -> str:
+    title = brief.get('episode_title', 'Unknown Title')
+    if video_url:
+        html = f"<h2><a href='{video_url}' style='text-decoration: none; color: #00d1b2;'>{title}</a></h2>"
+    else:
+        html = f"<h2>{title}</h2>"
     html += f"<p><strong>{brief.get('channel', 'Unknown')}</strong> | <strong>Length:</strong> {brief.get('duration_minutes', 0)} min | <strong>Domain:</strong> {brief.get('topic_domain', 'Unknown')}</p>"
     
     euc = brief.get('executive_use_case', {})
-    html += "<h3>Executive Use Case</h3><ul>"
-    html += f"<li><strong>Signal type:</strong> {euc.get('signal_type')}</li>"
-    html += f"<li><strong>Positioning impact:</strong> {euc.get('positioning_impact')}</li>"
-    html += f"<li><strong>Time horizon:</strong> {euc.get('time_horizon')}</li>"
-    html += f"<li><strong>Confidence:</strong> {euc.get('confidence_level')}</li>"
-    html += f"<li><strong>Incentive bias:</strong> {euc.get('incentive_bias')}</li>"
-    html += f"<li><strong>Consensus context:</strong> {euc.get('consensus_context')}</li>"
-    
-    pos_risk = brief.get('positioning_risk')
-    if pos_risk:
-        html += f"<li><strong>Positioning risk:</strong> {pos_risk}</li>"
-    html += "</ul>"
+    html += f"<p style='color: #888; border-top: 1px solid #333; border-bottom: 1px solid #333; padding: 10px 0;'>"
+    html += f"<b>Signal:</b> {euc.get('signal_type')} &nbsp;|&nbsp; "
+    html += f"<b>Impact:</b> {euc.get('positioning_impact')} &nbsp;|&nbsp; "
+    html += f"<b>Horizon:</b> {euc.get('time_horizon')}<br/>"
+    html += f"<b>Tone:</b> {brief.get('emotional_conviction')} &nbsp;|&nbsp; "
+    html += f"<b>Confidence:</b> {euc.get('confidence_level')} &nbsp;|&nbsp; "
+    html += f"<b>Context:</b> {euc.get('consensus_context')}"
+    html += "</p>"
 
     claims = brief.get('core_claims', [])
     if claims:
         html += "<h3>Core Claims</h3>"
-        for i, claim in enumerate(claims[:6], 1):
-            html += f"<p><strong>Claim {i}:</strong> {claim.get('claim')}<br/>"
-            html += f"&nbsp;&nbsp;&nbsp;&nbsp;<strong>Evidence:</strong> {claim.get('evidence_cited')} (Type: {claim.get('evidence_type')})<br/>"
-            html += f"&nbsp;&nbsp;&nbsp;&nbsp;<strong>Strength:</strong> {claim.get('evidence_strength')}</p>"
+        for claim in claims[:6]:
+            html += f"<p><strong>{claim.get('claim')}</strong><br/>"
+            html += f"<span style='color: #aaa; font-size: 0.9em;'>Evidence: {claim.get('evidence_cited')} ({claim.get('evidence_strength')} {claim.get('evidence_type')})</span></p>"
 
     mech = brief.get('mechanism', {})
     if mech:
@@ -253,7 +254,7 @@ def format_html(brief: dict) -> str:
     return html
 
 def send_email_digest(html_content, date_str):
-    logger.info("Preparing email digest...")
+    # Prepare email
     email_to = os.getenv("EMAIL_TO")
     email_from = os.getenv("EMAIL_FROM")
     smtp_host = os.getenv("SMTP_HOST")
@@ -278,7 +279,7 @@ def send_email_digest(html_content, date_str):
             host, port_str = smtp_host.split(":")
             port = int(port_str)
             
-        logger.info(f"Connecting to SMTP server {host}:{port}")
+        # Connect to server
         server = smtplib.SMTP(host, port)
         server.starttls()
         smtp_user = os.getenv("SMTP_USER", email_from)
@@ -305,6 +306,7 @@ def run_summarization():
     llm = get_llm()
     processed_queue = []
     briefs_content = []
+    start_time = time.time()
 
     def process_video_summary(video):
         # Transcripts no longer required; we pass audio directly
@@ -312,8 +314,9 @@ def run_summarization():
         if brief:
             video["brief"] = brief
             # Generate markdown and HTML components
-            md = format_markdown(brief)
-            html = format_html(brief)
+            # Generate markdown and HTML components with URL
+            md = format_markdown(brief, video.get('url', ''))
+            html = format_html(brief, video.get('url', ''))
             
             # Update DB to mark as processed
             db_path = os.path.join("data", "processed_videos.json")
@@ -345,9 +348,38 @@ def run_summarization():
     md_filename = os.path.join("briefs", f"{date_str}.md")
     os.makedirs("briefs", exist_ok=True)
     
+    # Calculate Aggregate Stats
+    total_videos = len(processed_queue)
+    total_time = sum(v.get('duration_minutes', 0) for v in processed_queue)
+    
+    # Build the "At a Glance" Summary Section
+    summary_md = f"# TheBrief Daily Dispatch - {date_str}\n\n"
+    summary_md += f"### 📊 At a Glance\n"
+    summary_md += f"- **Total Intelligence Assets:** {total_videos} videos\n"
+    summary_md += f"- **Total Subject Time:** {total_time:.1f} minutes\n\n"
+    summary_md += "#### 📌 Quick-Scan Index\n"
+    
+    summary_html = f"<html><body style='font-family: sans-serif; color: #333;'>"
+    summary_html += f"<h1>TheBrief Daily Dispatch - {date_str}</h1>"
+    summary_html += f"<h3>📊 At a Glance</h3>"
+    summary_html += f"<ul><li><strong>Total Intelligence Assets:</strong> {total_videos} videos</li>"
+    summary_html += f"<li><strong>Total Subject Time:</strong> {total_time:.1f} minutes</li></ul>"
+    summary_html += "<h4>📌 Quick-Scan Index</h4><ul>"
+
+    for v in processed_queue:
+        b = v.get('brief', {})
+        summary_md += f"- **{b.get('channel')}**: [{b.get('episode_title')}]({v.get('url')}) *({b.get('duration_minutes')}m)*\n"
+        summary_md += f"  > {b.get('one_line_summary')}\n"
+        
+        summary_html += f"<li><strong>{b.get('channel')}</strong>: <a href='{v.get('url')}'>{b.get('episode_title')}</a> <em>({b.get('duration_minutes')}m)</em><br/>"
+        summary_html += f"<em>{b.get('one_line_summary')}</em></li>"
+        
+    summary_md += "\n---\n\n"
+    summary_html += "</ul><hr/>"
+
     # Sort briefs by original queue order (or just append)
-    final_md = ""
-    final_html = f"<html><body><h1>TheBrief Daily Digest - {date_str}</h1>"
+    final_md = summary_md
+    final_html = summary_html
     
     for md, html in briefs_content:
         final_md += md
@@ -357,12 +389,17 @@ def run_summarization():
     
     # Write or append to the daily Markdown file
     mode = "a" if os.path.exists(md_filename) else "w"
-    with open(md_filename, mode) as f:
+    # If appending, we might NOT want to re-add the summary. 
+    # But for simplicity, we overwrite the daily file with the full session's results.
+    with open(md_filename, "w") as f:
         f.write(final_md)
         
-    logger.info(f"Summarization complete. {len(processed_queue)} briefs written to {md_filename}")
+    elapsed = time.time() - start_time
+    logger.info(f"Summarization complete. {len(processed_queue)} briefs written to {md_filename} (Time: {elapsed:.1f}s)")
     
     send_email = str(os.getenv("SEND_EMAIL", "false")).lower() == "true"
+    if send_email:
+        send_email_digest(final_html, date_str)
         
     # Clear queue after successful processing
     with open(queue_path, "w") as f:

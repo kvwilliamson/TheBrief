@@ -46,6 +46,7 @@ def get_recent_videos(youtube, channel_id, published_after):
                     videos.append({
                         "id": item["snippet"]["resourceId"]["videoId"],
                         "title": item["snippet"]["title"],
+                        "thumbnail": item["snippet"]["thumbnails"].get("high", {}).get("url", item["snippet"]["thumbnails"].get("default", {}).get("url", "")),
                         "channel": item["snippet"]["channelTitle"],
                         "channel_id": channel_id,
                         "published_at": pub_date_str
@@ -67,7 +68,7 @@ def get_recent_videos(youtube, channel_id, published_after):
         return []
 
 def filter_long_form(youtube, videos):
-    """Filter videos to only those longer than 20 minutes."""
+    """Filter videos to only those longer than 5 minutes."""
     if not videos:
         return []
         
@@ -79,7 +80,7 @@ def filter_long_form(youtube, videos):
         batch_ids = video_ids[i:i+50]
         try:
             video_response = youtube.videos().list(
-                part="contentDetails",
+                part="contentDetails,snippet",
                 id=",".join(batch_ids)
             ).execute()
             
@@ -89,12 +90,13 @@ def filter_long_form(youtube, videos):
                     duration = isodate.parse_duration(duration_iso)
                     duration_mins = duration.total_seconds() / 60
                     
-                    if duration_mins > 20: 
+                    if duration_mins > 5: 
                         original_video = next(v for v in videos if v["id"] == item["id"])
                         # Add duration info
                         original_video["duration_iso"] = duration_iso
                         original_video["duration_minutes"] = duration_mins
                         original_video["url"] = f"https://www.youtube.com/watch?v={item['id']}"
+                        original_video["tags"] = item["snippet"].get("tags", [])
                         long_videos.append(original_video)
                 except Exception as e:
                     logger.error(f"Error parsing duration {duration_iso} for video {item['id']}: {e}")
@@ -131,11 +133,11 @@ def run_discovery():
     all_recent_videos = []
     
     def process_channel(channel):
-        logger.info(f"Checking channel: {channel['name']} ({channel['id']})")
-        # Build a new fast google client for each thread to avoid Http2 issues
+        # logger.debug(f"Checking {channel['name']}...")
         local_youtube = build("youtube", "v3", developerKey=api_key, cache_discovery=False)
         recent = get_recent_videos(local_youtube, channel["id"], published_after)
-        logger.info(f"  [{channel['name']}] Found {len(recent)} recent videos.")
+        if recent:
+            logger.info(f"Found {len(recent)} new potential videos on {channel['name']}.")
         return recent
 
     # Run YouTube API requests concurrently
@@ -144,7 +146,7 @@ def run_discovery():
         for res in results:
             all_recent_videos.extend(res)
         
-    # Filter by duration > 20 mins
+    # Filter by duration > 5 mins
     long_videos = filter_long_form(youtube, all_recent_videos)
     logger.info(f"Found {len(long_videos)} total long-form videos across all channels.")
     
@@ -159,7 +161,7 @@ def run_discovery():
         if not db.contains(Video.id == video["id"]):
             queue.append(video)
         else:
-            logger.info(f"Skipping previously processed video: {video['title']}")
+            logger.debug(f"Skipping previously processed video: {video['title']}")
             
     # Save queue for next phase
     queue_path = os.path.join("data", "queue.json")

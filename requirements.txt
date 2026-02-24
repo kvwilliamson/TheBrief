@@ -2,7 +2,7 @@ google-api-python-client
 yt-dlp
 faster-whisper
 openai
-google-generativeai
+google-genai
 langchain
 langchain-google-genai
 langchain-openai

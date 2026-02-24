@@ -45,11 +45,10 @@ def extract_audio_for_video(video):
     final_output_path = os.path.join("audio", f"{video_id}.mp3")
     
     if os.path.exists(final_output_path):
-        logger.info(f"Audio already exists for {video_id}, skipping extraction.")
         video["audio_path"] = final_output_path
         return video
         
-    logger.info(f"Extracting audio for {video_id} ({video['title']})...")
+    # Log start is handled by caller
     
     ffmpeg_path = get_ffmpeg_path()
     
@@ -90,23 +89,27 @@ def run_extraction():
         return []
         
     processed_queue = []
+    start_time = time.time()
     
-    # Run audio extraction concurrently with a lower worker pool to avoid 429s
-    with concurrent.futures.ThreadPoolExecutor(max_workers=2) as executor:
-        # Submit all extraction jobs
-        future_to_video = {executor.submit(extract_audio_for_video, video): video for video in queue}
-        
-        # Collect results as they complete
-        for future in concurrent.futures.as_completed(future_to_video):
-            result = future.result()
-            if result:
-                processed_queue.append(result)
+    for video in queue:
+        # Check if already exists
+        output_template = os.path.join("audio", f"{video['id']}.mp3")
+        if os.path.exists(output_template):
+            # Already exists
+            processed_queue.append(video)
+            continue
+            
+        logger.info(f"Extracting audio for {video['title']}...")
+        result = extract_audio_for_video(video)
+        if result:
+            processed_queue.append(result)
             
     # Update queue with audio paths
     with open(queue_path, "w") as f:
         json.dump(processed_queue, f, indent=2)
         
-    logger.info(f"Extraction complete. {len(processed_queue)} audio files ready.")
+    elapsed = time.time() - start_time
+    logger.info(f"Extraction complete. {len(processed_queue)} audio files ready. (Time: {elapsed:.1f}s)")
     return processed_queue
 
 if __name__ == "__main__":

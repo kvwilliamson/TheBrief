@@ -1,6 +1,7 @@
 import os
 import sys
 import logging
+from logging.handlers import RotatingFileHandler
 from datetime import datetime
 from dotenv import load_dotenv
 
@@ -8,11 +9,18 @@ from dotenv import load_dotenv
 os.makedirs("data", exist_ok=True)
 log_file = os.path.join("data", "pipeline.log")
 
+# Silence verbose library logging
+logging.getLogger("googleapiclient").setLevel(logging.WARNING)
+logging.getLogger("httpx").setLevel(logging.WARNING)
+logging.getLogger("google.genai").setLevel(logging.WARNING)
+logging.getLogger("google.auth").setLevel(logging.WARNING)
+logging.getLogger("urllib3").setLevel(logging.WARNING)
+
 logging.basicConfig(
     level=logging.INFO,
     format='%(asctime)s - %(levelname)s - %(message)s',
     handlers=[
-        logging.FileHandler(log_file),
+        RotatingFileHandler(log_file, maxBytes=5*1024*1024, backupCount=2),
         logging.StreamHandler(sys.stdout)
     ]
 )

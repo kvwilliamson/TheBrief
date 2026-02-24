@@ -367,39 +367,111 @@ with tab4:
         st.markdown(f"The pipeline will search for videos published in the last **{selected_label}**.")
         
         if st.button("▶️ Run Pipeline Now", type="primary", use_container_width=True):
-            with st.status("Running TheBrief Pipeline...", expanded=True) as status:
-                st.write(f"Initializing with {lookback_hours}h lookback...")
-                try:
-                    # Pass the lookback override via environment variables
-                    env = os.environ.copy()
-                    env["DISCOVERY_LOOKBACK_HOURS"] = str(lookback_hours)
+            # Create a "Mission Control" UI for the run
+            st.markdown("### 🚀 Mission Control")
+            p_col1, p_col2, p_col3 = st.columns(3)
+            
+            with p_col1:
+                p1_status = st.empty()
+                p1_status.markdown("📡 **Discovery**  \n`Waiting...`")
+            with p_col2:
+                p2_status = st.empty()
+                p2_status.markdown("🏗️ **Extraction**  \n`Waiting...`")
+            with p_col3:
+                p3_status = st.empty()
+                p3_status.markdown("🧠 **Summarization**  \n`Waiting...`")
+                
+            progress_bar = st.progress(0, text="Initializing...")
+            
+            # Placeholder for active thumbnail
+            thumb_placeholder = st.empty()
+            
+            log_expander = st.expander("🛠️ Live Process Logs", expanded=True)
+            
+            try:
+                env = os.environ.copy()
+                env["DISCOVERY_LOOKBACK_HOURS"] = str(lookback_hours)
+                
+                process = subprocess.Popen(
+                    ["python", "main.py"],
+                    stdout=subprocess.PIPE,
+                    stderr=subprocess.STDOUT,
+                    text=True,
+                    env=env
+                )
+                
+                # Active tracking of phases
+                for line in iter(process.stdout.readline, ""):
+                    clean_line = line.strip()
+                    if not clean_line:
+                        continue
+                        
+                    # Live Log Display
+                    display_line = clean_line
+                    if " - INFO - " in clean_line:
+                        display_line = clean_line.split(" - INFO - ")[-1]
+                    elif " - WARNING - " in clean_line:
+                        display_line = f"⚠️ {clean_line.split(' - WARNING - ')[-1]}"
+                    elif " - ERROR - " in clean_line:
+                        display_line = f"❌ {clean_line.split(' - ERROR - ')[-1]}"
                     
-                    process = subprocess.Popen(
-                        ["python", "main.py"],
-                        stdout=subprocess.PIPE,
-                        stderr=subprocess.STDOUT,
-                        text=True,
-                        env=env
-                    )
+                    log_expander.text(display_line)
                     
-                    # Read output line by line
-                    for line in iter(process.stdout.readline, ""):
-                        if line.strip():
-                            st.text(line.strip())
-                            
-                    process.stdout.close()
-                    return_code = process.wait()
+                    # Thumbnail Logic: If we see an extraction line, try to grab the thumbnail
+                    if "Extracting audio for" in display_line or "Summarizing natively via Audio:" in display_line:
+                        # Extract the ID or Title between parentheses/after colon
+                        import re
+                        match = re.search(r"\(([A-Za-z0-9_-]+)\)", display_line) or re.search(r"Audio: (.*)", display_line)
+                        if match:
+                            target = match.group(1).strip()
+                            # Look up in the queue to find the thumb
+                            try:
+                                queue_data = load_queue()
+                                current_v = next((v for v in queue_data if v['id'] == target or v['title'] == target), None)
+                                if current_v and current_v.get('thumbnail'):
+                                    with thumb_placeholder.container():
+                                        st.markdown(f"**Currently Processing:** {current_v['title']}")
+                                        st.image(current_v['thumbnail'], width=300)
+                                        st.divider()
+                            except:
+                                pass
+
+                    # Phase Tracker Logic
+                    if "Phase 1: Discovery" in clean_line:
+                        p1_status.markdown("📡 **Discovery**  \n`Running... ⚙️`")
+                        progress_bar.progress(10, text="Scanning YouTube channels...")
+                    elif "Discovery complete" in clean_line:
+                        p1_status.markdown("📡 **Discovery**  \n`Complete! ✅`")
+                        progress_bar.progress(33, text="Videos discovered. Moving to extraction...")
                     
-                    if return_code == 0:
-                        status.update(label="Pipeline completed successfully!", state="complete", expanded=False)
-                        st.balloons()
-                        # Little hack to wait a sec then refresh the UI
-                        st.rerun()
-                    else:
-                        status.update(label="Pipeline failed.", state="error", expanded=True)
-                except Exception as e:
-                    st.error(f"Error running pipeline: {e}")
-                    status.update(label="Pipeline failed.", state="error")
+                    elif "Phase 2: Extraction" in clean_line:
+                        p2_status.markdown("🏗️ **Extraction**  \n`Working... ⚡`")
+                        progress_bar.progress(40, text="Downloading high-speed audio...")
+                    elif "Extraction complete" in clean_line:
+                        p2_status.markdown("🏗️ **Extraction**  \n`Finished! ✅`")
+                        thumb_placeholder.empty() # Clear thumb after extraction phase? Or keep for summary?
+                        progress_bar.progress(66, text="Audio ready for AI analysis...")
+                        
+                    elif "Phase 3: Summarization" in clean_line:
+                        p3_status.markdown("🧠 **Summarization**  \n`Thinking... 🕵️`")
+                        progress_bar.progress(75, text="Gemini 2.5 is listening to audio...")
+                    elif "Summarization complete" in clean_line:
+                        p3_status.markdown("🧠 **Summarization**  \n`Brief Generated! ✅`")
+                        thumb_placeholder.empty()
+                        progress_bar.progress(100, text="All systems clear.")
+                
+                process.stdout.close()
+                return_code = process.wait()
+                
+                if return_code == 0:
+                    st.success("Pipeline executed successfully!")
+                    st.balloons()
+                    st.rerun()
+                else:
+                    st.error("Pipeline run failed. Check the logs above for details.")
+                    
+            except Exception as e:
+                st.error(f"Error running pipeline: {e}")
         
         # Log Viewer Section
         st.divider()
@@ -427,14 +499,12 @@ with tab4:
             st.info("No logs available yet. Run the pipeline to generate logs.")
 
     with col2:
-        st.header("Current Queue")
-        queue = load_queue()
-        
-        if not queue:
-            st.info("Queue is empty. No unprocessed videos discovered.")
-        else:
-            st.warning(f"There are {len(queue)} videos in the queue.")
-            if st.button("🗑️ Clear Queue", use_container_width=True):
+        if queue:
+            st.header("⏳ Pending Briefing")
+            st.warning(f"Total: {len(queue)} videos found but not yet briefed.")
+            st.markdown("These videos have been discovered but the final brief was not generated. You can run the pipeline to process them.")
+            
+            if st.button("🗑️ Clear All Pending Items", use_container_width=True):
                 with open("data/queue.json", "w") as f:
                     json.dump([], f)
                 st.rerun()
@@ -449,10 +519,12 @@ with tab4:
                     st.markdown(f"[Watch on YouTube]({video.get('url', '#')})")
                     
                     # Status indicators based on keys
-                    status = "Pending Download"
+                    status = "Pending Extraction"
                     if video.get('audio_path'):
-                        status = "Downloaded (Pending Transcription)"
-                    if video.get('transcript'):
-                        status = "Transcribed (Pending Summarization)"
+                        status = "Extracted (Waiting for AI Briefing)"
                         
                     st.markdown(f"**Status:** `{status}`")
+        else:
+            st.header("✅ System Ready")
+            st.success("All discovered videos have been successfully briefed. There are no items pending.")
+            st.caption("New videos will appear here temporarily during the next discovery cycle.")
