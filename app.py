@@ -23,6 +23,20 @@ DEFAULT_CATEGORIES = [
     "Other"
 ]
 
+def get_all_categories():
+    """Returns dynamic list of categories: Defaults + any custom ones found in channels."""
+    cats = DEFAULT_CATEGORIES.copy()
+    current_channels = st.session_state.get('channels', [])
+    for c in current_channels:
+        cat = c.get("category")
+        if cat and cat not in cats:
+            # Insert before "Other" if possible
+            if "Other" in cats:
+                cats.insert(cats.index("Other"), cat)
+            else:
+                cats.append(cat)
+    return cats
+
 # --- Utility Functions ---
 
 def load_briefs():
@@ -105,19 +119,42 @@ def refresh_channels():
 st.markdown("""
     <style>
     .stApp header {background-color: transparent;}
-    .brief-card {
-        background-color: #1e1e1e;
-        padding: 20px;
-        border-radius: 10px;
-        margin-bottom: 20px;
-        border: 1px solid #333;
+    /* 
+       ROBUST HEADER STYLING 
+       Intelligence Blue Categories
+    */
+    .st-emotion-cache-p3m996, .st-emotion-cache-1pxm6i, [data-testid="stExpander"] summary p {
+        font-size: 1.4rem !important;
+        font-weight: 800 !important;
+        color: #1c83e1 !important; /* Intelligence Blue */
+        text-transform: uppercase;
+        letter-spacing: 1px;
     }
-    .channel-row {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        padding: 10px;
-        border-bottom: 1px solid #333;
+    
+    /* 
+       CONTROLLED DENSITY 
+       Ensures thumbnails have breathing room (Tightened by half)
+    */
+    [data-testid="stExpander"] [data-testid="stVerticalBlock"] [data-testid="stVerticalBlock"] {
+        gap: 6px !important;
+        padding-top: 2px !important;
+        padding-bottom: 2px !important;
+    }
+    
+    [data-testid="stExpander"] [data-testid="stVerticalBlock"] {
+        gap: 6px !important;
+    }
+
+    /* Standard weight for buttons */
+    .stButton button div p {
+        font-weight: 400 !important;
+    }
+    
+    hr {
+        margin-top: 7px !important;
+        margin-bottom: 7px !important;
+        border: 0;
+        border-top: 1px solid #444;
     }
     </style>
 """, unsafe_allow_html=True)
@@ -128,7 +165,7 @@ st.markdown("""
 st.title("🎙️ TheBrief Dashboard")
 st.markdown("Your daily deep-dive podcast briefing system.")
 
-tab1, tab2, tab3, tab4 = st.tabs(["📑 Daily Briefs", "📺 Channels", "🔍 Discover", "⚙️ Pipeline & Queue"])
+tab1, tab2, tab3 = st.tabs(["📑 Daily Briefs", "📺 Sources", "⚙️ Pipeline & Queue"])
 
 
 # === TAB 1: Daily Briefs ===
@@ -181,57 +218,150 @@ with tab1:
             st.markdown(selected_brief["content"], unsafe_allow_html=True)
 
 
-# === TAB 2: Channels ===
+# === TAB 2: Sources ===
 with tab2:
-    st.header("Tracked Channels")
+    st.header("📡 Intelligence Sources")
     channels = load_channels()
     
-    # Add new channel form
-    with st.expander("➕ Add New Channel", expanded=False):
-        col1, col2, col3 = st.columns([3, 2, 1])
-        with col1:
-            new_channel_input = st.text_input("YouTube Channel Name, URL, or Handle", placeholder="e.g. Lex Fridman or @LexFridman")
-        with col2:
-            new_channel_category = st.selectbox("Assign Category", options=DEFAULT_CATEGORIES, index=DEFAULT_CATEGORIES.index("Other"))
-        with col3:
-            st.markdown("<br>", unsafe_allow_html=True) # spacing
-            if st.button("Search & Add", use_container_width=True):
-                if new_channel_input:
-                    with st.spinner(f"Searching for '{new_channel_input}'..."):
+    # Discovery & New Sources Expander
+    with st.expander("🔍 Discovery & New Sources", expanded=False):
+        st.subheader("Discover New Sources")
+        st.markdown("Search for new channels to track by topic or keyword.")
+        
+        discover_query = st.text_input("Enter a topic (e.g. 'AI Startups', 'Nutrition', 'Finance')", key="discover_input")
+        
+        if st.button("Search YouTube", use_container_width=True):
+            if discover_query:
+                with st.spinner("Searching YouTube..."):
+                    try:
                         youtube = build("youtube", "v3", developerKey=os.getenv("YOUTUBE_API_KEY"))
-                        c_id, c_name = None, None
+                        resp = youtube.search().list(part="snippet", type="channel", q=discover_query, maxResults=10).execute()
                         
-                        if "youtube.com" in new_channel_input or "youtu.be" in new_channel_input:
-                            c_id, c_name, c_thumb = get_channel_id_from_url(youtube, new_channel_input)
-                        else:
-                            c_id, c_name, c_thumb = search_channel_by_name(youtube, new_channel_input)
+                        st.session_state.search_results = []
+                        items = resp.get("items", [])
+                        for item in items:
+                            snippet = item["snippet"]
+                            st.session_state.search_results.append({
+                                "name": snippet["title"],
+                                "id": snippet["channelId"],
+                                "desc": snippet.get("description", "No description provided."),
+                                "thumb": snippet["thumbnails"]["default"]["url"]
+                            })
+                    except Exception as e:
+                        st.error(f"Error searching YouTube: {e}")
+
+        # Display Search Results from Session State
+        if st.session_state.search_results:
+            st.subheader("Search Results")
+            for item in st.session_state.search_results:
+                col1, col2, col3 = st.columns([1, 4, 1])
+                with col1:
+                    show_channel_image(item["thumb"])
+                with col2:
+                    st.markdown(f"**{item['name']}**")
+                    st.caption(item['desc'][:150] + ("..." if len(item['desc'])>150 else ""))
+                with col3:
+                    st.markdown("<br>", unsafe_allow_html=True)
+                    if any(c.get("id") == item["id"] for c in st.session_state.channels):
+                        st.button("Tracking", disabled=True, key=f"btn_track_{item['id']}")
+                    else:
+                        # Show category selector before adding
+                        with st.popover("Add", use_container_width=True):
+                            cats = get_all_categories()
+                            selected_cat = st.selectbox("Category", options=cats + ["[+] Create New..."], index=cats.index("Other") if "Other" in cats else 0, key=f"cat_{item['id']}")
                             
-                        if not c_id:
-                            st.error(f"Could not find a channel matching '{new_channel_input}'")
-                        else:
-                            # Fetch name/thumb if missing
-                            if not c_name or not c_thumb:
-                                resp = youtube.channels().list(part="snippet", id=c_id).execute()
-                                if resp.get("items"):
-                                    snippet = resp["items"][0]["snippet"]
-                                    c_name = c_name or snippet["title"]
-                                    c_thumb = c_thumb or snippet["thumbnails"]["default"]["url"]
-                                else:
-                                    c_name = c_name or "Unknown"
-                                    c_thumb = c_thumb or ""
+                            final_cat = selected_cat
+                            if selected_cat == "[+] Create New...":
+                                final_cat = st.text_input("New Category Name", key=f"new_cat_{item['id']}")
                                 
-                            if any(c.get("id") == c_id for c in st.session_state.channels):
-                                st.warning(f"Channel '{c_name}' is already being tracked.")
+                            if st.button("Confirm Add", key=f"conf_{item['id']}", use_container_width=True, type="primary"):
+                                if selected_cat == "[+] Create New..." and not final_cat.strip():
+                                    st.error("Please enter a category name.")
+                                else:
+                                    st.session_state.channels.append({
+                                        "name": item["name"], 
+                                        "id": item["id"], 
+                                        "thumbnail": item["thumb"],
+                                        "category": final_cat.strip()
+                                    })
+                                    save_channels(st.session_state.channels)
+                                    st.success(f"Added {item['name']} to {final_cat}!")
+                                    st.rerun()
+                st.divider()
+                        
+        st.divider()
+        st.subheader("💡 Recommended for You")
+        
+        if st.button("Refresh Recommendations") or not st.session_state.recommendations:
+            if st.session_state.channels:
+                import random
+                seed_channel = random.choice(st.session_state.channels)["name"]
+                st.session_state.recommend_seed = seed_channel
+                
+                with st.spinner(f"Fetching recommendations based on {seed_channel}..."):
+                    try:
+                        youtube = build("youtube", "v3", developerKey=os.getenv("YOUTUBE_API_KEY"))
+                        # Handle case where developerKey might be missing in env but checked later
+                        if not os.getenv("YOUTUBE_API_KEY"):
+                            st.error("YOUTUBE_API_KEY missing in .env")
+                        else:
+                            resp = youtube.search().list(
+                                part="snippet", 
+                                type="channel", 
+                                q=f"podcasts like {seed_channel}", 
+                                maxResults=5
+                            ).execute()
+                            
+                            st.session_state.recommendations = []
+                            for item in resp.get("items", []):
+                                snippet = item["snippet"]
+                                if snippet["channelId"] not in [c["id"] for c in st.session_state.channels]:
+                                    st.session_state.recommendations.append({
+                                        "name": snippet["title"],
+                                        "id": snippet["channelId"],
+                                        "desc": snippet.get("description", ""),
+                                        "thumb": snippet["thumbnails"]["default"]["url"]
+                                    })
+                    except Exception as e:
+                        st.error(f"Error fetching recommendations: {e}")
+            else:
+                st.info("Add some channels to get recommendations!")
+
+        if st.session_state.recommendations:
+            st.write(f"*Based on your interest in **{st.session_state.get('recommend_seed', '')}***:")
+            for item in st.session_state.recommendations:
+                col1, col2, col3 = st.columns([1, 4, 1])
+                with col1:
+                    show_channel_image(item["thumb"])
+                with col2:
+                    st.markdown(f"**{item['name']}**")
+                    st.caption(item['desc'][:150] + ("..." if len(item['desc'])>150 else ""))
+                with col3:
+                    st.markdown("<br>", unsafe_allow_html=True)
+                    with st.popover("Add", use_container_width=True):
+                        cats = get_all_categories()
+                        rec_cat = st.selectbox("Category", options=cats + ["[+] Create New..."], index=cats.index("Other") if "Other" in cats else 0, key=f"rec_cat_{item['id']}")
+                        
+                        final_rec_cat = rec_cat
+                        if rec_cat == "[+] Create New...":
+                            final_rec_cat = st.text_input("New Category Name", key=f"rec_new_cat_{item['id']}")
+                            
+                        if st.button("Confirm Add", key=f"rec_conf_{item['id']}", use_container_width=True, type="primary"):
+                            if rec_cat == "[+] Create New..." and not final_rec_cat.strip():
+                                st.error("Please enter a category name.")
                             else:
                                 st.session_state.channels.append({
-                                    "name": c_name, 
-                                    "id": c_id, 
-                                    "thumbnail": c_thumb,
-                                    "category": new_channel_category
+                                    "name": item["name"], 
+                                    "id": item["id"],
+                                    "thumbnail": item["thumb"],
+                                    "category": final_rec_cat.strip()
                                 })
                                 save_channels(st.session_state.channels)
-                                st.success(f"Added {c_name}!")
+                                st.success(f"Added {item['name']} to {final_rec_cat}!")
+                                # Filter out from recommendations list in session state
+                                st.session_state.recommendations = [r for r in st.session_state.recommendations if r['id'] != item['id']]
                                 st.rerun()
+                st.divider()
 
     st.divider()
     
@@ -247,7 +377,8 @@ with tab2:
             grouped_channels[cat].append(channel)
         
         # Display each category
-        for category in DEFAULT_CATEGORIES:
+        all_cats = get_all_categories()
+        for category in all_cats:
             cat_channels = grouped_channels.get(category, [])
             if cat_channels:
                 with st.expander(f"📁 {category} ({len(cat_channels)})", expanded=True):
@@ -255,160 +386,59 @@ with tab2:
                         # Find original index in st.session_state.channels for deletion
                         orig_index = next((idx for idx, c in enumerate(st.session_state.channels) if c['id'] == channel['id']), None)
                         
-                        col1, col2, col3 = st.columns([1, 4, 1])
+                        col1, col2, col3 = st.columns([0.5, 8.5, 1])
                         with col1:
                             show_channel_image(channel.get("thumbnail"))
                         with col2:
-                            st.markdown(f"**{channel['name']}**  \n`{channel['id']}`")
+                            st.markdown(f"**{channel['name']}**")
                         with col3:
+                            with st.popover("Category", use_container_width=True):
+                                cats = get_all_categories()
+                                current_cat = channel.get("category", "Other")
+                                cat_idx = cats.index(current_cat) if current_cat in cats else cats.index("Other")
+                                
+                                new_cat_choice = st.selectbox(
+                                    "Move to Sector", 
+                                    options=cats + ["[+] Create New..."], 
+                                    index=cat_idx,
+                                    key=f"move_{channel['id']}"
+                                )
+                                
+                                final_move_cat = new_cat_choice
+                                if new_cat_choice == "[+] Create New...":
+                                    final_move_cat = st.text_input("New Sector Name", key=f"move_new_input_{channel['id']}")
+                                
+                                # Move action
+                                if new_cat_choice == "[+] Create New...":
+                                    if st.button("Confirm New Sector", key=f"move_conf_{channel['id']}", use_container_width=True):
+                                        if final_move_cat.strip():
+                                            if orig_index is not None:
+                                                st.session_state.channels[orig_index]["category"] = final_move_cat.strip()
+                                                save_channels(st.session_state.channels)
+                                                st.rerun()
+                                        else:
+                                            st.error("Enter name")
+                                elif new_cat_choice != current_cat:
+                                    if orig_index is not None:
+                                        st.session_state.channels[orig_index]["category"] = new_cat_choice
+                                        save_channels(st.session_state.channels)
+                                        st.toast(f"✅ {channel['name']} moved to {new_cat_choice}")
+                                        st.rerun()
+                                    
                             if st.button("Remove", key=f"del_{channel['id']}_{i}", type="secondary", use_container_width=True):
                                 if orig_index is not None:
                                     st.session_state.channels.pop(orig_index)
                                     save_channels(st.session_state.channels)
                                     st.rerun()
-                        st.divider()
+                        # Removing st.divider() for tighter padding
+                        st.markdown("---") # Thinner than divider
         
         # Also check for any categories NOT in DEFAULT_CATEGORIES
-        other_categories = [c for c in grouped_channels.keys() if c not in DEFAULT_CATEGORIES]
-        for category in other_categories:
-            cat_channels = grouped_channels.get(category, [])
-            with st.expander(f"📁 {category} ({len(cat_channels)})", expanded=True):
-                for i, channel in enumerate(cat_channels):
-                    orig_index = next((idx for idx, c in enumerate(st.session_state.channels) if c['id'] == channel['id']), None)
-                    col1, col2, col3 = st.columns([1, 4, 1])
-                    with col1:
-                        show_channel_image(channel.get("thumbnail"))
-                    with col2:
-                        st.markdown(f"**{channel['name']}**  \n`{channel['id']}`")
-                    with col3:
-                        if st.button("Remove", key=f"del_{channel['id']}_{i}", type="secondary", use_container_width=True):
-                            if orig_index is not None:
-                                st.session_state.channels.pop(orig_index)
-                                save_channels(st.session_state.channels)
-                                st.rerun()
-                    st.divider()
 
 
-# === TAB 3: Discover ===
+
+# === TAB 3: Pipeline & Queue ===
 with tab3:
-    st.header("Discover Podcasts")
-    st.markdown("Search for new channels to track by topic or keyword.")
-    
-    discover_query = st.text_input("Enter a topic (e.g. 'AI Startups', 'Nutrition', 'Finance')", key="discover_input")
-    
-    if st.button("Search YouTube", use_container_width=True):
-        if discover_query:
-            with st.spinner("Searching YouTube..."):
-                try:
-                    youtube = build("youtube", "v3", developerKey=os.getenv("YOUTUBE_API_KEY"))
-                    resp = youtube.search().list(part="snippet", type="channel", q=discover_query, maxResults=10).execute()
-                    
-                    st.session_state.search_results = []
-                    items = resp.get("items", [])
-                    for item in items:
-                        snippet = item["snippet"]
-                        st.session_state.search_results.append({
-                            "name": snippet["title"],
-                            "id": snippet["channelId"],
-                            "desc": snippet.get("description", "No description provided."),
-                            "thumb": snippet["thumbnails"]["default"]["url"]
-                        })
-                except Exception as e:
-                    st.error(f"Error searching YouTube: {e}")
-
-    # Display Search Results from Session State
-    if st.session_state.search_results:
-        st.subheader("Search Results")
-        for item in st.session_state.search_results:
-            col1, col2, col3 = st.columns([1, 4, 1])
-            with col1:
-                show_channel_image(item["thumb"])
-            with col2:
-                st.markdown(f"**{item['name']}**")
-                st.caption(item['desc'][:150] + ("..." if len(item['desc'])>150 else ""))
-            with col3:
-                st.markdown("<br>", unsafe_allow_html=True)
-                if any(c.get("id") == item["id"] for c in st.session_state.channels):
-                    st.button("Tracking", disabled=True, key=f"btn_track_{item['id']}")
-                else:
-                    # Show category selector before adding
-                    with st.popover("Add", type="primary", use_container_width=True):
-                        selected_cat = st.selectbox("Category", options=DEFAULT_CATEGORIES, index=DEFAULT_CATEGORIES.index("Other"), key=f"cat_{item['id']}")
-                        if st.button("Confirm Add", key=f"conf_{item['id']}", use_container_width=True):
-                            st.session_state.channels.append({
-                                "name": item["name"], 
-                                "id": item["id"], 
-                                "thumbnail": item["thumb"],
-                                "category": selected_cat
-                            })
-                            save_channels(st.session_state.channels)
-                            st.success(f"Added {item['name']}!")
-                            st.rerun()
-            st.divider()
-                    
-    st.divider()
-    st.subheader("Recommended for You")
-    
-    if st.button("Refresh Recommendations") or not st.session_state.recommendations:
-        if st.session_state.channels:
-            import random
-            seed_channel = random.choice(st.session_state.channels)["name"]
-            st.session_state.recommend_seed = seed_channel
-            
-            with st.spinner(f"Fetching recommendations based on {seed_channel}..."):
-                try:
-                    youtube = build("youtube", "v3", developerKey=os.getenv("YOUTUBE_API_KEY"))
-                    resp = youtube.search().list(
-                        part="snippet", 
-                        type="channel", 
-                        q=f"podcasts like {seed_channel}", 
-                        maxResults=5
-                    ).execute()
-                    
-                    st.session_state.recommendations = []
-                    for item in resp.get("items", []):
-                        snippet = item["snippet"]
-                        if snippet["channelId"] not in [c["id"] for c in st.session_state.channels]:
-                            st.session_state.recommendations.append({
-                                "name": snippet["title"],
-                                "id": snippet["channelId"],
-                                "desc": snippet.get("description", ""),
-                                "thumb": snippet["thumbnails"]["default"]["url"]
-                            })
-                except Exception as e:
-                    st.error(f"Error fetching recommendations: {e}")
-        else:
-            st.info("Add some channels to get recommendations!")
-
-    if st.session_state.recommendations:
-        st.write(f"*Based on your interest in **{st.session_state.get('recommend_seed', '')}***:")
-        for item in st.session_state.recommendations:
-            col1, col2, col3 = st.columns([1, 4, 1])
-            with col1:
-                show_channel_image(item["thumb"])
-            with col2:
-                st.markdown(f"**{item['name']}**")
-                st.caption(item['desc'][:150] + ("..." if len(item['desc'])>150 else ""))
-            with col3:
-                st.markdown("<br>", unsafe_allow_html=True)
-                with st.popover("Add", use_container_width=True):
-                    rec_cat = st.selectbox("Category", options=DEFAULT_CATEGORIES, index=DEFAULT_CATEGORIES.index("Other"), key=f"rec_cat_{item['id']}")
-                    if st.button("Confirm Add", key=f"rec_conf_{item['id']}", use_container_width=True):
-                        st.session_state.channels.append({
-                            "name": item["name"], 
-                            "id": item["id"],
-                            "thumbnail": item["thumb"],
-                            "category": rec_cat
-                        })
-                        save_channels(st.session_state.channels)
-                        st.success(f"Added {item['name']}!")
-                        # Filter out from recommendations list in session state
-                        st.session_state.recommendations = [r for r in st.session_state.recommendations if r['id'] != item['id']]
-                        st.rerun()
-            st.divider()
-
-# === TAB 4: Pipeline & Queue ===
-with tab4:
     col1, col2 = st.columns(2)
     
     with col1:

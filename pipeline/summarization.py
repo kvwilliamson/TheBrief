@@ -272,14 +272,6 @@ def send_email_digest(html_content, date_str):
         logger.info("Missing email configuration, skipping email delivery.")
         return
         
-    msg = MIMEMultipart("alternative")
-    msg["Subject"] = f"TheBrief Daily Digest - {date_str}"
-    msg["From"] = email_from
-    msg["To"] = email_to
-    
-    part = MIMEText(html_content, "html")
-    msg.attach(part)
-    
     try:
         host = smtp_host
         port = 587
@@ -292,9 +284,22 @@ def send_email_digest(html_content, date_str):
         server.starttls()
         smtp_user = os.getenv("SMTP_USER", email_from)
         server.login(smtp_user, smtp_password)
-        server.sendmail(email_from, email_to, msg.as_string())
+        
+        # Send separate emails to each recipient for maximum reliability
+        recipients = [email.strip() for email in email_to.split(",")]
+        for recipient in recipients:
+            msg = MIMEMultipart("alternative")
+            msg["Subject"] = f"TheBrief Daily Digest - {date_str}"
+            msg["From"] = email_from
+            msg["To"] = recipient
+            
+            part = MIMEText(html_content, "html")
+            msg.attach(part)
+            
+            server.sendmail(email_from, recipient, msg.as_string())
+            logger.info(f"Email digest sent successfully to {recipient}.")
+            
         server.quit()
-        logger.info("Email digest sent successfully.")
     except Exception as e:
         logger.error(f"Failed to send email: {e}")
 
@@ -327,15 +332,7 @@ def run_summarization():
             md = format_markdown(brief, video.get('url', ''), video.get('thumbnail', ''))
             html = format_html(brief, video.get('url', ''), video.get('thumbnail', ''))
             
-            # Update DB to mark as processed
-            db_path = os.path.join("data", "processed_videos.json")
-            try:
-                from tinydb import TinyDB
-                db = TinyDB(db_path)
-                db.insert({"id": video["id"], "title": video["title"], "processed_at": datetime.now().isoformat()})
-            except Exception as e:
-                logger.warning(f"Note: Error updating processed_videos db: {e}")
-                
+            logger.info(f"✅ Brief successfully generated for {video['title']}")
             return video, (md, html)
         return None, None
 
@@ -356,6 +353,16 @@ def run_summarization():
         logger.warning("No briefs were successfully generated.")
         return []
         
+    # Update processed_videos DB in the main thread to avoid concurrency issues
+    db_path = os.path.join("data", "processed_videos.json")
+    try:
+        from tinydb import TinyDB
+        db = TinyDB(db_path)
+        for v in processed_queue:
+            db.insert({"id": v["id"], "title": v["title"], "processed_at": datetime.now().isoformat()})
+    except Exception as e:
+        logger.warning(f"Note: Error updating processed_videos db: {e}")
+
     # Compile final outputs
     date_str = datetime.now().strftime("%Y-%m-%d")
     md_filename = os.path.join("briefs", f"{date_str}.md")
@@ -394,8 +401,8 @@ def run_summarization():
     available_cats = sorted(grouped_briefs.keys(), key=lambda x: cat_order.index(x) if x in cat_order else 99)
     
     for cat in available_cats:
-        summary_md += f"\n**{cat}**\n"
-        summary_html += f"<p style='margin-bottom: 2px;'><strong>{cat}</strong></p><ul>"
+        summary_md += f"\n<span style='color:#1c83e1; font-size: 1.2em;'><b>{cat}</b></span>\n"
+        summary_html += f"<p style='margin-bottom: 2px;'><span style='color:#1c83e1; font-size: 1.2em;'><b>{cat}</b></span></p><ul>"
         for v, _ in grouped_briefs[cat]:
             b = v.get('brief', {})
             summary_md += f"- **{b.get('channel')}**: [{b.get('episode_title')}]({v.get('url')}) *({b.get('duration_minutes')}m)*\n"
