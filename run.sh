@@ -7,7 +7,7 @@ cd "$(dirname "$0")"
 # Check if virtual environment exists
 if [ ! -d "venv" ]; then
     echo "Creating virtual environment..."
-    python3 -m venv venv
+    /opt/homebrew/bin/python3.13 -m venv venv
     ./venv/bin/pip install -r requirements.txt
 fi
 

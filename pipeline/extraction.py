@@ -11,7 +11,7 @@ logger = logging.getLogger(__name__)
 def get_ffmpeg_path():
     """Locate the ffmpeg binary from the local static-ffmpeg package."""
     # Check common locations in venv
-    venv_site_packages = os.path.join(os.getcwd(), "venv", "lib", "python3.9", "site-packages")
+    venv_site_packages = os.path.join(os.getcwd(), "venv", "lib", "python3.13", "site-packages")
     local_path = os.path.join(venv_site_packages, "static_ffmpeg", "bin", "darwin_arm64", "ffmpeg")
     
     if os.path.exists(local_path):
@@ -55,12 +55,10 @@ def extract_audio_for_video(video):
     
     command = [
         os.path.join(os.getcwd(), "venv", "bin", "yt-dlp"), # Use venv path explicitly
-        "--cookies-from-browser", "chrome",
         "-x",
         "--audio-format", "mp3",
         "--postprocessor-args", "-ar 16000 -ac 1",
         "--ffmpeg-location", ffmpeg_path,
-        "--extractor-args", "youtube:player-client=ios,android",
         "-o", output_template,
         video_url
     ]

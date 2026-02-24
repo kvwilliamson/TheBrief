@@ -1,525 +1,270 @@
-2026-02-23 19:37:44,253 - INFO - ==================================================
-2026-02-23 19:37:44,253 - INFO - Starting TheBrief Daily Pipeline
-2026-02-23 19:37:44,253 - INFO - ==================================================
-2026-02-23 19:37:44,253 - INFO - 
+2026-02-24 04:07:22,545 - INFO - ==================================================
+2026-02-24 04:07:22,545 - INFO - Starting TheBrief Daily Pipeline
+2026-02-24 04:07:22,545 - INFO - ==================================================
+2026-02-24 04:07:22,545 - INFO - 
 --- Phase 1: Discovery ---
-2026-02-23 19:37:44,256 - INFO - Discovering videos published after 2026-02-23T00:37:44.256149+00:00 (24h lookback)
-2026-02-23 19:37:44,256 - INFO - Checking channel: Bald Guy Money (UCtPdiTVqTkg3t3PjQZqOaCA)
-2026-02-23 19:37:45,057 - INFO -   Found 0 recent videos.
-2026-02-23 19:37:45,058 - INFO - Checking channel: GoldSilver  (UCThv5tYUVaG4ZPA3p6EXZbQ)
-2026-02-23 19:37:45,345 - INFO -   Found 3 recent videos.
-2026-02-23 19:37:45,345 - INFO - Checking channel: Silver Dragons (UCucqfNRyBkieAop_LDUqHEg)
-2026-02-23 19:37:45,626 - INFO -   Found 1 recent videos.
-2026-02-23 19:37:45,626 - INFO - Checking channel: Rons Basement (UC7KRV9tVt7JqaSO3t6ifAsA)
-2026-02-23 19:37:46,373 - INFO -   Found 2 recent videos.
-2026-02-23 19:37:46,373 - INFO - Checking channel: Wall Street Bullion  (UCXWoMTRWJTIZwUblljo5aDQ)
-2026-02-23 19:37:46,798 - INFO -   Found 1 recent videos.
-2026-02-23 19:37:46,799 - INFO - Checking channel: Kitco NEWS (UC9ijza42jVR3T6b8bColgvg)
-2026-02-23 19:37:47,132 - INFO -   Found 0 recent videos.
-2026-02-23 19:37:47,132 - INFO - Checking channel: Yankee Stacking (UCSlo5dl8jvbmpJi-zcbqq6w)
-2026-02-23 19:37:47,381 - INFO -   Found 0 recent videos.
-2026-02-23 19:37:47,381 - INFO - Checking channel: Arcadia Economics (UC0xbkSGGxkI4AVp0BQRjnAA)
-2026-02-23 19:37:47,973 - INFO -   Found 1 recent videos.
-2026-02-23 19:37:47,973 - INFO - Checking channel: AI News & Strategy Daily | Nate B Jones (UC0C-17n9iuUQPylguM1d-lQ)
-2026-02-23 19:37:48,241 - INFO -   Found 1 recent videos.
-2026-02-23 19:37:48,242 - INFO - Checking channel: Clive Thompson (UCrlFUp4OtXJSiDfiPMFnk3A)
-2026-02-23 19:37:48,583 - INFO -   Found 1 recent videos.
-2026-02-23 19:37:48,583 - INFO - Checking channel: David Lin  (UClBMLpP3UHXLmgEypMmXPuA)
-2026-02-23 19:37:48,980 - INFO -   Found 2 recent videos.
-2026-02-23 19:37:48,980 - INFO - Checking channel: TheTechnicalTraders (UCenLy4V5NgxEz7pwosA9hiw)
-2026-02-23 19:37:49,745 - INFO -   Found 1 recent videos.
-2026-02-23 19:37:49,746 - INFO - Checking channel: Verified Investing (UCZ-J2m1AUSLnifUEKam5_dA)
-2026-02-23 19:37:50,357 - INFO -   Found 6 recent videos.
-2026-02-23 19:37:50,357 - INFO - Checking channel: Felix & Friends (Goat Academy) (UCJtfma0mE_XrBAD9uakcjfA)
-2026-02-23 19:37:50,632 - INFO -   Found 1 recent videos.
-2026-02-23 19:37:50,632 - INFO - Checking channel: Miles Franklin Media (UC_EzgYSqu4a6-Po65FxAoKg)
-2026-02-23 19:37:51,149 - INFO -   Found 2 recent videos.
-2026-02-23 19:37:51,150 - INFO - Checking channel: Adam Taggart | Thoughtful Money® (UCjqe6xtZYTfvA4pHs0HgJsQ)
-2026-02-23 19:37:51,425 - INFO -   Found 0 recent videos.
-2026-02-23 19:37:51,425 - INFO - Checking channel: CPM Group (UC59ED7RkMYTD9eTGr1dn98A)
-2026-02-23 19:37:51,763 - INFO -   Found 0 recent videos.
-2026-02-23 19:37:51,763 - INFO - Checking channel: Commodity Culture (UC8n-nG-Wui_Ho1v_RgmJbTw)
-2026-02-23 19:37:52,019 - INFO -   Found 0 recent videos.
-2026-02-23 19:37:52,161 - INFO - Found 8 total long-form videos across all channels.
-2026-02-23 19:37:52,163 - INFO - Discovery complete. Added 8 new videos to queue.
-2026-02-23 19:37:52,163 - INFO - 
+2026-02-24 04:07:22,547 - INFO - Discovering videos published after 2026-02-23T09:07:22.547697+00:00 (24h lookback)
+2026-02-24 04:07:22,547 - INFO - Checking channel: Bald Guy Money (UCtPdiTVqTkg3t3PjQZqOaCA)
+2026-02-24 04:07:22,547 - INFO - Checking channel: GoldSilver  (UCThv5tYUVaG4ZPA3p6EXZbQ)
+2026-02-24 04:07:22,548 - INFO - Checking channel: Silver Dragons (UCucqfNRyBkieAop_LDUqHEg)
+2026-02-24 04:07:22,549 - INFO - Checking channel: Rons Basement (UC7KRV9tVt7JqaSO3t6ifAsA)
+2026-02-24 04:07:22,549 - INFO - Checking channel: Wall Street Bullion  (UCXWoMTRWJTIZwUblljo5aDQ)
+2026-02-24 04:07:23,022 - INFO -   [Bald Guy Money] Found 0 recent videos.
+2026-02-24 04:07:23,022 - INFO - Checking channel: Kitco NEWS (UC9ijza42jVR3T6b8bColgvg)
+2026-02-24 04:07:23,084 - INFO -   [Wall Street Bullion ] Found 1 recent videos.
+2026-02-24 04:07:23,084 - INFO - Checking channel: Yankee Stacking (UCSlo5dl8jvbmpJi-zcbqq6w)
+2026-02-24 04:07:23,170 - INFO -   [GoldSilver ] Found 3 recent videos.
+2026-02-24 04:07:23,171 - INFO - Checking channel: Arcadia Economics (UC0xbkSGGxkI4AVp0BQRjnAA)
+2026-02-24 04:07:23,236 - INFO -   [Silver Dragons] Found 1 recent videos.
+2026-02-24 04:07:23,237 - INFO - Checking channel: AI News & Strategy Daily | Nate B Jones (UC0C-17n9iuUQPylguM1d-lQ)
+2026-02-24 04:07:23,377 - INFO -   [Rons Basement] Found 2 recent videos.
+2026-02-24 04:07:23,379 - INFO - Checking channel: Clive Thompson (UCrlFUp4OtXJSiDfiPMFnk3A)
+2026-02-24 04:07:23,509 - INFO -   [Kitco NEWS] Found 0 recent videos.
+2026-02-24 04:07:23,509 - INFO - Checking channel: David Lin  (UClBMLpP3UHXLmgEypMmXPuA)
+2026-02-24 04:07:23,676 - INFO -   [AI News & Strategy Daily | Nate B Jones] Found 1 recent videos.
+2026-02-24 04:07:23,677 - INFO - Checking channel: TheTechnicalTraders (UCenLy4V5NgxEz7pwosA9hiw)
+2026-02-24 04:07:23,848 - INFO -   [Arcadia Economics] Found 1 recent videos.
+2026-02-24 04:07:23,849 - INFO - Checking channel: Verified Investing (UCZ-J2m1AUSLnifUEKam5_dA)
+2026-02-24 04:07:23,887 - INFO -   [David Lin ] Found 3 recent videos.
+2026-02-24 04:07:23,887 - INFO - Checking channel: Felix & Friends (Goat Academy) (UCJtfma0mE_XrBAD9uakcjfA)
+2026-02-24 04:07:23,889 - INFO -   [Clive Thompson] Found 1 recent videos.
+2026-02-24 04:07:23,890 - INFO - Checking channel: Miles Franklin Media (UC_EzgYSqu4a6-Po65FxAoKg)
+2026-02-24 04:07:24,019 - INFO -   [TheTechnicalTraders] Found 1 recent videos.
+2026-02-24 04:07:24,020 - INFO - Checking channel: Adam Taggart | Thoughtful Money® (UCjqe6xtZYTfvA4pHs0HgJsQ)
+2026-02-24 04:07:24,028 - INFO -   [Yankee Stacking] Found 0 recent videos.
+2026-02-24 04:07:24,029 - INFO - Checking channel: CPM Group (UC59ED7RkMYTD9eTGr1dn98A)
+2026-02-24 04:07:24,298 - INFO -   [Miles Franklin Media] Found 2 recent videos.
+2026-02-24 04:07:24,298 - INFO - Checking channel: Commodity Culture (UC8n-nG-Wui_Ho1v_RgmJbTw)
+2026-02-24 04:07:24,405 - INFO -   [Verified Investing] Found 6 recent videos.
+2026-02-24 04:07:24,529 - INFO -   [CPM Group] Found 0 recent videos.
+2026-02-24 04:07:24,570 - INFO -   [Adam Taggart | Thoughtful Money®] Found 0 recent videos.
+2026-02-24 04:07:24,729 - INFO -   [Commodity Culture] Found 0 recent videos.
+2026-02-24 04:07:24,766 - INFO -   [Felix & Friends (Goat Academy)] Found 1 recent videos.
+2026-02-24 04:07:25,138 - INFO - Found 10 total long-form videos across all channels.
+2026-02-24 04:07:25,141 - INFO - Discovery complete. Added 10 new videos to queue.
+2026-02-24 04:07:25,141 - INFO - 
 --- Phase 2: Extraction ---
-2026-02-23 19:37:52,164 - INFO - Extracting audio for MVRijW_s_gw (🚨 Silver PANIC! - You Can EXPECT This! 🦍🦍 (China - Gold Price and Precious Metals NEWS Update))...
-2026-02-23 19:43:30,426 - INFO - ==================================================
-2026-02-23 19:43:30,426 - INFO - Starting TheBrief Daily Pipeline
-2026-02-23 19:43:30,426 - INFO - ==================================================
-2026-02-23 19:43:30,427 - INFO - 
---- Phase 1: Discovery ---
-2026-02-23 19:43:30,430 - INFO - Discovering videos published after 2026-02-23T00:43:30.430546+00:00 (24h lookback)
-2026-02-23 19:43:30,430 - INFO - Checking channel: Bald Guy Money (UCtPdiTVqTkg3t3PjQZqOaCA)
-2026-02-23 19:43:30,430 - INFO - Checking channel: GoldSilver  (UCThv5tYUVaG4ZPA3p6EXZbQ)
-2026-02-23 19:43:30,430 - INFO - Checking channel: Silver Dragons (UCucqfNRyBkieAop_LDUqHEg)
-2026-02-23 19:43:30,430 - INFO - Checking channel: Rons Basement (UC7KRV9tVt7JqaSO3t6ifAsA)
-2026-02-23 19:43:30,433 - INFO - Checking channel: Wall Street Bullion  (UCXWoMTRWJTIZwUblljo5aDQ)
-2026-02-23 19:43:31,006 - INFO -   [Wall Street Bullion ] Found 1 recent videos.
-2026-02-23 19:43:31,006 - INFO - Checking channel: Kitco NEWS (UC9ijza42jVR3T6b8bColgvg)
-2026-02-23 19:43:31,014 - INFO -   [GoldSilver ] Found 3 recent videos.
-2026-02-23 19:43:31,014 - INFO - Checking channel: Yankee Stacking (UCSlo5dl8jvbmpJi-zcbqq6w)
-2026-02-23 19:43:31,055 - INFO -   [Rons Basement] Found 2 recent videos.
-2026-02-23 19:43:31,055 - INFO - Checking channel: Arcadia Economics (UC0xbkSGGxkI4AVp0BQRjnAA)
-2026-02-23 19:43:31,168 - INFO -   [Bald Guy Money] Found 0 recent videos.
-2026-02-23 19:43:31,168 - INFO - Checking channel: AI News & Strategy Daily | Nate B Jones (UC0C-17n9iuUQPylguM1d-lQ)
-2026-02-23 19:43:31,301 - INFO -   [Silver Dragons] Found 1 recent videos.
-2026-02-23 19:43:31,302 - INFO - Checking channel: Clive Thompson (UCrlFUp4OtXJSiDfiPMFnk3A)
-2026-02-23 19:43:31,427 - INFO -   [Yankee Stacking] Found 0 recent videos.
-2026-02-23 19:43:31,427 - INFO - Checking channel: David Lin  (UClBMLpP3UHXLmgEypMmXPuA)
-2026-02-23 19:43:31,481 - INFO -   [Arcadia Economics] Found 1 recent videos.
-2026-02-23 19:43:31,481 - INFO - Checking channel: TheTechnicalTraders (UCenLy4V5NgxEz7pwosA9hiw)
-2026-02-23 19:43:31,514 - INFO -   [Kitco NEWS] Found 0 recent videos.
-2026-02-23 19:43:31,514 - INFO - Checking channel: Verified Investing (UCZ-J2m1AUSLnifUEKam5_dA)
-2026-02-23 19:43:31,600 - INFO -   [AI News & Strategy Daily | Nate B Jones] Found 1 recent videos.
-2026-02-23 19:43:31,600 - INFO - Checking channel: Felix & Friends (Goat Academy) (UCJtfma0mE_XrBAD9uakcjfA)
-2026-02-23 19:43:31,755 - INFO -   [Clive Thompson] Found 1 recent videos.
-2026-02-23 19:43:31,755 - INFO - Checking channel: Miles Franklin Media (UC_EzgYSqu4a6-Po65FxAoKg)
-2026-02-23 19:43:31,878 - INFO -   [TheTechnicalTraders] Found 1 recent videos.
-2026-02-23 19:43:31,878 - INFO - Checking channel: Adam Taggart | Thoughtful Money® (UCjqe6xtZYTfvA4pHs0HgJsQ)
-2026-02-23 19:43:31,916 - INFO -   [David Lin ] Found 2 recent videos.
-2026-02-23 19:43:31,916 - INFO - Checking channel: CPM Group (UC59ED7RkMYTD9eTGr1dn98A)
-2026-02-23 19:43:32,012 - INFO -   [Felix & Friends (Goat Academy)] Found 1 recent videos.
-2026-02-23 19:43:32,012 - INFO - Checking channel: Commodity Culture (UC8n-nG-Wui_Ho1v_RgmJbTw)
-2026-02-23 19:43:32,171 - INFO -   [Miles Franklin Media] Found 2 recent videos.
-2026-02-23 19:43:32,253 - INFO -   [Verified Investing] Found 6 recent videos.
-2026-02-23 19:43:32,309 - INFO -   [CPM Group] Found 0 recent videos.
-2026-02-23 19:43:32,350 - INFO -   [Adam Taggart | Thoughtful Money®] Found 0 recent videos.
-2026-02-23 19:43:32,464 - INFO -   [Commodity Culture] Found 0 recent videos.
-2026-02-23 19:43:32,704 - INFO - Found 8 total long-form videos across all channels.
-2026-02-23 19:43:32,707 - INFO - Discovery complete. Added 8 new videos to queue.
-2026-02-23 19:43:32,707 - INFO - 
---- Phase 2: Extraction ---
-2026-02-23 19:43:32,708 - INFO - Extracting audio for 8jKAT8GNDE0 (Google's New AI Is Smarter Than Everyone's But It Costs HALF as Much. Here's Why They Don't Care.)...
-2026-02-23 19:43:32,708 - INFO - Extracting audio for -8Gcs7cPnIU (Economy Enters ‘Pivotal Time’: Fund Manager Reveals Next Big Plays | David Busch)...
-2026-02-23 19:43:32,708 - INFO - Extracting audio for MVRijW_s_gw (🚨 Silver PANIC! - You Can EXPECT This! 🦍🦍 (China - Gold Price and Precious Metals NEWS Update))...
-2026-02-23 19:43:36,984 - ERROR - Error extracting audio for https://www.youtube.com/watch?v=MVRijW_s_gw: Command '['/Users/Owner/Projects/Python/TheBrief/venv/bin/yt-dlp', '-x', '--audio-format', 'mp3', '--postprocessor-args', '-ar 16000 -ac 1', '--ffmpeg-location', '/Users/Owner/Projects/Python/TheBrief/venv/lib/python3.9/site-packages/static_ffmpeg/bin/darwin_arm64/ffmpeg', '--extractor-args', 'youtube:player-client=ios,android', '-o', 'audio/MVRijW_s_gw.%(ext)s', 'https://www.youtube.com/watch?v=MVRijW_s_gw']' returned non-zero exit status 1.
-2026-02-23 19:43:36,985 - INFO - Extracting audio for 8jKAT8GNDE0 (Google's New AI Is Smarter Than Everyone's But It Costs HALF as Much. Here's Why They Don't Care.)...
-2026-02-23 19:45:01,246 - INFO - Successfully extracted: audio/-8Gcs7cPnIU.mp3
-2026-02-23 19:45:01,247 - INFO - Extracting audio for akJK52ODU8c (Worst Stock Market Vs. World Since '95; Where Should Investors Go? | Robin Brooks)...
-2026-02-23 19:45:10,885 - ERROR - Error extracting audio for https://www.youtube.com/watch?v=8jKAT8GNDE0: Command '['/Users/Owner/Projects/Python/TheBrief/venv/bin/yt-dlp', '-x', '--audio-format', 'mp3', '--postprocessor-args', '-ar 16000 -ac 1', '--ffmpeg-location', '/Users/Owner/Projects/Python/TheBrief/venv/lib/python3.9/site-packages/static_ffmpeg/bin/darwin_arm64/ffmpeg', '--extractor-args', 'youtube:player-client=ios,android', '-o', 'audio/8jKAT8GNDE0.%(ext)s', 'https://www.youtube.com/watch?v=8jKAT8GNDE0']' returned non-zero exit status 1.
-2026-02-23 19:45:10,886 - INFO - Audio already exists for -8Gcs7cPnIU, skipping extraction.
-2026-02-23 19:45:10,886 - INFO - Extracting audio for akJK52ODU8c (Worst Stock Market Vs. World Since '95; Where Should Investors Go? | Robin Brooks)...
-2026-02-23 19:45:24,450 - ERROR - Error extracting audio for https://www.youtube.com/watch?v=8jKAT8GNDE0: Command '['/Users/Owner/Projects/Python/TheBrief/venv/bin/yt-dlp', '-x', '--audio-format', 'mp3', '--postprocessor-args', '-ar 16000 -ac 1', '--ffmpeg-location', '/Users/Owner/Projects/Python/TheBrief/venv/lib/python3.9/site-packages/static_ffmpeg/bin/darwin_arm64/ffmpeg', '--extractor-args', 'youtube:player-client=ios,android', '-o', 'audio/8jKAT8GNDE0.%(ext)s', 'https://www.youtube.com/watch?v=8jKAT8GNDE0']' returned non-zero exit status 1.
-2026-02-23 19:45:24,451 - INFO - Extracting audio for hrCu96zGQ6E (Blockchain and the Future of Fintech: Morgan Krupetsky)...
-2026-02-23 19:45:54,479 - INFO - Successfully extracted: audio/akJK52ODU8c.mp3
-2026-02-23 19:45:54,479 - INFO - Extracting audio for zDnkb-H-qws (TARIFF WAR 2.0! 🚨 Why Markets Pulled Back on New 15% Duty)...
-2026-02-23 19:45:56,001 - ERROR - Error extracting audio for https://www.youtube.com/watch?v=akJK52ODU8c: Command '['/Users/Owner/Projects/Python/TheBrief/venv/bin/yt-dlp', '-x', '--audio-format', 'mp3', '--postprocessor-args', '-ar 16000 -ac 1', '--ffmpeg-location', '/Users/Owner/Projects/Python/TheBrief/venv/lib/python3.9/site-packages/static_ffmpeg/bin/darwin_arm64/ffmpeg', '--extractor-args', 'youtube:player-client=ios,android', '-o', 'audio/akJK52ODU8c.%(ext)s', 'https://www.youtube.com/watch?v=akJK52ODU8c']' returned non-zero exit status 1.
-2026-02-23 19:45:56,001 - INFO - Extracting audio for hrCu96zGQ6E (Blockchain and the Future of Fintech: Morgan Krupetsky)...
-2026-02-23 19:46:38,705 - INFO - Successfully extracted: audio/zDnkb-H-qws.mp3
-2026-02-23 19:46:38,706 - INFO - Extracting audio for BP171WxPXU4 (US Panic: Japan’s Debt Just Collapsed)...
-2026-02-23 19:47:36,816 - INFO - Successfully extracted: audio/hrCu96zGQ6E.mp3
-2026-02-23 19:47:36,816 - INFO - Audio already exists for zDnkb-H-qws, skipping extraction.
-2026-02-23 19:47:36,816 - INFO - Extracting audio for BP171WxPXU4 (US Panic: Japan’s Debt Just Collapsed)...
-2026-02-23 19:47:39,017 - ERROR - Error extracting audio for https://www.youtube.com/watch?v=hrCu96zGQ6E: Command '['/Users/Owner/Projects/Python/TheBrief/venv/bin/yt-dlp', '-x', '--audio-format', 'mp3', '--postprocessor-args', '-ar 16000 -ac 1', '--ffmpeg-location', '/Users/Owner/Projects/Python/TheBrief/venv/lib/python3.9/site-packages/static_ffmpeg/bin/darwin_arm64/ffmpeg', '--extractor-args', 'youtube:player-client=ios,android', '-o', 'audio/hrCu96zGQ6E.%(ext)s', 'https://www.youtube.com/watch?v=hrCu96zGQ6E']' returned non-zero exit status 1.
-2026-02-23 19:47:39,018 - INFO - Extracting audio for qJVb29D5rfw (The U.S. Debt ‘Black Hole’: We’ve Crossed the Event Horizon | Greg Weldon & Andy Schectman)...
-2026-02-23 19:47:42,365 - INFO - Successfully extracted: audio/BP171WxPXU4.mp3
-2026-02-23 19:49:02,550 - INFO - Successfully extracted: audio/BP171WxPXU4.mp3
-2026-02-23 19:49:02,551 - INFO - Audio already exists for qJVb29D5rfw, skipping extraction.
-2026-02-23 19:49:02,552 - INFO - Extraction complete. 5 audio files ready.
-2026-02-23 19:49:02,552 - INFO - 
---- Phase 3: Transcription ---
-2026-02-23 19:49:02,552 - INFO - Transcribing: Economy Enters ‘Pivotal Time’: Fund Manager Reveals Next Big Plays | David Busch
-2026-02-23 19:49:02,552 - INFO - Transcribing via Google Gemini 1.5 Pro...
-2026-02-23 19:49:02,552 - INFO - Uploading audio/-8Gcs7cPnIU.mp3 to Gemini File API...
-2026-02-23 19:49:05,024 - INFO - Successfully extracted: audio/qJVb29D5rfw.mp3
-2026-02-23 19:49:07,312 - INFO - Generating transcription with gemini-2.0-flash...
-2026-02-23 19:49:38,717 - INFO - Deleted temp audio file: audio/-8Gcs7cPnIU.mp3
-2026-02-23 19:49:38,717 - INFO - Transcribing: Blockchain and the Future of Fintech: Morgan Krupetsky
-2026-02-23 19:49:38,717 - INFO - Transcribing via Google Gemini 1.5 Pro...
-2026-02-23 19:49:38,718 - INFO - Uploading audio/hrCu96zGQ6E.mp3 to Gemini File API...
-2026-02-23 19:49:43,006 - INFO - Generating transcription with gemini-2.0-flash...
-2026-02-23 19:50:11,214 - INFO - Deleted temp audio file: audio/hrCu96zGQ6E.mp3
-2026-02-23 19:50:11,216 - INFO - Transcribing: TARIFF WAR 2.0! 🚨 Why Markets Pulled Back on New 15% Duty
-2026-02-23 19:50:11,216 - INFO - Transcribing via Google Gemini 1.5 Pro...
-2026-02-23 19:50:11,216 - INFO - Uploading audio/zDnkb-H-qws.mp3 to Gemini File API...
-2026-02-23 19:50:15,858 - INFO - Generating transcription with gemini-2.0-flash...
-2026-02-23 19:53:02,823 - INFO - Deleted temp audio file: audio/zDnkb-H-qws.mp3
-2026-02-23 19:53:02,824 - INFO - Transcribing: US Panic: Japan’s Debt Just Collapsed
-2026-02-23 19:53:02,824 - INFO - Transcribing via Google Gemini 1.5 Pro...
-2026-02-23 19:53:02,825 - INFO - Uploading audio/BP171WxPXU4.mp3 to Gemini File API...
-2026-02-23 19:53:06,092 - INFO - Generating transcription with gemini-2.0-flash...
-2026-02-23 19:53:43,473 - INFO - Deleted temp audio file: audio/BP171WxPXU4.mp3
-2026-02-23 19:53:43,473 - INFO - Transcribing: The U.S. Debt ‘Black Hole’: We’ve Crossed the Event Horizon | Greg Weldon & Andy Schectman
-2026-02-23 19:53:43,473 - INFO - Transcribing via Google Gemini 1.5 Pro...
-2026-02-23 19:53:43,474 - INFO - Uploading audio/qJVb29D5rfw.mp3 to Gemini File API...
-2026-02-23 19:53:48,173 - INFO - Generating transcription with gemini-2.0-flash...
-2026-02-23 19:54:26,313 - INFO - Deleted temp audio file: audio/qJVb29D5rfw.mp3
-2026-02-23 19:54:26,316 - INFO - Transcription complete. 5 transcripts ready.
-2026-02-23 19:54:26,316 - INFO - 
---- Phase 4: Summarization ---
-2026-02-23 19:54:26,324 - INFO - Summarizing: Economy Enters ‘Pivotal Time’: Fund Manager Reveals Next Big Plays | David Busch
-2026-02-23 19:54:32,938 - INFO - Summarizing: Blockchain and the Future of Fintech: Morgan Krupetsky
-2026-02-23 19:54:38,825 - INFO - Summarizing: TARIFF WAR 2.0! 🚨 Why Markets Pulled Back on New 15% Duty
-2026-02-23 19:54:44,654 - INFO - Summarizing: US Panic: Japan’s Debt Just Collapsed
-2026-02-23 19:54:50,475 - INFO - Summarizing: The U.S. Debt ‘Black Hole’: We’ve Crossed the Event Horizon | Greg Weldon & Andy Schectman
-2026-02-23 19:54:56,549 - INFO - Summarization complete. 5 briefs written to briefs/2026-02-23.md
-2026-02-23 19:54:56,549 - INFO - Preparing email digest...
-2026-02-23 19:54:56,550 - INFO - Connecting to SMTP server smtp.gmail.com:587
-2026-02-23 19:54:57,866 - INFO - Email digest sent successfully.
-2026-02-23 19:54:57,868 - INFO - Queue cleared.
-2026-02-23 19:54:57,868 - INFO - ==================================================
-2026-02-23 19:54:57,868 - INFO - Pipeline Execution Complete
-2026-02-23 19:54:57,868 - INFO - ==================================================
-2026-02-23 20:01:03,501 - INFO - Successfully extracted: audio/MVRijW_s_gw.mp3
-2026-02-23 20:01:03,508 - INFO - Extraction complete. 6 audio files ready.
-2026-02-23 20:01:03,508 - INFO - 
---- Phase 3: Transcription ---
-2026-02-23 20:01:03,508 - WARNING - Audio file missing for 'Economy Enters ‘Pivotal Time’: Fund Manager Reveals Next Big Plays | David Busch', skipping transcription.
-2026-02-23 20:01:03,508 - WARNING - Audio file missing for 'TARIFF WAR 2.0! 🚨 Why Markets Pulled Back on New 15% Duty', skipping transcription.
-2026-02-23 20:01:03,508 - WARNING - Audio file missing for 'US Panic: Japan’s Debt Just Collapsed', skipping transcription.
-2026-02-23 20:01:03,508 - WARNING - Audio file missing for 'The U.S. Debt ‘Black Hole’: We’ve Crossed the Event Horizon | Greg Weldon & Andy Schectman', skipping transcription.
-2026-02-23 20:01:03,508 - INFO - Transcribing: Worst Stock Market Vs. World Since '95; Where Should Investors Go? | Robin Brooks
-2026-02-23 20:01:03,509 - INFO - Transcribing via Google Gemini 1.5 Pro...
-2026-02-23 20:01:03,509 - INFO - Uploading audio/akJK52ODU8c.mp3 to Gemini File API...
-2026-02-23 20:01:03,509 - INFO - Transcribing: 🚨 Silver PANIC! - You Can EXPECT This! 🦍🦍 (China - Gold Price and Precious Metals NEWS Update)
-2026-02-23 20:01:03,509 - INFO - Transcribing via Google Gemini 1.5 Pro...
-2026-02-23 20:01:03,510 - INFO - Uploading audio/MVRijW_s_gw.mp3 to Gemini File API...
-2026-02-23 20:01:09,077 - INFO - Generating transcription with gemini-2.0-flash...
-2026-02-23 20:01:09,870 - INFO - Generating transcription with gemini-2.0-flash...
-2026-02-23 20:01:36,547 - INFO - Deleted temp audio file: audio/MVRijW_s_gw.mp3
-2026-02-23 20:01:58,010 - INFO - Deleted temp audio file: audio/akJK52ODU8c.mp3
-2026-02-23 20:01:58,011 - INFO - Transcription complete. 2 transcripts ready.
-2026-02-23 20:01:58,011 - INFO - 
---- Phase 4: Summarization ---
-2026-02-23 20:01:58,018 - INFO - Summarizing: 🚨 Silver PANIC! - You Can EXPECT This! 🦍🦍 (China - Gold Price and Precious Metals NEWS Update)
-2026-02-23 20:01:58,018 - INFO - Summarizing: Worst Stock Market Vs. World Since '95; Where Should Investors Go? | Robin Brooks
-2026-02-23 20:02:04,735 - INFO - Summarization complete. 2 briefs written to briefs/2026-02-23.md
-2026-02-23 20:02:04,736 - INFO - Queue cleared.
-2026-02-23 20:02:04,736 - INFO - ==================================================
-2026-02-23 20:02:04,736 - INFO - Pipeline Execution Complete
-2026-02-23 20:02:04,736 - INFO - ==================================================
-2026-02-23 20:05:48,394 - INFO - ==================================================
-2026-02-23 20:05:48,394 - INFO - Starting TheBrief Daily Pipeline
-2026-02-23 20:05:48,394 - INFO - ==================================================
-2026-02-23 20:05:48,395 - INFO - 
---- Phase 1: Discovery ---
-2026-02-23 20:05:48,397 - INFO - Discovering videos published after 2026-02-23T01:05:48.397297+00:00 (24h lookback)
-2026-02-23 20:05:48,397 - INFO - Checking channel: Bald Guy Money (UCtPdiTVqTkg3t3PjQZqOaCA)
-2026-02-23 20:05:48,397 - INFO - Checking channel: GoldSilver  (UCThv5tYUVaG4ZPA3p6EXZbQ)
-2026-02-23 20:05:48,397 - INFO - Checking channel: Silver Dragons (UCucqfNRyBkieAop_LDUqHEg)
-2026-02-23 20:05:48,397 - INFO - Checking channel: Rons Basement (UC7KRV9tVt7JqaSO3t6ifAsA)
-2026-02-23 20:05:48,399 - INFO - Checking channel: Wall Street Bullion  (UCXWoMTRWJTIZwUblljo5aDQ)
-2026-02-23 20:05:49,054 - INFO -   [Bald Guy Money] Found 0 recent videos.
-2026-02-23 20:05:49,055 - INFO - Checking channel: Kitco NEWS (UC9ijza42jVR3T6b8bColgvg)
-2026-02-23 20:05:49,085 - INFO -   [Wall Street Bullion ] Found 1 recent videos.
-2026-02-23 20:05:49,085 - INFO - Checking channel: Yankee Stacking (UCSlo5dl8jvbmpJi-zcbqq6w)
-2026-02-23 20:05:49,174 - INFO -   [Silver Dragons] Found 1 recent videos.
-2026-02-23 20:05:49,175 - INFO - Checking channel: Arcadia Economics (UC0xbkSGGxkI4AVp0BQRjnAA)
-2026-02-23 20:05:49,192 - INFO -   [GoldSilver ] Found 3 recent videos.
-2026-02-23 20:05:49,192 - INFO - Checking channel: AI News & Strategy Daily | Nate B Jones (UC0C-17n9iuUQPylguM1d-lQ)
-2026-02-23 20:05:49,295 - INFO -   [Rons Basement] Found 2 recent videos.
-2026-02-23 20:05:49,295 - INFO - Checking channel: Clive Thompson (UCrlFUp4OtXJSiDfiPMFnk3A)
-2026-02-23 20:05:49,535 - INFO -   [Kitco NEWS] Found 0 recent videos.
-2026-02-23 20:05:49,535 - INFO - Checking channel: David Lin  (UClBMLpP3UHXLmgEypMmXPuA)
-2026-02-23 20:05:49,543 - INFO -   [Yankee Stacking] Found 0 recent videos.
-2026-02-23 20:05:49,543 - INFO - Checking channel: TheTechnicalTraders (UCenLy4V5NgxEz7pwosA9hiw)
-2026-02-23 20:05:49,604 - INFO -   [Arcadia Economics] Found 1 recent videos.
-2026-02-23 20:05:49,604 - INFO - Checking channel: Verified Investing (UCZ-J2m1AUSLnifUEKam5_dA)
-2026-02-23 20:05:49,657 - INFO -   [AI News & Strategy Daily | Nate B Jones] Found 1 recent videos.
-2026-02-23 20:05:49,657 - INFO - Checking channel: Felix & Friends (Goat Academy) (UCJtfma0mE_XrBAD9uakcjfA)
-2026-02-23 20:05:49,905 - INFO -   [Clive Thompson] Found 1 recent videos.
-2026-02-23 20:05:49,906 - INFO - Checking channel: Miles Franklin Media (UC_EzgYSqu4a6-Po65FxAoKg)
-2026-02-23 20:05:50,221 - INFO -   [David Lin ] Found 2 recent videos.
-2026-02-23 20:05:50,221 - INFO - Checking channel: Adam Taggart | Thoughtful Money® (UCjqe6xtZYTfvA4pHs0HgJsQ)
-2026-02-23 20:05:50,257 - INFO -   [TheTechnicalTraders] Found 1 recent videos.
-2026-02-23 20:05:50,257 - INFO - Checking channel: CPM Group (UC59ED7RkMYTD9eTGr1dn98A)
-2026-02-23 20:05:50,369 - INFO -   [Miles Franklin Media] Found 2 recent videos.
-2026-02-23 20:05:50,369 - INFO - Checking channel: Commodity Culture (UC8n-nG-Wui_Ho1v_RgmJbTw)
-2026-02-23 20:05:50,421 - INFO -   [Felix & Friends (Goat Academy)] Found 1 recent videos.
-2026-02-23 20:05:50,474 - INFO -   [Verified Investing] Found 6 recent videos.
-2026-02-23 20:05:50,716 - INFO -   [CPM Group] Found 0 recent videos.
-2026-02-23 20:05:50,768 - INFO -   [Adam Taggart | Thoughtful Money®] Found 0 recent videos.
-2026-02-23 20:05:50,789 - INFO -   [Commodity Culture] Found 0 recent videos.
-2026-02-23 20:05:51,068 - INFO - Found 8 total long-form videos across all channels.
-2026-02-23 20:05:51,070 - INFO - Skipping previously processed video: 🚨 Silver PANIC! - You Can EXPECT This! 🦍🦍 (China - Gold Price and Precious Metals NEWS Update)
-2026-02-23 20:05:51,071 - INFO - Skipping previously processed video: Why Are Markets Panicking Today? Fund Manager On New Tariffs, Iran Strike, Inflation | David Busch
-2026-02-23 20:05:51,071 - INFO - Skipping previously processed video: Worst Stock Market Vs. World Since '95; Where Should Investors Go? | Robin Brooks
-2026-02-23 20:05:51,071 - INFO - Skipping previously processed video: Blockchain and the Future of Fintech: Morgan Krupetsky
-2026-02-23 20:05:51,071 - INFO - Skipping previously processed video: TARIFF WAR 2.0! 🚨 Why Markets Pulled Back on New 15% Duty
-2026-02-23 20:05:51,072 - INFO - Skipping previously processed video: US Panic: Japan’s Debt Just Collapsed
-2026-02-23 20:05:51,072 - INFO - Skipping previously processed video: The U.S. Debt ‘Black Hole’: We’ve Crossed the Event Horizon | Greg Weldon & Andy Schectman
-2026-02-23 20:05:51,072 - INFO - Discovery complete. Added 1 new videos to queue.
-2026-02-23 20:05:51,072 - INFO - 
---- Phase 2: Extraction ---
-2026-02-23 20:05:51,073 - INFO - Audio already exists for 8jKAT8GNDE0, skipping extraction.
-2026-02-23 20:05:51,073 - INFO - Extraction complete. 1 audio files ready.
-2026-02-23 20:05:51,073 - INFO - 
+2026-02-24 04:07:28,635 - INFO - Extracting audio for MVRijW_s_gw (🚨 Silver PANIC! - You Can EXPECT This! 🦍🦍 (China - Gold Price and Precious Metals NEWS Update))...
+2026-02-24 04:07:29,111 - INFO - Extracting audio for 8jKAT8GNDE0 (Google's New AI Is Smarter Than Everyone's But It Costs HALF as Much. Here's Why They Don't Care.)...
+2026-02-24 04:07:30,501 - ERROR - Error extracting audio for https://www.youtube.com/watch?v=MVRijW_s_gw: Command '['/Users/Owner/Projects/Python/TheBrief/venv/bin/yt-dlp', '--cookies-from-browser', 'chrome', '-x', '--audio-format', 'mp3', '--postprocessor-args', '-ar 16000 -ac 1', '--ffmpeg-location', '/Users/Owner/Projects/Python/TheBrief/venv/lib/python3.9/site-packages/static_ffmpeg/bin/darwin_arm64/ffmpeg', '--extractor-args', 'youtube:player-client=ios,android', '-o', 'audio/MVRijW_s_gw.%(ext)s', 'https://www.youtube.com/watch?v=MVRijW_s_gw']' returned non-zero exit status 1.
+2026-02-24 04:07:30,566 - ERROR - Error extracting audio for https://www.youtube.com/watch?v=8jKAT8GNDE0: Command '['/Users/Owner/Projects/Python/TheBrief/venv/bin/yt-dlp', '--cookies-from-browser', 'chrome', '-x', '--audio-format', 'mp3', '--postprocessor-args', '-ar 16000 -ac 1', '--ffmpeg-location', '/Users/Owner/Projects/Python/TheBrief/venv/lib/python3.9/site-packages/static_ffmpeg/bin/darwin_arm64/ffmpeg', '--extractor-args', 'youtube:player-client=ios,android', '-o', 'audio/8jKAT8GNDE0.%(ext)s', 'https://www.youtube.com/watch?v=8jKAT8GNDE0']' returned non-zero exit status 1.
+2026-02-24 04:07:32,619 - INFO - Extracting audio for dgaXXRp3OWc (Next Market Crash To Last 20 Years But Gareth Soloway Is 'Unbelievably Bullish' On This Asset)...
+2026-02-24 04:07:32,697 - INFO - Extracting audio for -8Gcs7cPnIU (Why Are Markets Panicking Today? Fund Manager On New Tariffs, Iran Strike, Inflation | David Busch)...
+2026-02-24 04:07:35,178 - ERROR - Error extracting audio for https://www.youtube.com/watch?v=-8Gcs7cPnIU: Command '['/Users/Owner/Projects/Python/TheBrief/venv/bin/yt-dlp', '--cookies-from-browser', 'chrome', '-x', '--audio-format', 'mp3', '--postprocessor-args', '-ar 16000 -ac 1', '--ffmpeg-location', '/Users/Owner/Projects/Python/TheBrief/venv/lib/python3.9/site-packages/static_ffmpeg/bin/darwin_arm64/ffmpeg', '--extractor-args', 'youtube:player-client=ios,android', '-o', 'audio/-8Gcs7cPnIU.%(ext)s', 'https://www.youtube.com/watch?v=-8Gcs7cPnIU']' returned non-zero exit status 1.
+2026-02-24 04:07:35,249 - ERROR - Error extracting audio for https://www.youtube.com/watch?v=dgaXXRp3OWc: Command '['/Users/Owner/Projects/Python/TheBrief/venv/bin/yt-dlp', '--cookies-from-browser', 'chrome', '-x', '--audio-format', 'mp3', '--postprocessor-args', '-ar 16000 -ac 1', '--ffmpeg-location', '/Users/Owner/Projects/Python/TheBrief/venv/lib/python3.9/site-packages/static_ffmpeg/bin/darwin_arm64/ffmpeg', '--extractor-args', 'youtube:player-client=ios,android', '-o', 'audio/dgaXXRp3OWc.%(ext)s', 'https://www.youtube.com/watch?v=dgaXXRp3OWc']' returned non-zero exit status 1.
+2026-02-24 04:07:37,266 - INFO - Extracting audio for akJK52ODU8c (Worst Stock Market Vs. World Since '95; Where Should Investors Go? | Robin Brooks)...
+2026-02-24 04:07:38,131 - INFO - Extracting audio for hrCu96zGQ6E (Blockchain and the Future of Fintech: Morgan Krupetsky)...
+2026-02-24 04:07:38,779 - ERROR - Error extracting audio for https://www.youtube.com/watch?v=akJK52ODU8c: Command '['/Users/Owner/Projects/Python/TheBrief/venv/bin/yt-dlp', '--cookies-from-browser', 'chrome', '-x', '--audio-format', 'mp3', '--postprocessor-args', '-ar 16000 -ac 1', '--ffmpeg-location', '/Users/Owner/Projects/Python/TheBrief/venv/lib/python3.9/site-packages/static_ffmpeg/bin/darwin_arm64/ffmpeg', '--extractor-args', 'youtube:player-client=ios,android', '-o', 'audio/akJK52ODU8c.%(ext)s', 'https://www.youtube.com/watch?v=akJK52ODU8c']' returned non-zero exit status 1.
+2026-02-24 04:07:39,855 - ERROR - Error extracting audio for https://www.youtube.com/watch?v=hrCu96zGQ6E: Command '['/Users/Owner/Projects/Python/TheBrief/venv/bin/yt-dlp', '--cookies-from-browser', 'chrome', '-x', '--audio-format', 'mp3', '--postprocessor-args', '-ar 16000 -ac 1', '--ffmpeg-location', '/Users/Owner/Projects/Python/TheBrief/venv/lib/python3.9/site-packages/static_ffmpeg/bin/darwin_arm64/ffmpeg', '--extractor-args', 'youtube:player-client=ios,android', '-o', 'audio/hrCu96zGQ6E.%(ext)s', 'https://www.youtube.com/watch?v=hrCu96zGQ6E']' returned non-zero exit status 1.
+2026-02-24 04:07:41,815 - INFO - Extracting audio for zDnkb-H-qws (TARIFF WAR 2.0! 🚨 Why Markets Pulled Back on New 15% Duty)...
+2026-02-24 04:07:42,547 - INFO - Extracting audio for BP171WxPXU4 (US Panic: Japan’s Debt Just Collapsed)...
+2026-02-24 04:07:43,405 - ERROR - Error extracting audio for https://www.youtube.com/watch?v=zDnkb-H-qws: Command '['/Users/Owner/Projects/Python/TheBrief/venv/bin/yt-dlp', '--cookies-from-browser', 'chrome', '-x', '--audio-format', 'mp3', '--postprocessor-args', '-ar 16000 -ac 1', '--ffmpeg-location', '/Users/Owner/Projects/Python/TheBrief/venv/lib/python3.9/site-packages/static_ffmpeg/bin/darwin_arm64/ffmpeg', '--extractor-args', 'youtube:player-client=ios,android', '-o', 'audio/zDnkb-H-qws.%(ext)s', 'https://www.youtube.com/watch?v=zDnkb-H-qws']' returned non-zero exit status 1.
+2026-02-24 04:07:44,186 - ERROR - Error extracting audio for https://www.youtube.com/watch?v=BP171WxPXU4: Command '['/Users/Owner/Projects/Python/TheBrief/venv/bin/yt-dlp', '--cookies-from-browser', 'chrome', '-x', '--audio-format', 'mp3', '--postprocessor-args', '-ar 16000 -ac 1', '--ffmpeg-location', '/Users/Owner/Projects/Python/TheBrief/venv/lib/python3.9/site-packages/static_ffmpeg/bin/darwin_arm64/ffmpeg', '--extractor-args', 'youtube:player-client=ios,android', '-o', 'audio/BP171WxPXU4.%(ext)s', 'https://www.youtube.com/watch?v=BP171WxPXU4']' returned non-zero exit status 1.
+2026-02-24 04:07:45,288 - INFO - Extracting audio for 4yrqMCIGg2M (Live Q & A)...
+2026-02-24 04:07:46,278 - INFO - Extracting audio for qJVb29D5rfw (The U.S. Debt ‘Black Hole’: We’ve Crossed the Event Horizon | Greg Weldon & Andy Schectman)...
+2026-02-24 04:07:46,812 - ERROR - Error extracting audio for https://www.youtube.com/watch?v=4yrqMCIGg2M: Command '['/Users/Owner/Projects/Python/TheBrief/venv/bin/yt-dlp', '--cookies-from-browser', 'chrome', '-x', '--audio-format', 'mp3', '--postprocessor-args', '-ar 16000 -ac 1', '--ffmpeg-location', '/Users/Owner/Projects/Python/TheBrief/venv/lib/python3.9/site-packages/static_ffmpeg/bin/darwin_arm64/ffmpeg', '--extractor-args', 'youtube:player-client=ios,android', '-o', 'audio/4yrqMCIGg2M.%(ext)s', 'https://www.youtube.com/watch?v=4yrqMCIGg2M']' returned non-zero exit status 1.
+2026-02-24 04:07:48,048 - ERROR - Error extracting audio for https://www.youtube.com/watch?v=qJVb29D5rfw: Command '['/Users/Owner/Projects/Python/TheBrief/venv/bin/yt-dlp', '--cookies-from-browser', 'chrome', '-x', '--audio-format', 'mp3', '--postprocessor-args', '-ar 16000 -ac 1', '--ffmpeg-location', '/Users/Owner/Projects/Python/TheBrief/venv/lib/python3.9/site-packages/static_ffmpeg/bin/darwin_arm64/ffmpeg', '--extractor-args', 'youtube:player-client=ios,android', '-o', 'audio/qJVb29D5rfw.%(ext)s', 'https://www.youtube.com/watch?v=qJVb29D5rfw']' returned non-zero exit status 1.
+2026-02-24 04:07:48,048 - INFO - Extraction complete. 0 audio files ready.
+2026-02-24 04:07:48,049 - INFO - 
 --- Phase 3: Summarization (Direct Audio) ---
-2026-02-23 20:05:51,106 - INFO - Summarizing natively via Audio: Google's New AI Is Smarter Than Everyone's But It Costs HALF as Much. Here's Why They Don't Care.
-2026-02-23 20:05:51,106 - INFO -   Uploading audio/8jKAT8GNDE0.mp3 to Gemini...
-2026-02-23 20:05:57,529 - INFO -   File ready. Generating High-Utility Decision Brief...
-2026-02-23 20:06:07,709 - INFO - Summarization complete. 1 briefs written to briefs/2026-02-23.md
-2026-02-23 20:06:07,710 - INFO - Queue cleared.
-2026-02-23 20:06:07,710 - INFO - ==================================================
-2026-02-23 20:06:07,710 - INFO - Pipeline Execution Complete
-2026-02-23 20:06:07,710 - INFO - ==================================================
-2026-02-23 20:06:25,239 - INFO - ==================================================
-2026-02-23 20:06:25,240 - INFO - Starting TheBrief Daily Pipeline
-2026-02-23 20:06:25,240 - INFO - ==================================================
-2026-02-23 20:06:25,240 - INFO - 
+2026-02-24 04:07:48,049 - INFO - Queue is empty. No transcripts to summarize.
+2026-02-24 04:07:48,049 - INFO - ==================================================
+2026-02-24 04:07:48,049 - INFO - Pipeline Execution Complete
+2026-02-24 04:07:48,049 - INFO - ==================================================
+2026-02-24 04:32:01,735 - INFO - ==================================================
+2026-02-24 04:32:01,735 - INFO - Starting TheBrief Daily Pipeline
+2026-02-24 04:32:01,735 - INFO - ==================================================
+2026-02-24 04:32:01,736 - INFO - 
 --- Phase 1: Discovery ---
-2026-02-23 20:06:25,243 - INFO - Discovering videos published after 2026-02-23T01:06:25.243183+00:00 (24h lookback)
-2026-02-23 20:06:25,243 - INFO - Checking channel: Bald Guy Money (UCtPdiTVqTkg3t3PjQZqOaCA)
-2026-02-23 20:06:25,243 - INFO - Checking channel: GoldSilver  (UCThv5tYUVaG4ZPA3p6EXZbQ)
-2026-02-23 20:06:25,243 - INFO - Checking channel: Silver Dragons (UCucqfNRyBkieAop_LDUqHEg)
-2026-02-23 20:06:25,243 - INFO - Checking channel: Rons Basement (UC7KRV9tVt7JqaSO3t6ifAsA)
-2026-02-23 20:06:25,245 - INFO - Checking channel: Wall Street Bullion  (UCXWoMTRWJTIZwUblljo5aDQ)
-2026-02-23 20:06:25,680 - INFO -   [Wall Street Bullion ] Found 1 recent videos.
-2026-02-23 20:06:25,680 - INFO - Checking channel: Kitco NEWS (UC9ijza42jVR3T6b8bColgvg)
-2026-02-23 20:06:25,694 - INFO -   [Rons Basement] Found 2 recent videos.
-2026-02-23 20:06:25,695 - INFO - Checking channel: Yankee Stacking (UCSlo5dl8jvbmpJi-zcbqq6w)
-2026-02-23 20:06:25,764 - INFO -   [Bald Guy Money] Found 0 recent videos.
-2026-02-23 20:06:25,764 - INFO - Checking channel: Arcadia Economics (UC0xbkSGGxkI4AVp0BQRjnAA)
-2026-02-23 20:06:25,801 - INFO -   [GoldSilver ] Found 3 recent videos.
-2026-02-23 20:06:25,801 - INFO - Checking channel: AI News & Strategy Daily | Nate B Jones (UC0C-17n9iuUQPylguM1d-lQ)
-2026-02-23 20:06:25,804 - INFO -   [Silver Dragons] Found 1 recent videos.
-2026-02-23 20:06:25,804 - INFO - Checking channel: Clive Thompson (UCrlFUp4OtXJSiDfiPMFnk3A)
-2026-02-23 20:06:26,146 - INFO -   [Kitco NEWS] Found 0 recent videos.
-2026-02-23 20:06:26,147 - INFO - Checking channel: David Lin  (UClBMLpP3UHXLmgEypMmXPuA)
-2026-02-23 20:06:26,155 - INFO -   [AI News & Strategy Daily | Nate B Jones] Found 1 recent videos.
-2026-02-23 20:06:26,155 - INFO - Checking channel: TheTechnicalTraders (UCenLy4V5NgxEz7pwosA9hiw)
-2026-02-23 20:06:26,304 - INFO -   [Yankee Stacking] Found 0 recent videos.
-2026-02-23 20:06:26,304 - INFO - Checking channel: Verified Investing (UCZ-J2m1AUSLnifUEKam5_dA)
-2026-02-23 20:06:26,342 - INFO -   [Clive Thompson] Found 1 recent videos.
-2026-02-23 20:06:26,342 - INFO - Checking channel: Felix & Friends (Goat Academy) (UCJtfma0mE_XrBAD9uakcjfA)
-2026-02-23 20:06:26,456 - INFO -   [Arcadia Economics] Found 1 recent videos.
-2026-02-23 20:06:26,456 - INFO - Checking channel: Miles Franklin Media (UC_EzgYSqu4a6-Po65FxAoKg)
-2026-02-23 20:06:26,642 - INFO -   [TheTechnicalTraders] Found 1 recent videos.
-2026-02-23 20:06:26,643 - INFO - Checking channel: Adam Taggart | Thoughtful Money® (UCjqe6xtZYTfvA4pHs0HgJsQ)
-2026-02-23 20:06:26,739 - INFO -   [David Lin ] Found 2 recent videos.
-2026-02-23 20:06:26,740 - INFO - Checking channel: CPM Group (UC59ED7RkMYTD9eTGr1dn98A)
-2026-02-23 20:06:26,851 - INFO -   [Felix & Friends (Goat Academy)] Found 1 recent videos.
-2026-02-23 20:06:26,852 - INFO - Checking channel: Commodity Culture (UC8n-nG-Wui_Ho1v_RgmJbTw)
-2026-02-23 20:06:26,898 - INFO -   [Miles Franklin Media] Found 2 recent videos.
-2026-02-23 20:06:26,900 - INFO -   [Verified Investing] Found 6 recent videos.
-2026-02-23 20:06:27,222 - INFO -   [CPM Group] Found 0 recent videos.
-2026-02-23 20:06:27,243 - INFO -   [Adam Taggart | Thoughtful Money®] Found 0 recent videos.
-2026-02-23 20:06:27,364 - INFO -   [Commodity Culture] Found 0 recent videos.
-2026-02-23 20:06:27,619 - INFO - Found 8 total long-form videos across all channels.
-2026-02-23 20:06:27,621 - INFO - Skipping previously processed video: 🚨 Silver PANIC! - You Can EXPECT This! 🦍🦍 (China - Gold Price and Precious Metals NEWS Update)
-2026-02-23 20:06:27,621 - INFO - Skipping previously processed video: Google's New AI Is Smarter Than Everyone's But It Costs HALF as Much. Here's Why They Don't Care.
-2026-02-23 20:06:27,621 - INFO - Skipping previously processed video: Why Are Markets Panicking Today? Fund Manager On New Tariffs, Iran Strike, Inflation | David Busch
-2026-02-23 20:06:27,621 - INFO - Skipping previously processed video: Worst Stock Market Vs. World Since '95; Where Should Investors Go? | Robin Brooks
-2026-02-23 20:06:27,621 - INFO - Skipping previously processed video: Blockchain and the Future of Fintech: Morgan Krupetsky
-2026-02-23 20:06:27,621 - INFO - Skipping previously processed video: TARIFF WAR 2.0! 🚨 Why Markets Pulled Back on New 15% Duty
-2026-02-23 20:06:27,621 - INFO - Skipping previously processed video: US Panic: Japan’s Debt Just Collapsed
-2026-02-23 20:06:27,622 - INFO - Skipping previously processed video: The U.S. Debt ‘Black Hole’: We’ve Crossed the Event Horizon | Greg Weldon & Andy Schectman
-2026-02-23 20:06:27,622 - INFO - Discovery complete. Added 0 new videos to queue.
-2026-02-23 20:06:27,622 - INFO - 
+2026-02-24 04:32:01,738 - INFO - Discovering videos published after 2026-02-23T09:32:01.738252+00:00 (24h lookback)
+2026-02-24 04:32:01,738 - INFO - Checking channel: Bald Guy Money (UCtPdiTVqTkg3t3PjQZqOaCA)
+2026-02-24 04:32:01,738 - INFO - Checking channel: GoldSilver  (UCThv5tYUVaG4ZPA3p6EXZbQ)
+2026-02-24 04:32:01,738 - INFO - Checking channel: Silver Dragons (UCucqfNRyBkieAop_LDUqHEg)
+2026-02-24 04:32:01,738 - INFO - Checking channel: Rons Basement (UC7KRV9tVt7JqaSO3t6ifAsA)
+2026-02-24 04:32:01,738 - INFO - Checking channel: Wall Street Bullion  (UCXWoMTRWJTIZwUblljo5aDQ)
+2026-02-24 04:32:02,195 - INFO -   [GoldSilver ] Found 3 recent videos.
+2026-02-24 04:32:02,195 - INFO - Checking channel: Kitco NEWS (UC9ijza42jVR3T6b8bColgvg)
+2026-02-24 04:32:02,219 - INFO -   [Bald Guy Money] Found 0 recent videos.
+2026-02-24 04:32:02,219 - INFO - Checking channel: Yankee Stacking (UCSlo5dl8jvbmpJi-zcbqq6w)
+2026-02-24 04:32:02,395 - INFO -   [Wall Street Bullion ] Found 1 recent videos.
+2026-02-24 04:32:02,395 - INFO - Checking channel: Arcadia Economics (UC0xbkSGGxkI4AVp0BQRjnAA)
+2026-02-24 04:32:02,471 - INFO -   [Silver Dragons] Found 1 recent videos.
+2026-02-24 04:32:02,471 - INFO - Checking channel: AI News & Strategy Daily | Nate B Jones (UC0C-17n9iuUQPylguM1d-lQ)
+2026-02-24 04:32:02,584 - INFO -   [Kitco NEWS] Found 0 recent videos.
+2026-02-24 04:32:02,584 - INFO - Checking channel: Clive Thompson (UCrlFUp4OtXJSiDfiPMFnk3A)
+2026-02-24 04:32:02,711 - INFO -   [Yankee Stacking] Found 0 recent videos.
+2026-02-24 04:32:02,711 - INFO - Checking channel: David Lin  (UClBMLpP3UHXLmgEypMmXPuA)
+2026-02-24 04:32:02,740 - INFO -   [Arcadia Economics] Found 1 recent videos.
+2026-02-24 04:32:02,740 - INFO - Checking channel: TheTechnicalTraders (UCenLy4V5NgxEz7pwosA9hiw)
+2026-02-24 04:32:02,900 - INFO -   [AI News & Strategy Daily | Nate B Jones] Found 1 recent videos.
+2026-02-24 04:32:02,900 - INFO - Checking channel: Verified Investing (UCZ-J2m1AUSLnifUEKam5_dA)
+2026-02-24 04:32:02,976 - INFO -   [Rons Basement] Found 2 recent videos.
+2026-02-24 04:32:02,976 - INFO - Checking channel: Felix & Friends (Goat Academy) (UCJtfma0mE_XrBAD9uakcjfA)
+2026-02-24 04:32:03,010 - INFO -   [Clive Thompson] Found 1 recent videos.
+2026-02-24 04:32:03,010 - INFO - Checking channel: Miles Franklin Media (UC_EzgYSqu4a6-Po65FxAoKg)
+2026-02-24 04:32:03,047 - INFO -   [David Lin ] Found 3 recent videos.
+2026-02-24 04:32:03,047 - INFO - Checking channel: Adam Taggart | Thoughtful Money® (UCjqe6xtZYTfvA4pHs0HgJsQ)
+2026-02-24 04:32:03,452 - INFO -   [Verified Investing] Found 6 recent videos.
+2026-02-24 04:32:03,453 - INFO - Checking channel: CPM Group (UC59ED7RkMYTD9eTGr1dn98A)
+2026-02-24 04:32:03,480 - INFO -   [TheTechnicalTraders] Found 1 recent videos.
+2026-02-24 04:32:03,480 - INFO - Checking channel: Commodity Culture (UC8n-nG-Wui_Ho1v_RgmJbTw)
+2026-02-24 04:32:03,497 - INFO -   [Adam Taggart | Thoughtful Money®] Found 0 recent videos.
+2026-02-24 04:32:03,710 - INFO -   [Felix & Friends (Goat Academy)] Found 1 recent videos.
+2026-02-24 04:32:03,771 - INFO -   [Miles Franklin Media] Found 2 recent videos.
+2026-02-24 04:32:03,901 - INFO -   [CPM Group] Found 0 recent videos.
+2026-02-24 04:32:03,932 - INFO -   [Commodity Culture] Found 0 recent videos.
+2026-02-24 04:32:04,158 - INFO - Found 10 total long-form videos across all channels.
+2026-02-24 04:32:04,159 - INFO - Discovery complete. Added 10 new videos to queue.
+2026-02-24 04:32:04,160 - INFO - 
 --- Phase 2: Extraction ---
-2026-02-23 20:06:27,622 - INFO - Queue is empty.
-2026-02-23 20:06:27,622 - INFO - 
+2026-02-24 04:32:07,584 - INFO - Extracting audio for MVRijW_s_gw (🚨 Silver PANIC! - You Can EXPECT This! 🦍🦍 (China - Gold Price and Precious Metals NEWS Update))...
+2026-02-24 04:32:07,852 - INFO - Extracting audio for 8jKAT8GNDE0 (Google's New AI Is Smarter Than Everyone's But It Costs HALF as Much. Here's Why They Don't Care.)...
+2026-02-24 04:32:50,284 - ERROR - Error extracting audio for https://www.youtube.com/watch?v=MVRijW_s_gw: Command '['/Users/Owner/Projects/Python/TheBrief/venv/bin/yt-dlp', '-x', '--audio-format', 'mp3', '--postprocessor-args', '-ar 16000 -ac 1', '--ffmpeg-location', 'ffmpeg', '-o', 'audio/MVRijW_s_gw.%(ext)s', 'https://www.youtube.com/watch?v=MVRijW_s_gw']' returned non-zero exit status 1.
+2026-02-24 04:32:54,037 - INFO - Extracting audio for dgaXXRp3OWc (Next Market Crash To Last 20 Years But Gareth Soloway Is 'Unbelievably Bullish' On This Asset)...
+2026-02-24 04:32:58,882 - ERROR - Error extracting audio for https://www.youtube.com/watch?v=8jKAT8GNDE0: Command '['/Users/Owner/Projects/Python/TheBrief/venv/bin/yt-dlp', '-x', '--audio-format', 'mp3', '--postprocessor-args', '-ar 16000 -ac 1', '--ffmpeg-location', 'ffmpeg', '-o', 'audio/8jKAT8GNDE0.%(ext)s', 'https://www.youtube.com/watch?v=8jKAT8GNDE0']' returned non-zero exit status 1.
+2026-02-24 04:33:01,165 - INFO - Extracting audio for -8Gcs7cPnIU (Why Are Markets Panicking Today? Fund Manager On New Tariffs, Iran Strike, Inflation | David Busch)...
+2026-02-24 04:33:12,509 - ERROR - Error extracting audio for https://www.youtube.com/watch?v=dgaXXRp3OWc: Command '['/Users/Owner/Projects/Python/TheBrief/venv/bin/yt-dlp', '-x', '--audio-format', 'mp3', '--postprocessor-args', '-ar 16000 -ac 1', '--ffmpeg-location', 'ffmpeg', '-o', 'audio/dgaXXRp3OWc.%(ext)s', 'https://www.youtube.com/watch?v=dgaXXRp3OWc']' returned non-zero exit status 1.
+2026-02-24 04:33:14,753 - INFO - Extracting audio for akJK52ODU8c (Worst Stock Market Vs. World Since '95; Where Should Investors Go? | Robin Brooks)...
+2026-02-24 04:33:17,737 - ERROR - Error extracting audio for https://www.youtube.com/watch?v=-8Gcs7cPnIU: Command '['/Users/Owner/Projects/Python/TheBrief/venv/bin/yt-dlp', '-x', '--audio-format', 'mp3', '--postprocessor-args', '-ar 16000 -ac 1', '--ffmpeg-location', 'ffmpeg', '-o', 'audio/-8Gcs7cPnIU.%(ext)s', 'https://www.youtube.com/watch?v=-8Gcs7cPnIU']' returned non-zero exit status 1.
+2026-02-24 04:33:21,731 - INFO - Extracting audio for hrCu96zGQ6E (Blockchain and the Future of Fintech: Morgan Krupetsky)...
+2026-02-24 04:33:22,450 - ERROR - Error extracting audio for https://www.youtube.com/watch?v=akJK52ODU8c: Command '['/Users/Owner/Projects/Python/TheBrief/venv/bin/yt-dlp', '-x', '--audio-format', 'mp3', '--postprocessor-args', '-ar 16000 -ac 1', '--ffmpeg-location', 'ffmpeg', '-o', 'audio/akJK52ODU8c.%(ext)s', 'https://www.youtube.com/watch?v=akJK52ODU8c']' returned non-zero exit status 1.
+2026-02-24 04:33:24,920 - INFO - Extracting audio for zDnkb-H-qws (TARIFF WAR 2.0! 🚨 Why Markets Pulled Back on New 15% Duty)...
+2026-02-24 04:33:35,132 - ERROR - Error extracting audio for https://www.youtube.com/watch?v=hrCu96zGQ6E: Command '['/Users/Owner/Projects/Python/TheBrief/venv/bin/yt-dlp', '-x', '--audio-format', 'mp3', '--postprocessor-args', '-ar 16000 -ac 1', '--ffmpeg-location', 'ffmpeg', '-o', 'audio/hrCu96zGQ6E.%(ext)s', 'https://www.youtube.com/watch?v=hrCu96zGQ6E']' returned non-zero exit status 1.
+2026-02-24 04:33:38,696 - INFO - Extracting audio for BP171WxPXU4 (US Panic: Japan’s Debt Just Collapsed)...
+2026-02-24 04:33:42,973 - ERROR - Error extracting audio for https://www.youtube.com/watch?v=zDnkb-H-qws: Command '['/Users/Owner/Projects/Python/TheBrief/venv/bin/yt-dlp', '-x', '--audio-format', 'mp3', '--postprocessor-args', '-ar 16000 -ac 1', '--ffmpeg-location', 'ffmpeg', '-o', 'audio/zDnkb-H-qws.%(ext)s', 'https://www.youtube.com/watch?v=zDnkb-H-qws']' returned non-zero exit status 1.
+2026-02-24 04:33:46,640 - INFO - Extracting audio for 4yrqMCIGg2M (Live Q & A)...
+2026-02-24 04:34:19,120 - ERROR - Error extracting audio for https://www.youtube.com/watch?v=BP171WxPXU4: Command '['/Users/Owner/Projects/Python/TheBrief/venv/bin/yt-dlp', '-x', '--audio-format', 'mp3', '--postprocessor-args', '-ar 16000 -ac 1', '--ffmpeg-location', 'ffmpeg', '-o', 'audio/BP171WxPXU4.%(ext)s', 'https://www.youtube.com/watch?v=BP171WxPXU4']' returned non-zero exit status 1.
+2026-02-24 04:34:21,809 - INFO - Extracting audio for qJVb29D5rfw (The U.S. Debt ‘Black Hole’: We’ve Crossed the Event Horizon | Greg Weldon & Andy Schectman)...
+2026-02-24 04:34:42,404 - ERROR - Error extracting audio for https://www.youtube.com/watch?v=qJVb29D5rfw: Command '['/Users/Owner/Projects/Python/TheBrief/venv/bin/yt-dlp', '-x', '--audio-format', 'mp3', '--postprocessor-args', '-ar 16000 -ac 1', '--ffmpeg-location', 'ffmpeg', '-o', 'audio/qJVb29D5rfw.%(ext)s', 'https://www.youtube.com/watch?v=qJVb29D5rfw']' returned non-zero exit status 1.
+2026-02-24 04:35:24,785 - ERROR - Error extracting audio for https://www.youtube.com/watch?v=4yrqMCIGg2M: Command '['/Users/Owner/Projects/Python/TheBrief/venv/bin/yt-dlp', '-x', '--audio-format', 'mp3', '--postprocessor-args', '-ar 16000 -ac 1', '--ffmpeg-location', 'ffmpeg', '-o', 'audio/4yrqMCIGg2M.%(ext)s', 'https://www.youtube.com/watch?v=4yrqMCIGg2M']' returned non-zero exit status 1.
+2026-02-24 04:35:24,786 - INFO - Extraction complete. 0 audio files ready.
+2026-02-24 04:35:24,786 - INFO - 
 --- Phase 3: Summarization (Direct Audio) ---
-2026-02-23 20:06:27,623 - INFO - Queue is empty. No transcripts to summarize.
-2026-02-23 20:06:27,623 - INFO - ==================================================
-2026-02-23 20:06:27,623 - INFO - Pipeline Execution Complete
-2026-02-23 20:06:27,623 - INFO - ==================================================
-2026-02-23 20:10:29,820 - INFO - ==================================================
-2026-02-23 20:10:29,821 - INFO - Starting TheBrief Daily Pipeline
-2026-02-23 20:10:29,821 - INFO - ==================================================
-2026-02-23 20:10:29,822 - INFO - 
+2026-02-24 04:35:24,786 - INFO - Queue is empty. No transcripts to summarize.
+2026-02-24 04:35:24,786 - INFO - ==================================================
+2026-02-24 04:35:24,786 - INFO - Pipeline Execution Complete
+2026-02-24 04:35:24,786 - INFO - ==================================================
+2026-02-24 04:35:36,095 - INFO - ==================================================
+2026-02-24 04:35:36,095 - INFO - Starting TheBrief Daily Pipeline
+2026-02-24 04:35:36,095 - INFO - ==================================================
+2026-02-24 04:35:36,096 - INFO - 
 --- Phase 1: Discovery ---
-2026-02-23 20:10:29,824 - INFO - Discovering videos published after 2026-02-23T01:10:29.824639+00:00 (24h lookback)
-2026-02-23 20:10:29,824 - INFO - Checking channel: Bald Guy Money (UCtPdiTVqTkg3t3PjQZqOaCA)
-2026-02-23 20:10:29,824 - INFO - Checking channel: GoldSilver  (UCThv5tYUVaG4ZPA3p6EXZbQ)
-2026-02-23 20:10:29,824 - INFO - Checking channel: Silver Dragons (UCucqfNRyBkieAop_LDUqHEg)
-2026-02-23 20:10:29,825 - INFO - Checking channel: Rons Basement (UC7KRV9tVt7JqaSO3t6ifAsA)
-2026-02-23 20:10:29,826 - INFO - Checking channel: Wall Street Bullion  (UCXWoMTRWJTIZwUblljo5aDQ)
-2026-02-23 20:10:30,255 - INFO -   [Wall Street Bullion ] Found 1 recent videos.
-2026-02-23 20:10:30,255 - INFO - Checking channel: Kitco NEWS (UC9ijza42jVR3T6b8bColgvg)
-2026-02-23 20:10:30,329 - INFO -   [Silver Dragons] Found 1 recent videos.
-2026-02-23 20:10:30,329 - INFO - Checking channel: Yankee Stacking (UCSlo5dl8jvbmpJi-zcbqq6w)
-2026-02-23 20:10:30,331 - INFO -   [Bald Guy Money] Found 0 recent videos.
-2026-02-23 20:10:30,331 - INFO - Checking channel: Arcadia Economics (UC0xbkSGGxkI4AVp0BQRjnAA)
-2026-02-23 20:10:30,440 - INFO -   [GoldSilver ] Found 3 recent videos.
-2026-02-23 20:10:30,440 - INFO - Checking channel: AI News & Strategy Daily | Nate B Jones (UC0C-17n9iuUQPylguM1d-lQ)
-2026-02-23 20:10:30,712 - INFO -   [Kitco NEWS] Found 0 recent videos.
-2026-02-23 20:10:30,713 - INFO - Checking channel: Clive Thompson (UCrlFUp4OtXJSiDfiPMFnk3A)
-2026-02-23 20:10:30,758 - INFO -   [Yankee Stacking] Found 0 recent videos.
-2026-02-23 20:10:30,759 - INFO - Checking channel: David Lin  (UClBMLpP3UHXLmgEypMmXPuA)
-2026-02-23 20:10:30,916 - INFO -   [AI News & Strategy Daily | Nate B Jones] Found 1 recent videos.
-2026-02-23 20:10:30,916 - INFO - Checking channel: TheTechnicalTraders (UCenLy4V5NgxEz7pwosA9hiw)
-2026-02-23 20:10:30,937 - INFO -   [Rons Basement] Found 2 recent videos.
-2026-02-23 20:10:30,937 - INFO - Checking channel: Verified Investing (UCZ-J2m1AUSLnifUEKam5_dA)
-2026-02-23 20:10:31,051 - INFO -   [Arcadia Economics] Found 1 recent videos.
-2026-02-23 20:10:31,051 - INFO - Checking channel: Felix & Friends (Goat Academy) (UCJtfma0mE_XrBAD9uakcjfA)
-2026-02-23 20:10:31,115 - INFO -   [Clive Thompson] Found 1 recent videos.
-2026-02-23 20:10:31,116 - INFO - Checking channel: Miles Franklin Media (UC_EzgYSqu4a6-Po65FxAoKg)
-2026-02-23 20:10:31,171 - INFO -   [David Lin ] Found 2 recent videos.
-2026-02-23 20:10:31,171 - INFO - Checking channel: Adam Taggart | Thoughtful Money® (UCjqe6xtZYTfvA4pHs0HgJsQ)
-2026-02-23 20:10:31,306 - INFO -   [TheTechnicalTraders] Found 1 recent videos.
-2026-02-23 20:10:31,306 - INFO - Checking channel: CPM Group (UC59ED7RkMYTD9eTGr1dn98A)
-2026-02-23 20:10:31,416 - INFO -   [Verified Investing] Found 6 recent videos.
-2026-02-23 20:10:31,416 - INFO - Checking channel: Commodity Culture (UC8n-nG-Wui_Ho1v_RgmJbTw)
-2026-02-23 20:10:31,596 - INFO -   [Miles Franklin Media] Found 2 recent videos.
-2026-02-23 20:10:31,649 - INFO -   [Adam Taggart | Thoughtful Money®] Found 0 recent videos.
-2026-02-23 20:10:31,825 - INFO -   [CPM Group] Found 0 recent videos.
-2026-02-23 20:10:31,904 - INFO -   [Commodity Culture] Found 0 recent videos.
-2026-02-23 20:10:32,001 - INFO -   [Felix & Friends (Goat Academy)] Found 1 recent videos.
-2026-02-23 20:10:32,265 - INFO - Found 8 total long-form videos across all channels.
-2026-02-23 20:10:32,268 - INFO - Discovery complete. Added 8 new videos to queue.
-2026-02-23 20:10:32,268 - INFO - 
+2026-02-24 04:35:36,098 - INFO - Discovering videos published after 2026-02-23T09:35:36.098060+00:00 (24h lookback)
+2026-02-24 04:35:36,098 - INFO - Checking channel: Bald Guy Money (UCtPdiTVqTkg3t3PjQZqOaCA)
+2026-02-24 04:35:36,098 - INFO - Checking channel: GoldSilver  (UCThv5tYUVaG4ZPA3p6EXZbQ)
+2026-02-24 04:35:36,098 - INFO - Checking channel: Silver Dragons (UCucqfNRyBkieAop_LDUqHEg)
+2026-02-24 04:35:36,098 - INFO - Checking channel: Rons Basement (UC7KRV9tVt7JqaSO3t6ifAsA)
+2026-02-24 04:35:36,100 - INFO - Checking channel: Wall Street Bullion  (UCXWoMTRWJTIZwUblljo5aDQ)
+2026-02-24 04:35:36,488 - INFO -   [Wall Street Bullion ] Found 1 recent videos.
+2026-02-24 04:35:36,488 - INFO - Checking channel: Kitco NEWS (UC9ijza42jVR3T6b8bColgvg)
+2026-02-24 04:35:36,496 - INFO -   [Bald Guy Money] Found 0 recent videos.
+2026-02-24 04:35:36,496 - INFO - Checking channel: Yankee Stacking (UCSlo5dl8jvbmpJi-zcbqq6w)
+2026-02-24 04:35:36,520 - INFO -   [Silver Dragons] Found 1 recent videos.
+2026-02-24 04:35:36,520 - INFO - Checking channel: Arcadia Economics (UC0xbkSGGxkI4AVp0BQRjnAA)
+2026-02-24 04:35:36,691 - INFO -   [GoldSilver ] Found 3 recent videos.
+2026-02-24 04:35:36,691 - INFO - Checking channel: AI News & Strategy Daily | Nate B Jones (UC0C-17n9iuUQPylguM1d-lQ)
+2026-02-24 04:35:36,749 - INFO -   [Rons Basement] Found 2 recent videos.
+2026-02-24 04:35:36,749 - INFO - Checking channel: Clive Thompson (UCrlFUp4OtXJSiDfiPMFnk3A)
+2026-02-24 04:35:36,898 - INFO -   [Kitco NEWS] Found 0 recent videos.
+2026-02-24 04:35:36,898 - INFO - Checking channel: David Lin  (UClBMLpP3UHXLmgEypMmXPuA)
+2026-02-24 04:35:37,094 - INFO -   [Clive Thompson] Found 1 recent videos.
+2026-02-24 04:35:37,094 - INFO - Checking channel: TheTechnicalTraders (UCenLy4V5NgxEz7pwosA9hiw)
+2026-02-24 04:35:37,101 - INFO -   [AI News & Strategy Daily | Nate B Jones] Found 1 recent videos.
+2026-02-24 04:35:37,102 - INFO - Checking channel: Verified Investing (UCZ-J2m1AUSLnifUEKam5_dA)
+2026-02-24 04:35:37,167 - INFO -   [Yankee Stacking] Found 0 recent videos.
+2026-02-24 04:35:37,167 - INFO - Checking channel: Felix & Friends (Goat Academy) (UCJtfma0mE_XrBAD9uakcjfA)
+2026-02-24 04:35:37,308 - INFO -   [Arcadia Economics] Found 1 recent videos.
+2026-02-24 04:35:37,308 - INFO - Checking channel: Miles Franklin Media (UC_EzgYSqu4a6-Po65FxAoKg)
+2026-02-24 04:35:37,376 - INFO -   [David Lin ] Found 3 recent videos.
+2026-02-24 04:35:37,376 - INFO - Checking channel: Adam Taggart | Thoughtful Money® (UCjqe6xtZYTfvA4pHs0HgJsQ)
+2026-02-24 04:35:37,615 - INFO -   [Verified Investing] Found 6 recent videos.
+2026-02-24 04:35:37,615 - INFO - Checking channel: CPM Group (UC59ED7RkMYTD9eTGr1dn98A)
+2026-02-24 04:35:37,684 - INFO -   [TheTechnicalTraders] Found 1 recent videos.
+2026-02-24 04:35:37,685 - INFO - Checking channel: Commodity Culture (UC8n-nG-Wui_Ho1v_RgmJbTw)
+2026-02-24 04:35:37,686 - INFO -   [Miles Franklin Media] Found 2 recent videos.
+2026-02-24 04:35:37,727 - INFO -   [Adam Taggart | Thoughtful Money®] Found 0 recent videos.
+2026-02-24 04:35:38,017 - INFO -   [CPM Group] Found 0 recent videos.
+2026-02-24 04:35:38,041 - INFO -   [Commodity Culture] Found 0 recent videos.
+2026-02-24 04:35:38,047 - INFO -   [Felix & Friends (Goat Academy)] Found 1 recent videos.
+2026-02-24 04:35:38,273 - INFO - Found 10 total long-form videos across all channels.
+2026-02-24 04:35:38,273 - INFO - Discovery complete. Added 10 new videos to queue.
+2026-02-24 04:35:38,273 - INFO - 
 --- Phase 2: Extraction ---
-2026-02-23 20:10:32,269 - INFO - Extracting audio for 8jKAT8GNDE0 (Google's New AI Is Smarter Than Everyone's But It Costs HALF as Much. Here's Why They Don't Care.)...
-2026-02-23 20:10:32,269 - INFO - Extracting audio for MVRijW_s_gw (🚨 Silver PANIC! - You Can EXPECT This! 🦍🦍 (China - Gold Price and Precious Metals NEWS Update))...
-2026-02-23 20:10:32,269 - INFO - Extracting audio for -8Gcs7cPnIU (Why Are Markets Panicking Today? Fund Manager On New Tariffs, Iran Strike, Inflation | David Busch)...
-2026-02-23 20:10:33,862 - ERROR - Error extracting audio for https://www.youtube.com/watch?v=8jKAT8GNDE0: Command '['/Users/Owner/Projects/Python/TheBrief/venv/bin/yt-dlp', '-x', '--audio-format', 'mp3', '--postprocessor-args', '-ar 16000 -ac 1', '--ffmpeg-location', '/Users/Owner/Projects/Python/TheBrief/venv/lib/python3.9/site-packages/static_ffmpeg/bin/darwin_arm64/ffmpeg', '--extractor-args', 'youtube:player-client=ios,android', '-o', 'audio/8jKAT8GNDE0.%(ext)s', 'https://www.youtube.com/watch?v=8jKAT8GNDE0']' returned non-zero exit status 1.
-2026-02-23 20:10:33,863 - ERROR - Error extracting audio for https://www.youtube.com/watch?v=-8Gcs7cPnIU: Command '['/Users/Owner/Projects/Python/TheBrief/venv/bin/yt-dlp', '-x', '--audio-format', 'mp3', '--postprocessor-args', '-ar 16000 -ac 1', '--ffmpeg-location', '/Users/Owner/Projects/Python/TheBrief/venv/lib/python3.9/site-packages/static_ffmpeg/bin/darwin_arm64/ffmpeg', '--extractor-args', 'youtube:player-client=ios,android', '-o', 'audio/-8Gcs7cPnIU.%(ext)s', 'https://www.youtube.com/watch?v=-8Gcs7cPnIU']' returned non-zero exit status 1.
-2026-02-23 20:10:33,863 - INFO - Extracting audio for akJK52ODU8c (Worst Stock Market Vs. World Since '95; Where Should Investors Go? | Robin Brooks)...
-2026-02-23 20:10:33,863 - INFO - Extracting audio for hrCu96zGQ6E (Blockchain and the Future of Fintech: Morgan Krupetsky)...
-2026-02-23 20:10:34,044 - ERROR - Error extracting audio for https://www.youtube.com/watch?v=MVRijW_s_gw: Command '['/Users/Owner/Projects/Python/TheBrief/venv/bin/yt-dlp', '-x', '--audio-format', 'mp3', '--postprocessor-args', '-ar 16000 -ac 1', '--ffmpeg-location', '/Users/Owner/Projects/Python/TheBrief/venv/lib/python3.9/site-packages/static_ffmpeg/bin/darwin_arm64/ffmpeg', '--extractor-args', 'youtube:player-client=ios,android', '-o', 'audio/MVRijW_s_gw.%(ext)s', 'https://www.youtube.com/watch?v=MVRijW_s_gw']' returned non-zero exit status 1.
-2026-02-23 20:10:34,044 - INFO - Extracting audio for zDnkb-H-qws (TARIFF WAR 2.0! 🚨 Why Markets Pulled Back on New 15% Duty)...
-2026-02-23 20:10:35,181 - ERROR - Error extracting audio for https://www.youtube.com/watch?v=akJK52ODU8c: Command '['/Users/Owner/Projects/Python/TheBrief/venv/bin/yt-dlp', '-x', '--audio-format', 'mp3', '--postprocessor-args', '-ar 16000 -ac 1', '--ffmpeg-location', '/Users/Owner/Projects/Python/TheBrief/venv/lib/python3.9/site-packages/static_ffmpeg/bin/darwin_arm64/ffmpeg', '--extractor-args', 'youtube:player-client=ios,android', '-o', 'audio/akJK52ODU8c.%(ext)s', 'https://www.youtube.com/watch?v=akJK52ODU8c']' returned non-zero exit status 1.
-2026-02-23 20:10:35,182 - INFO - Extracting audio for BP171WxPXU4 (US Panic: Japan’s Debt Just Collapsed)...
-2026-02-23 20:10:35,438 - ERROR - Error extracting audio for https://www.youtube.com/watch?v=hrCu96zGQ6E: Command '['/Users/Owner/Projects/Python/TheBrief/venv/bin/yt-dlp', '-x', '--audio-format', 'mp3', '--postprocessor-args', '-ar 16000 -ac 1', '--ffmpeg-location', '/Users/Owner/Projects/Python/TheBrief/venv/lib/python3.9/site-packages/static_ffmpeg/bin/darwin_arm64/ffmpeg', '--extractor-args', 'youtube:player-client=ios,android', '-o', 'audio/hrCu96zGQ6E.%(ext)s', 'https://www.youtube.com/watch?v=hrCu96zGQ6E']' returned non-zero exit status 1.
-2026-02-23 20:10:35,438 - INFO - Extracting audio for qJVb29D5rfw (The U.S. Debt ‘Black Hole’: We’ve Crossed the Event Horizon | Greg Weldon & Andy Schectman)...
-2026-02-23 20:10:35,686 - ERROR - Error extracting audio for https://www.youtube.com/watch?v=zDnkb-H-qws: Command '['/Users/Owner/Projects/Python/TheBrief/venv/bin/yt-dlp', '-x', '--audio-format', 'mp3', '--postprocessor-args', '-ar 16000 -ac 1', '--ffmpeg-location', '/Users/Owner/Projects/Python/TheBrief/venv/lib/python3.9/site-packages/static_ffmpeg/bin/darwin_arm64/ffmpeg', '--extractor-args', 'youtube:player-client=ios,android', '-o', 'audio/zDnkb-H-qws.%(ext)s', 'https://www.youtube.com/watch?v=zDnkb-H-qws']' returned non-zero exit status 1.
-2026-02-23 20:10:36,643 - ERROR - Error extracting audio for https://www.youtube.com/watch?v=BP171WxPXU4: Command '['/Users/Owner/Projects/Python/TheBrief/venv/bin/yt-dlp', '-x', '--audio-format', 'mp3', '--postprocessor-args', '-ar 16000 -ac 1', '--ffmpeg-location', '/Users/Owner/Projects/Python/TheBrief/venv/lib/python3.9/site-packages/static_ffmpeg/bin/darwin_arm64/ffmpeg', '--extractor-args', 'youtube:player-client=ios,android', '-o', 'audio/BP171WxPXU4.%(ext)s', 'https://www.youtube.com/watch?v=BP171WxPXU4']' returned non-zero exit status 1.
-2026-02-23 20:10:36,934 - ERROR - Error extracting audio for https://www.youtube.com/watch?v=qJVb29D5rfw: Command '['/Users/Owner/Projects/Python/TheBrief/venv/bin/yt-dlp', '-x', '--audio-format', 'mp3', '--postprocessor-args', '-ar 16000 -ac 1', '--ffmpeg-location', '/Users/Owner/Projects/Python/TheBrief/venv/lib/python3.9/site-packages/static_ffmpeg/bin/darwin_arm64/ffmpeg', '--extractor-args', 'youtube:player-client=ios,android', '-o', 'audio/qJVb29D5rfw.%(ext)s', 'https://www.youtube.com/watch?v=qJVb29D5rfw']' returned non-zero exit status 1.
-2026-02-23 20:10:36,934 - INFO - Extraction complete. 0 audio files ready.
-2026-02-23 20:10:36,935 - INFO - 
+2026-02-24 04:35:40,025 - INFO - Extracting audio for MVRijW_s_gw (🚨 Silver PANIC! - You Can EXPECT This! 🦍🦍 (China - Gold Price and Precious Metals NEWS Update))...
+2026-02-24 04:35:40,913 - INFO - Extracting audio for 8jKAT8GNDE0 (Google's New AI Is Smarter Than Everyone's But It Costs HALF as Much. Here's Why They Don't Care.)...
+2026-02-24 04:35:44,639 - INFO - Successfully extracted: audio/MVRijW_s_gw.mp3
+2026-02-24 04:35:45,474 - INFO - Successfully extracted: audio/8jKAT8GNDE0.mp3
+2026-02-24 04:35:47,030 - INFO - Extracting audio for dgaXXRp3OWc (Next Market Crash To Last 20 Years But Gareth Soloway Is 'Unbelievably Bullish' On This Asset)...
+2026-02-24 04:35:49,418 - INFO - Extracting audio for -8Gcs7cPnIU (Why Are Markets Panicking Today? Fund Manager On New Tariffs, Iran Strike, Inflation | David Busch)...
+2026-02-24 04:35:50,914 - INFO - Successfully extracted: audio/dgaXXRp3OWc.mp3
+2026-02-24 04:35:52,747 - INFO - Successfully extracted: audio/-8Gcs7cPnIU.mp3
+2026-02-24 04:35:52,895 - INFO - Extracting audio for akJK52ODU8c (Worst Stock Market Vs. World Since '95; Where Should Investors Go? | Robin Brooks)...
+2026-02-24 04:35:55,719 - INFO - Successfully extracted: audio/akJK52ODU8c.mp3
+2026-02-24 04:35:56,042 - INFO - Extracting audio for hrCu96zGQ6E (Blockchain and the Future of Fintech: Morgan Krupetsky)...
+2026-02-24 04:35:59,366 - INFO - Extracting audio for zDnkb-H-qws (TARIFF WAR 2.0! 🚨 Why Markets Pulled Back on New 15% Duty)...
+2026-02-24 04:35:59,422 - INFO - Successfully extracted: audio/hrCu96zGQ6E.mp3
+2026-02-24 04:36:01,045 - INFO - Extracting audio for BP171WxPXU4 (US Panic: Japan’s Debt Just Collapsed)...
+2026-02-24 04:36:02,484 - INFO - Successfully extracted: audio/zDnkb-H-qws.mp3
+2026-02-24 04:36:03,850 - INFO - Successfully extracted: audio/BP171WxPXU4.mp3
+2026-02-24 04:36:06,318 - INFO - Extracting audio for 4yrqMCIGg2M (Live Q & A)...
+2026-02-24 04:36:06,524 - INFO - Extracting audio for qJVb29D5rfw (The U.S. Debt ‘Black Hole’: We’ve Crossed the Event Horizon | Greg Weldon & Andy Schectman)...
+2026-02-24 04:36:11,335 - INFO - Successfully extracted: audio/qJVb29D5rfw.mp3
+2026-02-24 04:36:13,893 - INFO - Successfully extracted: audio/4yrqMCIGg2M.mp3
+2026-02-24 04:36:13,893 - INFO - Extraction complete. 10 audio files ready.
+2026-02-24 04:36:13,894 - INFO - 
 --- Phase 3: Summarization (Direct Audio) ---
-2026-02-23 20:10:36,935 - INFO - Queue is empty. No transcripts to summarize.
-2026-02-23 20:10:36,935 - INFO - ==================================================
-2026-02-23 20:10:36,935 - INFO - Pipeline Execution Complete
-2026-02-23 20:10:36,935 - INFO - ==================================================
-2026-02-23 20:13:02,772 - INFO - ==================================================
-2026-02-23 20:13:02,772 - INFO - Starting TheBrief Daily Pipeline
-2026-02-23 20:13:02,772 - INFO - ==================================================
-2026-02-23 20:13:02,772 - INFO - 
---- Phase 1: Discovery ---
-2026-02-23 20:13:02,774 - INFO - Discovering videos published after 2026-02-23T01:13:02.774889+00:00 (24h lookback)
-2026-02-23 20:13:02,775 - INFO - Checking channel: Bald Guy Money (UCtPdiTVqTkg3t3PjQZqOaCA)
-2026-02-23 20:13:02,775 - INFO - Checking channel: GoldSilver  (UCThv5tYUVaG4ZPA3p6EXZbQ)
-2026-02-23 20:13:02,775 - INFO - Checking channel: Silver Dragons (UCucqfNRyBkieAop_LDUqHEg)
-2026-02-23 20:13:02,777 - INFO - Checking channel: Rons Basement (UC7KRV9tVt7JqaSO3t6ifAsA)
-2026-02-23 20:13:02,777 - INFO - Checking channel: Wall Street Bullion  (UCXWoMTRWJTIZwUblljo5aDQ)
-2026-02-23 20:13:03,223 - INFO -   [Silver Dragons] Found 1 recent videos.
-2026-02-23 20:13:03,223 - INFO - Checking channel: Kitco NEWS (UC9ijza42jVR3T6b8bColgvg)
-2026-02-23 20:13:03,247 - INFO -   [Wall Street Bullion ] Found 1 recent videos.
-2026-02-23 20:13:03,247 - INFO - Checking channel: Yankee Stacking (UCSlo5dl8jvbmpJi-zcbqq6w)
-2026-02-23 20:13:03,320 - INFO -   [GoldSilver ] Found 3 recent videos.
-2026-02-23 20:13:03,320 - INFO - Checking channel: Arcadia Economics (UC0xbkSGGxkI4AVp0BQRjnAA)
-2026-02-23 20:13:03,322 - INFO -   [Bald Guy Money] Found 0 recent videos.
-2026-02-23 20:13:03,325 - INFO - Checking channel: AI News & Strategy Daily | Nate B Jones (UC0C-17n9iuUQPylguM1d-lQ)
-2026-02-23 20:13:03,702 - INFO -   [Rons Basement] Found 2 recent videos.
-2026-02-23 20:13:03,702 - INFO - Checking channel: Clive Thompson (UCrlFUp4OtXJSiDfiPMFnk3A)
-2026-02-23 20:13:03,717 - INFO -   [Arcadia Economics] Found 1 recent videos.
-2026-02-23 20:13:03,718 - INFO - Checking channel: David Lin  (UClBMLpP3UHXLmgEypMmXPuA)
-2026-02-23 20:13:03,725 - INFO -   [Kitco NEWS] Found 0 recent videos.
-2026-02-23 20:13:03,725 - INFO - Checking channel: TheTechnicalTraders (UCenLy4V5NgxEz7pwosA9hiw)
-2026-02-23 20:13:03,841 - INFO -   [AI News & Strategy Daily | Nate B Jones] Found 1 recent videos.
-2026-02-23 20:13:03,841 - INFO - Checking channel: Verified Investing (UCZ-J2m1AUSLnifUEKam5_dA)
-2026-02-23 20:13:03,843 - INFO -   [Yankee Stacking] Found 0 recent videos.
-2026-02-23 20:13:03,843 - INFO - Checking channel: Felix & Friends (Goat Academy) (UCJtfma0mE_XrBAD9uakcjfA)
-2026-02-23 20:13:04,147 - INFO -   [David Lin ] Found 2 recent videos.
-2026-02-23 20:13:04,147 - INFO - Checking channel: Miles Franklin Media (UC_EzgYSqu4a6-Po65FxAoKg)
-2026-02-23 20:13:04,158 - INFO -   [TheTechnicalTraders] Found 1 recent videos.
-2026-02-23 20:13:04,158 - INFO - Checking channel: Adam Taggart | Thoughtful Money® (UCjqe6xtZYTfvA4pHs0HgJsQ)
-2026-02-23 20:13:04,201 - INFO -   [Clive Thompson] Found 1 recent videos.
-2026-02-23 20:13:04,202 - INFO - Checking channel: CPM Group (UC59ED7RkMYTD9eTGr1dn98A)
-2026-02-23 20:13:04,512 - INFO -   [Verified Investing] Found 6 recent videos.
-2026-02-23 20:13:04,513 - INFO - Checking channel: Commodity Culture (UC8n-nG-Wui_Ho1v_RgmJbTw)
-2026-02-23 20:13:04,756 - INFO -   [CPM Group] Found 0 recent videos.
-2026-02-23 20:13:04,787 - INFO -   [Miles Franklin Media] Found 2 recent videos.
-2026-02-23 20:13:04,791 - INFO -   [Adam Taggart | Thoughtful Money®] Found 0 recent videos.
-2026-02-23 20:13:04,862 - INFO -   [Felix & Friends (Goat Academy)] Found 1 recent videos.
-2026-02-23 20:13:05,111 - INFO -   [Commodity Culture] Found 0 recent videos.
-2026-02-23 20:13:05,365 - INFO - Found 8 total long-form videos across all channels.
-2026-02-23 20:13:05,368 - INFO - Discovery complete. Added 8 new videos to queue.
-2026-02-23 20:13:05,369 - INFO - 
---- Phase 2: Extraction ---
-2026-02-23 20:13:06,441 - INFO - Extracting audio for 8jKAT8GNDE0 (Google's New AI Is Smarter Than Everyone's But It Costs HALF as Much. Here's Why They Don't Care.)...
-2026-02-23 20:13:07,933 - ERROR - Error extracting audio for https://www.youtube.com/watch?v=8jKAT8GNDE0: Command '['/Users/Owner/Projects/Python/TheBrief/venv/bin/yt-dlp', '-x', '--audio-format', 'mp3', '--postprocessor-args', '-ar 16000 -ac 1', '--ffmpeg-location', '/Users/Owner/Projects/Python/TheBrief/venv/lib/python3.9/site-packages/static_ffmpeg/bin/darwin_arm64/ffmpeg', '--extractor-args', 'youtube:player-client=ios,android', '-o', 'audio/8jKAT8GNDE0.%(ext)s', 'https://www.youtube.com/watch?v=8jKAT8GNDE0']' returned non-zero exit status 1.
-2026-02-23 20:13:08,618 - INFO - Extracting audio for MVRijW_s_gw (🚨 Silver PANIC! - You Can EXPECT This! 🦍🦍 (China - Gold Price and Precious Metals NEWS Update))...
-2026-02-23 20:13:09,148 - INFO - Extracting audio for -8Gcs7cPnIU (Why Are Markets Panicking Today? Fund Manager On New Tariffs, Iran Strike, Inflation | David Busch)...
-2026-02-23 20:13:10,207 - ERROR - Error extracting audio for https://www.youtube.com/watch?v=MVRijW_s_gw: Command '['/Users/Owner/Projects/Python/TheBrief/venv/bin/yt-dlp', '-x', '--audio-format', 'mp3', '--postprocessor-args', '-ar 16000 -ac 1', '--ffmpeg-location', '/Users/Owner/Projects/Python/TheBrief/venv/lib/python3.9/site-packages/static_ffmpeg/bin/darwin_arm64/ffmpeg', '--extractor-args', 'youtube:player-client=ios,android', '-o', 'audio/MVRijW_s_gw.%(ext)s', 'https://www.youtube.com/watch?v=MVRijW_s_gw']' returned non-zero exit status 1.
-2026-02-23 20:13:10,656 - ERROR - Error extracting audio for https://www.youtube.com/watch?v=-8Gcs7cPnIU: Command '['/Users/Owner/Projects/Python/TheBrief/venv/bin/yt-dlp', '-x', '--audio-format', 'mp3', '--postprocessor-args', '-ar 16000 -ac 1', '--ffmpeg-location', '/Users/Owner/Projects/Python/TheBrief/venv/lib/python3.9/site-packages/static_ffmpeg/bin/darwin_arm64/ffmpeg', '--extractor-args', 'youtube:player-client=ios,android', '-o', 'audio/-8Gcs7cPnIU.%(ext)s', 'https://www.youtube.com/watch?v=-8Gcs7cPnIU']' returned non-zero exit status 1.
-2026-02-23 20:13:13,308 - INFO - Extracting audio for akJK52ODU8c (Worst Stock Market Vs. World Since '95; Where Should Investors Go? | Robin Brooks)...
-2026-02-23 20:13:13,376 - INFO - Extracting audio for hrCu96zGQ6E (Blockchain and the Future of Fintech: Morgan Krupetsky)...
-2026-02-23 20:13:14,904 - ERROR - Error extracting audio for https://www.youtube.com/watch?v=akJK52ODU8c: Command '['/Users/Owner/Projects/Python/TheBrief/venv/bin/yt-dlp', '-x', '--audio-format', 'mp3', '--postprocessor-args', '-ar 16000 -ac 1', '--ffmpeg-location', '/Users/Owner/Projects/Python/TheBrief/venv/lib/python3.9/site-packages/static_ffmpeg/bin/darwin_arm64/ffmpeg', '--extractor-args', 'youtube:player-client=ios,android', '-o', 'audio/akJK52ODU8c.%(ext)s', 'https://www.youtube.com/watch?v=akJK52ODU8c']' returned non-zero exit status 1.
-2026-02-23 20:13:14,914 - ERROR - Error extracting audio for https://www.youtube.com/watch?v=hrCu96zGQ6E: Command '['/Users/Owner/Projects/Python/TheBrief/venv/bin/yt-dlp', '-x', '--audio-format', 'mp3', '--postprocessor-args', '-ar 16000 -ac 1', '--ffmpeg-location', '/Users/Owner/Projects/Python/TheBrief/venv/lib/python3.9/site-packages/static_ffmpeg/bin/darwin_arm64/ffmpeg', '--extractor-args', 'youtube:player-client=ios,android', '-o', 'audio/hrCu96zGQ6E.%(ext)s', 'https://www.youtube.com/watch?v=hrCu96zGQ6E']' returned non-zero exit status 1.
-2026-02-23 20:13:18,053 - INFO - Extracting audio for BP171WxPXU4 (US Panic: Japan’s Debt Just Collapsed)...
-2026-02-23 20:13:18,719 - INFO - Extracting audio for zDnkb-H-qws (TARIFF WAR 2.0! 🚨 Why Markets Pulled Back on New 15% Duty)...
-2026-02-23 20:13:19,716 - ERROR - Error extracting audio for https://www.youtube.com/watch?v=BP171WxPXU4: Command '['/Users/Owner/Projects/Python/TheBrief/venv/bin/yt-dlp', '-x', '--audio-format', 'mp3', '--postprocessor-args', '-ar 16000 -ac 1', '--ffmpeg-location', '/Users/Owner/Projects/Python/TheBrief/venv/lib/python3.9/site-packages/static_ffmpeg/bin/darwin_arm64/ffmpeg', '--extractor-args', 'youtube:player-client=ios,android', '-o', 'audio/BP171WxPXU4.%(ext)s', 'https://www.youtube.com/watch?v=BP171WxPXU4']' returned non-zero exit status 1.
-2026-02-23 20:13:20,151 - ERROR - Error extracting audio for https://www.youtube.com/watch?v=zDnkb-H-qws: Command '['/Users/Owner/Projects/Python/TheBrief/venv/bin/yt-dlp', '-x', '--audio-format', 'mp3', '--postprocessor-args', '-ar 16000 -ac 1', '--ffmpeg-location', '/Users/Owner/Projects/Python/TheBrief/venv/lib/python3.9/site-packages/static_ffmpeg/bin/darwin_arm64/ffmpeg', '--extractor-args', 'youtube:player-client=ios,android', '-o', 'audio/zDnkb-H-qws.%(ext)s', 'https://www.youtube.com/watch?v=zDnkb-H-qws']' returned non-zero exit status 1.
-2026-02-23 20:13:21,431 - INFO - Extracting audio for qJVb29D5rfw (The U.S. Debt ‘Black Hole’: We’ve Crossed the Event Horizon | Greg Weldon & Andy Schectman)...
-2026-02-23 20:13:23,611 - ERROR - Error extracting audio for https://www.youtube.com/watch?v=qJVb29D5rfw: Command '['/Users/Owner/Projects/Python/TheBrief/venv/bin/yt-dlp', '-x', '--audio-format', 'mp3', '--postprocessor-args', '-ar 16000 -ac 1', '--ffmpeg-location', '/Users/Owner/Projects/Python/TheBrief/venv/lib/python3.9/site-packages/static_ffmpeg/bin/darwin_arm64/ffmpeg', '--extractor-args', 'youtube:player-client=ios,android', '-o', 'audio/qJVb29D5rfw.%(ext)s', 'https://www.youtube.com/watch?v=qJVb29D5rfw']' returned non-zero exit status 1.
-2026-02-23 20:13:23,613 - INFO - Extraction complete. 0 audio files ready.
-2026-02-23 20:13:23,613 - INFO - 
---- Phase 3: Summarization (Direct Audio) ---
-2026-02-23 20:13:23,613 - INFO - Queue is empty. No transcripts to summarize.
-2026-02-23 20:13:23,613 - INFO - ==================================================
-2026-02-23 20:13:23,613 - INFO - Pipeline Execution Complete
-2026-02-23 20:13:23,613 - INFO - ==================================================
-2026-02-23 20:14:35,368 - INFO - ==================================================
-2026-02-23 20:14:35,368 - INFO - Starting TheBrief Daily Pipeline
-2026-02-23 20:14:35,368 - INFO - ==================================================
-2026-02-23 20:14:35,369 - INFO - 
---- Phase 1: Discovery ---
-2026-02-23 20:14:35,371 - INFO - Discovering videos published after 2026-02-23T01:14:35.371560+00:00 (24h lookback)
-2026-02-23 20:14:35,371 - INFO - Checking channel: Bald Guy Money (UCtPdiTVqTkg3t3PjQZqOaCA)
-2026-02-23 20:14:35,371 - INFO - Checking channel: GoldSilver  (UCThv5tYUVaG4ZPA3p6EXZbQ)
-2026-02-23 20:14:35,371 - INFO - Checking channel: Silver Dragons (UCucqfNRyBkieAop_LDUqHEg)
-2026-02-23 20:14:35,373 - INFO - Checking channel: Rons Basement (UC7KRV9tVt7JqaSO3t6ifAsA)
-2026-02-23 20:14:35,373 - INFO - Checking channel: Wall Street Bullion  (UCXWoMTRWJTIZwUblljo5aDQ)
-2026-02-23 20:14:35,825 - INFO -   [GoldSilver ] Found 3 recent videos.
-2026-02-23 20:14:35,825 - INFO - Checking channel: Kitco NEWS (UC9ijza42jVR3T6b8bColgvg)
-2026-02-23 20:14:35,850 - INFO -   [Silver Dragons] Found 1 recent videos.
-2026-02-23 20:14:35,850 - INFO - Checking channel: Yankee Stacking (UCSlo5dl8jvbmpJi-zcbqq6w)
-2026-02-23 20:14:35,857 - INFO -   [Bald Guy Money] Found 0 recent videos.
-2026-02-23 20:14:35,857 - INFO - Checking channel: Arcadia Economics (UC0xbkSGGxkI4AVp0BQRjnAA)
-2026-02-23 20:14:35,875 - INFO -   [Rons Basement] Found 2 recent videos.
-2026-02-23 20:14:35,875 - INFO - Checking channel: AI News & Strategy Daily | Nate B Jones (UC0C-17n9iuUQPylguM1d-lQ)
-2026-02-23 20:14:35,887 - INFO -   [Wall Street Bullion ] Found 1 recent videos.
-2026-02-23 20:14:35,887 - INFO - Checking channel: Clive Thompson (UCrlFUp4OtXJSiDfiPMFnk3A)
-2026-02-23 20:14:36,250 - INFO -   [Arcadia Economics] Found 1 recent videos.
-2026-02-23 20:14:36,250 - INFO - Checking channel: David Lin  (UClBMLpP3UHXLmgEypMmXPuA)
-2026-02-23 20:14:36,280 - INFO -   [AI News & Strategy Daily | Nate B Jones] Found 1 recent videos.
-2026-02-23 20:14:36,280 - INFO - Checking channel: TheTechnicalTraders (UCenLy4V5NgxEz7pwosA9hiw)
-2026-02-23 20:14:36,291 - INFO -   [Kitco NEWS] Found 0 recent videos.
-2026-02-23 20:14:36,291 - INFO - Checking channel: Verified Investing (UCZ-J2m1AUSLnifUEKam5_dA)
-2026-02-23 20:14:36,322 - INFO -   [Clive Thompson] Found 1 recent videos.
-2026-02-23 20:14:36,322 - INFO - Checking channel: Felix & Friends (Goat Academy) (UCJtfma0mE_XrBAD9uakcjfA)
-2026-02-23 20:14:36,386 - INFO -   [Yankee Stacking] Found 0 recent videos.
-2026-02-23 20:14:36,386 - INFO - Checking channel: Miles Franklin Media (UC_EzgYSqu4a6-Po65FxAoKg)
-2026-02-23 20:14:36,766 - INFO -   [David Lin ] Found 2 recent videos.
-2026-02-23 20:14:36,766 - INFO - Checking channel: Adam Taggart | Thoughtful Money® (UCjqe6xtZYTfvA4pHs0HgJsQ)
-2026-02-23 20:14:36,812 - INFO -   [Felix & Friends (Goat Academy)] Found 1 recent videos.
-2026-02-23 20:14:36,812 - INFO - Checking channel: CPM Group (UC59ED7RkMYTD9eTGr1dn98A)
-2026-02-23 20:14:36,826 - INFO -   [Miles Franklin Media] Found 2 recent videos.
-2026-02-23 20:14:36,826 - INFO - Checking channel: Commodity Culture (UC8n-nG-Wui_Ho1v_RgmJbTw)
-2026-02-23 20:14:36,831 - INFO -   [TheTechnicalTraders] Found 1 recent videos.
-2026-02-23 20:14:36,868 - INFO -   [Verified Investing] Found 6 recent videos.
-2026-02-23 20:14:37,182 - INFO -   [Adam Taggart | Thoughtful Money®] Found 0 recent videos.
-2026-02-23 20:14:37,218 - INFO -   [Commodity Culture] Found 0 recent videos.
-2026-02-23 20:14:37,237 - INFO -   [CPM Group] Found 0 recent videos.
-2026-02-23 20:14:37,553 - INFO - Found 8 total long-form videos across all channels.
-2026-02-23 20:14:37,555 - INFO - Discovery complete. Added 8 new videos to queue.
-2026-02-23 20:14:37,555 - INFO - 
---- Phase 2: Extraction ---
-2026-02-23 20:14:39,465 - INFO - Extracting audio for MVRijW_s_gw (🚨 Silver PANIC! - You Can EXPECT This! 🦍🦍 (China - Gold Price and Precious Metals NEWS Update))...
-2026-02-23 20:14:40,370 - INFO - Extracting audio for 8jKAT8GNDE0 (Google's New AI Is Smarter Than Everyone's But It Costs HALF as Much. Here's Why They Don't Care.)...
-2026-02-23 20:18:32,073 - ERROR - Error extracting audio for https://www.youtube.com/watch?v=MVRijW_s_gw: Command '['/Users/Owner/Projects/Python/TheBrief/venv/bin/yt-dlp', '--cookies-from-browser', 'chrome', '-x', '--audio-format', 'mp3', '--postprocessor-args', '-ar 16000 -ac 1', '--ffmpeg-location', '/Users/Owner/Projects/Python/TheBrief/venv/lib/python3.9/site-packages/static_ffmpeg/bin/darwin_arm64/ffmpeg', '--extractor-args', 'youtube:player-client=ios,android', '-o', 'audio/MVRijW_s_gw.%(ext)s', 'https://www.youtube.com/watch?v=MVRijW_s_gw']' returned non-zero exit status 1.
-2026-02-23 20:18:35,957 - INFO - Extracting audio for -8Gcs7cPnIU (Why Are Markets Panicking Today? Fund Manager On New Tariffs, Iran Strike, Inflation | David Busch)...
-2026-02-23 20:18:37,523 - ERROR - Error extracting audio for https://www.youtube.com/watch?v=8jKAT8GNDE0: Command '['/Users/Owner/Projects/Python/TheBrief/venv/bin/yt-dlp', '--cookies-from-browser', 'chrome', '-x', '--audio-format', 'mp3', '--postprocessor-args', '-ar 16000 -ac 1', '--ffmpeg-location', '/Users/Owner/Projects/Python/TheBrief/venv/lib/python3.9/site-packages/static_ffmpeg/bin/darwin_arm64/ffmpeg', '--extractor-args', 'youtube:player-client=ios,android', '-o', 'audio/8jKAT8GNDE0.%(ext)s', 'https://www.youtube.com/watch?v=8jKAT8GNDE0']' returned non-zero exit status 1.
-2026-02-23 20:18:39,271 - INFO - Extracting audio for akJK52ODU8c (Worst Stock Market Vs. World Since '95; Where Should Investors Go? | Robin Brooks)...
-2026-02-23 20:18:44,391 - ERROR - Error extracting audio for https://www.youtube.com/watch?v=-8Gcs7cPnIU: Command '['/Users/Owner/Projects/Python/TheBrief/venv/bin/yt-dlp', '--cookies-from-browser', 'chrome', '-x', '--audio-format', 'mp3', '--postprocessor-args', '-ar 16000 -ac 1', '--ffmpeg-location', '/Users/Owner/Projects/Python/TheBrief/venv/lib/python3.9/site-packages/static_ffmpeg/bin/darwin_arm64/ffmpeg', '--extractor-args', 'youtube:player-client=ios,android', '-o', 'audio/-8Gcs7cPnIU.%(ext)s', 'https://www.youtube.com/watch?v=-8Gcs7cPnIU']' returned non-zero exit status 1.
-2026-02-23 20:18:46,082 - INFO - Extracting audio for hrCu96zGQ6E (Blockchain and the Future of Fintech: Morgan Krupetsky)...
-2026-02-23 20:18:49,819 - ERROR - Error extracting audio for https://www.youtube.com/watch?v=akJK52ODU8c: Command '['/Users/Owner/Projects/Python/TheBrief/venv/bin/yt-dlp', '--cookies-from-browser', 'chrome', '-x', '--audio-format', 'mp3', '--postprocessor-args', '-ar 16000 -ac 1', '--ffmpeg-location', '/Users/Owner/Projects/Python/TheBrief/venv/lib/python3.9/site-packages/static_ffmpeg/bin/darwin_arm64/ffmpeg', '--extractor-args', 'youtube:player-client=ios,android', '-o', 'audio/akJK52ODU8c.%(ext)s', 'https://www.youtube.com/watch?v=akJK52ODU8c']' returned non-zero exit status 1.
-2026-02-23 20:18:52,441 - INFO - Extracting audio for zDnkb-H-qws (TARIFF WAR 2.0! 🚨 Why Markets Pulled Back on New 15% Duty)...
-2026-02-23 20:18:52,453 - ERROR - Error extracting audio for https://www.youtube.com/watch?v=hrCu96zGQ6E: Command '['/Users/Owner/Projects/Python/TheBrief/venv/bin/yt-dlp', '--cookies-from-browser', 'chrome', '-x', '--audio-format', 'mp3', '--postprocessor-args', '-ar 16000 -ac 1', '--ffmpeg-location', '/Users/Owner/Projects/Python/TheBrief/venv/lib/python3.9/site-packages/static_ffmpeg/bin/darwin_arm64/ffmpeg', '--extractor-args', 'youtube:player-client=ios,android', '-o', 'audio/hrCu96zGQ6E.%(ext)s', 'https://www.youtube.com/watch?v=hrCu96zGQ6E']' returned non-zero exit status 1.
-2026-02-23 20:18:56,200 - INFO - Extracting audio for BP171WxPXU4 (US Panic: Japan’s Debt Just Collapsed)...
-2026-02-23 20:18:58,637 - ERROR - Error extracting audio for https://www.youtube.com/watch?v=zDnkb-H-qws: Command '['/Users/Owner/Projects/Python/TheBrief/venv/bin/yt-dlp', '--cookies-from-browser', 'chrome', '-x', '--audio-format', 'mp3', '--postprocessor-args', '-ar 16000 -ac 1', '--ffmpeg-location', '/Users/Owner/Projects/Python/TheBrief/venv/lib/python3.9/site-packages/static_ffmpeg/bin/darwin_arm64/ffmpeg', '--extractor-args', 'youtube:player-client=ios,android', '-o', 'audio/zDnkb-H-qws.%(ext)s', 'https://www.youtube.com/watch?v=zDnkb-H-qws']' returned non-zero exit status 1.
-2026-02-23 20:19:01,772 - INFO - Extracting audio for qJVb29D5rfw (The U.S. Debt ‘Black Hole’: We’ve Crossed the Event Horizon | Greg Weldon & Andy Schectman)...
-2026-02-23 20:19:02,680 - ERROR - Error extracting audio for https://www.youtube.com/watch?v=BP171WxPXU4: Command '['/Users/Owner/Projects/Python/TheBrief/venv/bin/yt-dlp', '--cookies-from-browser', 'chrome', '-x', '--audio-format', 'mp3', '--postprocessor-args', '-ar 16000 -ac 1', '--ffmpeg-location', '/Users/Owner/Projects/Python/TheBrief/venv/lib/python3.9/site-packages/static_ffmpeg/bin/darwin_arm64/ffmpeg', '--extractor-args', 'youtube:player-client=ios,android', '-o', 'audio/BP171WxPXU4.%(ext)s', 'https://www.youtube.com/watch?v=BP171WxPXU4']' returned non-zero exit status 1.
-2026-02-23 20:19:08,290 - ERROR - Error extracting audio for https://www.youtube.com/watch?v=qJVb29D5rfw: Command '['/Users/Owner/Projects/Python/TheBrief/venv/bin/yt-dlp', '--cookies-from-browser', 'chrome', '-x', '--audio-format', 'mp3', '--postprocessor-args', '-ar 16000 -ac 1', '--ffmpeg-location', '/Users/Owner/Projects/Python/TheBrief/venv/lib/python3.9/site-packages/static_ffmpeg/bin/darwin_arm64/ffmpeg', '--extractor-args', 'youtube:player-client=ios,android', '-o', 'audio/qJVb29D5rfw.%(ext)s', 'https://www.youtube.com/watch?v=qJVb29D5rfw']' returned non-zero exit status 1.
-2026-02-23 20:19:08,291 - INFO - Extraction complete. 0 audio files ready.
-2026-02-23 20:19:08,291 - INFO - 
---- Phase 3: Summarization (Direct Audio) ---
-2026-02-23 20:19:08,292 - INFO - Queue is empty. No transcripts to summarize.
-2026-02-23 20:19:08,292 - INFO - ==================================================
-2026-02-23 20:19:08,292 - INFO - Pipeline Execution Complete
-2026-02-23 20:19:08,292 - INFO - ==================================================
+2026-02-24 04:36:13,920 - INFO - Summarizing natively via Audio: 🚨 Silver PANIC! - You Can EXPECT This! 🦍🦍 (China - Gold Price and Precious Metals NEWS Update)
+2026-02-24 04:36:13,920 - INFO - Summarizing natively via Audio: Google's New AI Is Smarter Than Everyone's But It Costs HALF as Much. Here's Why They Don't Care.
+2026-02-24 04:36:13,920 - INFO - Summarizing natively via Audio: Next Market Crash To Last 20 Years But Gareth Soloway Is 'Unbelievably Bullish' On This Asset
+2026-02-24 04:36:13,920 - INFO -   Uploading audio/MVRijW_s_gw.mp3 to Gemini...
+2026-02-24 04:36:13,920 - INFO -   Uploading audio/8jKAT8GNDE0.mp3 to Gemini...
+2026-02-24 04:36:13,920 - INFO -   Uploading audio/dgaXXRp3OWc.mp3 to Gemini...
+2026-02-24 04:36:20,561 - INFO -   File ready. Generating High-Utility Decision Brief...
+2026-02-24 04:36:20,577 - INFO - AFC is enabled with max remote calls: 10.
+2026-02-24 04:36:22,541 - INFO -   File ready. Generating High-Utility Decision Brief...
+2026-02-24 04:36:22,544 - INFO - AFC is enabled with max remote calls: 10.
+2026-02-24 04:36:22,698 - INFO -   File ready. Generating High-Utility Decision Brief...
+2026-02-24 04:36:22,700 - INFO - AFC is enabled with max remote calls: 10.
+2026-02-24 04:36:37,798 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-02-24 04:36:38,298 - INFO - Summarizing natively via Audio: Why Are Markets Panicking Today? Fund Manager On New Tariffs, Iran Strike, Inflation | David Busch
+2026-02-24 04:36:38,299 - INFO -   Uploading audio/-8Gcs7cPnIU.mp3 to Gemini...
+2026-02-24 04:36:41,656 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-02-24 04:36:42,081 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-02-24 04:36:42,452 - INFO -   File ready. Generating High-Utility Decision Brief...
+2026-02-24 04:36:42,455 - INFO - AFC is enabled with max remote calls: 10.
+2026-02-24 04:36:42,486 - INFO - Summarizing natively via Audio: Worst Stock Market Vs. World Since '95; Where Should Investors Go? | Robin Brooks
+2026-02-24 04:36:42,486 - INFO -   Uploading audio/akJK52ODU8c.mp3 to Gemini...
+2026-02-24 04:36:42,637 - INFO - Summarizing natively via Audio: Blockchain and the Future of Fintech: Morgan Krupetsky
+2026-02-24 04:36:42,637 - INFO -   Uploading audio/hrCu96zGQ6E.mp3 to Gemini...
+2026-02-24 04:36:47,815 - INFO -   File ready. Generating High-Utility Decision Brief...
+2026-02-24 04:36:47,818 - INFO - AFC is enabled with max remote calls: 10.
+2026-02-24 04:36:48,780 - INFO -   File ready. Generating High-Utility Decision Brief...
+2026-02-24 04:36:48,782 - INFO - AFC is enabled with max remote calls: 10.
+2026-02-24 04:36:54,940 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-02-24 04:36:55,491 - INFO - Summarizing natively via Audio: TARIFF WAR 2.0! 🚨 Why Markets Pulled Back on New 15% Duty
+2026-02-24 04:36:55,491 - INFO -   Uploading audio/zDnkb-H-qws.mp3 to Gemini...
+2026-02-24 04:36:59,127 - INFO -   File ready. Generating High-Utility Decision Brief...
+2026-02-24 04:36:59,131 - INFO - AFC is enabled with max remote calls: 10.
+2026-02-24 04:37:01,595 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-02-24 04:37:02,046 - INFO - Summarizing natively via Audio: US Panic: Japan’s Debt Just Collapsed
+2026-02-24 04:37:02,047 - INFO -   Uploading audio/BP171WxPXU4.mp3 to Gemini...
+2026-02-24 04:37:04,141 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-02-24 04:37:04,776 - INFO - Summarizing natively via Audio: The U.S. Debt ‘Black Hole’: We’ve Crossed the Event Horizon | Greg Weldon & Andy Schectman
+2026-02-24 04:37:04,777 - INFO -   Uploading audio/qJVb29D5rfw.mp3 to Gemini...
+2026-02-24 04:37:04,992 - INFO -   File ready. Generating High-Utility Decision Brief...
+2026-02-24 04:37:04,994 - INFO - AFC is enabled with max remote calls: 10.
+2026-02-24 04:37:09,571 - INFO -   File ready. Generating High-Utility Decision Brief...
+2026-02-24 04:37:09,576 - INFO - AFC is enabled with max remote calls: 10.
+2026-02-24 04:37:14,926 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-02-24 04:37:15,525 - INFO - Summarizing natively via Audio: Live Q & A
+2026-02-24 04:37:15,525 - INFO -   Uploading audio/4yrqMCIGg2M.mp3 to Gemini...
+2026-02-24 04:37:23,026 - INFO -   File ready. Generating High-Utility Decision Brief...
+2026-02-24 04:37:23,028 - INFO - AFC is enabled with max remote calls: 10.
+2026-02-24 04:37:23,282 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-02-24 04:37:27,224 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-02-24 04:37:33,238 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-02-24 04:37:34,187 - INFO - Summarization complete. 10 briefs written to briefs/2026-02-24.md
+2026-02-24 04:37:34,187 - INFO - Queue cleared.
+2026-02-24 04:37:34,198 - INFO - ==================================================
+2026-02-24 04:37:34,198 - INFO - Pipeline Execution Complete
+2026-02-24 04:37:34,198 - INFO - ==================================================
