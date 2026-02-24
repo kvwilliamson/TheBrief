@@ -102,7 +102,7 @@ def summarize_transcript(video, llm):
         logger.error(f"Gemini processing failed for {video['title']}")
         return None
         
-    logger.info(f"Generating Brief for {video['title']}...")
+    logger.info(f"Generating Brief for {video['title']} ({video['id']})...")
     
     # 2. Build the LLM Chain natively passing the file_handle
     prompt = PromptTemplate(
@@ -159,12 +159,16 @@ def summarize_transcript(video, llm):
         except OSError:
             pass
 
-def format_markdown(brief: dict, video_url: str = "") -> str:
+def format_markdown(brief: dict, video_url: str = "", thumbnail_url: str = "") -> str:
     title = brief.get('episode_title', 'Unknown Title')
     if video_url:
         md = f"## [{title}]({video_url})\n"
     else:
         md = f"## {title}\n"
+    
+    if thumbnail_url:
+        md += f"![{title}]({thumbnail_url})\n\n"
+
     md += f"**{brief.get('channel', 'Unknown')}** | **Length:** {brief.get('duration_minutes', 0)} min | **Domain:** {brief.get('topic_domain', 'Unknown')}\n\n"
     
     euc = brief.get('executive_use_case', {})
@@ -205,12 +209,16 @@ def format_markdown(brief: dict, video_url: str = "") -> str:
     md += "---\n\n"
     return md
 
-def format_html(brief: dict, video_url: str = "") -> str:
+def format_html(brief: dict, video_url: str = "", thumbnail_url: str = "") -> str:
     title = brief.get('episode_title', 'Unknown Title')
     if video_url:
         html = f"<h2><a href='{video_url}' style='text-decoration: none; color: #00d1b2;'>{title}</a></h2>"
     else:
         html = f"<h2>{title}</h2>"
+    
+    if thumbnail_url:
+        html += f"<div style='margin-bottom: 15px;'><img src='{thumbnail_url}' width='320' style='border-radius: 8px;' alt='{title}'/></div>"
+
     html += f"<p><strong>{brief.get('channel', 'Unknown')}</strong> | <strong>Length:</strong> {brief.get('duration_minutes', 0)} min | <strong>Domain:</strong> {brief.get('topic_domain', 'Unknown')}</p>"
     
     euc = brief.get('executive_use_case', {})
@@ -315,8 +323,9 @@ def run_summarization():
             video["brief"] = brief
             # Generate markdown and HTML components
             # Generate markdown and HTML components with URL
-            md = format_markdown(brief, video.get('url', ''))
-            html = format_html(brief, video.get('url', ''))
+            # Generate markdown and HTML components with URL and Thumbnail
+            md = format_markdown(brief, video.get('url', ''), video.get('thumbnail', ''))
+            html = format_html(brief, video.get('url', ''), video.get('thumbnail', ''))
             
             # Update DB to mark as processed
             db_path = os.path.join("data", "processed_videos.json")
@@ -331,13 +340,17 @@ def run_summarization():
         return None, None
 
     # Run summarization concurrently
+    from collections import defaultdict
+    grouped_briefs = defaultdict(list)
+    
     with concurrent.futures.ThreadPoolExecutor(max_workers=3) as executor:
         future_to_video = {executor.submit(process_video_summary, video): video for video in queue}
         for future in concurrent.futures.as_completed(future_to_video):
             v_res, format_res = future.result()
             if v_res and format_res:
                 processed_queue.append(v_res)
-                briefs_content.append(format_res)
+                cat = v_res.get('category', 'Other')
+                grouped_briefs[cat].append((v_res, format_res))
                 
     if not processed_queue:
         logger.warning("No briefs were successfully generated.")
@@ -357,40 +370,57 @@ def run_summarization():
     summary_md += f"### 📊 At a Glance\n"
     summary_md += f"- **Total Intelligence Assets:** {total_videos} videos\n"
     summary_md += f"- **Total Subject Time:** {total_time:.1f} minutes\n\n"
-    summary_md += "#### 📌 Quick-Scan Index\n"
     
     summary_html = f"<html><body style='font-family: sans-serif; color: #333;'>"
     summary_html += f"<h1>TheBrief Daily Dispatch - {date_str}</h1>"
     summary_html += f"<h3>📊 At a Glance</h3>"
     summary_html += f"<ul><li><strong>Total Intelligence Assets:</strong> {total_videos} videos</li>"
     summary_html += f"<li><strong>Total Subject Time:</strong> {total_time:.1f} minutes</li></ul>"
-    summary_html += "<h4>📌 Quick-Scan Index</h4><ul>"
 
-    for v in processed_queue:
-        b = v.get('brief', {})
-        summary_md += f"- **{b.get('channel')}**: [{b.get('episode_title')}]({v.get('url')}) *({b.get('duration_minutes')}m)*\n"
-        summary_md += f"  > {b.get('one_line_summary')}\n"
-        
-        summary_html += f"<li><strong>{b.get('channel')}</strong>: <a href='{v.get('url')}'>{b.get('episode_title')}</a> <em>({b.get('duration_minutes')}m)</em><br/>"
-        summary_html += f"<em>{b.get('one_line_summary')}</em></li>"
+    # Define Category Order (Matching app.py for consistency)
+    cat_order = [
+        "General Financial Investing and Speculation",
+        "Precious Metals",
+        "Artificial Intelligence",
+        "Health and Nutrition",
+        "Philosophy and Thoughtfulness",
+        "Other"
+    ]
+    
+    # Index Section
+    summary_md += "#### 📌 Quick-Scan Index\n"
+    summary_html += "<h4>📌 Quick-Scan Index</h4>"
+    
+    available_cats = sorted(grouped_briefs.keys(), key=lambda x: cat_order.index(x) if x in cat_order else 99)
+    
+    for cat in available_cats:
+        summary_md += f"\n**{cat}**\n"
+        summary_html += f"<p style='margin-bottom: 2px;'><strong>{cat}</strong></p><ul>"
+        for v, _ in grouped_briefs[cat]:
+            b = v.get('brief', {})
+            summary_md += f"- **{b.get('channel')}**: [{b.get('episode_title')}]({v.get('url')}) *({b.get('duration_minutes')}m)*\n"
+            summary_md += f"  > {b.get('one_line_summary')}\n"
+            
+            summary_html += f"<li><strong>{b.get('channel')}</strong>: <a href='{v.get('url')}'>{b.get('episode_title')}</a> <em>({b.get('duration_minutes')}m)</em><br/>"
+            summary_html += f"<span style='font-size: 0.9em; color: #555;'>{b.get('one_line_summary')}</span></li>"
+        summary_html += "</ul>"
         
     summary_md += "\n---\n\n"
-    summary_html += "</ul><hr/>"
+    summary_html += "<hr/>"
 
-    # Sort briefs by original queue order (or just append)
+    # Detailed Briefs Section
     final_md = summary_md
     final_html = summary_html
     
-    for md, html in briefs_content:
-        final_md += md
-        final_html += html
+    for cat in available_cats:
+        final_md += f"# 📁 Sector: {cat}\n\n"
+        final_html += f"<h1 style='background: #f4f4f4; padding: 10px; border-left: 5px solid #00d1b2;'>Sector: {cat}</h1>"
+        for _, (md, html) in grouped_briefs[cat]:
+            final_md += md
+            final_html += html
         
     final_html += "</body></html>"
     
-    # Write or append to the daily Markdown file
-    mode = "a" if os.path.exists(md_filename) else "w"
-    # If appending, we might NOT want to re-add the summary. 
-    # But for simplicity, we overwrite the daily file with the full session's results.
     with open(md_filename, "w") as f:
         f.write(final_md)
         

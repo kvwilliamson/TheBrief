@@ -14,6 +14,15 @@ from googleapiclient.discovery import build
 st.set_page_config(page_title="TheBrief Dashboard", page_icon="🎙️", layout="wide")
 load_dotenv()
 
+DEFAULT_CATEGORIES = [
+    "General Financial Investing and Speculation",
+    "Precious Metals",
+    "Artificial Intelligence",
+    "Health and Nutrition",
+    "Philosophy and Thoughtfulness",
+    "Other"
+]
+
 # --- Utility Functions ---
 
 def load_briefs():
@@ -179,10 +188,12 @@ with tab2:
     
     # Add new channel form
     with st.expander("➕ Add New Channel", expanded=False):
-        col1, col2 = st.columns([3, 1])
+        col1, col2, col3 = st.columns([3, 2, 1])
         with col1:
             new_channel_input = st.text_input("YouTube Channel Name, URL, or Handle", placeholder="e.g. Lex Fridman or @LexFridman")
         with col2:
+            new_channel_category = st.selectbox("Assign Category", options=DEFAULT_CATEGORIES, index=DEFAULT_CATEGORIES.index("Other"))
+        with col3:
             st.markdown("<br>", unsafe_allow_html=True) # spacing
             if st.button("Search & Add", use_container_width=True):
                 if new_channel_input:
@@ -212,7 +223,12 @@ with tab2:
                             if any(c.get("id") == c_id for c in st.session_state.channels):
                                 st.warning(f"Channel '{c_name}' is already being tracked.")
                             else:
-                                st.session_state.channels.append({"name": c_name, "id": c_id, "thumbnail": c_thumb})
+                                st.session_state.channels.append({
+                                    "name": c_name, 
+                                    "id": c_id, 
+                                    "thumbnail": c_thumb,
+                                    "category": new_channel_category
+                                })
                                 save_channels(st.session_state.channels)
                                 st.success(f"Added {c_name}!")
                                 st.rerun()
@@ -223,18 +239,54 @@ with tab2:
     if not st.session_state.channels:
         st.info("No channels are currently being tracked.")
     else:
-        for i, channel in enumerate(st.session_state.channels):
-            col1, col2, col3 = st.columns([1, 4, 1])
-            with col1:
-                show_channel_image(channel.get("thumbnail"))
-            with col2:
-                st.markdown(f"**{channel['name']}**  \n`{channel['id']}`")
-            with col3:
-                if st.button("Remove", key=f"del_{i}", type="secondary", use_container_width=True):
-                    st.session_state.channels.pop(i)
-                    save_channels(st.session_state.channels)
-                    st.rerun()
-            st.divider()
+        # Group channels by category
+        from collections import defaultdict
+        grouped_channels = defaultdict(list)
+        for channel in st.session_state.channels:
+            cat = channel.get("category", "Other")
+            grouped_channels[cat].append(channel)
+        
+        # Display each category
+        for category in DEFAULT_CATEGORIES:
+            cat_channels = grouped_channels.get(category, [])
+            if cat_channels:
+                with st.expander(f"📁 {category} ({len(cat_channels)})", expanded=True):
+                    for i, channel in enumerate(cat_channels):
+                        # Find original index in st.session_state.channels for deletion
+                        orig_index = next((idx for idx, c in enumerate(st.session_state.channels) if c['id'] == channel['id']), None)
+                        
+                        col1, col2, col3 = st.columns([1, 4, 1])
+                        with col1:
+                            show_channel_image(channel.get("thumbnail"))
+                        with col2:
+                            st.markdown(f"**{channel['name']}**  \n`{channel['id']}`")
+                        with col3:
+                            if st.button("Remove", key=f"del_{channel['id']}_{i}", type="secondary", use_container_width=True):
+                                if orig_index is not None:
+                                    st.session_state.channels.pop(orig_index)
+                                    save_channels(st.session_state.channels)
+                                    st.rerun()
+                        st.divider()
+        
+        # Also check for any categories NOT in DEFAULT_CATEGORIES
+        other_categories = [c for c in grouped_channels.keys() if c not in DEFAULT_CATEGORIES]
+        for category in other_categories:
+            cat_channels = grouped_channels.get(category, [])
+            with st.expander(f"📁 {category} ({len(cat_channels)})", expanded=True):
+                for i, channel in enumerate(cat_channels):
+                    orig_index = next((idx for idx, c in enumerate(st.session_state.channels) if c['id'] == channel['id']), None)
+                    col1, col2, col3 = st.columns([1, 4, 1])
+                    with col1:
+                        show_channel_image(channel.get("thumbnail"))
+                    with col2:
+                        st.markdown(f"**{channel['name']}**  \n`{channel['id']}`")
+                    with col3:
+                        if st.button("Remove", key=f"del_{channel['id']}_{i}", type="secondary", use_container_width=True):
+                            if orig_index is not None:
+                                st.session_state.channels.pop(orig_index)
+                                save_channels(st.session_state.channels)
+                                st.rerun()
+                    st.divider()
 
 
 # === TAB 3: Discover ===
@@ -279,17 +331,19 @@ with tab3:
                 if any(c.get("id") == item["id"] for c in st.session_state.channels):
                     st.button("Tracking", disabled=True, key=f"btn_track_{item['id']}")
                 else:
-                    if st.button("Add", key=f"btn_add_{item['id']}", type="primary"):
-                        st.session_state.channels.append({
-                            "name": item["name"], 
-                            "id": item["id"], 
-                            "thumbnail": item["thumb"]
-                        })
-                        save_channels(st.session_state.channels)
-                        st.success(f"Added {item['name']}!")
-                        # Don't rerun immediately to stay in Discover tab and see other results
-                        # But we need to update state so "Add" becomes "Tracking"
-                        st.rerun()
+                    # Show category selector before adding
+                    with st.popover("Add", type="primary", use_container_width=True):
+                        selected_cat = st.selectbox("Category", options=DEFAULT_CATEGORIES, index=DEFAULT_CATEGORIES.index("Other"), key=f"cat_{item['id']}")
+                        if st.button("Confirm Add", key=f"conf_{item['id']}", use_container_width=True):
+                            st.session_state.channels.append({
+                                "name": item["name"], 
+                                "id": item["id"], 
+                                "thumbnail": item["thumb"],
+                                "category": selected_cat
+                            })
+                            save_channels(st.session_state.channels)
+                            st.success(f"Added {item['name']}!")
+                            st.rerun()
             st.divider()
                     
     st.divider()
@@ -337,13 +391,20 @@ with tab3:
                 st.caption(item['desc'][:150] + ("..." if len(item['desc'])>150 else ""))
             with col3:
                 st.markdown("<br>", unsafe_allow_html=True)
-                if st.button("Add", key=f"btn_rec_{item['id']}", type="secondary"):
-                    st.session_state.channels.append({"name": item["name"], "id": item["id"]})
-                    save_channels(st.session_state.channels)
-                    st.success(f"Added {item['name']}!")
-                    # Filter out from recommendations list in session state
-                    st.session_state.recommendations = [r for r in st.session_state.recommendations if r['id'] != item['id']]
-                    st.rerun()
+                with st.popover("Add", use_container_width=True):
+                    rec_cat = st.selectbox("Category", options=DEFAULT_CATEGORIES, index=DEFAULT_CATEGORIES.index("Other"), key=f"rec_cat_{item['id']}")
+                    if st.button("Confirm Add", key=f"rec_conf_{item['id']}", use_container_width=True):
+                        st.session_state.channels.append({
+                            "name": item["name"], 
+                            "id": item["id"],
+                            "thumbnail": item["thumb"],
+                            "category": rec_cat
+                        })
+                        save_channels(st.session_state.channels)
+                        st.success(f"Added {item['name']}!")
+                        # Filter out from recommendations list in session state
+                        st.session_state.recommendations = [r for r in st.session_state.recommendations if r['id'] != item['id']]
+                        st.rerun()
             st.divider()
 
 # === TAB 4: Pipeline & Queue ===
@@ -400,6 +461,10 @@ with tab4:
                     env=env
                 )
                 
+                total_videos = 0
+                extracting_count = 0
+                summarizing_count = 0
+
                 # Active tracking of phases
                 for line in iter(process.stdout.readline, ""):
                     clean_line = line.strip()
@@ -417,24 +482,32 @@ with tab4:
                     
                     log_expander.text(display_line)
                     
-                    # Thumbnail Logic: If we see an extraction line, try to grab the thumbnail
-                    if "Extracting audio for" in display_line or "Summarizing natively via Audio:" in display_line:
-                        # Extract the ID or Title between parentheses/after colon
+                    # Thumbnail Logic
+                    if "Extracting audio for" in display_line or "Generating Brief for" in display_line:
                         import re
-                        match = re.search(r"\(([A-Za-z0-9_-]+)\)", display_line) or re.search(r"Audio: (.*)", display_line)
-                        if match:
-                            target = match.group(1).strip()
-                            # Look up in the queue to find the thumb
+                        match_id = re.search(r"\(([A-Za-z0-9_-]+)\)", display_line)
+                        if match_id:
+                            target_id = match_id.group(1)
                             try:
                                 queue_data = load_queue()
-                                current_v = next((v for v in queue_data if v['id'] == target or v['title'] == target), None)
+                                current_v = next((v for v in queue_data if v['id'] == target_id), None)
                                 if current_v and current_v.get('thumbnail'):
                                     with thumb_placeholder.container():
-                                        st.markdown(f"**Currently Processing:** {current_v['title']}")
-                                        st.image(current_v['thumbnail'], width=300)
+                                        title_prefix = "AI listening to: " if "Generating" in display_line else "Extracting: "
+                                        st.markdown(f"**{title_prefix}** {current_v['title']}")
+                                        st.image(current_v['thumbnail'], width=400)
                                         st.divider()
-                            except:
-                                pass
+                            except: pass
+
+                    import re
+                    
+                    # Discovery Count Capture
+                    if "Discovery complete. Added" in display_line:
+                        match_total = re.search(r"Added (\d+) new videos", display_line)
+                        if match_total:
+                            total_videos = int(match_total.group(1))
+                            p1_status.markdown(f"📡 **Discovery**  \n`Found {total_videos} assets ✅`")
+                            progress_bar.progress(33, text=f"Search complete. {total_videos} videos queued.")
 
                     # Phase Tracker Logic
                     if "Phase 1: Discovery" in clean_line:
@@ -447,16 +520,32 @@ with tab4:
                     elif "Phase 2: Extraction" in clean_line:
                         p2_status.markdown("🏗️ **Extraction**  \n`Working... ⚡`")
                         progress_bar.progress(40, text="Downloading high-speed audio...")
+                    elif "Extracting audio for" in display_line:
+                        extracting_count += 1
+                        msg = f"Extracting {extracting_count} of {total_videos}" if total_videos > 0 else f"Extracting {extracting_count}..."
+                        p2_status.markdown(f"🏗️ **Extraction**  \n`{msg} ⚡`")
+                        p_val = 33 + int((extracting_count / (total_videos if total_videos > 0 else 10)) * 33)
+                        progress_bar.progress(min(p_val, 66), text=f"🏗️ {msg}: {display_line.split('for ')[-1]}")
                     elif "Extraction complete" in clean_line:
-                        p2_status.markdown("🏗️ **Extraction**  \n`Finished! ✅`")
-                        thumb_placeholder.empty() # Clear thumb after extraction phase? Or keep for summary?
+                        match_time = re.search(r"\(Time: ([\d.]+)s\)", clean_line)
+                        timer_str = f" ({match_time.group(1)}s)" if match_time else ""
+                        p2_status.markdown(f"🏗️ **Extraction**  \n`Finished!{timer_str} ✅`")
+                        thumb_placeholder.empty()
                         progress_bar.progress(66, text="Audio ready for AI analysis...")
                         
                     elif "Phase 3: Summarization" in clean_line:
                         p3_status.markdown("🧠 **Summarization**  \n`Thinking... 🕵️`")
-                        progress_bar.progress(75, text="Gemini 2.5 is listening to audio...")
+                        progress_bar.progress(70, text="Gemini 2.5 is listening to audio...")
+                    elif "Generating Brief for" in display_line:
+                        summarizing_count += 1
+                        msg = f"Auditing {summarizing_count} of {total_videos}" if total_videos > 0 else f"Auditing {summarizing_count}..."
+                        p3_status.markdown(f"🧠 **Summarization**  \n`{msg} 🕵️`")
+                        p_val = 66 + int((summarizing_count / (total_videos if total_videos > 0 else 10)) * 34)
+                        progress_bar.progress(min(p_val, 100), text=f"🧠 {msg}: {display_line.split('for ')[-1]}")
                     elif "Summarization complete" in clean_line:
-                        p3_status.markdown("🧠 **Summarization**  \n`Brief Generated! ✅`")
+                        match_time = re.search(r"\(Time: ([\d.]+)s\)", clean_line)
+                        timer_str = f" ({match_time.group(1)}s)" if match_time else ""
+                        p3_status.markdown(f"🧠 **Summarization**  \n`Brief Generated!{timer_str} ✅`")
                         thumb_placeholder.empty()
                         progress_bar.progress(100, text="All systems clear.")
                 

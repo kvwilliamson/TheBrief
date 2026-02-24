@@ -101,7 +101,7 @@ def run_extraction():
             processed_queue.append(video)
             continue
             
-        logger.info(f"Extracting audio for {video['title']}...")
+        logger.info(f"Extracting audio for {video['title']} ({video['id']})...")
         result = extract_audio_for_video(video)
         if result:
             processed_queue.append(result)

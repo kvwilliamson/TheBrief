@@ -138,6 +138,8 @@ def run_discovery():
         recent = get_recent_videos(local_youtube, channel["id"], published_after)
         if recent:
             logger.info(f"Found {len(recent)} new potential videos on {channel['name']}.")
+            for v in recent:
+                v["category"] = channel.get("category", "Other")
         return recent
 
     # Run YouTube API requests concurrently
