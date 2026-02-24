@@ -555,7 +555,8 @@ with tab4:
                 if return_code == 0:
                     st.success("Pipeline executed successfully!")
                     st.balloons()
-                    st.rerun()
+                    if st.button("✨ All Done! Refresh Dashboard", type="primary"):
+                        st.rerun()
                 else:
                     st.error("Pipeline run failed. Check the logs above for details.")
                     

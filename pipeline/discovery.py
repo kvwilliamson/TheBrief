@@ -164,7 +164,17 @@ def run_discovery():
             queue.append(video)
         else:
             logger.debug(f"Skipping previously processed video: {video['title']}")
-            
+    # Sort queue by category order for logical processing
+    cat_order = [
+        "General Financial Investing and Speculation",
+        "Precious Metals",
+        "Artificial Intelligence",
+        "Health and Nutrition",
+        "Philosophy and Thoughtfulness",
+        "Other"
+    ]
+    queue.sort(key=lambda x: cat_order.index(x.get("category", "Other")) if x.get("category", "Other") in cat_order else 99)
+
     # Save queue for next phase
     queue_path = os.path.join("data", "queue.json")
     with open(queue_path, "w") as f:
