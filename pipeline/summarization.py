@@ -48,7 +48,7 @@ class BriefSchema(BaseModel):
     executive_use_case: ExecutiveUseCase
     core_claims: List[Claim] = Field(description="Combined core claims and forward projections (Max 6)")
     mechanism: Mechanism = Field(description="Plain-language mechanism summary")
-    disconfirming_signals: List[str] = Field(description="Max 3 observable, time-bound disconfirming signals to watch")
+    disconfirming_signals: List[str] = Field(description="Max 3 observable disconfirming signals. CRITICAL: Do NOT invent specific prices or dates if not stated. Derive conceptually.")
     historical_parallel: str = Field(description="Optional one brief comparison to a historical parallel. Empty string if not applicable.")
     one_line_summary: str = Field(description="A single sentence summarizes the core thesis.")
     emotional_conviction: str = Field(description="Summary of the speaker's tone, inflection, and underlying hesitation or conviction. (e.g., 'Assertive but avoids specifics' or 'Notably defensive')")
@@ -113,7 +113,7 @@ def summarize_transcript(video, llm):
                  "2. Limit bullets per section to 6. Max total word count 400-600 words.\n"
                  "3. Short paragraphs. No section may exceed 25% of total length. If thesis is repetitive, shorten proportionally.\n"
                  "4. Output MUST conform exactly to the JSON schema.\n"
-                 "5. Disconfirming signals must be observable, time-bound, and max 3 items. No generic macro hedging language.\n"
+                 "5. Disconfirming signals must be observable. CRITICAL ANTI-HALLUCINATION: Do NOT fabricate or invent specific price targets, dates, or economic numbers that were not explicitly stated in the audio. If the speaker does not provide concrete metrics to invalidate their thesis, derive the signal strictly from the conceptual logic of their argument (e.g., 'Treasury yields begin to rise significantly instead of falling'). No generic macro hedging language.\n"
                  "6. Provide a Historical Parallel if applicable in one tight paragraph.\n"
                  "7. The 'one_line_summary' must be a single, punchy sentence that captures the absolute core thesis for a quick-scan index.\n"
                  "8. AUDIO ANALYSIS: You are listening to raw audio. Pay close attention to tone of voice, pacing, and inflection. In the 'emotional_conviction' field, note if the speaker sounds genuinely worried, overly defensive, or high-conviction. Detect 'unspoken' signals like sarcasm or hesitation.\n\n"
