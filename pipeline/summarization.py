@@ -32,7 +32,8 @@ class Claim(BaseModel):
     claim: str = Field(description="The core claim or forward projection")
     evidence_cited: str = Field(description="Brief description of the evidence cited")
     evidence_type: str = Field(description="Strictly one of: Anecdotal, Data-backed, Assumed, Historical reference")
-    evidence_strength: str = Field(description="Strictly one of: Low, Moderate, High")
+    empirical_strength: str = Field(description="Strictly one of: Low, Moderate, High. Measures hard data/cited evidence.")
+    speaker_conviction: str = Field(description="Strictly one of: Low, Moderate, High. Measures rhetorical volume/certainty.")
 
 class Mechanism(BaseModel):
     trigger: str = Field(description="The trigger event")
@@ -141,13 +142,22 @@ def summarize_transcript(video, llm):
              "- Narrative coherence: Does the claim fit logically? (Yes/Partial/No)\n"
              "- Empirical confirmation: Is there hard evidence cited? (Confirmed/Partial/None)\n"
              "HEADLINE RISK and ASSERTED claims must include: 'Treat as unconfirmed until independently corroborated.'\n\n"
-             "QUANTITATIVE SCORING — RUBRIC-ANCHORED:\n"
-             "Rate Signal Strength, Novelty, and Tradeability (1-10).\n"
-             "JUSTIFICATION: Provide one sentence per score referencing these specific tiers:\n"
-             "- Signal: 8-10 (Clear directional claim with specific evidence), 5-7 (Assumed/Historical evidence), 1-4 (Vague/Narrative).\n"
-             "- Novelty: 8-10 (Differs from mainstream), 5-7 (Partial overlap), 1-4 (Repeats common view).\n"
-             "- Tradeability: 8-10 (Specific levels/timeframes), 5-7 (Directional but no actionable parameters), 1-4 (Long-horizon/Structural/Unverifiable).\n"
-             "- CALIBRATION: Long-horizon or structural calls MUST score 1-3 on Tradeability. Do NOT average upward due to speaker confidence.\n\n"
+             "QUANTITATIVE SCORING — PROFESSIONAL RUBRIC:\n"
+             "Rate Signal Strength, Novelty, and Tradeability (1-10) using these DERIVED formulas:\n"
+             "1. Signal Force: (Structural Magnitude x Data Grounding) / Epistemic Uncertainty. \n"
+             "   - 8-10: Clear directional claim + quantified data + verifiable catalyst.\n"
+             "   - 1-4: Vague narrative or promotional hype without grounding.\n"
+             "2. Novelty: Deviation from Mainstream Institutional Baseline.\n"
+             "   - 8-10: Contra-consensus or extremely unique framing.\n"
+             "   - 1-4: Repeats common Bloomberg/Reuters market chatter.\n"
+             "3. Tradeability: (Actionability x Time Sensitivity).\n"
+             "   - 8-10: Specific entry/exit levels + defined timeframe (<6 months).\n"
+             "   - 1-3: Structural/Long-horizon/Macro-only (Calibration: MUST be low regardless of conviction).\n"
+             "JUSTIFICATION: Provide one sentence per score referencing components of the formula above.\n\n"
+             "EVIDENCE DISAMBIGUATION — CRITICAL:\n"
+             "- Distinguish between Evidence (empirical) and Conviction (rhetorical).\n"
+             "- 'Assumed' or 'Anecdotal' evidence MUST result in 'Low' or 'Moderate' Empirical Strength, even if Speaker Conviction is 'High'.\n"
+             "- Do not blur the two; if a speaker is shouting an assumption, it is Empirical: Low | Conviction: High.\n\n"
              "INTELLIGENCE PROFILE — CONCISION RULES:\n"
              "- Speaker Context: Maximum 2 sentences. Verifiable facts only. If financial interest exists, state it as the FIRST sentence.\n"
              "- Meta Assessment: Maximum 3 bullets. Focus on framing (permabear/event-driven/data-driven/promotional), conviction, and incentive bias.\n\n"
@@ -239,7 +249,7 @@ def format_markdown(brief: dict, video_url: str = "", thumbnail_url: str = "") -
         md += "### Core Claims\n"
         for claim in claims[:6]:
             md += f"- **{claim.get('claim')}**\n"
-            md += f"  *Evidence:* {claim.get('evidence_cited')} ({claim.get('evidence_type')} | {claim.get('evidence_strength')} strength)\n\n"
+            md += f"  *Evidence:* {claim.get('evidence_cited')} ({claim.get('evidence_type')} | Empirical: {claim.get('empirical_strength')} | Conviction: {claim.get('speaker_conviction')})\n\n"
 
     md += "### Weak Links & Failures\n"
     md += f"{brief.get('weak_links')}\n\n"
@@ -304,12 +314,21 @@ def format_html(brief: dict, video_url: str = "", thumbnail_url: str = "") -> st
     html += f"<p style='margin-bottom: 5px;'><strong>{brief.get('channel', 'Unknown')}</strong> | <strong>Length:</strong> {brief.get('duration_minutes', 0)} min | <strong>Market Context:</strong> {brief.get('current_market_context', 'N/A')}</p>"
     html += f"<p style='color: #888; font-size: 0.9em;'><strong>Published:</strong> {brief.get('podcast_date')} | <strong>Processed:</strong> {brief.get('processing_date')} | <strong>Shelf Life:</strong> {brief.get('shelf_life')}</p>"
     
-    html += "<div style='display: flex; gap: 20px; border-top: 1px solid #333; border-bottom: 1px solid #333; padding: 15px 0; margin: 15px 0;'>"
-    html += f"<div><b>Signal Force:</b><br/><span style='font-size: 1.5em; color: #00d1b2;'>{brief.get('signal_strength')}/10</span></div>"
-    html += f"<div><b>Novelty:</b><br/><span style='font-size: 1.5em; color: #ffdd57;'>{brief.get('novelty')}/10</span></div>"
-    html += f"<div><b>Tradeability:</b><br/><span style='font-size: 1.5em; color: #48c774;'>{brief.get('tradeability')}/10</span></div>"
-    html += f"<div><b>Horizon:</b><br/><span style='font-size: 1.1em;'>{brief.get('time_sensitivity')}</span></div>"
-    html += "</div>"
+    # Intelligence Metrics Table (Robust for Email Clients)
+    html += "<table width='100%' style='border-top: 1px solid #333; border-bottom: 1px solid #333; margin: 15px 0; border-collapse: collapse;'>"
+    html += "<tr>"
+    html += "<th style='padding: 10px 5px 0; text-align: center; color: #888; font-size: 10px; text-transform: uppercase;'>Signal Force</th>"
+    html += "<th style='padding: 10px 5px 0; text-align: center; color: #888; font-size: 10px; text-transform: uppercase;'>Novelty</th>"
+    html += "<th style='padding: 10px 5px 0; text-align: center; color: #888; font-size: 10px; text-transform: uppercase;'>Tradeability</th>"
+    html += "<th style='padding: 10px 5px 0; text-align: center; color: #888; font-size: 10px; text-transform: uppercase;'>Horizon</th>"
+    html += "</tr>"
+    html += "<tr>"
+    html += f"<td style='padding: 5px 10px 15px; text-align: center; font-size: 22px; font-weight: bold; color: #00d1b2;'>{brief.get('signal_strength')}/10</td>"
+    html += f"<td style='padding: 5px 10px 15px; text-align: center; font-size: 22px; font-weight: bold; color: #ffdd57;'>{brief.get('novelty')}/10</td>"
+    html += f"<td style='padding: 5px 10px 15px; text-align: center; font-size: 22px; font-weight: bold; color: #48c774;'>{brief.get('tradeability')}/10</td>"
+    html += f"<td style='padding: 5px 10px 15px; text-align: center; font-size: 16px; color: #eee;'>{brief.get('time_sensitivity')}</td>"
+    html += "</tr>"
+    html += "</table>"
 
     html += f"<p style='background: #252525; padding: 10px; border-left: 4px solid #00d1b2;'><b>Thesis:</b> {brief.get('one_line_summary')}</p>"
 
@@ -323,7 +342,7 @@ def format_html(brief: dict, video_url: str = "", thumbnail_url: str = "") -> st
         html += "<h3>Core Claims</h3>"
         for claim in claims[:6]:
             html += f"<div style='margin-bottom:10px;'><strong>{claim.get('claim')}</strong><br/>"
-            html += f"<span style='color: #aaa; font-size: 0.85em;'>Evidence: {claim.get('evidence_cited')} ({claim.get('evidence_type')} | {claim.get('evidence_strength')})</span></div>"
+            html += f"<span style='color: #aaa; font-size: 0.85em;'>Evidence: {claim.get('evidence_cited')} ({claim.get('evidence_type')} | Empirical: {claim.get('empirical_strength')} | Conviction: {claim.get('speaker_conviction')})</span></div>"
 
     html += f"<h3>Weak Links & Failures</h3><p style='color: #ff3860;'>{brief.get('weak_links')}</p>"
     html += f"<h3>Claim Plausibility</h3>"
