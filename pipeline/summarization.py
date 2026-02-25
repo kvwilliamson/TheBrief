@@ -12,7 +12,7 @@ from langchain_google_genai import ChatGoogleGenerativeAI
 from langchain_openai import ChatOpenAI
 from langchain_core.exceptions import OutputParserException
 from pydantic import BaseModel, Field
-from typing import List
+from typing import List, Optional
 from google import genai
 import time
 
