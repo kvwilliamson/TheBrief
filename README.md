@@ -22,7 +22,7 @@ TheBrief enforces:
 
 ## System Architecture
 
-The pipeline runs as a single Python orchestrator (`main.py`) composed of four discrete stages:
+The pipeline runs as a single Python orchestrator (`main.py`) composed of three discrete stages:
 
 ### 1. Discovery
 - Monitors configured channels in `channels.json`
@@ -36,29 +36,17 @@ The pipeline runs as a single Python orchestrator (`main.py`) composed of four d
 - Downsamples to 16kHz mono `mp3`
 - Optimized for transcription efficiency
 
-### 3. Transcription
-**Primary:**
-- Google Gemini 1.5 Pro (multimodal File API)
-
-**Optional:**
-- `faster-whisper` for offline processing
-- OpenAI Whisper API fallback
-
-Outputs a full transcript for downstream structured analysis.
-
-### 4. Intelligence Summarization (BKM v2 Engine)
-Transcripts are processed through Google Gemini 2.0 Flash using a strictly enforced, structured JSON schema.
+### 3. Intelligence Summarization (Direct Audio)
+Transcripts are bypassed in the primary flow. The pipeline uses **Google Gemini 2.5 Flash** to perform native audio analysis, listening for both semantic content and acoustic signals (tone, pacing, conviction).
 
 The engine generates:
 - **Episode Intelligence Profile**
 - **Signal Snapshot** (compact scoring grid)
 - **Reality Layer** (hard claims only)
 - **Forward Projections** (risk layer)
-- **Causal Maps**
-- **Narrative Profile** (decomposed subscores)
-- **Incentive Vector**
-- **Signal-to-Narrative Ratio**
-- **Disconfirming Conditions**
+- **Mechanism Analysis**
+- **Emotional Conviction** (acoustic tone analysis)
+- **Disconfirming Signals**
 - **Final Intelligence Take** (strategic classification)
 
 **Output:**
@@ -98,7 +86,7 @@ Each episode brief:
    ```
    Edit `.env` and configure:
    - `YOUTUBE_API_KEY` – Required for discovery
-   - `GOOGLE_AI_API_KEY` – Required for Gemini transcription + summarization
+   - `GOOGLE_AI_API_KEY` – Required for Gemini native audio analysis
    - `OPENAI_API_KEY` – Optional Whisper fallback
 
    *(Optional) Email configuration:*
@@ -142,7 +130,7 @@ A scheduled workflow runs daily at **6:00 AM UTC**.
    - `OPENAI_API_KEY`
    - *(Optional)* `SMTP_PASSWORD`
 
-The cron job processes new long-form episodes, generates BKM v2 briefs, and commits Markdown files into `/briefs/`—fully automated.
+The cron job processes new long-form episodes, generates intelligence briefs via native audio analysis, and commits Markdown files into `/briefs/`—fully automated.
 
 ## Design Intent
 

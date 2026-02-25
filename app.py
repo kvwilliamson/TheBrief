@@ -1,4 +1,5 @@
 import os
+import sys
 import glob
 import json
 import streamlit as st
@@ -44,17 +45,32 @@ def load_briefs():
     if not os.path.exists("briefs"):
         return []
         
-    brief_files = glob.glob("briefs/*.md")
+    # Using os.listdir for more direct filesystem access
+    files = os.listdir("briefs")
+    brief_files = [os.path.join("briefs", f) for f in files if f.endswith(".md") and not f.startswith(".")]
     brief_files.sort(reverse=True) # newest first
     
     briefs = []
     for f in brief_files:
-        filename = os.path.basename(f)
-        date_str = filename.replace(".md", "")
-        with open(f, "r") as file:
-            content = file.read()
-            briefs.append({"date": date_str, "content": content, "path": f})
+        try:
+            filename = os.path.basename(f)
+            # Remove extension to get date_str
+            date_str = filename.rsplit(".", 1)[0]
+            
+            with open(f, "r", encoding="utf-8") as file:
+                content = file.read()
+                briefs.append({"date": date_str, "content": content, "path": f})
+        except Exception as e:
+            continue
     return briefs
+
+def load_json_briefs(date_str):
+    """Load the structured JSON briefs for a specific date."""
+    path = os.path.join("briefs", f"{date_str}.json")
+    if os.path.exists(path):
+        with open(path, "r") as f:
+            return json.load(f)
+    return None
 
 def load_channels():
     """Load the channels from channels.json"""
@@ -211,11 +227,92 @@ with tab1:
         # Display selected brief
         selected_brief = next((b for b in briefs if b["date"] == selected_date), None)
         if selected_brief:
-            st.markdown(f"🗓️ **Briefing for {selected_brief['date']}**")
-            st.divider()
+            st.markdown(f"### 🗓️ Intelligence Dispatch: {selected_brief['date']}")
             
-            # Use Streamlit's native markdown rendering which supports all our Gitea/Github formatting
-            st.markdown(selected_brief["content"], unsafe_allow_html=True)
+            # Try to load high-fidelity JSON data for BKM metrics
+            json_data = load_json_briefs(selected_brief['date'])
+            
+            if json_data:
+                # Group by topic domain or category if possible
+                for brief in json_data:
+                    with st.container(border=True):
+                        # Title and Metadata
+                        title_url = brief.get('video_url', '#')
+                        st.subheader(f"[{brief.get('episode_title', 'Unknown Title')}]({title_url})")
+                        
+                        col_img, col_meta = st.columns([1, 3])
+                        with col_img:
+                            if brief.get('thumbnail'):
+                                st.image(brief['thumbnail'], use_container_width=True)
+                        
+                        with col_meta:
+                            st.markdown(f"**{brief.get('channel', 'Unknown')}** | ⏱️ {brief.get('duration_minutes', 0)}m | 🏷️ {brief.get('shelf_life', 'N/A')}")
+                            st.markdown(f"📅 **Published:** {brief.get('podcast_date', 'N/A')} | **Processed:** {brief.get('processing_date', 'N/A')}")
+                            
+                            # High-Impact Metrics Ribbon
+                            m1, m2, m3, m4 = st.columns(4)
+                            with m1:
+                                st.metric("Signal", f"{brief.get('signal_strength', 0)}/10")
+                            with m2:
+                                st.metric("Novelty", f"{brief.get('novelty', 0)}/10")
+                            with m3:
+                                st.metric("Tradeability", f"{brief.get('tradeability', 0)}/10")
+                            with m4:
+                                st.metric("Horizon", brief.get('time_sensitivity', 'N/A'))
+                        
+                        # Detailed Intelligence Layers
+                        
+                        # Detailed Intelligence Layers
+                        st.markdown(f"**Thesis:** {brief.get('one_line_summary', 'N/A')}")
+                        
+                        col_l, col_r = st.columns(2)
+                        with col_l:
+                            st.info(f"**Market Context:**\n{brief.get('current_market_context', 'N/A')}")
+                        with col_r:
+                            # Handling potentially list or string weak_links
+                            wl = brief.get('weak_links', 'N/A')
+                            if isinstance(wl, list): wl = "\n".join([f"- {i}" for i in wl])
+                            st.warning(f"**Weak Links:**\n{wl}")
+                            
+                        with st.expander("🔍 Deep Intel: Claims & Evidence"):
+                            st.markdown("#### Core Claims")
+                            for claim in brief.get('core_claims', []):
+                                st.write(f"- **{claim['claim']}**")
+                                st.caption(f"Evidence: {claim['evidence_cited']} ({claim['evidence_type']} | {claim['evidence_strength']})")
+                            
+                            st.markdown("#### Target Specifics")
+                            st.code(brief.get('specifics_extracted', 'N/A'), language=None)
+                            
+                            st.markdown("#### Claim Plausibility")
+                            st.info(brief.get('claim_plausibility', 'N/A'))
+                            
+                            if brief.get('historical_parallel'):
+                                st.markdown("#### Historical Parallel")
+                                st.success(brief['historical_parallel'])
+                            
+                        with st.expander("🧠 Meta Assessment & Counter-Consensus"):
+                            st.markdown(f"**Speaker:** {brief.get('speaker_context', 'N/A')}")
+                            st.markdown(f"**Assessment:** {brief.get('meta_assessment', 'N/A')}")
+                            st.divider()
+                            cc = brief.get('counter_consensus', 'N/A')
+                            if isinstance(cc, list): cc = "\n".join([f"- {i}" for i in cc])
+                            st.markdown(f"**Counter-Consensus View:**\n{cc}")
+                            
+                        with st.expander("⚙️ Mechanics & Disconfirming Signals"):
+                            mech = brief.get('mechanism', {})
+                            st.markdown(f"- **Trigger:** {mech.get('trigger')}")
+                            st.markdown(f"- **Transmission:** {mech.get('transmission_path')}")
+                            st.markdown(f"- **Market Impact:** {mech.get('market_impact')}")
+                            st.divider()
+                            st.markdown("**Watch for Disconfirming Signals:**")
+                            for sig in brief.get('disconfirming_signals', []):
+                                st.write(f"- {sig}")
+
+            else:
+                # Fallback to plain markdown if JSON is missing
+                st.warning("⚠️ High-fidelity structured data unavailable for this date — rendering raw intelligence brief.")
+                st.divider()
+                st.markdown(selected_brief["content"], unsafe_allow_html=True)
 
 
 # === TAB 2: Sources ===
@@ -484,7 +581,7 @@ with tab3:
                 env["DISCOVERY_LOOKBACK_HOURS"] = str(lookback_hours)
                 
                 process = subprocess.Popen(
-                    ["python", "main.py"],
+                    [sys.executable, "main.py"],
                     stdout=subprocess.PIPE,
                     stderr=subprocess.STDOUT,
                     text=True,
@@ -583,10 +680,13 @@ with tab3:
                 return_code = process.wait()
                 
                 if return_code == 0:
-                    st.success("Pipeline executed successfully!")
+                    st.success("Pipeline executed successfully! Refreshing dashboard...")
                     st.balloons()
-                    if st.button("✨ All Done! Refresh Dashboard", type="primary"):
-                        st.rerun()
+                    # Auto-refresh after 2 seconds to show the new brief
+                    import time
+                    time.sleep(2)
+                    st.cache_data.clear() # Clear any cached images/data
+                    st.rerun()
                 else:
                     st.error("Pipeline run failed. Check the logs above for details.")
                     
