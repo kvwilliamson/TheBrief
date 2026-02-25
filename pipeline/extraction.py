@@ -98,6 +98,7 @@ def run_extraction():
         output_template = os.path.join("audio", f"{video['id']}.mp3")
         if os.path.exists(output_template):
             # Already exists
+            video["audio_path"] = output_template
             processed_queue.append(video)
             continue
             
