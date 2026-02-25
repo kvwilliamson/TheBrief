@@ -54,18 +54,21 @@ class BriefSchema(BaseModel):
     specifics_extracted: str = Field(description="All numeric references verbatim (levels, targets, timeframes, allocations). Use 'No explicit numbers mentioned' if none.")
     weak_links: str = Field(description="Identified failure points in the thesis causal chain")
     counter_consensus: str = Field(description="2-3 bullets on mainstream/institutional alternative view")
-    meta_assessment: str = Field(description="Speaker bias, framing pattern, emotional loading, framing (permabear/data-driven/etc)")
+    meta_assessment: Optional[str] = Field(description="Framing pattern, conviction level, emotional loading. Max 3 bullets.")
     mechanism: Mechanism = Field(description="Plain-language mechanism summary. Stress-test the logic, don't just restate it.")
     disconfirming_signals: List[str] = Field(description="Max 3 observable disconfirming signals.")
     historical_parallel: str = Field(description="Optional comparison to a historical parallel.")
     one_line_summary: str = Field(description="A single sentence summarizes the core thesis.")
     emotional_conviction: str = Field(description="Summary of the speaker's tone, inflection, and underlying hesitation or conviction.")
-    signal_strength: int = Field(description="Score 1-10: How strong and clear is the core signal?")
-    novelty: int = Field(description="Score 1-10: How new or differentiated vs mainstream?")
-    tradeability: int = Field(description="Score 1-10: Actionability for portfolio decision. Long-horizon calls MUST be low (1-3).")
-    time_sensitivity: str = Field(description="Strictly: Immediate, Monitor, Long-term")
-    speaker_context: str = Field(description="Known background or bias. If unknown, state 'Speaker background unverifiable from audio alone'.")
-    claim_plausibility: str = Field(description="Plausibility classification of core claims: Verified / Asserted / Inferred / Headline Risk. Flag unverified event-driven claims explicitly.")
+    signal_strength: Optional[int] = Field(default=None, ge=1, le=10, description="Score 1-10 per rubric.")
+    signal_strength_justification: Optional[str] = Field(description="One sentence referencing which rubric tier applied and why.")
+    novelty: Optional[int] = Field(default=None, ge=1, le=10, description="Score 1-10 per rubric.")
+    novelty_justification: Optional[str] = Field(description="One sentence referencing which rubric tier applied and why.")
+    tradeability: Optional[int] = Field(default=None, ge=1, le=10, description="Score 1-10 per rubric. Long-horizon MUST be 1-3.")
+    tradeability_justification: Optional[str] = Field(description="One sentence referencing which rubric tier applied and why.")
+    time_sensitivity: Optional[str] = Field(description="Strictly: Immediate, Monitor, Long-term")
+    speaker_context: Optional[str] = Field(description="Known background or financial interest. Max 2 sentences.")
+    claim_plausibility: List[str] = Field(description="Per-claim plausibility classification. Format: '[Claim] — [Classification] — [Narrative/Empirical sentence]'")
     positioning_risk: str = Field(description="Strictly one of: Crowded, Neutral, Underowned, Unknown. Only if financial topic.")
 def get_llm():
     model_choice = os.getenv("SUMMARY_MODEL", "gemini").lower()
@@ -122,55 +125,42 @@ def summarize_transcript(video, llm):
     today_str = datetime.now().strftime("%Y-%m-%d")
     prompt = PromptTemplate(
         template="You are an expert macro intelligence analyst for a professional trading desk.\n"
-                 "Generate a high-utility, decision-oriented Intelligence Brief directly from the attached audio.\n\n"
-                 "### BKM CORE INSTRUCTIONS:\n\n"
-                 "TIMESTAMP & SHELF LIFE:\n"
-                 "- Record the episode publication date and today's processing date: {today}.\n"
-                 "- Assign a Shelf Life: Short (days-weeks), Medium (weeks-months), Long (structural).\n"
-                 "- Any technical price levels extracted MUST be labeled: 'Valid as of [episode date]'.\n"
-                 "- Provide a brief 'current_market_context' snapshot regarding major macro indices or assets relevant to the thesis as of {today}.\n"
-                 "  (NOTE: This is LLM-driven; it captures the model's internal state as of the processing date. Known limitation: may not capture minute-by-minute moves without live API integration.)\n\n"
-                 "SPECIFICS EXTRACTION:\n"
-                 "- Extract ALL numeric references verbatim: price targets, key levels, % move projections, timeframes, allocation guidance. Format as a list.\n"
-                 "- CRITICAL: If no specific numbers were mentioned, state: 'No explicit price targets, levels, or timeframes were mentioned. Absence of specificity is noted as a signal of thesis vagueness.'\n\n"
-                 "WEAK LINKS STRESS TEST:\n"
-                 "- Identify the weakest link in the causal chain and hidden assumptions. Interrogate the logic, do not restate it.\n\n"
-                 "CLAIM PLAUSIBILITY CHECK:\n"
-                 "For event-driven briefs (supply disruptions, breaking news, geopolitical events):\n"
-                 "- Classify each core claim as one of: VERIFIED, ASSERTED, INFERRED, or HEADLINE RISK.\n"
-                 "- If a claim is classified as HEADLINE RISK or ASSERTED, flag it explicitly: 'This claim has not been independently verified. Treat as unconfirmed until corroborated.'\n"
-                 "- CRITICAL: Do NOT treat episode titles or headlines as verified facts.\n\n"
-                 "COUNTER-CONSENSUS:\n"
-                 "- Provide 2-3 bullets on the mainstream/institutional alternative view to prevent echo-chamber reinforcement.\n\n"
-                 "META ASSESSMENT & SPEAKER CONTEXT:\n"
-                 "INTELLIGENCE PROFILE CONSTRAINTS:\n"
-                 "- Speaker Context: Maximum 2 sentences. State ONLY what is verifiable from the audio. Do NOT speculate based on channel or keywords. If background is unverifiable, state: 'Speaker background unverifiable from audio alone.'\n"
-                 "- Meta Assessment: Maximum 3-4 bullets. Focus on framing pattern, conviction level, and emotional loading. No speculative background padding.\n\n"
-                 "QUANTITATIVE SCORING — RUBRIC-ANCHORED:\n"
-                 "Rate Signal Strength, Novelty, and Tradeability (1-10).\n"
-                 "JUSTIFICATION: Provide one sentence per score referencing these tiers:\n"
-                 "- Signal: 8-10 (Clear directional claim with specific evidence), 5-7 (Assumed/Historical evidence), 1-4 (Vague/Narrative).\n"
-                 "- Novelty: 8-10 (Differs from mainstream), 5-7 (Partial overlap), 1-4 (Repeats common view).\n"
-                 "- Tradeability: 8-10 (Specific levels/entry conditions), 5-7 (Directional but no actionable parameters), 1-4 (Long-horizon/Structural/Unverifiable).\n"
-                 "- CALIBRATION: Long-horizon or structural calls MUST score 1-3 on Tradeability regardless of conviction. High Signal + Low Tradeability must be flagged.\n\n"
-                 "EVIDENCE RUBRIC:\n"
-                 "- High Data-backed: Specific chart, statistic, or quantitative reference cited.\n"
-                 "- Moderate-Historical: Repeatable pattern or historical analogy referenced.\n"
-                 "- Moderate-Assumed: Logical extrapolation without direct evidence.\n"
-                 "- Speculative: Narrative assertion without supporting reference.\n"
-                 "- Justify each label with a short clause.\n\n"
-                 "CRITICAL ANTI-HALLUCINATION:\n"
-                 "- Do NOT fabricate or invent specific price targets, dates, or economic numbers that were not explicitly stated in the audio.\n"
-                 "- If the speaker does not provide concrete metrics to invalidate their thesis, derive the signal strictly from the conceptual logic of their argument.\n"
-                 "- SPECIFICS MUST BE NUMBERS ONLY. Absence of numbers must be stated explicitly.\n\n"
-                 "STRICT CONSTRAINTS:\n"
-                 "1. Tone: Professional intelligence memo (not a blog). No hype, no emojis, no academic verbosity.\n"
-                 "2. Max total word count: 400-600 words.\n"
-                 "3. Mechanism section must involve MATERIALITY ANCHORING: State known scale/significance of catalysts using training knowledge (e.g., 'Mexico accounts for ~25% of global silver'). If scale is unknown, state clearly. This anchor must come BEFORE the transmission path.\n"
-                 "4. Treat Core Claims and Mechanism as distinct layers; avoid repetition.\n"
-                 "5. Output MUST conform exactly to the JSON schema.\n\n"
-                 "Video details:\nTitle: {title}\nChannel: {channel}\nDuration: {duration_minutes} minutes\nKeywords: {tags}\n\n"
-                 "Format instructions:\n{format_instructions}\n\n",
+             "Generate a high-utility, decision-oriented Intelligence Brief directly from the attached audio.\n\n"
+             "### BKM CORE INSTRUCTIONS:\n\n"
+             "TIMESTAMP & SHELF LIFE:\n"
+             "- Record the episode publication date and today's processing date: {today}.\n"
+             "- Assign a Shelf Life: Short (days-weeks), Medium (weeks-months), Long (structural).\n"
+             "- Provide a brief 'current_market_context' snapshot regarding major macro indices or assets relevant to the thesis as of {today}.\n\n"
+             "SPECIFICS EXTRACTION:\n"
+             "- Extract ALL numeric references verbatim: price targets, key levels, % move projections, timeframes, allocation guidance. Format as a list.\n"
+             "- CRITICAL: If no specific numbers were mentioned, state: 'No explicit price targets, levels, or timeframes were mentioned. Absence of specificity is noted as a signal of thesis vagueness.'\n\n"
+             "CLAIM PLAUSIBILITY CHECK — PER CLAIM:\n"
+             "For each core claim, provide a plausibility classification using this format:\n"
+             "[Brief claim label] — [Classification] — [Narrative coherence vs empirical confirmation]\n"
+             "Classifications: VERIFIED, ASSERTED, INFERRED, HEADLINE RISK.\n"
+             "- Narrative coherence: Does the claim fit logically? (Yes/Partial/No)\n"
+             "- Empirical confirmation: Is there hard evidence cited? (Confirmed/Partial/None)\n"
+             "HEADLINE RISK and ASSERTED claims must include: 'Treat as unconfirmed until independently corroborated.'\n\n"
+             "QUANTITATIVE SCORING — RUBRIC-ANCHORED:\n"
+             "Rate Signal Strength, Novelty, and Tradeability (1-10).\n"
+             "JUSTIFICATION: Provide one sentence per score referencing these specific tiers:\n"
+             "- Signal: 8-10 (Clear directional claim with specific evidence), 5-7 (Assumed/Historical evidence), 1-4 (Vague/Narrative).\n"
+             "- Novelty: 8-10 (Differs from mainstream), 5-7 (Partial overlap), 1-4 (Repeats common view).\n"
+             "- Tradeability: 8-10 (Specific levels/timeframes), 5-7 (Directional but no actionable parameters), 1-4 (Long-horizon/Structural/Unverifiable).\n"
+             "- CALIBRATION: Long-horizon or structural calls MUST score 1-3 on Tradeability. Do NOT average upward due to speaker confidence.\n\n"
+             "INTELLIGENCE PROFILE — CONCISION RULES:\n"
+             "- Speaker Context: Maximum 2 sentences. Verifiable facts only. If financial interest exists, state it as the FIRST sentence.\n"
+             "- Meta Assessment: Maximum 3 bullets. Focus on framing (permabear/event-driven/data-driven/promotional), conviction, and incentive bias.\n\n"
+             "MATERIALITY ANCHORING — QUANTIFIED:\n"
+             "- Mechanism section MUST open with a quantified statement: [Asset/market] context: [specific figure/range] — [source type: industry consensus/historical average/approximate].\n"
+             "- Do NOT fabricate. If figure is uncertain, provide range or state 'Absence of quantification noted as signal.'\n\n"
+             "STRICT CONSTRAINTS:\n"
+             "1. Tone: Professional intelligence memo (not a blog). No hype, no emojis.\n"
+             "2. Max total word count: 400-600 words.\n"
+             "3. Treat Core Claims and Mechanism as distinct layers; avoid repetition.\n"
+             "4. Output MUST conform exactly to the JSON schema.\n\n"
+             "Video details:\nTitle: {title}\nChannel: {channel}\nDuration: {duration_minutes} minutes\nKeywords: {tags}\nToday: {today}\n\n"
+             "Format instructions:\n{format_instructions}\n\n",
         input_variables=["title", "channel", "duration_minutes", "tags", "today"],
         partial_variables={"format_instructions": parser.get_format_instructions()},
     )
@@ -224,13 +214,17 @@ def format_markdown(brief: dict, video_url: str = "", thumbnail_url: str = "") -
     if thumbnail_url:
         md += f"![{title}]({thumbnail_url})\n\n"
 
+    # Incentive Bias Banner
+    if brief.get('executive_use_case', {}).get('incentive_bias', 'No') != 'No':
+        md += f"> ⚠️ **INCENTIVE BIAS FLAGGED:** {brief['executive_use_case']['incentive_bias']}\n\n"
+
     md += f"**{brief.get('channel', 'Unknown')}** | **Length:** {brief.get('duration_minutes', 0)} min | **Market Context:** {brief.get('current_market_context', 'N/A')}\n"
     md += f"**Published:** {brief.get('podcast_date', 'N/A')} | **Processed:** {brief.get('processing_date', 'N/A')} | **Shelf Life:** {brief.get('shelf_life', 'N/A')}\n\n"
     
     md += "### Quick-Scan Metrics\n"
-    md += f"- **Signal Strength:** {brief.get('signal_strength', 0)}/10\n"
-    md += f"- **Novelty:** {brief.get('novelty', 0)}/10\n"
-    md += f"- **Tradeability:** {brief.get('tradeability', 0)}/10\n"
+    md += f"- **Signal Strength:** {brief.get('signal_strength', 0)}/10 — {brief.get('signal_strength_justification', 'N/A')}\n"
+    md += f"- **Novelty:** {brief.get('novelty', 0)}/10 — {brief.get('novelty_justification', 'N/A')}\n"
+    md += f"- **Tradeability:** {brief.get('tradeability', 0)}/10 — {brief.get('tradeability_justification', 'N/A')}\n"
     md += f"- **Time Sensitivity:** {brief.get('time_sensitivity', 'N/A')}\n\n"
 
     md += f"**Thesis:** {brief.get('one_line_summary')}\n\n"
@@ -251,7 +245,13 @@ def format_markdown(brief: dict, video_url: str = "", thumbnail_url: str = "") -
     md += f"{brief.get('weak_links')}\n\n"
 
     md += "### Claim Plausibility Check\n"
-    md += f"{brief.get('claim_plausibility')}\n\n"
+    plausibility = brief.get('claim_plausibility', [])
+    if isinstance(plausibility, list):
+        for p in plausibility:
+            md += f"- {p}\n"
+    else:
+        md += f"{plausibility}\n"
+    md += "\n"
 
     md += "### Specifics Extracted\n"
     md += f"{brief.get('specifics_extracted')}\n\n"
@@ -296,6 +296,11 @@ def format_html(brief: dict, video_url: str = "", thumbnail_url: str = "") -> st
     if thumbnail_url:
         html += f"<div style='margin-bottom: 15px;'><img src='{thumbnail_url}' width='320' style='border-radius: 8px;' alt='{title}'/></div>"
 
+    # Incentive Bias Banner
+    incentive = brief.get('executive_use_case', {}).get('incentive_bias', 'No')
+    if incentive != 'No':
+        html += f"<div style='background:#ff3860; color:white; padding:15px; border-radius:5px; margin:15px 0;'>⚠️ <b>INCENTIVE BIAS FLAGGED:</b> {incentive}</div>"
+
     html += f"<p style='margin-bottom: 5px;'><strong>{brief.get('channel', 'Unknown')}</strong> | <strong>Length:</strong> {brief.get('duration_minutes', 0)} min | <strong>Market Context:</strong> {brief.get('current_market_context', 'N/A')}</p>"
     html += f"<p style='color: #888; font-size: 0.9em;'><strong>Published:</strong> {brief.get('podcast_date')} | <strong>Processed:</strong> {brief.get('processing_date')} | <strong>Shelf Life:</strong> {brief.get('shelf_life')}</p>"
     
@@ -321,7 +326,15 @@ def format_html(brief: dict, video_url: str = "", thumbnail_url: str = "") -> st
             html += f"<span style='color: #aaa; font-size: 0.85em;'>Evidence: {claim.get('evidence_cited')} ({claim.get('evidence_type')} | {claim.get('evidence_strength')})</span></div>"
 
     html += f"<h3>Weak Links & Failures</h3><p style='color: #ff3860;'>{brief.get('weak_links')}</p>"
-    html += f"<h3>Claim Plausibility</h3><p style='background: #333; padding: 10px; border-left: 4px solid #ffdd57;'>{brief.get('claim_plausibility')}</p>"
+    html += f"<h3>Claim Plausibility</h3>"
+    plausibility = brief.get('claim_plausibility', [])
+    if isinstance(plausibility, list):
+        html += "<ul>"
+        for p in plausibility:
+            html += f"<li style='margin-bottom: 5px;'>{p}</li>"
+        html += "</ul>"
+    else:
+        html += f"<p style='background: #333; padding: 10px; border-left: 4px solid #ffdd57;'>{plausibility}</p>"
     
     hist = brief.get('historical_parallel')
     if hist:

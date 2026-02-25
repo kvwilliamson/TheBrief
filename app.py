@@ -253,15 +253,21 @@ with tab1:
                             m1, m2, m3, m4 = st.columns(4)
                             with m1:
                                 st.metric("Signal", f"{brief.get('signal_strength', 0)}/10")
+                                st.caption(brief.get('signal_strength_justification', ''))
                             with m2:
                                 st.metric("Novelty", f"{brief.get('novelty', 0)}/10")
+                                st.caption(brief.get('novelty_justification', ''))
                             with m3:
                                 st.metric("Tradeability", f"{brief.get('tradeability', 0)}/10")
+                                st.caption(brief.get('tradeability_justification', ''))
                             with m4:
                                 st.metric("Horizon", brief.get('time_sensitivity', 'N/A'))
                         
-                        # Detailed Intelligence Layers
-                        
+                        # Incentive Bias Banner
+                        incentive = brief.get('executive_use_case', {}).get('incentive_bias', 'No')
+                        if incentive != 'No':
+                            st.error(f"⚠️ **INCENTIVE BIAS FLAGGED:** {incentive}")
+
                         # Detailed Intelligence Layers
                         st.markdown(f"**Thesis:** {brief.get('one_line_summary', 'N/A')}")
                         
@@ -277,14 +283,19 @@ with tab1:
                         with st.expander("🔍 Deep Intel: Claims & Evidence"):
                             st.markdown("#### Core Claims")
                             for claim in brief.get('core_claims', []):
-                                st.write(f"- **{claim['claim']}**")
-                                st.caption(f"Evidence: {claim['evidence_cited']} ({claim['evidence_type']} | {claim['evidence_strength']})")
+                                st.write(f"- **{claim.get('claim', 'Unknown Claim')}**")
+                                st.caption(f"Evidence: {claim.get('evidence_cited', 'N/A')} ({claim.get('evidence_type', 'N/A')} | {claim.get('evidence_strength', 'N/A')})")
                             
                             st.markdown("#### Target Specifics")
                             st.code(brief.get('specifics_extracted', 'N/A'), language=None)
                             
                             st.markdown("#### Claim Plausibility")
-                            st.info(brief.get('claim_plausibility', 'N/A'))
+                            plausibility = brief.get('claim_plausibility', [])
+                            if isinstance(plausibility, list):
+                                for p in plausibility:
+                                    st.write(f"- {p}")
+                            else:
+                                st.info(plausibility)
                             
                             if brief.get('historical_parallel'):
                                 st.markdown("#### Historical Parallel")
