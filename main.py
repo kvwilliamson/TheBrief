@@ -35,22 +35,27 @@ def main():
     logging.info("Starting TheBrief Daily Pipeline")
     logging.info("="*50)
     
-    # Load environment variables
-    load_dotenv()
+    # Load environment variables (Local only)
+    if not os.getenv("GITHUB_ACTIONS"):
+        load_dotenv()
     
     # Verify core API keys
     yt_key = os.getenv("YOUTUBE_API_KEY")
     if not yt_key:
-        logging.error("CRITICAL: YOUTUBE_API_KEY is missing!")
-        # Debug: check if any env vars are present
-        logging.info(f"Environment keys: {list(os.environ.keys())}")
-        return
+        logging.error("CRITICAL: YOUTUBE_API_KEY is missing or empty!")
+        logging.info(f"Environment keys available: {list(os.environ.keys())}")
+        sys.exit(1)
     else:
-        logging.info(f"YOUTUBE_API_KEY found (length: {len(yt_key)})")
+        logging.info(f"YOUTUBE_API_KEY validated (len: {len(yt_key)})")
         
-    if not os.getenv("GOOGLE_AI_API_KEY") and not os.getenv("OPENAI_API_KEY"):
+    google_key = os.getenv("GOOGLE_AI_API_KEY")
+    openai_key = os.getenv("OPENAI_API_KEY")
+    
+    if not google_key and not openai_key:
         logging.error("CRITICAL: Neither GOOGLE_AI_API_KEY nor OPENAI_API_KEY found!")
-        return
+        sys.exit(1)
+    
+    logging.info(f"LLM Keys: Google({ 'Set' if google_key else 'Missing' }), OpenAI({ 'Set' if openai_key else 'Missing' })")
 
     # Phase 1
     logging.info("\n--- Phase 1: Discovery ---")
