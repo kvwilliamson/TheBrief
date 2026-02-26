@@ -520,15 +520,9 @@ def run_summarization():
             summary_md += f"- **{b.get('channel')}**: [{b.get('episode_title')}]({v.get('url')}) *({b.get('duration_minutes')}m)*\n"
             summary_md += f"  > {b.get('one_line_summary')}\n"
             
-            # HTML Index Row (Small Thumbnail + Strict Text Styles)
-            thumb = v.get('thumbnail', '')
+            # HTML Index Row (Strict Text Styles)
             summary_html += "<tr>"
-            if thumb:
-                summary_html += f"<td width='100' style='padding: 10px 0; vertical-align: top;'><img src='{thumb}' width='90' style='border-radius: 4px;' /></td>"
-            else:
-                summary_html += "<td width='10' style='padding: 10px 0;'></td>"
-            
-            summary_html += f"<td style='padding: 10px 10px 10px 0; vertical-align: top;'>"
+            summary_html += f"<td style='padding: 10px 0; vertical-align: top;'>"
             summary_html += f"<div style='font-size: 14px; margin-bottom: 4px;'>"
             summary_html += f"<b style='color: #202124;'>{b.get('channel')}:</b> <a href='{v.get('url')}' style='color: #1155CC; text-decoration: none;'>{b.get('episode_title')}</a> "
             summary_html += f"<span style='color: #70757A; font-style: italic;'>({b.get('duration_minutes')}m)</span></div>"
