@@ -311,7 +311,7 @@ def format_markdown(brief: dict, video_url: str = "", thumbnail_url: str = "") -
     md += "---\n\n"
     return md
 
-def format_html(brief: dict, video_url: str = "") -> str:
+def format_html(brief: dict, video_url: str = "", thumbnail_url: str = "") -> str:
     title = brief.get('episode_title', 'Unknown Title')
     category = brief.get('topic_domain', 'Other')
     profile = get_profile_for_category(category)
@@ -324,14 +324,18 @@ def format_html(brief: dict, video_url: str = "") -> str:
     title_html = f"<a href='{video_url}' style='text-decoration: none; color: #1155CC; font-size: 16px; font-weight: bold;'>{title}</a>" if video_url else f"<span style='font-size: 16px; font-weight: bold;'>{title}</span>"
     html += f"<div style='margin-bottom: 5px;'>{title_html}</div>"
     
-    # NO Thumbnails in detailed section
+    # Header with Thumbnail (If available)
+    html += "<table width='100%' style='border-collapse: collapse;'><tr>"
+    if thumbnail_url:
+        html += f"<td width='130' style='vertical-align: top; padding-right: 15px;'><img src='{thumbnail_url}' width='120' style='border-radius: 4px; border: 1px solid #eee;' /></td>"
     
+    html += "<td style='vertical-align: top;'>"
     # Bias Banner
     incentive = brief.get('executive_use_case', {}).get('incentive_bias', 'No')
     if incentive != 'No':
-        html += f"<div style='background:#fde8e8; border: 1px solid #f8b4b4; color:#c53030; padding:8px; border-radius:4px; margin:10px 0; font-size: 13px;'>⚠️ <b>INCENTIVE BIAS:</b> {incentive}</div>"
+        html += f"<div style='background:#fde8e8; border: 1px solid #f8b4b4; color:#c53030; padding:8px; border-radius:4px; margin:0 0 10px 0; font-size: 13px;'>⚠️ <b>INCENTIVE BIAS:</b> {incentive}</div>"
 
-    html += f"<p style='margin: 5px 0; color: #70757A; font-size: 13px;'><strong>{brief.get('channel', 'Unknown')}</strong> | {brief.get('duration_minutes', 0)} min | {brief.get('current_market_context', 'N/A')}</p>"
+    html += f"<p style='margin: 0 0 5px 0; color: #70757A; font-size: 13px;'><strong>{brief.get('channel', 'Unknown')}</strong> | {brief.get('duration_minutes', 0)} min | {brief.get('current_market_context', 'N/A')}</p>"
     
     # Metrics Table
     cols = []
@@ -348,6 +352,7 @@ def format_html(brief: dict, video_url: str = "") -> str:
     html += "</tr></table>"
 
     html += f"<div style='background: #f8f9fa; padding: 10px; border-left: 4px solid #1A73E8; margin: 10px 0; color: #3C4043; font-size: 14px;'><b>Thesis:</b> {brief.get('one_line_summary')}</div>"
+    html += "</td></tr></table>"
 
     # Full Intelligence Profile
     html += f"<div style='color:#1A73E8; font-weight:bold; margin-top:15px; font-size: 13px; text-transform:uppercase;'>Intelligence Profile</div>"
@@ -439,7 +444,7 @@ def run_summarization():
         if brief:
             video["brief"] = brief
             md = format_markdown(brief, video.get('url', ''), video.get('thumbnail', ''))
-            html_comp = format_html(brief, video.get('url', ''))
+            html_comp = format_html(brief, video.get('url', ''), video.get('thumbnail', ''))
             logger.info(f"✅ Brief successfully generated for {video['title']}")
             return video, (md, html_comp)
         return None, None

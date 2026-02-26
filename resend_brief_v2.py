@@ -82,7 +82,7 @@ def resend_full_html_brief():
     for cat in available_cats:
         html += f"<h1 style='background: #1A73E8; color: white; padding: 12px; border-radius: 4px; font-size: 20px; margin-bottom: 30px; font-weight: bold;'>Sector: {cat}</h1>"
         for b in grouped[cat]:
-            html += format_html(b, b.get('video_url', ''))
+            html += format_html(b, b.get('video_url', ''), b.get('thumbnail', ''))
     
     html += "</body></html>"
 
