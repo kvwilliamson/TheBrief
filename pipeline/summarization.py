@@ -311,75 +311,71 @@ def format_markdown(brief: dict, video_url: str = "", thumbnail_url: str = "") -
     md += "---\n\n"
     return md
 
-def format_html(brief: dict, video_url: str = "", thumbnail_url: str = "", condensed: bool = False) -> str:
+def format_html(brief: dict, video_url: str = "") -> str:
     title = brief.get('episode_title', 'Unknown Title')
     category = brief.get('topic_domain', 'Other')
     profile = get_profile_for_category(category)
     features = profile.get("features", {})
     
-    # Use a more compact container
-    html = f"<div style='border: 1px solid #333; padding: 15px; border-radius: 6px; background-color: #1a1a1a; color: #eee; margin-bottom: 20px; font-size: 14px;'>"
+    # High-Contrast White Background Container
+    html = f"<div style='border-bottom: 1px solid #ddd; padding: 15px 0; background-color: #ffffff; color: #202124; font-family: Arial, Helvetica, sans-serif; line-height: 1.5;'>"
     
-    # Title & Channel
-    title_html = f"<a href='{video_url}' style='text-decoration: none; color: #00d1b2;'>{title}</a>" if video_url else title
-    html += f"<h2 style='margin: 0 0 10px 0; font-size: 18px;'>{title_html}</h2>"
+    # Title (Link Blue)
+    title_html = f"<a href='{video_url}' style='text-decoration: none; color: #1155CC; font-size: 16px; font-weight: bold;'>{title}</a>" if video_url else f"<span style='font-size: 16px; font-weight: bold;'>{title}</span>"
+    html += f"<div style='margin-bottom: 5px;'>{title_html}</div>"
     
-    # Note: Thumbnails removed per user request to save space in email body
+    # NO Thumbnails in detailed section
     
-    # Incentive Bias Banner (Compact)
+    # Bias Banner
     incentive = brief.get('executive_use_case', {}).get('incentive_bias', 'No')
     if incentive != 'No':
-        html += f"<div style='background:#ff3860; color:white; padding:10px; border-radius:4px; margin:10px 0; font-weight:bold;'>⚠️ BIAS: {incentive}</div>"
+        html += f"<div style='background:#fde8e8; border: 1px solid #f8b4b4; color:#c53030; padding:8px; border-radius:4px; margin:10px 0; font-size: 13px;'>⚠️ <b>INCENTIVE BIAS:</b> {incentive}</div>"
 
-    html += f"<p style='margin: 5px 0; color: #ccc;'><strong>{brief.get('channel', 'Unknown')}</strong> | {brief.get('duration_minutes', 0)} min | {brief.get('current_market_context', 'N/A')}</p>"
+    html += f"<p style='margin: 5px 0; color: #70757A; font-size: 13px;'><strong>{brief.get('channel', 'Unknown')}</strong> | {brief.get('duration_minutes', 0)} min | {brief.get('current_market_context', 'N/A')}</p>"
     
-    # Metrics Table (Ultra-Compact)
+    # Metrics Table
     cols = []
-    if features.get("signal_strength", True): cols.append(("Signal", brief.get("signal_strength"), "#00d1b2"))
-    if features.get("novelty"): cols.append(("Novelty", brief.get("novelty"), "#ffdd57"))
-    if features.get("tradeability"): cols.append(("Trade", brief.get("tradeability"), "#48c774"))
-    cols.append(("Horizon", brief.get("time_sensitivity"), "#eee"))
+    if features.get("signal_strength", True): cols.append(("Signal", brief.get("signal_strength"), "#1155CC"))
+    if features.get("novelty"): cols.append(("Novelty", brief.get("novelty"), "#EA4335"))
+    if features.get("tradeability"): cols.append(("Trade", brief.get("tradeability"), "#34A853"))
+    cols.append(("Horizon", brief.get("time_sensitivity"), "#202124"))
     
-    width_pct = 100 // len(cols) if cols else 100
-    html += "<table width='100%' style='border-top:1px solid #333; border-bottom:1px solid #333; margin:10px 0; border-collapse:collapse; font-size: 12px;'>"
+    html += "<table width='100%' style='border-top:1px solid #eee; border-bottom:1px solid #eee; margin:10px 0; border-collapse:collapse;'>"
     html += "<tr>"
     for label, val, color in cols:
         val_str = f"{val}/10" if label != "Horizon" else str(val)
-        html += f"<td style='padding: 8px 5px; text-align: center;'><span style='color:#888;'>{label}:</span> <b style='color:{color};'>{val_str}</b></td>"
+        html += f"<td style='padding: 8px; text-align: center; font-size: 12px;'><span style='color:#70757A;'>{label}:</span> <b style='color:{color};'>{val_str}</b></td>"
     html += "</tr></table>"
 
-    html += f"<p style='background: #252525; padding: 10px; border-left: 3px solid #00d1b2; margin: 10px 0;'><b>Thesis:</b> {brief.get('one_line_summary')}</p>"
+    html += f"<div style='background: #f8f9fa; padding: 10px; border-left: 4px solid #1A73E8; margin: 10px 0; color: #3C4043; font-size: 14px;'><b>Thesis:</b> {brief.get('one_line_summary')}</div>"
 
-    # If condensed, stop here
-    if condensed:
-        html += "</div>"
-        return html
-
-    # Extended content for Priority categories
-    html += f"<h4 style='color:#00d1b2; font-size: 16px; margin: 15px 0 5px 0;'>Intelligence Profile</h4>"
-    html += f"<p style='margin: 5px 0;'><b>Speaker:</b> {brief.get('speaker_context')}<br/>"
-    html += f"<b>Meta:</b> {brief.get('meta_assessment')}</p>"
+    # Full Intelligence Profile
+    html += f"<div style='color:#1A73E8; font-weight:bold; margin-top:15px; font-size: 13px; text-transform:uppercase;'>Intelligence Profile</div>"
+    html += f"<div style='margin: 5px 0; font-size: 14px; color: #3C4043;'><b>Speaker:</b> {brief.get('speaker_context')} • <b>Meta:</b> {brief.get('meta_assessment')}</div>"
 
     claims = brief.get('core_claims', [])
     if claims:
-        html += "<h4 style='color:#00d1b2; font-size: 16px; margin: 15px 0 5px 0;'>Core Claims</h4>"
-        for claim in claims[:4]: # Limit to 4 for email brevity
-            html += f"<div style='margin-bottom:8px;'>• <strong>{claim.get('claim')}</strong><br/>"
-            html += f"<span style='color: #aaa; font-size: 11px;'>{claim.get('evidence_type')} | Emp: {claim.get('empirical_strength')} | Conv: {claim.get('speaker_conviction')}</span></div>"
+        html += f"<div style='color:#1A73E8; font-weight:bold; margin-top:15px; font-size: 13px; text-transform:uppercase;'>Core Claims</div>"
+        for claim in claims[:6]:
+            html += f"<div style='margin-bottom:8px; font-size: 14px; color: #3C4043;'>• <strong>{claim.get('claim')}</strong><br/>"
+            html += f"<span style='color: #70757A; font-size: 12px;'>{claim.get('evidence_type')} | Empirical: {claim.get('empirical_strength')} | Conviction: {claim.get('speaker_conviction')}</span></div>"
 
-    html += f"<h4 style='color:#ff3860; font-size: 16px; margin: 15px 0 5px 0;'>Weak Links & Failures</h4><p style='margin: 5px 0;'>{brief.get('weak_links')}</p>"
+    html += f"<div style='color:#EA4335; font-weight:bold; margin-top:15px; font-size: 13px; text-transform:uppercase;'>Weak Links & Failures</div>"
+    html += f"<div style='margin: 5px 0; font-size: 14px; color: #3C4043;'>{brief.get('weak_links')}</div>"
     
     if features.get("specifics"):
-        html += f"<h4 style='color:#00ff00; font-size: 16px; margin: 15px 0 5px 0;'>{features['specifics']}</h4><div style='background: #000; padding: 8px; color: #00ff00; font-family: monospace; font-size: 12px;'>{brief.get('specifics_extracted')}</div>"
+        html += f"<div style='color:#34A853; font-weight:bold; margin-top:15px; font-size: 13px; text-transform:uppercase;'>{features['specifics']}</div>"
+        html += f"<pre style='background: #f1f3f4; padding: 10px; color: #202124; font-family: monospace; font-size: 12px; border-radius: 4px; border: 1px solid #ddd;'>{brief.get('specifics_extracted')}</pre>"
 
     mech = brief.get('mechanism', {})
     if mech:
-        html += f"<h4 style='color:#00d1b2; font-size: 16px; margin: 15px 0 5px 0;'>{features.get('mechanism', 'Mechanism')}</h4>"
-        html += f"<p style='margin: 5px 0; font-size: 13px;'><b>Trigger:</b> {mech.get('trigger')} → <b>Transmission:</b> {mech.get('transmission_path')} → <b>Impact:</b> {mech.get('market_impact')}</p>"
+        html += f"<div style='color:#1A73E8; font-weight:bold; margin-top:15px; font-size: 13px; text-transform:uppercase;'>{features.get('mechanism', 'Mechanism')}</div>"
+        html += f"<div style='margin: 5px 0; font-size: 14px; color: #3C4043;'><b>Trigger:</b> {mech.get('trigger')} → <b>Path:</b> {mech.get('transmission_path')} → <b>Impact:</b> {mech.get('market_impact')}</div>"
 
     cc = brief.get('counter_consensus', 'N/A')
     if isinstance(cc, list): cc = " • ".join(cc)
-    html += f"<h4 style='color:#ffdd57; font-size: 16px; margin: 15px 0 5px 0;'>Counter-Consensus View</h4><p style='margin: 5px 0; font-size: 13px;'>{cc}</p>"
+    html += f"<div style='color:#F9AB00; font-weight:bold; margin-top:15px; font-size: 13px; text-transform:uppercase;'>Counter-Consensus View</div>"
+    html += f"<div style='margin: 5px 0; font-size: 14px; color: #3C4043;'>{cc}</div>"
 
     html += "</div>"
     return html
@@ -402,23 +398,18 @@ def send_email_digest(html_content, date_str):
             host, port_str = smtp_host.split(":")
             port = int(port_str)
             
-        # Connect to server
         server = smtplib.SMTP(host, port)
         server.starttls()
         smtp_user = os.getenv("SMTP_USER", email_from)
         server.login(smtp_user, smtp_password)
         
-        # Send separate emails to each recipient for maximum reliability
         recipients = [email.strip() for email in email_to.split(",")]
         for recipient in recipients:
             msg = MIMEMultipart("alternative")
             msg["Subject"] = f"TheBrief Daily Digest - {date_str}"
             msg["From"] = email_from
             msg["To"] = recipient
-            
-            part = MIMEText(html_content, "html")
-            msg.attach(part)
-            
+            msg.attach(MIMEText(html_content, "html"))
             server.sendmail(email_from, recipient, msg.as_string())
             logger.info(f"Email digest sent successfully to {recipient}.")
             
@@ -441,28 +432,18 @@ def run_summarization():
         
     llm = get_llm()
     processed_queue = []
-    briefs_content = []
     start_time = time.time()
 
     def process_video_summary(video):
-        # Transcripts no longer required; we pass audio directly
         brief = summarize_transcript(video, llm)
         if brief:
             video["brief"] = brief
-            # Logic for condensing non-priority categories in email
-            category = video.get('category', 'Other')
-            priority_cats = ["General Financial Investing and Speculation", "Precious Metals"]
-            is_condensed = category not in priority_cats
-            
-            # Generate markdown and HTML components
             md = format_markdown(brief, video.get('url', ''), video.get('thumbnail', ''))
-            html = format_html(brief, video.get('url', ''), video.get('thumbnail', ''), condensed=is_condensed)
-            
-            logger.info(f"✅ Brief successfully generated for {video['title']} (Condensed: {is_condensed})")
-            return video, (md, html)
+            html_comp = format_html(brief, video.get('url', ''))
+            logger.info(f"✅ Brief successfully generated for {video['title']}")
+            return video, (md, html_comp)
         return None, None
 
-    # Run summarization concurrently
     from collections import defaultdict
     grouped_briefs = defaultdict(list)
     
@@ -478,8 +459,8 @@ def run_summarization():
     if not processed_queue:
         logger.warning("No briefs were successfully generated.")
         return []
-        
-    # Update processed_videos DB in the main thread to avoid concurrency issues
+
+    # Update processed_videos DB
     db_path = os.path.join("data", "processed_videos.json")
     try:
         from tinydb import TinyDB
@@ -494,23 +475,26 @@ def run_summarization():
     md_filename = os.path.join("briefs", f"{date_str}.md")
     os.makedirs("briefs", exist_ok=True)
     
-    # Calculate Aggregate Stats
     total_videos = len(processed_queue)
     total_time = sum(v.get('duration_minutes', 0) for v in processed_queue)
     
-    # Build the "At a Glance" Summary Section
+    # Header
     summary_md = f"# TheBrief Daily Dispatch - {date_str}\n\n"
     summary_md += f"### 📊 At a Glance\n"
     summary_md += f"- **Total Intelligence Assets:** {total_videos} videos\n"
     summary_md += f"- **Total Subject Time:** {total_time:.1f} minutes\n\n"
     
-    summary_html = f"<html><body style='font-family: sans-serif; color: #333;'>"
-    summary_html += f"<h1>TheBrief Daily Dispatch - {date_str}</h1>"
-    summary_html += f"<h3>📊 At a Glance</h3>"
-    summary_html += f"<ul><li><strong>Total Intelligence Assets:</strong> {total_videos} videos</li>"
-    summary_html += f"<li><strong>Total Subject Time:</strong> {total_time:.1f} minutes</li></ul>"
+    # HTML Header
+    summary_html = f"<html><body style='font-family: Arial, Helvetica, sans-serif; color: #202124; background-color: #ffffff; padding: 20px;'>"
+    summary_html += f"<h1 style='color: #202124; font-size: 24px; margin-bottom: 5px;'>TheBrief Daily Dispatch</h1>"
+    summary_html += f"<div style='color: #70757A; margin-bottom: 25px; font-size: 14px;'>Intelligence Report: {date_str}</div>"
+    
+    summary_html += f"<div style='background: #f8f9fa; padding: 20px; border-radius: 8px; border: 1px solid #ddd; margin-bottom: 30px;'>"
+    summary_html += f"<h3 style='margin-top: 0; color: #202124; font-size: 18px;'>📊 At a Glance</h3>"
+    summary_html += f"<ul style='margin-bottom: 0; font-size: 14px;'>"
+    summary_html += f"<li><strong>Total Intelligence Assets:</strong> {total_videos} videos</li>"
+    summary_html += f"<li><strong>Total Subject Time:</strong> {total_time:.1f} minutes</li></ul></div>"
 
-    # Define Category Order (Matching app.py for consistency)
     cat_order = [
         "General Financial Investing and Speculation",
         "Precious Metals",
@@ -520,37 +504,56 @@ def run_summarization():
         "Other"
     ]
     
-    # Index Section
+    # --- QUICK SCAN INDEX ---
     summary_md += "#### 📌 Quick-Scan Index\n"
-    summary_html += "<h4>📌 Quick-Scan Index</h4>"
+    summary_html += f"<h2 style='color: #202124; font-size: 20px; border-bottom: 1px solid #eee; padding-bottom: 10px; margin-bottom: 20px; font-weight: bold;'>📌 Quick-Scan Index</h2>"
     
     available_cats = sorted(grouped_briefs.keys(), key=lambda x: cat_order.index(x) if x in cat_order else 99)
     
     for cat in available_cats:
-        summary_md += f"\n<span style='color:#1c83e1; font-size: 1.2em;'><b>{cat}</b></span>\n"
-        summary_html += f"<p style='margin-bottom: 2px;'><span style='color:#1c83e1; font-size: 1.2em;'><b>{cat}</b></span></p><ul>"
+        summary_md += f"\n<span style='color:#1A73E8; font-size: 1.2em;'><b>{cat}</b></span>\n"
+        summary_html += f"<div style='margin-top: 25px; margin-bottom: 15px; color: #1A73E8; font-size: 16px; font-weight: bold;'>{cat}</div>"
+        
+        summary_html += "<table width='100%' style='border-collapse: collapse;'>"
         for v, _ in grouped_briefs[cat]:
             b = v.get('brief', {})
             summary_md += f"- **{b.get('channel')}**: [{b.get('episode_title')}]({v.get('url')}) *({b.get('duration_minutes')}m)*\n"
             summary_md += f"  > {b.get('one_line_summary')}\n"
             
-            summary_html += f"<li><strong>{b.get('channel')}</strong>: <a href='{v.get('url')}'>{b.get('episode_title')}</a> <em>({b.get('duration_minutes')}m)</em><br/>"
-            summary_html += f"<span style='font-size: 0.9em; color: #555;'>{b.get('one_line_summary')}</span></li>"
-        summary_html += "</ul>"
+            # HTML Index Row (Small Thumbnail + Strict Text Styles)
+            thumb = v.get('thumbnail', '')
+            summary_html += "<tr>"
+            if thumb:
+                summary_html += f"<td width='100' style='padding: 10px 0; vertical-align: top;'><img src='{thumb}' width='90' style='border-radius: 4px;' /></td>"
+            else:
+                summary_html += "<td width='10' style='padding: 10px 0;'></td>"
+            
+            summary_html += f"<td style='padding: 10px 10px 10px 0; vertical-align: top;'>"
+            summary_html += f"<div style='font-size: 14px; margin-bottom: 4px;'>"
+            summary_html += f"<b style='color: #202124;'>{b.get('channel')}:</b> <a href='{v.get('url')}' style='color: #1155CC; text-decoration: none;'>{b.get('episode_title')}</a> "
+            summary_html += f"<span style='color: #70757A; font-style: italic;'>({b.get('duration_minutes')}m)</span></div>"
+            summary_html += f"<div style='font-size: 13.5px; color: #3C4043; line-height: 1.4;'>{b.get('one_line_summary')}</div>"
+            summary_html += "</td></tr>"
+        summary_html += "</table>"
         
     summary_md += "\n---\n\n"
-    summary_html += "<hr/>"
+    summary_html += "<hr style='border: 0; border-top: 1px solid #eee; margin: 40px 0;' />"
 
-    # Detailed Briefs Section
+    # --- DETAILED BRIEFS SECTION (Grouped) ---
     final_md = summary_md
     final_html = summary_html
     
     for cat in available_cats:
         final_md += f"# 📁 Sector: {cat}\n\n"
-        final_html += f"<h1 style='background: #f4f4f4; padding: 10px; border-left: 5px solid #00d1b2;'>Sector: {cat}</h1>"
-        for _, (md, html) in grouped_briefs[cat]:
+        final_html += f"<h1 style='background: #1A73E8; color: white; padding: 12px; border-radius: 4px; font-size: 20px; margin-bottom: 30px; font-weight: bold;'>Sector: {cat}</h1>"
+        for _, (md, html_comp) in grouped_briefs[cat]:
             final_md += md
-            final_html += html
+            final_html += html_comp
+        
+    final_html += "</body></html>"
+    
+    with open(md_filename, "w") as f:
+        f.write(final_md)
         
     final_html += "</body></html>"
     
