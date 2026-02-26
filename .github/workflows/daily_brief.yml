@@ -29,8 +29,21 @@ jobs:
           
       - name: Run pipeline
         run: |
-          echo "Checking environment status..."
-          if [ -z "$YOUTUBE_API_KEY" ]; then echo "FATAL: YOUTUBE_API_KEY is empty in the shell environment."; exit 1; fi
+          echo "Diagnostic: Checking secret visibility..."
+          if [ -z "$YOUTUBE_API_KEY" ]; then 
+            echo "ALERT: Key missing from 'secrets'. Checking 'vars' pool..."
+            export YOUTUBE_API_KEY="${{ vars.YOUTUBE_API_KEY }}"
+            export OPENAI_API_KEY="${{ vars.OPENAI_API_KEY }}"
+            export GOOGLE_AI_API_KEY="${{ vars.GOOGLE_AI_API_KEY }}"
+          fi
+          
+          if [ -z "$YOUTUBE_API_KEY" ]; then
+            echo "FATAL: YOUTUBE_API_KEY could not be found in 'secrets' OR 'vars' pool."
+            echo "Please ensure the name is EXACTLY 'YOUTUBE_API_KEY' in GitHub Settings."
+            exit 1
+          fi
+          
+          echo "Key found! Proceeding with pipeline..."
           python3 main.py
           
       - name: Commit artifacts (Data db and Briefs)
