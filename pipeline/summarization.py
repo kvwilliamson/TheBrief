@@ -311,104 +311,75 @@ def format_markdown(brief: dict, video_url: str = "", thumbnail_url: str = "") -
     md += "---\n\n"
     return md
 
-def format_html(brief: dict, video_url: str = "", thumbnail_url: str = "") -> str:
+def format_html(brief: dict, video_url: str = "", thumbnail_url: str = "", condensed: bool = False) -> str:
     title = brief.get('episode_title', 'Unknown Title')
     category = brief.get('topic_domain', 'Other')
     profile = get_profile_for_category(category)
     features = profile.get("features", {})
     
-    html = f"<div style='border: 1px solid #333; padding: 20px; border-radius: 8px; background-color: #1a1a1a; color: #eee; margin-bottom: 30px;'>"
+    # Use a more compact container
+    html = f"<div style='border: 1px solid #333; padding: 15px; border-radius: 6px; background-color: #1a1a1a; color: #eee; margin-bottom: 20px; font-size: 14px;'>"
     
-    if video_url:
-        html += f"<h2><a href='{video_url}' style='text-decoration: none; color: #00d1b2;'>{title}</a></h2>"
-    else:
-        html += f"<h2>{title}</h2>"
+    # Title & Channel
+    title_html = f"<a href='{video_url}' style='text-decoration: none; color: #00d1b2;'>{title}</a>" if video_url else title
+    html += f"<h2 style='margin: 0 0 10px 0; font-size: 18px;'>{title_html}</h2>"
     
-    if thumbnail_url:
-        html += f"<div style='margin-bottom: 15px;'><img src='{thumbnail_url}' width='320' style='border-radius: 8px;' alt='{title}'/></div>"
-
-    # Incentive Bias Banner
+    # Note: Thumbnails removed per user request to save space in email body
+    
+    # Incentive Bias Banner (Compact)
     incentive = brief.get('executive_use_case', {}).get('incentive_bias', 'No')
     if incentive != 'No':
-        html += f"<div style='background:#ff3860; color:white; padding:15px; border-radius:5px; margin:15px 0;'>⚠️ <b>INCENTIVE BIAS FLAGGED:</b> {incentive}</div>"
+        html += f"<div style='background:#ff3860; color:white; padding:10px; border-radius:4px; margin:10px 0; font-weight:bold;'>⚠️ BIAS: {incentive}</div>"
 
-    html += f"<p style='margin-bottom: 5px;'><strong>{brief.get('channel', 'Unknown')}</strong> | <strong>Length:</strong> {brief.get('duration_minutes', 0)} min | <strong>Market Context:</strong> {brief.get('current_market_context', 'N/A')}</p>"
-    html += f"<p style='color: #888; font-size: 0.9em;'><strong>Published:</strong> {brief.get('podcast_date')} | <strong>Processed:</strong> {brief.get('processing_date')} | <strong>Shelf Life:</strong> {brief.get('shelf_life')}</p>"
+    html += f"<p style='margin: 5px 0; color: #ccc;'><strong>{brief.get('channel', 'Unknown')}</strong> | {brief.get('duration_minutes', 0)} min | {brief.get('current_market_context', 'N/A')}</p>"
     
-    # Intelligence Metrics Table (Robust for Email Clients)
-    # Determine columns
+    # Metrics Table (Ultra-Compact)
     cols = []
-    if features.get("signal_strength", True): cols.append(("Signal Force", brief.get("signal_strength"), "#00d1b2"))
+    if features.get("signal_strength", True): cols.append(("Signal", brief.get("signal_strength"), "#00d1b2"))
     if features.get("novelty"): cols.append(("Novelty", brief.get("novelty"), "#ffdd57"))
-    if features.get("tradeability"): cols.append(("Tradeability", brief.get("tradeability"), "#48c774"))
+    if features.get("tradeability"): cols.append(("Trade", brief.get("tradeability"), "#48c774"))
     cols.append(("Horizon", brief.get("time_sensitivity"), "#eee"))
     
     width_pct = 100 // len(cols) if cols else 100
-    
-    html += "<table width='100%' style='border-top: 1px solid #333; border-bottom: 1px solid #333; margin: 15px 0; border-collapse: collapse;'>"
-    html += "<tr>"
-    for label, _, _ in cols:
-        html += f"<th width='{width_pct}%' style='padding: 10px 5px 0; text-align: center; color: #888; font-size: 10px; text-transform: uppercase;'>{label}</th>"
-    html += "</tr>"
+    html += "<table width='100%' style='border-top:1px solid #333; border-bottom:1px solid #333; margin:10px 0; border-collapse:collapse; font-size: 12px;'>"
     html += "<tr>"
     for label, val, color in cols:
         val_str = f"{val}/10" if label != "Horizon" else str(val)
-        font_size = "22px" if label != "Horizon" else "16px"
-        html += f"<td style='padding: 5px 10px 15px; text-align: center; font-size: {font_size}; font-weight: bold; color: {color};'>{val_str}</td>"
-    html += "</tr>"
-    html += "</table>"
+        html += f"<td style='padding: 8px 5px; text-align: center;'><span style='color:#888;'>{label}:</span> <b style='color:{color};'>{val_str}</b></td>"
+    html += "</tr></table>"
 
-    html += f"<p style='background: #252525; padding: 10px; border-left: 4px solid #00d1b2;'><b>Thesis:</b> {brief.get('one_line_summary')}</p>"
+    html += f"<p style='background: #252525; padding: 10px; border-left: 3px solid #00d1b2; margin: 10px 0;'><b>Thesis:</b> {brief.get('one_line_summary')}</p>"
 
-    html += f"<h3>Intelligence Profile</h3>"
-    html += f"<p><b>Speaker:</b> {brief.get('speaker_context')}<br/>"
-    html += f"<b>Meta:</b> {brief.get('meta_assessment')}<br/>"
-    html += f"<b>Tone:</b> {brief.get('emotional_conviction')}</p>"
+    # If condensed, stop here
+    if condensed:
+        html += "</div>"
+        return html
+
+    # Extended content for Priority categories
+    html += f"<h4 style='color:#00d1b2; font-size: 16px; margin: 15px 0 5px 0;'>Intelligence Profile</h4>"
+    html += f"<p style='margin: 5px 0;'><b>Speaker:</b> {brief.get('speaker_context')}<br/>"
+    html += f"<b>Meta:</b> {brief.get('meta_assessment')}</p>"
 
     claims = brief.get('core_claims', [])
     if claims:
-        html += "<h3>Core Claims</h3>"
-        for claim in claims[:6]:
-            html += f"<div style='margin-bottom:10px;'><strong>{claim.get('claim')}</strong><br/>"
-            html += f"<span style='color: #aaa; font-size: 0.85em;'>Evidence: {claim.get('evidence_cited')} ({claim.get('evidence_type')} | Empirical: {claim.get('empirical_strength')} | Conviction: {claim.get('speaker_conviction')})</span></div>"
+        html += "<h4 style='color:#00d1b2; font-size: 16px; margin: 15px 0 5px 0;'>Core Claims</h4>"
+        for claim in claims[:4]: # Limit to 4 for email brevity
+            html += f"<div style='margin-bottom:8px;'>• <strong>{claim.get('claim')}</strong><br/>"
+            html += f"<span style='color: #aaa; font-size: 11px;'>{claim.get('evidence_type')} | Emp: {claim.get('empirical_strength')} | Conv: {claim.get('speaker_conviction')}</span></div>"
 
-    html += f"<h3>Weak Links & Failures</h3><p style='color: #ff3860;'>{brief.get('weak_links')}</p>"
-    html += f"<h3>Claim Plausibility</h3>"
-    plausibility = brief.get('claim_plausibility', [])
-    if isinstance(plausibility, list):
-        html += "<ul>"
-        for p in plausibility:
-            html += f"<li style='margin-bottom: 5px;'>{p}</li>"
-        html += "</ul>"
-    else:
-        html += f"<p style='background: #333; padding: 10px; border-left: 4px solid #ffdd57;'>{plausibility}</p>"
+    html += f"<h4 style='color:#ff3860; font-size: 16px; margin: 15px 0 5px 0;'>Weak Links & Failures</h4><p style='margin: 5px 0;'>{brief.get('weak_links')}</p>"
     
-    hist = brief.get('historical_parallel')
-    if hist:
-        html += f"<h3>Historical Parallel</h3><p>{hist}</p>"
-
     if features.get("specifics"):
-        html += f"<h3>{features['specifics']}</h3><pre style='background: #000; padding: 10px; color: #00ff00; font-family: monospace;'>{brief.get('specifics_extracted')}</pre>"
+        html += f"<h4 style='color:#00ff00; font-size: 16px; margin: 15px 0 5px 0;'>{features['specifics']}</h4><div style='background: #000; padding: 8px; color: #00ff00; font-family: monospace; font-size: 12px;'>{brief.get('specifics_extracted')}</div>"
 
     mech = brief.get('mechanism', {})
     if mech:
-        html += f"<h3>{features.get('mechanism', 'Mechanism')} (Logic Stress-Test)</h3><ul>"
-        html += f"<li><strong>Trigger:</strong> {mech.get('trigger')}</li>"
-        html += f"<li><strong>Transmission:</strong> {mech.get('transmission_path')}</li>"
-        html += f"<li><strong>Impact:</strong> {mech.get('market_impact')}</li>"
-        html += f"<li><strong>Secondary:</strong> {mech.get('secondary_effects')}</li></ul>"
+        html += f"<h4 style='color:#00d1b2; font-size: 16px; margin: 15px 0 5px 0;'>{features.get('mechanism', 'Mechanism')}</h4>"
+        html += f"<p style='margin: 5px 0; font-size: 13px;'><b>Trigger:</b> {mech.get('trigger')} → <b>Transmission:</b> {mech.get('transmission_path')} → <b>Impact:</b> {mech.get('market_impact')}</p>"
 
     cc = brief.get('counter_consensus', 'N/A')
-    if isinstance(cc, list): cc = "<br/>".join([f"• {i}" for i in cc])
-    html += f"<h3>Counter-Consensus</h3><p>{cc}</p>"
-
-    if features.get("signals"):
-        signals = brief.get('disconfirming_signals', [])
-        if signals:
-            html += "<h3>Disconfirming Signals</h3><ul>"
-            for sig in signals[:3]:
-                html += f"<li>{sig}</li>"
-            html += "</ul>"
+    if isinstance(cc, list): cc = " • ".join(cc)
+    html += f"<h4 style='color:#ffdd57; font-size: 16px; margin: 15px 0 5px 0;'>Counter-Consensus View</h4><p style='margin: 5px 0; font-size: 13px;'>{cc}</p>"
 
     html += "</div>"
     return html
@@ -478,13 +449,16 @@ def run_summarization():
         brief = summarize_transcript(video, llm)
         if brief:
             video["brief"] = brief
-            # Generate markdown and HTML components
-            # Generate markdown and HTML components with URL
-            # Generate markdown and HTML components with URL and Thumbnail
-            md = format_markdown(brief, video.get('url', ''), video.get('thumbnail', ''))
-            html = format_html(brief, video.get('url', ''), video.get('thumbnail', ''))
+            # Logic for condensing non-priority categories in email
+            category = video.get('category', 'Other')
+            priority_cats = ["General Financial Investing and Speculation", "Precious Metals"]
+            is_condensed = category not in priority_cats
             
-            logger.info(f"✅ Brief successfully generated for {video['title']}")
+            # Generate markdown and HTML components
+            md = format_markdown(brief, video.get('url', ''), video.get('thumbnail', ''))
+            html = format_html(brief, video.get('url', ''), video.get('thumbnail', ''), condensed=is_condensed)
+            
+            logger.info(f"✅ Brief successfully generated for {video['title']} (Condensed: {is_condensed})")
             return video, (md, html)
         return None, None
 
