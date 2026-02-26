@@ -4,12 +4,11 @@ on:
     - cron: '0 6 * * *'  # Run every day at 6:00 AM UTC
   workflow_dispatch:     # Allow manual trigger from GitHub UI
 
-permissions:
-  contents: write
-
 jobs:
   run-pipeline:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
       - uses: actions/checkout@v4
       
@@ -26,7 +25,7 @@ jobs:
           pip install -r requirements.txt
           
       - name: Run pipeline
-        run: python main.py
+        run: python3 main.py
         env:
           YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}

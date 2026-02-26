@@ -39,9 +39,14 @@ def main():
     load_dotenv()
     
     # Verify core API keys
-    if not os.getenv("YOUTUBE_API_KEY"):
+    yt_key = os.getenv("YOUTUBE_API_KEY")
+    if not yt_key:
         logging.error("CRITICAL: YOUTUBE_API_KEY is missing!")
+        # Debug: check if any env vars are present
+        logging.info(f"Environment keys: {list(os.environ.keys())}")
         return
+    else:
+        logging.info(f"YOUTUBE_API_KEY found (length: {len(yt_key)})")
         
     if not os.getenv("GOOGLE_AI_API_KEY") and not os.getenv("OPENAI_API_KEY"):
         logging.error("CRITICAL: Neither GOOGLE_AI_API_KEY nor OPENAI_API_KEY found!")
