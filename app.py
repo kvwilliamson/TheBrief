@@ -16,27 +16,23 @@ from googleapiclient.discovery import build
 st.set_page_config(page_title="TheBrief Dashboard", page_icon="🎙️", layout="wide")
 load_dotenv()
 
-DEFAULT_CATEGORIES = [
-    "General Financial Investing and Speculation",
-    "Precious Metals",
-    "Artificial Intelligence",
-    "Health and Nutrition",
-    "Philosophy and Thoughtfulness",
-    "Other"
-]
-
 def get_all_categories():
-    """Returns dynamic list of categories: Defaults + any custom ones found in channels."""
-    cats = DEFAULT_CATEGORIES.copy()
+    """Returns dynamic list of categories derived from your sources + necessary system defaults."""
     current_channels = st.session_state.get('channels', [])
+    found_cats = set()
     for c in current_channels:
-        cat = c.get("category")
-        if cat and cat not in cats:
-            # Insert before "Other" if possible
-            if "Other" in cats:
-                cats.insert(cats.index("Other"), cat)
-            else:
-                cats.append(cat)
+        if c.get("category"):
+            found_cats.add(c.get("category"))
+    
+    # Base list: Start with found categories, ensure 'Other' is always an option
+    cats = sorted(list(found_cats))
+    if "Other" not in cats:
+        cats.append("Other")
+    
+    # If starting fresh (no channels), provides a sensible starting point
+    if not found_cats and not current_channels:
+        return ["Artificial Intelligence", "Finance", "Precious Metals", "Other"]
+        
     return cats
 
 # --- Utility Functions ---

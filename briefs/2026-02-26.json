@@ -1,0 +1,1790 @@
+[
+  {
+    "episode_title": "Tech Sector Collapse? Why AI Is Crashing Stocks And What's Next | Bob Elliott",
+    "channel": "David Lin",
+    "duration_minutes": 54,
+    "topic_domain": "General Financial Investing and Speculation",
+    "podcast_date": "Unknown",
+    "processing_date": "2026-02-26",
+    "shelf_life": "Medium (weeks-months)",
+    "current_market_context": "Current market conditions show volatility driven by inflation fears and geopolitical instability, influencing asset allocation strategies.",
+    "executive_use_case": {
+      "signal_type": "Mixed",
+      "positioning_impact": "Monitor",
+      "time_horizon": "Cyclical",
+      "confidence_level": "Moderate",
+      "incentive_bias": "No",
+      "consensus_context": "Mixed; elements are mainstream, but specific AI impact analysis is still evolving."
+    },
+    "core_claims": [
+      {
+        "claim": "AI advancements will redistribute profits from software companies to real economy businesses, benefiting the latter.",
+        "evidence_cited": "The ability of real economy companies to create their own software using AI agents.",
+        "evidence_type": "Assumed",
+        "empirical_strength": "Low",
+        "speaker_conviction": "Moderate"
+      },
+      {
+        "claim": "Software companies may face disruption and cannibalization due to AI agents replacing legacy tools.",
+        "evidence_cited": "Silicon Valley startups producing AI agents.",
+        "evidence_type": "Anecdotal",
+        "empirical_strength": "Low",
+        "speaker_conviction": "Moderate"
+      },
+      {
+        "claim": "The dollar remains elevated, even after recent declines, and is poised for further depreciation as institutions diversify into foreign markets.",
+        "evidence_cited": "De-dollarization trend by institutional investors.",
+        "evidence_type": "Assumed",
+        "empirical_strength": "Moderate",
+        "speaker_conviction": "High"
+      },
+      {
+        "claim": "Gold remains a favorable investment due to geopolitical tensions, normalized flows, and strategic underweighting in most portfolios.",
+        "evidence_cited": "Normalization of flows and underweighting in portfolios.",
+        "evidence_type": "Data-backed",
+        "empirical_strength": "Moderate",
+        "speaker_conviction": "High"
+      },
+      {
+        "claim": "Investors are strategically underweight war-related assets, which typically outperform during conflicts; recommends overweighting gold and commodities.",
+        "evidence_cited": "Historical performance of gold and commodities during conflicts.",
+        "evidence_type": "Historical reference",
+        "empirical_strength": "Moderate",
+        "speaker_conviction": "Moderate"
+      },
+      {
+        "claim": "Traditional 60/40 portfolios are underperforming, suggesting a need for globally diversified strategies including foreign stocks, emerging markets, and commodities.",
+        "evidence_cited": "Year-to-date performance data.",
+        "evidence_type": "Data-backed",
+        "empirical_strength": "Moderate",
+        "speaker_conviction": "Moderate"
+      }
+    ],
+    "specifics_extracted": "No explicit specifics mentioned.",
+    "weak_links": "The argument that real economy businesses will inevitably benefit more from AI assumes that they can effectively integrate and manage AI tools, and that new models don't become SaaS providers themselves.",
+    "counter_consensus": "- Mainstream view assumes software companies will successfully integrate AI, maintaining their dominance.\n- Some analysts believe AI will lead to productivity gains across all sectors, benefiting both software and real economy companies.\n- Many believe in continued US market exceptionalism and dominance.",
+    "meta_assessment": "- The discussion emphasizes a shift in market dynamics due to AI and global economic factors.\n- Framing focuses on identifying undervalued sectors and strategic asset allocation.\n- Conviction is moderate, with emphasis on data-driven analysis.",
+    "mechanism": {
+      "trigger": "Advancements in AI and geopolitical tensions.",
+      "transmission_path": "AI increases productivity, redistributes profits; geopolitical tensions drive safe-haven demand; institutional shifts impact currency valuations.",
+      "market_impact": "Rotation from software to real economy; dollar depreciation; gold and commodity price appreciation; diversification into foreign assets.",
+      "secondary_effects": "Potential for increased unemployment in specific sectors due to AI automation."
+    },
+    "disconfirming_signals": [
+      "Continued dominance of US tech companies.",
+      "Unexpected strength in the US dollar.",
+      "Resolution of geopolitical tensions."
+    ],
+    "historical_parallel": "The shift from mainframe to PC computing, where established companies like IBM faced disruption from new entrants.",
+    "one_line_summary": "AI advancements and geopolitical instability are driving a shift in investment strategies, favoring real economy businesses, gold, commodities, and globally diversified portfolios over traditional software and US-centric assets.",
+    "emotional_conviction": "Speakers convey a rational, data-driven perspective with moderate conviction, emphasizing strategic adaptation to evolving market conditions.",
+    "signal_strength": 7,
+    "signal_strength_justification": "The signal has moderate structural magnitude and duration due to AI's ongoing impact, but probability is somewhat uncertain.",
+    "novelty": 6,
+    "novelty_justification": "The idea is relatively novel in its specific AI and profit-redistribution context, but builds on existing diversification themes.",
+    "tradeability": 6,
+    "tradeability_justification": "Time clarity is moderate, entry points are identifiable, but catalyst visibility varies across assets.",
+    "time_sensitivity": "Monitor",
+    "speaker_context": "Bob Elliott is the founder of Unlimited, previously an executive at Bridgewater. He brings a macro-focused perspective.",
+    "claim_plausibility": [
+      "ASSERTED",
+      "ASSERTED",
+      "ASSERTED",
+      "ASSERTED",
+      "ASSERTED",
+      "ASSERTED"
+    ],
+    "positioning_risk": "Exposure to value traps; currency fluctuations; geopolitical tail risk.",
+    "thumbnail": "https://i.ytimg.com/vi/Xzgrx8ssPkM/hqdefault.jpg",
+    "video_url": "https://www.youtube.com/watch?v=Xzgrx8ssPkM",
+    "category_official": "General Financial Investing and Speculation"
+  },
+  {
+    "episode_title": "How to protect your investment portfolio against a stock market crash",
+    "channel": "Clive Thompson",
+    "duration_minutes": 20,
+    "topic_domain": "General Financial Investing and Speculation",
+    "podcast_date": "Unknown",
+    "processing_date": "2026-02-26",
+    "shelf_life": "Medium (weeks-months)",
+    "current_market_context": "Processing during hypothetical 2026, assuming ongoing market dynamics.",
+    "executive_use_case": {
+      "signal_type": "Thesis",
+      "positioning_impact": "Monitor",
+      "time_horizon": "Cyclical",
+      "confidence_level": "Moderate",
+      "incentive_bias": "No. The speaker appears to be providing general advice.",
+      "consensus_context": "Widely discussed concern."
+    },
+    "core_claims": [
+      {
+        "claim": "Rarely are bearish predictions correct, despite frequent crash forecasts.",
+        "evidence_cited": "Speaker's 50 years of investment experience, observing few actual crashes against many predictions.",
+        "evidence_type": "Anecdotal",
+        "empirical_strength": "Low",
+        "speaker_conviction": "High"
+      },
+      {
+        "claim": "Selling all equity holdings and moving entirely into cash is not recommended due to cash being a depreciating asset.",
+        "evidence_cited": "Cash loses value over time due to inflation.",
+        "evidence_type": "Assumed",
+        "empirical_strength": "Moderate",
+        "speaker_conviction": "High"
+      },
+      {
+        "claim": "Sector rotation can mitigate risk by moving investments from volatile sectors (e.g., technology) to more stable sectors (e.g., utilities, consumer durables).",
+        "evidence_cited": "Historical performance of different sectors during market downturns.",
+        "evidence_type": "Historical reference",
+        "empirical_strength": "Moderate",
+        "speaker_conviction": "Moderate"
+      },
+      {
+        "claim": "Buying put options provides portfolio protection, offering the right but not the obligation to sell shares at a specific price.",
+        "evidence_cited": "Explanation of how put options function and their potential payoff.",
+        "evidence_type": "Assumed",
+        "empirical_strength": "Low",
+        "speaker_conviction": "Moderate"
+      },
+      {
+        "claim": "Selling futures to protect against market decline is not recommended for retail investors due to the potential for unlimited losses.",
+        "evidence_cited": "The mechanics of futures contracts and the margin requirements.",
+        "evidence_type": "Assumed",
+        "empirical_strength": "Low",
+        "speaker_conviction": "High"
+      }
+    ],
+    "specifics_extracted": "Nvidia shares at $200, potential crash to $150 or $100",
+    "weak_links": "Effectiveness of sector rotation depends on the specific sectors chosen and their correlation during a crash. Put options require timing and strike price accuracy.",
+    "counter_consensus": "*   Mainstream financial advice often includes diversification across asset classes rather than solely within equities.\n*   Some strategies advocate for maintaining a fully invested portfolio, arguing that timing the market is futile.\n*   Passive investing strategies may outperform actively managed approaches during market volatility.",
+    "meta_assessment": "*   Focus on risk mitigation strategies.\n*   Advice tailored to those concerned about potential market downturns.\n*   Emphasizes caution, particularly regarding complex instruments like futures.",
+    "mechanism": {
+      "trigger": "Fear of a stock market crash or decline",
+      "transmission_path": "Investor sentiment shifts from high-growth equities to defensive positions, or hedging strategies are employed.",
+      "market_impact": "Reduced exposure to equities, potentially dampening market volatility or limiting upside.",
+      "secondary_effects": "Increased demand for safer assets, potentially leading to lower returns in those assets; incorrect timing could lead to missed opportunities."
+    },
+    "disconfirming_signals": [
+      "Continued market growth despite bearish forecasts.",
+      "Outperformance of high-growth stocks compared to defensive sectors.",
+      "Decreasing volatility in equity markets."
+    ],
+    "historical_parallel": "The Dot-com bubble burst (2000-2002) or the Financial Crisis of 2008, where investors sought safety in less volatile assets.",
+    "one_line_summary": "Strategies to protect an investment portfolio against stock market decline include partial selling, sector rotation, and put options, while cautioning against futures for retail investors.",
+    "emotional_conviction": "The speaker conveys a calm, experienced perspective, advising caution and risk management without expressing extreme alarm.",
+    "signal_strength": 6,
+    "signal_strength_justification": "Signal strength is moderate, driven by the speaker's experience and probability of downturns, tempered by the limited duration of predictive accuracy.",
+    "novelty": 3,
+    "novelty_justification": "The content is low novelty as it involves conventional strategies.",
+    "tradeability": 5,
+    "tradeability_justification": "Tradeability is average, dependent on market timing and clarity of entry/exit points.",
+    "time_sensitivity": "Monitor",
+    "speaker_context": "Speaker presents himself as an experienced investor (50 years) without disclosing any specific financial interests related to the discussed strategies.",
+    "claim_plausibility": [
+      "ASSERTED",
+      "ASSERTED",
+      "INFERRED",
+      "ASSERTED",
+      "ASSERTED"
+    ],
+    "positioning_risk": "Risk of underperforming the market if protective measures are implemented prematurely or excessively.",
+    "thumbnail": "https://i.ytimg.com/vi/N9tNT_r34mk/hqdefault.jpg",
+    "video_url": "https://www.youtube.com/watch?v=N9tNT_r34mk",
+    "category_official": "General Financial Investing and Speculation"
+  },
+  {
+    "episode_title": "Banks Are Squeezing The Physical Gold Supply: Daniel Oliver Explains Phase Two Volatility",
+    "channel": "Kitco NEWS",
+    "duration_minutes": 58,
+    "topic_domain": "General Financial Investing and Speculation",
+    "podcast_date": "2026-02-26",
+    "processing_date": "2026-02-26",
+    "shelf_life": "Medium (weeks-months)",
+    "current_market_context": "Gold prices are currently trading tightly, while silver holds its ground. Broader economic concerns, like sovereign debt and US credit system stress, drive interest in precious metals as safe-haven assets.",
+    "executive_use_case": {
+      "signal_type": "Thesis",
+      "positioning_impact": "Minor Bias",
+      "time_horizon": "Cyclical",
+      "confidence_level": "Moderate",
+      "incentive_bias": "Yes, as a founder of Myrmikan Capital, Daniel Oliver likely benefits from increased interest in precious metals.",
+      "consensus_context": "Fringe"
+    },
+    "core_claims": [
+      {
+        "claim": "The smooth international accumulation phase of the gold bull market is over, and a more volatile period driven by US credit stress and private equity pressure is beginning.",
+        "evidence_cited": "Argument based on observation of market dynamics.",
+        "evidence_type": "Assumed",
+        "empirical_strength": "Low",
+        "speaker_conviction": "High"
+      },
+      {
+        "claim": "Sovereign banks are buying gold to protect their country's surpluses, regardless of daily price action.",
+        "evidence_cited": "Gold market reacted positively after the Biden administration's actions against Russia.",
+        "evidence_type": "Data-backed",
+        "empirical_strength": "Moderate",
+        "speaker_conviction": "High"
+      },
+      {
+        "claim": "Gold is the right benchmark to measure wealth today, not traditional metrics like the CPI.",
+        "evidence_cited": "Gold continues to fulfill its function as capital over thousands of years, unlike currencies affected by credit bubbles.",
+        "evidence_type": "Historical reference",
+        "empirical_strength": "Moderate",
+        "speaker_conviction": "High"
+      },
+      {
+        "claim": "Private equity firms' over-leveraged positions will lead to losses as interest rates rise.",
+        "evidence_cited": "The PE industry by its nature borrows lots of money to buy companies and restructure cash flow.",
+        "evidence_type": "Assumed",
+        "empirical_strength": "Moderate",
+        "speaker_conviction": "High"
+      },
+      {
+        "claim": "Central banks are trapped and will print money to bail out their friends in the PE industry, increasing the gold price in dollar terms.",
+        "evidence_cited": "Comments by Kevin Warsh, a former Fed designate, suggest that the Fed will lower interest rates and the balance sheet, while the Fed has started to increase its balance sheet.",
+        "evidence_type": "Assumed",
+        "empirical_strength": "Low",
+        "speaker_conviction": "Moderate"
+      },
+      {
+        "claim": "In a crisis, the government could close the Federal Reserve and return to a gold-backed system to resolve sovereign debt.",
+        "evidence_cited": "Trump is a master of defaulting in debt and would be the ultimate way to have a jubilee.",
+        "evidence_type": "Anecdotal",
+        "empirical_strength": "Low",
+        "speaker_conviction": "Moderate"
+      }
+    ],
+    "specifics_extracted": "1. $5200 range for gold.\n2. $90 for silver.\n3. $12,000 gold.",
+    "weak_links": "The thesis relies on the assumption that central banks will be unable to manage inflation and credit risks effectively, leading to a loss of confidence in fiat currencies and a rush to gold.",
+    "counter_consensus": "- Central banks are seen as largely independent and capable of managing inflation through conventional monetary policy tools.\n- Sovereign debt is considered manageable through fiscal policy adjustments and economic growth.\n- Digital currencies will provide a viable alternative to gold.",
+    "meta_assessment": "- The speaker presents a bullish outlook for gold, driven by concerns about sovereign debt and credit risks.\n- The framing emphasizes a shift away from traditional financial metrics and a return to gold as a store of value.\n- The tone is confident, presenting a clear and actionable investment thesis.",
+    "mechanism": {
+      "trigger": "Sovereign debt crisis / loss of faith in US dollar",
+      "transmission_path": "Countries seek alternative reserves -> Increased gold demand -> Reduced gold supply, and subsequent price increase.",
+      "market_impact": "Increased gold price.",
+      "secondary_effects": "Reduced confidence in fiat currencies."
+    },
+    "disconfirming_signals": [
+      "Successful management of inflation by central banks.",
+      "Effective fiscal policy reduces sovereign debt.",
+      "Broader adoption and stabilization of cryptocurrencies as alternative assets."
+    ],
+    "historical_parallel": "The speaker draws parallels to historical periods of credit bubbles and currency crises, suggesting that gold tends to appreciate during such times.",
+    "one_line_summary": "Growing sovereign debt problems and stress in the US credit system will drive a more volatile phase in the gold bull market, leading to significantly higher prices as central banks struggle to maintain control.",
+    "emotional_conviction": "The speaker conveys a strong conviction in the value of gold as a hedge against economic uncertainty and monetary mismanagement.",
+    "signal_strength": 7,
+    "signal_strength_justification": "The signal has structural magnitude and a reasonable probability, but its duration is dependent on external factors, affecting the overall score.",
+    "novelty": 6,
+    "novelty_justification": "The analysis provides a new perspective by linking sovereign debt, credit stress, and PE issues to gold's performance, though gold's role as a safe haven is well-known.",
+    "tradeability": 5,
+    "tradeability_justification": "Time sensitivity is unclear, though entry clarity and catalyst visibility are present, resulting in a moderate tradeability score.",
+    "time_sensitivity": "Monitor",
+    "speaker_context": "Daniel Oliver is the founder of Myrmikan Capital. His analysis focuses on monetary history and macro liquidity.",
+    "claim_plausibility": [
+      "ASSERTED",
+      "ASSERTED",
+      "INFERRED",
+      "ASSERTED",
+      "INFERRED",
+      "HEADLINE RISK"
+    ],
+    "positioning_risk": "Exposure to gold and gold miners may underperform in a risk-on environment where economic growth is strong, and inflation is stable.",
+    "thumbnail": "https://i.ytimg.com/vi/LSLSIkEg7XU/hqdefault.jpg",
+    "video_url": "https://www.youtube.com/watch?v=LSLSIkEg7XU",
+    "category_official": "General Financial Investing and Speculation"
+  },
+  {
+    "episode_title": "NVIDIA WARNING: Why Great Earnings Could Trigger a Bear Market \ud83d\udca8",
+    "channel": "Verified Investing",
+    "duration_minutes": 36,
+    "topic_domain": "General Financial Investing and Speculation",
+    "podcast_date": "2026-02-26",
+    "processing_date": "2026-02-26",
+    "shelf_life": "Short (days-weeks)",
+    "current_market_context": "The S&P 500 is showing minimal gains, and the market is closely following NVIDIA's price action following its earnings report.",
+    "executive_use_case": {
+      "signal_type": "Mixed",
+      "positioning_impact": "Monitor",
+      "time_horizon": "Short-term",
+      "confidence_level": "Moderate",
+      "incentive_bias": "No",
+      "consensus_context": "Mixed, blending mainstream economic analysis with contrarian technical perspectives."
+    },
+    "core_claims": [
+      {
+        "claim": "Low jobless claims suggest a stable, albeit not robust, labor market.",
+        "evidence_cited": "Initial jobless claims came in at 212,000, slightly better than estimates of 217,000.",
+        "evidence_type": "Data-backed",
+        "empirical_strength": "Moderate",
+        "speaker_conviction": "Moderate"
+      },
+      {
+        "claim": "The S&P 500 is forming a rounded top, indicating potential distribution into retail buying.",
+        "evidence_cited": "Chart analysis showing a parallel line dating back to 2020 marking lows and bull market highs, forming a rounded top after tagging a high.",
+        "evidence_type": "Technical Analysis",
+        "empirical_strength": "Moderate",
+        "speaker_conviction": "High"
+      },
+      {
+        "claim": "NVIDIA's weak price reaction to strong earnings is a potential bear market signal.",
+        "evidence_cited": "NVIDIA barely getting a bid despite great earnings and guidance, trading fractionally higher and even going below 97.",
+        "evidence_type": "Anecdotal",
+        "empirical_strength": "Moderate",
+        "speaker_conviction": "High"
+      },
+      {
+        "claim": "The Trade Desk (TTD) presents a potential swing trade opportunity due to being beaten down despite better than feared earnings.",
+        "evidence_cited": "TTD beat earnings and revenue, guidance was weak, and the daily chart shows a significant drop from 140 dollars to 21.55 dollars.",
+        "evidence_type": "Data-backed",
+        "empirical_strength": "Moderate",
+        "speaker_conviction": "Moderate"
+      },
+      {
+        "claim": "Lumentum (Lumentum) shows a strong topping tail, indicating potential reversal.",
+        "evidence_cited": "Lumentum displayed a strong topping tail and is up a little due to Nvidia.",
+        "evidence_type": "Technical Analysis",
+        "empirical_strength": "Moderate",
+        "speaker_conviction": "High"
+      },
+      {
+        "claim": "Bitcoin needs to consolidate before the next breakout above 69,000, with an upside target of 80,000 to 85,000.",
+        "evidence_cited": "Bitcoin needs to consolidate and then we look for the next breakout here. Breakout right now would be basically above 69000.",
+        "evidence_type": "Technical Analysis",
+        "empirical_strength": "Moderate",
+        "speaker_conviction": "Moderate"
+      }
+    ],
+    "specifics_extracted": "212,000\n217,000\n7100\n200, 202\n97\n118, 117\n18, 15\n30 to 35\n11.8\n69,000\n80,000 to 85,000\n50%\n75%\n500\n60 to 61",
+    "weak_links": "Reliance on technical analysis without fundamental considerations may overlook key market drivers. The generalization of weak reactions to earnings as a universal 'bear market signal' could be an oversimplification.",
+    "counter_consensus": "- Mainstream views might attribute market behavior to macroeconomic factors beyond single stock performance.\n- Institutional analysis could emphasize long-term growth potential, discounting short-term price reactions.",
+    "meta_assessment": "- Heavy reliance on technical analysis and chart patterns.\n- High conviction in bearish signals derived from market reactions to earnings.\n- Emphasis on probability and risk management.",
+    "mechanism": {
+      "trigger": "NVIDIA's lackluster price action following strong earnings.",
+      "transmission_path": "Investor psychology shifts negatively, institutions use retail enthusiasm as exit liquidity.",
+      "market_impact": "Potential broader market downturn as NVIDIA's performance is seen as a bellwether.",
+      "secondary_effects": "Increased market volatility, short squeezes, and a reassessment of growth stock valuations."
+    },
+    "disconfirming_signals": [
+      "S&P 500 breaking above the epic wall trendline, invalidating the rounded top formation.",
+      "NVIDIA showing sustained price strength above key resistance levels, confirming bullish momentum.",
+      "Broader economic data improving, countering the bear market narrative."
+    ],
+    "historical_parallel": "The speaker alludes to past instances where a stock's failure to rally on good news signaled broader market weakness.",
+    "one_line_summary": "NVIDIA's underwhelming market response to excellent earnings, coupled with technical indicators, suggests a potential market downturn.",
+    "emotional_conviction": "The speaker conveys a confident but cautious tone, highlighting potential risks while emphasizing the importance of disciplined trading strategies and risk management.",
+    "signal_strength": 7,
+    "signal_strength_justification": "The signal possesses structural magnitude through the market's reliance on Nvidia, medium duration given the short-term focus, and moderate probability based on technical analysis, resulting in a 7.",
+    "novelty": 5,
+    "novelty_justification": "The analysis combines technical patterns with market psychology, exhibiting moderate novelty by integrating sentiment with traditional methods, resulting in a 5.",
+    "tradeability": 6,
+    "tradeability_justification": "Time clarity is short-term, entry clarity is moderately defined by price levels, and catalyst visibility is tied to earnings reactions, resulting in a 6.",
+    "time_sensitivity": "Immediate",
+    "speaker_context": "Gareth Soloway presents himself as a technical analysis expert who transitioned from a 'losing trader' to a 'multimillionaire' using technical analysis.",
+    "claim_plausibility": [
+      "ASSERTED",
+      "ASSERTED",
+      "ASSERTED",
+      "ASSERTED",
+      "ASSERTED",
+      "ASSERTED"
+    ],
+    "positioning_risk": "Short positions carry the risk of significant losses if the market moves against the bearish thesis. A long position in TTD also carries risks, depending on entry points and stop losses.",
+    "thumbnail": "https://i.ytimg.com/vi/kvz7L_k3ESY/hqdefault.jpg",
+    "video_url": "https://www.youtube.com/watch?v=kvz7L_k3ESY",
+    "category_official": "General Financial Investing and Speculation"
+  },
+  {
+    "episode_title": "Assets That Will 'Go Berserk' Once Iran Conflict Ignites | Jeff Clark",
+    "channel": "David Lin",
+    "duration_minutes": 54,
+    "topic_domain": "General Financial Investing and Speculation",
+    "podcast_date": "Unknown",
+    "processing_date": "2026-02-26",
+    "shelf_life": "Medium (weeks-months)",
+    "current_market_context": "The market is volatile, with gold experiencing significant daily price swings and uncertainty regarding its floor and ceiling.",
+    "executive_use_case": {
+      "signal_type": "Speculative",
+      "positioning_impact": "Monitor",
+      "time_horizon": "Short-term",
+      "confidence_level": "Moderate",
+      "incentive_bias": "Yes, Mild: Jeff Clark runs goldadvisor.com, suggesting an incentive to promote precious metals.",
+      "consensus_context": "Mixed"
+    },
+    "core_claims": [
+      {
+        "claim": "Gold is relatively unchanged relative to the NASDAQ, suggesting a potential rotation into the gold sector.",
+        "evidence_cited": "Comparison of gold's performance against the NASDAQ over time.",
+        "evidence_type": "Assumed",
+        "empirical_strength": "Moderate",
+        "speaker_conviction": "Moderate"
+      },
+      {
+        "claim": "A total wipeout waterfall crash in the entire sector would be a signal to start looking for an entry point.",
+        "evidence_cited": "Market crash as a potential entry point.",
+        "evidence_type": "Assumed",
+        "empirical_strength": "Low",
+        "speaker_conviction": "Moderate"
+      },
+      {
+        "claim": "A kinetic war between the US and Iran would cause commodities to 'go berserk,' with gold likely to rise substantially.",
+        "evidence_cited": "Geopolitical tensions in the Middle East and potential military conflict.",
+        "evidence_type": "Assumed",
+        "empirical_strength": "Low",
+        "speaker_conviction": "High"
+      },
+      {
+        "claim": "The debt load has not impacted gold yet, waiting for something breaks down.",
+        "evidence_cited": "Dollar's gotten weaker, but the debt continues to rise.",
+        "evidence_type": "Assumed",
+        "empirical_strength": "Low",
+        "speaker_conviction": "Low"
+      },
+      {
+        "claim": "Miners currently are going to have expanded margins due to cost rising, but gold price going higher",
+        "evidence_cited": "Gold up from $4500 to $5000 a week ago.",
+        "evidence_type": "Inferred",
+        "empirical_strength": "Low",
+        "speaker_conviction": "Moderate"
+      },
+      {
+        "claim": "Companies are going to pull back and instead of rushing into production to see how big the opportunity is, I like that strategy best.",
+        "evidence_cited": "This prevents the labeling of smaller assets.",
+        "evidence_type": "Anecdotal",
+        "empirical_strength": "Low",
+        "speaker_conviction": "High"
+      }
+    ],
+    "specifics_extracted": "Gold to NASDAQ ratio peaked back then at 0.8\n20% of the portfolio in gold\n$3000 gold, $13 silver, 120-125 silver to gold ratio",
+    "weak_links": "The prediction of a conflict with Iran is highly speculative.  The rotation from mainstream assets into gold depends on external economic factors.  Reliance on historical patterns may not apply to current market conditions.",
+    "counter_consensus": "- Mainstream view: Gold's price is unsustainable and due for a correction.\n- Institutional view: Focus on traditional asset classes like stocks and bonds for long-term growth.\n- Broad Market: Current volatility is a short-term anomaly.",
+    "meta_assessment": "- Clark frames his analysis within a macro perspective, focusing on geopolitical and economic drivers.\n- High conviction tempered by historical analysis of gold's performance.\n- Framing pattern: 'What If' scenario planning.",
+    "mechanism": {
+      "trigger": "Geopolitical conflict in the Middle East escalates, triggering safe-haven buying.",
+      "transmission_path": "Investors seek refuge in gold, driving up prices. The rising gold price increases profitability for mining companies, attracting further investment in the sector.",
+      "market_impact": "A surge in precious metals prices.",
+      "secondary_effects": "Broader shifts in investor sentiment away from equities and towards commodities, potential currency fluctuations."
+    },
+    "disconfirming_signals": [
+      "De-escalation of tensions in the Middle East.",
+      "A significant and sustained correction in gold prices.",
+      "Continued strength in equity markets."
+    ],
+    "historical_parallel": "The 1970s bull market in gold, characterized by high inflation, geopolitical instability, and a shift away from fiat currencies.",
+    "one_line_summary": "Geopolitical instability, particularly conflict with Iran, will drive precious metal assets significantly higher, but an investor must still choose best of breed.",
+    "emotional_conviction": "The speaker expresses strong confidence in the long-term prospects of gold, emphasizing the importance of strategic preparedness and risk management.",
+    "signal_strength": 7,
+    "signal_strength_justification": "Moderate structural magnitude driven by a potential geopolitical event, a short-term duration until a resolution is reached, and moderate probability.",
+    "novelty": 5,
+    "novelty_justification": "The general thesis isn't new, but the emphasis on specific triggers and asset rotation provides some marginal differentiation.",
+    "tradeability": 6,
+    "tradeability_justification": "Clear catalyst (Middle East conflict) combined with entry and time clarity makes this thesis moderately tradeable.",
+    "time_sensitivity": "Monitor",
+    "speaker_context": "Jeff Clark is the founder of goldadvisor.com. Doug Casey was a mentor. The speaker highlights long-term portfolio gains during the 2020 COVID crash.",
+    "claim_plausibility": [
+      "INFERRED",
+      "ASSERTED",
+      "ASSERTED",
+      "INFERRED",
+      "ASSERTED",
+      "ASSERTED"
+    ],
+    "positioning_risk": "Downside risk if geopolitical tensions ease and gold prices fall. Illiquidity of junior mining stocks.  Opportunity costs if gold underperforms.",
+    "thumbnail": "https://i.ytimg.com/vi/7-n4a0OzRfg/hqdefault.jpg",
+    "video_url": "https://www.youtube.com/watch?v=7-n4a0OzRfg",
+    "category_official": "General Financial Investing and Speculation"
+  },
+  {
+    "episode_title": "NVDA Earnings Reaction: Support & Resistance Levels That Could Move This Market",
+    "channel": "Verified Investing",
+    "duration_minutes": 18,
+    "topic_domain": "General Financial Investing and Speculation",
+    "podcast_date": "2026-02-26",
+    "processing_date": "2026-02-26",
+    "shelf_life": "Short (days-weeks)",
+    "current_market_context": "The market is reacting to recent earnings reports and analyzing potential support and resistance levels.",
+    "executive_use_case": {
+      "signal_type": "Data-driven",
+      "positioning_impact": "Monitor",
+      "time_horizon": "Short-term",
+      "confidence_level": "Moderate",
+      "incentive_bias": "No",
+      "consensus_context": "Widely discussed"
+    },
+    "core_claims": [
+      {
+        "claim": "Nvidia's potential to 'rip higher' and reach all-time highs if it surges past resistance levels.",
+        "evidence_cited": "Nvidia's reaction to earnings, trading levels.",
+        "evidence_type": "Data-backed",
+        "empirical_strength": "Moderate",
+        "speaker_conviction": "Moderate"
+      },
+      {
+        "claim": "Failure of the support level for Nvidia could lead to a market downturn.",
+        "evidence_cited": "General market correlation with Nvidia's performance.",
+        "evidence_type": "Assumed",
+        "empirical_strength": "Low",
+        "speaker_conviction": "Moderate"
+      },
+      {
+        "claim": "Oracle's shortable level is around $156.54, with a stop-loss above this level based on a 15-minute closing basis.",
+        "evidence_cited": "Chart analysis, support and resistance levels.",
+        "evidence_type": "Data-backed",
+        "empirical_strength": "Moderate",
+        "speaker_conviction": "Moderate"
+      },
+      {
+        "claim": "Lite is shortable at $738.87, a 50% Fibonacci retracement of a topping tail.",
+        "evidence_cited": "Fibonacci retracement levels, topping tail pattern.",
+        "evidence_type": "Data-backed",
+        "empirical_strength": "Moderate",
+        "speaker_conviction": "Moderate"
+      },
+      {
+        "claim": "S&P 500's resistance level is $697.11, with dollar-cost averaging up to $700.17.",
+        "evidence_cited": "Resistance levels and potential upside.",
+        "evidence_type": "Data-backed",
+        "empirical_strength": "Moderate",
+        "speaker_conviction": "Moderate"
+      },
+      {
+        "claim": "QQQ's first resistance level is $616.52, with a potential short at $628.30.",
+        "evidence_cited": "Resistance levels on the QQQ chart.",
+        "evidence_type": "Data-backed",
+        "empirical_strength": "Moderate",
+        "speaker_conviction": "Moderate"
+      }
+    ],
+    "specifics_extracted": "$203 level\n$156.54\n$160\n$142.83\n$135.25\n$738.87\n$752.99\n$765\n$750\n$7\n$504.42\n$697.11\n$700.17\n$1600\n$616.52\n$628.30\n$203\n$199.05\n$203.97\n$206.88\n$212.28\n$225\n$198.87\n$196\n$73.47\n$80\n$7.81\n$6.63\n$7.60\n$681\n$695.51\n$725.50\n$20\n$19.97\n$140\n$16.04\n$37.10",
+    "weak_links": "Reliance on specific technical levels holding, which can be broken by unforeseen market events or news.",
+    "counter_consensus": "Mainstream analysis may focus on broader economic indicators and company fundamentals rather than short-term technical levels.",
+    "meta_assessment": [
+      "Analysis relies heavily on technical analysis and chart patterns.",
+      "Speaker provides specific entry and exit points, suggesting a high-conviction trading strategy.",
+      "The focus is on short-term trades based on immediate market reactions."
+    ],
+    "mechanism": {
+      "trigger": "Earnings reports and key price level breaches.",
+      "transmission_path": "Price action triggers technical patterns, influencing trader behavior.",
+      "market_impact": "Short-term price fluctuations based on support and resistance.",
+      "secondary_effects": "Potential for broader market movements if key stocks fail to hold support."
+    },
+    "disconfirming_signals": [
+      "Breakdown of key support levels without recovery.",
+      "Unexpected positive news driving prices against predicted resistance.",
+      "Broader market trends overriding individual stock analysis."
+    ],
+    "historical_parallel": "Similar patterns observed during other earnings seasons where key stocks influenced market sentiment.",
+    "one_line_summary": "The analysis outlines short-term trading strategies based on key support and resistance levels following recent earnings reports, particularly focusing on NVDA, ORCL, and other tech stocks.",
+    "emotional_conviction": "The speaker shows enthusiasm for technical analysis-based trading strategies and confidence in identifying key levels.",
+    "signal_strength": 6,
+    "signal_strength_justification": "The signal strength is moderate due to reliance on technical analysis and short-term market reactions, balanced by clear price levels.",
+    "novelty": 3,
+    "novelty_justification": "The analysis is standard technical analysis, reducing novelty though grounded in market data.",
+    "tradeability": 7,
+    "tradeability_justification": "Tradeability is reasonable given defined entry/exit points, but requires immediate action and monitoring.",
+    "time_sensitivity": "Immediate",
+    "speaker_context": "Benjamin Pool is the Head Trader at Verified Investing. No other specific background or financial interest is mentioned.",
+    "claim_plausibility": [
+      "ASSERTED",
+      "INFERRED",
+      "ASSERTED",
+      "ASSERTED",
+      "ASSERTED",
+      "ASSERTED"
+    ],
+    "positioning_risk": "Risk is high due to the short-term nature of the trades and reliance on technical analysis, requiring active monitoring to manage potential losses.",
+    "thumbnail": "https://i.ytimg.com/vi/ZS4jwRoL4Kg/hqdefault.jpg",
+    "video_url": "https://www.youtube.com/watch?v=ZS4jwRoL4Kg",
+    "category_official": "General Financial Investing and Speculation"
+  },
+  {
+    "episode_title": "NVDA Earnings | Earnings Central Live + Trading the Close",
+    "channel": "Verified Investing",
+    "duration_minutes": 58,
+    "topic_domain": "General Financial Investing and Speculation",
+    "podcast_date": "2026-02-26",
+    "processing_date": "2026-02-26",
+    "shelf_life": "Short (days-weeks)",
+    "current_market_context": "Broad market is pushing upward, with particular strength in crypto and software; all eyes are on NVDA earnings.",
+    "executive_use_case": {
+      "signal_type": "Data-driven",
+      "positioning_impact": "Monitor",
+      "time_horizon": "Short-term",
+      "confidence_level": "Moderate",
+      "incentive_bias": "Yes, promotional content for a service offered.",
+      "consensus_context": "Mainstream expectation of volatility and impact of NVDA earnings."
+    },
+    "core_claims": [
+      {
+        "claim": "CRM is expected to report earnings per share of around $3, an increase of 9-11% year-over-year.",
+        "evidence_cited": "Expectations based on analyst consensus.",
+        "evidence_type": "Assumed",
+        "empirical_strength": "Moderate",
+        "speaker_conviction": "Moderate"
+      },
+      {
+        "claim": "CRM's revenue is expected to increase around 11-12% year-over-year.",
+        "evidence_cited": "General expectations.",
+        "evidence_type": "Assumed",
+        "empirical_strength": "Moderate",
+        "speaker_conviction": "Moderate"
+      },
+      {
+        "claim": "TTD is expected to report earnings per share that are relatively flat, around $0.59.",
+        "evidence_cited": "Analyst Expectations.",
+        "evidence_type": "Assumed",
+        "empirical_strength": "Moderate",
+        "speaker_conviction": "Moderate"
+      },
+      {
+        "claim": "TTD's revenue is expected to increase by about 13.6% to around $842 million.",
+        "evidence_cited": "Expectations for revenue growth.",
+        "evidence_type": "Assumed",
+        "empirical_strength": "Moderate",
+        "speaker_conviction": "Moderate"
+      },
+      {
+        "claim": "IONQ is expected to report earnings per share that are slightly less negative, with a revenue increase of up to 245% year-over-year.",
+        "evidence_cited": "Analyst expectations.",
+        "evidence_type": "Assumed",
+        "empirical_strength": "Moderate",
+        "speaker_conviction": "Moderate"
+      },
+      {
+        "claim": "Zoom is expected to see earnings per share up 4-5% year-over-year and revenue up 4% as well.",
+        "evidence_cited": "Analyst expectations.",
+        "evidence_type": "Assumed",
+        "empirical_strength": "Moderate",
+        "speaker_conviction": "Moderate"
+      }
+    ],
+    "specifics_extracted": "CRM: Support at 177.50, 174.50, and 170.30. Resistance around 200-201, 205.50, and 211.\nTTD: Support at 19, 16, and 13.66. Resistance just under 34 (gap fill around 33.82), 36.80, and 38.64.\nIONQ: Support at 31.50, 30, and 28. Resistance at 35.35, 36.66, and 38.56.\nZoom: Support at 80, 78.50, and 75.75. Resistance around 89 (88.66), 90.50, and 93.\nNVDA: Support at 191, 187.50, and 181. Resistance at 203, 207, and 212.",
+    "weak_links": "Assumes analyst estimates are accurate indicators of actual earnings. Relies on the accuracy of technical analysis levels in predicting price movements.",
+    "counter_consensus": "- Institutional investors may be more focused on long-term fundamentals than short-term earnings reactions.\n- Mainstream analysis might suggest different support and resistance levels based on diverse methodologies.",
+    "meta_assessment": "- Focuses on short-term trading opportunities around earnings events.\n- Emphasizes technical analysis for entries and exits.\n- High conviction in the potential for volatility around earnings.",
+    "mechanism": {
+      "trigger": "Earnings releases from the mentioned companies.",
+      "transmission_path": "News dissemination leading to immediate price action.",
+      "market_impact": "Short-term price fluctuations based on earnings beat/miss and guidance.",
+      "secondary_effects": "Broader market sentiment shift depending on NVDA's results."
+    },
+    "disconfirming_signals": [
+      "Significant deviation from the mentioned support and resistance levels.",
+      "Lack of expected volatility following earnings releases.",
+      "Negative guidance overshadowing positive earnings results."
+    ],
+    "historical_parallel": "Dot-com era day trading strategies, but with more sophisticated tools.",
+    "one_line_summary": "The analyst provides technical levels and expectations for trading various stocks reporting earnings, emphasizing Nvidia's potential market impact.",
+    "emotional_conviction": "Enthusiastic but tempered with caution regarding risk management.",
+    "signal_strength": 6,
+    "signal_strength_justification": "The signal has medium strength because it combines analyst assumptions, technicals, and a short duration.",
+    "novelty": 3,
+    "novelty_justification": "Basic trading strategy, but high level earnings call makes more relevant",
+    "tradeability": 7,
+    "tradeability_justification": "Clearer catalyst and clear execution framework increase the tradeability score.",
+    "time_sensitivity": "Immediate",
+    "speaker_context": "Financial analyst and educator at Verified Investing. Likely has a vested interest in people using his service.",
+    "claim_plausibility": [
+      "ASSERTED",
+      "ASSERTED",
+      "ASSERTED",
+      "ASSERTED",
+      "ASSERTED",
+      "ASSERTED"
+    ],
+    "positioning_risk": "Capital loss if levels are breached without stop losses.",
+    "thumbnail": "https://i.ytimg.com/vi/8bhx3mZI7Jk/hqdefault.jpg",
+    "video_url": "https://www.youtube.com/watch?v=8bhx3mZI7Jk",
+    "category_official": "General Financial Investing and Speculation"
+  },
+  {
+    "episode_title": "Nvidia\u2019s Blowout Can\u2019t Calm AI Anxiety | Prof G Markets",
+    "channel": "The Prof G Pod \u2013 Scott Galloway",
+    "duration_minutes": 30,
+    "topic_domain": "General Financial Investing and Speculation",
+    "podcast_date": "2026-02-26",
+    "processing_date": "2026-02-26",
+    "shelf_life": "Medium (weeks-months)",
+    "current_market_context": "Nvidia continues to dominate the AI chip market, exceeding expectations in earnings. There's ongoing anxiety about AI's impact on traditional sectors.",
+    "executive_use_case": {
+      "signal_type": "Thesis",
+      "positioning_impact": "Monitor",
+      "time_horizon": "Cyclical",
+      "confidence_level": "Moderate",
+      "incentive_bias": "No",
+      "consensus_context": "Mixed"
+    },
+    "core_claims": [
+      {
+        "claim": "Nvidia's data center revenue rose 75% year-over-year, driving earnings.",
+        "evidence_cited": "Company earnings report.",
+        "evidence_type": "Data-backed",
+        "empirical_strength": "High",
+        "speaker_conviction": "High"
+      },
+      {
+        "claim": "Nvidia's revenue projections for the current quarter are higher than investors expected.",
+        "evidence_cited": "Company guidance.",
+        "evidence_type": "Data-backed",
+        "empirical_strength": "High",
+        "speaker_conviction": "High"
+      },
+      {
+        "claim": "There are two types of anxiety regarding AI: one is the fear of unsustainable data center growth, and the other is the fear of AI's disruptive power.",
+        "evidence_cited": "Market sentiment and Citrini Research article.",
+        "evidence_type": "Assumed",
+        "empirical_strength": "Moderate",
+        "speaker_conviction": "High"
+      },
+      {
+        "claim": "Salesforce's slowing growth is not primarily due to AI but to competition and business deceleration.",
+        "evidence_cited": "Company's revenue growth and market share analysis.",
+        "evidence_type": "Data-backed",
+        "empirical_strength": "Moderate",
+        "speaker_conviction": "High"
+      },
+      {
+        "claim": "AI is incredibly valuable and represents a potent technology we are just starting to realize how useful it is to both business customers and consumers.",
+        "evidence_cited": "Long-term commitments from business customers (Microsoft, Amazon, and Google) and consumers willing to pay more subscriptions.",
+        "evidence_type": "Data-backed",
+        "empirical_strength": "Moderate",
+        "speaker_conviction": "High"
+      },
+      {
+        "claim": "Trump's claim of ending eight wars has some validity, particularly in instances like the ceasefire between Israel and Gaza.",
+        "evidence_cited": "US-led peace plan, Security Council approval, facilitated hostage release.",
+        "evidence_type": "Data-backed",
+        "empirical_strength": "Moderate",
+        "speaker_conviction": "Moderate"
+      }
+    ],
+    "specifics_extracted": "75% year-over-year data center revenue growth for NVIDIA, $35 billion remaining performance obligations, 45.8 to 46.2 billion revenue guidance, Wall Street expected 46 billion, Shares are tanking down nearly 6%.",
+    "weak_links": "The rapid pace of AI development could lead to unexpected disruptions. Investor sentiment is volatile and prone to overreaction.",
+    "counter_consensus": "*   AI is not as disruptive as feared, allowing legacy companies to adapt and thrive.\n*   Nvidia's growth is not sustainable, and a market correction is imminent.\n*   AI is overhyped and will not deliver the promised productivity gains.",
+    "meta_assessment": "*   Framing: Contrarian take on mainstream AI hype.\n*   Conviction: Moderate, acknowledges risks while highlighting opportunities.\n*   Pattern recognition: Notes conflicting narratives driving market anxiety.",
+    "mechanism": {
+      "trigger": "Nvidia's earnings beat and Salesforce's mixed results.",
+      "transmission_path": "News outlets, financial analysts, and social media amplify the conflicting narratives around AI.",
+      "market_impact": "Stock price volatility, investor uncertainty, and potential shifts in sector allocation.",
+      "secondary_effects": "Increased scrutiny of AI-related investments, potential for a flight to safety, and re-evaluation of long-term growth prospects."
+    },
+    "disconfirming_signals": [
+      "Continued strength in legacy software companies' earnings.",
+      "Slowing adoption rates of AI technologies across various industries.",
+      "Increased regulation and scrutiny of AI applications."
+    ],
+    "historical_parallel": "The dot-com bubble, where initial enthusiasm and investment were followed by a market correction.",
+    "one_line_summary": "While Nvidia's strong earnings highlight AI's potential, conflicting anxieties about its impact on legacy industries and the broader economy create market volatility and uncertainty.",
+    "emotional_conviction": "The speaker maintains a balanced and analytical tone, acknowledging the excitement around AI while cautioning against overhyping its impact and ignoring potential risks.",
+    "signal_strength": 7,
+    "signal_strength_justification": "The signal has moderate force due to Nvidia's strong performance (structural magnitude), but faces variability (duration) and dependence on sentiment (probability).",
+    "novelty": 6,
+    "novelty_justification": "The perspective on conflicting anxieties offers moderate novelty, integrating data with sentiment analysis.",
+    "tradeability": 6,
+    "tradeability_justification": "Tradeability is moderate given unclear timing (time clarity), mixed signals (entry clarity), and dependence on sentiment (catalyst visibility).",
+    "time_sensitivity": "Monitor",
+    "speaker_context": "The speaker is analyzing market trends and earnings reports, aiming to provide insights for investment decisions.",
+    "claim_plausibility": [
+      "VERIFIED",
+      "VERIFIED",
+      "ASSERTED",
+      "INFERRED",
+      "ASSERTED",
+      "ASSERTED"
+    ],
+    "positioning_risk": "Market volatility and conflicting narratives create a high risk of misinterpreting signals and making poorly timed investment decisions.",
+    "thumbnail": "https://i.ytimg.com/vi/q_vMpbXnHzk/hqdefault.jpg",
+    "video_url": "https://www.youtube.com/watch?v=q_vMpbXnHzk",
+    "category_official": "General Financial Investing and Speculation"
+  },
+  {
+    "episode_title": "Silver & Gold Shops Have a MASSIVE Problem",
+    "channel": "Silver Dragons",
+    "duration_minutes": 43,
+    "topic_domain": "Precious Metals",
+    "podcast_date": "2026-02-26",
+    "processing_date": "2026-02-26",
+    "shelf_life": "Medium (weeks-months)",
+    "current_market_context": "The audio discusses current precious metal market conditions, particularly silver's volatility and issues affecting silver and gold shops.",
+    "executive_use_case": {
+      "signal_type": "Mixed",
+      "positioning_impact": "Monitor",
+      "time_horizon": "Cyclical",
+      "confidence_level": "Moderate",
+      "incentive_bias": "No",
+      "consensus_context": "Mixed; some points mainstream, others contrarian."
+    },
+    "core_claims": [
+      {
+        "claim": "Mercury dimes are the most popular constitutional silver sold.",
+        "evidence_cited": "Reference to high demand for Mercury dimes.",
+        "evidence_type": "Anecdotal",
+        "empirical_strength": "Low",
+        "speaker_conviction": "High"
+      },
+      {
+        "claim": "China's market reopening after the Chinese New Year did not significantly impact silver prices.",
+        "evidence_cited": "Observation that predictions about China's influence on silver prices didn't materialize.",
+        "evidence_type": "Anecdotal",
+        "empirical_strength": "Low",
+        "speaker_conviction": "Moderate"
+      },
+      {
+        "claim": "Cleaning rare coins can significantly reduce their value.",
+        "evidence_cited": "General knowledge and warning against cleaning rare or numismatically valuable coins.",
+        "evidence_type": "Assumed",
+        "empirical_strength": "High",
+        "speaker_conviction": "High"
+      },
+      {
+        "claim": "Bad news generally benefits precious metals.",
+        "evidence_cited": "Assertion that market uncertainty and negative events drive demand for precious metals.",
+        "evidence_type": "Assumed",
+        "empirical_strength": "Low",
+        "speaker_conviction": "Moderate"
+      },
+      {
+        "claim": "Commemorative silver dollars trade at about silver value.",
+        "evidence_cited": "Demand for silver dollars on the secondary market.",
+        "evidence_type": "Anecdotal",
+        "empirical_strength": "Low",
+        "speaker_conviction": "Moderate"
+      },
+      {
+        "claim": "Refiners are currently not accepting alloyed silver.",
+        "evidence_cited": "Current difficulties in selling alloyed silver to refiners.",
+        "evidence_type": "Anecdotal",
+        "empirical_strength": "Moderate",
+        "speaker_conviction": "High"
+      }
+    ],
+    "specifics_extracted": "down 30 cents\ndown 18 cents\n$80 an ounce to $87 an ounce\n$2500 bucks\n1.5 euros\n60 to 1\ndown from the low 50s or high 40s",
+    "weak_links": "The primary weak link is the reliance on refiners accepting alloyed silver for the market to function smoothly, which is currently disrupted.",
+    "counter_consensus": "- Mainstream view is that China's market activity significantly affects silver prices, but the speaker believes otherwise.\n- The consensus is that cleaning coins always reduces value; however, the speakers differentiate between bullion and numismatic coins.\n- The prevalent idea is that any silver is easy to offload, while the speaker admits alloyed silver is temporarily difficult to sell.",
+    "meta_assessment": "- Framing: The discussion revolves around practical issues faced by silver/gold shops and investors.\n- Conviction: The speakers are confident in their experiences but acknowledge potential errors in their perspectives.\n- The speakers emphasize practical advice based on their daily experiences.",
+    "mechanism": {
+      "trigger": "Refiners temporarily halt acceptance of alloyed silver.",
+      "transmission_path": "Local shops become overstocked, creating liquidity issues. Silver sellers can't easily liquidate their holdings.",
+      "market_impact": "Reduced buying and selling of certain silver forms, affecting cash flow for shops and potentially lowering prices for sellers.",
+      "secondary_effects": "Potential shift in investor preference towards readily accepted silver products."
+    },
+    "disconfirming_signals": [
+      "Refiners resume accepting alloyed silver sooner than expected.",
+      "Silver prices fall despite negative global events.",
+      "Demand for certain silver products surges despite current market conditions."
+    ],
+    "historical_parallel": "No explicit historical parallel mentioned.",
+    "one_line_summary": "Silver and gold shops are currently facing a significant problem due to refiners not accepting alloyed silver, creating liquidity issues and affecting market dynamics.",
+    "emotional_conviction": "The speakers exhibit a practical and concerned tone, highlighting challenges while remaining cautiously optimistic about the market's future.",
+    "signal_strength": 6,
+    "signal_strength_justification": "The Signal Strength is moderate due to the combination of anecdotal and observed evidence along with a cyclical duration.",
+    "novelty": 4,
+    "novelty_justification": "The novelty is low because the general insights are common in precious metals discussions.",
+    "tradeability": 5,
+    "tradeability_justification": "The tradeability is moderate because the trigger is somewhat clear, but entry and catalyst visibility are unclear.",
+    "time_sensitivity": "Monitor",
+    "speaker_context": "The speakers are owners/operators of a precious metals shop with direct insight into market conditions.",
+    "claim_plausibility": [
+      "ASSERTED",
+      "ASSERTED",
+      "VERIFIED",
+      "INFERRED",
+      "ASSERTED",
+      "ASSERTED"
+    ],
+    "positioning_risk": "Holding alloyed silver may be illiquid in the short term; purchasing bullion carries standard market risks.",
+    "thumbnail": "https://i.ytimg.com/vi/430PIB5Oefc/hqdefault.jpg",
+    "video_url": "https://www.youtube.com/watch?v=430PIB5Oefc",
+    "category_official": "Precious Metals"
+  },
+  {
+    "episode_title": "SILVER PRICE ALERT: This Is Just The Beginning!",
+    "channel": "Wall Street Bullion",
+    "duration_minutes": 32,
+    "topic_domain": "Precious Metals",
+    "podcast_date": "2026-02-26",
+    "processing_date": "2026-02-26",
+    "shelf_life": "Medium (weeks-months)",
+    "current_market_context": "Snapshot of current market conditions regarding precious metals.",
+    "executive_use_case": {
+      "signal_type": "Thesis",
+      "positioning_impact": "Monitor",
+      "time_horizon": "Cyclical",
+      "confidence_level": "Moderate",
+      "incentive_bias": "Yes, the channel promotes precious metals, so there is an inherent incentive to portray them favorably.",
+      "consensus_context": "The thesis is not mainstream but widely discussed within the precious metals community."
+    },
+    "core_claims": [
+      {
+        "claim": "Silver has likely bottomed out at around $66, based on technical charts and open interest numbers.",
+        "evidence_cited": "Technical chart analysis and low open interest numbers in gold (around 410-420k).",
+        "evidence_type": "Data-backed",
+        "empirical_strength": "Moderate",
+        "speaker_conviction": "Moderate"
+      },
+      {
+        "claim": "Spot silver in London is more expensive than silver futures in New York, indicating a preference for physical metal over paper contracts.",
+        "evidence_cited": "Observed price differences between spot silver in London and futures in New York.",
+        "evidence_type": "Empirical",
+        "empirical_strength": "High",
+        "speaker_conviction": "High"
+      },
+      {
+        "claim": "The market is potentially moving towards permanent silver backwardation.",
+        "evidence_cited": "Spot price of silver in London being more expensive than futures in New York, especially when silver takes a dump.",
+        "evidence_type": "Inferred",
+        "empirical_strength": "Moderate",
+        "speaker_conviction": "Moderate"
+      },
+      {
+        "claim": "Permanent silver backwardation may already be in effect, signaling monetary Armageddon.",
+        "evidence_cited": "Exacerbation of backwardation between London and New York markets when silver prices decline.",
+        "evidence_type": "Inferred",
+        "empirical_strength": "Low",
+        "speaker_conviction": "Low"
+      },
+      {
+        "claim": "The manipulation through 'spoofing' is less of a concern than the structure that allows it.",
+        "evidence_cited": "The argument that silver futures are sold in dollar terms on the futures market.",
+        "evidence_type": "Assumed",
+        "empirical_strength": "Low",
+        "speaker_conviction": "High"
+      },
+      {
+        "claim": "The silver futures market should be eliminated, with all commodities priced in gold and silver ounces.",
+        "evidence_cited": "Argument that the dollar is a silver derivative and pricing it in dollar derivatives is nonsensical.",
+        "evidence_type": "Assumed",
+        "empirical_strength": "Low",
+        "speaker_conviction": "High"
+      }
+    ],
+    "specifics_extracted": "66\n410-420k",
+    "weak_links": "The claim of permanent backwardation hinges on sustained conditions and lack of market intervention, both of which are uncertain.",
+    "counter_consensus": "Mainstream financial analysis often attributes price discrepancies to temporary supply chain issues or speculative trading, not necessarily a fundamental shift towards monetary Armageddon.",
+    "meta_assessment": "- Framing the silver market within a broader narrative of monetary system instability.\n- Presents a somewhat contrarian view, emphasizing physical demand over paper market dynamics.\n- High conviction in the long-term trend but moderate certainty in immediate impacts.",
+    "mechanism": {
+      "trigger": "Increased demand for physical silver over paper contracts.",
+      "transmission_path": "Price discrepancies between spot and futures markets.",
+      "market_impact": "Potential shift towards permanent backwardation in the silver market.",
+      "secondary_effects": "Increased value of physical silver, potential elimination of the silver futures market, and transition to alternative commodity pricing in gold/silver ounces."
+    },
+    "disconfirming_signals": [
+      "Decreasing price differential between spot silver in London and futures in New York.",
+      "Increase in open interest in silver futures.",
+      "Government intervention to stabilize the silver market."
+    ],
+    "historical_parallel": "No explicit specifics mentioned.",
+    "one_line_summary": "The speaker argues that the silver market is shifting towards permanent backwardation, favoring physical metal over paper contracts and indicating potential instability in the dollar-based monetary system.",
+    "emotional_conviction": "The speaker conveys a sense of urgency and conviction regarding the potential shift in the silver market and its implications for the broader financial system.",
+    "signal_strength": 6,
+    "signal_strength_justification": "The signal is moderate based on a confluence of empirical and inferred factors, but probability of immediate crisis is low.",
+    "novelty": 5,
+    "novelty_justification": "The argument for permanent backwardation is somewhat novel, but the general theme of precious metals as safe havens is widely discussed.",
+    "tradeability": 4,
+    "tradeability_justification": "Clarity on catalyst is poor despite defined entries, limiting tradeability.",
+    "time_sensitivity": "Monitor",
+    "speaker_context": "The speaker is Raffi Farber from The Endgame Investor.",
+    "claim_plausibility": [
+      "ASSERTED",
+      "VERIFIED",
+      "INFERRED",
+      "ASSERTED",
+      "ASSERTED",
+      "ASSERTED"
+    ],
+    "positioning_risk": "High risk if the backwardation thesis does not materialize or if market interventions occur.",
+    "thumbnail": "https://i.ytimg.com/vi/04mfWyKaLw8/hqdefault.jpg",
+    "video_url": "https://www.youtube.com/watch?v=04mfWyKaLw8",
+    "category_official": "Precious Metals"
+  },
+  {
+    "episode_title": "Inside the Latest CME Shutdown Ahead of March Delivery",
+    "channel": "Arcadia Economics",
+    "duration_minutes": 20,
+    "topic_domain": "Precious Metals",
+    "podcast_date": "2026-02-26",
+    "processing_date": "2026-02-26",
+    "shelf_life": "Short (days-weeks)",
+    "current_market_context": "Precious metals markets are experiencing volatility amid concerns about delivery and potential market manipulation.",
+    "executive_use_case": {
+      "signal_type": "Speculative",
+      "positioning_impact": "Monitor",
+      "time_horizon": "Short-term",
+      "confidence_level": "Moderate",
+      "incentive_bias": "No",
+      "consensus_context": "Fringe"
+    },
+    "core_claims": [
+      {
+        "claim": "The CME's abrupt halting of trading in metals and natural gas suggests potential market manipulation.",
+        "evidence_cited": "The CME halted trading in all metals and natural gas contracts due to technical issues, disrupting futures and options markets tied to gold, silver, copper, and natural gas.",
+        "evidence_type": "Anecdotal",
+        "empirical_strength": "Low",
+        "speaker_conviction": "Moderate"
+      },
+      {
+        "claim": "The CME shutdown was likely orchestrated to manage a large silver open interest and prevent a price surge during expiration.",
+        "evidence_cited": "The speaker recalls conversations where exchanges manipulate the market during expiration to match buyers and sellers.",
+        "evidence_type": "Anecdotal",
+        "empirical_strength": "Low",
+        "speaker_conviction": "High"
+      },
+      {
+        "claim": "JPMorgan is subtly signaling it's safe to buy miners.",
+        "evidence_cited": "JPMorgans latest mining report outlines a framework for how high gold may need to rise.",
+        "evidence_type": "Data-backed",
+        "empirical_strength": "Moderate",
+        "speaker_conviction": "Moderate"
+      },
+      {
+        "claim": "Gold is likely to be range-bound, with JPMorgan setting a floor and ceiling.",
+        "evidence_cited": "JPMorgan set the floor at 70 and said that the ceiling is around 90.",
+        "evidence_type": "Data-backed",
+        "empirical_strength": "Moderate",
+        "speaker_conviction": "Moderate"
+      },
+      {
+        "claim": "China's continued bidding for silver indicates strong demand, even after market manipulation attempts.",
+        "evidence_cited": "China opens up and China proceeds to be bid again.",
+        "evidence_type": "Anecdotal",
+        "empirical_strength": "Low",
+        "speaker_conviction": "Moderate"
+      },
+      {
+        "claim": "The shutdown is a sign of a broken futures market where price rises are feared.",
+        "evidence_cited": "They no longer care about price rises, they only care about the speed of the price rise and it's a sign of a broken futures market.",
+        "evidence_type": "Assumed",
+        "empirical_strength": "Low",
+        "speaker_conviction": "Moderate"
+      }
+    ],
+    "specifics_extracted": "JP Morgan sees 9300 gold peak\n5900 and 9300 per ounce\nRick Rule\n88\n110",
+    "weak_links": "The speaker admits that his interpretation of events is conjecture, not definitive proof.",
+    "counter_consensus": "- Mainstream views may attribute the CME shutdown to mere technical glitches rather than intentional market intervention.\n- Institutional analysis might suggest the gold price targets are based on economic models, not necessarily a reflection of manipulation.",
+    "meta_assessment": "- Speaker frames events as a deliberate manipulation, expressing high conviction despite acknowledging the speculative nature of the claims.\n- Focus on anecdotal evidence from past experiences to support the thesis.\n- Clear bias toward skepticism regarding market integrity and trust in official explanations.",
+    "mechanism": {
+      "trigger": "Technical issues at CME leading to trading halt.",
+      "transmission_path": "Halting trading allows for behind-the-scenes matching of buyers and sellers, influencing price dynamics.",
+      "market_impact": "Brief impairment of global price discovery, followed by a price decrease.",
+      "secondary_effects": "Buying time with less patient buyers."
+    },
+    "disconfirming_signals": [
+      "CME provides transparent, verifiable explanation for technical issues.",
+      "Independent audits confirm no manipulation.",
+      "Market participants widely reject manipulation claims."
+    ],
+    "historical_parallel": "Historical instances of market intervention during times of financial stress or uncertainty.",
+    "one_line_summary": "The speaker contends the CME shutdown was a deliberate act to manage silver prices during contract expiration, masking manipulation to prevent a price surge.",
+    "emotional_conviction": "The speaker expresses strong conviction in his assessment, indicating a deep-seated skepticism about market operations and regulatory oversight.",
+    "signal_strength": 6,
+    "signal_strength_justification": "The signal is moderate in strength due to a plausible explanation but based on anecdotal evidence and conjecture.",
+    "novelty": 4,
+    "novelty_justification": "This is moderately novel because while market manipulation theories are common, specific claims related to the CME incident are not widely discussed.",
+    "tradeability": 3,
+    "tradeability_justification": "Tradeability is low given unclear entry and catalyst visibility.",
+    "time_sensitivity": "Immediate",
+    "speaker_context": "The speaker has experience in commodities trading and has been involved in calls related to managing contract expirations.",
+    "claim_plausibility": [
+      "ASSERTED",
+      "INFERRED",
+      "ASSERTED",
+      "ASSERTED",
+      "ASSERTED",
+      "ASSERTED"
+    ],
+    "positioning_risk": "High risk due to the speculative nature of the claims and potential for rapid market changes.",
+    "thumbnail": "https://i.ytimg.com/vi/pqgmHuyfpkI/hqdefault.jpg",
+    "video_url": "https://www.youtube.com/watch?v=pqgmHuyfpkI",
+    "category_official": "Precious Metals"
+  },
+  {
+    "episode_title": "Bessent's 12-Month Window To 'Monetize Assets' Just Ended",
+    "channel": "Arcadia Economics",
+    "duration_minutes": 25,
+    "topic_domain": "Precious Metals",
+    "podcast_date": "2026-02-26",
+    "processing_date": "2026-02-26",
+    "shelf_life": "Medium",
+    "current_market_context": "Market participants are closely monitoring economic indicators, geopolitical tensions, and central bank policies to navigate potential risks and opportunities.",
+    "executive_use_case": {
+      "signal_type": "Speculative",
+      "positioning_impact": "Monitor",
+      "time_horizon": "Cyclical",
+      "confidence_level": "Moderate",
+      "incentive_bias": "No",
+      "consensus_context": "Fringe"
+    },
+    "core_claims": [
+      {
+        "claim": "Scott Bessent's claim to monetize assets on the US balance sheet within 12 months has passed, prompting questions about his actions and intentions.",
+        "evidence_cited": "Direct reference to Scott Bessent's statement.",
+        "evidence_type": "Anecdotal",
+        "empirical_strength": "Low",
+        "speaker_conviction": "Moderate"
+      },
+      {
+        "claim": "The US dollar standard's potential breakdown may benefit the United States, although this is not widely understood.",
+        "evidence_cited": "Assertion based on the role of gold and silver during monetary system transitions.",
+        "evidence_type": "Assumed",
+        "empirical_strength": "Low",
+        "speaker_conviction": "Moderate"
+      },
+      {
+        "claim": "Gold and silver will play a vital role during the transition to the next monetary system due to drastically larger imbalances.",
+        "evidence_cited": "Reference to the need for a reserve asset to balance trade.",
+        "evidence_type": "Assumed",
+        "empirical_strength": "Low",
+        "speaker_conviction": "Moderate"
+      },
+      {
+        "claim": "The US isn't constrained by its ability to issue debt.",
+        "evidence_cited": "Assertion that a country isn't constrained by issuing debt, they just don't necessarily need to.",
+        "evidence_type": "Assumed",
+        "empirical_strength": "Low",
+        "speaker_conviction": "Moderate"
+      },
+      {
+        "claim": "The US current account will reverse in 10 years, leading to major trade surpluses.",
+        "evidence_cited": "Comparison to the 1914 situation where US financial assets were sold.",
+        "evidence_type": "Historical reference",
+        "empirical_strength": "Low",
+        "speaker_conviction": "Moderate"
+      },
+      {
+        "claim": "The US will fund the free world's arms build-out, driving economic growth by leaning on the private sector.",
+        "evidence_cited": "Analogy to China's infrastructure funding through banks.",
+        "evidence_type": "Assumed",
+        "empirical_strength": "Low",
+        "speaker_conviction": "Moderate"
+      }
+    ],
+    "specifics_extracted": "12 months\n$87\n$22\n$29.84\n$120",
+    "weak_links": "Difficulty in tracking monetary gold flow due to opacity; reliance on speculation; potential for hidden actions by authorities.",
+    "counter_consensus": "- Mainstream economists believe government debt is a significant problem.\n- It is commonly believed that a strong dollar is good for the US economy.",
+    "meta_assessment": "- The speaker conveys a speculative viewpoint regarding complex financial systems.\n- The analysis emphasizes potential shifts in monetary policy and trade dynamics.\n- Tone: Thoughtful, but speculative.",
+    "mechanism": {
+      "trigger": "Monetary policy shifts and geopolitical events.",
+      "transmission_path": "Impacts trade imbalances, demand for reserve assets.",
+      "market_impact": "Revaluation of gold and silver; shifts in debt profile.",
+      "secondary_effects": "Re-industrialization; changes in private sector balance sheets."
+    },
+    "disconfirming_signals": [
+      "Continued stability of the US dollar.",
+      "Lack of significant policy changes related to gold or silver.",
+      "Failure of re-industrialization efforts to materialize."
+    ],
+    "historical_parallel": "1914 situation where sales of US financial assets led to a surge in US growth.",
+    "one_line_summary": "Scott Bessent's past claims about monetizing US assets and potential shifts in the global monetary system are examined in the context of future economic and geopolitical developments.",
+    "emotional_conviction": "The speaker exhibits intellectual curiosity and moderate conviction in the potential shifts in the monetary system.",
+    "signal_strength": 5,
+    "signal_strength_justification": "The signal combines medium structural magnitude, short-term duration, and moderate probability based on speculative elements, leading to a moderate score.",
+    "novelty": 6,
+    "novelty_justification": "A somewhat novel perspective combining re-industrialization and trade dynamics to address potential debt issues merits a moderate score.",
+    "tradeability": 3,
+    "tradeability_justification": "Unclear entry and catalyst visibility diminish tradeability, lowering the score.",
+    "time_sensitivity": "Monitor",
+    "speaker_context": "The speaker is discussing ideas of Michael McNair.",
+    "claim_plausibility": [
+      "ASSERTED",
+      "ASSERTED",
+      "ASSERTED",
+      "ASSERTED",
+      "INFERRED",
+      "INFERRED"
+    ],
+    "positioning_risk": "Potential for losses if speculative predictions about gold and silver revaluation do not materialize.",
+    "thumbnail": "https://i.ytimg.com/vi/AgiowXJF7LY/hqdefault.jpg",
+    "video_url": "https://www.youtube.com/watch?v=AgiowXJF7LY",
+    "category_official": "Precious Metals"
+  },
+  {
+    "episode_title": "JustDario: Silver's Wild Quarter, & What's Coming Next",
+    "channel": "Arcadia Economics",
+    "duration_minutes": 58,
+    "topic_domain": "Precious Metals",
+    "podcast_date": "2026-02-26",
+    "processing_date": "2026-02-26",
+    "shelf_life": "Medium (weeks-months)",
+    "current_market_context": "Precious metals are experiencing volatility amid monetary debates and supply chain concerns.",
+    "executive_use_case": {
+      "signal_type": "Thesis",
+      "positioning_impact": "Monitor",
+      "time_horizon": "Cyclical",
+      "confidence_level": "Moderate",
+      "incentive_bias": "No",
+      "consensus_context": "Counter-consensus"
+    },
+    "core_claims": [
+      {
+        "claim": "Reciprocal tariffs are inherently inflationary despite narratives suggesting otherwise.",
+        "evidence_cited": "Historical data and economic theory contradict deflationary claims linked to reciprocal tariffs.",
+        "evidence_type": "Historical reference",
+        "empirical_strength": "Moderate",
+        "speaker_conviction": "High"
+      },
+      {
+        "claim": "Gold and silver price drops during reciprocal tariff announcements were liquidity events, not reflections of fundamental economic impact.",
+        "evidence_cited": "Market behavior analysis suggests liquidity drives immediate reactions over tariff implications.",
+        "evidence_type": "Inferred",
+        "empirical_strength": "Moderate",
+        "speaker_conviction": "High"
+      },
+      {
+        "claim": "Silver's industrial demand, particularly in electronics and solar panels, transforms its market dynamics.",
+        "evidence_cited": "Silver's high electrical conductivity is irreplaceable in miniaturized, high-performance applications.",
+        "evidence_type": "Data-backed",
+        "empirical_strength": "High",
+        "speaker_conviction": "High"
+      },
+      {
+        "claim": "Media outlets often prioritize click-driven headlines over factual accuracy, distorting market narratives.",
+        "evidence_cited": "Examples of Bloomberg and Reuters articles without named journalists promote sensationalism over substance.",
+        "evidence_type": "Anecdotal",
+        "empirical_strength": "Low",
+        "speaker_conviction": "High"
+      },
+      {
+        "claim": "The Thanksgiving night CME shutdown suggests possible market intervention amid physical silver demand.",
+        "evidence_cited": "The CME server outage, attributed to cooling issues in a high-security facility, coincided with significant silver price movement.",
+        "evidence_type": "Anecdotal",
+        "empirical_strength": "Low",
+        "speaker_conviction": "Moderate"
+      },
+      {
+        "claim": "Physical silver stocks at exchanges are depleting, driven by strong demand and limited supply.",
+        "evidence_cited": "Registered silver stocks at exchanges are significantly decreasing, indicating physical tightness.",
+        "evidence_type": "Data-backed",
+        "empirical_strength": "High",
+        "speaker_conviction": "High"
+      }
+    ],
+    "specifics_extracted": "2026\nLess than $40\nUnder $18\nLow 20s\n$35\nBelow $28\nUnder 40\n$54\n7 milligrams\n800 tons\n25.7 million ounces\n140 million\nOctober 9th\n$20\n300 million ounces",
+    "weak_links": "Recycling economics could change with high silver prices; Current low bond rates may rise to hurt precious metals.",
+    "counter_consensus": "- Mainstream economics often overlooks the inflationary impact of monetary policy, focusing on short-term metrics.\n- Efficient markets hypothesis proponents believe market anomalies are quickly arbitraged away, negating supply squeeze theories.",
+    "meta_assessment": "- Speaker frames analysis against prevailing narratives, indicating contrarian stance.\n- Demonstrates high conviction, citing personal research and industry contacts.\n- Focuses on physical dynamics over technical analysis, potentially limiting scope.",
+    "mechanism": {
+      "trigger": "Increased industrial demand and monetary inflation",
+      "transmission_path": "Depletion of physical silver reserves at exchanges",
+      "market_impact": "Price squeeze and potential exchange failure",
+      "secondary_effects": "Distorted market signals and supply chain disruptions"
+    },
+    "disconfirming_signals": [
+      "Significant increase in silver mine production.",
+      "Central banks publicly announce silver sales.",
+      "Technological breakthrough significantly reduces silver use in key industries."
+    ],
+    "historical_parallel": "Potentially the Hunt Brothers silver squeeze, but with broader industrial demand fundamentals.",
+    "one_line_summary": "Silver's price is poised to increase due to physical supply constraints amid persistent monetary inflation and rising industrial demand, challenging prevailing market narratives.",
+    "emotional_conviction": "Confident, bordering on assertive, emphasizing independent research and factual accuracy.",
+    "signal_strength": 7,
+    "signal_strength_justification": "Signal is high due to the structural magnitude of industrial demand and depletion of silver, offset by the cyclical nature of commodity prices.",
+    "novelty": 6,
+    "novelty_justification": "The analysis is moderately novel due to its emphasis on physical dynamics and supply chain bottlenecks.",
+    "tradeability": 6,
+    "tradeability_justification": "Tradeability is moderate due to potential catalyst visibility, but is somewhat limited by time clarity and entry point.",
+    "time_sensitivity": "Monitor",
+    "speaker_context": "Financial analyst, likely holding positions in precious metals.",
+    "claim_plausibility": [
+      "ASSERTED",
+      "ASSERTED",
+      "VERIFIED",
+      "ASSERTED",
+      "INFERRED",
+      "VERIFIED"
+    ],
+    "positioning_risk": "Potential downside risk if industrial demand weakens or monetary policy tightens unexpectedly.",
+    "thumbnail": "https://i.ytimg.com/vi/rEeq3ECxCI0/hqdefault.jpg",
+    "video_url": "https://www.youtube.com/watch?v=rEeq3ECxCI0",
+    "category_official": "Precious Metals"
+  },
+  {
+    "episode_title": "Trump Revalues Gold? \u2018It\u2019s a 65% Chance\u2019 \u2013 James Rickards Explains the Real Implications",
+    "channel": "Miles Franklin Media",
+    "duration_minutes": 30,
+    "topic_domain": "Precious Metals",
+    "podcast_date": "2026-02-26",
+    "processing_date": "2026-02-26",
+    "shelf_life": "Medium",
+    "current_market_context": "Gold prices are fluctuating amidst speculation about potential shifts in monetary policy and geopolitical tensions.",
+    "executive_use_case": {
+      "signal_type": "Speculative",
+      "positioning_impact": "Monitor",
+      "time_horizon": "Cyclical",
+      "confidence_level": "Moderate",
+      "incentive_bias": "Yes, Miles Franklin Media likely benefits from increased interest in precious metals. ",
+      "consensus_context": "Fringe"
+    },
+    "core_claims": [
+      {
+        "claim": "There's a reasonable chance that gold revaluation could happen under the Trump administration.",
+        "evidence_cited": "Donald Trump Jr. has stated his father's administration is exploring using the Gold Reserve Act to reprice America's gold.",
+        "evidence_type": "Anecdotal",
+        "empirical_strength": "Low",
+        "speaker_conviction": "Moderate"
+      },
+      {
+        "claim": "A gold revaluation is essentially an accounting entry and does not directly change the world price of gold.",
+        "evidence_cited": "Gold is traded on world markets like Shanghai, COMEX, and London Bullion Market Association.",
+        "evidence_type": "Assumed",
+        "empirical_strength": "Moderate",
+        "speaker_conviction": "High"
+      },
+      {
+        "claim": "A gold revaluation by the U.S. could have a psychological impact, signaling that the U.S. government is paying attention to gold as a monetary asset.",
+        "evidence_cited": "Past instances where public officials have downplayed gold's importance.",
+        "evidence_type": "Historical reference",
+        "empirical_strength": "Low",
+        "speaker_conviction": "Moderate"
+      },
+      {
+        "claim": "Many countries already value their gold reserves at market prices; the U.S. is an outlier.",
+        "evidence_cited": "Most countries put newly acquired gold into reserves at the price they paid or mark to market.",
+        "evidence_type": "Assumed",
+        "empirical_strength": "Moderate",
+        "speaker_conviction": "High"
+      },
+      {
+        "claim": "Weaponization of the dollar by the U.S. is pushing other countries to buy more gold to avoid potential asset freezes.",
+        "evidence_cited": "The U.S. has used financial systems and payment rails to fight wars, including freezing Russian assets.",
+        "evidence_type": "Historical reference",
+        "empirical_strength": "Moderate",
+        "speaker_conviction": "High"
+      }
+    ],
+    "specifics_extracted": "\u2018It\u2019s a 65% Chance\u2019\nUS Treasury still values its reported 261 million ounces of gold at $42.22 per ounce. \nroughly $5,000 an ounce.\na trillion dollars",
+    "weak_links": "The claim that gold revaluation would occur rests heavily on political will rather than fundamental economic drivers. The psychological impact is speculative and may not translate to significant market changes.",
+    "counter_consensus": "The mainstream view suggests that gold's role in the modern monetary system is limited, and revaluing gold would be largely symbolic with minimal practical effect on the broader economy.",
+    "meta_assessment": "The discussion blends technical details of accounting with speculative political forecasting. Rickards frames gold revaluation as a potential tool to circumvent debt ceiling issues, adding to its appeal.",
+    "mechanism": {
+      "trigger": "The Trump administration decides to revalue gold.",
+      "transmission_path": "The Treasury instructs the Federal Reserve to mark up the value of gold certificates, crediting the Treasury's account at the Fed.",
+      "market_impact": "A psychological signal that the U.S. is taking gold seriously as a monetary asset.",
+      "secondary_effects": "Increased interest in gold among other countries and potentially among American citizens."
+    },
+    "disconfirming_signals": [
+      "A change in political administration.",
+      "Statements from Treasury officials explicitly rejecting the idea of gold revaluation.",
+      "Continued lack of interest in gold from the Federal Reserve."
+    ],
+    "historical_parallel": "The Eisenhower administration revalued gold in the 1950s to address debt ceiling issues, providing a historical precedent for such action.",
+    "one_line_summary": "James Rickards posits that the Trump administration might revalue gold to circumvent debt ceiling issues and signal renewed importance of gold in the monetary system, although this would primarily be an accounting maneuver with limited direct impact on global gold prices.",
+    "emotional_conviction": "Rickards presents a confident, informed analysis, expressing a clear expectation that gold revaluation is plausible.",
+    "signal_strength": 7,
+    "signal_strength_justification": "The signal balances structural factors (potential debt ceiling issues) with moderate probability (Trump administration inclination) and cyclical duration. ",
+    "novelty": 6,
+    "novelty_justification": "The idea of revaluing gold is not entirely novel but the link to circumventing debt ceiling issues adds a unique angle, giving it a moderate novelty score.",
+    "tradeability": 4,
+    "tradeability_justification": "Time horizon is unclear, but the trigger event is known; overall, tradeability is limited, giving it a low score.",
+    "time_sensitivity": "Monitor",
+    "speaker_context": "James Rickards is a known commentator on precious metals and monetary policy. He has a vested interest in promoting gold as a store of value.",
+    "claim_plausibility": [
+      "ASSERTED",
+      "VERIFIED",
+      "INFERRED",
+      "VERIFIED",
+      "INFERRED"
+    ],
+    "positioning_risk": "Holding gold in anticipation of a revaluation carries the risk that the event does not occur, leading to opportunity costs compared to other investments.",
+    "thumbnail": "https://i.ytimg.com/vi/YNZAjDw7Bco/hqdefault.jpg",
+    "video_url": "https://www.youtube.com/watch?v=YNZAjDw7Bco",
+    "category_official": "Precious Metals"
+  },
+  {
+    "episode_title": "Don't Fall For the Stock Market Hype. The $7,000 Raise AI Is Giving You (That Nobody Mentions)",
+    "channel": "AI News & Strategy Daily | Nate B Jones",
+    "duration_minutes": 37,
+    "topic_domain": "Artificial Intelligence",
+    "podcast_date": "2026-02-26",
+    "processing_date": "2026-02-26",
+    "shelf_life": "Medium (weeks-months)",
+    "current_market_context": "Unspecified but implied to be volatile due to perceived AI threats.",
+    "executive_use_case": {
+      "signal_type": "Thesis",
+      "positioning_impact": "Monitor",
+      "time_horizon": "Cyclical",
+      "confidence_level": "Moderate",
+      "incentive_bias": "No",
+      "consensus_context": "Mixed"
+    },
+    "core_claims": [
+      {
+        "claim": "AI-driven labor replacement could lead to a fictional economic crisis, as highlighted in a speculative piece by Citrini Research.",
+        "evidence_cited": "Citrini Research's \"2028 Global Intelligence Crisis\" framed as a fictional macro memo.",
+        "evidence_type": "Assumed",
+        "empirical_strength": "Low",
+        "speaker_conviction": "High"
+      },
+      {
+        "claim": "The market overreacts to 'doom' narratives regarding AI due to negativity bias, disproportionately amplifying potential threats while downplaying benefits.",
+        "evidence_cited": "General discussion of negativity bias in human psychology and its impact on information consumption.",
+        "evidence_type": "Anecdotal",
+        "empirical_strength": "Low",
+        "speaker_conviction": "High"
+      },
+      {
+        "claim": "Government policy responses and increased consumer spending due to lower prices (driven by AI efficiencies) could counteract the negative economic impacts predicted by the 'doom' narrative.",
+        "evidence_cited": "Arguments from economist Alex Immuss and examples of Giffen's Paradox.",
+        "evidence_type": "Assumed",
+        "empirical_strength": "Low",
+        "speaker_conviction": "Moderate"
+      },
+      {
+        "claim": "AI agents could significantly reduce the cost of services, providing a substantial 'raise' in purchasing power for the median household.",
+        "evidence_cited": "Argument by Michael Bloke on the potential for AI agents to streamline service industries.",
+        "evidence_type": "Assumed",
+        "empirical_strength": "Low",
+        "speaker_conviction": "Moderate"
+      },
+      {
+        "claim": "The speed of labor displacement due to AI is critical; if it outpaces technical adaptation and policy response, the 'doom' scenario becomes more plausible.",
+        "evidence_cited": "General logical argument about the interplay between displacement, adaptation, and policy.",
+        "evidence_type": "Assumed",
+        "empirical_strength": "Low",
+        "speaker_conviction": "High"
+      },
+      {
+        "claim": "Enterprises exhibit inertia\u2014regulatory, organizational, cultural, and trust-related\u2014slowing the adoption and integration of AI despite its capabilities.",
+        "evidence_cited": "Anecdotal examples across financial services, healthcare, and government.",
+        "evidence_type": "Anecdotal",
+        "empirical_strength": "Low",
+        "speaker_conviction": "High"
+      }
+    ],
+    "specifics_extracted": "IBM cratered 13%; S&P drops 38%; unemployment hits 10.2%; 40-70% compression, $4-7,000 annual gain",
+    "weak_links": "The assumption that government will not respond with policy interventions to mitigate negative economic impacts of AI.  The assumption that consumers will not increase spending in response to lower prices enabled by AI.",
+    "counter_consensus": "- Mainstream analysts tend to focus on the productivity gains and economic growth potential of AI, rather than the potential for mass unemployment and economic contraction.\n- The institutional view is that labor markets will adapt, with workers transitioning to new roles that complement AI technologies.",
+    "meta_assessment": "- Framing pattern highlights a mainstream 'doom' narrative countered by a more nuanced, albeit still speculative, 'bull' narrative.\n- High conviction in the underlying dynamics, but admits uncertainty regarding specific timelines and magnitudes.\n- Focus on the 'capability dissipation gap' as a key concept.",
+    "mechanism": {
+      "trigger": "AI advancements lead to labor displacement.",
+      "transmission_path": "Displaced workers reduce spending, impacting consumption, mortgages, and credit markets.",
+      "market_impact": "Economic contraction, S&P decline, increased unemployment.",
+      "secondary_effects": "Financial contagion via exposure of financial institutions to AI-vulnerable companies."
+    },
+    "disconfirming_signals": [
+      "Stronger-than-expected economic growth despite AI advancements.",
+      "Rapid and widespread adoption of AI leading to new job creation exceeding displacement.",
+      "Government policies effectively mitigating negative impacts of AI-driven job losses."
+    ],
+    "historical_parallel": "The 2008 financial crisis is used as a parallel to illustrate potential financial contagion.",
+    "one_line_summary": "The market's 'doom' narrative surrounding AI is overblown due to underestimation of social inertia and potential policy responses, creating exploitable asymmetries for those who understand the true pace of AI integration.",
+    "emotional_conviction": "Reasoned and analytical, with a strong emphasis on the need for balanced perspective amidst hype and fear.",
+    "signal_strength": 7,
+    "signal_strength_justification": "Provides a detailed analysis of AI's potential economic impacts, contrasting 'doom' and 'boom' narratives with identified weak links, scoring a 7.",
+    "novelty": 6,
+    "novelty_justification": "The concept of a 'capability dissipation gap' is somewhat novel, though the core arguments are not entirely new, scoring a 6.",
+    "tradeability": 4,
+    "tradeability_justification": "While the thesis identifies potential mispricings, the lack of specific actionable targets reduces tradeability, scoring a 4.",
+    "time_sensitivity": "Monitor",
+    "speaker_context": "Nate B Jones is the host of the AI News & Strategy Daily podcast.",
+    "claim_plausibility": [
+      "INFERRED",
+      "ASSERTED",
+      "ASSERTED",
+      "INFERRED",
+      "ASSERTED",
+      "VERIFIED"
+    ],
+    "positioning_risk": "Prematurely dismissing AI risks could lead to underestimation of potential market downturns.",
+    "thumbnail": "https://i.ytimg.com/vi/q6pbQ5li5Cg/hqdefault.jpg",
+    "video_url": "https://www.youtube.com/watch?v=q6pbQ5li5Cg",
+    "category_official": "Artificial Intelligence"
+  },
+  {
+    "episode_title": "They Got Caught...",
+    "channel": "Matthew Berman",
+    "duration_minutes": 18,
+    "topic_domain": "Artificial Intelligence",
+    "podcast_date": "2026-02-26",
+    "processing_date": "2026-02-26",
+    "shelf_life": "Medium",
+    "current_market_context": "AI models are rapidly evolving, with significant competition among leading labs.",
+    "executive_use_case": {
+      "signal_type": "Data-driven",
+      "positioning_impact": "Monitor",
+      "time_horizon": "Medium-term",
+      "confidence_level": "Moderate",
+      "incentive_bias": "Yes, the speaker analyzes AI and tech-related topics.",
+      "consensus_context": "The consensus acknowledges the increasing sophistication and strategic importance of AI models."
+    },
+    "core_claims": [
+      {
+        "claim": "Anthropic has identified industrial-scale distillation attacks on its models by DeepSeek, Moonshot AI, and MiniMax.",
+        "evidence_cited": "Anthropic's blog post detailing the attacks, involving over 24,000 fraudulent accounts and 16 million exchanges with Claude.",
+        "evidence_type": "Data-backed",
+        "empirical_strength": "High",
+        "speaker_conviction": "High"
+      },
+      {
+        "claim": "Distillation is a legitimate training method, but can be used illicitly to acquire capabilities from other labs at a fraction of the time and cost.",
+        "evidence_cited": "Explanation of distillation as a method to reduce the size and increase the speed of AI models.",
+        "evidence_type": "Assumed",
+        "empirical_strength": "Moderate",
+        "speaker_conviction": "High"
+      },
+      {
+        "claim": "Illicitly distilled models lack necessary safeguards, creating national security risks.",
+        "evidence_cited": "Anthropic's claim that these models might be used to develop bioweapons or carry out malicious cyber activities.",
+        "evidence_type": "Assumed",
+        "empirical_strength": "Low",
+        "speaker_conviction": "Moderate"
+      },
+      {
+        "claim": "DeepSeek, Moonshot, and MiniMax used fraudulent accounts and proxy services to access Claude at scale while evading detection.",
+        "evidence_cited": "IP address correlation, request metadata, infrastructure indicators, and corroboration from industry partners.",
+        "evidence_type": "Data-backed",
+        "empirical_strength": "High",
+        "speaker_conviction": "High"
+      },
+      {
+        "claim": "Moonshot extracted agentic reasoning and tool use capabilities from Anthropic's models.",
+        "evidence_cited": "Observed capabilities in open-source Chinese models correlate with Anthropic's model strengths.",
+        "evidence_type": "Inferred",
+        "empirical_strength": "Moderate",
+        "speaker_conviction": "Moderate"
+      },
+      {
+        "claim": "Anthropic is accused of training their models using stolen data, similar to the accusations against the Chinese labs.",
+        "evidence_cited": "Allegations of copyright infringement and lawsuits against Anthropic for using pirated books and songs.",
+        "evidence_type": "Anecdotal",
+        "empirical_strength": "Low",
+        "speaker_conviction": "Moderate"
+      }
+    ],
+    "specifics_extracted": "26 million views (Anthropic post), 24,000 fraudulent accounts, 16 million exchanges with Claude, 150,000 exchanges (DeepSeek), 3.4 million exchanges (Moonshot), 13 million exchanges (MiniMax), $1.5 billion lawsuit settlement (Anthropic), 7 million books pirated, $3 billion suit (20,000 songs), 95% of Harry Potter books extracted from Claude model, 2000 H800 chips.",
+    "weak_links": "The assumption that distillation attacks are primarily responsible for the capabilities of the Chinese models, without considering other potential sources of innovation or data.",
+    "counter_consensus": "- The speaker's numbers may be inflated or used out of context, such as when comparing the amount of T3 chat messages with Deepseek's. \n- Open AI and XAI likely use the same copyright infringement tactics to train their data models.\n- Open-source data is often public domain. Distilling information from public-domain data is not considered copyright infringement.",
+    "meta_assessment": "- Frames the issue as a national security concern related to AI development.\n- Presents a critical view of Anthropic's actions and accusations.\n- Highlights the ethical complexities of AI model training and data usage.",
+    "mechanism": {
+      "trigger": "Distillation attacks on Anthropic's models by Chinese AI labs.",
+      "transmission_path": "Fraudulent accounts and proxy services accessing Anthropic's APIs, extracting data and capabilities.",
+      "market_impact": "Potential erosion of American AI leadership, risks to national security.",
+      "secondary_effects": "Increased scrutiny of data usage practices in AI training, potential tightening of export controls."
+    },
+    "disconfirming_signals": [
+      "The Chinese AI labs independently develop innovative AI techniques without relying on distillation attacks.",
+      "Anthropic's models prove resilient against distillation attacks through improved security measures.",
+      "Legal frameworks emerge that clarify acceptable data usage for AI training."
+    ],
+    "historical_parallel": "The Cold War space race, where both the US and the Soviet Union sought to gain technological superiority, including through espionage and reverse engineering.",
+    "one_line_summary": "Anthropic accuses Chinese AI labs of stealing data through distillation attacks to enhance their models, sparking debate about ethical practices and national security.",
+    "emotional_conviction": "The speaker conveys a tone of skepticism towards Anthropic's claims, highlighting accusations of hypocrisy and questioning the validity of the company's report.",
+    "signal_strength": 7,
+    "signal_strength_justification": "The audio provides moderately new information on the details of the alleged distillation attacks and the ensuing controversy, referencing specific data points and claims from Anthropic and counter-arguments from industry experts.",
+    "novelty": 6,
+    "novelty_justification": "The perspective is somewhat novel in its critical examination of Anthropic's actions and the broader ethical issues surrounding AI model training, challenging the mainstream narrative.",
+    "tradeability": 3,
+    "tradeability_justification": "The audio lacks explicit financial advice or metrics, limiting its direct tradeability.",
+    "time_sensitivity": "Monitor",
+    "speaker_context": "The speaker is an analyst who covers tech news and AI.",
+    "claim_plausibility": [
+      "ASSERTED",
+      "ASSERTED",
+      "ASSERTED",
+      "VERIFIED",
+      "INFERRED",
+      "ASSERTED"
+    ],
+    "positioning_risk": "No explicit financial risk mentioned.",
+    "thumbnail": "https://i.ytimg.com/vi/VmEa3fVvZDw/hqdefault.jpg",
+    "video_url": "https://www.youtube.com/watch?v=VmEa3fVvZDw",
+    "category_official": "Artificial Intelligence"
+  },
+  {
+    "episode_title": "Anthropic might be DONE (48 hours left)",
+    "channel": "Wes Roth",
+    "duration_minutes": 25,
+    "topic_domain": "Artificial Intelligence",
+    "podcast_date": "2026-02-26",
+    "processing_date": "2026-02-26",
+    "shelf_life": "Short (days-weeks)",
+    "current_market_context": "AI development is accelerating, with safety policies becoming a critical point of contention between AI companies and governmental bodies.",
+    "executive_use_case": {
+      "signal_type": "Thesis",
+      "positioning_impact": "Monitor",
+      "time_horizon": "Short-term",
+      "confidence_level": "Moderate",
+      "incentive_bias": "Mild, the speaker has a vested interest in AI and related tech.",
+      "consensus_context": "Widely discussed debate on AI ethics and regulation."
+    },
+    "core_claims": [
+      {
+        "claim": "Anthropic's commitment to AI safety is being challenged due to pressure from the U.S. government and the military's interest in utilizing AI for defense purposes.",
+        "evidence_cited": "The Department of Defense is reviewing its relationship with Anthropic, and the Pentagon has urged Anthropic to 'cross the Rubicon' on military AI use.",
+        "evidence_type": "Data-backed",
+        "empirical_strength": "High",
+        "speaker_conviction": "High"
+      },
+      {
+        "claim": "Anthropic updated its Responsible Scaling Policy (RSP 3.0), replacing hard limits with a softer dual condition, indicating a shift in their approach to AI safety.",
+        "evidence_cited": "The new RSP 3.0 replaces the previous categorical commitment with a dual condition considering pausing development only if both leadership and catastrophic risk thresholds are met.",
+        "evidence_type": "Data-backed",
+        "empirical_strength": "High",
+        "speaker_conviction": "High"
+      },
+      {
+        "claim": "The Pentagon has multiple levers, including the Defense Production Act, supply chain risk designation, and contract cancellation, to pressure Anthropic into complying with military AI use demands.",
+        "evidence_cited": "These measures allow the government to force contracts, restrict federal network access, and cancel existing agreements.",
+        "evidence_type": "Data-backed",
+        "empirical_strength": "High",
+        "speaker_conviction": "High"
+      },
+      {
+        "claim": "Anthropic may be preparing to compromise on its ethical red lines due to governmental pressure.",
+        "evidence_cited": "The timing of the RSP 3.0 release, coinciding with a meeting between Anthropic's founder and the Secretary of Defense, suggests a potential shift.",
+        "evidence_type": "Inferred",
+        "empirical_strength": "Moderate",
+        "speaker_conviction": "Moderate"
+      },
+      {
+        "claim": "Wall Street investors are betting on Anthropic's revenue growth despite ethical concerns and potential conflicts with governmental entities.",
+        "evidence_cited": "Anthropic's valuation is $380 billion, and revenue is growing at 10x per year.",
+        "evidence_type": "Data-backed",
+        "empirical_strength": "High",
+        "speaker_conviction": "Asserted"
+      },
+      {
+        "claim": "Anthropic maintains that their policy changes have nothing to do with the recent military conflict or pressure from the Pentagon.",
+        "evidence_cited": "Anthropic insists the policy was created a long time ago.",
+        "evidence_type": "Asserted",
+        "empirical_strength": "Low",
+        "speaker_conviction": "Moderate"
+      }
+    ],
+    "specifics_extracted": "$380 billion valuation, 10x revenue growth, Opus 4.6, RSP 3.0, 1 PM Eastern on Friday, 15-hour task.",
+    "weak_links": "The assumption that Anthropic can maintain its ethical stance in the face of significant governmental pressure and potential legal repercussions.",
+    "counter_consensus": "- Anthropic can successfully navigate the tension between ethical AI development and national security interests.\n- Anthropic can continue its revenue growth while adhering to its original safety policies, demonstrating that profitability and ethical behavior are compatible.",
+    "meta_assessment": "- Focus on a specific company (Anthropic) caught between ethical ideals and government pressure.\n- Framing leans towards the challenges of maintaining ethical principles in a high-stakes environment.\n- High conviction in the core narrative of Anthropic's dilemma.",
+    "mechanism": {
+      "trigger": "The US Department of Defense's increasing interest in leveraging AI technology for military operations, specifically a covert military raid involving Anthropic's technology.",
+      "transmission_path": "This interest creates a conflict between Anthropic's stated AI safety policies and the demands of the US government, communicated through official channels and meetings.",
+      "market_impact": "Potential compromise of Anthropic's AI safety policies to align with governmental demands, impacting their reputation and potentially leading to shifts in market positioning.",
+      "secondary_effects": "Other AI companies might face similar pressures, creating a broader trend of ethical compromises in the AI industry."
+    },
+    "disconfirming_signals": [
+      "Anthropic publicly reaffirms its original AI safety policies and refuses to comply with military demands.",
+      "Anthropic experiences a significant drop in valuation due to ethical concerns, signaling investor disapproval of potential compromises.",
+      "The US government eases its pressure on Anthropic and allows the company to maintain its ethical stance."
+    ],
+    "historical_parallel": "The historical tension between technological innovation and military application, seen in the development of nuclear weapons during the Cold War, where ethical considerations were often secondary to national security concerns.",
+    "one_line_summary": "Anthropic's commitment to AI safety is under severe strain as the U.S. military seeks to leverage its technology, potentially forcing a compromise of the company's founding principles.",
+    "emotional_conviction": "Concerned and analytical, highlighting the difficult position Anthropic faces while avoiding overly dramatic language.",
+    "signal_strength": 8,
+    "signal_strength_justification": "High signal strength due to the detailed breakdown of Anthropic's situation and the concrete actions taken by the US government.",
+    "novelty": 6,
+    "novelty_justification": "Moderate novelty, as the ethical considerations of AI are discussed but the specific focus on Anthropic's case provides a unique perspective.",
+    "tradeability": 5,
+    "tradeability_justification": "Moderate tradeability due to the potential for shifts in Anthropic's valuation and market position based on its response to governmental pressure.",
+    "time_sensitivity": "Immediate",
+    "speaker_context": "Wes Roth covers topics related to finance and technology on his channel.",
+    "claim_plausibility": [
+      "ASSERTED",
+      "ASSERTED",
+      "ASSERTED",
+      "INFERRED",
+      "ASSERTED",
+      "ASSERTED"
+    ],
+    "positioning_risk": "Ethical concerns could lead to negative public perception and affect Anthropic's brand value.",
+    "thumbnail": "https://i.ytimg.com/vi/qMWeIXdyE2Y/hqdefault.jpg",
+    "video_url": "https://www.youtube.com/watch?v=qMWeIXdyE2Y",
+    "category_official": "Artificial Intelligence"
+  },
+  {
+    "episode_title": "Trump\u2019s \u201cFORGETTABLE\u201d Speech Was a DISASTER and DANGEROUS",
+    "channel": "Raging Moderates",
+    "duration_minutes": 56,
+    "topic_domain": "Politics",
+    "podcast_date": "2026-02-26",
+    "processing_date": "2026-02-26",
+    "shelf_life": "Short (days-weeks)",
+    "current_market_context": "N/A",
+    "executive_use_case": {
+      "signal_type": "Sentiment",
+      "positioning_impact": "Monitor",
+      "time_horizon": "Short-term",
+      "confidence_level": "Moderate",
+      "incentive_bias": "No, the speakers aim to provide unbiased commentary.",
+      "consensus_context": "Mainstream"
+    },
+    "core_claims": [
+      {
+        "claim": "Trump's State of the Union address offered few new policies and was filled with political attacks, containing multiple false claims.",
+        "evidence_cited": "Fact checkers flagging multiple false claims in the speech.",
+        "evidence_type": "Data-backed",
+        "empirical_strength": "High",
+        "speaker_conviction": "High"
+      },
+      {
+        "claim": "Trump's remarks diminishing the US Women's Hockey team are cheap and diminish America and the Olympics.",
+        "evidence_cited": "Reference to Trump's comments during the State of the Union address.",
+        "evidence_type": "Anecdotal",
+        "empirical_strength": "Low",
+        "speaker_conviction": "High"
+      },
+      {
+        "claim": "Trump's State of the Union address largely ignored the concerns and realities faced by swing voters and independents.",
+        "evidence_cited": "Research groups tracking sentiment during the speech.",
+        "evidence_type": "Data-backed",
+        "empirical_strength": "Moderate",
+        "speaker_conviction": "High"
+      },
+      {
+        "claim": "The Democratic response to the State of the Union, particularly Spangler's, was effective, emphasizing Trump's corruption and enrichment.",
+        "evidence_cited": "Positive commentary on Spangler's approach and messaging.",
+        "evidence_type": "Anecdotal",
+        "empirical_strength": "Low",
+        "speaker_conviction": "Moderate"
+      },
+      {
+        "claim": "The US military's ultimatum to Anthropic over AI usage restrictions is an overstep and against private market principles.",
+        "evidence_cited": "Discussion of the Pentagon's actions and Anthropic's stated goals.",
+        "evidence_type": "Assumed",
+        "empirical_strength": "Low",
+        "speaker_conviction": "High"
+      },
+      {
+        "claim": "The government is trying to tell companies how to behave and what their policies are.",
+        "evidence_cited": "Government is using the defense production act.",
+        "evidence_type": "Assumed",
+        "empirical_strength": "Low",
+        "speaker_conviction": "High"
+      }
+    ],
+    "specifics_extracted": "No explicit specifics mentioned.",
+    "weak_links": "The effectiveness of the Democratic response may be limited by its lack of broad appeal and inability to match the spectacle of the State of the Union.",
+    "counter_consensus": "- Some may argue that Trump's speech resonated with his base and reaffirmed their support.\n- Alternative viewpoints suggest that government intervention is sometimes necessary to ensure ethical AI development.",
+    "meta_assessment": "- The speakers are highly critical of Trump and his policies.\n- They advocate for increased awareness of political and economic issues.\n- The tone is assertive, expressing strong opinions about the current state of American politics.",
+    "mechanism": {
+      "trigger": "Trump's State of the Union address and the Pentagon's actions regarding Anthropic.",
+      "transmission_path": "Media coverage and public discourse.",
+      "market_impact": "Potential shifts in political sentiment and government influence on private sector policies.",
+      "secondary_effects": "Increased polarization and further erosion of trust in institutions."
+    },
+    "disconfirming_signals": [
+      "Continued strong support for Trump among his base.",
+      "Government backing down from the threat to Anthropic",
+      "Positive bipartisan response to future Trump speeches"
+    ],
+    "historical_parallel": "N/A",
+    "one_line_summary": "Trump's State of the Union address was a divisive and largely ineffective performance, while the government's actions against Anthropic raise concerns about overreach and interference in the private sector.",
+    "emotional_conviction": "Speakers display high conviction and strong negative sentiment towards Trump and what they perceive as government overreach, balanced with appreciation for nuanced policy responses.",
+    "signal_strength": 6,
+    "signal_strength_justification": "Moderate new information; insightful but not data-heavy.",
+    "novelty": 5,
+    "novelty_justification": "Conventional liberal political commentary.",
+    "tradeability": 2,
+    "tradeability_justification": "Low tradeability; predominantly political commentary.",
+    "time_sensitivity": "Immediate",
+    "speaker_context": "The speakers present themselves as moderate political commentators with a liberal leaning.",
+    "claim_plausibility": [
+      "HEADLINE RISK",
+      "ASSERTED",
+      "INFERRED",
+      "VERIFIED",
+      "INFERRED",
+      "INFERRED"
+    ],
+    "positioning_risk": "N/A",
+    "thumbnail": "https://i.ytimg.com/vi/fS63-flw5x4/hqdefault.jpg",
+    "video_url": "https://www.youtube.com/watch?v=fS63-flw5x4",
+    "category_official": "Politics"
+  }
+]

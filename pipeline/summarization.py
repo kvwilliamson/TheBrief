@@ -11,6 +11,7 @@ from langchain_core.output_parsers import JsonOutputParser
 from langchain_google_genai import ChatGoogleGenerativeAI
 from langchain_openai import ChatOpenAI
 from langchain_core.exceptions import OutputParserException
+from langchain_core.messages import HumanMessage
 from pydantic import BaseModel, Field
 from typing import List, Optional, Dict, Any
 from google import genai
@@ -97,9 +98,41 @@ def get_llm():
             openai_api_key=os.getenv("OPENAI_API_KEY")
         )
 
+def get_official_categories():
+    try:
+        channels_path = os.path.join(os.getcwd(), "channels.json")
+        with open(channels_path, "r") as f:
+            data = json.load(f)
+            # Sort alphabetically by default if no preferred order
+            found_cats = {c.get("category") for c in data.get("channels", []) if c.get("category")}
+            return sorted(list(found_cats))
+    except Exception as e:
+        logger.warning(f"Could not load official categories: {e}")
+        return []
+
+def normalize_channel_name(name: str) -> str:
+    """Removes markdown bold markers and strips whitespace for robust matching."""
+    if not name:
+        return ""
+    # Standardize common channel quirks (like bold/white)
+    clean = name.replace("**", "").strip()
+    return clean
+
+def get_channel_category_map():
+    """Returns a dictionary mapping normalized channel names to their official categories."""
+    try:
+        channels_path = os.path.join(os.getcwd(), "channels.json")
+        with open(channels_path, "r") as f:
+            data = json.load(f)
+        
+        ch_map = {normalize_channel_name(c["name"]): c.get("category", "Other") for c in data.get("channels", [])}
+        return ch_map
+    except Exception as e:
+        logger.warning(f"Could not load channel category map: {e}")
+        return {}
+
 def summarize_transcript(video, llm):
     # Start briefing
-    
     parser = JsonOutputParser(pydantic_object=BriefSchema)
     
     # 1. Upload Audio to Gemini
@@ -109,7 +142,6 @@ def summarize_transcript(video, llm):
         return None
         
     client = genai.Client(api_key=os.getenv("GOOGLE_AI_API_KEY"))
-    # logger.info(f"Uploading {audio_path}...")
     file_handle = client.files.upload(file=audio_path)
     
     # Wait for processing
@@ -124,59 +156,64 @@ def summarize_transcript(video, llm):
     logger.info(f"Generating Brief for {video['title']} ({video['id']})...")
     
     # --- Profile-Driven Customization ---
+    official_cats = get_official_categories()
+    # We strictly use the category from the video source of truth (channels.json)
     category = video.get("category", "Other")
     profile = get_profile_for_category(category)
     features = profile.get("features", {})
     rubric_config = profile.get("rubric", {})
     
-    # Construct Calculations Block
-    calcs_block = "QUANTITATIVE SCORING — PROFESSIONAL RUBRIC:\nRate items (1-10) using these DERIVED formulas:\n"
-    if rubric_config.get("signal"):
-        calcs_block += f"1. {rubric_config['signal']}\n"
-    if rubric_config.get("tradeability"):
-        calcs_block += f"2. {rubric_config['tradeability']}\n"
-    calcs_block += "JUSTIFICATION: Provide one sentence per score referencing components of the formula above.\n\n"
-    
-    # 2. Build the LLM Chain natively passing the file_handle
+    # 2. Build the LLM Chain
     today_str = datetime.now().strftime("%Y-%m-%d")
     template = (
         "You are an expert intelligence analyst.\n"
         "Generate a high-utility, educational, and decision-oriented Intelligence Brief directly from the attached audio.\n\n"
+        "### 🛡️ INDEPENDENT TOPIC DOMINANCE RULE:\n"
+        "This is an ISOLATED analysis. Your EXCLUSIVE source of truth is the ATTACHED AUDIO.\n"
+        "1. IGNORE the general theme of this channel or other videos.\n"
+        "2. If the audio is about Artificial Intelligence, summarize AI. If it is about Cooking, summarize Cooking.\n"
+        "3. NEVER hallucinate financial metrics (like 'dark pools' or 'short interest') unless they are explicitly discussed in THIS specific audio file.\n"
+        "4. The current Title {title} and Channel {channel} are for reference only. THE AUDIO WINS ANY CONTRADICTIONS.\n\n"
         "### BKM CORE INSTRUCTIONS:\n\n"
+        "TOPIC DOMAIN RESTRICTION:\n"
+        f"Identify the domain. You MUST categorize this content into strictly ONE of the FOLLOWING official domains: {', '.join(official_cats)}\n"
+        "If the audio is NOT about finance, DO NOT use a financial profile.\n\n"
         "TIMESTAMP & SHELF LIFE:\n"
         "- Record the episode publication date and today's processing date: {today}.\n"
-        "- Assign a Shelf Life: Short (days-weeks), Medium (weeks-months), Long (structural).\n"
-        "- Provide a brief 'current_market_context' snapshot relative to {today} (assets/trends).\n\n"
+        "- Assign a Shelf Life: Short (days-weeks), Medium (weeks-months), Long (structural).\n\n"
     )
+    
+    # Context-Aware Rubric
+    if "Financial" in category or "Metals" in category:
+        calcs_block = "QUANTITATIVE SCORING — PROFESSIONAL RUBRIC:\nRate items (1-10) using these DERIVED formulas:\n"
+        if rubric_config.get("signal"):
+            calcs_block += f"1. {rubric_config['signal']}\n"
+        if rubric_config.get("tradeability"):
+            calcs_block += f"2. {rubric_config['tradeability']}\n"
+        calcs_block += "JUSTIFICATION: Provide one sentence per score referencing components of the formula above.\n\n"
+    else:
+        calcs_block = "INTELLIGENCE SCORING:\n1. SIGNAL STRENGTH (1-10): How much NEW information is provided?\n2. NOVELTY (1-10): How unique is this perspective?\n"
     
     if features.get("specifics"):
         template += (
             f"SPECIFICS EXTRACTION ({features['specifics']}):\n"
-            "- Extract ALL relevant technical/financial targets or benchmarks verbatim.\n"
+            "- Extract ALL relevant technical targets, benchmarks, or named entities verbatim.\n"
             "- CRITICAL: If no specifics were mentioned, state: 'No explicit specifics mentioned.'\n\n"
         )
     
     template += (
         "CLAIM PLAUSIBILITY CHECK — PER CLAIM:\n"
-        "For each core claim, provide a plausibility classification.\n"
-        "Classifications: VERIFIED, ASSERTED, INFERRED, HEADLINE RISK.\n"
-        "- ⚠️ ANTI-HOAXING RULE: Punish precision. Specific quantitative claims (e.g., \"20% target\") MUST remain ASSERTED unless confirmed by public record.\n\n"
+        "For each core claim, provide a plausibility classification: VERIFIED, ASSERTED, INFERRED, HEADLINE RISK.\n"
+        "- ⚠️ ANTI-HOAXING RULE: Specific quantitative claims MUST remain ASSERTED unless confirmed by the speaker's data.\n\n"
         f"{calcs_block}"
         "EVIDENCE DISAMBIGUATION — CRITICAL:\n"
-        "- Distinguish between Evidence (empirical) and Conviction (rhetorical).\n"
-        "- 'Assumed' or 'Anecdotal' evidence MUST result in 'Low' or 'Moderate' Empirical Strength, even if Speaker Conviction is 'High'.\n\n"
-        "INTELLIGENCE PROFILE — CONCISION RULES:\n"
-        "- Speaker Context: Maximum 2 sentences. Verifiable facts only. If financial interest exists, state it FIRST.\n"
-        "- Meta Assessment: Max 3 bullets on framing, conviction, and incentive bias.\n\n"
-        f"MATERIALITY ANCHORING ({features.get('mechanism', 'Mechanism')}):\n"
-        "- This section MUST open with a quantified statement or first-principles logic anchor.\n"
-        "- Stress-test the underlying logic/architecture; do not just restate the story.\n\n"
+        "- Distinguish between Evidence (empirical) and Conviction (rhetorical).\n\n"
         "STRICT CONSTRAINTS:\n"
         "1. Tone: Professional intelligence memo. No hype, no emojis.\n"
         "2. Max word count: 400-600 words.\n"
         "3. Output MUST conform exactly to the JSON schema.\n\n"
-        "Video details:\nTitle: {title}\nChannel: {channel}\nDuration: {duration_minutes} minutes\nToday: {today}\n\n"
-        "Format instructions:\n{format_instructions}\n\n"
+        "Video metadata for identification:\nTitle: {title}\nChannel: {channel}\nToday: {today}\n\n"
+        "Format instructions:\n{format_instructions}\n"
     )
     
     prompt = PromptTemplate(
@@ -186,21 +223,34 @@ def summarize_transcript(video, llm):
     )
     
     try:
-        # Langchain Google GenAI accepts a list of [prompt_text, gemini_file_uri]
+        # 0. Format the prompt string
         formatted_prompt = prompt.format(
             title=video.get("title", ""),
             channel=video.get("channel", ""),
             duration_minutes=video.get("duration_minutes", 0),
-            tags=", ".join(video.get("tags", [])),
             today=today_str
         )
         
-        # Invoke native multi-modal model
-        response = llm.invoke([formatted_prompt, file_handle.uri])
+        # 1. Build Native Google GenAI Request
+        # The official SDK is more robust for audio than the LangChain wrapper
+        response = client.models.generate_content(
+            model="gemini-2.0-flash",
+            contents=[
+                formatted_prompt,
+                file_handle
+            ],
+            config={
+                "response_mime_type": "application/json",
+            }
+        )
         
-        # Parse the JSON response manually since we bypassed the standard chain
+        # Parse the JSON response
         try:
-            result = parser.parse(response.content)
+            import json
+            result = json.loads(response.text)
+            # Ensure the response topic_domain is forced to the official video category
+            # to prevent LLM hallucinations from causing 'Other' grouping.
+            result['topic_domain'] = video.get('category', result.get('topic_domain'))
             return result
         except OutputParserException as e:
             logger.error(f"Schema parsing error for {video['title']}: {e}")
@@ -458,6 +508,8 @@ def run_summarization():
             v_res, format_res = future.result()
             if v_res and format_res:
                 processed_queue.append(v_res)
+                # CRITICAL: Always use the video's official category for grouping
+                # to prevent AI hallucinations from moving videos to 'Other'.
                 cat = v_res.get('category', 'Other')
                 grouped_briefs[cat].append((v_res, format_res))
                 
@@ -500,20 +552,17 @@ def run_summarization():
     summary_html += f"<li><strong>Total Intelligence Assets:</strong> {total_videos} videos</li>"
     summary_html += f"<li><strong>Total Subject Time:</strong> {total_time:.1f} minutes</li></ul></div>"
 
-    cat_order = [
-        "General Financial Investing and Speculation",
-        "Precious Metals",
-        "Artificial Intelligence",
-        "Health and Nutrition",
-        "Philosophy and Thoughtfulness",
-        "Other"
-    ]
+    official_cats = get_official_categories()
     
     # --- QUICK SCAN INDEX ---
     summary_md += "#### 📌 Quick-Scan Index\n"
     summary_html += f"<h2 style='color: #202124; font-size: 20px; border-bottom: 1px solid #eee; padding-bottom: 10px; margin-bottom: 20px; font-weight: bold;'>📌 Quick-Scan Index</h2>"
     
-    available_cats = sorted(grouped_briefs.keys(), key=lambda x: cat_order.index(x) if x in cat_order else 99)
+    # Filter and sort by official categories
+    available_cats = [c for c in official_cats if c in grouped_briefs]
+    # Add 'Other' if it exists and wasn't in official
+    if "Other" in grouped_briefs and "Other" not in official_cats:
+        available_cats.append("Other")
     
     for cat in available_cats:
         summary_md += f"\n<span style='color:#1A73E8; font-size: 1.2em;'><b>{cat}</b></span>\n"
@@ -544,7 +593,7 @@ def run_summarization():
     
     for cat in available_cats:
         final_md += f"# 📁 Sector: {cat}\n\n"
-        final_html += f"<h1 style='background: #1A73E8; color: white; padding: 12px; border-radius: 4px; font-size: 20px; margin-bottom: 30px; font-weight: bold;'>Sector: {cat}</h1>"
+        final_html += f"<h1 style='background: #1A73E8; color: white; padding: 12px; border-radius: 4px; font-size: 20px; margin-bottom: 30px; font-weight: bold;'>{cat}</h1>"
         for _, (md, html_comp) in grouped_briefs[cat]:
             final_md += md
             final_html += html_comp
@@ -566,9 +615,9 @@ def run_summarization():
     for v in processed_queue:
         if v.get('brief'):
             b = v.get('brief')
-            # Inject metadata for dashboard parity
             b['thumbnail'] = v.get('thumbnail', '')
             b['video_url'] = v.get('url', '')
+            b['category_official'] = v.get('category', 'Other')
             enriched_briefs.append(b)
 
     with open(json_filename, "w") as f:

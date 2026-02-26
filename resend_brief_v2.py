@@ -6,7 +6,7 @@ from dotenv import load_dotenv
 import smtplib
 from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
-from pipeline.summarization import format_html, get_profile_for_category
+from pipeline.summarization import format_html, get_profile_for_category, get_official_categories
 
 # Setup minimal logging
 logging.basicConfig(level=logging.INFO)
@@ -25,23 +25,23 @@ def resend_full_html_brief():
     with open(json_path, "r") as f:
         briefs = json.load(f)
 
-    # Re-construct the HTML exactly as the pipeline does
-    cat_order = [
-        "General Financial Investing and Speculation",
-        "Precious Metals",
-        "Artificial Intelligence",
-        "Health and Nutrition",
-        "Philosophy and Thoughtfulness",
-        "Other"
-    ]
+    from pipeline.summarization import get_channel_category_map, normalize_channel_name
+    ch_map = get_channel_category_map()
     
-    # Sort into categories
+    # Re-construct the HTML exactly as the pipeline does
+    # Sort into categories using the official source
+    official_cats = get_official_categories()
     from collections import defaultdict
     grouped = defaultdict(list)
     for b in briefs:
-        # Note: the JSON stores the brief object, we need to map back to category
-        # In summarization.py we injected thumbnail and video_url into the brief object
-        cat = b.get('topic_domain', 'Other')
+        # CRITICAL: Recover category from official source mapping based on channel name
+        # We normalize the name (strip ** and whitespace) to ensure a match.
+        channel_name = normalize_channel_name(b.get('channel'))
+        cat = ch_map.get(channel_name) or b.get('category_official')
+        
+        # Final safety check
+        if not cat or cat not in official_cats:
+            cat = "Other"
         grouped[cat].append(b)
 
     total_videos = len(briefs)
@@ -61,7 +61,9 @@ def resend_full_html_brief():
     # --- QUICK SCAN INDEX (Grouped + Small Thumbnails) ---
     html += f"<h2 style='color: #202124; font-size: 20px; border-bottom: 1px solid #eee; padding-bottom: 10px; margin-bottom: 20px; font-weight: bold;'>📌 Quick-Scan Index</h2>"
     
-    available_cats = sorted(grouped.keys(), key=lambda x: cat_order.index(x) if x in cat_order else 99)
+    available_cats = [c for c in official_cats if c in grouped]
+    if "Other" in grouped and "Other" not in official_cats:
+        available_cats.append("Other")
 
     for cat in available_cats:
         html += f"<div style='margin-top: 25px; margin-bottom: 15px; color: #1A73E8; font-size: 16px; font-weight: bold;'>{cat}</div>"
@@ -80,7 +82,7 @@ def resend_full_html_brief():
 
     # --- DETAILED BRIEFS SECTION (Grouped) ---
     for cat in available_cats:
-        html += f"<h1 style='background: #1A73E8; color: white; padding: 12px; border-radius: 4px; font-size: 20px; margin-bottom: 30px; font-weight: bold;'>Sector: {cat}</h1>"
+        html += f"<h1 style='background: #1A73E8; color: white; padding: 12px; border-radius: 4px; font-size: 20px; margin-bottom: 30px; font-weight: bold;'>{cat}</h1>"
         for b in grouped[cat]:
             html += format_html(b, b.get('video_url', ''), b.get('thumbnail', ''))
     
