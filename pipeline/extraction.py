@@ -9,26 +9,21 @@ import random
 logger = logging.getLogger(__name__)
 
 def get_ffmpeg_path():
-    """Locate the ffmpeg binary from the local static-ffmpeg package."""
-    # Check common locations in venv
-    venv_site_packages = os.path.join(os.getcwd(), "venv", "lib", "python3.13", "site-packages")
-    local_path = os.path.join(venv_site_packages, "static_ffmpeg", "bin", "darwin_arm64", "ffmpeg")
-    
-    if os.path.exists(local_path):
-        return local_path
-        
-    # Fallback to searching if venv path is different or not in cwd
+    """Locate the ffmpeg binary, prioritizing static-ffmpeg then system path."""
     try:
         import static_ffmpeg
-        # static_ffmpeg doesn't have a direct "get_path" in some versions, 
-        # but we can try to find it via its module location
         base = os.path.dirname(static_ffmpeg.__file__)
-        search_path = os.path.join(base, "bin", "darwin_arm64", "ffmpeg")
-        if os.path.exists(search_path):
-            return search_path
+        # Platform-specific subdirectories used by static-ffmpeg
+        platform_bins = [
+            os.path.join(base, "bin", "darwin_arm64", "ffmpeg"),
+            os.path.join(base, "bin", "linux_x64", "ffmpeg"),
+            os.path.join(base, "bin", "win32_x64", "ffmpeg.exe")
+        ]
+        for path in platform_bins:
+            if os.path.exists(path):
+                return path
     except ImportError:
         pass
-        
     return "ffmpeg" # Fallback to system path
 
 def extract_audio_for_video(video):
@@ -48,12 +43,17 @@ def extract_audio_for_video(video):
         video["audio_path"] = final_output_path
         return video
         
-    # Log start is handled by caller
-    
+    # Discover yt-dlp path
+    # Try venv first (local), then system path (GitHub Actions/Global)
+    ytdlp_path = "yt-dlp"
+    potential_venv = os.path.join(os.getcwd(), "venv", "bin", "yt-dlp")
+    if os.path.exists(potential_venv):
+        ytdlp_path = potential_venv
+
     ffmpeg_path = get_ffmpeg_path()
     
     command = [
-        os.path.join(os.getcwd(), "venv", "bin", "yt-dlp"), # Use venv path explicitly
+        ytdlp_path,
         "-x",
         "--audio-format", "mp3",
         "--postprocessor-args", "-ar 16000 -ac 1",

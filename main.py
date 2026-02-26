@@ -43,10 +43,7 @@ def main():
     yt_key = os.getenv("YOUTUBE_API_KEY")
     if not yt_key:
         logging.error("CRITICAL: YOUTUBE_API_KEY is missing or empty!")
-        logging.info(f"Environment keys available: {list(os.environ.keys())}")
         sys.exit(1)
-    else:
-        logging.info(f"YOUTUBE_API_KEY validated (len: {len(yt_key)})")
         
     google_key = os.getenv("GOOGLE_AI_API_KEY")
     openai_key = os.getenv("OPENAI_API_KEY")
@@ -54,8 +51,6 @@ def main():
     if not google_key and not openai_key:
         logging.error("CRITICAL: Neither GOOGLE_AI_API_KEY nor OPENAI_API_KEY found!")
         sys.exit(1)
-    
-    logging.info(f"LLM Keys: Google({ 'Set' if google_key else 'Missing' }), OpenAI({ 'Set' if openai_key else 'Missing' })")
 
     # Phase 1
     logging.info("\n--- Phase 1: Discovery ---")

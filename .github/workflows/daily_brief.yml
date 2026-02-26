@@ -9,10 +9,6 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: write
-    env:
-      YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
-      OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
-      GOOGLE_AI_API_KEY: ${{ secrets.GOOGLE_AI_API_KEY }}
     steps:
       - uses: actions/checkout@v4
       
@@ -28,23 +24,11 @@ jobs:
           pip install -r requirements.txt
           
       - name: Run pipeline
-        run: |
-          echo "Diagnostic: Checking secret visibility..."
-          if [ -z "$YOUTUBE_API_KEY" ]; then 
-            echo "ALERT: Key missing from 'secrets'. Checking 'vars' pool..."
-            export YOUTUBE_API_KEY="${{ vars.YOUTUBE_API_KEY }}"
-            export OPENAI_API_KEY="${{ vars.OPENAI_API_KEY }}"
-            export GOOGLE_AI_API_KEY="${{ vars.GOOGLE_AI_API_KEY }}"
-          fi
-          
-          if [ -z "$YOUTUBE_API_KEY" ]; then
-            echo "FATAL: YOUTUBE_API_KEY could not be found in 'secrets' OR 'vars' pool."
-            echo "Please ensure the name is EXACTLY 'YOUTUBE_API_KEY' in GitHub Settings."
-            exit 1
-          fi
-          
-          echo "Key found! Proceeding with pipeline..."
-          python3 main.py
+        run: python3 main.py
+        env:
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          GOOGLE_AI_API_KEY: ${{ secrets.GOOGLE_AI_API_KEY }}
           
       - name: Commit artifacts (Data db and Briefs)
         run: |
