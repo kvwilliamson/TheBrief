@@ -125,6 +125,13 @@ def run_extraction():
         
     elapsed = time.time() - start_time
     logger.info(f"Extraction complete. {len(processed_queue)} audio files ready. (Time: {elapsed:.1f}s)")
+    
+    # Fail-safe: If we had a queue but got 0 results, wait and error out
+    if queue and not processed_queue:
+        logger.error("CRITICAL: Extraction phase resulted in 0 audio files despite having a queue. Possible YouTube Bot Block.")
+        import sys
+        sys.exit(1)
+        
     return processed_queue
 
 if __name__ == "__main__":
