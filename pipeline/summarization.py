@@ -12,9 +12,10 @@ from langchain_google_genai import ChatGoogleGenerativeAI
 from langchain_openai import ChatOpenAI
 from langchain_core.exceptions import OutputParserException
 from pydantic import BaseModel, Field
-from typing import List, Optional
+from typing import List, Optional, Dict, Any
 from google import genai
 import time
+from pipeline.profiles import get_profile_for_category
 
 logger = logging.getLogger(__name__)
 
@@ -52,25 +53,25 @@ class BriefSchema(BaseModel):
     current_market_context: str = Field(description="Brief snapshot of market at processing date based on current date knowledge")
     executive_use_case: ExecutiveUseCase
     core_claims: List[Claim] = Field(description="Combined core claims and forward projections (Max 6)")
-    specifics_extracted: str = Field(description="All numeric references verbatim (levels, targets, timeframes, allocations). Use 'No explicit numbers mentioned' if none.")
+    specifics_extracted: Optional[str] = Field(description="Verbatim numbers/targets. Use 'No explicit targets mentioned' if none or if qualitative topic.")
     weak_links: str = Field(description="Identified failure points in the thesis causal chain")
     counter_consensus: str = Field(description="2-3 bullets on mainstream/institutional alternative view")
-    meta_assessment: Optional[str] = Field(description="Framing pattern, conviction level, emotional loading. Max 3 bullets.")
-    mechanism: Mechanism = Field(description="Plain-language mechanism summary. Stress-test the logic, don't just restate it.")
+    meta_assessment: Optional[str] = Field(description="Framing pattern, conviction level. Max 3 bullets.")
+    mechanism: Mechanism = Field(description="Stress-test the logic or describe the framework/pathway.")
     disconfirming_signals: List[str] = Field(description="Max 3 observable disconfirming signals.")
-    historical_parallel: str = Field(description="Optional comparison to a historical parallel.")
+    historical_parallel: Optional[str] = Field(description="Optional comparison to a historical parallel.")
     one_line_summary: str = Field(description="A single sentence summarizes the core thesis.")
-    emotional_conviction: str = Field(description="Summary of the speaker's tone, inflection, and underlying hesitation or conviction.")
-    signal_strength: Optional[int] = Field(default=None, ge=1, le=10, description="Score 1-10 per rubric.")
-    signal_strength_justification: Optional[str] = Field(description="One sentence referencing which rubric tier applied and why.")
-    novelty: Optional[int] = Field(default=None, ge=1, le=10, description="Score 1-10 per rubric.")
-    novelty_justification: Optional[str] = Field(description="One sentence referencing which rubric tier applied and why.")
-    tradeability: Optional[int] = Field(default=None, ge=1, le=10, description="Score 1-10 per rubric. Long-horizon MUST be 1-3.")
-    tradeability_justification: Optional[str] = Field(description="One sentence referencing which rubric tier applied and why.")
+    emotional_conviction: str = Field(description="Summary of the speaker's tone and underlying conviction.")
+    signal_strength: Optional[int] = Field(default=None, ge=1, le=10, description="Score 1-10 per profile rubric.")
+    signal_strength_justification: Optional[str] = Field(description="One sentence referencing rubric and why.")
+    novelty: Optional[int] = Field(default=None, ge=1, le=10, description="Score 1-10 per profile rubric.")
+    novelty_justification: Optional[str] = Field(description="One sentence referencing rubric and why.")
+    tradeability: Optional[int] = Field(default=None, ge=1, le=10, description="Score 1-10 per profile rubric.")
+    tradeability_justification: Optional[str] = Field(description="One sentence referencing rubric and why.")
     time_sensitivity: Optional[str] = Field(description="Strictly: Immediate, Monitor, Long-term")
     speaker_context: Optional[str] = Field(description="Known background or financial interest. Max 2 sentences.")
-    claim_plausibility: List[str] = Field(description="Per-claim plausibility classification. Format: '[Claim] — [Classification] — [Narrative/Empirical sentence]'")
-    positioning_risk: str = Field(description="Strictly one of: Crowded, Neutral, Underowned, Unknown. Only if financial topic.")
+    claim_plausibility: List[str] = Field(description="Per-claim plausibility classification.")
+    positioning_risk: Optional[str] = Field(description="Only if financial topic.")
 def get_llm():
     model_choice = os.getenv("SUMMARY_MODEL", "gemini").lower()
     
@@ -122,57 +123,65 @@ def summarize_transcript(video, llm):
         
     logger.info(f"Generating Brief for {video['title']} ({video['id']})...")
     
+    # --- Profile-Driven Customization ---
+    category = video.get("category", "Other")
+    profile = get_profile_for_category(category)
+    features = profile.get("features", {})
+    rubric_config = profile.get("rubric", {})
+    
+    # Construct Calculations Block
+    calcs_block = "QUANTITATIVE SCORING — PROFESSIONAL RUBRIC:\nRate items (1-10) using these DERIVED formulas:\n"
+    if rubric_config.get("signal"):
+        calcs_block += f"1. {rubric_config['signal']}\n"
+    if rubric_config.get("tradeability"):
+        calcs_block += f"2. {rubric_config['tradeability']}\n"
+    calcs_block += "JUSTIFICATION: Provide one sentence per score referencing components of the formula above.\n\n"
+    
     # 2. Build the LLM Chain natively passing the file_handle
     today_str = datetime.now().strftime("%Y-%m-%d")
+    template = (
+        "You are an expert intelligence analyst.\n"
+        "Generate a high-utility, educational, and decision-oriented Intelligence Brief directly from the attached audio.\n\n"
+        "### BKM CORE INSTRUCTIONS:\n\n"
+        "TIMESTAMP & SHELF LIFE:\n"
+        "- Record the episode publication date and today's processing date: {today}.\n"
+        "- Assign a Shelf Life: Short (days-weeks), Medium (weeks-months), Long (structural).\n"
+        "- Provide a brief 'current_market_context' snapshot relative to {today} (assets/trends).\n\n"
+    )
+    
+    if features.get("specifics"):
+        template += (
+            f"SPECIFICS EXTRACTION ({features['specifics']}):\n"
+            "- Extract ALL relevant technical/financial targets or benchmarks verbatim.\n"
+            "- CRITICAL: If no specifics were mentioned, state: 'No explicit specifics mentioned.'\n\n"
+        )
+    
+    template += (
+        "CLAIM PLAUSIBILITY CHECK — PER CLAIM:\n"
+        "For each core claim, provide a plausibility classification.\n"
+        "Classifications: VERIFIED, ASSERTED, INFERRED, HEADLINE RISK.\n"
+        "- ⚠️ ANTI-HOAXING RULE: Punish precision. Specific quantitative claims (e.g., \"20% target\") MUST remain ASSERTED unless confirmed by public record.\n\n"
+        f"{calcs_block}"
+        "EVIDENCE DISAMBIGUATION — CRITICAL:\n"
+        "- Distinguish between Evidence (empirical) and Conviction (rhetorical).\n"
+        "- 'Assumed' or 'Anecdotal' evidence MUST result in 'Low' or 'Moderate' Empirical Strength, even if Speaker Conviction is 'High'.\n\n"
+        "INTELLIGENCE PROFILE — CONCISION RULES:\n"
+        "- Speaker Context: Maximum 2 sentences. Verifiable facts only. If financial interest exists, state it FIRST.\n"
+        "- Meta Assessment: Max 3 bullets on framing, conviction, and incentive bias.\n\n"
+        f"MATERIALITY ANCHORING ({features.get('mechanism', 'Mechanism')}):\n"
+        "- This section MUST open with a quantified statement or first-principles logic anchor.\n"
+        "- Stress-test the underlying logic/architecture; do not just restate the story.\n\n"
+        "STRICT CONSTRAINTS:\n"
+        "1. Tone: Professional intelligence memo. No hype, no emojis.\n"
+        "2. Max word count: 400-600 words.\n"
+        "3. Output MUST conform exactly to the JSON schema.\n\n"
+        "Video details:\nTitle: {title}\nChannel: {channel}\nDuration: {duration_minutes} minutes\nToday: {today}\n\n"
+        "Format instructions:\n{format_instructions}\n\n"
+    )
+    
     prompt = PromptTemplate(
-        template="You are an expert macro intelligence analyst for a professional trading desk.\n"
-             "Generate a high-utility, decision-oriented Intelligence Brief directly from the attached audio.\n\n"
-             "### BKM CORE INSTRUCTIONS:\n\n"
-             "TIMESTAMP & SHELF LIFE:\n"
-             "- Record the episode publication date and today's processing date: {today}.\n"
-             "- Assign a Shelf Life: Short (days-weeks), Medium (weeks-months), Long (structural).\n"
-             "- Provide a brief 'current_market_context' snapshot regarding major macro indices or assets relevant to the thesis as of {today}.\n\n"
-             "SPECIFICS EXTRACTION:\n"
-             "- Extract ALL numeric references verbatim: price targets, key levels, % move projections, timeframes, allocation guidance. Format as a list.\n"
-             "- CRITICAL: If no specific numbers were mentioned, state: 'No explicit price targets, levels, or timeframes were mentioned. Absence of specificity is noted as a signal of thesis vagueness.'\n\n"
-             "CLAIM PLAUSIBILITY CHECK — PER CLAIM:\n"
-             "For each core claim, provide a plausibility classification using this format:\n"
-             "[Brief claim label] — [Classification] — [Narrative coherence vs empirical confirmation]\n"
-             "Classifications: VERIFIED, ASSERTED, INFERRED, HEADLINE RISK.\n"
-             "- Narrative coherence: Does the claim fit logically? (Yes/Partial/No)\n"
-             "- Empirical confirmation: Is there hard evidence cited? (Confirmed/Partial/None)\n"
-             "- ⚠️ ANTI-HOAXING RULE: Punish precision. Specific quantitative claims (e.g., \"20% of global supply\") MUST remain ASSERTED unless confirmed by independent public record. Do not elevate unverified speaker data to VERIFIED status.\n"
-             "HEADLINE RISK and ASSERTED claims must include: 'Treat as unconfirmed until independently corroborated.'\n\n"
-             "QUANTITATIVE SCORING — PROFESSIONAL RUBRIC:\n"
-             "Rate Signal Strength, Novelty, and Tradeability (1-10) using these DERIVED formulas:\n"
-             "1. Signal Force: Structural magnitude × Duration × Probability.\n"
-             "   - 8-10: Large structural shift + multi-year duration + high probability of occurrence.\n"
-             "   - 1-4: Transitory narrative or low-probability tail risk.\n"
-             "2. Novelty: Deviation from Mainstream Institutional Baseline.\n"
-             "   - 8-10: Contra-consensus or extremely unique framing.\n"
-             "   - 1-4: Repeats common Bloomberg/Reuters market chatter.\n"
-             "3. Tradeability: Time clarity × Entry clarity × Catalyst visibility.\n"
-             "   - 8-10: Specific entry/exit levels + defined timeframe (<6 months) + visible catalyst.\n"
-             "   - 1-3: Structural/Long-horizon/Macro-only (Calibration: MUST be low regardless of conviction).\n"
-             "JUSTIFICATION: Provide one sentence per score referencing components of the formula above.\n\n"
-             "EVIDENCE DISAMBIGUATION — CRITICAL:\n"
-             "- Distinguish between Evidence (empirical) and Conviction (rhetorical).\n"
-             "- 'Assumed' or 'Anecdotal' evidence MUST result in 'Low' or 'Moderate' Empirical Strength, even if Speaker Conviction is 'High'.\n"
-             "- Do not blur the two; if a speaker is shouting an assumption, it is Empirical: Low | Conviction: High.\n\n"
-             "INTELLIGENCE PROFILE — CONCISION RULES:\n"
-             "- Speaker Context: Maximum 2 sentences. Verifiable facts only. If financial interest exists, state it as the FIRST sentence.\n"
-             "- Meta Assessment: Maximum 3 bullets. Focus on framing (permabear/event-driven/data-driven/promotional), conviction, and incentive bias.\n\n"
-             "MATERIALITY ANCHORING — QUANTIFIED:\n"
-             "- Mechanism section MUST open with a quantified statement: [Asset/market] context: [specific figure/range] — [source type: industry consensus/historical average/approximate].\n"
-             "- Do NOT fabricate. If figure is uncertain, provide range or state 'Absence of quantification noted as signal.'\n\n"
-             "STRICT CONSTRAINTS:\n"
-             "1. Tone: Professional intelligence memo (not a blog). No hype, no emojis.\n"
-             "2. Max total word count: 400-600 words.\n"
-             "3. Treat Core Claims and Mechanism as distinct layers; avoid repetition.\n"
-             "4. Output MUST conform exactly to the JSON schema.\n\n"
-             "Video details:\nTitle: {title}\nChannel: {channel}\nDuration: {duration_minutes} minutes\nKeywords: {tags}\nToday: {today}\n\n"
-             "Format instructions:\n{format_instructions}\n\n",
-        input_variables=["title", "channel", "duration_minutes", "tags", "today"],
+        template=template,
+        input_variables=["title", "channel", "duration_minutes", "today"],
         partial_variables={"format_instructions": parser.get_format_instructions()},
     )
     
@@ -215,6 +224,9 @@ def summarize_transcript(video, llm):
 
 def format_markdown(brief: dict, video_url: str = "", thumbnail_url: str = "") -> str:
     title = brief.get('episode_title', 'Unknown Title')
+    category = brief.get('topic_domain', 'Other')
+    profile = get_profile_for_category(category)
+    features = profile.get("features", {})
     
     md = ""
     if video_url:
@@ -234,8 +246,10 @@ def format_markdown(brief: dict, video_url: str = "", thumbnail_url: str = "") -
     
     md += "### Quick-Scan Metrics\n"
     md += f"- **Signal Strength:** {brief.get('signal_strength', 0)}/10 — {brief.get('signal_strength_justification', 'N/A')}\n"
-    md += f"- **Novelty:** {brief.get('novelty', 0)}/10 — {brief.get('novelty_justification', 'N/A')}\n"
-    md += f"- **Tradeability:** {brief.get('tradeability', 0)}/10 — {brief.get('tradeability_justification', 'N/A')}\n"
+    if features.get("novelty"):
+        md += f"- **Novelty:** {brief.get('novelty', 0)}/10 — {brief.get('novelty_justification', 'N/A')}\n"
+    if features.get("tradeability"):
+        md += f"- **Tradeability:** {brief.get('tradeability', 0)}/10 — {brief.get('tradeability_justification', 'N/A')}\n"
     md += f"- **Time Sensitivity:** {brief.get('time_sensitivity', 'N/A')}\n\n"
 
     md += f"**Thesis:** {brief.get('one_line_summary')}\n\n"
@@ -264,12 +278,13 @@ def format_markdown(brief: dict, video_url: str = "", thumbnail_url: str = "") -
         md += f"{plausibility}\n"
     md += "\n"
 
-    md += "### Specifics Extracted\n"
-    md += f"{brief.get('specifics_extracted')}\n\n"
+    if features.get("specifics"):
+        md += f"### {features['specifics']}\n"
+        md += f"{brief.get('specifics_extracted')}\n\n"
 
     mech = brief.get('mechanism', {})
     if mech:
-        md += "### Mechanism (Internal Logic Stress-Test)\n"
+        md += f"### {features.get('mechanism', 'Mechanism')} (Logic Stress-Test)\n"
         md += f"- **Trigger:** {mech.get('trigger')}\n"
         md += f"- **Transmission:** {mech.get('transmission_path')}\n"
         md += f"- **Impact Target:** {mech.get('market_impact')}\n"
@@ -280,12 +295,13 @@ def format_markdown(brief: dict, video_url: str = "", thumbnail_url: str = "") -
     if isinstance(cc, list): cc = "\n".join([f"- {i}" for i in cc])
     md += f"{cc}\n\n"
 
-    signals = brief.get('disconfirming_signals', [])
-    if signals:
-        md += "### Disconfirming Signals to Watch\n"
-        for sig in signals[:3]:
-            md += f"- {sig}\n"
-        md += "\n"
+    if features.get("signals"):
+        signals = brief.get('disconfirming_signals', [])
+        if signals:
+            md += "### Disconfirming Signals to Watch\n"
+            for sig in signals[:3]:
+                md += f"- {sig}\n"
+            md += "\n"
 
     hist = brief.get('historical_parallel')
     if hist:
@@ -297,6 +313,10 @@ def format_markdown(brief: dict, video_url: str = "", thumbnail_url: str = "") -
 
 def format_html(brief: dict, video_url: str = "", thumbnail_url: str = "") -> str:
     title = brief.get('episode_title', 'Unknown Title')
+    category = brief.get('topic_domain', 'Other')
+    profile = get_profile_for_category(category)
+    features = profile.get("features", {})
+    
     html = f"<div style='border: 1px solid #333; padding: 20px; border-radius: 8px; background-color: #1a1a1a; color: #eee; margin-bottom: 30px;'>"
     
     if video_url:
@@ -316,18 +336,25 @@ def format_html(brief: dict, video_url: str = "", thumbnail_url: str = "") -> st
     html += f"<p style='color: #888; font-size: 0.9em;'><strong>Published:</strong> {brief.get('podcast_date')} | <strong>Processed:</strong> {brief.get('processing_date')} | <strong>Shelf Life:</strong> {brief.get('shelf_life')}</p>"
     
     # Intelligence Metrics Table (Robust for Email Clients)
+    # Determine columns
+    cols = []
+    if features.get("signal_strength", True): cols.append(("Signal Force", brief.get("signal_strength"), "#00d1b2"))
+    if features.get("novelty"): cols.append(("Novelty", brief.get("novelty"), "#ffdd57"))
+    if features.get("tradeability"): cols.append(("Tradeability", brief.get("tradeability"), "#48c774"))
+    cols.append(("Horizon", brief.get("time_sensitivity"), "#eee"))
+    
+    width_pct = 100 // len(cols) if cols else 100
+    
     html += "<table width='100%' style='border-top: 1px solid #333; border-bottom: 1px solid #333; margin: 15px 0; border-collapse: collapse;'>"
     html += "<tr>"
-    html += "<th style='padding: 10px 5px 0; text-align: center; color: #888; font-size: 10px; text-transform: uppercase;'>Signal Force</th>"
-    html += "<th style='padding: 10px 5px 0; text-align: center; color: #888; font-size: 10px; text-transform: uppercase;'>Novelty</th>"
-    html += "<th style='padding: 10px 5px 0; text-align: center; color: #888; font-size: 10px; text-transform: uppercase;'>Tradeability</th>"
-    html += "<th style='padding: 10px 5px 0; text-align: center; color: #888; font-size: 10px; text-transform: uppercase;'>Horizon</th>"
+    for label, _, _ in cols:
+        html += f"<th width='{width_pct}%' style='padding: 10px 5px 0; text-align: center; color: #888; font-size: 10px; text-transform: uppercase;'>{label}</th>"
     html += "</tr>"
     html += "<tr>"
-    html += f"<td style='padding: 5px 10px 15px; text-align: center; font-size: 22px; font-weight: bold; color: #00d1b2;'>{brief.get('signal_strength')}/10</td>"
-    html += f"<td style='padding: 5px 10px 15px; text-align: center; font-size: 22px; font-weight: bold; color: #ffdd57;'>{brief.get('novelty')}/10</td>"
-    html += f"<td style='padding: 5px 10px 15px; text-align: center; font-size: 22px; font-weight: bold; color: #48c774;'>{brief.get('tradeability')}/10</td>"
-    html += f"<td style='padding: 5px 10px 15px; text-align: center; font-size: 16px; color: #eee;'>{brief.get('time_sensitivity')}</td>"
+    for label, val, color in cols:
+        val_str = f"{val}/10" if label != "Horizon" else str(val)
+        font_size = "22px" if label != "Horizon" else "16px"
+        html += f"<td style='padding: 5px 10px 15px; text-align: center; font-size: {font_size}; font-weight: bold; color: {color};'>{val_str}</td>"
     html += "</tr>"
     html += "</table>"
 
@@ -360,11 +387,12 @@ def format_html(brief: dict, video_url: str = "", thumbnail_url: str = "") -> st
     if hist:
         html += f"<h3>Historical Parallel</h3><p>{hist}</p>"
 
-    html += f"<h3>Specifics Extracted</h3><pre style='background: #000; padding: 10px; color: #00ff00; font-family: monospace;'>{brief.get('specifics_extracted')}</pre>"
+    if features.get("specifics"):
+        html += f"<h3>{features['specifics']}</h3><pre style='background: #000; padding: 10px; color: #00ff00; font-family: monospace;'>{brief.get('specifics_extracted')}</pre>"
 
     mech = brief.get('mechanism', {})
     if mech:
-        html += "<h3>Mechanism (Logic Stress-Test)</h3><ul>"
+        html += f"<h3>{features.get('mechanism', 'Mechanism')} (Logic Stress-Test)</h3><ul>"
         html += f"<li><strong>Trigger:</strong> {mech.get('trigger')}</li>"
         html += f"<li><strong>Transmission:</strong> {mech.get('transmission_path')}</li>"
         html += f"<li><strong>Impact:</strong> {mech.get('market_impact')}</li>"
@@ -374,12 +402,13 @@ def format_html(brief: dict, video_url: str = "", thumbnail_url: str = "") -> st
     if isinstance(cc, list): cc = "<br/>".join([f"• {i}" for i in cc])
     html += f"<h3>Counter-Consensus</h3><p>{cc}</p>"
 
-    signals = brief.get('disconfirming_signals', [])
-    if signals:
-        html += "<h3>Disconfirming Signals</h3><ul>"
-        for sig in signals[:3]:
-            html += f"<li>{sig}</li>"
-        html += "</ul>"
+    if features.get("signals"):
+        signals = brief.get('disconfirming_signals', [])
+        if signals:
+            html += "<h3>Disconfirming Signals</h3><ul>"
+            for sig in signals[:3]:
+                html += f"<li>{sig}</li>"
+            html += "</ul>"
 
     html += "</div>"
     return html

@@ -9,6 +9,7 @@ from datetime import datetime
 from dotenv import load_dotenv
 
 from add_channel import add_channel, get_channel_id_from_url, search_channel_by_name
+from pipeline.profiles import get_profile_for_category
 from googleapiclient.discovery import build
 
 # App Config
@@ -250,18 +251,23 @@ with tab1:
                             st.markdown(f"📅 **Published:** {brief.get('podcast_date', 'N/A')} | **Processed:** {brief.get('processing_date', 'N/A')}")
                             
                             # High-Impact Metrics Ribbon
-                            m1, m2, m3, m4 = st.columns(4)
-                            with m1:
-                                st.metric("Signal", f"{brief.get('signal_strength', 0)}/10")
-                                st.caption(brief.get('signal_strength_justification', ''))
-                            with m2:
-                                st.metric("Novelty", f"{brief.get('novelty', 0)}/10")
-                                st.caption(brief.get('novelty_justification', ''))
-                            with m3:
-                                st.metric("Tradeability", f"{brief.get('tradeability', 0)}/10")
-                                st.caption(brief.get('tradeability_justification', ''))
-                            with m4:
-                                st.metric("Horizon", brief.get('time_sensitivity', 'N/A'))
+                            # Determine profiles and features
+                            vid_cat = brief.get('category', brief.get('topic_domain', 'Other'))
+                            profile = get_profile_for_category(vid_cat)
+                            features = profile.get("features", {})
+                            
+                            metrics_cols = []
+                            if features.get("signal_strength", True): metrics_cols.append(("Signal", f"{brief.get('signal_strength', 0)}/10", brief.get('signal_strength_justification', '')))
+                            if features.get("novelty"): metrics_cols.append(("Novelty", f"{brief.get('novelty', 0)}/10", brief.get('novelty_justification', '')))
+                            if features.get("tradeability"): metrics_cols.append(("Tradeability", f"{brief.get('tradeability', 0)}/10", brief.get('tradeability_justification', '')))
+                            metrics_cols.append(("Horizon", brief.get('time_sensitivity', 'N/A'), ""))
+                            
+                            m_cols = st.columns(len(metrics_cols))
+                            for i, (label, val, justification) in enumerate(metrics_cols):
+                                with m_cols[i]:
+                                    st.metric(label, val)
+                                    if justification:
+                                        st.caption(justification)
                         
                         # Incentive Bias Banner
                         incentive = brief.get('executive_use_case', {}).get('incentive_bias', 'No')
@@ -286,8 +292,9 @@ with tab1:
                                 st.write(f"- **{claim.get('claim', 'Unknown Claim')}**")
                                 st.caption(f"Evidence: {claim.get('evidence_cited', 'N/A')} ({claim.get('evidence_type', 'N/A')} | {claim.get('evidence_strength', 'N/A')})")
                             
-                            st.markdown("#### Target Specifics")
-                            st.code(brief.get('specifics_extracted', 'N/A'), language=None)
+                            if features.get("specifics"):
+                                st.markdown(f"#### {features['specifics']}")
+                                st.code(brief.get('specifics_extracted', 'N/A'), language=None)
                             
                             st.markdown("#### Claim Plausibility")
                             plausibility = brief.get('claim_plausibility', [])
@@ -311,13 +318,15 @@ with tab1:
                             
                         with st.expander("⚙️ Mechanics & Disconfirming Signals"):
                             mech = brief.get('mechanism', {})
+                            st.markdown(f"#### {features.get('mechanism', 'Mechanism')}")
                             st.markdown(f"- **Trigger:** {mech.get('trigger')}")
                             st.markdown(f"- **Transmission:** {mech.get('transmission_path')}")
                             st.markdown(f"- **Market Impact:** {mech.get('market_impact')}")
-                            st.divider()
-                            st.markdown("**Watch for Disconfirming Signals:**")
-                            for sig in brief.get('disconfirming_signals', []):
-                                st.write(f"- {sig}")
+                            if features.get("signals"):
+                                st.divider()
+                                st.markdown("**Watch for Disconfirming Signals:**")
+                                for sig in brief.get('disconfirming_signals', []):
+                                    st.write(f"- {sig}")
 
             else:
                 # Fallback to plain markdown if JSON is missing
