@@ -22,6 +22,11 @@ jobs:
           python3 -m pip install --upgrade pip
           sudo apt-get update && sudo apt-get install -y ffmpeg
           pip install -r requirements.txt
+          pip install --upgrade yt-dlp
+          which ffmpeg
+          ffmpeg -version | head -n 1
+          which yt-dlp
+          yt-dlp --version
           
       - name: Run pipeline
         run: python3 main.py

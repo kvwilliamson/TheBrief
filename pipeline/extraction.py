@@ -8,12 +8,14 @@ import random
 
 logger = logging.getLogger(__name__)
 
+import shutil
+
 def get_ffmpeg_path():
     """Locate the ffmpeg binary, prioritizing static-ffmpeg then system path."""
+    # 1. Try static-ffmpeg via module
     try:
         import static_ffmpeg
         base = os.path.dirname(static_ffmpeg.__file__)
-        # Platform-specific subdirectories used by static-ffmpeg
         platform_bins = [
             os.path.join(base, "bin", "darwin_arm64", "ffmpeg"),
             os.path.join(base, "bin", "linux_x64", "ffmpeg"),
@@ -24,7 +26,13 @@ def get_ffmpeg_path():
                 return path
     except ImportError:
         pass
-    return "ffmpeg" # Fallback to system path
+        
+    # 2. Try system PATH
+    system_ffmpeg = shutil.which("ffmpeg")
+    if system_ffmpeg:
+        return system_ffmpeg
+        
+    return "ffmpeg" # Final fallback
 
 def extract_audio_for_video(video):
     """Extracts audio for a single video using yt-dlp."""
@@ -65,16 +73,20 @@ def extract_audio_for_video(video):
     ]
     
     try:
-        subprocess.run(command, check=True, capture_output=True)
+        result = subprocess.run(command, check=True, capture_output=True, text=True)
         if os.path.exists(final_output_path):
             video["audio_path"] = final_output_path
             logger.info(f"Successfully extracted: {final_output_path}")
             return video
         else:
-            logger.error(f"Output file {final_output_path} not found after extraction.")
+            logger.error(f"Output file {final_output_path} not found after extraction. Stderr: {result.stderr}")
             return None
     except subprocess.CalledProcessError as e:
         logger.error(f"Error extracting audio for {video_url}: {e}")
+        if e.stderr:
+            logger.error(f"yt-dlp stderr: {e.stderr}")
+        if e.stdout:
+            logger.debug(f"yt-dlp stdout: {e.stdout}")
         return None
 
 def run_extraction():
