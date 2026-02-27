@@ -68,9 +68,14 @@ def extract_audio_for_video(video):
         "--ffmpeg-location", ffmpeg_path,
         "--force-ipv4",
         "--extractor-args", "youtube:player_client=ios,android",
-        "-o", output_template,
-        video_url
+        "-o", output_template
     ]
+
+    # Add cookies if cookies.txt exists
+    if os.path.exists("cookies.txt"):
+        command.extend(["--cookies", "cookies.txt"])
+    
+    command.append(video_url)
     
     try:
         result = subprocess.run(command, check=True, capture_output=True, text=True)

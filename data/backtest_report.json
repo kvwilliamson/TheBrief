@@ -1,0 +1,56 @@
+[
+  {
+    "date": "2026-02-26.json",
+    "linkage": "complete",
+    "video_count": 20,
+    "cluster_count": 14,
+    "singleton_count": 9,
+    "max_cluster_size": 3,
+    "mean_coherence": 0.8725858654662207
+  },
+  {
+    "date": "2026-02-26.json",
+    "linkage": "average",
+    "video_count": 20,
+    "cluster_count": 13,
+    "singleton_count": 9,
+    "max_cluster_size": 4,
+    "mean_coherence": 0.8706617858208989
+  },
+  {
+    "date": "2026-02-26.json",
+    "linkage": "single",
+    "video_count": 20,
+    "cluster_count": 3,
+    "singleton_count": 2,
+    "max_cluster_size": 18,
+    "mean_coherence": 0.7790782473412857
+  },
+  {
+    "date": "2026-02-25.json",
+    "linkage": "complete",
+    "video_count": 21,
+    "cluster_count": 12,
+    "singleton_count": 5,
+    "max_cluster_size": 4,
+    "mean_coherence": 0.8204467117176176
+  },
+  {
+    "date": "2026-02-25.json",
+    "linkage": "average",
+    "video_count": 21,
+    "cluster_count": 15,
+    "singleton_count": 13,
+    "max_cluster_size": 6,
+    "mean_coherence": 0.9092393119339606
+  },
+  {
+    "date": "2026-02-25.json",
+    "linkage": "single",
+    "video_count": 21,
+    "cluster_count": 4,
+    "singleton_count": 3,
+    "max_cluster_size": 18,
+    "mean_coherence": 0.7895356963648655
+  }
+]

@@ -12,75 +12,89 @@ from langchain_google_genai import ChatGoogleGenerativeAI
 from langchain_openai import ChatOpenAI
 from langchain_core.exceptions import OutputParserException
 from langchain_core.messages import HumanMessage
-from pydantic import BaseModel, Field
 from typing import List, Optional, Dict, Any
+from pydantic import BaseModel, Field
 from google import genai
 import time
-from pipeline.profiles import get_profile_for_category
+from pipeline.clustering import perform_semantic_clustering
+from pipeline.clustering import logger as cluster_logger
+# Removed pipeline.profiles import as part of hardcode removal
+import numpy as np
+from sklearn.metrics.pairwise import cosine_similarity
 
 logger = logging.getLogger(__name__)
 
+def get_next_percentile():
+    """Calculates optimal percentile based on last run's fragmentation metrics."""
+    stats_path = "data/clustering_stats.json"
+    if not os.path.exists(stats_path):
+        return 85 
+    
+    try:
+        with open(stats_path, "r") as f:
+            history = json.load(f)
+        if not history:
+            return 85
+            
+        last_run = history[-1]
+        percentile = last_run.get("percentile", 85)
+        video_count = last_run.get("video_count", 1)
+        if video_count < 5: return percentile # Too small to tune
+        
+        singleton_ratio = last_run.get("singleton_count", 0) / video_count
+        max_cluster_ratio = last_run.get("max_cluster_size", 0) / video_count
+        
+        # Auto-tuning guardrails
+        if singleton_ratio > 0.6:
+            new_p = max(50, percentile - 5)
+            logger.info(f"🔄 High fragmentation ({singleton_ratio:.1%}). Tuning percentile: {percentile} -> {new_p}")
+            return new_p
+        elif max_cluster_ratio > 0.5:
+            new_p = min(95, percentile + 5)
+            logger.info(f"🔄 Over-merging ({max_cluster_ratio:.1%}). Tuning percentile: {percentile} -> {new_p}")
+            return new_p
+            
+        return percentile
+    except Exception as e:
+        logger.warning(f"Percentile tuning failed: {e}")
+        return 85
+
+# --- Architectural Constants ---
+SUMMARY_MODEL_NAME = "gemini-2.0-flash"
+EMBEDDING_MODEL_NAME = "text-embedding-004"
+GENAI_CLIENT = None
+
+def get_genai_client():
+    global GENAI_CLIENT
+    if GENAI_CLIENT is None:
+        GENAI_CLIENT = genai.Client(api_key=os.getenv("GOOGLE_AI_API_KEY"))
+    return GENAI_CLIENT
+
+ALLOWED_BIAS = {"constructive", "defensive", "neutral", "counter-consensus"}
+
 # --- High-Utility Decision Format (vNext) Schemas ---
-
-class ExecutiveUseCase(BaseModel):
-    signal_type: str = Field(description="Strictly one of: Sentiment, Thesis, Data-driven, Speculative, Promotional, Mixed")
-    positioning_impact: str = Field(description="Strictly one of: No Action, Monitor, Minor Bias, High Conviction Shift")
-    time_horizon: str = Field(description="Strictly one of: Short-term, Cyclical, Structural")
-    confidence_level: str = Field(description="Strictly one of: Low, Moderate, High")
-    incentive_bias: str = Field(description="Strictly: Yes / No / Mild, with a one sentence max explanation")
-    consensus_context: str = Field(description="Is this mainstream or fringe? Is it widely discussed?")
-
-class Claim(BaseModel):
-    claim: str = Field(description="The core claim or forward projection")
-    evidence_cited: str = Field(description="Brief description of the evidence cited")
-    evidence_type: str = Field(description="Strictly one of: Anecdotal, Data-backed, Assumed, Historical reference")
-    empirical_strength: str = Field(description="Strictly one of: Low, Moderate, High. Measures hard data/cited evidence.")
-    speaker_conviction: str = Field(description="Strictly one of: Low, Moderate, High. Measures rhetorical volume/certainty.")
-
-class Mechanism(BaseModel):
-    trigger: str = Field(description="The trigger event")
-    transmission_path: str = Field(description="How the trigger propagates")
-    market_impact: str = Field(description="The ultimate impact")
-    secondary_effects: str = Field(description="Any secondary effects")
 
 class BriefSchema(BaseModel):
     episode_title: str = Field(description="Title of the episode")
     channel: str = Field(description="Name of the channel")
     duration_minutes: int = Field(description="Duration in minutes")
-    topic_domain: str = Field(description="Broad topic domain")
     podcast_date: str = Field(description="Date episode was published (from context)")
     processing_date: str = Field(description="Date TheBrief processed it (today's date)")
-    shelf_life: str = Field(description="Strictly: Short (days-weeks), Medium (weeks-months), Long (structural/multi-year)")
-    current_market_context: str = Field(description="Brief snapshot of market at processing date based on current date knowledge")
-    executive_use_case: ExecutiveUseCase
-    core_claims: List[Claim] = Field(description="Combined core claims and forward projections (Max 6)")
-    specifics_extracted: Optional[str] = Field(description="Verbatim numbers/targets. Use 'No explicit targets mentioned' if none or if qualitative topic.")
-    weak_links: str = Field(description="Identified failure points in the thesis causal chain")
-    counter_consensus: str = Field(description="2-3 bullets on mainstream/institutional alternative view")
-    meta_assessment: Optional[str] = Field(description="Framing pattern, conviction level. Max 3 bullets.")
-    mechanism: Mechanism = Field(description="Stress-test the logic or describe the framework/pathway.")
-    disconfirming_signals: List[str] = Field(description="Max 3 observable disconfirming signals.")
-    historical_parallel: Optional[str] = Field(description="Optional comparison to a historical parallel.")
     one_line_summary: str = Field(description="A single sentence summarizes the core thesis.")
-    emotional_conviction: str = Field(description="Summary of the speaker's tone and underlying conviction.")
-    signal_strength: Optional[int] = Field(default=None, ge=1, le=10, description="Score 1-10 per profile rubric.")
-    signal_strength_justification: Optional[str] = Field(description="One sentence referencing rubric and why.")
-    novelty: Optional[int] = Field(default=None, ge=1, le=10, description="Score 1-10 per profile rubric.")
-    novelty_justification: Optional[str] = Field(description="One sentence referencing rubric and why.")
-    tradeability: Optional[int] = Field(default=None, ge=1, le=10, description="Score 1-10 per profile rubric.")
-    tradeability_justification: Optional[str] = Field(description="One sentence referencing rubric and why.")
-    time_sensitivity: Optional[str] = Field(description="Strictly: Immediate, Monitor, Long-term")
-    speaker_context: Optional[str] = Field(description="Known background or financial interest. Max 2 sentences.")
-    claim_plausibility: List[str] = Field(description="Per-claim plausibility classification.")
-    positioning_risk: Optional[str] = Field(description="Only if financial topic.")
+    core_claims: List[str] = Field(description="Significant specific claims made in the audio. Typically 2-6.")
+    signal_strength: int = Field(ge=1, le=10, description="Intelligence signal strength score 1-10.")
+    themes: List[str] = Field(description="Short tags representing the clusterable themes. Typically 2-6.")
+    positioning_implication: str = Field(description="What is the suggested action or bias shift? Max 2 sentences.")
+    time_horizon: str = Field(description="Strictly one of: short, medium, long")
+    shelf_life: str = Field(description="Strictly: Short, Medium, Long")
 def get_llm():
     model_choice = os.getenv("SUMMARY_MODEL", "gemini").lower()
     
     if model_choice == "gemini":
         try:
-            # We must use gemini-2.5-flash for native audio understanding
+            # We must use flash for native audio understanding
             return ChatGoogleGenerativeAI(
-                model="gemini-2.5-flash",
+                model=SUMMARY_MODEL_NAME,
                 temperature=0.2,
                 google_api_key=os.getenv("GOOGLE_AI_API_KEY")
             )
@@ -98,18 +112,6 @@ def get_llm():
             openai_api_key=os.getenv("OPENAI_API_KEY")
         )
 
-def get_official_categories():
-    try:
-        channels_path = os.path.join(os.getcwd(), "channels.json")
-        with open(channels_path, "r") as f:
-            data = json.load(f)
-            # Sort alphabetically by default if no preferred order
-            found_cats = {c.get("category") for c in data.get("channels", []) if c.get("category")}
-            return sorted(list(found_cats))
-    except Exception as e:
-        logger.warning(f"Could not load official categories: {e}")
-        return []
-
 def normalize_channel_name(name: str) -> str:
     """Removes markdown bold markers and strips whitespace for robust matching."""
     if not name:
@@ -117,19 +119,6 @@ def normalize_channel_name(name: str) -> str:
     # Standardize common channel quirks (like bold/white)
     clean = name.replace("**", "").strip()
     return clean
-
-def get_channel_category_map():
-    """Returns a dictionary mapping normalized channel names to their official categories."""
-    try:
-        channels_path = os.path.join(os.getcwd(), "channels.json")
-        with open(channels_path, "r") as f:
-            data = json.load(f)
-        
-        ch_map = {normalize_channel_name(c["name"]): c.get("category", "Other") for c in data.get("channels", [])}
-        return ch_map
-    except Exception as e:
-        logger.warning(f"Could not load channel category map: {e}")
-        return {}
 
 def summarize_transcript(video, llm):
     # Start briefing
@@ -141,7 +130,7 @@ def summarize_transcript(video, llm):
         logger.error(f"Missing audio path for {video['title']}")
         return None
         
-    client = genai.Client(api_key=os.getenv("GOOGLE_AI_API_KEY"))
+    client = get_genai_client()
     file_handle = client.files.upload(file=audio_path)
     
     # Wait for processing
@@ -155,15 +144,6 @@ def summarize_transcript(video, llm):
         
     logger.info(f"Generating Brief for {video['title']} ({video['id']})...")
     
-    # --- Profile-Driven Customization ---
-    official_cats = get_official_categories()
-    # We strictly use the category from the video source of truth (channels.json)
-    category = video.get("category", "Other")
-    profile = get_profile_for_category(category)
-    features = profile.get("features", {})
-    rubric_config = profile.get("rubric", {})
-    
-    # 2. Build the LLM Chain
     today_str = datetime.now().strftime("%Y-%m-%d")
     template = (
         "You are an expert intelligence analyst.\n"
@@ -171,43 +151,14 @@ def summarize_transcript(video, llm):
         "### 🛡️ INDEPENDENT TOPIC DOMINANCE RULE:\n"
         "This is an ISOLATED analysis. Your EXCLUSIVE source of truth is the ATTACHED AUDIO.\n"
         "1. IGNORE the general theme of this channel or other videos.\n"
-        "2. If the audio is about Artificial Intelligence, summarize AI. If it is about Cooking, summarize Cooking.\n"
-        "3. NEVER hallucinate financial metrics (like 'dark pools' or 'short interest') unless they are explicitly discussed in THIS specific audio file.\n"
-        "4. The current Title {title} and Channel {channel} are for reference only. THE AUDIO WINS ANY CONTRADICTIONS.\n\n"
-        "### BKM CORE INSTRUCTIONS:\n\n"
-        "TOPIC DOMAIN RESTRICTION:\n"
-        f"Identify the domain. You MUST categorize this content into strictly ONE of the FOLLOWING official domains: {', '.join(official_cats)}\n"
-        "If the audio is NOT about finance, DO NOT use a financial profile.\n\n"
-        "TIMESTAMP & SHELF LIFE:\n"
-        "- Record the episode publication date and today's processing date: {today}.\n"
-        "- Assign a Shelf Life: Short (days-weeks), Medium (weeks-months), Long (structural).\n\n"
-    )
-    
-    # Context-Aware Rubric
-    if "Financial" in category or "Metals" in category:
-        calcs_block = "QUANTITATIVE SCORING — PROFESSIONAL RUBRIC:\nRate items (1-10) using these DERIVED formulas:\n"
-        if rubric_config.get("signal"):
-            calcs_block += f"1. {rubric_config['signal']}\n"
-        if rubric_config.get("tradeability"):
-            calcs_block += f"2. {rubric_config['tradeability']}\n"
-        calcs_block += "JUSTIFICATION: Provide one sentence per score referencing components of the formula above.\n\n"
-    else:
-        calcs_block = "INTELLIGENCE SCORING:\n1. SIGNAL STRENGTH (1-10): How much NEW information is provided?\n2. NOVELTY (1-10): How unique is this perspective?\n"
-    
-    if features.get("specifics"):
-        template += (
-            f"SPECIFICS EXTRACTION ({features['specifics']}):\n"
-            "- Extract ALL relevant technical targets, benchmarks, or named entities verbatim.\n"
-            "- CRITICAL: If no specifics were mentioned, state: 'No explicit specifics mentioned.'\n\n"
-        )
-    
-    template += (
-        "CLAIM PLAUSIBILITY CHECK — PER CLAIM:\n"
-        "For each core claim, provide a plausibility classification: VERIFIED, ASSERTED, INFERRED, HEADLINE RISK.\n"
-        "- ⚠️ ANTI-HOAXING RULE: Specific quantitative claims MUST remain ASSERTED unless confirmed by the speaker's data.\n\n"
-        f"{calcs_block}"
-        "EVIDENCE DISAMBIGUATION — CRITICAL:\n"
-        "- Distinguish between Evidence (empirical) and Conviction (rhetorical).\n\n"
+        "2. The current Title {title} and Channel {channel} are for reference only. THE AUDIO WINS ANY CONTRADICTIONS.\n\n"
+        "### BRIEFING REQUIREMENTS:\n"
+        "- ONE LINE SUMMARY: A single sentence distilling the core signal.\n"
+        "- CORE CLAIMS: Specific data points, projections, or claims made in the audio. Avoid filler.\n"
+        "- SIGNAL STRENGTH: Score 1-10 based on uniqueness and actionability of information.\n"
+        "- THEMES: lowercase short tags. NO PREDEFINED LIST. Create the taxonomy based on the content.\n"
+        "- POSITIONING IMPLICATION: Direct consequence of this intelligence on a listener's strategy. Be domain-agnostic (e.g., if content is about health, biased towards a protocol; if financial, biased towards a position).\n"
+        "- TIME HORIZON: short | medium | long.\n\n"
         "STRICT CONSTRAINTS:\n"
         "1. Tone: Professional intelligence memo. No hype, no emojis.\n"
         "2. Max word count: 400-600 words.\n"
@@ -234,7 +185,7 @@ def summarize_transcript(video, llm):
         # 1. Build Native Google GenAI Request
         # The official SDK is more robust for audio than the LangChain wrapper
         response = client.models.generate_content(
-            model="gemini-2.0-flash",
+            model=SUMMARY_MODEL_NAME,
             contents=[
                 formatted_prompt,
                 file_handle
@@ -248,9 +199,6 @@ def summarize_transcript(video, llm):
         try:
             import json
             result = json.loads(response.text)
-            # Ensure the response topic_domain is forced to the official video category
-            # to prevent LLM hallucinations from causing 'Other' grouping.
-            result['topic_domain'] = video.get('category', result.get('topic_domain'))
             return result
         except OutputParserException as e:
             logger.error(f"Schema parsing error for {video['title']}: {e}")
@@ -272,11 +220,24 @@ def summarize_transcript(video, llm):
         except OSError:
             pass
 
+def get_embedding(text: str) -> List[float]:
+    """Generates an embedding for the given text using Gemini's embedding model."""
+    if not text:
+        return []
+    try:
+        client = get_genai_client()
+        # Using text-embedding-004 as it is modern and efficient
+        response = client.models.embed_content(
+            model=EMBEDDING_MODEL_NAME,
+            contents=text
+        )
+        return response.embeddings[0].values
+    except Exception as e:
+        logger.error(f"Error generating embedding: {e}")
+        return []
+
 def format_markdown(brief: dict, video_url: str = "", thumbnail_url: str = "") -> str:
     title = brief.get('episode_title', 'Unknown Title')
-    category = brief.get('topic_domain', 'Other')
-    profile = get_profile_for_category(category)
-    features = profile.get("features", {})
     
     md = ""
     if video_url:
@@ -287,85 +248,34 @@ def format_markdown(brief: dict, video_url: str = "", thumbnail_url: str = "") -
     if thumbnail_url:
         md += f"![{title}]({thumbnail_url})\n\n"
 
-    # Incentive Bias Banner
-    if brief.get('executive_use_case', {}).get('incentive_bias', 'No') != 'No':
-        md += f"> ⚠️ **INCENTIVE BIAS FLAGGED:** {brief['executive_use_case']['incentive_bias']}\n\n"
-
-    md += f"**{brief.get('channel', 'Unknown')}** | **Length:** {brief.get('duration_minutes', 0)} min | **Market Context:** {brief.get('current_market_context', 'N/A')}\n"
+    md += f"**{brief.get('channel', 'Unknown')}** | **Length:** {brief.get('duration_minutes', 0)} min\n"
     md += f"**Published:** {brief.get('podcast_date', 'N/A')} | **Processed:** {brief.get('processing_date', 'N/A')} | **Shelf Life:** {brief.get('shelf_life', 'N/A')}\n\n"
     
     md += "### Quick-Scan Metrics\n"
-    md += f"- **Signal Strength:** {brief.get('signal_strength', 0)}/10 — {brief.get('signal_strength_justification', 'N/A')}\n"
-    if features.get("novelty"):
-        md += f"- **Novelty:** {brief.get('novelty', 0)}/10 — {brief.get('novelty_justification', 'N/A')}\n"
-    if features.get("tradeability"):
-        md += f"- **Tradeability:** {brief.get('tradeability', 0)}/10 — {brief.get('tradeability_justification', 'N/A')}\n"
-    md += f"- **Time Sensitivity:** {brief.get('time_sensitivity', 'N/A')}\n\n"
+    md += f"- **Signal Strength:** {brief.get('signal_strength', 0)}/10\n"
+    md += f"- **Time Horizon:** {brief.get('time_horizon', 'N/A')}\n\n"
 
     md += f"**Thesis:** {brief.get('one_line_summary')}\n\n"
 
-    md += "### Intelligence Profile\n"
-    md += f"- **Speaker:** {brief.get('speaker_context')}\n"
-    md += f"- **Meta Assessment:** {brief.get('meta_assessment')}\n"
-    md += f"- **Emotional Tone:** {brief.get('emotional_conviction')}\n\n"
+    themes = brief.get('themes', [])
+    if themes:
+        md += f"**Themes:** {', '.join([f'`#{t}`' for t in themes])}\n\n"
 
     claims = brief.get('core_claims', [])
     if claims:
-        md += "### Core Claims\n"
-        for claim in claims[:6]:
-            md += f"- **{claim.get('claim')}**\n"
-            md += f"  *Evidence:* {claim.get('evidence_cited')} ({claim.get('evidence_type')} | Empirical: {claim.get('empirical_strength')} | Conviction: {claim.get('speaker_conviction')})\n\n"
+        md += "### Core Intelligence Claims\n"
+        for claim in claims:
+            md += f"- {claim}\n"
+        md += "\n"
 
-    md += "### Weak Links & Failures\n"
-    md += f"{brief.get('weak_links')}\n\n"
-
-    md += "### Claim Plausibility Check\n"
-    plausibility = brief.get('claim_plausibility', [])
-    if isinstance(plausibility, list):
-        for p in plausibility:
-            md += f"- {p}\n"
-    else:
-        md += f"{plausibility}\n"
-    md += "\n"
-
-    if features.get("specifics"):
-        md += f"### {features['specifics']}\n"
-        md += f"{brief.get('specifics_extracted')}\n\n"
-
-    mech = brief.get('mechanism', {})
-    if mech:
-        md += f"### {features.get('mechanism', 'Mechanism')} (Logic Stress-Test)\n"
-        md += f"- **Trigger:** {mech.get('trigger')}\n"
-        md += f"- **Transmission:** {mech.get('transmission_path')}\n"
-        md += f"- **Impact Target:** {mech.get('market_impact')}\n"
-        md += f"- **Secondary Effects:** {mech.get('secondary_effects')}\n\n"
-
-    md += "### Counter-Consensus View\n"
-    cc = brief.get('counter_consensus', '')
-    if isinstance(cc, list): cc = "\n".join([f"- {i}" for i in cc])
-    md += f"{cc}\n\n"
-
-    if features.get("signals"):
-        signals = brief.get('disconfirming_signals', [])
-        if signals:
-            md += "### Disconfirming Signals to Watch\n"
-            for sig in signals[:3]:
-                md += f"- {sig}\n"
-            md += "\n"
-
-    hist = brief.get('historical_parallel')
-    if hist:
-        md += "### Historical Parallel\n"
-        md += f"{hist}\n\n"
+    md += "### Positioning Implication\n"
+    md += f"{brief.get('positioning_implication')}\n\n"
 
     md += "---\n\n"
     return md
 
 def format_html(brief: dict, video_url: str = "", thumbnail_url: str = "") -> str:
     title = brief.get('episode_title', 'Unknown Title')
-    category = brief.get('topic_domain', 'Other')
-    profile = get_profile_for_category(category)
-    features = profile.get("features", {})
     
     # High-Contrast White Background Container
     html = f"<div style='border-bottom: 1px solid #ddd; padding: 15px 0; background-color: #ffffff; color: #202124; font-family: Arial, Helvetica, sans-serif; line-height: 1.5;'>"
@@ -380,60 +290,142 @@ def format_html(brief: dict, video_url: str = "", thumbnail_url: str = "") -> st
         html += f"<td width='130' style='vertical-align: top; padding-right: 15px;'><img src='{thumbnail_url}' width='120' style='border-radius: 4px; border: 1px solid #eee;' /></td>"
     
     html += "<td style='vertical-align: top;'>"
-    # Bias Banner
-    incentive = brief.get('executive_use_case', {}).get('incentive_bias', 'No')
-    if incentive != 'No':
-        html += f"<div style='background:#fde8e8; border: 1px solid #f8b4b4; color:#c53030; padding:8px; border-radius:4px; margin:0 0 10px 0; font-size: 13px;'>⚠️ <b>INCENTIVE BIAS:</b> {incentive}</div>"
-
-    html += f"<p style='margin: 0 0 5px 0; color: #70757A; font-size: 13px;'><strong>{brief.get('channel', 'Unknown')}</strong> | {brief.get('duration_minutes', 0)} min | {brief.get('current_market_context', 'N/A')}</p>"
+    html += f"<p style='margin: 0 0 5px 0; color: #70757A; font-size: 13px;'><strong>{brief.get('channel', 'Unknown')}</strong> | {brief.get('duration_minutes', 0)} min</p>"
     
     # Metrics Table
-    cols = []
-    if features.get("signal_strength", True): cols.append(("Signal", brief.get("signal_strength"), "#1155CC"))
-    if features.get("novelty"): cols.append(("Novelty", brief.get("novelty"), "#EA4335"))
-    if features.get("tradeability"): cols.append(("Trade", brief.get("tradeability"), "#34A853"))
-    cols.append(("Horizon", brief.get("time_sensitivity"), "#202124"))
-    
     html += "<table width='100%' style='border-top:1px solid #eee; border-bottom:1px solid #eee; margin:10px 0; border-collapse:collapse;'>"
     html += "<tr>"
-    for label, val, color in cols:
-        val_str = f"{val}/10" if label != "Horizon" else str(val)
-        html += f"<td style='padding: 8px; text-align: center; font-size: 12px;'><span style='color:#70757A;'>{label}:</span> <b style='color:{color};'>{val_str}</b></td>"
+    html += f"<td style='padding: 8px; text-align: center; font-size: 12px;'><span style='color:#70757A;'>Signal:</span> <b style='color:#1155CC;'>{brief.get('signal_strength')}/10</b></td>"
+    html += f"<td style='padding: 8px; text-align: center; font-size: 12px;'><span style='color:#70757A;'>Horizon:</span> <b style='color:#202124;'>{brief.get('time_horizon')}</b></td>"
+    html += f"<td style='padding: 8px; text-align: center; font-size: 12px;'><span style='color:#70757A;'>Shelf Life:</span> <b style='color:#F9AB00;'>{brief.get('shelf_life')}</b></td>"
     html += "</tr></table>"
 
     html += f"<div style='background: #f8f9fa; padding: 10px; border-left: 4px solid #1A73E8; margin: 10px 0; color: #3C4043; font-size: 14px;'><b>Thesis:</b> {brief.get('one_line_summary')}</div>"
+    
+    themes = brief.get('themes', [])
+    if themes:
+        themes_str = " ".join([f"<span style='background:#e8f0fe; color:#1a73e8; padding:2px 6px; border-radius:10px; font-size:11px; margin-right:5px;'>#{t}</span>" for t in themes])
+        html += f"<div style='margin-top:5px;'>{themes_str}</div>"
+    
     html += "</td></tr></table>"
 
-    # Full Intelligence Profile
-    html += f"<div style='color:#1A73E8; font-weight:bold; margin-top:15px; font-size: 13px; text-transform:uppercase;'>Intelligence Profile</div>"
-    html += f"<div style='margin: 5px 0; font-size: 14px; color: #3C4043;'><b>Speaker:</b> {brief.get('speaker_context')} • <b>Meta:</b> {brief.get('meta_assessment')}</div>"
-
+    # Core Claims
     claims = brief.get('core_claims', [])
     if claims:
-        html += f"<div style='color:#1A73E8; font-weight:bold; margin-top:15px; font-size: 13px; text-transform:uppercase;'>Core Claims</div>"
-        for claim in claims[:6]:
-            html += f"<div style='margin-bottom:8px; font-size: 14px; color: #3C4043;'>• <strong>{claim.get('claim')}</strong><br/>"
-            html += f"<span style='color: #70757A; font-size: 12px;'>{claim.get('evidence_type')} | Empirical: {claim.get('empirical_strength')} | Conviction: {claim.get('speaker_conviction')}</span></div>"
+        html += f"<div style='color:#1A73E8; font-weight:bold; margin-top:15px; font-size: 13px; text-transform:uppercase;'>Core Intelligence Claims</div>"
+        for claim in claims:
+            html += f"<div style='margin-bottom:8px; font-size: 14px; color: #3C4043;'>• {claim}</div>"
 
-    html += f"<div style='color:#EA4335; font-weight:bold; margin-top:15px; font-size: 13px; text-transform:uppercase;'>Weak Links & Failures</div>"
-    html += f"<div style='margin: 5px 0; font-size: 14px; color: #3C4043;'>{brief.get('weak_links')}</div>"
-    
-    if features.get("specifics"):
-        html += f"<div style='color:#34A853; font-weight:bold; margin-top:15px; font-size: 13px; text-transform:uppercase;'>{features['specifics']}</div>"
-        html += f"<pre style='background: #f1f3f4; padding: 10px; color: #202124; font-family: monospace; font-size: 12px; border-radius: 4px; border: 1px solid #ddd;'>{brief.get('specifics_extracted')}</pre>"
-
-    mech = brief.get('mechanism', {})
-    if mech:
-        html += f"<div style='color:#1A73E8; font-weight:bold; margin-top:15px; font-size: 13px; text-transform:uppercase;'>{features.get('mechanism', 'Mechanism')}</div>"
-        html += f"<div style='margin: 5px 0; font-size: 14px; color: #3C4043;'><b>Trigger:</b> {mech.get('trigger')} → <b>Path:</b> {mech.get('transmission_path')} → <b>Impact:</b> {mech.get('market_impact')}</div>"
-
-    cc = brief.get('counter_consensus', 'N/A')
-    if isinstance(cc, list): cc = " • ".join(cc)
-    html += f"<div style='color:#F9AB00; font-weight:bold; margin-top:15px; font-size: 13px; text-transform:uppercase;'>Counter-Consensus View</div>"
-    html += f"<div style='margin: 5px 0; font-size: 14px; color: #3C4043;'>{cc}</div>"
+    html += f"<div style='color:#EA4335; font-weight:bold; margin-top:15px; font-size: 13px; text-transform:uppercase;'>Positioning Implication</div>"
+    html += f"<div style='margin: 5px 0; font-size: 14px; color: #3C4043;'>{brief.get('positioning_implication')}</div>"
 
     html += "</div>"
     return html
+
+def generate_meta_summary(clusters_data: List[Dict[str, Any]], total_assets: int, llm) -> str:
+    """
+    World-Class Intelligence Synthesis Pass.
+    Produces high-density, quantified strategic analysis.
+    """
+    cluster_texts = []
+    for c in clusters_data:
+        # Dominance quantification
+        weight = (c['size'] / total_assets) * 100
+        summaries = "\n".join([f"- {b['one_line_summary']} (Signal: {b['signal_strength']})" for b in c.get('briefs', [])])
+        
+        # Claim extraction for watchlist triggers
+        claims = "\n".join([f"  * {claim}" for b in c.get('briefs', []) for claim in b.get('core_claims', [])])
+        
+        cluster_texts.append(
+            f"NARRATIVE: {c['name']} ({c['size']} assets, {weight:.0f}% dominance)\n"
+            f"DIAGNOSTICS: Coherence: {c['coherence']:.2f}, Crowding: {c['crowding_label']}, Strength: {c['strength']:.1f}\n"
+            f"BIAS: {c['bias']} | CHANNELS: {', '.join(c['channels'])}\n"
+            f"SUMMARIES:\n{summaries}\n"
+            f"EXTRACTED CLAIMS:\n{claims}"
+        )
+    
+    clusters_input = "\n\n".join(cluster_texts)
+    
+    system_prompt = (
+        "You are a Lead Intelligence Strategist for a Tier-1 institutional desk. "
+        "Your task is to produce a DENSE, QUANTIFIED Narrative Radar Report.\n\n"
+        "### STYLE GUIDE:\n"
+        "- NO qualitative filler (e.g., 'The dominant narrative is...').\n"
+        "- NO adverbs or generic macro commentary.\n"
+        "- MAX signal density. MIN words.\n"
+        "- USE numerical backing for every assertion."
+    )
+    
+    user_content = (
+        "### DATASET DIAGNOSTICS:\n"
+        f"Total Assets Analyzed: {total_assets}\n\n"
+        "### INPUT NARRATIVE CLUSTERS:\n"
+        f"{clusters_input}\n\n"
+        "### REQUIRED SECTIONS:\n"
+        "1. QUANTIFIED DOMINANCE: Identify the top cluster by % dominance. State its Strength and Convergence.\n"
+        "2. CROWDING & RISK SATURATION: Identify clusters with HIGH/MODERATE crowding. Assess if sentiment is reaching an 'echo chamber' state.\n"
+        "3. INTRA-CLUSTER FRACTURES: Identify clusters where Coherence is < 0.6. Identify specific opposing directional biases or claims.\n"
+        "4. CROSS-CLUSTER INTERACTION: Explicitly map how one narrative (e.g., Geopolitics) is propagating into another (e.g., Energy/Metals).\n"
+        "5. DATASET-DERIVED WATCHLIST: 2-3 specific triggers (Price targets, deadlines, catalytic events) extracted ONLY from the provided CLAIMS. No generic templates.\n\n"
+        "STRICT CONSTRAINTS:\n"
+        "- Tone: Clinical, precise, institutional.\n"
+        "- Target Reduction: Be 20% shorter than a standard summary.\n"
+    )
+    
+    try:
+        from langchain_core.messages import SystemMessage
+        response = llm.invoke([
+            SystemMessage(content=system_prompt),
+            HumanMessage(content=user_content)
+        ])
+        if hasattr(response, 'content'):
+            return response.content.strip()
+        return str(response)
+    except Exception as e:
+        logger.error(f"Error generating meta-summary: {e}")
+        return "Meta-summary generation failed due to synthesis error."
+
+def generate_cluster_label(cluster_briefs: List[Dict[str, Any]], llm) -> Dict[str, str]:
+    """
+    Generates a dynamic name, description, and positioning bias for a cluster.
+    """
+    context = "\n".join([f"- {b['one_line_summary']} (Themes: {', '.join(b['themes'])})" for b in cluster_briefs[:3]])
+    
+    prompt = (
+        "You are a narrative analyst.\n"
+        "Look at these top summaries from a semantic cluster and generate a human-readable label.\n\n"
+        f"### CLUSTER CONTENT:\n{context}\n\n"
+        "### OUTPUT FORMAT (JSON):\n"
+        "{{\n"
+        "  \"cluster_name\": \"Short descriptive phrase (e.g., 'Fed Pivot Speculation' or 'Renewable Infrastructure Growth')\",\n"
+        "  \"description\": \"One sentence summary of why these items are grouped.\",\n"
+        "  \"positioning_bias\": \"One of: constructive | defensive | neutral | counter-consensus\"\n"
+        "}}\n\n"
+        "RULES:\n"
+        "1. DO NOT use theme counting.\n"
+        "2. Be domain-agnostic. No assumption of asset classes unless stated in input.\n"
+        "3. High-density professional tone.\n"
+    )
+    
+    try:
+        response = llm.invoke([HumanMessage(content=prompt)])
+        import json
+        # Extract JSON from potential markdown blocks
+        clean_text = response.content.replace("```json", "").replace("```", "").strip()
+        data = json.loads(clean_text)
+        
+        # Validation: Enforce ALLOWED_BIAS
+        if data.get("positioning_bias", "").lower() not in ALLOWED_BIAS:
+            data["positioning_bias"] = "neutral"
+            
+        return data
+    except Exception as e:
+        logger.error(f"Error generating cluster label: {e}")
+        return {
+            "cluster_name": "Unnamed Cluster",
+            "description": "Dynamic grouping of related narratives.",
+            "positioning_bias": "neutral"
+        }
 
 def send_email_digest(html_content, date_str):
     # Prepare email
@@ -487,6 +479,7 @@ def run_summarization():
         
     llm = get_llm()
     processed_queue = []
+    formatted_briefs = []
     start_time = time.time()
 
     def process_video_summary(video):
@@ -495,27 +488,95 @@ def run_summarization():
             video["brief"] = brief
             md = format_markdown(brief, video.get('url', ''), video.get('thumbnail', ''))
             html_comp = format_html(brief, video.get('url', ''), video.get('thumbnail', ''))
+            
+            # Generate embedding for future clustering
+            text_for_embedding = f"{brief.get('one_line_summary', '')} {' '.join(brief.get('core_claims', []))}"
+            video["embedding"] = get_embedding(text_for_embedding)
+            
             logger.info(f"✅ Brief successfully generated for {video['title']}")
             return video, (md, html_comp)
         return None, None
 
-    from collections import defaultdict
-    grouped_briefs = defaultdict(list)
-    
     with concurrent.futures.ThreadPoolExecutor(max_workers=3) as executor:
         future_to_video = {executor.submit(process_video_summary, video): video for video in queue}
         for future in concurrent.futures.as_completed(future_to_video):
             v_res, format_res = future.result()
             if v_res and format_res:
                 processed_queue.append(v_res)
-                # CRITICAL: Always use the video's official category for grouping
-                # to prevent AI hallucinations from moving videos to 'Other'.
-                cat = v_res.get('category', 'Other')
-                grouped_briefs[cat].append((v_res, format_res))
+                formatted_briefs.append((v_res, format_res))
                 
     if not processed_queue:
         logger.warning("No briefs were successfully generated.")
         return []
+
+    # --- PHASE 2: SEMANTIC CLUSTERING (v2: Self-Tuning) ---
+    current_percentile = get_next_percentile()
+    linkage_mode = os.getenv("CLUSTERING_LINKAGE", "complete")
+    processed_queue = perform_semantic_clustering(
+        processed_queue, 
+        percentile=current_percentile,
+        linkage=linkage_mode
+    )
+
+    # --- PHASE 3: META SYNTHESIS ---
+    # A. Calculate Relative Signal
+    max_signal = max([v['brief']['signal_strength'] for v in processed_queue]) if processed_queue else 1
+    for v in processed_queue:
+        v['brief']['relative_signal'] = v['brief']['signal_strength'] / max_signal
+
+    # B. Narrative Convergence & Crowding Detection
+    from collections import defaultdict
+    clusters = defaultdict(list)
+    for v in processed_queue:
+        if v.get('cluster_id') != -1:
+            clusters[v['cluster_id']].append(v)
+    
+    cluster_metrics = []
+    cluster_sizes = [len(briefs) for briefs in clusters.values()]
+    percentile = int(os.getenv("CROWDING_PERCENTILE", 75))
+    crowding_threshold = np.percentile(cluster_sizes, percentile) if cluster_sizes else 0
+    
+    total_assets = len(processed_queue)
+    for c_id, briefs in clusters.items():
+        avg_signal = np.mean([b['brief']['signal_strength'] for b in briefs])
+        avg_coherence = np.mean([b.get('cluster_coherence', 1.0) for b in briefs])
+        cluster_strength = np.mean([b.get('cluster_strength', 0) for b in briefs])
+        
+        # Crowding Index = (cluster size * avg intra-cluster similarity * avg signal score)
+        crowding_index = len(briefs) * avg_coherence * avg_signal
+        
+        # Quantify Crowding Label
+        if crowding_index > 40: crowding_label = "HIGH"
+        elif crowding_index > 15: crowding_label = "MODERATE"
+        else: crowding_label = "LOW"
+
+        # Dynamic Cluster Labeling
+        label_data = generate_cluster_label(briefs, llm)
+        
+        cluster_metrics.append({
+            "id": c_id,
+            "name": label_data.get("cluster_name"),
+            "description": label_data.get("description"),
+            "bias": label_data.get("positioning_bias"),
+            "size": len(briefs),
+            "dominance_pct": (len(briefs) / total_assets) * 100 if total_assets > 0 else 0,
+            "strength": float(cluster_strength),
+            "coherence": float(avg_coherence),
+            "crowding_index": float(crowding_index),
+            "crowding_label": crowding_label,
+            "channels": list(set([b['brief']['channel'] for b in briefs])),
+            "avg_signal": float(avg_signal),
+            "is_crowded": crowding_label == "HIGH",
+            "is_singleton": len(briefs) == 1,
+            "is_emergent": len(briefs) >= 2 and avg_coherence > 0.85,
+            "briefs": [b['brief'] for b in briefs]
+        })
+    
+    # Sort cluster metrics by size (Dominance)
+    cluster_metrics = sorted(cluster_metrics, key=lambda x: x['size'], reverse=True)
+    
+    # C. Executive Meta Summary (Institutional Strategic Pass)
+    meta_summary = generate_meta_summary(cluster_metrics, total_assets, llm)
 
     # Update processed_videos DB
     db_path = os.path.join("data", "processed_videos.json")
@@ -552,56 +613,57 @@ def run_summarization():
     summary_html += f"<li><strong>Total Intelligence Assets:</strong> {total_videos} videos</li>"
     summary_html += f"<li><strong>Total Subject Time:</strong> {total_time:.1f} minutes</li></ul></div>"
 
-    official_cats = get_official_categories()
+    # --- EXECUTIVE META SUMMARY SECTION ---
+    summary_md += f"## 🧠 Executive Meta Summary\n\n{meta_summary}\n\n"
+    summary_html += f"<div style='background: #1A73E8; color: white; padding: 20px; border-radius: 8px; margin-bottom: 30px;'>"
+    summary_html += f"<h2 style='margin-top: 0; font-size: 20px;'>🧠 Executive Meta Summary</h2>"
+    summary_html += f"<div style='font-size: 14px; line-height: 1.6;'>{meta_summary.replace(chr(10), '<br/>')}</div></div>"
+
+    # --- NARRATIVE CLUSTERS INDEX ---
+    summary_md += "## 📁 Narrative Clusters\n\n"
+    summary_html += f"<h2 style='color: #202124; font-size: 20px; border-bottom: 2px solid #1A73E8; padding-bottom: 10px; margin-bottom: 20px; font-weight: bold;'>📁 Narrative Clusters</h2>"
     
-    # --- QUICK SCAN INDEX ---
-    summary_md += "#### 📌 Quick-Scan Index\n"
-    summary_html += f"<h2 style='color: #202124; font-size: 20px; border-bottom: 1px solid #eee; padding-bottom: 10px; margin-bottom: 20px; font-weight: bold;'>📌 Quick-Scan Index</h2>"
-    
-    # Filter and sort by official categories
-    available_cats = [c for c in official_cats if c in grouped_briefs]
-    # Add 'Other' if it exists and wasn't in official
-    if "Other" in grouped_briefs and "Other" not in official_cats:
-        available_cats.append("Other")
-    
-    for cat in available_cats:
-        summary_md += f"\n<span style='color:#1A73E8; font-size: 1.2em;'><b>{cat}</b></span>\n"
-        summary_html += f"<div style='margin-top: 25px; margin-bottom: 15px; color: #1A73E8; font-size: 16px; font-weight: bold;'>{cat}</div>"
+    for cluster in cluster_metrics:
+        crowd_flag = " ⚠️ **[CROWDED]**" if cluster['is_crowded'] else ""
+        summary_md += f"### {cluster['name']}{crowd_flag}\n"
+        summary_md += f"**Description:** {cluster['description']} | **Bias:** `{cluster['bias']}`\n"
+        summary_md += f"- **Dominance:** {cluster['size']} channels | **Avg Signal:** {cluster['avg_signal']:.1f}/10\n"
+        
+        summary_html += f"<div style='margin-bottom: 25px; border: 1px solid #eee; border-radius: 8px; overflow: hidden;'>"
+        header_bg = "#fde8e8" if cluster['is_crowded'] else "#f8f9fa"
+        summary_html += f"<div style='background: {header_bg}; padding: 12px; border-bottom: 1px solid #eee;'>"
+        summary_html += f"<div style='font-weight: bold; font-size: 15px; color: #1A73E8;'>{cluster['name']}</div>"
+        summary_html += f"<div style='font-size: 13px; color: #3C4043; margin-bottom: 4px;'>{cluster['description']}</div>"
+        
+        bias_color = {"constructive": "#34A853", "defensive": "#EA4335", "counter-consensus": "#F9AB00", "neutral": "#70757A"}.get(cluster['bias'].lower(), "#70757A")
+        summary_html += f"<span style='background: {bias_color}; color: white; padding: 2px 6px; border-radius: 4px; font-size: 10px; text-transform: uppercase;'>{cluster['bias']}</span>"
+        
+        if cluster['is_crowded']:
+            summary_html += " <span style='background: #EA4335; color: white; padding: 2px 6px; border-radius: 4px; font-size: 10px; margin-left: 10px;'>CROWDED TRADE</span>"
+        summary_html += f"<div style='font-size: 12px; color: #70757A; margin-top: 4px;'>{cluster['size']} channels • Avg Signal: {cluster['avg_signal']:.1f}/10</div></div>"
         
         summary_html += "<table width='100%' style='border-collapse: collapse;'>"
-        for v, _ in grouped_briefs[cat]:
-            b = v.get('brief', {})
-            summary_md += f"- **{b.get('channel')}**: [{b.get('episode_title')}]({v.get('url')}) *({b.get('duration_minutes')}m)*\n"
-            summary_md += f"  > {b.get('one_line_summary')}\n"
-            
-            # HTML Index Row (Strict Text Styles)
-            summary_html += "<tr>"
-            summary_html += f"<td style='padding: 10px 0; vertical-align: top;'>"
-            summary_html += f"<div style='font-size: 14px; margin-bottom: 4px;'>"
-            summary_html += f"<b style='color: #202124;'>{b.get('channel')}:</b> <a href='{v.get('url')}' style='color: #1155CC; text-decoration: none;'>{b.get('episode_title')}</a> "
-            summary_html += f"<span style='color: #70757A; font-style: italic;'>({b.get('duration_minutes')}m)</span></div>"
-            summary_html += f"<div style='font-size: 13.5px; color: #3C4043; line-height: 1.4;'>{b.get('one_line_summary')}</div>"
-            summary_html += "</td></tr>"
-        summary_html += "</table>"
+        for v, _ in formatted_briefs:
+            if v.get('cluster_id') == cluster['id']:
+                b = v.get('brief', {})
+                summary_md += f"- **{b.get('channel')}**: [{b.get('episode_title')}]({v.get('url')})\n"
+                
+                summary_html += "<tr><td style='padding: 10px; border-bottom: 1px solid #f1f3f4;'>"
+                summary_html += f"<div style='font-size: 14px;'><b style='color: #202124;'>{b.get('channel')}:</b> <a href='{v.get('url')}' style='color: #1155CC; text-decoration: none;'>{b.get('episode_title')}</a></div>"
+                summary_html += f"<div style='font-size: 13px; color: #3C4043; margin-top: 4px;'>{b.get('one_line_summary')}</div>"
+                summary_html += "</td></tr>"
+        summary_html += "</table></div>"
         
     summary_md += "\n---\n\n"
     summary_html += "<hr style='border: 0; border-top: 1px solid #eee; margin: 40px 0;' />"
 
-    # --- DETAILED BRIEFS SECTION (Grouped) ---
+    # --- DETAILED BRIEFS SECTION ---
     final_md = summary_md
     final_html = summary_html
     
-    for cat in available_cats:
-        final_md += f"# 📁 Sector: {cat}\n\n"
-        final_html += f"<h1 style='background: #1A73E8; color: white; padding: 12px; border-radius: 4px; font-size: 20px; margin-bottom: 30px; font-weight: bold;'>{cat}</h1>"
-        for _, (md, html_comp) in grouped_briefs[cat]:
-            final_md += md
-            final_html += html_comp
-        
-    final_html += "</body></html>"
-    
-    with open(md_filename, "w") as f:
-        f.write(final_md)
+    for _, (md, html_comp) in formatted_briefs: # Iterate over formatted_briefs to get formatted strings
+        final_md += md
+        final_html += html_comp
         
     final_html += "</body></html>"
     
@@ -617,11 +679,18 @@ def run_summarization():
             b = v.get('brief')
             b['thumbnail'] = v.get('thumbnail', '')
             b['video_url'] = v.get('url', '')
-            b['category_official'] = v.get('category', 'Other')
+            b['cluster_id'] = v.get('cluster_id', -1)
             enriched_briefs.append(b)
 
+    final_data = {
+        "date": date_str,
+        "meta_summary": meta_summary,
+        "briefs": enriched_briefs,
+        "clusters": cluster_metrics
+    }
+
     with open(json_filename, "w") as f:
-        json.dump(enriched_briefs, f, indent=2)
+        json.dump(final_data, f, indent=2)
     elapsed = time.time() - start_time
     logger.info(f"Summarization complete. {len(processed_queue)} briefs written to {md_filename} (Time: {elapsed:.1f}s)")
     

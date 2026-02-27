@@ -9,7 +9,7 @@ from datetime import datetime
 from dotenv import load_dotenv
 
 from add_channel import add_channel, get_channel_id_from_url, search_channel_by_name
-from pipeline.profiles import get_profile_for_category
+# Removed pipeline.profiles import as part of hardcode removal
 from googleapiclient.discovery import build
 
 # App Config
@@ -69,6 +69,19 @@ def load_json_briefs(date_str):
             return json.load(f)
     return None
 
+def load_meta_summary(date_str):
+    """Extraction of meta-summary from the markdown file if possible, or assume it's in a companion JSON."""
+    # For now, we'll try to find it in the markdown content since it's saved there
+    path = os.path.join("briefs", f"{date_str}.md")
+    if os.path.exists(path):
+        with open(path, "r") as f:
+            content = f.read()
+            if "## 🧠 Executive Meta Summary" in content:
+                parts = content.split("## 🧠 Executive Meta Summary")
+                summary = parts[1].split("## ")[0].strip()
+                return summary
+    return None
+
 def load_channels():
     """Load the channels from channels.json"""
     channels_file = "channels.json"
@@ -114,6 +127,43 @@ def show_channel_image(url):
         st.image(img_bytes, width=80)
     else:
         st.markdown("<div style='width:80px;height:80px;display:flex;align-items:center;justify-content:center;background:#333;border-radius:50%;font-size:30px;'>📻</div>", unsafe_allow_html=True)
+
+def render_brief_card(brief):
+    """Helper to render a consistent brief card across different view modes."""
+    title_url = brief.get('video_url', '#')
+    st.subheader(f"[{brief.get('episode_title', 'Unknown Title')}]({title_url})")
+    
+    col_img, col_meta = st.columns([1, 3])
+    with col_img:
+        if brief.get('thumbnail'):
+            st.image(brief['thumbnail'], use_container_width=True)
+    
+    with col_meta:
+        st.markdown(f"**{brief.get('channel', 'Unknown')}** | ⏱️ {brief.get('duration_minutes', 0)}m | 📅 {brief.get('podcast_date', 'N/A')}")
+        
+        m_cols = st.columns(3)
+        with m_cols[0]:
+            st.metric("Signal", f"{brief.get('signal_strength', 0)}/10")
+        with m_cols[1]:
+            st.metric("Horizon", brief.get('time_horizon', 'N/A'))
+        with m_cols[2]:
+            st.metric("Shelf Life", brief.get('shelf_life', 'N/A'))
+    
+    st.markdown(f"**Thesis:** {brief.get('one_line_summary', 'N/A')}")
+    
+    # Removed hashtag spam for institutional standard
+    # if brief.get('themes'):
+    #     themes_html = " ".join([f"<span style='background:#e8f0fe; color:#1a73e8; padding:2px 8px; border-radius:12px; font-size:12px; margin-right:5px;'>#{t}</span>" for t in brief['themes']])
+    #     st.markdown(themes_html, unsafe_allow_html=True)
+        
+    with st.expander("🔍 Intelligence Detail"):
+        st.markdown("#### Core Claims")
+        for claim in brief.get('core_claims', []):
+            st.write(f"- {claim}")
+        
+        st.divider()
+        st.markdown("#### Positioning Implication")
+        st.info(brief.get('positioning_implication', 'N/A'))
 
 # --- Session State Initialization ---
 if 'channels' not in st.session_state:
@@ -178,7 +228,7 @@ st.markdown("""
 st.title("🎙️ TheBrief Dashboard")
 st.markdown("Your daily deep-dive podcast briefing system.")
 
-tab1, tab2, tab3 = st.tabs(["📑 Daily Briefs", "📺 Sources", "⚙️ Pipeline & Queue"])
+tab1, tab2, tab3, tab4 = st.tabs(["📑 Daily Briefs", "📺 Sources", "⚙️ Pipeline & Queue", "📊 Clustering Health"])
 
 
 # === TAB 1: Daily Briefs ===
@@ -228,105 +278,116 @@ with tab1:
             
             # Try to load high-fidelity JSON data for BKM metrics
             json_data = load_json_briefs(selected_brief['date'])
+            meta_summary = load_meta_summary(selected_brief['date'])
             
+            if meta_summary:
+                st.markdown(f"""
+                    <div style='background-color: #1a73e8; padding: 20px; border-radius: 10px; margin-bottom: 25px; color: #ffffff;'>
+                        <h3 style='margin-top: 0; color: #ffffff;'>🧠 Executive Meta Summary</h3>
+                        <p style='font-size: 1.1rem; line-height: 1.6;'>{meta_summary}</p>
+                    </div>
+                """, unsafe_allow_html=True)
+
             if json_data:
-                # Group by topic domain or category if possible
-                for brief in json_data:
-                    with st.container(border=True):
-                        # Title and Metadata
-                        title_url = brief.get('video_url', '#')
-                        st.subheader(f"[{brief.get('episode_title', 'Unknown Title')}]({title_url})")
+                # Robustly handle both new dict format and legacy list format
+                if isinstance(json_data, dict):
+                    clusters_meta = json_data.get('clusters', [])
+                    briefs = json_data.get('briefs', [])
+                else:
+                    # Legacy list format
+                    clusters_meta = []
+                    briefs = json_data
+                
+                from collections import Counter, defaultdict
+                
+                # 1. Map Channels to Categories
+                channel_cat_map = {c['name']: c.get('category', 'Other') for c in st.session_state.channels}
+                
+                # 2. Assign Clusters to a Dominant Category
+                briefs_by_cluster = defaultdict(list)
+                for b in briefs:
+                    c_id = b.get('cluster_id', -1)
+                    briefs_by_cluster[c_id].append(b)
+                
+                clusters_by_category = defaultdict(list)
+                if clusters_meta:
+                    for cluster in clusters_meta:
+                        c_id = cluster['id']
+                        cluster_briefs = briefs_by_cluster.get(c_id, [])
+                        if not cluster_briefs: continue
                         
-                        col_img, col_meta = st.columns([1, 3])
-                        with col_img:
-                            if brief.get('thumbnail'):
-                                st.image(brief['thumbnail'], use_container_width=True)
+                        # Determine dominant category for this cluster
+                        categories = [channel_cat_map.get(b['channel'], 'Other') for b in cluster_briefs]
+                        counts = Counter(categories)
+                        most_common = counts.most_common()
                         
-                        with col_meta:
-                            st.markdown(f"**{brief.get('channel', 'Unknown')}** | ⏱️ {brief.get('duration_minutes', 0)}m | 🏷️ {brief.get('shelf_life', 'N/A')}")
-                            st.markdown(f"📅 **Published:** {brief.get('podcast_date', 'N/A')} | **Processed:** {brief.get('processing_date', 'N/A')}")
-                            
-                            # High-Impact Metrics Ribbon
-                            # Determine profiles and features
-                            vid_cat = brief.get('category', brief.get('topic_domain', 'Other'))
-                            profile = get_profile_for_category(vid_cat)
-                            features = profile.get("features", {})
-                            
-                            metrics_cols = []
-                            if features.get("signal_strength", True): metrics_cols.append(("Signal", f"{brief.get('signal_strength', 0)}/10", brief.get('signal_strength_justification', '')))
-                            if features.get("novelty"): metrics_cols.append(("Novelty", f"{brief.get('novelty', 0)}/10", brief.get('novelty_justification', '')))
-                            if features.get("tradeability"): metrics_cols.append(("Tradeability", f"{brief.get('tradeability', 0)}/10", brief.get('tradeability_justification', '')))
-                            metrics_cols.append(("Horizon", brief.get('time_sensitivity', 'N/A'), ""))
-                            
-                            m_cols = st.columns(len(metrics_cols))
-                            for i, (label, val, justification) in enumerate(metrics_cols):
-                                with m_cols[i]:
-                                    st.metric(label, val)
-                                    if justification:
-                                        st.caption(justification)
+                        # Handle mixed origins
+                        if len(most_common) > 1 and most_common[0][1] == most_common[1][1]:
+                            dominant_cat = "Macro / Multi-Sector"
+                        else:
+                            dominant_cat = most_common[0][0] if most_common else "Other"
                         
-                        # Incentive Bias Banner
-                        incentive = brief.get('executive_use_case', {}).get('incentive_bias', 'No')
-                        if incentive != 'No':
-                            st.error(f"⚠️ **INCENTIVE BIAS FLAGGED:** {incentive}")
+                        clusters_by_category[dominant_cat].append((cluster, cluster_briefs))
 
-                        # Detailed Intelligence Layers
-                        st.markdown(f"**Thesis:** {brief.get('one_line_summary', 'N/A')}")
+                # 3. Render Categorized Radar
+                sorted_cats = sorted(clusters_by_category.keys())
+                if "Macro / Multi-Sector" in sorted_cats:
+                    sorted_cats.remove("Macro / Multi-Sector")
+                    sorted_cats.insert(0, "Macro / Multi-Sector")
+                
+                for category in sorted_cats:
+                    st.markdown(f"### 📁 Sector: {category}")
+                    for cluster, cluster_briefs in clusters_by_category[category]:
+                        c_id = cluster['id']
+                        is_singleton = cluster.get('is_singleton', False)
+                        strength = cluster.get('strength', 0.0)
+                        coherence = cluster.get('coherence', 1.0)
+                        crowding_label = cluster.get('crowding_label', 'N/A')
+                        dominance_pct = cluster.get('dominance_pct', 0.0)
                         
-                        col_l, col_r = st.columns(2)
-                        with col_l:
-                            st.info(f"**Market Context:**\n{brief.get('current_market_context', 'N/A')}")
-                        with col_r:
-                            # Handling potentially list or string weak_links
-                            wl = brief.get('weak_links', 'N/A')
-                            if isinstance(wl, list): wl = "\n".join([f"- {i}" for i in wl])
-                            st.warning(f"**Weak Links:**\n{wl}")
+                        is_emergent = cluster.get('is_emergent', False)
+                        header_label = "📍 Isolated Signal" if is_singleton else f"📁 Convergence [{dominance_pct:.0f}%]"
+                        if is_emergent:
+                            header_label = f"🔥 EMERGING: {header_label}"
+                        
+                        with st.expander(f"{header_label}: {cluster.get('name', f'Cluster {c_id}')} ({len(cluster_briefs)} sources)", expanded=not is_singleton):
+                            bias = cluster.get('bias', 'neutral').upper()
+                            bias_map = {
+                                "CONSTRUCTIVE": {"color": "green", "label": "CONSTRUCTIVE"}, 
+                                "DEFENSIVE": {"color": "red", "label": "DEFENSIVE"}, 
+                                "COUNTER-CONSENSUS": {"color": "orange", "label": "COUNTER-CONSENSUS"}, 
+                                "NEUTRAL": {"color": "gray", "label": "NEUTRAL"}
+                            }
+                            style = bias_map.get(bias, bias_map["NEUTRAL"])
                             
-                        with st.expander("🔍 Deep Intel: Claims & Evidence"):
-                            st.markdown("#### Core Claims")
-                            for claim in brief.get('core_claims', []):
-                                st.write(f"- **{claim.get('claim', 'Unknown Claim')}**")
-                                st.caption(f"Evidence: {claim.get('evidence_cited', 'N/A')} ({claim.get('evidence_type', 'N/A')} | {claim.get('evidence_strength', 'N/A')})")
+                            c_cols = st.columns(5)
+                            with c_cols[0]:
+                                st.metric("Strength", f"{strength:.1f}")
+                            with c_cols[1]:
+                                st.metric("Coherence", f"{coherence:.2f}")
+                            with c_cols[2]:
+                                st.metric("Crowding", crowding_label)
+                            with c_cols[3]:
+                                channels_count = len(cluster.get('channels', []))
+                                st.metric("Convergence", f"{channels_count} Ch")
+                            with c_cols[4]:
+                                st.markdown(f"**Bias:** :{style['color']}[{style['label']}]")
                             
-                            if features.get("specifics"):
-                                st.markdown(f"#### {features['specifics']}")
-                                st.code(brief.get('specifics_extracted', 'N/A'), language=None)
-                            
-                            st.markdown("#### Claim Plausibility")
-                            plausibility = brief.get('claim_plausibility', [])
-                            if isinstance(plausibility, list):
-                                for p in plausibility:
-                                    st.write(f"- {p}")
-                            else:
-                                st.info(plausibility)
-                            
-                            if brief.get('historical_parallel'):
-                                st.markdown("#### Historical Parallel")
-                                st.success(brief['historical_parallel'])
-                            
-                        with st.expander("🧠 Meta Assessment & Counter-Consensus"):
-                            st.markdown(f"**Speaker:** {brief.get('speaker_context', 'N/A')}")
-                            st.markdown(f"**Assessment:** {brief.get('meta_assessment', 'N/A')}")
+                            st.markdown(f"*{cluster.get('description', '')}*")
                             st.divider()
-                            cc = brief.get('counter_consensus', 'N/A')
-                            if isinstance(cc, list): cc = "\n".join([f"- {i}" for i in cc])
-                            st.markdown(f"**Counter-Consensus View:**\n{cc}")
                             
-                        with st.expander("⚙️ Mechanics & Disconfirming Signals"):
-                            mech = brief.get('mechanism', {})
-                            st.markdown(f"#### {features.get('mechanism', 'Mechanism')}")
-                            st.markdown(f"- **Trigger:** {mech.get('trigger')}")
-                            st.markdown(f"- **Transmission:** {mech.get('transmission_path')}")
-                            st.markdown(f"- **Market Impact:** {mech.get('market_impact')}")
-                            if features.get("signals"):
-                                st.divider()
-                                st.markdown("**Watch for Disconfirming Signals:**")
-                                for sig in brief.get('disconfirming_signals', []):
-                                    st.write(f"- {sig}")
-
+                            for brief in cluster_briefs:
+                                with st.container(border=True):
+                                    render_brief_card(brief)
+                    st.divider()
+                else:
+                    # Render all briefs normally if no cluster metadata
+                    for brief in briefs:
+                        with st.container(border=True):
+                            render_brief_card(brief)
             else:
-                # Fallback to plain markdown if JSON is missing
-                st.warning("⚠️ High-fidelity structured data unavailable for this date — rendering raw intelligence brief.")
+                # Fallback to plain markdown
+                st.warning("⚠️ High-fidelity structured data unavailable — rendering raw intelligence brief.")
                 st.divider()
                 st.markdown(selected_brief["content"], unsafe_allow_html=True)
 
@@ -764,3 +825,29 @@ with tab3:
             st.header("✅ System Ready")
             st.success("All discovered videos have been successfully briefed. There are no items pending.")
             st.caption("New videos will appear here temporarily during the next discovery cycle.")
+
+# === TAB 4: Clustering Health ===
+with tab4:
+    st.header("📊 Clustering Health & Performance")
+    stats_path = "data/clustering_stats.json"
+    if os.path.exists(stats_path):
+        with open(stats_path, "r") as f:
+            stats = json.load(f)
+        
+        if stats:
+            latest = stats[-1]
+            col1, col2, col3, col4 = st.columns(4)
+            col1.metric("Videos", latest['video_count'])
+            col2.metric("Clusters", latest['cluster_count'])
+            col3.metric("Singletons", latest['singleton_count'])
+            col4.metric("Percentile", latest['percentile'])
+            
+            st.divider()
+            st.subheader("Clustering Distribution History")
+            # Simple list-based history for now
+            for s in reversed(stats[-10:]):
+                st.write(f"**{s['timestamp'][:16]}** | Linkage: `{s['linkage']}` | Dist: `{s['distribution']}`")
+        else:
+            st.info("No clustering data logged yet.")
+    else:
+        st.info("Instrumentation logs not found. Run a pipeline with the v2.0 upgrade to see metrics.")

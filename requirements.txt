@@ -11,3 +11,5 @@ isodate
 streamlit>=1.40.0
 python-dotenv
 static-ffmpeg
+scikit-learn
+numpy
