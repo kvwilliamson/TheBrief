@@ -63,6 +63,9 @@ def extract_audio_for_video(video):
     command = [
         ytdlp_path,
         "-f", "bestaudio/best",
+        "--no-check-certificate",
+        "--prefer-free-formats",
+        "--extractor-args", "youtube:player_client=tv,mweb",
         "-x",
         "--audio-format", "mp3",
         "--postprocessor-args", "-ar 16000 -ac 1",
