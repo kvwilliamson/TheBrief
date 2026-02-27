@@ -37,33 +37,36 @@ The pipeline runs as a single Python orchestrator (`main.py`) composed of three 
 - Optimized for transcription efficiency
 
 ### 3. Intelligence Summarization (Direct Audio)
-Transcripts are bypassed in the primary flow. The pipeline uses **Google Gemini 2.5 Flash** to perform native audio analysis, listening for both semantic content and acoustic signals (tone, pacing, conviction).
+Transcripts are bypassed in the primary flow. The pipeline uses **Google Gemini 1.5 Pro/Flash** to perform native audio analysis, listening for both semantic content and acoustic signals (tone, pacing, conviction).
 
 The engine generates:
-- **Episode Intelligence Profile**
-- **Signal Snapshot** (compact scoring grid)
+- **Clinical Narrative Labels**: Prioritizing directional pressure (tension, acceleration, eroding) over simple topic headers.
+- **Zero-Framing Briefs**: Automated stripping of host framing ("This episode discusses") to focus exclusively on signal-dense strategic intel.
 - **Reality Layer** (hard claims only)
 - **Forward Projections** (risk layer)
-- **Mechanism Analysis**
-- **Emotional Conviction** (acoustic tone analysis)
 - **Disconfirming Signals**
-- **Final Intelligence Take** (strategic classification)
+
+### 4. Strategic Narrative Synthesis (Phase 4)
+The pipeline now goes beyond individual summaries to generate **Strategic Sector Intelligence**:
+- **Cross-Cluster Convergence Alerts**: Detects narrative overlaps between sectors (e.g., Geopolitical tension in Politics reinforces Supply Chain disruption in Metals) via high-dimensional centroid correlation.
+- **Narrative Regime States**: Classifies sectors and clusters into regimes (Emerging, Accelerating, Dominant, Fragmenting, Decaying) based on narrative velocity and signal reinforcement.
+- **Automated Domain Purity**: No sector names or framing language are hardcoded. All logic is dynamically derived from `channels.json` and `config.json`, enforced by an automated CI linter.
 
 **Output:**
 - Saved as Markdown in `/briefs/`
 - Optionally emailed
 - Fully structured JSON retained internally for scoring and longitudinal analysis
 
-## Output Characteristics (BKM v2)
-Each episode brief:
-- 400–700 words
-- <3 minutes reading time
-- Compact scoring tables
-- Max 6 bullets per section
-- Strict compression of thesis (1 sentence)
-- Final strategic classification required
 
-*TheBrief is optimized for cognitive efficiency, not verbosity.*
+## Output Characteristics (Strategic V2)
+Each dispatch provides:
+- **Categorized Narrative Intelligence**: Grouped solely by sectors discovered in `channels.json`.
+- **⚡ Convergence Alerts**: Visual indicators of cross-sector narrative pressure.
+- **Regime Classification**: Immediate visibility into narrative strength (e.g., Dominant, Decaying).
+- **Differentiated Signal**: Strict audit for incremental value across clusters.
+
+*TheBrief is a strategic narrative engine, not a summary aggregator.*
+
 
 ## Quick Start
 
