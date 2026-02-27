@@ -1,0 +1,1031 @@
+{
+  "date": "2026-02-27",
+  "briefs": [
+    {
+      "episode_title": "AI and the Coming Deluge of Noise | Frankly 128",
+      "channel": "Nate Hagens",
+      "duration_minutes": 37,
+      "podcast_date": "2026-02-27",
+      "processing_date": "2026-02-27",
+      "one_line_summary": "AI-driven content creation threatens to overwhelm individuals with noise, overshadowing genuine insight and agency.",
+      "core_claims": [
+        "AI is making it extremely cheap to generate text, stories, narrative, and coherent strings of words.",
+        "The scarce resource will become authenticity, judgment, and the ability to discern truth in reality.",
+        "A large majority of modern food is not designed to nourish, but to be addictive to ensure continued sales.",
+        "AI industrializes information production, creating an abundance of information analogous to the overproduction of calories in the food system, leading to cognitive malnourishment.",
+        "We risk becoming information-rich and wisdom-poor on steroids due to AI and large language models.",
+        "We risk being mentally full with noise while feeling and being undernourished for lack of real signal from information."
+      ],
+      "signal_strength": 9,
+      "themes": [
+        "ai",
+        "information overload",
+        "cognitive health",
+        "authenticity",
+        "critical thinking",
+        "food systems"
+      ],
+      "positioning_implication": "Prioritize the cultivation of critical thinking skills and discernment amidst the increasing volume of AI-generated content to maintain a grounded understanding of reality.  Focus on developing individual agency in information consumption.",
+      "time_horizon": "medium",
+      "shelf_life": "Medium",
+      "thumbnail": "https://i.ytimg.com/vi/Ucgyd5ML0j4/hqdefault.jpg",
+      "video_url": "https://www.youtube.com/watch?v=Ucgyd5ML0j4",
+      "cluster_id": 0,
+      "category": "Philosophy and Thoughtfulness"
+    },
+    {
+      "episode_title": "EARNINGS EXPLOSION! \ud83d\udca5 MUST-WATCH LEVELS! \ud83d\udcc8",
+      "channel": "Verified Investing",
+      "duration_minutes": 17,
+      "podcast_date": "2026-02-27",
+      "processing_date": "2026-02-27",
+      "one_line_summary": "Analysis of key stock levels and potential trading opportunities following earnings reports and PPI data release.",
+      "core_claims": [
+        "PPI data at 0.5, exceeding the forecast of 0.3, is causing market sell-offs.",
+        "S&P 500 is declining with a pre-market drop to $683, suggesting a need for conservative trading strategies.",
+        "Intuitive after-hours price action suggests an aggressive day trade entry point around $359, but potential support exists at $339.36 and $334.",
+        "Dell is showing a breakout from a bear flag consolidation, with an aggressive short level at $139.77 and major pivot high from December 8th at $142.34.",
+        "Monster Beverage's current support is at $82.50, but further downside could lead to a medium-term level at $76.15 with a bounce to around $80 anticipated.",
+        "Autodesk has support at $224.74, showing oversold conditions and potential for a near-term bounce, with gap fill resistance at $255.57 and a declining trend line at $267.07.",
+        "Rocket Lab exhibits a decline after earnings with a conservative bottom level at $63.87 and anticipated price piercing, with the next gap fill around $60.",
+        "ZS Scaler is dropping after earnings, requiring conservative trading at $138.87, with potential support on a trend line at $141 but favoring a pierce of $140 before entering a position.",
+        "CoreWeave missed earnings per share, currently supported at $78.94 with a backup at $74.65;  analyst likes for intraday trading.",
+        "Nvidia under pressure and declining is a systemic risk, closely watching the inclining trend line level, at $177.32, break level at $170, major support at $153.",
+        "Microsoft beat up with oversold conditions, the weekly chart at 30.44, and a near-term swing opportunity up to the $450 level."
+      ],
+      "signal_strength": 8,
+      "themes": [
+        "market analysis",
+        "technical analysis",
+        "earnings reports",
+        "trade opportunities",
+        "risk management",
+        "economic indicators"
+      ],
+      "positioning_implication": "Adjust trading strategies to account for market volatility driven by economic data and earnings reports; identify potential entry and exit points based on key support and resistance levels.",
+      "time_horizon": "short",
+      "shelf_life": "Short",
+      "thumbnail": "https://i.ytimg.com/vi/XmR2gZUfKFc/hqdefault.jpg",
+      "video_url": "https://www.youtube.com/watch?v=XmR2gZUfKFc",
+      "cluster_id": 1,
+      "category": "General Financial Investing and Speculation"
+    },
+    {
+      "episode_title": "Prediction Markets vs. Gambling: Where\u2019s the Line? | Prof G Markets",
+      "channel": "The Prof G Pod \u2013 Scott Galloway",
+      "duration_minutes": 49,
+      "podcast_date": "2026-02-27",
+      "processing_date": "2024-02-27",
+      "one_line_summary": "Prediction markets' regulatory status and societal impact are debated amid its exponential growth, touching on the incentives, risks, and accuracy of predictions.",
+      "core_claims": [
+        "Calshi's revenue has grown approximately 1000% in the last year.",
+        "Volume on Calshi's platform increased from $280 million to $2.3 billion.",
+        "The market is growing at an exponential pace and is reaching the mainstream."
+      ],
+      "signal_strength": 7,
+      "themes": [
+        "prediction markets",
+        "regulation",
+        "gambling",
+        "financial markets",
+        "risk assessment",
+        "market analysis",
+        "ethics",
+        "consumer behavior"
+      ],
+      "positioning_implication": "Acknowledge evolving regulatory risks to maintain platform integrity. Proactively address potentially harmful incentives to reduce the likelihood of regulatory blowback.",
+      "time_horizon": "medium",
+      "shelf_life": "Medium",
+      "thumbnail": "https://i.ytimg.com/vi/J31lDCBRZgg/hqdefault.jpg",
+      "video_url": "https://www.youtube.com/watch?v=J31lDCBRZgg",
+      "cluster_id": 2,
+      "category": "General Financial Investing and Speculation"
+    },
+    {
+      "episode_title": "Gold & Silver Trading Halted: They\u2019re Playing Very Dangerous Game | Andy Schectman & Michelle Makori",
+      "channel": "Miles Franklin Media",
+      "duration_minutes": 52,
+      "podcast_date": "2026-02-27",
+      "processing_date": "2026-02-27",
+      "one_line_summary": "CME halts metal trading amid market instability; analysts speculate on manipulation, dwindling trust, and shifting global power dynamics in precious metals.",
+      "core_claims": [
+        "CME halts metal trading on Globex platform citing technical issues, sparking concerns of manipulation.",
+        "Silver withdrawal from COMEX exceeds deliveries, indicating potential lack of trust in the system.",
+        "Cartel violence in Mexico, world's largest silver producer, poses supply disruption risks.",
+        "Strategic stockpiling of silver (Project Vault) suggests recognition as a national security asset, but also increased government influence on market control.",
+        "The Shanghai exchange is positioning itself as a viable alternative for global price setting.",
+        "Gold is starting to replace US Treasuries as a primary reserve asset for central banks."
+      ],
+      "signal_strength": 8,
+      "themes": [
+        "precious metals",
+        "market manipulation",
+        "cme",
+        "silver",
+        "gold",
+        "supply chain",
+        "geopolitics",
+        "central banks"
+      ],
+      "positioning_implication": "De-risk exposure to centralized exchanges; consider diversification and physical holdings to mitigate counterparty risk and geopolitical instability.",
+      "time_horizon": "medium",
+      "shelf_life": "Medium",
+      "thumbnail": "https://i.ytimg.com/vi/poSXbr94Lrg/hqdefault.jpg",
+      "video_url": "https://www.youtube.com/watch?v=poSXbr94Lrg",
+      "cluster_id": 2,
+      "category": "Precious Metals"
+    },
+    {
+      "episode_title": "Where is Silver Price Going? Silver Pros (S8 E2)",
+      "channel": "Silver Dragons",
+      "duration_minutes": 49,
+      "podcast_date": "2026-02-27",
+      "processing_date": "2026-02-27",
+      "one_line_summary": "Silver price potentially responding to geopolitical tension, especially regarding Iran, but the long-term trend is still sideways for now.",
+      "core_claims": [
+        "Silver is currently at $89.93 per ounce.",
+        "Gold is at $5200, GSR is under 60 again.",
+        "Gold is about $200 off the all-time high and could hit it next week due to tensions.",
+        "The speaker predicts that the GSR will be 70 by the end of next week.",
+        "Shanghai Silver is at $99.74 and almost back to $100 per ounce and still on a premium versus COMEX about $10."
+      ],
+      "signal_strength": 7,
+      "themes": [
+        "silver",
+        "gold",
+        "geopolitics",
+        "markets",
+        "trading",
+        "investing"
+      ],
+      "positioning_implication": "Consider diversifying precious metal holdings and monitoring geopolitical events for potential market shifts.",
+      "time_horizon": "short",
+      "shelf_life": "Short",
+      "thumbnail": "https://i.ytimg.com/vi/mWJRxw1p6-o/hqdefault.jpg",
+      "video_url": "https://www.youtube.com/watch?v=mWJRxw1p6-o",
+      "cluster_id": 0,
+      "category": "Precious Metals"
+    },
+    {
+      "episode_title": "EXCLUSIVE: Binance Execs Hit Back At Billion Dollar Iran Terror Funding Allegations",
+      "channel": "David Lin",
+      "duration_minutes": 49,
+      "podcast_date": "2026-02-27",
+      "processing_date": "2026-02-27",
+      "one_line_summary": "Binance executives refute allegations of facilitating billion-dollar transactions with Iranian entities and emphasize compliance efforts.",
+      "core_claims": [
+        "WSJ and NYT reported $1.7 billion in flows on Binance linked to Iran associated/sanctioned entities, leading to employee suspensions/firings.",
+        "Investigators were not let go from Binance due to escalating compliance concerns; investigations continued after some employees departed.",
+        "No Binance users were sanctioned; no wallets receiving funds were known to be associated with any sanctioned entities at the transaction time; Binance review found no users directly transacting with sanctioned persons/wallets.",
+        "Preliminary investigations were brought to Binance, then a very thorough investigation that was ongoing, allegations had not been finally vetted or made official conclusions.",
+        "Binance prohibits services to residents in Iran regardless of nationality; Iranian nationals residing outside Iran are not prohibited from using services.",
+        "Sanction-related exposure on Binance reduced dramatically by 97% from 2024 to 2025, comparing well to 10 global exchanges."
+      ],
+      "signal_strength": 7,
+      "themes": [
+        "compliance",
+        "regulation",
+        "sanctions",
+        "iran",
+        "cryptocurrency",
+        "binance"
+      ],
+      "positioning_implication": "Evaluate exposure to Binance given sanctions and illicit fund transfer risks; prioritize regulatory transparency during exchange selection.",
+      "time_horizon": "medium",
+      "shelf_life": "Medium",
+      "thumbnail": "https://i.ytimg.com/vi/GIcuz4sAEfQ/hqdefault.jpg",
+      "video_url": "https://www.youtube.com/watch?v=GIcuz4sAEfQ",
+      "cluster_id": 0,
+      "category": "General Financial Investing and Speculation"
+    },
+    {
+      "episode_title": "Silver Wars Appear To Just Be Getting Started",
+      "channel": "Arcadia Economics",
+      "duration_minutes": 36,
+      "podcast_date": "2026-02-27",
+      "processing_date": "2026-02-27",
+      "one_line_summary": "Countries may implement export controls on silver, incentivizing others to follow suit, especially as the US worries more about silver leaving than gold.",
+      "core_claims": [
+        "The US is more concerned about silver leaving the country than gold.",
+        "Bulyon controls can lead to reflexive actions among countries.",
+        "Export controls could incentivize other countries to implement similar measures."
+      ],
+      "signal_strength": 7,
+      "themes": [
+        "silver",
+        "export controls",
+        "geopolitics",
+        "economic incentives",
+        "critical minerals",
+        "us policy"
+      ],
+      "positioning_implication": "Assess exposure to geopolitical supply chain risks and diversify holdings to mitigate potential export control impacts.",
+      "time_horizon": "medium",
+      "shelf_life": "Medium",
+      "thumbnail": "https://i.ytimg.com/vi/x9_2Gf2chss/hqdefault.jpg",
+      "video_url": "https://www.youtube.com/watch?v=x9_2Gf2chss",
+      "cluster_id": 1,
+      "category": "Precious Metals"
+    },
+    {
+      "episode_title": "SILVER PRICE ALERT: COMEX Is In BIG Trouble! MUST LISTEN",
+      "channel": "Wall Street Bullion",
+      "duration_minutes": 30,
+      "podcast_date": "2026-02-27",
+      "processing_date": "2024-03-01",
+      "one_line_summary": "Silver's projected sustained price elevation stems from structural deficits, geopolitical factors in Mexico, and potential foreign intervention.",
+      "core_claims": [
+        "Within a year, silver prices increased dramatically, reaching highs of $120 after being around $30 previously.",
+        "A new floor for silver prices is estimated to be between $70 and $90 due to its indispensable nature and strategic importance.",
+        "Mexico, the largest silver concentrate producer accounting for 25% of global silver output, faces potential unrest that could impact silver availability.",
+        "Gold Republic has experienced significant customer base growth, with customer portfolios shifting from 70% gold/30% silver to a 50/50 split.",
+        "There's a structural deficit of approximately 3 million ounces of silver annually, potentially increasing to 6 million due to production drops or continued unrest."
+      ],
+      "signal_strength": 9,
+      "themes": [
+        "silver prices",
+        "geopolitics",
+        "supply chain",
+        "market analysis",
+        "investment strategy",
+        "precious metals"
+      ],
+      "positioning_implication": "Increase exposure to physical silver assets, anticipating sustained higher prices and potential supply disruptions due to geopolitical instability and strategic resource control.",
+      "time_horizon": "medium",
+      "shelf_life": "Medium",
+      "thumbnail": "https://i.ytimg.com/vi/BDb8u5Wc_Zc/hqdefault.jpg",
+      "video_url": "https://www.youtube.com/watch?v=BDb8u5Wc_Zc",
+      "cluster_id": 0,
+      "category": "Precious Metals"
+    },
+    {
+      "episode_title": "Is the U.S. About to Go to War With Iran? | Prof G Conversations",
+      "channel": "The Prof G Pod \u2013 Scott Galloway",
+      "duration_minutes": 49,
+      "podcast_date": "2026-02-27",
+      "processing_date": "2026-02-27",
+      "one_line_summary": "US military action against Iran appears more likely due to the unlikelihood of a deal given current uncompromising stances, though Trump may prefer a peaceful resolution.",
+      "core_claims": [
+        "The US has the largest military buildup in the Middle East since the 2003 invasion of Iraq.",
+        "Iran is under enormous economic pressure, but hasn't compromised due to the will of Iran's 86-year-old dictator, Ayatollah Khamenei, who's focused on resistance against America.",
+        "The likelihood of a deal appears not very high at this moment, increasing the likelihood of US military action."
+      ],
+      "signal_strength": 7,
+      "themes": [
+        "iran",
+        "us foreign policy",
+        "military action",
+        "nuclear deal",
+        "geopolitics",
+        "trump administration"
+      ],
+      "positioning_implication": "Assess the potential for military conflict with Iran, and re-evaluate the likelihood of a peaceful resolution.",
+      "time_horizon": "short",
+      "shelf_life": "Short",
+      "thumbnail": "https://i.ytimg.com/vi/w_sh_ESXP5A/hqdefault.jpg",
+      "video_url": "https://www.youtube.com/watch?v=w_sh_ESXP5A",
+      "cluster_id": 0,
+      "category": "General Financial Investing and Speculation"
+    },
+    {
+      "episode_title": "SILVER Price Manipulation! You MUST Hear THESE Facts! - (Gold Price too)",
+      "channel": "Rons Basement",
+      "duration_minutes": 0,
+      "podcast_date": "2026-02-27",
+      "processing_date": "2026-02-27",
+      "one_line_summary": "Western market confidence erodes as India and China question LBMA/COMEX gold and silver pricing, leading to speculation of manipulation and aggressive fictionalization of markets.",
+      "core_claims": [
+        "India will no longer use LBMA for gold and silver pricing, shifting to domestic valuation.",
+        "India caught Jane Street manipulating its markets and expelled them, while China closed accounts abusing its paper silver markets.",
+        "COMEX trading was halted, leading to a silver price slam by $3 and gold by $70, allegedly to prevent silver from breaking out above $92/ounce.",
+        "The COMEX closed out all day orders and good-to-date orders on metals and natural gas contracts, wiping out all Wednesday-specific orders.",
+        "Peter Brandt, a futures market veteran, now questions COMEX manipulation theories after the trading halt.",
+        "VBL's Ghost (Vince Lanci) asserts that COMEX open interest is declining as bullion banks cover shorts amid a bullion rally, while SLV gets new longs."
+      ],
+      "signal_strength": 8,
+      "themes": [
+        "price manipulation",
+        "silver",
+        "gold",
+        "market confidence",
+        "comex",
+        "lbma",
+        "india",
+        "china",
+        "regulation",
+        "etfs"
+      ],
+      "positioning_implication": "Consider diversifying asset valuation benchmarks and be wary of potential manipulation by financial entities.",
+      "time_horizon": "medium",
+      "shelf_life": "Medium",
+      "thumbnail": "https://i.ytimg.com/vi/GuT10hobS3g/hqdefault.jpg",
+      "video_url": "https://www.youtube.com/watch?v=GuT10hobS3g",
+      "cluster_id": 2,
+      "category": "Precious Metals"
+    },
+    {
+      "episode_title": "Don't Fall For the Stock Market Hype. The $7,000 Raise AI Is Giving You (That Nobody Mentions)",
+      "channel": "AI News & Strategy Daily | Nate B Jones",
+      "duration_minutes": 37,
+      "podcast_date": "2026-02-27",
+      "processing_date": "2026-02-27",
+      "one_line_summary": "AI-driven deflation could increase median household purchasing power by $7,000 annually, offsetting potential job displacement, though societal inertia hinders rapid adoption.",
+      "core_claims": [
+        "A fictional recession based on AI-driven labor replacement wiped out over $100 billion in market cap.",
+        "Citrini Research projects a 38% S&P drop and 10.2% unemployment in a 2028 AI-driven intelligence crisis scenario.",
+        "A 2% decline in white-collar employment could trigger a 4% drop in discretionary spending.",
+        "AI agents could compress service costs by 40-70%, returning $4,000-$7,000 annually to median households tax-free.",
+        "The gap between AI capability and societal dissipation creates economic opportunity for those who aggressively adopt AI.",
+        "Trust inertia and other forms of inertia make it difficult to rapidly implement AI."
+      ],
+      "signal_strength": 8,
+      "themes": [
+        "ai disruption",
+        "economic impact",
+        "automation",
+        "market analysis",
+        "career strategy",
+        "societal inertia"
+      ],
+      "positioning_implication": "Focus on developing AI fluency within specific domains to capture asymmetric economic returns before widespread adoption, recognizing that the pace of change is slower and more uneven than many models predict.",
+      "time_horizon": "medium",
+      "shelf_life": "Medium",
+      "thumbnail": "https://i.ytimg.com/vi/q6pbQ5li5Cg/hqdefault.jpg",
+      "video_url": "https://www.youtube.com/watch?v=q6pbQ5li5Cg",
+      "cluster_id": 0,
+      "category": "Artificial Intelligence"
+    },
+    {
+      "episode_title": "NVIDIA WARNING: Why Great Earnings Could Trigger a Bear Market \ud83d\udea8",
+      "channel": "Verified Investing",
+      "duration_minutes": 26,
+      "podcast_date": "2026-02-27",
+      "processing_date": "2024-03-01",
+      "one_line_summary": "Strong NVIDIA earnings failing to rally significantly signals potential broader market weakness.",
+      "core_claims": [
+        "Initial jobless claims came in at 212,000, slightly better than the 217,000 estimate, indicating a stable but not robust labor market.",
+        "The market's price action is closely tied to NVIDIA, making its weak performance a key indicator.",
+        "S&P 500 is setting up for a lackluster open, with futures barely positive and a rounded top formation suggesting distribution.",
+        "Lumentum exhibits a strong topping tail, indicating a reversal signal with a first target of $500.",
+        "TTD (The Trade Desk) PE ratio potentially around 10-11 based on projected earnings, potentially attractive for a software stock that has been beaten down.",
+        "Bitcoin needs to consolidate before the next breakout above 69,000, with an upside target of 80-85,000."
+      ],
+      "signal_strength": 8,
+      "themes": [
+        "market analysis",
+        "technical analysis",
+        "earnings reports",
+        "nvidia",
+        "bear market signal",
+        "crypto"
+      ],
+      "positioning_implication": "Shift focus to downside risks in the broader market; consider hedging strategies, and prioritize risk management over chasing short-term gains. Given the themes, a short position in Lumentum or similar is suggested.",
+      "time_horizon": "short",
+      "shelf_life": "Short",
+      "thumbnail": "https://i.ytimg.com/vi/kvz7L_k3ESY/hqdefault.jpg",
+      "video_url": "https://www.youtube.com/watch?v=kvz7L_k3ESY",
+      "cluster_id": 1,
+      "category": "General Financial Investing and Speculation"
+    },
+    {
+      "episode_title": "Coming Wave Of Distressed Sellers To Tank Home Prices Worse Than The GFC | Melody Wright",
+      "channel": "Adam Taggart | Thoughtful Money\u00ae",
+      "duration_minutes": 63,
+      "podcast_date": "2026-02-27",
+      "processing_date": "2026-02-27",
+      "one_line_summary": "Distressed sellers and demographic shifts will cause a home price correction possibly more severe than the Great Financial Crisis.",
+      "core_claims": [
+        "Home price corrections are fully expected and believed to be more stark than the last cycle.",
+        "Median income should be able to afford the median home price, requiring potential price corrections.",
+        "A 'silver tsunami' and demographic shifts are key factors in the housing market's long-term correction.",
+        "The cost of home ownership (property taxes, insurance) is increasing.",
+        "There is a shadow market of transactions happening outside of the MLS.",
+        "Housing demand is at a record low."
+      ],
+      "signal_strength": 8,
+      "themes": [
+        "real estate",
+        "market correction",
+        "demographics",
+        "mortgages",
+        "affordability",
+        "economic forecast"
+      ],
+      "positioning_implication": "Anticipate increased market volatility; re-evaluate portfolios for downside risk and long-term value opportunities amidst shifting demographic trends.",
+      "time_horizon": "long",
+      "shelf_life": "Medium",
+      "thumbnail": "https://i.ytimg.com/vi/ZP1u2oYL1ro/hqdefault.jpg",
+      "video_url": "https://www.youtube.com/watch?v=ZP1u2oYL1ro",
+      "cluster_id": 3,
+      "category": "General Financial Investing and Speculation"
+    }
+  ],
+  "category_intelligence": {
+    "Philosophy and Thoughtfulness": {
+      "name": "Philosophy and Thoughtfulness",
+      "meta_summary": "",
+      "convergence_score": 0.0,
+      "percentile": 0.0,
+      "regime_state": "Neutral",
+      "clusters": [
+        {
+          "id": 0,
+          "name": "AI Noise Eroding Individual Agency",
+          "description": "AI-generated content is poised to overwhelm individual cognitive capacity, diminishing genuine insight and personal autonomy.",
+          "bias": "defensive",
+          "regime": "Emerging",
+          "size": 1,
+          "strength": 0.0,
+          "coherence": 1.0,
+          "channels": [
+            "Nate Hagens"
+          ],
+          "avg_signal": 9.0,
+          "briefs": [
+            {
+              "episode_title": "AI and the Coming Deluge of Noise | Frankly 128",
+              "channel": "Nate Hagens",
+              "duration_minutes": 37,
+              "podcast_date": "2026-02-27",
+              "processing_date": "2026-02-27",
+              "one_line_summary": "AI-driven content creation threatens to overwhelm individuals with noise, overshadowing genuine insight and agency.",
+              "core_claims": [
+                "AI is making it extremely cheap to generate text, stories, narrative, and coherent strings of words.",
+                "The scarce resource will become authenticity, judgment, and the ability to discern truth in reality.",
+                "A large majority of modern food is not designed to nourish, but to be addictive to ensure continued sales.",
+                "AI industrializes information production, creating an abundance of information analogous to the overproduction of calories in the food system, leading to cognitive malnourishment.",
+                "We risk becoming information-rich and wisdom-poor on steroids due to AI and large language models.",
+                "We risk being mentally full with noise while feeling and being undernourished for lack of real signal from information."
+              ],
+              "signal_strength": 9,
+              "themes": [
+                "ai",
+                "information overload",
+                "cognitive health",
+                "authenticity",
+                "critical thinking",
+                "food systems"
+              ],
+              "positioning_implication": "Prioritize the cultivation of critical thinking skills and discernment amidst the increasing volume of AI-generated content to maintain a grounded understanding of reality.  Focus on developing individual agency in information consumption.",
+              "time_horizon": "medium",
+              "shelf_life": "Medium",
+              "thumbnail": "https://i.ytimg.com/vi/Ucgyd5ML0j4/hqdefault.jpg",
+              "video_url": "https://www.youtube.com/watch?v=Ucgyd5ML0j4",
+              "cluster_id": 0,
+              "category": "Philosophy and Thoughtfulness"
+            }
+          ]
+        }
+      ],
+      "should_generate": false
+    },
+    "General Financial Investing and Speculation": {
+      "name": "General Financial Investing and Speculation",
+      "meta_summary": "",
+      "convergence_score": 0.0,
+      "percentile": 0.0,
+      "regime_state": "Neutral",
+      "clusters": [
+        {
+          "id": 1,
+          "name": "NVIDIA Earnings Stalling Market Rally",
+          "description": "NVIDIA's strong earnings failing to ignite a broader market rally suggests underlying weakness and potential trading opportunities based on technical levels.",
+          "bias": "defensive",
+          "regime": "Accelerating",
+          "size": 2,
+          "strength": 1.4882018349798727,
+          "coherence": 0.7441009174899363,
+          "channels": [
+            "Verified Investing"
+          ],
+          "avg_signal": 8.0,
+          "briefs": [
+            {
+              "episode_title": "EARNINGS EXPLOSION! \ud83d\udca5 MUST-WATCH LEVELS! \ud83d\udcc8",
+              "channel": "Verified Investing",
+              "duration_minutes": 17,
+              "podcast_date": "2026-02-27",
+              "processing_date": "2026-02-27",
+              "one_line_summary": "Analysis of key stock levels and potential trading opportunities following earnings reports and PPI data release.",
+              "core_claims": [
+                "PPI data at 0.5, exceeding the forecast of 0.3, is causing market sell-offs.",
+                "S&P 500 is declining with a pre-market drop to $683, suggesting a need for conservative trading strategies.",
+                "Intuitive after-hours price action suggests an aggressive day trade entry point around $359, but potential support exists at $339.36 and $334.",
+                "Dell is showing a breakout from a bear flag consolidation, with an aggressive short level at $139.77 and major pivot high from December 8th at $142.34.",
+                "Monster Beverage's current support is at $82.50, but further downside could lead to a medium-term level at $76.15 with a bounce to around $80 anticipated.",
+                "Autodesk has support at $224.74, showing oversold conditions and potential for a near-term bounce, with gap fill resistance at $255.57 and a declining trend line at $267.07.",
+                "Rocket Lab exhibits a decline after earnings with a conservative bottom level at $63.87 and anticipated price piercing, with the next gap fill around $60.",
+                "ZS Scaler is dropping after earnings, requiring conservative trading at $138.87, with potential support on a trend line at $141 but favoring a pierce of $140 before entering a position.",
+                "CoreWeave missed earnings per share, currently supported at $78.94 with a backup at $74.65;  analyst likes for intraday trading.",
+                "Nvidia under pressure and declining is a systemic risk, closely watching the inclining trend line level, at $177.32, break level at $170, major support at $153.",
+                "Microsoft beat up with oversold conditions, the weekly chart at 30.44, and a near-term swing opportunity up to the $450 level."
+              ],
+              "signal_strength": 8,
+              "themes": [
+                "market analysis",
+                "technical analysis",
+                "earnings reports",
+                "trade opportunities",
+                "risk management",
+                "economic indicators"
+              ],
+              "positioning_implication": "Adjust trading strategies to account for market volatility driven by economic data and earnings reports; identify potential entry and exit points based on key support and resistance levels.",
+              "time_horizon": "short",
+              "shelf_life": "Short",
+              "thumbnail": "https://i.ytimg.com/vi/XmR2gZUfKFc/hqdefault.jpg",
+              "video_url": "https://www.youtube.com/watch?v=XmR2gZUfKFc",
+              "cluster_id": 1,
+              "category": "General Financial Investing and Speculation"
+            },
+            {
+              "episode_title": "NVIDIA WARNING: Why Great Earnings Could Trigger a Bear Market \ud83d\udea8",
+              "channel": "Verified Investing",
+              "duration_minutes": 26,
+              "podcast_date": "2026-02-27",
+              "processing_date": "2024-03-01",
+              "one_line_summary": "Strong NVIDIA earnings failing to rally significantly signals potential broader market weakness.",
+              "core_claims": [
+                "Initial jobless claims came in at 212,000, slightly better than the 217,000 estimate, indicating a stable but not robust labor market.",
+                "The market's price action is closely tied to NVIDIA, making its weak performance a key indicator.",
+                "S&P 500 is setting up for a lackluster open, with futures barely positive and a rounded top formation suggesting distribution.",
+                "Lumentum exhibits a strong topping tail, indicating a reversal signal with a first target of $500.",
+                "TTD (The Trade Desk) PE ratio potentially around 10-11 based on projected earnings, potentially attractive for a software stock that has been beaten down.",
+                "Bitcoin needs to consolidate before the next breakout above 69,000, with an upside target of 80-85,000."
+              ],
+              "signal_strength": 8,
+              "themes": [
+                "market analysis",
+                "technical analysis",
+                "earnings reports",
+                "nvidia",
+                "bear market signal",
+                "crypto"
+              ],
+              "positioning_implication": "Shift focus to downside risks in the broader market; consider hedging strategies, and prioritize risk management over chasing short-term gains. Given the themes, a short position in Lumentum or similar is suggested.",
+              "time_horizon": "short",
+              "shelf_life": "Short",
+              "thumbnail": "https://i.ytimg.com/vi/kvz7L_k3ESY/hqdefault.jpg",
+              "video_url": "https://www.youtube.com/watch?v=kvz7L_k3ESY",
+              "cluster_id": 1,
+              "category": "General Financial Investing and Speculation"
+            }
+          ]
+        },
+        {
+          "id": 0,
+          "name": "Iran-US Tensions Intensifying Amid Binance Scrutiny",
+          "description": "Heightened US-Iran tensions are compounded by scrutiny of Binance's compliance, increasing geopolitical risk.",
+          "bias": "defensive",
+          "regime": "Accelerating",
+          "size": 2,
+          "strength": 1.1334345827363368,
+          "coherence": 0.5667172913681684,
+          "channels": [
+            "The Prof G Pod \u2013 Scott Galloway",
+            "David Lin"
+          ],
+          "avg_signal": 7.0,
+          "briefs": [
+            {
+              "episode_title": "EXCLUSIVE: Binance Execs Hit Back At Billion Dollar Iran Terror Funding Allegations",
+              "channel": "David Lin",
+              "duration_minutes": 49,
+              "podcast_date": "2026-02-27",
+              "processing_date": "2026-02-27",
+              "one_line_summary": "Binance executives refute allegations of facilitating billion-dollar transactions with Iranian entities and emphasize compliance efforts.",
+              "core_claims": [
+                "WSJ and NYT reported $1.7 billion in flows on Binance linked to Iran associated/sanctioned entities, leading to employee suspensions/firings.",
+                "Investigators were not let go from Binance due to escalating compliance concerns; investigations continued after some employees departed.",
+                "No Binance users were sanctioned; no wallets receiving funds were known to be associated with any sanctioned entities at the transaction time; Binance review found no users directly transacting with sanctioned persons/wallets.",
+                "Preliminary investigations were brought to Binance, then a very thorough investigation that was ongoing, allegations had not been finally vetted or made official conclusions.",
+                "Binance prohibits services to residents in Iran regardless of nationality; Iranian nationals residing outside Iran are not prohibited from using services.",
+                "Sanction-related exposure on Binance reduced dramatically by 97% from 2024 to 2025, comparing well to 10 global exchanges."
+              ],
+              "signal_strength": 7,
+              "themes": [
+                "compliance",
+                "regulation",
+                "sanctions",
+                "iran",
+                "cryptocurrency",
+                "binance"
+              ],
+              "positioning_implication": "Evaluate exposure to Binance given sanctions and illicit fund transfer risks; prioritize regulatory transparency during exchange selection.",
+              "time_horizon": "medium",
+              "shelf_life": "Medium",
+              "thumbnail": "https://i.ytimg.com/vi/GIcuz4sAEfQ/hqdefault.jpg",
+              "video_url": "https://www.youtube.com/watch?v=GIcuz4sAEfQ",
+              "cluster_id": 0,
+              "category": "General Financial Investing and Speculation"
+            },
+            {
+              "episode_title": "Is the U.S. About to Go to War With Iran? | Prof G Conversations",
+              "channel": "The Prof G Pod \u2013 Scott Galloway",
+              "duration_minutes": 49,
+              "podcast_date": "2026-02-27",
+              "processing_date": "2026-02-27",
+              "one_line_summary": "US military action against Iran appears more likely due to the unlikelihood of a deal given current uncompromising stances, though Trump may prefer a peaceful resolution.",
+              "core_claims": [
+                "The US has the largest military buildup in the Middle East since the 2003 invasion of Iraq.",
+                "Iran is under enormous economic pressure, but hasn't compromised due to the will of Iran's 86-year-old dictator, Ayatollah Khamenei, who's focused on resistance against America.",
+                "The likelihood of a deal appears not very high at this moment, increasing the likelihood of US military action."
+              ],
+              "signal_strength": 7,
+              "themes": [
+                "iran",
+                "us foreign policy",
+                "military action",
+                "nuclear deal",
+                "geopolitics",
+                "trump administration"
+              ],
+              "positioning_implication": "Assess the potential for military conflict with Iran, and re-evaluate the likelihood of a peaceful resolution.",
+              "time_horizon": "short",
+              "shelf_life": "Short",
+              "thumbnail": "https://i.ytimg.com/vi/w_sh_ESXP5A/hqdefault.jpg",
+              "video_url": "https://www.youtube.com/watch?v=w_sh_ESXP5A",
+              "cluster_id": 0,
+              "category": "General Financial Investing and Speculation"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "name": "Prediction Markets' Regulation Intensifying",
+          "description": "Debate over prediction markets' regulation and societal impact intensifies amid rapid growth, highlighting incentives, risks, and predictive accuracy.",
+          "bias": "neutral",
+          "regime": "Emerging",
+          "size": 1,
+          "strength": 1.0,
+          "coherence": 1.0,
+          "channels": [
+            "The Prof G Pod \u2013 Scott Galloway"
+          ],
+          "avg_signal": 7.0,
+          "briefs": [
+            {
+              "episode_title": "Prediction Markets vs. Gambling: Where\u2019s the Line? | Prof G Markets",
+              "channel": "The Prof G Pod \u2013 Scott Galloway",
+              "duration_minutes": 49,
+              "podcast_date": "2026-02-27",
+              "processing_date": "2024-02-27",
+              "one_line_summary": "Prediction markets' regulatory status and societal impact are debated amid its exponential growth, touching on the incentives, risks, and accuracy of predictions.",
+              "core_claims": [
+                "Calshi's revenue has grown approximately 1000% in the last year.",
+                "Volume on Calshi's platform increased from $280 million to $2.3 billion.",
+                "The market is growing at an exponential pace and is reaching the mainstream."
+              ],
+              "signal_strength": 7,
+              "themes": [
+                "prediction markets",
+                "regulation",
+                "gambling",
+                "financial markets",
+                "risk assessment",
+                "market analysis",
+                "ethics",
+                "consumer behavior"
+              ],
+              "positioning_implication": "Acknowledge evolving regulatory risks to maintain platform integrity. Proactively address potentially harmful incentives to reduce the likelihood of regulatory blowback.",
+              "time_horizon": "medium",
+              "shelf_life": "Medium",
+              "thumbnail": "https://i.ytimg.com/vi/J31lDCBRZgg/hqdefault.jpg",
+              "video_url": "https://www.youtube.com/watch?v=J31lDCBRZgg",
+              "cluster_id": 2,
+              "category": "General Financial Investing and Speculation"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "name": "Housing Correction Intensifying: Demographic Pressures",
+          "description": "This narrative suggests that demographic shifts are exacerbating distressed selling, leading to a potentially severe housing market correction.",
+          "bias": "defensive",
+          "regime": "Emerging",
+          "size": 1,
+          "strength": 1.0,
+          "coherence": 1.0,
+          "channels": [
+            "Adam Taggart | Thoughtful Money\u00ae"
+          ],
+          "avg_signal": 8.0,
+          "briefs": [
+            {
+              "episode_title": "Coming Wave Of Distressed Sellers To Tank Home Prices Worse Than The GFC | Melody Wright",
+              "channel": "Adam Taggart | Thoughtful Money\u00ae",
+              "duration_minutes": 63,
+              "podcast_date": "2026-02-27",
+              "processing_date": "2026-02-27",
+              "one_line_summary": "Distressed sellers and demographic shifts will cause a home price correction possibly more severe than the Great Financial Crisis.",
+              "core_claims": [
+                "Home price corrections are fully expected and believed to be more stark than the last cycle.",
+                "Median income should be able to afford the median home price, requiring potential price corrections.",
+                "A 'silver tsunami' and demographic shifts are key factors in the housing market's long-term correction.",
+                "The cost of home ownership (property taxes, insurance) is increasing.",
+                "There is a shadow market of transactions happening outside of the MLS.",
+                "Housing demand is at a record low."
+              ],
+              "signal_strength": 8,
+              "themes": [
+                "real estate",
+                "market correction",
+                "demographics",
+                "mortgages",
+                "affordability",
+                "economic forecast"
+              ],
+              "positioning_implication": "Anticipate increased market volatility; re-evaluate portfolios for downside risk and long-term value opportunities amidst shifting demographic trends.",
+              "time_horizon": "long",
+              "shelf_life": "Medium",
+              "thumbnail": "https://i.ytimg.com/vi/ZP1u2oYL1ro/hqdefault.jpg",
+              "video_url": "https://www.youtube.com/watch?v=ZP1u2oYL1ro",
+              "cluster_id": 3,
+              "category": "General Financial Investing and Speculation"
+            }
+          ]
+        }
+      ],
+      "should_generate": false
+    },
+    "Precious Metals": {
+      "name": "Precious Metals",
+      "meta_summary": "",
+      "convergence_score": 0.0,
+      "percentile": 0.0,
+      "regime_state": "Neutral",
+      "clusters": [
+        {
+          "id": 2,
+          "name": "Precious Metals: Market Confidence Eroding",
+          "description": "Doubts about LBMA/COMEX pricing integrity fuel speculation of manipulation and a shift in global precious metals power dynamics.",
+          "bias": "defensive",
+          "regime": "Accelerating",
+          "size": 2,
+          "strength": 1.6061643942119788,
+          "coherence": 0.8030821971059894,
+          "channels": [
+            "Rons Basement",
+            "Miles Franklin Media"
+          ],
+          "avg_signal": 8.0,
+          "briefs": [
+            {
+              "episode_title": "Gold & Silver Trading Halted: They\u2019re Playing Very Dangerous Game | Andy Schectman & Michelle Makori",
+              "channel": "Miles Franklin Media",
+              "duration_minutes": 52,
+              "podcast_date": "2026-02-27",
+              "processing_date": "2026-02-27",
+              "one_line_summary": "CME halts metal trading amid market instability; analysts speculate on manipulation, dwindling trust, and shifting global power dynamics in precious metals.",
+              "core_claims": [
+                "CME halts metal trading on Globex platform citing technical issues, sparking concerns of manipulation.",
+                "Silver withdrawal from COMEX exceeds deliveries, indicating potential lack of trust in the system.",
+                "Cartel violence in Mexico, world's largest silver producer, poses supply disruption risks.",
+                "Strategic stockpiling of silver (Project Vault) suggests recognition as a national security asset, but also increased government influence on market control.",
+                "The Shanghai exchange is positioning itself as a viable alternative for global price setting.",
+                "Gold is starting to replace US Treasuries as a primary reserve asset for central banks."
+              ],
+              "signal_strength": 8,
+              "themes": [
+                "precious metals",
+                "market manipulation",
+                "cme",
+                "silver",
+                "gold",
+                "supply chain",
+                "geopolitics",
+                "central banks"
+              ],
+              "positioning_implication": "De-risk exposure to centralized exchanges; consider diversification and physical holdings to mitigate counterparty risk and geopolitical instability.",
+              "time_horizon": "medium",
+              "shelf_life": "Medium",
+              "thumbnail": "https://i.ytimg.com/vi/poSXbr94Lrg/hqdefault.jpg",
+              "video_url": "https://www.youtube.com/watch?v=poSXbr94Lrg",
+              "cluster_id": 2,
+              "category": "Precious Metals"
+            },
+            {
+              "episode_title": "SILVER Price Manipulation! You MUST Hear THESE Facts! - (Gold Price too)",
+              "channel": "Rons Basement",
+              "duration_minutes": 0,
+              "podcast_date": "2026-02-27",
+              "processing_date": "2026-02-27",
+              "one_line_summary": "Western market confidence erodes as India and China question LBMA/COMEX gold and silver pricing, leading to speculation of manipulation and aggressive fictionalization of markets.",
+              "core_claims": [
+                "India will no longer use LBMA for gold and silver pricing, shifting to domestic valuation.",
+                "India caught Jane Street manipulating its markets and expelled them, while China closed accounts abusing its paper silver markets.",
+                "COMEX trading was halted, leading to a silver price slam by $3 and gold by $70, allegedly to prevent silver from breaking out above $92/ounce.",
+                "The COMEX closed out all day orders and good-to-date orders on metals and natural gas contracts, wiping out all Wednesday-specific orders.",
+                "Peter Brandt, a futures market veteran, now questions COMEX manipulation theories after the trading halt.",
+                "VBL's Ghost (Vince Lanci) asserts that COMEX open interest is declining as bullion banks cover shorts amid a bullion rally, while SLV gets new longs."
+              ],
+              "signal_strength": 8,
+              "themes": [
+                "price manipulation",
+                "silver",
+                "gold",
+                "market confidence",
+                "comex",
+                "lbma",
+                "india",
+                "china",
+                "regulation",
+                "etfs"
+              ],
+              "positioning_implication": "Consider diversifying asset valuation benchmarks and be wary of potential manipulation by financial entities.",
+              "time_horizon": "medium",
+              "shelf_life": "Medium",
+              "thumbnail": "https://i.ytimg.com/vi/GuT10hobS3g/hqdefault.jpg",
+              "video_url": "https://www.youtube.com/watch?v=GuT10hobS3g",
+              "cluster_id": 2,
+              "category": "Precious Metals"
+            }
+          ]
+        },
+        {
+          "id": 0,
+          "name": "Silver: Geopolitics Intensifying Price Pressures",
+          "description": "Geopolitical risks, particularly involving Iran and Mexico, are cited as catalysts potentially driving silver price increases despite a prevailing sideways trend.",
+          "bias": "constructive",
+          "regime": "Accelerating",
+          "size": 2,
+          "strength": 1.5116076416511832,
+          "coherence": 0.7558038208255916,
+          "channels": [
+            "Silver Dragons",
+            "Wall Street Bullion"
+          ],
+          "avg_signal": 8.0,
+          "briefs": [
+            {
+              "episode_title": "Where is Silver Price Going? Silver Pros (S8 E2)",
+              "channel": "Silver Dragons",
+              "duration_minutes": 49,
+              "podcast_date": "2026-02-27",
+              "processing_date": "2026-02-27",
+              "one_line_summary": "Silver price potentially responding to geopolitical tension, especially regarding Iran, but the long-term trend is still sideways for now.",
+              "core_claims": [
+                "Silver is currently at $89.93 per ounce.",
+                "Gold is at $5200, GSR is under 60 again.",
+                "Gold is about $200 off the all-time high and could hit it next week due to tensions.",
+                "The speaker predicts that the GSR will be 70 by the end of next week.",
+                "Shanghai Silver is at $99.74 and almost back to $100 per ounce and still on a premium versus COMEX about $10."
+              ],
+              "signal_strength": 7,
+              "themes": [
+                "silver",
+                "gold",
+                "geopolitics",
+                "markets",
+                "trading",
+                "investing"
+              ],
+              "positioning_implication": "Consider diversifying precious metal holdings and monitoring geopolitical events for potential market shifts.",
+              "time_horizon": "short",
+              "shelf_life": "Short",
+              "thumbnail": "https://i.ytimg.com/vi/mWJRxw1p6-o/hqdefault.jpg",
+              "video_url": "https://www.youtube.com/watch?v=mWJRxw1p6-o",
+              "cluster_id": 0,
+              "category": "Precious Metals"
+            },
+            {
+              "episode_title": "SILVER PRICE ALERT: COMEX Is In BIG Trouble! MUST LISTEN",
+              "channel": "Wall Street Bullion",
+              "duration_minutes": 30,
+              "podcast_date": "2026-02-27",
+              "processing_date": "2024-03-01",
+              "one_line_summary": "Silver's projected sustained price elevation stems from structural deficits, geopolitical factors in Mexico, and potential foreign intervention.",
+              "core_claims": [
+                "Within a year, silver prices increased dramatically, reaching highs of $120 after being around $30 previously.",
+                "A new floor for silver prices is estimated to be between $70 and $90 due to its indispensable nature and strategic importance.",
+                "Mexico, the largest silver concentrate producer accounting for 25% of global silver output, faces potential unrest that could impact silver availability.",
+                "Gold Republic has experienced significant customer base growth, with customer portfolios shifting from 70% gold/30% silver to a 50/50 split.",
+                "There's a structural deficit of approximately 3 million ounces of silver annually, potentially increasing to 6 million due to production drops or continued unrest."
+              ],
+              "signal_strength": 9,
+              "themes": [
+                "silver prices",
+                "geopolitics",
+                "supply chain",
+                "market analysis",
+                "investment strategy",
+                "precious metals"
+              ],
+              "positioning_implication": "Increase exposure to physical silver assets, anticipating sustained higher prices and potential supply disruptions due to geopolitical instability and strategic resource control.",
+              "time_horizon": "medium",
+              "shelf_life": "Medium",
+              "thumbnail": "https://i.ytimg.com/vi/BDb8u5Wc_Zc/hqdefault.jpg",
+              "video_url": "https://www.youtube.com/watch?v=BDb8u5Wc_Zc",
+              "cluster_id": 0,
+              "category": "Precious Metals"
+            }
+          ]
+        },
+        {
+          "id": 1,
+          "name": "Silver: Export Controls Intensifying Geopolitical Tensions",
+          "description": "The narrative suggests a potential escalation of geopolitical tensions as countries consider implementing export controls on silver, driven by economic incentives and US policy concerns.",
+          "bias": "defensive",
+          "regime": "Emerging",
+          "size": 1,
+          "strength": 1.0,
+          "coherence": 1.0,
+          "channels": [
+            "Arcadia Economics"
+          ],
+          "avg_signal": 7.0,
+          "briefs": [
+            {
+              "episode_title": "Silver Wars Appear To Just Be Getting Started",
+              "channel": "Arcadia Economics",
+              "duration_minutes": 36,
+              "podcast_date": "2026-02-27",
+              "processing_date": "2026-02-27",
+              "one_line_summary": "Countries may implement export controls on silver, incentivizing others to follow suit, especially as the US worries more about silver leaving than gold.",
+              "core_claims": [
+                "The US is more concerned about silver leaving the country than gold.",
+                "Bulyon controls can lead to reflexive actions among countries.",
+                "Export controls could incentivize other countries to implement similar measures."
+              ],
+              "signal_strength": 7,
+              "themes": [
+                "silver",
+                "export controls",
+                "geopolitics",
+                "economic incentives",
+                "critical minerals",
+                "us policy"
+              ],
+              "positioning_implication": "Assess exposure to geopolitical supply chain risks and diversify holdings to mitigate potential export control impacts.",
+              "time_horizon": "medium",
+              "shelf_life": "Medium",
+              "thumbnail": "https://i.ytimg.com/vi/x9_2Gf2chss/hqdefault.jpg",
+              "video_url": "https://www.youtube.com/watch?v=x9_2Gf2chss",
+              "cluster_id": 1,
+              "category": "Precious Metals"
+            }
+          ]
+        }
+      ],
+      "should_generate": false
+    },
+    "Artificial Intelligence": {
+      "name": "Artificial Intelligence",
+      "meta_summary": "",
+      "convergence_score": 0.0,
+      "percentile": 0.0,
+      "regime_state": "Neutral",
+      "clusters": [
+        {
+          "id": 0,
+          "name": "AI Deflation Offsets Job Displacement",
+          "description": "AI-driven deflation is potentially increasing household purchasing power, mitigating job losses, but adoption faces societal resistance.",
+          "bias": "constructive",
+          "regime": "Emerging",
+          "size": 1,
+          "strength": 0.0,
+          "coherence": 1.0,
+          "channels": [
+            "AI News & Strategy Daily | Nate B Jones"
+          ],
+          "avg_signal": 8.0,
+          "briefs": [
+            {
+              "episode_title": "Don't Fall For the Stock Market Hype. The $7,000 Raise AI Is Giving You (That Nobody Mentions)",
+              "channel": "AI News & Strategy Daily | Nate B Jones",
+              "duration_minutes": 37,
+              "podcast_date": "2026-02-27",
+              "processing_date": "2026-02-27",
+              "one_line_summary": "AI-driven deflation could increase median household purchasing power by $7,000 annually, offsetting potential job displacement, though societal inertia hinders rapid adoption.",
+              "core_claims": [
+                "A fictional recession based on AI-driven labor replacement wiped out over $100 billion in market cap.",
+                "Citrini Research projects a 38% S&P drop and 10.2% unemployment in a 2028 AI-driven intelligence crisis scenario.",
+                "A 2% decline in white-collar employment could trigger a 4% drop in discretionary spending.",
+                "AI agents could compress service costs by 40-70%, returning $4,000-$7,000 annually to median households tax-free.",
+                "The gap between AI capability and societal dissipation creates economic opportunity for those who aggressively adopt AI.",
+                "Trust inertia and other forms of inertia make it difficult to rapidly implement AI."
+              ],
+              "signal_strength": 8,
+              "themes": [
+                "ai disruption",
+                "economic impact",
+                "automation",
+                "market analysis",
+                "career strategy",
+                "societal inertia"
+              ],
+              "positioning_implication": "Focus on developing AI fluency within specific domains to capture asymmetric economic returns before widespread adoption, recognizing that the pace of change is slower and more uneven than many models predict.",
+              "time_horizon": "medium",
+              "shelf_life": "Medium",
+              "thumbnail": "https://i.ytimg.com/vi/q6pbQ5li5Cg/hqdefault.jpg",
+              "video_url": "https://www.youtube.com/watch?v=q6pbQ5li5Cg",
+              "cluster_id": 0,
+              "category": "Artificial Intelligence"
+            }
+          ]
+        }
+      ],
+      "should_generate": false
+    }
+  },
+  "clusters": []
+}
