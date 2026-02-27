@@ -511,7 +511,8 @@ def calculate_percentile(category: str, current_score: float) -> float:
     """
     Generates a dynamic name, description, and positioning bias for a cluster.
     """
-    context = "\n".join([f"- {b['one_line_summary']} (Themes: {', '.join(b['themes'])})" for b in cluster_briefs[:3]])
+    # Access brief data correctly from video dictionary
+    context = "\n".join([f"- {b.get('brief', {}).get('one_line_summary', 'N/A')} (Themes: {', '.join(b.get('brief', {}).get('themes', []))})" for b in cluster_briefs[:3]])
     
     prompt = (
         "You are a narrative analyst.\n"
@@ -632,23 +633,16 @@ def run_summarization():
         logger.warning("No briefs were successfully generated.")
         return []
 
-    # --- PHASE 2: SEMANTIC CLUSTERING (v2: Self-Tuning) ---
-    config = load_config()
-    current_percentile = config.get("clustering", {}).get("percentile", 85)
-    linkage_mode = os.getenv("CLUSTERING_LINKAGE", "complete")
-    processed_queue = perform_semantic_clustering(
-        processed_queue, 
-        percentile=current_percentile,
-        linkage=linkage_mode
-    )
-
     # --- PHASE 3: CATEGORY-LEVEL META SYNTHESIS ---
-    # A. Group Clusters by Category
-    from collections import defaultdict
-    category_map = defaultdict(list)
-    for v in processed_queue:
-        cat = v.get("category", "Other")
-        category_map[cat].append(v)
+    logger.info(f"--- Phase 3: Category Synthesis ({len(processed_queue)} assets across categories) ---")
+    config = load_config()
+    try:
+        # A. Group Clusters by Category
+        from collections import defaultdict
+        category_map = defaultdict(list)
+        for v in processed_queue:
+            cat = v.get("category", "Other")
+            category_map[cat].append(v)
 
     summary_md = f"# TheBrief Daily Dispatch - {date_str}\n\n"
     summary_html = f"<html><body style='font-family: Arial, Helvetica, sans-serif; color: #202124; background-color: #ffffff; padding: 20px;'>"
@@ -659,9 +653,20 @@ def run_summarization():
     meta_cfg = config.get("meta", {}).get("generation", {})
     category_intelligence = {}
 
-    # Process each category independently for meta-summary
+    logger.info(f"Analyzing {len(category_map)} categories: {', '.join(category_map.keys())}")
     for category, cat_videos in category_map.items():
-        # Identify clusters present in this category
+        logger.info(f"Processing Synthesis for sector: {category} ({len(cat_videos)} assets)...")
+        
+        # B. Perform semantic clustering WITHIN the category (User constraint: NO other grouping)
+        current_percentile = config.get("clustering", {}).get("percentile", 85)
+        linkage_mode = os.getenv("CLUSTERING_LINKAGE", "complete")
+        cat_videos = perform_semantic_clustering(
+            cat_videos, 
+            percentile=current_percentile,
+            linkage=linkage_mode
+        )
+
+        # C. Identify clusters present in this category
         cat_clusters = defaultdict(list)
         for v in cat_videos:
             if v.get('cluster_id') != -1:
@@ -669,7 +674,7 @@ def run_summarization():
         
         cat_cluster_metrics = []
         for c_id, briefs in cat_clusters.items():
-            avg_signal = np.mean([b['brief']['signal_strength'] for b in briefs])
+            avg_signal = np.mean([b.get('brief', {}).get('signal_strength', 5) for b in briefs])
             avg_coherence = np.mean([b.get('cluster_coherence', 1.0) for b in briefs])
             cluster_strength = np.mean([b.get('cluster_strength', 0) for b in briefs])
             
@@ -745,6 +750,12 @@ def run_summarization():
                 summary_md += f"- **{b.get('channel')}**: {b.get('one_line_summary')}\n"
                 summary_html += f"<div style='font-size: 12px; color: #70757A;'>• <b>{b.get('channel')}:</b> {b.get('one_line_summary')}</div>"
             summary_html += "</div>"
+        
+        logger.info(f"✅ Synthesis complete for {category}")
+
+    except Exception as e:
+        logger.error(f"CRITICAL ERROR in Synthesis Phase: {e}", exc_info=True)
+        summary_md += "\n\n> [!ERROR]\n> Category Synthesis failed due to a system error. Detailed briefs are available below.\n\n"
 
     # --- FINAL OUTPUT COMPILATION ---
     md_filename = os.path.join("briefs", f"{date_str}.md")
