@@ -31,7 +31,7 @@ def get_all_categories():
     
     # If starting fresh (no channels), provides a sensible starting point
     if not found_cats and not current_channels:
-        return ["Artificial Intelligence", "Finance", "Precious Metals", "Other"]
+        return ["Other"]
         
     return cats
 
@@ -274,67 +274,69 @@ with tab1:
                 category_intel = json_data.get('category_intelligence', {})
                 briefs = json_data.get('briefs', [])
                 
-                from collections import Counter, defaultdict
-                
-                # 1. Assign Briefs to Clusters
-                briefs_by_cluster = defaultdict(list)
-                for b in briefs:
-                    c_id = b.get('cluster_id', -1)
-                    briefs_by_cluster[c_id].append(b)
-                
-                # 2. Extract Cluster Metadata (if available, else derive)
-                # Note: summarization.py no longer passes a global 'clusters' list, 
-                # instead it passes category_intelligence. 
-                # We group the enriched_briefs by category then by cluster.
-                briefs_by_category = defaultdict(lambda: defaultdict(list))
-                for b in briefs:
-                    cat = b.get('category', 'Other')
-                    c_id = b.get('cluster_id', -1)
-                    briefs_by_category[cat][c_id].append(b)
 
-                # 3. Render Categorized Radar
-                sorted_cats = sorted(briefs_by_category.keys())
+                # 1. Sort Categories by Convergence Score
+                sorted_categories = sorted(
+                    category_intel.values(), 
+                    key=lambda x: x.get('convergence_score', 0.0), 
+                    reverse=True
+                )
                 
-                for category in sorted_cats:
-                    intel = category_intel.get(category, {})
+                for intel in sorted_categories:
+                    category = intel.get('name', 'Other')
                     meta_summary = intel.get('meta_summary', "")
                     conv_score = intel.get('convergence_score', 0.0)
+                    regime = intel.get('regime_state', 'Neutral')
+                    clusters = intel.get('clusters', [])
                     
                     st.markdown(f"## 📁 Sector: {category}")
+                    
+                    # Intelligence Header
+                    cols = st.columns([4, 1, 1])
+                    with cols[1]:
+                        st.metric("Convergence", f"{conv_score:.2f}")
+                    with cols[2]:
+                        st.metric("Regime", regime)
                     
                     if meta_summary:
                         st.markdown(f"""
                             <div style='background-color: #1a73e8; padding: 15px; border-radius: 8px; margin-bottom: 20px; color: #ffffff;'>
-                                <h4 style='margin-top: 0; color: #ffffff; font-size: 1rem;'>🧠 Sector Intelligence Brief (Convergence: {conv_score:.2f})</h4>
+                                <h4 style='margin-top: 0; color: #ffffff; font-size: 1rem;'>🧠 Dominant Narrative</h4>
                                 <p style='font-size: 0.95rem; line-height: 1.5;'>{meta_summary}</p>
                             </div>
                         """, unsafe_allow_html=True)
-                    elif conv_score > 0:
-                        st.caption(f"Narrative Convergence: {conv_score:.2f} (Below threshold for full meta-summary)")
 
-                    # Render Clusters in this Category
-                    cat_clusters = briefs_by_category[category]
-                    # Sort clusters by size
-                    sorted_cluster_ids = sorted(cat_clusters.keys(), key=lambda k: len(cat_clusters[k]), reverse=True)
-                    
-                    for c_id in sorted_cluster_ids:
-                        cluster_briefs = cat_clusters[c_id]
-                        if not cluster_briefs: continue
+                    # 2. Separate Headlines from Peripheral Signals in UI
+                    headline_clusters = [c for c in clusters if c['size'] >= 2] # Default threshold
+                    peripheral_clusters = [c for c in clusters if c['size'] < 2]
+
+                    for cluster in headline_clusters:
+                        cluster_name = cluster.get('name', 'Unknown Narrative')
+                        size = cluster.get('size', 0)
+                        bias = cluster.get('bias', 'neutral')
+                        cluster_regime = cluster.get('regime', 'Emerging')
+                        description = cluster.get('description', '')
                         
-                        # Since we don't have cluster metadata dictionary here anymore, we derive what we can
-                        # or we update summarization.py to include cluster metadata in category_intelligence.
-                        # For now, we use simple labels.
-                        is_singleton = len(cluster_briefs) == 1
-                        header_label = "📍 Isolated Signal" if is_singleton else "📁 Cluster Evidence"
-                        
-                        # Try to get a common label if it was stored in the brief (it wasn't previously, but we can update that)
-                        cluster_name = f"Narrative Group {c_id}" if c_id != -1 else "Unclustered"
-                        
-                        with st.expander(f"{header_label}: {cluster_name} ({len(cluster_briefs)} sources)", expanded=not is_singleton):
-                            for brief in cluster_briefs:
+                        header = f"📁 {cluster_name} ({size} sources) | {cluster_regime}"
+                        with st.expander(header, expanded=True):
+                            # Render description with alert highlighting
+                            if "⚡ Convergence Alert" in description:
+                                parts = description.split("⚡ Convergence Alert")
+                                st.markdown(f"*{parts[0].strip()}*")
+                                st.warning(f"⚡ Convergence Alert{parts[1]}")
+                            else:
+                                st.markdown(f"*{description}*")
+                                
+                            for b_data in cluster.get('briefs', []):
                                 with st.container(border=True):
-                                    render_brief_card(brief)
-                    st.divider()
+                                    render_brief_card(b_data)
+                    
+                    if peripheral_clusters:
+                        with st.expander("📡 Peripheral Signals", expanded=False):
+                            for pc in peripheral_clusters:
+                                for b_data in pc.get('briefs', []):
+                                    st.markdown(f"**{b_data.get('channel')}**: {b_data.get('one_line_summary')}")
+
             else:
                 # Fallback to plain markdown
                 st.warning("⚠️ High-fidelity structured data unavailable — rendering raw intelligence brief.")
@@ -352,7 +354,7 @@ with tab2:
         st.subheader("Discover New Sources")
         st.markdown("Search for new channels to track by topic or keyword.")
         
-        discover_query = st.text_input("Enter a topic (e.g. 'AI Startups', 'Nutrition', 'Finance')", key="discover_input")
+        discover_query = st.text_input("Enter a topic (e.g. 'Emerging Technology', 'Global Markets')", key="discover_input")
         
         if st.button("Search YouTube", use_container_width=True):
             if discover_query:

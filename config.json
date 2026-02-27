@@ -5,7 +5,24 @@
             "min_clusters": 2,
             "convergence_threshold": 0.65,
             "threshold_mode": "fixed",
-            "history_window_days": 30
+            "history_window_days": 30,
+            "min_cluster_size_for_headline": 2,
+            "peripheral_render_limit": 5,
+            "max_peripheral_blocks": 2,
+            "peripheral_strength_threshold": 0.35,
+            "regime_thresholds": {
+                "Low Alignment": 0.4,
+                "Moderate Alignment": 0.65,
+                "High Alignment": 0.85
+            },
+            "summary_length": "shorter",
+            "narrative_regime_labels": [
+                "Emerging",
+                "Accelerating",
+                "Dominant",
+                "Fragmenting",
+                "Decaying"
+            ]
         },
         "convergence": {
             "weights": {
@@ -18,6 +35,32 @@
     },
     "clustering": {
         "percentile": 85,
-        "crowding_percentile": 75
+        "crowding_percentile": 75,
+        "ner_weight_bias": 0.7,
+        "deduplication_threshold": 0.88,
+        "generic_label_blacklist": [
+            "Trends",
+            "Developments",
+            "Dynamics",
+            "Oversight",
+            "Concerns"
+        ],
+        "narrative_pressure_verbs": [
+            "eroding",
+            "accelerating",
+            "stalling",
+            "fragmenting",
+            "tightening",
+            "intensifying",
+            "converging",
+            "pivoting"
+        ],
+        "framing_blacklist": [
+            "This episode discusses",
+            "The host explains",
+            "The speaker analyzes",
+            "In this podcast",
+            "This video covers"
+        ]
     }
 }

@@ -160,26 +160,28 @@ def summarize_transcript(video, llm):
     logger.info(f"Generating Brief for {video['title']} ({video['id']})...")
     
     today_str = datetime.now().strftime("%Y-%m-%d")
+    config = load_config()
+    framing_blacklist = config.get("clustering", {}).get("framing_blacklist", [])
+    
     template = (
-        "You are an expert intelligence analyst.\n"
-        "Generate a high-utility, educational, and decision-oriented Intelligence Brief directly from the attached audio.\n\n"
-        "### 🛡️ INDEPENDENT TOPIC DOMINANCE RULE:\n"
-        "This is an ISOLATED analysis. Your EXCLUSIVE source of truth is the ATTACHED AUDIO.\n"
-        "1. IGNORE the general theme of this channel or other videos.\n"
-        "2. The current Title {title} and Channel {channel} are for reference only. THE AUDIO WINS ANY CONTRADICTIONS.\n\n"
-        "### BRIEFING REQUIREMENTS:\n"
-        "- ONE LINE SUMMARY: A single sentence distilling the core signal.\n"
-        "- CORE CLAIMS: Specific data points, projections, or claims made in the audio. Avoid filler.\n"
-        "- SIGNAL STRENGTH: Score 1-10 based on uniqueness and actionability of information.\n"
-        "- THEMES: lowercase short tags. NO PREDEFINED LIST. Create the taxonomy based on the content.\n"
-        "- POSITIONING IMPLICATION: Direct consequence of this intelligence on a listener's strategy. Be domain-agnostic (e.g., if content is about health, biased towards a protocol; if financial, biased towards a position).\n"
+        "You are a Senior Intelligence Analyst. Generate a clinical, signal-dense Intelligence Brief.\n\n"
+        "### 🛡️ SOURCE-OF-TRUTH ISOLATION:\n"
+        "The ATTACHED AUDIO is your ONLY source. IGNORE channel context, themes, or external knowledge.\n\n"
+        "### 🚫 PROHIBITED FRAMING (CRITICAL):\n"
+        f"DO NOT use recap phrasing or host framing: {', '.join(framing_blacklist)}.\n"
+        "STRICTLY FORBIDDEN: 'This episode discusses', 'The host explains', 'The speaker says'.\n\n"
+        "### BRIEFING ARCHITECTURE:\n"
+        "- ONE LINE SUMMARY: Distill the DIRECT narrative pressure or signal. No context padding.\n"
+        "- CORE CLAIMS: Specific, quantified claims or projections. Extract ONLY differentiated signal.\n"
+        "- SIGNAL STRENGTH: Score 1-10 (uniqueness/actionability).\n"
+        "- THEMES: lowercase short tags.\n"
+        "- POSITIONING IMPLICATION: Strategic consequence. Must be clinical/domain-agnostic.\n"
         "- TIME HORIZON: short | medium | long.\n\n"
-        "STRICT CONSTRAINTS:\n"
-        "1. Tone: Professional intelligence memo. No hype, no emojis.\n"
-        "2. Max word count: 400-600 words.\n"
-        "3. Output MUST conform exactly to the JSON schema.\n\n"
-        "Video metadata for identification:\nTitle: {title}\nChannel: {channel}\nToday: {today}\n\n"
-        "Format instructions:\n{format_instructions}\n"
+        "### CONSTRAINTS:\n"
+        "1. TONE: Institutional Strategy Brief. Zero hype.\n"
+        "2. INCREMENTAL SIGNAL ONLY: Every point must answer 'What is the specific, new signal here?'\n"
+        "3. OUTPUT: Valid JSON matching the schema.\n\n"
+        "Title: {title}\nChannel: {channel}\nToday: {today}\n"
     )
     
     prompt = PromptTemplate(
@@ -212,10 +214,16 @@ def summarize_transcript(video, llm):
         
         # Parse the JSON response
         try:
-            import json
             result = json.loads(response.text)
+            # Gemini sometimes wraps the response in an array — unwrap it
+            if isinstance(result, list):
+                if len(result) > 0:
+                    result = result[0]
+                else:
+                    logger.error(f"Empty JSON array returned for {video['title']}")
+                    return None
             return result
-        except OutputParserException as e:
+        except (json.JSONDecodeError, Exception) as e:
             logger.error(f"Schema parsing error for {video['title']}: {e}")
             return None
             
@@ -362,30 +370,27 @@ def generate_meta_summary(clusters_data: List[Dict[str, Any]], total_assets: int
     clusters_input = "\n\n".join(cluster_texts)
     
     system_prompt = (
-        "You are a Lead Intelligence Strategist for a high-performance analytical desk. "
-        "Your task is to produce a DENSE, QUANTIFIED Regime Detection Report.\n\n"
+        "You are a Lead Intelligence Strategist. Produce a DENSE, QUANTIFIED Regime Detection Report.\n"
         "### STYLE GUIDE:\n"
-        "- NO qualitative filler (e.g., 'The dominant narrative is...').\n"
-        "- NO domain-specific terminology (e.g., avoid assume asset classes unless stated).\n"
-        "- NO adverbs or generic macro commentary.\n"
+        "- NO qualitative filler. Clinical, institutional tone.\n"
         "- MAX signal density. MIN words.\n"
         "- USE numerical backing for every assertion."
     )
     
     user_content = (
         "### DATASET DIAGNOSTICS:\n"
-        f"Total Assets Analyzed: {total_assets}\n\n"
-        "### INPUT NARRATIVE CLUSTERS:\n"
+        f"Total Assets: {total_assets}\n\n"
+        "### NARRATIVE CLUSTERS:\n"
         f"{clusters_input}\n\n"
-        "### REQUIRED SECTIONS:\n"
-        "1. QUANTIFIED DOMINANCE: Identify the top cluster by % dominance. State its Strength and Coherence.\n"
-        "2. NARRATIVE CONVERGENCE: Evaluate the degree of agreement across clusters based on provided statistics.\n"
-        "3. INTRA-CLUSTER FRACTURES: Identify clusters where Coherence is low. Identify specific opposing directional biases or claims.\n"
-        "4. INTER-CLUSTER PROPAGATION: Explicitly map how one narrative (Cluster A) is influencing or overlapping with another (Cluster B).\n"
-        "5. DATASET-DERIVED TRIGGERS: 2-3 specific catalysts (deadlines, catalytic events) extracted ONLY from the provided CLAIMS.\n\n"
+        "### REQUIRED OUTPUT:\n"
+        "1. DOMINANT NARRATIVE: Provide a 1-2 sentence clinical description of the sector regime (highest D_adj and convergence-weighted theme).\n"
+        "2. QUANTIFIED DOMINANCE: Identify top cluster by % dominance. State Strength and Coherence.\n"
+        "3. NARRATIVE CONVERGENCE: Evaluate degree of agreement across clusters.\n"
+        "4. INTRA-CLUSTER FRACTURES: Identify low-coherence clusters or opposing claims.\n"
+        "5. DATASET-DERIVED TRIGGERS: 2-3 specific catalysts extracted ONLY from CLAIMS.\n\n"
         "STRICT CONSTRAINTS:\n"
-        "- Tone: Clinical, precise, institutional.\n"
-        "- Target Reduction: Be 20% shorter than a standard summary.\n"
+        "- Be 20% shorter than a standard summary.\n"
+        "- Tone: Institutional intelligence report."
     )
     
     try:
@@ -510,31 +515,40 @@ def calculate_percentile(category: str, current_score: float) -> float:
         return 0.0
 def generate_cluster_label(cluster_briefs, llm):
     """
-    Generates a dynamic name, description, and positioning bias for a cluster.
+    Generates a dynamic narrative pressure name, description, and positioning bias.
     """
-    # Access brief data correctly from video dictionary
+    config = load_config()
+    blacklist = config.get("clustering", {}).get("generic_label_blacklist", [])
+    pressure_verbs = config.get("clustering", {}).get("narrative_pressure_verbs", [])
+    
+    # Access brief data correctly
     context = "\n".join([f"- {b.get('brief', {}).get('one_line_summary', 'N/A')} (Themes: {', '.join(b.get('brief', {}).get('themes', []))})" for b in cluster_briefs[:3]])
     
     prompt = (
-        "You are a narrative analyst.\n"
-        "Look at these top summaries from a semantic cluster and generate a human-readable label.\n\n"
+        "You are a Senior Macro Intelligence Strategist. Generate a human-readable NARRATIVE PRESSURE label for a cluster.\n\n"
         f"### CLUSTER CONTENT:\n{context}\n\n"
-        "### OUTPUT FORMAT (JSON):\n"
+        "### LABEL LOGIC PRIORITY:\n"
+        "1. Detect repeated directional pressure (movement, tension, or conflict).\n"
+        f"2. Use convergence verbs for intensity: {', '.join(pressure_verbs)}.\n"
+        "3. Combine the highest-weighted Entity with the Pressure Mechanism.\n\n"
+        "### CONSTRAINTS:\n"
+        "- MAX 8 WORDS.\n"
+        "- NO qualitative filler or generic nouns (e.g., 'analysis', 'overview', 'discussion').\n"
+        f"- AVOID generic suffixes: {', '.join(blacklist)}.\n"
+        "- STYLE: Institutional, clinical, directional.\n"
+        "- NO reference to specific channels or hosts.\n"
+        "- FORMAT: JSON only.\n\n"
+        "### OUTPUT FORMAT:\n"
         "{{\n"
-        "  \"cluster_name\": \"Short descriptive phrase (e.g., 'Policy Transformation' or 'Resource Infrastructure Development')\",\n"
-        "  \"description\": \"One sentence summary of why these items are grouped.\",\n"
-        "  \"positioning_bias\": \"One of: constructive | defensive | neutral | counter-consensus\"\n"
-        "}}\n\n"
-        "RULES:\n"
-        "1. DO NOT use domain-specific keywords for labels unless explicitly provided.\n"
-        "2. Be domain-agnostic. No assumption of context (finance, tech, etc.) unless stated in input.\n"
-        "3. High-density professional tone.\n"
+        "  \"cluster_name\": \"...\",\n"
+        "  \"description\": \"One sentence answering: What incremental signal does this narrative add?\",\n"
+        "  \"positioning_bias\": \"constructive|defensive|neutral|counter-consensus\"\n"
+        "}}\n"
     )
     
     try:
         response = llm.invoke([HumanMessage(content=prompt)])
         import json
-        # Extract JSON from potential markdown blocks
         clean_text = response.content.replace("```json", "").replace("```", "").strip()
         data = json.loads(clean_text)
         
@@ -673,37 +687,102 @@ def run_summarization():
                 if v.get('cluster_id') != -1:
                     cat_clusters[v['cluster_id']].append(v)
             
-            cat_cluster_metrics = []
+            # --- CLUSTER DEDUPLICATION ---
+            dedup_threshold = config.get("clustering", {}).get("deduplication_threshold", 0.88)
+            cluster_centroids = {}
             for c_id, briefs in cat_clusters.items():
+                embeddings = [b.get('embedding') for b in briefs if b.get('embedding')]
+                if embeddings:
+                    cluster_centroids[c_id] = np.mean(embeddings, axis=0)
+            
+            merged_ids = {}
+            active_ids = list(cluster_centroids.keys())
+            for i in range(len(active_ids)):
+                id_a = active_ids[i]
+                if id_a in merged_ids: continue
+                for j in range(i + 1, len(active_ids)):
+                    id_b = active_ids[j]
+                    if id_b in merged_ids: continue
+                    
+                    sim = cosine_similarity([cluster_centroids[id_a]], [cluster_centroids[id_b]])[0][0]
+                    if sim > dedup_threshold:
+                        logger.info(f"🔄 Merging redundant clusters {id_a} and {id_b} (Sim: {sim:.3f})")
+                        merged_ids[id_b] = id_a
+            
+            # Re-apply merges to cat_clusters
+            final_clusters = defaultdict(list)
+            for c_id, briefs in cat_clusters.items():
+                target_id = merged_ids.get(c_id, c_id)
+                final_clusters[target_id].extend(briefs)
+            
+            cat_cluster_metrics = []
+            for c_id, briefs in final_clusters.items():
                 avg_signal = np.mean([b.get('brief', {}).get('signal_strength', 5) for b in briefs])
                 avg_coherence = np.mean([b.get('cluster_coherence', 1.0) for b in briefs])
                 cluster_strength = np.mean([b.get('cluster_strength', 0) for b in briefs])
                 
                 label_data = generate_cluster_label(briefs, llm)
                 
+                # Regime State logic per cluster (Emerging -> Dominant -> Decaying)
+                regime_labels = meta_cfg.get("narrative_regime_labels", ["Emerging", "Dominant", "Decaying"])
+                if len(briefs) >= 4:
+                    c_regime = regime_labels[2] # Dominant
+                elif len(briefs) >= 2:
+                    c_regime = regime_labels[1] # Accelerating/Dominant
+                else:
+                    c_regime = regime_labels[0] # Emerging
+                
+                # Fetch centroid for cross-cluster correlation
+                centroid = cluster_centroids.get(c_id)
+                
                 cat_cluster_metrics.append({
                     "id": c_id,
                     "name": label_data.get("cluster_name"),
                     "description": label_data.get("description"),
                     "bias": label_data.get("positioning_bias"),
+                    "regime": c_regime,
                     "size": len(briefs),
                     "strength": float(cluster_strength),
                     "coherence": float(avg_coherence),
                     "channels": list(set([b['brief']['channel'] for b in briefs])),
                     "avg_signal": float(avg_signal),
                     "briefs": [b['brief'] for b in briefs],
-                    "brief_data": briefs # Full video objects for centroid calculation
+                    "centroid": centroid.tolist() if centroid is not None else None
                 })
             
+            # Sort by size for hierarchy
             cat_cluster_metrics = sorted(cat_cluster_metrics, key=lambda x: x['size'], reverse=True)
             
-            # Calculate Convergence
+            # D. Separate Headlines from Peripheral Signals with folding logic
+            min_headline_size = meta_cfg.get("min_cluster_size_for_headline", 2)
+            p_threshold = meta_cfg.get("peripheral_strength_threshold", 0.35)
+            
+            # Calculate Convergence early for folding logic
             conv_metrics = calculate_convergence_score(cat_cluster_metrics, len(cat_videos), config)
             convergence_score = conv_metrics['score']
             
+            headline_clusters = []
+            peripheral_clusters = []
+            
+            for c in cat_cluster_metrics:
+                is_weak = c['size'] < min_headline_size
+                # If sector is highly aligned, we fold small clusters into primary view
+                if is_weak and convergence_score < 0.4: # Low alignment -> hide weak signals
+                    peripheral_clusters.append(c)
+                else:
+                    headline_clusters.append(c)
+
             # Log to history
             update_convergence_history(category, convergence_score, meta_cfg.get("history_window_days", 30))
             
+            # Regime State Logic
+            regime_thresholds = meta_cfg.get("regime_thresholds", {})
+            regime_state = "Neutral"
+            for state, t_val in sorted(regime_thresholds.items(), key=lambda x: x[1], reverse=True):
+                if convergence_score >= t_val:
+                    regime_state = state
+                    break
+
             # Check Thresholds for Summary Generation
             threshold = meta_cfg.get("convergence_threshold", 0.65)
             if meta_cfg.get("threshold_mode") == "percentile":
@@ -711,34 +790,39 @@ def run_summarization():
                 should_generate = p >= threshold 
             else:
                 should_generate = convergence_score >= threshold
-
+            
             # Additional guards
             if len(cat_videos) < meta_cfg.get("min_videos", 5): should_generate = False
-            if len(cat_clusters) < meta_cfg.get("min_clusters", 2): should_generate = False
+            if not final_clusters: should_generate = False
 
             cat_meta_summary = ""
             if should_generate:
                 logger.info(f"✨ Generating Category Meta Summary for {category} (Score: {convergence_score:.2f})")
                 cat_meta_summary = generate_meta_summary(cat_cluster_metrics, len(cat_videos), llm)
 
-            # Store for dashboard
+            # Store for dashboard (CONTRACT-FIRST SCHEMA)
             category_intelligence[category] = {
+                "name": category,
                 "meta_summary": cat_meta_summary,
-                "convergence_score": convergence_score,
-                "conv_metrics": conv_metrics,
-                "threshold": threshold,
+                "convergence_score": float(convergence_score),
+                "percentile": float(calculate_percentile(category, convergence_score)) if meta_cfg.get("threshold_mode") == "percentile" else 0.0,
+                "regime_state": regime_state,
+                "clusters": cat_cluster_metrics,
                 "should_generate": should_generate
             }
 
             # Build Output for this category
-            summary_md += f"## Sector: {category}\n\n"
+            summary_md += f"## Sector: {category}\n"
+            summary_md += f"**Convergence:** `{convergence_score:.2f}` | **Regime:** `{regime_state}`\n\n"
+            
             if cat_meta_summary:
-                summary_md += f"> ### 🧠 Sector Intelligence Brief\n> {cat_meta_summary}\n\n"
+                summary_md += f"> ### 🧠 Dominant Narrative\n> {cat_meta_summary}\n\n"
                 summary_html += f"<div style='background: #1A73E8; color: white; padding: 15px; border-radius: 8px; margin-bottom: 20px;'>"
-                summary_html += f"<h3 style='margin-top: 0; font-size: 16px;'>Sector Intelligence: {category}</h3>"
+                summary_html += f"<h3 style='margin-top: 0; font-size: 16px;'>Sector Intelligence: {category} ({regime_state})</h3>"
                 summary_html += f"<div style='font-size: 14px;'>{cat_meta_summary.replace(chr(10), '<br/>')}</div></div>"
             
-            for cluster in cat_cluster_metrics:
+            # Render Headlines
+            for cluster in headline_clusters:
                 summary_md += f"### {cluster['name']}\n"
                 summary_md += f"**Description:** {cluster['description']} | **Bias:** `{cluster['bias']}`\n"
                 summary_md += f"- **Dominance:** {cluster['size']} channels | **Avg Signal:** {cluster['avg_signal']:.1f}/10\n"
@@ -747,12 +831,48 @@ def run_summarization():
                 summary_html += f"<div style='font-weight: bold; color: #1A73E8;'>{cluster['name']}</div>"
                 summary_html += f"<div style='font-size: 13px;'>{cluster['description']}</div>"
                 
-                for b_id, b in enumerate(cluster['briefs']):
+                for b in cluster['briefs']:
                     summary_md += f"- **{b.get('channel')}**: {b.get('one_line_summary')}\n"
                     summary_html += f"<div style='font-size: 12px; color: #70757A;'>• <b>{b.get('channel')}:</b> {b.get('one_line_summary')}</div>"
                 summary_html += "</div>"
+
+            # Render Peripheral Signals
+            if peripheral_clusters:
+                p_limit = meta_cfg.get("peripheral_render_limit", 5)
+                summary_md += "\n#### 📡 Peripheral Signals\n"
+                summary_html += "<div style='background: #f8f9fa; padding: 10px; border-radius: 5px; margin-top: 10px;'>"
+                summary_html += "<div style='font-weight: bold; font-size: 13px; color: #70757A;'>📡 Peripheral Signals</div>"
+                
+                for i, c in enumerate(peripheral_clusters[:p_limit]):
+                    for b in c['briefs']:
+                        summary_md += f"- {b.get('one_line_summary')} ({b.get('channel')})\n"
+                        summary_html += f"<div style='font-size: 11px; color: #70757A;'>• {b.get('one_line_summary')} ({b.get('channel')})</div>"
+                summary_html += "</div>"
             
             logger.info(f"✅ Synthesis complete for {category}")
+
+        # --- CROSS-CLUSTER CORRELATION PASS ---
+        from metrics.cross_cluster_correlation import CrossClusterCorrelation
+        correlator = CrossClusterCorrelation(config)
+        correlations = correlator.detect(category_intelligence)
+        
+        for corr in correlations:
+            src = corr["source"]
+            tgt = corr["target"]
+            alert_text = f"\n⚡ Convergence Alert: Overlap detected with [{tgt['name']}] in {tgt['category']} ({corr['similarity']:.2f} sim)"
+            
+            # Find the cluster in category_intelligence and append alert
+            cat_intel = category_intelligence.get(src["category"], {})
+            for cluster in cat_intel.get("clusters", []):
+                if cluster["id"] == src["id"]:
+                    cluster["description"] += alert_text
+                    break
+
+        # Cleanup: Remove centroids from final JSON data contract (internal use only)
+        for cat_data in category_intelligence.values():
+            for cluster in cat_data.get("clusters", []):
+                if "centroid" in cluster:
+                    del cluster["centroid"]
 
     except Exception as e:
         logger.error(f"CRITICAL ERROR in Synthesis Phase: {e}", exc_info=True)
