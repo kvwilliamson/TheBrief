@@ -636,6 +636,11 @@ def run_summarization():
     # --- PHASE 3: CATEGORY-LEVEL META SYNTHESIS ---
     logger.info(f"--- Phase 3: Category Synthesis ({len(processed_queue)} assets across categories) ---")
     config = load_config()
+    summary_md = f"# TheBrief Daily Dispatch - {date_str}\n\n"
+    summary_html = f"<html><body style='font-family: Arial, Helvetica, sans-serif; color: #202124; background-color: #ffffff; padding: 20px;'>"
+    summary_html += f"<h1 style='color: #202124; font-size: 24px; margin-bottom: 5px;'>TheBrief Daily Dispatch</h1>"
+    summary_html += f"<div style='color: #70757A; margin-bottom: 25px; font-size: 14px;'>Intelligence Report: {date_str}</div>"
+
     try:
         # A. Group Clusters by Category
         from collections import defaultdict
@@ -644,114 +649,109 @@ def run_summarization():
             cat = v.get("category", "Other")
             category_map[cat].append(v)
 
-    summary_md = f"# TheBrief Daily Dispatch - {date_str}\n\n"
-    summary_html = f"<html><body style='font-family: Arial, Helvetica, sans-serif; color: #202124; background-color: #ffffff; padding: 20px;'>"
-    summary_html += f"<h1 style='color: #202124; font-size: 24px; margin-bottom: 5px;'>TheBrief Daily Dispatch</h1>"
-    summary_html += f"<div style='color: #70757A; margin-bottom: 25px; font-size: 14px;'>Intelligence Report: {date_str}</div>"
+        total_assets = len(processed_queue)
+        meta_cfg = config.get("meta", {}).get("generation", {})
+        category_intelligence = {}
 
-    total_assets = len(processed_queue)
-    meta_cfg = config.get("meta", {}).get("generation", {})
-    category_intelligence = {}
-
-    logger.info(f"Analyzing {len(category_map)} categories: {', '.join(category_map.keys())}")
-    for category, cat_videos in category_map.items():
-        logger.info(f"Processing Synthesis for sector: {category} ({len(cat_videos)} assets)...")
-        
-        # B. Perform semantic clustering WITHIN the category (User constraint: NO other grouping)
-        current_percentile = config.get("clustering", {}).get("percentile", 85)
-        linkage_mode = os.getenv("CLUSTERING_LINKAGE", "complete")
-        cat_videos = perform_semantic_clustering(
-            cat_videos, 
-            percentile=current_percentile,
-            linkage=linkage_mode
-        )
-
-        # C. Identify clusters present in this category
-        cat_clusters = defaultdict(list)
-        for v in cat_videos:
-            if v.get('cluster_id') != -1:
-                cat_clusters[v['cluster_id']].append(v)
-        
-        cat_cluster_metrics = []
-        for c_id, briefs in cat_clusters.items():
-            avg_signal = np.mean([b.get('brief', {}).get('signal_strength', 5) for b in briefs])
-            avg_coherence = np.mean([b.get('cluster_coherence', 1.0) for b in briefs])
-            cluster_strength = np.mean([b.get('cluster_strength', 0) for b in briefs])
+        logger.info(f"Analyzing {len(category_map)} categories: {', '.join(category_map.keys())}")
+        for category, cat_videos in category_map.items():
+            logger.info(f"Processing Synthesis for sector: {category} ({len(cat_videos)} assets)...")
             
-            label_data = generate_cluster_label(briefs, llm)
+            # B. Perform semantic clustering WITHIN the category (User constraint: NO other grouping)
+            current_percentile = config.get("clustering", {}).get("percentile", 85)
+            linkage_mode = os.getenv("CLUSTERING_LINKAGE", "complete")
+            cat_videos = perform_semantic_clustering(
+                cat_videos, 
+                percentile=current_percentile,
+                linkage=linkage_mode
+            )
+
+            # C. Identify clusters present in this category
+            cat_clusters = defaultdict(list)
+            for v in cat_videos:
+                if v.get('cluster_id') != -1:
+                    cat_clusters[v['cluster_id']].append(v)
             
-            cat_cluster_metrics.append({
-                "id": c_id,
-                "name": label_data.get("cluster_name"),
-                "description": label_data.get("description"),
-                "bias": label_data.get("positioning_bias"),
-                "size": len(briefs),
-                "strength": float(cluster_strength),
-                "coherence": float(avg_coherence),
-                "channels": list(set([b['brief']['channel'] for b in briefs])),
-                "avg_signal": float(avg_signal),
-                "briefs": [b['brief'] for b in briefs],
-                "brief_data": briefs # Full video objects for centroid calculation
-            })
-        
-        cat_cluster_metrics = sorted(cat_cluster_metrics, key=lambda x: x['size'], reverse=True)
-        
-        # Calculate Convergence
-        conv_metrics = calculate_convergence_score(cat_cluster_metrics, len(cat_videos), config)
-        convergence_score = conv_metrics['score']
-        
-        # Log to history
-        update_convergence_history(category, convergence_score, meta_cfg.get("history_window_days", 30))
-        
-        # Check Thresholds for Summary Generation
-        threshold = meta_cfg.get("convergence_threshold", 0.65)
-        if meta_cfg.get("threshold_mode") == "percentile":
-            p = calculate_percentile(category, convergence_score)
-            should_generate = p >= threshold 
-        else:
-            should_generate = convergence_score >= threshold
-
-        # Additional guards
-        if len(cat_videos) < meta_cfg.get("min_videos", 5): should_generate = False
-        if len(cat_clusters) < meta_cfg.get("min_clusters", 2): should_generate = False
-
-        cat_meta_summary = ""
-        if should_generate:
-            logger.info(f"✨ Generating Category Meta Summary for {category} (Score: {convergence_score:.2f})")
-            cat_meta_summary = generate_meta_summary(cat_cluster_metrics, len(cat_videos), llm)
-
-        # Store for dashboard
-        category_intelligence[category] = {
-            "meta_summary": cat_meta_summary,
-            "convergence_score": convergence_score,
-            "conv_metrics": conv_metrics,
-            "threshold": threshold,
-            "should_generate": should_generate
-        }
-
-        # Build Output for this category
-        summary_md += f"## Sector: {category}\n\n"
-        if cat_meta_summary:
-            summary_md += f"> ### 🧠 Sector Intelligence Brief\n> {cat_meta_summary}\n\n"
-            summary_html += f"<div style='background: #1A73E8; color: white; padding: 15px; border-radius: 8px; margin-bottom: 20px;'>"
-            summary_html += f"<h3 style='margin-top: 0; font-size: 16px;'>Sector Intelligence: {category}</h3>"
-            summary_html += f"<div style='font-size: 14px;'>{cat_meta_summary.replace(chr(10), '<br/>')}</div></div>"
-        
-        for cluster in cat_cluster_metrics:
-            summary_md += f"### {cluster['name']}\n"
-            summary_md += f"**Description:** {cluster['description']} | **Bias:** `{cluster['bias']}`\n"
-            summary_md += f"- **Dominance:** {cluster['size']} channels | **Avg Signal:** {cluster['avg_signal']:.1f}/10\n"
+            cat_cluster_metrics = []
+            for c_id, briefs in cat_clusters.items():
+                avg_signal = np.mean([b.get('brief', {}).get('signal_strength', 5) for b in briefs])
+                avg_coherence = np.mean([b.get('cluster_coherence', 1.0) for b in briefs])
+                cluster_strength = np.mean([b.get('cluster_strength', 0) for b in briefs])
+                
+                label_data = generate_cluster_label(briefs, llm)
+                
+                cat_cluster_metrics.append({
+                    "id": c_id,
+                    "name": label_data.get("cluster_name"),
+                    "description": label_data.get("description"),
+                    "bias": label_data.get("positioning_bias"),
+                    "size": len(briefs),
+                    "strength": float(cluster_strength),
+                    "coherence": float(avg_coherence),
+                    "channels": list(set([b['brief']['channel'] for b in briefs])),
+                    "avg_signal": float(avg_signal),
+                    "briefs": [b['brief'] for b in briefs],
+                    "brief_data": briefs # Full video objects for centroid calculation
+                })
             
-            summary_html += f"<div style='margin-bottom: 15px; border-left: 4px solid #1A73E8; padding-left: 10px;'>"
-            summary_html += f"<div style='font-weight: bold; color: #1A73E8;'>{cluster['name']}</div>"
-            summary_html += f"<div style='font-size: 13px;'>{cluster['description']}</div>"
+            cat_cluster_metrics = sorted(cat_cluster_metrics, key=lambda x: x['size'], reverse=True)
             
-            for b_id, b in enumerate(cluster['briefs']):
-                summary_md += f"- **{b.get('channel')}**: {b.get('one_line_summary')}\n"
-                summary_html += f"<div style='font-size: 12px; color: #70757A;'>• <b>{b.get('channel')}:</b> {b.get('one_line_summary')}</div>"
-            summary_html += "</div>"
-        
-        logger.info(f"✅ Synthesis complete for {category}")
+            # Calculate Convergence
+            conv_metrics = calculate_convergence_score(cat_cluster_metrics, len(cat_videos), config)
+            convergence_score = conv_metrics['score']
+            
+            # Log to history
+            update_convergence_history(category, convergence_score, meta_cfg.get("history_window_days", 30))
+            
+            # Check Thresholds for Summary Generation
+            threshold = meta_cfg.get("convergence_threshold", 0.65)
+            if meta_cfg.get("threshold_mode") == "percentile":
+                p = calculate_percentile(category, convergence_score)
+                should_generate = p >= threshold 
+            else:
+                should_generate = convergence_score >= threshold
+
+            # Additional guards
+            if len(cat_videos) < meta_cfg.get("min_videos", 5): should_generate = False
+            if len(cat_clusters) < meta_cfg.get("min_clusters", 2): should_generate = False
+
+            cat_meta_summary = ""
+            if should_generate:
+                logger.info(f"✨ Generating Category Meta Summary for {category} (Score: {convergence_score:.2f})")
+                cat_meta_summary = generate_meta_summary(cat_cluster_metrics, len(cat_videos), llm)
+
+            # Store for dashboard
+            category_intelligence[category] = {
+                "meta_summary": cat_meta_summary,
+                "convergence_score": convergence_score,
+                "conv_metrics": conv_metrics,
+                "threshold": threshold,
+                "should_generate": should_generate
+            }
+
+            # Build Output for this category
+            summary_md += f"## Sector: {category}\n\n"
+            if cat_meta_summary:
+                summary_md += f"> ### 🧠 Sector Intelligence Brief\n> {cat_meta_summary}\n\n"
+                summary_html += f"<div style='background: #1A73E8; color: white; padding: 15px; border-radius: 8px; margin-bottom: 20px;'>"
+                summary_html += f"<h3 style='margin-top: 0; font-size: 16px;'>Sector Intelligence: {category}</h3>"
+                summary_html += f"<div style='font-size: 14px;'>{cat_meta_summary.replace(chr(10), '<br/>')}</div></div>"
+            
+            for cluster in cat_cluster_metrics:
+                summary_md += f"### {cluster['name']}\n"
+                summary_md += f"**Description:** {cluster['description']} | **Bias:** `{cluster['bias']}`\n"
+                summary_md += f"- **Dominance:** {cluster['size']} channels | **Avg Signal:** {cluster['avg_signal']:.1f}/10\n"
+                
+                summary_html += f"<div style='margin-bottom: 15px; border-left: 4px solid #1A73E8; padding-left: 10px;'>"
+                summary_html += f"<div style='font-weight: bold; color: #1A73E8;'>{cluster['name']}</div>"
+                summary_html += f"<div style='font-size: 13px;'>{cluster['description']}</div>"
+                
+                for b_id, b in enumerate(cluster['briefs']):
+                    summary_md += f"- **{b.get('channel')}**: {b.get('one_line_summary')}\n"
+                    summary_html += f"<div style='font-size: 12px; color: #70757A;'>• <b>{b.get('channel')}:</b> {b.get('one_line_summary')}</div>"
+                summary_html += "</div>"
+            
+            logger.info(f"✅ Synthesis complete for {category}")
 
     except Exception as e:
         logger.error(f"CRITICAL ERROR in Synthesis Phase: {e}", exc_info=True)
