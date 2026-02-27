@@ -508,6 +508,7 @@ def calculate_percentile(category: str, current_score: float) -> float:
         return float(np.mean(np.array(scores) <= current_score) * 100)
     except:
         return 0.0
+def generate_cluster_label(cluster_briefs, llm):
     """
     Generates a dynamic name, description, and positioning bias for a cluster.
     """
