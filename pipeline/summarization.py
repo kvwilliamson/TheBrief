@@ -181,8 +181,10 @@ def summarize_transcript(video, llm):
         "1. TONE: Institutional Strategy Brief. Zero hype.\n"
         "2. INCREMENTAL SIGNAL ONLY: Every point must answer 'What is the specific, new signal here?'\n"
         "3. OUTPUT: Valid JSON matching the schema.\n\n"
-        "Title: {title}\nChannel: {channel}\nToday: {today}\n"
+        "Title: {title}\nChannel: {channel}\nToday: {today}\n\n"
+        "Format instructions:\n{format_instructions}\n"
     )
+
     
     prompt = PromptTemplate(
         template=template,
@@ -744,7 +746,7 @@ def run_summarization():
                     "size": len(briefs),
                     "strength": float(cluster_strength),
                     "coherence": float(avg_coherence),
-                    "channels": list(set([b['brief']['channel'] for b in briefs])),
+                    "channels": list(set([b.get('brief', {}).get('channel', b.get('channel', 'Unknown')) for b in briefs])),
                     "avg_signal": float(avg_signal),
                     "briefs": [b['brief'] for b in briefs],
                     "centroid": centroid.tolist() if centroid is not None else None
