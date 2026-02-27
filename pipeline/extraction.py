@@ -62,6 +62,7 @@ def extract_audio_for_video(video):
     
     command = [
         ytdlp_path,
+        "-f", "bestaudio/best",
         "-x",
         "--audio-format", "mp3",
         "--postprocessor-args", "-ar 16000 -ac 1",
@@ -73,6 +74,11 @@ def extract_audio_for_video(video):
 
     # Add cookies if cookies.txt exists
     if os.path.exists("cookies.txt"):
+        command.extend(["--cookies", "cookies.txt"])
+    elif "YOUTUBE_COOKIES" in os.environ:
+        # Fallback for transient environments if file isn't created yet
+        with open("cookies.txt", "w") as f:
+            f.write(os.environ["YOUTUBE_COOKIES"])
         command.extend(["--cookies", "cookies.txt"])
     
     command.append(video_url)

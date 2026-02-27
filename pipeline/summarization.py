@@ -63,6 +63,21 @@ def get_next_percentile():
 SUMMARY_MODEL_NAME = "gemini-2.0-flash"
 EMBEDDING_MODEL_NAME = "text-embedding-004"
 GENAI_CLIENT = None
+CONFIG_PATH = "config.json"
+
+def load_config():
+    """Loads global configuration for thresholds and weights."""
+    if not os.path.exists(CONFIG_PATH):
+        # Fallback defaults matches config.json
+        return {
+            "meta": {
+                "generation": {"min_videos": 5, "min_clusters": 2, "convergence_threshold": 0.65, "threshold_mode": "fixed", "history_window_days": 30},
+                "convergence": {"weights": {"mean_similarity": 0.6, "std_dev_penalty": 0.2, "weighted_dominance": 0.2}, "min_cluster_size": 2}
+            },
+            "clustering": {"percentile": 85, "crowding_percentile": 75}
+        }
+    with open(CONFIG_PATH, "r") as f:
+        return json.load(f)
 
 def get_genai_client():
     global GENAI_CLIENT
@@ -347,10 +362,11 @@ def generate_meta_summary(clusters_data: List[Dict[str, Any]], total_assets: int
     clusters_input = "\n\n".join(cluster_texts)
     
     system_prompt = (
-        "You are a Lead Intelligence Strategist for a Tier-1 institutional desk. "
-        "Your task is to produce a DENSE, QUANTIFIED Narrative Radar Report.\n\n"
+        "You are a Lead Intelligence Strategist for a high-performance analytical desk. "
+        "Your task is to produce a DENSE, QUANTIFIED Regime Detection Report.\n\n"
         "### STYLE GUIDE:\n"
         "- NO qualitative filler (e.g., 'The dominant narrative is...').\n"
+        "- NO domain-specific terminology (e.g., avoid assume asset classes unless stated).\n"
         "- NO adverbs or generic macro commentary.\n"
         "- MAX signal density. MIN words.\n"
         "- USE numerical backing for every assertion."
@@ -362,11 +378,11 @@ def generate_meta_summary(clusters_data: List[Dict[str, Any]], total_assets: int
         "### INPUT NARRATIVE CLUSTERS:\n"
         f"{clusters_input}\n\n"
         "### REQUIRED SECTIONS:\n"
-        "1. QUANTIFIED DOMINANCE: Identify the top cluster by % dominance. State its Strength and Convergence.\n"
-        "2. CROWDING & RISK SATURATION: Identify clusters with HIGH/MODERATE crowding. Assess if sentiment is reaching an 'echo chamber' state.\n"
-        "3. INTRA-CLUSTER FRACTURES: Identify clusters where Coherence is < 0.6. Identify specific opposing directional biases or claims.\n"
-        "4. CROSS-CLUSTER INTERACTION: Explicitly map how one narrative (e.g., Geopolitics) is propagating into another (e.g., Energy/Metals).\n"
-        "5. DATASET-DERIVED WATCHLIST: 2-3 specific triggers (Price targets, deadlines, catalytic events) extracted ONLY from the provided CLAIMS. No generic templates.\n\n"
+        "1. QUANTIFIED DOMINANCE: Identify the top cluster by % dominance. State its Strength and Coherence.\n"
+        "2. NARRATIVE CONVERGENCE: Evaluate the degree of agreement across clusters based on provided statistics.\n"
+        "3. INTRA-CLUSTER FRACTURES: Identify clusters where Coherence is low. Identify specific opposing directional biases or claims.\n"
+        "4. INTER-CLUSTER PROPAGATION: Explicitly map how one narrative (Cluster A) is influencing or overlapping with another (Cluster B).\n"
+        "5. DATASET-DERIVED TRIGGERS: 2-3 specific catalysts (deadlines, catalytic events) extracted ONLY from the provided CLAIMS.\n\n"
         "STRICT CONSTRAINTS:\n"
         "- Tone: Clinical, precise, institutional.\n"
         "- Target Reduction: Be 20% shorter than a standard summary.\n"
@@ -385,7 +401,113 @@ def generate_meta_summary(clusters_data: List[Dict[str, Any]], total_assets: int
         logger.error(f"Error generating meta-summary: {e}")
         return "Meta-summary generation failed due to synthesis error."
 
-def generate_cluster_label(cluster_briefs: List[Dict[str, Any]], llm) -> Dict[str, str]:
+def calculate_convergence_score(clusters_data: List[Dict[str, Any]], total_videos: int, config: Dict[str, Any]) -> Dict[str, float]:
+    """
+    Computes Narrative Convergence using stabilized weighted formula:
+    convergence = (w1 * μ) - (w2 * σ) + (w3 * D_adj)
+    """
+    if not clusters_data:
+        return {"score": 0.0, "mu": 0.0, "sigma": 0.0, "d_adj": 0.0}
+
+    conv_cfg = config.get("meta", {}).get("convergence", {})
+    weights = conv_cfg.get("weights", {})
+    min_size = conv_cfg.get("min_cluster_size", 2)
+
+    # Filter clusters by minimum size for convergence stability
+    valid_clusters = [c for c in clusters_data if c['size'] >= min_size]
+    if len(valid_clusters) < 2:
+        return {"score": 0.0, "mu": 0.0, "sigma": 0.0, "d_adj": 0.0}
+
+    # Step 1: Collect Centroids
+    centroids = []
+    for c in valid_clusters:
+        # Re-derive centroid from briefs (assuming they have embeddings or we calculate on the fly)
+        # For efficiency, we assume the clustering pass already stored this or we compute it
+        cluster_embeddings = [np.array(b['embedding']) for b in c.get('brief_data', []) if 'embedding' in b]
+        if cluster_embeddings:
+            centroid = np.mean(cluster_embeddings, axis=0)
+            # Normalize for cosine similarity (dot product on normalized = cosine)
+            norm = np.linalg.norm(centroid)
+            if norm > 0:
+                centroids.append(centroid / norm)
+
+    if len(centroids) < 2:
+        return {"score": 0.0, "mu": 0.0, "sigma": 0.0, "d_adj": 0.0}
+
+    # Step 2: Centroid Similarity Matrix
+    centroids = np.array(centroids)
+    sim_matrix = cosine_similarity(centroids)
+    
+    # Extract Upper Triangle (excluding diagonal)
+    mask = np.triu(np.ones(sim_matrix.shape), k=1).astype(bool)
+    pairs = sim_matrix[mask]
+
+    # Step 3: Compute Metrics
+    mu = float(np.mean(pairs))
+    sigma = float(np.std(pairs))
+    
+    # Dominance Weighting (D_adj = largest_cluster / total_videos * mu)
+    largest_cluster = max([c['size'] for c in valid_clusters])
+    d_adj = (largest_cluster / total_videos) * mu
+
+    # Step 4: Final Stabilized Formula
+    score = (
+        weights.get("mean_similarity", 0.6) * mu -
+        weights.get("std_dev_penalty", 0.2) * sigma +
+        weights.get("weighted_dominance", 0.2) * d_adj
+    )
+
+    return {
+        "score": max(0.0, min(1.0, score)),
+        "mu": mu,
+        "sigma": sigma,
+        "d_adj": d_adj
+    }
+
+def update_convergence_history(category: str, score: float, window_days: int):
+    """Logs convergence score to history and maintains rolling window."""
+    history_path = "data/convergence_history.json"
+    os.makedirs("data", exist_ok=True)
+    
+    history = {}
+    if os.path.exists(history_path):
+        try:
+            with open(history_path, "r") as f:
+                history = json.load(f)
+        except:
+            history = {}
+
+    if category not in history:
+        history[category] = []
+    
+    history[category].append({
+        "timestamp": datetime.now().isoformat(),
+        "score": score
+    })
+
+    # Simple cleanup (keeping for N entries as proxy for days since runs are periodic)
+    # Ideally we'd filter by timestamp, but for simplicity we keep last 50 runs per category
+    history[category] = history[category][-50:]
+
+    with open(history_path, "w") as f:
+        json.dump(history, f, indent=2)
+
+def calculate_percentile(category: str, current_score: float) -> float:
+    """Calculates percentile of current score relative to category history."""
+    history_path = "data/convergence_history.json"
+    if not os.path.exists(history_path):
+        return 0.0
+        
+    try:
+        with open(history_path, "r") as f:
+            history = json.load(f)
+        scores = [h['score'] for h in history.get(category, [])]
+        if not scores:
+            return 0.0
+            
+        return float(np.mean(np.array(scores) <= current_score) * 100)
+    except:
+        return 0.0
     """
     Generates a dynamic name, description, and positioning bias for a cluster.
     """
@@ -397,13 +519,13 @@ def generate_cluster_label(cluster_briefs: List[Dict[str, Any]], llm) -> Dict[st
         f"### CLUSTER CONTENT:\n{context}\n\n"
         "### OUTPUT FORMAT (JSON):\n"
         "{{\n"
-        "  \"cluster_name\": \"Short descriptive phrase (e.g., 'Fed Pivot Speculation' or 'Renewable Infrastructure Growth')\",\n"
+        "  \"cluster_name\": \"Short descriptive phrase (e.g., 'Policy Transformation' or 'Resource Infrastructure Development')\",\n"
         "  \"description\": \"One sentence summary of why these items are grouped.\",\n"
         "  \"positioning_bias\": \"One of: constructive | defensive | neutral | counter-consensus\"\n"
         "}}\n\n"
         "RULES:\n"
-        "1. DO NOT use theme counting.\n"
-        "2. Be domain-agnostic. No assumption of asset classes unless stated in input.\n"
+        "1. DO NOT use domain-specific keywords for labels unless explicitly provided.\n"
+        "2. Be domain-agnostic. No assumption of context (finance, tech, etc.) unless stated in input.\n"
         "3. High-density professional tone.\n"
     )
     
@@ -480,6 +602,7 @@ def run_summarization():
     llm = get_llm()
     processed_queue = []
     formatted_briefs = []
+    date_str = datetime.now().strftime("%Y-%m-%d")
     start_time = time.time()
 
     def process_video_summary(video):
@@ -510,7 +633,8 @@ def run_summarization():
         return []
 
     # --- PHASE 2: SEMANTIC CLUSTERING (v2: Self-Tuning) ---
-    current_percentile = get_next_percentile()
+    config = load_config()
+    current_percentile = config.get("clustering", {}).get("percentile", 85)
     linkage_mode = os.getenv("CLUSTERING_LINKAGE", "complete")
     processed_queue = perform_semantic_clustering(
         processed_queue, 
@@ -518,65 +642,149 @@ def run_summarization():
         linkage=linkage_mode
     )
 
-    # --- PHASE 3: META SYNTHESIS ---
-    # A. Calculate Relative Signal
-    max_signal = max([v['brief']['signal_strength'] for v in processed_queue]) if processed_queue else 1
-    for v in processed_queue:
-        v['brief']['relative_signal'] = v['brief']['signal_strength'] / max_signal
-
-    # B. Narrative Convergence & Crowding Detection
+    # --- PHASE 3: CATEGORY-LEVEL META SYNTHESIS ---
+    # A. Group Clusters by Category
     from collections import defaultdict
-    clusters = defaultdict(list)
+    category_map = defaultdict(list)
     for v in processed_queue:
-        if v.get('cluster_id') != -1:
-            clusters[v['cluster_id']].append(v)
-    
-    cluster_metrics = []
-    cluster_sizes = [len(briefs) for briefs in clusters.values()]
-    percentile = int(os.getenv("CROWDING_PERCENTILE", 75))
-    crowding_threshold = np.percentile(cluster_sizes, percentile) if cluster_sizes else 0
-    
-    total_assets = len(processed_queue)
-    for c_id, briefs in clusters.items():
-        avg_signal = np.mean([b['brief']['signal_strength'] for b in briefs])
-        avg_coherence = np.mean([b.get('cluster_coherence', 1.0) for b in briefs])
-        cluster_strength = np.mean([b.get('cluster_strength', 0) for b in briefs])
-        
-        # Crowding Index = (cluster size * avg intra-cluster similarity * avg signal score)
-        crowding_index = len(briefs) * avg_coherence * avg_signal
-        
-        # Quantify Crowding Label
-        if crowding_index > 40: crowding_label = "HIGH"
-        elif crowding_index > 15: crowding_label = "MODERATE"
-        else: crowding_label = "LOW"
+        cat = v.get("category", "Other")
+        category_map[cat].append(v)
 
-        # Dynamic Cluster Labeling
-        label_data = generate_cluster_label(briefs, llm)
+    summary_md = f"# TheBrief Daily Dispatch - {date_str}\n\n"
+    summary_html = f"<html><body style='font-family: Arial, Helvetica, sans-serif; color: #202124; background-color: #ffffff; padding: 20px;'>"
+    summary_html += f"<h1 style='color: #202124; font-size: 24px; margin-bottom: 5px;'>TheBrief Daily Dispatch</h1>"
+    summary_html += f"<div style='color: #70757A; margin-bottom: 25px; font-size: 14px;'>Intelligence Report: {date_str}</div>"
+
+    total_assets = len(processed_queue)
+    meta_cfg = config.get("meta", {}).get("generation", {})
+    category_intelligence = {}
+
+    # Process each category independently for meta-summary
+    for category, cat_videos in category_map.items():
+        # Identify clusters present in this category
+        cat_clusters = defaultdict(list)
+        for v in cat_videos:
+            if v.get('cluster_id') != -1:
+                cat_clusters[v['cluster_id']].append(v)
         
-        cluster_metrics.append({
-            "id": c_id,
-            "name": label_data.get("cluster_name"),
-            "description": label_data.get("description"),
-            "bias": label_data.get("positioning_bias"),
-            "size": len(briefs),
-            "dominance_pct": (len(briefs) / total_assets) * 100 if total_assets > 0 else 0,
-            "strength": float(cluster_strength),
-            "coherence": float(avg_coherence),
-            "crowding_index": float(crowding_index),
-            "crowding_label": crowding_label,
-            "channels": list(set([b['brief']['channel'] for b in briefs])),
-            "avg_signal": float(avg_signal),
-            "is_crowded": crowding_label == "HIGH",
-            "is_singleton": len(briefs) == 1,
-            "is_emergent": len(briefs) >= 2 and avg_coherence > 0.85,
-            "briefs": [b['brief'] for b in briefs]
-        })
+        cat_cluster_metrics = []
+        for c_id, briefs in cat_clusters.items():
+            avg_signal = np.mean([b['brief']['signal_strength'] for b in briefs])
+            avg_coherence = np.mean([b.get('cluster_coherence', 1.0) for b in briefs])
+            cluster_strength = np.mean([b.get('cluster_strength', 0) for b in briefs])
+            
+            label_data = generate_cluster_label(briefs, llm)
+            
+            cat_cluster_metrics.append({
+                "id": c_id,
+                "name": label_data.get("cluster_name"),
+                "description": label_data.get("description"),
+                "bias": label_data.get("positioning_bias"),
+                "size": len(briefs),
+                "strength": float(cluster_strength),
+                "coherence": float(avg_coherence),
+                "channels": list(set([b['brief']['channel'] for b in briefs])),
+                "avg_signal": float(avg_signal),
+                "briefs": [b['brief'] for b in briefs],
+                "brief_data": briefs # Full video objects for centroid calculation
+            })
+        
+        cat_cluster_metrics = sorted(cat_cluster_metrics, key=lambda x: x['size'], reverse=True)
+        
+        # Calculate Convergence
+        conv_metrics = calculate_convergence_score(cat_cluster_metrics, len(cat_videos), config)
+        convergence_score = conv_metrics['score']
+        
+        # Log to history
+        update_convergence_history(category, convergence_score, meta_cfg.get("history_window_days", 30))
+        
+        # Check Thresholds for Summary Generation
+        threshold = meta_cfg.get("convergence_threshold", 0.65)
+        if meta_cfg.get("threshold_mode") == "percentile":
+            p = calculate_percentile(category, convergence_score)
+            should_generate = p >= threshold 
+        else:
+            should_generate = convergence_score >= threshold
+
+        # Additional guards
+        if len(cat_videos) < meta_cfg.get("min_videos", 5): should_generate = False
+        if len(cat_clusters) < meta_cfg.get("min_clusters", 2): should_generate = False
+
+        cat_meta_summary = ""
+        if should_generate:
+            logger.info(f"✨ Generating Category Meta Summary for {category} (Score: {convergence_score:.2f})")
+            cat_meta_summary = generate_meta_summary(cat_cluster_metrics, len(cat_videos), llm)
+
+        # Store for dashboard
+        category_intelligence[category] = {
+            "meta_summary": cat_meta_summary,
+            "convergence_score": convergence_score,
+            "conv_metrics": conv_metrics,
+            "threshold": threshold,
+            "should_generate": should_generate
+        }
+
+        # Build Output for this category
+        summary_md += f"## Sector: {category}\n\n"
+        if cat_meta_summary:
+            summary_md += f"> ### 🧠 Sector Intelligence Brief\n> {cat_meta_summary}\n\n"
+            summary_html += f"<div style='background: #1A73E8; color: white; padding: 15px; border-radius: 8px; margin-bottom: 20px;'>"
+            summary_html += f"<h3 style='margin-top: 0; font-size: 16px;'>Sector Intelligence: {category}</h3>"
+            summary_html += f"<div style='font-size: 14px;'>{cat_meta_summary.replace(chr(10), '<br/>')}</div></div>"
+        
+        for cluster in cat_cluster_metrics:
+            summary_md += f"### {cluster['name']}\n"
+            summary_md += f"**Description:** {cluster['description']} | **Bias:** `{cluster['bias']}`\n"
+            summary_md += f"- **Dominance:** {cluster['size']} channels | **Avg Signal:** {cluster['avg_signal']:.1f}/10\n"
+            
+            summary_html += f"<div style='margin-bottom: 15px; border-left: 4px solid #1A73E8; padding-left: 10px;'>"
+            summary_html += f"<div style='font-weight: bold; color: #1A73E8;'>{cluster['name']}</div>"
+            summary_html += f"<div style='font-size: 13px;'>{cluster['description']}</div>"
+            
+            for b_id, b in enumerate(cluster['briefs']):
+                summary_md += f"- **{b.get('channel')}**: {b.get('one_line_summary')}\n"
+                summary_html += f"<div style='font-size: 12px; color: #70757A;'>• <b>{b.get('channel')}:</b> {b.get('one_line_summary')}</div>"
+            summary_html += "</div>"
+
+    # --- FINAL OUTPUT COMPILATION ---
+    md_filename = os.path.join("briefs", f"{date_str}.md")
+    os.makedirs("briefs", exist_ok=True)
+
+    # Detailed Briefs Section
+    summary_md += "\n---\n## Detailed Intelligence Briefs\n\n"
+    summary_html += "<hr style='border: 0; border-top: 1px solid #eee; margin: 40px 0;' /><h2 style='color: #202124;'>Detailed Intelligence Briefs</h2>"
     
-    # Sort cluster metrics by size (Dominance)
-    cluster_metrics = sorted(cluster_metrics, key=lambda x: x['size'], reverse=True)
+    for v_comp, (md_comp, html_comp) in formatted_briefs:
+        summary_md += md_comp
+        summary_html += html_comp
+
+    summary_html += "</body></html>"
+
+    with open(md_filename, "w") as f:
+        f.write(summary_md)
+        
+    # Save JSON briefs for the dashboard
+    json_filename = os.path.join("briefs", f"{date_str}.json")
     
-    # C. Executive Meta Summary (Institutional Strategic Pass)
-    meta_summary = generate_meta_summary(cluster_metrics, total_assets, llm)
+    enriched_briefs = []
+    for v in processed_queue:
+        if v.get('brief'):
+            b = v.get('brief')
+            b['thumbnail'] = v.get('thumbnail', '')
+            b['video_url'] = v.get('url', '')
+            b['cluster_id'] = v.get('cluster_id', -1)
+            b['category'] = v.get('category', 'Other')
+            enriched_briefs.append(b)
+
+    final_data = {
+        "date": date_str,
+        "briefs": enriched_briefs,
+        "category_intelligence": category_intelligence,
+        "clusters": [] 
+    }
+
+    with open(json_filename, "w") as f:
+        json.dump(final_data, f, indent=2)
 
     # Update processed_videos DB
     db_path = os.path.join("data", "processed_videos.json")
@@ -588,115 +796,12 @@ def run_summarization():
     except Exception as e:
         logger.warning(f"Note: Error updating processed_videos db: {e}")
 
-    # Compile final outputs
-    date_str = datetime.now().strftime("%Y-%m-%d")
-    md_filename = os.path.join("briefs", f"{date_str}.md")
-    os.makedirs("briefs", exist_ok=True)
-    
-    total_videos = len(processed_queue)
-    total_time = sum(v.get('duration_minutes', 0) for v in processed_queue)
-    
-    # Header
-    summary_md = f"# TheBrief Daily Dispatch - {date_str}\n\n"
-    summary_md += f"### 📊 At a Glance\n"
-    summary_md += f"- **Total Intelligence Assets:** {total_videos} videos\n"
-    summary_md += f"- **Total Subject Time:** {total_time:.1f} minutes\n\n"
-    
-    # HTML Header
-    summary_html = f"<html><body style='font-family: Arial, Helvetica, sans-serif; color: #202124; background-color: #ffffff; padding: 20px;'>"
-    summary_html += f"<h1 style='color: #202124; font-size: 24px; margin-bottom: 5px;'>TheBrief Daily Dispatch</h1>"
-    summary_html += f"<div style='color: #70757A; margin-bottom: 25px; font-size: 14px;'>Intelligence Report: {date_str}</div>"
-    
-    summary_html += f"<div style='background: #f8f9fa; padding: 20px; border-radius: 8px; border: 1px solid #ddd; margin-bottom: 30px;'>"
-    summary_html += f"<h3 style='margin-top: 0; color: #202124; font-size: 18px;'>📊 At a Glance</h3>"
-    summary_html += f"<ul style='margin-bottom: 0; font-size: 14px;'>"
-    summary_html += f"<li><strong>Total Intelligence Assets:</strong> {total_videos} videos</li>"
-    summary_html += f"<li><strong>Total Subject Time:</strong> {total_time:.1f} minutes</li></ul></div>"
-
-    # --- EXECUTIVE META SUMMARY SECTION ---
-    summary_md += f"## 🧠 Executive Meta Summary\n\n{meta_summary}\n\n"
-    summary_html += f"<div style='background: #1A73E8; color: white; padding: 20px; border-radius: 8px; margin-bottom: 30px;'>"
-    summary_html += f"<h2 style='margin-top: 0; font-size: 20px;'>🧠 Executive Meta Summary</h2>"
-    summary_html += f"<div style='font-size: 14px; line-height: 1.6;'>{meta_summary.replace(chr(10), '<br/>')}</div></div>"
-
-    # --- NARRATIVE CLUSTERS INDEX ---
-    summary_md += "## 📁 Narrative Clusters\n\n"
-    summary_html += f"<h2 style='color: #202124; font-size: 20px; border-bottom: 2px solid #1A73E8; padding-bottom: 10px; margin-bottom: 20px; font-weight: bold;'>📁 Narrative Clusters</h2>"
-    
-    for cluster in cluster_metrics:
-        crowd_flag = " ⚠️ **[CROWDED]**" if cluster['is_crowded'] else ""
-        summary_md += f"### {cluster['name']}{crowd_flag}\n"
-        summary_md += f"**Description:** {cluster['description']} | **Bias:** `{cluster['bias']}`\n"
-        summary_md += f"- **Dominance:** {cluster['size']} channels | **Avg Signal:** {cluster['avg_signal']:.1f}/10\n"
-        
-        summary_html += f"<div style='margin-bottom: 25px; border: 1px solid #eee; border-radius: 8px; overflow: hidden;'>"
-        header_bg = "#fde8e8" if cluster['is_crowded'] else "#f8f9fa"
-        summary_html += f"<div style='background: {header_bg}; padding: 12px; border-bottom: 1px solid #eee;'>"
-        summary_html += f"<div style='font-weight: bold; font-size: 15px; color: #1A73E8;'>{cluster['name']}</div>"
-        summary_html += f"<div style='font-size: 13px; color: #3C4043; margin-bottom: 4px;'>{cluster['description']}</div>"
-        
-        bias_color = {"constructive": "#34A853", "defensive": "#EA4335", "counter-consensus": "#F9AB00", "neutral": "#70757A"}.get(cluster['bias'].lower(), "#70757A")
-        summary_html += f"<span style='background: {bias_color}; color: white; padding: 2px 6px; border-radius: 4px; font-size: 10px; text-transform: uppercase;'>{cluster['bias']}</span>"
-        
-        if cluster['is_crowded']:
-            summary_html += " <span style='background: #EA4335; color: white; padding: 2px 6px; border-radius: 4px; font-size: 10px; margin-left: 10px;'>CROWDED TRADE</span>"
-        summary_html += f"<div style='font-size: 12px; color: #70757A; margin-top: 4px;'>{cluster['size']} channels • Avg Signal: {cluster['avg_signal']:.1f}/10</div></div>"
-        
-        summary_html += "<table width='100%' style='border-collapse: collapse;'>"
-        for v, _ in formatted_briefs:
-            if v.get('cluster_id') == cluster['id']:
-                b = v.get('brief', {})
-                summary_md += f"- **{b.get('channel')}**: [{b.get('episode_title')}]({v.get('url')})\n"
-                
-                summary_html += "<tr><td style='padding: 10px; border-bottom: 1px solid #f1f3f4;'>"
-                summary_html += f"<div style='font-size: 14px;'><b style='color: #202124;'>{b.get('channel')}:</b> <a href='{v.get('url')}' style='color: #1155CC; text-decoration: none;'>{b.get('episode_title')}</a></div>"
-                summary_html += f"<div style='font-size: 13px; color: #3C4043; margin-top: 4px;'>{b.get('one_line_summary')}</div>"
-                summary_html += "</td></tr>"
-        summary_html += "</table></div>"
-        
-    summary_md += "\n---\n\n"
-    summary_html += "<hr style='border: 0; border-top: 1px solid #eee; margin: 40px 0;' />"
-
-    # --- DETAILED BRIEFS SECTION ---
-    final_md = summary_md
-    final_html = summary_html
-    
-    for _, (md, html_comp) in formatted_briefs: # Iterate over formatted_briefs to get formatted strings
-        final_md += md
-        final_html += html_comp
-        
-    final_html += "</body></html>"
-    
-    with open(md_filename, "w") as f:
-        f.write(final_md)
-        
-    # Save JSON briefs for the dashboard to enable advanced visualizations
-    json_filename = os.path.join("briefs", f"{date_str}.json")
-    
-    enriched_briefs = []
-    for v in processed_queue:
-        if v.get('brief'):
-            b = v.get('brief')
-            b['thumbnail'] = v.get('thumbnail', '')
-            b['video_url'] = v.get('url', '')
-            b['cluster_id'] = v.get('cluster_id', -1)
-            enriched_briefs.append(b)
-
-    final_data = {
-        "date": date_str,
-        "meta_summary": meta_summary,
-        "briefs": enriched_briefs,
-        "clusters": cluster_metrics
-    }
-
-    with open(json_filename, "w") as f:
-        json.dump(final_data, f, indent=2)
     elapsed = time.time() - start_time
     logger.info(f"Summarization complete. {len(processed_queue)} briefs written to {md_filename} (Time: {elapsed:.1f}s)")
     
     send_email = str(os.getenv("SEND_EMAIL", "false")).lower() == "true"
     if send_email:
-        send_email_digest(final_html, date_str)
+        send_email_digest(summary_html, date_str)
         
     # Clear queue after successful processing
     with open(queue_path, "w") as f:

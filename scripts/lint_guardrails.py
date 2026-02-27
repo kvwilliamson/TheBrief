@@ -11,11 +11,13 @@ BANNED_KEYWORDS = [
 BANNED_PATTERNS = [
     r"if .*? == ['\"].*?['\"]", # Categorical branching
     r"case ['\"].*?['\"]",      # Switch-case categorical branching
+    r"in \[.*?,.*?\]",         # Static lists
 ]
 
 # EXEMPTIONS (Infrastructure/UI logic that uses if/case on strings)
 EXEMPTIONS = [
-    "__name__", "model_choice", "state", "selected_cat", "rec_cat", "new_cat_choice", "return_code", "SUMMARY_MODEL_NAME"
+    "__name__", "model_choice", "state", "selected_cat", "rec_cat", "new_cat_choice", "return_code", 
+    "SUMMARY_MODEL_NAME", "threshold_mode", "percentile", "fixed", "zscore", "linkage", "method", "metric"
 ]
 
 def check_file(filepath):

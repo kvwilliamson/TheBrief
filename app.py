@@ -70,16 +70,7 @@ def load_json_briefs(date_str):
     return None
 
 def load_meta_summary(date_str):
-    """Extraction of meta-summary from the markdown file if possible, or assume it's in a companion JSON."""
-    # For now, we'll try to find it in the markdown content since it's saved there
-    path = os.path.join("briefs", f"{date_str}.md")
-    if os.path.exists(path):
-        with open(path, "r") as f:
-            content = f.read()
-            if "## 🧠 Executive Meta Summary" in content:
-                parts = content.split("## 🧠 Executive Meta Summary")
-                summary = parts[1].split("## ")[0].strip()
-                return summary
+    """Obsolete: Meta-summaries are now sector-specific and stored in JSON."""
     return None
 
 def load_channels():
@@ -276,115 +267,74 @@ with tab1:
         if selected_brief:
             st.markdown(f"### 🗓️ Intelligence Dispatch: {selected_brief['date']}")
             
-            # Try to load high-fidelity JSON data for BKM metrics
+            # Load high-fidelity JSON data for sector-specific intelligence
             json_data = load_json_briefs(selected_brief['date'])
-            meta_summary = load_meta_summary(selected_brief['date'])
             
-            if meta_summary:
-                st.markdown(f"""
-                    <div style='background-color: #1a73e8; padding: 20px; border-radius: 10px; margin-bottom: 25px; color: #ffffff;'>
-                        <h3 style='margin-top: 0; color: #ffffff;'>🧠 Executive Meta Summary</h3>
-                        <p style='font-size: 1.1rem; line-height: 1.6;'>{meta_summary}</p>
-                    </div>
-                """, unsafe_allow_html=True)
-
             if json_data:
-                # Robustly handle both new dict format and legacy list format
-                if isinstance(json_data, dict):
-                    clusters_meta = json_data.get('clusters', [])
-                    briefs = json_data.get('briefs', [])
-                else:
-                    # Legacy list format
-                    clusters_meta = []
-                    briefs = json_data
+                category_intel = json_data.get('category_intelligence', {})
+                briefs = json_data.get('briefs', [])
                 
                 from collections import Counter, defaultdict
                 
-                # 1. Map Channels to Categories
-                channel_cat_map = {c['name']: c.get('category', 'Other') for c in st.session_state.channels}
-                
-                # 2. Assign Clusters to a Dominant Category
+                # 1. Assign Briefs to Clusters
                 briefs_by_cluster = defaultdict(list)
                 for b in briefs:
                     c_id = b.get('cluster_id', -1)
                     briefs_by_cluster[c_id].append(b)
                 
-                clusters_by_category = defaultdict(list)
-                if clusters_meta:
-                    for cluster in clusters_meta:
-                        c_id = cluster['id']
-                        cluster_briefs = briefs_by_cluster.get(c_id, [])
-                        if not cluster_briefs: continue
-                        
-                        # Determine dominant category for this cluster
-                        categories = [channel_cat_map.get(b['channel'], 'Other') for b in cluster_briefs]
-                        counts = Counter(categories)
-                        most_common = counts.most_common()
-                        
-                        # Handle mixed origins
-                        if len(most_common) > 1 and most_common[0][1] == most_common[1][1]:
-                            dominant_cat = "Macro / Multi-Sector"
-                        else:
-                            dominant_cat = most_common[0][0] if most_common else "Other"
-                        
-                        clusters_by_category[dominant_cat].append((cluster, cluster_briefs))
+                # 2. Extract Cluster Metadata (if available, else derive)
+                # Note: summarization.py no longer passes a global 'clusters' list, 
+                # instead it passes category_intelligence. 
+                # We group the enriched_briefs by category then by cluster.
+                briefs_by_category = defaultdict(lambda: defaultdict(list))
+                for b in briefs:
+                    cat = b.get('category', 'Other')
+                    c_id = b.get('cluster_id', -1)
+                    briefs_by_category[cat][c_id].append(b)
 
                 # 3. Render Categorized Radar
-                sorted_cats = sorted(clusters_by_category.keys())
-                if "Macro / Multi-Sector" in sorted_cats:
-                    sorted_cats.remove("Macro / Multi-Sector")
-                    sorted_cats.insert(0, "Macro / Multi-Sector")
+                sorted_cats = sorted(briefs_by_category.keys())
                 
                 for category in sorted_cats:
-                    st.markdown(f"### 📁 Sector: {category}")
-                    for cluster, cluster_briefs in clusters_by_category[category]:
-                        c_id = cluster['id']
-                        is_singleton = cluster.get('is_singleton', False)
-                        strength = cluster.get('strength', 0.0)
-                        coherence = cluster.get('coherence', 1.0)
-                        crowding_label = cluster.get('crowding_label', 'N/A')
-                        dominance_pct = cluster.get('dominance_pct', 0.0)
+                    intel = category_intel.get(category, {})
+                    meta_summary = intel.get('meta_summary', "")
+                    conv_score = intel.get('convergence_score', 0.0)
+                    
+                    st.markdown(f"## 📁 Sector: {category}")
+                    
+                    if meta_summary:
+                        st.markdown(f"""
+                            <div style='background-color: #1a73e8; padding: 15px; border-radius: 8px; margin-bottom: 20px; color: #ffffff;'>
+                                <h4 style='margin-top: 0; color: #ffffff; font-size: 1rem;'>🧠 Sector Intelligence Brief (Convergence: {conv_score:.2f})</h4>
+                                <p style='font-size: 0.95rem; line-height: 1.5;'>{meta_summary}</p>
+                            </div>
+                        """, unsafe_allow_html=True)
+                    elif conv_score > 0:
+                        st.caption(f"Narrative Convergence: {conv_score:.2f} (Below threshold for full meta-summary)")
+
+                    # Render Clusters in this Category
+                    cat_clusters = briefs_by_category[category]
+                    # Sort clusters by size
+                    sorted_cluster_ids = sorted(cat_clusters.keys(), key=lambda k: len(cat_clusters[k]), reverse=True)
+                    
+                    for c_id in sorted_cluster_ids:
+                        cluster_briefs = cat_clusters[c_id]
+                        if not cluster_briefs: continue
                         
-                        is_emergent = cluster.get('is_emergent', False)
-                        header_label = "📍 Isolated Signal" if is_singleton else f"📁 Convergence [{dominance_pct:.0f}%]"
-                        if is_emergent:
-                            header_label = f"🔥 EMERGING: {header_label}"
+                        # Since we don't have cluster metadata dictionary here anymore, we derive what we can
+                        # or we update summarization.py to include cluster metadata in category_intelligence.
+                        # For now, we use simple labels.
+                        is_singleton = len(cluster_briefs) == 1
+                        header_label = "📍 Isolated Signal" if is_singleton else "📁 Cluster Evidence"
                         
-                        with st.expander(f"{header_label}: {cluster.get('name', f'Cluster {c_id}')} ({len(cluster_briefs)} sources)", expanded=not is_singleton):
-                            bias = cluster.get('bias', 'neutral').upper()
-                            bias_map = {
-                                "CONSTRUCTIVE": {"color": "green", "label": "CONSTRUCTIVE"}, 
-                                "DEFENSIVE": {"color": "red", "label": "DEFENSIVE"}, 
-                                "COUNTER-CONSENSUS": {"color": "orange", "label": "COUNTER-CONSENSUS"}, 
-                                "NEUTRAL": {"color": "gray", "label": "NEUTRAL"}
-                            }
-                            style = bias_map.get(bias, bias_map["NEUTRAL"])
-                            
-                            c_cols = st.columns(5)
-                            with c_cols[0]:
-                                st.metric("Strength", f"{strength:.1f}")
-                            with c_cols[1]:
-                                st.metric("Coherence", f"{coherence:.2f}")
-                            with c_cols[2]:
-                                st.metric("Crowding", crowding_label)
-                            with c_cols[3]:
-                                channels_count = len(cluster.get('channels', []))
-                                st.metric("Convergence", f"{channels_count} Ch")
-                            with c_cols[4]:
-                                st.markdown(f"**Bias:** :{style['color']}[{style['label']}]")
-                            
-                            st.markdown(f"*{cluster.get('description', '')}*")
-                            st.divider()
-                            
+                        # Try to get a common label if it was stored in the brief (it wasn't previously, but we can update that)
+                        cluster_name = f"Narrative Group {c_id}" if c_id != -1 else "Unclustered"
+                        
+                        with st.expander(f"{header_label}: {cluster_name} ({len(cluster_briefs)} sources)", expanded=not is_singleton):
                             for brief in cluster_briefs:
                                 with st.container(border=True):
                                     render_brief_card(brief)
                     st.divider()
-                else:
-                    # Render all briefs normally if no cluster metadata
-                    for brief in briefs:
-                        with st.container(border=True):
-                            render_brief_card(brief)
             else:
                 # Fallback to plain markdown
                 st.warning("⚠️ High-fidelity structured data unavailable — rendering raw intelligence brief.")
