@@ -61,7 +61,7 @@ def get_next_percentile():
 
 # --- Architectural Constants ---
 SUMMARY_MODEL_NAME = "gemini-2.0-flash"
-EMBEDDING_MODEL_NAME = "text-embedding-004"
+EMBEDDING_MODEL_NAME = "models/embedding-001"
 GENAI_CLIENT = None
 CONFIG_PATH = "config.json"
 
