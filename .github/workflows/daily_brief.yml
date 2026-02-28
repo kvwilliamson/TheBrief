@@ -9,46 +9,59 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: write
+
+    services:
+      bgutil:
+        image: brainicism/bgutil-ytdlp-pot-provider:latest
+        ports:
+          - 4416:4416
+
     steps:
       - uses: actions/checkout@v4
-      
-      - name: Set up Node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version: '20'
 
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-          
+
       - name: Install dependencies
         run: |
           python3 -m pip install --upgrade pip
           sudo apt-get update && sudo apt-get install -y ffmpeg
           pip install -r requirements.txt
-          python3 -m pip install yt-dlp-get-pot bgutil-ytdlp-pot-provider
+          python3 -m pip install bgutil-ytdlp-pot-provider
           python3 -m pip install -U https://github.com/yt-dlp/yt-dlp/archive/master.tar.gz
           which ffmpeg
           ffmpeg -version | head -n 1
           which yt-dlp
           yt-dlp --version
-          
+
+      - name: Wait for bgutil provider
+        run: |
+          echo "Waiting for bgutil POT provider to be ready..."
+          for i in $(seq 1 15); do
+            if curl -sf http://127.0.0.1:4416/ > /dev/null 2>&1; then
+              echo "bgutil provider is ready!"
+              break
+            fi
+            echo "Attempt $i/15 - waiting 2s..."
+            sleep 2
+          done
+
       - name: Setup YouTube Cookies
         run: echo "${{ secrets.YOUTUBE_COOKIES }}" > cookies.txt
-          
+
       - name: Run pipeline
         run: python3 main.py
         env:
           YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           GOOGLE_AI_API_KEY: ${{ secrets.GOOGLE_AI_API_KEY }}
-          YTDLP_POT_PROVIDER: "bgutil"
-          
+
       - name: Cleanup YouTube Cookies
         if: always()
         run: rm -f cookies.txt
-          
+
       - name: Commit artifacts (Data db and Briefs)
         run: |
           git config --local user.email "action@github.com"

@@ -61,12 +61,23 @@ def extract_audio_for_video(video):
     ffmpeg_path = get_ffmpeg_path()
     
     import sys
+    
+    # Detect if bgutil HTTP server is available (e.g., in GitHub Actions with Docker service)
+    pot_extractor_args = "youtube:player_skip=webpage"
+    try:
+        import urllib.request
+        req = urllib.request.urlopen("http://127.0.0.1:4416/", timeout=2)
+        req.close()
+        # bgutil HTTP server is running, yt-dlp plugin will auto-discover it
+        logger.info("bgutil POT provider detected on port 4416")
+    except Exception:
+        pass  # No server available; rely on cookies or other auth
+    
     command = [
         sys.executable, "-m", "yt_dlp",
         "-f", "bestaudio/best",
         "--no-check-certificate",
         "--prefer-free-formats",
-        "--extractor-args", "youtube:get_pot",
         "-x",
         "--audio-format", "mp3",
         "--postprocessor-args", "-ar 16000 -ac 1",
@@ -74,6 +85,7 @@ def extract_audio_for_video(video):
         "--force-ipv4",
         "-o", output_template
     ]
+
 
     # Add cookies if cookies.txt exists
     if os.path.exists("cookies.txt"):
