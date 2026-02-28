@@ -22,16 +22,12 @@ jobs:
         with:
           python-version: '3.12'
           
-      - name: Install JS Runtime Dependencies
-        run: |
-          npm install -g phantomjs-prebuilt atob btoa
-
       - name: Install dependencies
         run: |
           python3 -m pip install --upgrade pip
           sudo apt-get update && sudo apt-get install -y ffmpeg
           pip install -r requirements.txt
-          python3 -m pip install yt-dlp-get-pot yt-dlp-getpot-jsi
+          python3 -m pip install yt-dlp-get-pot bgutil-ytdlp-pot-provider
           python3 -m pip install -U https://github.com/yt-dlp/yt-dlp/archive/master.tar.gz
           which ffmpeg
           ffmpeg -version | head -n 1
@@ -47,7 +43,7 @@ jobs:
           YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           GOOGLE_AI_API_KEY: ${{ secrets.GOOGLE_AI_API_KEY }}
-          YTDLP_POT_PROVIDER: "jsi"
+          YTDLP_POT_PROVIDER: "bgutil"
           
       - name: Cleanup YouTube Cookies
         if: always()
