@@ -203,7 +203,6 @@ def run_extraction():
     # Fail-safe: If we had a queue but got 0 results, error out
     if queue and not processed_queue:
         logger.error("CRITICAL: Extraction phase resulted in 0 audio files despite having a queue. Possible YouTube Bot Block.")
-        import sys
         sys.exit(1)
         
     return processed_queue
