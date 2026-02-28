@@ -98,6 +98,10 @@ def extract_audio_for_video(video):
         return video
 
     ffmpeg_path = get_ffmpeg_path()
+
+    # Detect node.js runtime for yt-dlp n-challenge solver
+    # yt-dlp 2026.x requires a JS runtime + remote solver script to bypass YouTube throttling
+    node_path = shutil.which("node") or "/opt/homebrew/bin/node" or "/usr/local/bin/node"
     
     command = [
         sys.executable, "-m", "yt_dlp",
@@ -109,6 +113,8 @@ def extract_audio_for_video(video):
         "--postprocessor-args", "-ar 16000 -ac 1",
         "--ffmpeg-location", ffmpeg_path,
         "--force-ipv4",
+        "--js-runtimes", f"node:{node_path}",
+        "--remote-components", "ejs:github",
         "-o", output_template
     ]
 
