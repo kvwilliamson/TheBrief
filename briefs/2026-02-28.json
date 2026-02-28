@@ -1,0 +1,1120 @@
+{
+  "date": "2026-02-28",
+  "briefs": [
+    {
+      "episode_title": "CLAUDE JUST GOT BANNED",
+      "channel": "Wes Roth",
+      "duration_minutes": 28,
+      "podcast_date": "2026-02-28",
+      "processing_date": "2026-02-28",
+      "one_line_summary": "The U.S. government banned Anthropic's technology use within federal agencies due to a disagreement over military application oversight.",
+      "core_claims": [
+        "The U.S. government is ceasing all use of Anthropic's technology effective immediately.",
+        "A six-month phase-out period will be provided to agencies like the Department of War currently using Anthropic's products.",
+        "The U.S. government will not conduct further business with Anthropic.",
+        "Defense contractors are assessing their exposure to Anthropic technology for potential supply chain disruption."
+      ],
+      "signal_strength": 9,
+      "themes": [
+        "ai policy",
+        "government regulation",
+        "national security",
+        "techlash",
+        "military ai"
+      ],
+      "positioning_implication": "Assess vendor dependencies and diversify technology sourcing to mitigate risks associated with policy conflicts. Prepare for accelerated AI governance across federal contracts.",
+      "time_horizon": "short",
+      "shelf_life": "Medium",
+      "thumbnail": "https://i.ytimg.com/vi/iR_b09xcDjs/hqdefault.jpg",
+      "video_url": "https://www.youtube.com/watch?v=iR_b09xcDjs",
+      "cluster_id": 2,
+      "category": "Artificial Intelligence"
+    },
+    {
+      "episode_title": "The Government just blacklisted Anthropic...",
+      "channel": "Matthew Berman",
+      "duration_minutes": 21,
+      "podcast_date": "2026-02-28",
+      "processing_date": "2026-02-28",
+      "one_line_summary": "The Department of War threatens Anthropic with blacklisting if it does not remove guardrails from its AI models.",
+      "core_claims": [
+        "The Department of War gave Anthropic an ultimatum to remove all guardrails from their models or be blacklisted.",
+        "Anthropic has a $200 million contract with the Department of Defense and was the first AI lab to integrate its models into mission workflows on classified networks.",
+        "The Pentagon demands lawful AI use without constraints, threatening Anthropic's business.",
+        "Anthropic has drawn a line in the sand regarding using AI for mass surveillance against the American people and developing fully autonomous weapons with no human in the loop.",
+        "Pentagon is threatening to categorize Anthropic as a supply chain risk and prohibit other vendors from using their products, as well as canceling their $200 million contract.",
+        "The President can invoke the Defense Production Act to compel Anthropic to provide its model without any restrictions."
+      ],
+      "signal_strength": 9,
+      "themes": [
+        "ai",
+        "government",
+        "defense",
+        "ethics",
+        "regulation",
+        "contracts"
+      ],
+      "positioning_implication": "Assess the ethical and economic risks of AI partnerships with government entities.",
+      "time_horizon": "short",
+      "shelf_life": "Short",
+      "thumbnail": "https://i.ytimg.com/vi/rgqxrw26twA/hqdefault.jpg",
+      "video_url": "https://www.youtube.com/watch?v=rgqxrw26twA",
+      "cluster_id": 1,
+      "category": "Artificial Intelligence"
+    },
+    {
+      "episode_title": "Iran Strike Begins: Which Assets Will \u2018Break Loose\u2019 Next? | Clem Chambers",
+      "channel": "David Lin",
+      "duration_minutes": 59,
+      "podcast_date": "2026-02-28",
+      "processing_date": "2026-02-28",
+      "one_line_summary": "AI-driven inflation, exacerbated geopolitical tensions, and market shifts necessitate a reevaluation of investment strategies.",
+      "core_claims": [
+        "AI boom will drive elevated inflation, not runaway inflation.",
+        "Money is flowing to AI build-out, requiring more printed money to keep others afloat, increasing inflationary pressure.",
+        "Anybody that can fix an air conditioning unit, or wire some cables up, or hang from a power cable or whatever or put up steel sheds, they're going to be making so much money."
+      ],
+      "signal_strength": 9,
+      "themes": [
+        "macroeconomics",
+        "inflation",
+        "AI",
+        "geopolitics",
+        "investing"
+      ],
+      "positioning_implication": "Shift investment focus towards commodities, strategic minerals, and infrastructure supporting AI deployment, recognizing geopolitical instability as a key market driver.",
+      "time_horizon": "medium",
+      "shelf_life": "Medium",
+      "thumbnail": "https://i.ytimg.com/vi/cG8mQE5XWg8/hqdefault.jpg",
+      "video_url": "https://www.youtube.com/watch?v=cG8mQE5XWg8",
+      "cluster_id": 0,
+      "category": "General Financial Investing and Speculation"
+    },
+    {
+      "episode_title": "Inflation Surges, Market Technicals Remain Strongly Bearish, Here Are The Trade",
+      "channel": "Verified Investing",
+      "duration_minutes": 23,
+      "podcast_date": "2026-02-28",
+      "processing_date": "2026-02-28",
+      "one_line_summary": "Inflation data impacts market technicals indicating a bearish trend with specific S&P and NASDAQ levels to watch for potential breakdowns.",
+      "core_claims": [
+        "Year-over-year PPI came in at 2.9% versus 2.6% forecast.",
+        "Month-over-month PPI came in at 0.5% versus 0.3% forecast.",
+        "Core PPI came in at 3.6% versus 3% forecast.",
+        "Core PPI month-over-month came in at 0.8% versus 0.3% forecast.",
+        "S&P 500 showing a head and shoulders pattern, bearish breakout at 6790 targeting 6500.",
+        "NASDAQ midpoint of parallel target by mid-year is $20,000."
+      ],
+      "signal_strength": 8,
+      "themes": [
+        "inflation",
+        "market technicals",
+        "bearish trend",
+        "economic indicators",
+        "AI impact",
+        "sector analysis"
+      ],
+      "positioning_implication": "Reduce equity exposure; monitor S&P 500 6790 level for downside confirmation and NASDAQ $20,000 target.",
+      "time_horizon": "medium",
+      "shelf_life": "Medium",
+      "thumbnail": "https://i.ytimg.com/vi/gm3egOi8u90/hqdefault.jpg",
+      "video_url": "https://www.youtube.com/watch?v=gm3egOi8u90",
+      "cluster_id": 1,
+      "category": "General Financial Investing and Speculation"
+    },
+    {
+      "episode_title": "Are Mass Layoffs Starting? 'Global Intelligence Crisis' Explained  | Daniel Marin",
+      "channel": "David Lin",
+      "duration_minutes": 51,
+      "podcast_date": "2026-02-28",
+      "processing_date": "2026-02-28",
+      "one_line_summary": "The crypto space is searching for its soul, reassessing token valuation amid strong adoption signals and broader economic shifts.",
+      "core_claims": [
+        "Crypto adoption and thesis strength are at a peak despite Bitcoin's 50% drop from its all-time high.",
+        "Capital isn't rotating into Bitcoin, but potentially into other crypto projects as Nasdaq diverges.",
+        "AI agents are poised to optimize commerce, potentially overlapping blockchain's initial goals by reducing trade friction.",
+        "Breaking RSA encryption with quantum computers is projected within 10 years, manageable by increasing encryption key sizes, but potentially catastrophic for Bitcoin due to its upgrade inflexibility.",
+        "Nexus launched the $EUSDx stablecoin, making it one of the first layer-one blockchains to have a native stablecoin."
+      ],
+      "signal_strength": 7,
+      "themes": [
+        "crypto",
+        "ai",
+        "investment",
+        "blockchain",
+        "economics",
+        "technology",
+        "valuation",
+        "security"
+      ],
+      "positioning_implication": "Assess the sustainability of crypto investments based on fundamentals, considering the impact of AI on blockchain's original utility. Monitor developments in quantum computing to anticipate future security risks.",
+      "time_horizon": "medium",
+      "shelf_life": "Medium",
+      "thumbnail": "https://i.ytimg.com/vi/dax6N4qCdes/hqdefault.jpg",
+      "video_url": "https://www.youtube.com/watch?v=dax6N4qCdes",
+      "cluster_id": 4,
+      "category": "General Financial Investing and Speculation"
+    },
+    {
+      "episode_title": "URGENT: Silver Price SKYROCKETING! Here's What You NEED to Know!",
+      "channel": "Wall Street Bullion",
+      "duration_minutes": 33,
+      "podcast_date": "2026-02-28",
+      "processing_date": "2024-03-08",
+      "one_line_summary": "Increased physical demand for precious metals, particularly silver, may lead to shortages and potential Comex default, triggering financial instability.",
+      "core_claims": [
+        "Silver price is projected to reach $150 by January next year.",
+        "Gold price is projected to reach $7500 by the end of January next year.",
+        "Massive demand for physical delivery, especially for silver, is occurring.",
+        "Comex faces potential default due to silver deliveries, possibly triggering a credit market freeze.",
+        "Chinese may trigger a COMEX default to undermine US financial system."
+      ],
+      "signal_strength": 9,
+      "themes": [
+        "precious metals",
+        "silver",
+        "gold",
+        "economic crisis",
+        "financial war",
+        "geopolitics",
+        "comex default",
+        "supply chain",
+        "inflation"
+      ],
+      "positioning_implication": "Shift portfolio allocation towards physical precious metals to hedge against potential economic instability and currency devaluation; prioritize physical possession over paper assets.",
+      "time_horizon": "short",
+      "shelf_life": "Short",
+      "thumbnail": "https://i.ytimg.com/vi/ImtoxjDl2Ts/hqdefault.jpg",
+      "video_url": "https://www.youtube.com/watch?v=ImtoxjDl2Ts",
+      "cluster_id": 0,
+      "category": "Precious Metals"
+    },
+    {
+      "episode_title": "\ud83d\udea8SILVER ALERT! - BIG News on COMEX, Big Banks and INDIA! - (China, Jane Street & Gold Price too)",
+      "channel": "Rons Basement",
+      "duration_minutes": 53,
+      "podcast_date": "2026-02-28",
+      "processing_date": "2024-03-01",
+      "one_line_summary": "Citigroup forecasts silver at $150 within three months, driven by physical and speculative demand, while India shifts valuation methods away from LBMA benchmarks and enables silver monetization.",
+      "core_claims": [
+        "Citigroup expects spot silver to hit $150 per ounce in three months.",
+        "India's market regulator mandates mutual funds and ETFs to value physical gold and silver holdings using domestic spot prices, effective April 1st.",
+        "The Reserve Bank of India affirms silver's full monetization via lending against gold and silver collateral, effective April 1st, allowing loans secured by silver.",
+        "Stock funds in India can invest up to 35% of their assets in gold and silver instruments.",
+        "Shanghai Gold Exchange has spot prices over $100/oz and healthy contango, compared to lower Comex prices and backwardation signals.",
+        "Registered vaults are scraping by at 86 to 87 million ounces."
+      ],
+      "signal_strength": 9,
+      "themes": [
+        "silver price forecast",
+        "indian market regulation",
+        "gold silver ratio",
+        "comex manipulation",
+        "monetary policy",
+        "physical demand"
+      ],
+      "positioning_implication": "Anticipate short-term silver price appreciation, particularly in response to Indian policy shifts; hedge against dollar devaluation, focusing on assets in jurisdictions with high physical demand and transparent pricing.",
+      "time_horizon": "short",
+      "shelf_life": "Medium",
+      "thumbnail": "https://i.ytimg.com/vi/qFBkinUimSo/hqdefault.jpg",
+      "video_url": "https://www.youtube.com/watch?v=qFBkinUimSo",
+      "cluster_id": 0,
+      "category": "Precious Metals"
+    },
+    {
+      "episode_title": "What Does AI Mean For Higher Ed? | Office Hours",
+      "channel": "The Prof G Pod \u2013 Scott Galloway",
+      "duration_minutes": 29,
+      "podcast_date": "2026-02-28",
+      "processing_date": "2024-04-25",
+      "one_line_summary": "Despite AI's rise, college remains valuable for networking, personal development, and signaling capabilities.",
+      "core_claims": [
+        "College graduates earn ~66% more per week than high school graduates.",
+        "College provides access to a higher-level 'gene pool foam', improving peer networks.",
+        "Losing a male role model significantly increases a boy's risk of incarceration, suicide, and substance abuse.",
+        "Current higher education is corrupt and raising tuition faster than inflation."
+      ],
+      "signal_strength": 7,
+      "themes": [
+        "higher education",
+        "ai disruption",
+        "parenting",
+        "relationships",
+        "career",
+        "economics"
+      ],
+      "positioning_implication": "Assess the holistic value of higher education beyond knowledge acquisition, focusing on networking and personal growth. Prioritize actions to maintain or improve access to quality higher education.",
+      "time_horizon": "medium",
+      "shelf_life": "Medium",
+      "thumbnail": "https://i.ytimg.com/vi/mdSPRuXLcyk/hqdefault.jpg",
+      "video_url": "https://www.youtube.com/watch?v=mdSPRuXLcyk",
+      "cluster_id": 0,
+      "category": "General Financial Investing and Speculation"
+    },
+    {
+      "episode_title": "Friday 27th February 2026.  Silver continues rising despite tchnical glitch on wednesday evening.",
+      "channel": "Clive Thompson",
+      "duration_minutes": 20,
+      "podcast_date": "2026-02-28",
+      "processing_date": "2024-01-26",
+      "one_line_summary": "Silver prices are rising amidst market volatility and a technical glitch on the CME, leading to allegations of market manipulation.",
+      "core_claims": [
+        "Dow Jones is down 1.33% at 48,838.",
+        "Nasdaq is down 0.72% and S&P is down 0.63%.",
+        "Gold is trading at $5,233, up $49 or 0.95%.",
+        "Silver is at $92.21, up 4.5%.",
+        "Shanghai silver price trades significantly higher at $105.76 compared to New York's $92.35.",
+        "22.7 million ounces of silver have been notified for delivery out of 31 million remaining open interest."
+      ],
+      "signal_strength": 7,
+      "themes": [
+        "market analysis",
+        "silver",
+        "gold",
+        "cme",
+        "market manipulation",
+        "technical glitch"
+      ],
+      "positioning_implication": "Heightened volatility suggests potential for short-term gains in precious metals; however, counterparty risk may be elevated.  Monitor regulatory actions in response to the glitch.",
+      "time_horizon": "short",
+      "shelf_life": "Medium",
+      "thumbnail": "https://i.ytimg.com/vi/ifnHh_Wa8_k/hqdefault.jpg",
+      "video_url": "https://www.youtube.com/watch?v=ifnHh_Wa8_k",
+      "cluster_id": 3,
+      "category": "General Financial Investing and Speculation"
+    },
+    {
+      "episode_title": "INFLATION SHOCKER: AI Takes Jobs as the Market Collapses! \ud83d\udea8",
+      "channel": "Verified Investing",
+      "duration_minutes": 25,
+      "podcast_date": "2026-02-28",
+      "processing_date": "2024-03-01",
+      "one_line_summary": "Inflation data surges unexpectedly, pressuring markets while AI-driven layoffs signal economic shift.",
+      "core_claims": [
+        "Producer Price Index (PPI) year-over-year at 2.9% vs. expectations of 2.6%.",
+        "PPI month-over-month at +0.5% vs. expectations of 0.3%.",
+        "Block (XYZ) is laying off 50% of employees due to AI adoption.",
+        "Nvidia selling off 5.5% despite good earnings and raised guidance.",
+        "Duolingo presents a potential swing trade opportunity.",
+        "Dell's level at 142.45 may present a short day trade opportunity.",
+        "Silver could squeeze to 100.",
+        "Nvidia's target by mid-year is $150."
+      ],
+      "signal_strength": 9,
+      "themes": [
+        "inflation",
+        "ai",
+        "layoffs",
+        "market analysis",
+        "technical analysis",
+        "trading strategies",
+        "stagflation"
+      ],
+      "positioning_implication": "De-risk equity exposure and re-evaluate sector allocations given inflationary pressures and technological labor displacement. Consider short-term swing trades in oversold sectors.",
+      "time_horizon": "short",
+      "shelf_life": "Medium",
+      "thumbnail": "https://i.ytimg.com/vi/vWjCA6DSwVY/hqdefault.jpg",
+      "video_url": "https://www.youtube.com/watch?v=vWjCA6DSwVY",
+      "cluster_id": 1,
+      "category": "General Financial Investing and Speculation"
+    },
+    {
+      "episode_title": "'Prompting' Just Split Into 4 Skills. You Only Know One. Here's Why You Need the Other 3 in 2026.",
+      "channel": "AI News & Strategy Daily | Nate B Jones",
+      "duration_minutes": 36,
+      "podcast_date": "2026-02-28",
+      "processing_date": "2024-05-09",
+      "one_line_summary": "Prompting has evolved into four distinct skill sets, requiring a shift from chat-based interaction to a full-stack approach for autonomous AI models in 2026.",
+      "core_claims": [
+        "Chat-based prompting is becoming functionally obsolete for serious work due to the rise of autonomous agent capabilities.",
+        "The word 'prompting' now encompasses four different skill sets: prompt craft, context engineering, intent engineering, and specification engineering.",
+        "The gap between individuals who understand all four prompting skills and those who don't is widening exponentially.",
+        "Agents are running into the hundreds and thousands in production systems at major companies.",
+        "Good context engineering would surface disagreements about assumptions that are never surfaced explicitly, but play out as politics and grudges in large companies."
+      ],
+      "signal_strength": 9,
+      "themes": [
+        "prompt engineering",
+        "autonomous agents",
+        "context engineering",
+        "intent engineering",
+        "specification engineering",
+        "ai skillsets",
+        "future of work"
+      ],
+      "positioning_implication": "Prioritize developing a full-stack prompting skillset, including context, intent, and specification engineering, to effectively leverage autonomous AI agents. Organizations should assess and adapt their AI training to reflect this shift.",
+      "time_horizon": "medium",
+      "shelf_life": "Medium",
+      "thumbnail": "https://i.ytimg.com/vi/BpibZSMGtdY/hqdefault.jpg",
+      "video_url": "https://www.youtube.com/watch?v=BpibZSMGtdY",
+      "cluster_id": 0,
+      "category": "Artificial Intelligence"
+    },
+    {
+      "episode_title": "UBS Describes What Has Them So Excited About Gold Miners",
+      "channel": "Arcadia Economics",
+      "duration_minutes": 25,
+      "podcast_date": "2026-02-28",
+      "processing_date": "2024-04-03",
+      "one_line_summary": "UBS analysts see a structural bull cycle re-engaging in gold miners driven by sustained demand, improved fundamentals, and controlled costs, while cartel fragmentation in Mexico threatens silver supply chains.",
+      "core_claims": [
+        "UBS sees bullion trending towards $5900 driven by central bank buying, ETF inflows, and easing real rates.",
+        "Miners are generating stronger cash flow, reducing leverage, and exercising capital discipline with expanding margins due to stable input costs.",
+        "Mexico's silver heartland is colliding with cartel fragmentation, rising extortion costs, and geopolitical pressure, disrupting supply chains.",
+        "Cartel violence and fragmentation intensify across Mexico's primary mining belts, raising costs and suspending operations.",
+        "As long as gold remains above $4500, JP Morgan stands by its thesis.",
+        "Gold futures are losing validity due to delayed deliveries, driving traders to GLD and SLV."
+      ],
+      "signal_strength": 8,
+      "themes": [
+        "gold",
+        "silver",
+        "mining",
+        "cartels",
+        "supply chain",
+        "economics",
+        "commodities"
+      ],
+      "positioning_implication": "Monitor geopolitical risks impacting precious metal supply chains and consider miners poised to benefit from a sustained bull market.",
+      "time_horizon": "medium",
+      "shelf_life": "Medium",
+      "thumbnail": "https://i.ytimg.com/vi/WtLe8x3t5Rg/hqdefault.jpg",
+      "video_url": "https://www.youtube.com/watch?v=WtLe8x3t5Rg",
+      "cluster_id": 1,
+      "category": "Precious Metals"
+    },
+    {
+      "episode_title": "AI and the Coming Deluge of Noise | Frankly 128",
+      "channel": "Nate Hagens",
+      "duration_minutes": 41,
+      "podcast_date": "2026-02-28",
+      "processing_date": "2026-02-28",
+      "one_line_summary": "AI-driven content explosion risks overwhelming individual agency and discernment, mirroring the nutrient-deficient food system.",
+      "core_claims": [
+        "AI is set to amplify information at a rate that drowns out genuine signal, leaving individuals disoriented.",
+        "The sheer increase in content from AI will overshadow the increase in actual, valuable knowledge.",
+        "Cheap AI content, engineered for engagement, will compete with thoughtful, accurate information, resembling addictive ultra-processed foods.",
+        "The scarcity will shift from content creation to authenticity, judgment, and discerning truth.",
+        "Cognitive GLP-1, originating from AI companies, may become necessary to manage information overload, like pharmaceutical appetite suppressants.",
+        "Three key questions (Is it true? Is it relevant? Is it useful?) serve as filters before consuming content."
+      ],
+      "signal_strength": 8,
+      "themes": [
+        "ai",
+        "information overload",
+        "cognitive health",
+        "authenticity",
+        "media",
+        "critical thinking"
+      ],
+      "positioning_implication": "Prioritize cognitive discipline and critical discernment to combat AI-driven information overload; cultivate personal filters for assessing truth, relevance, and usefulness.",
+      "time_horizon": "medium",
+      "shelf_life": "Medium",
+      "thumbnail": "https://i.ytimg.com/vi/Ucgyd5ML0j4/hqdefault.jpg",
+      "video_url": "https://www.youtube.com/watch?v=Ucgyd5ML0j4",
+      "cluster_id": 0,
+      "category": "Philosophy and Thoughtfulness"
+    },
+    {
+      "episode_title": "Prediction Markets vs. Gambling: Where\u2019s the Line? | Prof G Markets",
+      "channel": "The Prof G Pod \u2013 Scott Galloway",
+      "duration_minutes": 30,
+      "podcast_date": "2026-02-28",
+      "processing_date": "2026-02-28",
+      "one_line_summary": "This episode explores the distinction between prediction markets and gambling, focusing on potential addiction risks and regulatory challenges.",
+      "core_claims": [
+        "American's are getting 30 additional minutes of sleep per day, on average, compared to two decades ago.",
+        "Calshi experienced revenue growth of approximately 1,000%.",
+        "Calshi's platform volume increased from $280 million to $2.3 billion.",
+        "Calshi recently raised a billion dollars at an $11 billion valuation.",
+        "The most active traders in prediction markets spend considerable time modeling and forecasting, often using sophisticated methods.",
+        "Prediction markets incentivize truth and objectivity, which is a good thing for society."
+      ],
+      "signal_strength": 7,
+      "themes": [
+        "prediction markets",
+        "gambling",
+        "regulation",
+        "technology",
+        "financial markets",
+        "addiction",
+        "risk management"
+      ],
+      "positioning_implication": "Evaluate the ethical and societal impacts of prediction markets amidst debates on gamification and regulation.",
+      "time_horizon": "medium",
+      "shelf_life": "Medium",
+      "thumbnail": "https://i.ytimg.com/vi/J31lDCBRZgg/hqdefault.jpg",
+      "video_url": "https://www.youtube.com/watch?v=J31lDCBRZgg",
+      "cluster_id": 2,
+      "category": "General Financial Investing and Speculation"
+    }
+  ],
+  "category_intelligence": {
+    "Artificial Intelligence": {
+      "name": "Artificial Intelligence",
+      "meta_summary": "",
+      "convergence_score": 0.0,
+      "percentile": 0.0,
+      "regime_state": "Neutral",
+      "clusters": [
+        {
+          "id": 2,
+          "name": "AI Techlash Intensifying Against Government Use",
+          "description": "The U.S. government's ban on Anthropic's technology signals escalating tensions over AI military applications and government oversight.",
+          "bias": "defensive",
+          "regime": "Emerging",
+          "size": 1,
+          "strength": 1.0,
+          "coherence": 1.0,
+          "channels": [
+            "Wes Roth"
+          ],
+          "avg_signal": 9.0,
+          "briefs": [
+            {
+              "episode_title": "CLAUDE JUST GOT BANNED",
+              "channel": "Wes Roth",
+              "duration_minutes": 28,
+              "podcast_date": "2026-02-28",
+              "processing_date": "2026-02-28",
+              "one_line_summary": "The U.S. government banned Anthropic's technology use within federal agencies due to a disagreement over military application oversight.",
+              "core_claims": [
+                "The U.S. government is ceasing all use of Anthropic's technology effective immediately.",
+                "A six-month phase-out period will be provided to agencies like the Department of War currently using Anthropic's products.",
+                "The U.S. government will not conduct further business with Anthropic.",
+                "Defense contractors are assessing their exposure to Anthropic technology for potential supply chain disruption."
+              ],
+              "signal_strength": 9,
+              "themes": [
+                "ai policy",
+                "government regulation",
+                "national security",
+                "techlash",
+                "military ai"
+              ],
+              "positioning_implication": "Assess vendor dependencies and diversify technology sourcing to mitigate risks associated with policy conflicts. Prepare for accelerated AI governance across federal contracts.",
+              "time_horizon": "short",
+              "shelf_life": "Medium",
+              "thumbnail": "https://i.ytimg.com/vi/iR_b09xcDjs/hqdefault.jpg",
+              "video_url": "https://www.youtube.com/watch?v=iR_b09xcDjs",
+              "cluster_id": 2,
+              "category": "Artificial Intelligence"
+            }
+          ]
+        },
+        {
+          "id": 1,
+          "name": "Defense Department Intensifying AI Regulation Pressure",
+          "description": "The Department of War's threat to blacklist Anthropic signals escalating government intervention in AI model development and ethical guardrails.",
+          "bias": "defensive",
+          "regime": "Emerging",
+          "size": 1,
+          "strength": 1.0,
+          "coherence": 1.0,
+          "channels": [
+            "Matthew Berman"
+          ],
+          "avg_signal": 9.0,
+          "briefs": [
+            {
+              "episode_title": "The Government just blacklisted Anthropic...",
+              "channel": "Matthew Berman",
+              "duration_minutes": 21,
+              "podcast_date": "2026-02-28",
+              "processing_date": "2026-02-28",
+              "one_line_summary": "The Department of War threatens Anthropic with blacklisting if it does not remove guardrails from its AI models.",
+              "core_claims": [
+                "The Department of War gave Anthropic an ultimatum to remove all guardrails from their models or be blacklisted.",
+                "Anthropic has a $200 million contract with the Department of Defense and was the first AI lab to integrate its models into mission workflows on classified networks.",
+                "The Pentagon demands lawful AI use without constraints, threatening Anthropic's business.",
+                "Anthropic has drawn a line in the sand regarding using AI for mass surveillance against the American people and developing fully autonomous weapons with no human in the loop.",
+                "Pentagon is threatening to categorize Anthropic as a supply chain risk and prohibit other vendors from using their products, as well as canceling their $200 million contract.",
+                "The President can invoke the Defense Production Act to compel Anthropic to provide its model without any restrictions."
+              ],
+              "signal_strength": 9,
+              "themes": [
+                "ai",
+                "government",
+                "defense",
+                "ethics",
+                "regulation",
+                "contracts"
+              ],
+              "positioning_implication": "Assess the ethical and economic risks of AI partnerships with government entities.",
+              "time_horizon": "short",
+              "shelf_life": "Short",
+              "thumbnail": "https://i.ytimg.com/vi/rgqxrw26twA/hqdefault.jpg",
+              "video_url": "https://www.youtube.com/watch?v=rgqxrw26twA",
+              "cluster_id": 1,
+              "category": "Artificial Intelligence"
+            }
+          ]
+        },
+        {
+          "id": 0,
+          "name": "Prompt Engineering Skillsets Converging",
+          "description": "Prompt engineering is evolving into distinct specializations to meet the demands of increasingly autonomous AI agents.",
+          "bias": "neutral",
+          "regime": "Emerging",
+          "size": 1,
+          "strength": 1.0,
+          "coherence": 1.0,
+          "channels": [
+            "AI News & Strategy Daily | Nate B Jones"
+          ],
+          "avg_signal": 9.0,
+          "briefs": [
+            {
+              "episode_title": "'Prompting' Just Split Into 4 Skills. You Only Know One. Here's Why You Need the Other 3 in 2026.",
+              "channel": "AI News & Strategy Daily | Nate B Jones",
+              "duration_minutes": 36,
+              "podcast_date": "2026-02-28",
+              "processing_date": "2024-05-09",
+              "one_line_summary": "Prompting has evolved into four distinct skill sets, requiring a shift from chat-based interaction to a full-stack approach for autonomous AI models in 2026.",
+              "core_claims": [
+                "Chat-based prompting is becoming functionally obsolete for serious work due to the rise of autonomous agent capabilities.",
+                "The word 'prompting' now encompasses four different skill sets: prompt craft, context engineering, intent engineering, and specification engineering.",
+                "The gap between individuals who understand all four prompting skills and those who don't is widening exponentially.",
+                "Agents are running into the hundreds and thousands in production systems at major companies.",
+                "Good context engineering would surface disagreements about assumptions that are never surfaced explicitly, but play out as politics and grudges in large companies."
+              ],
+              "signal_strength": 9,
+              "themes": [
+                "prompt engineering",
+                "autonomous agents",
+                "context engineering",
+                "intent engineering",
+                "specification engineering",
+                "ai skillsets",
+                "future of work"
+              ],
+              "positioning_implication": "Prioritize developing a full-stack prompting skillset, including context, intent, and specification engineering, to effectively leverage autonomous AI agents. Organizations should assess and adapt their AI training to reflect this shift.",
+              "time_horizon": "medium",
+              "shelf_life": "Medium",
+              "thumbnail": "https://i.ytimg.com/vi/BpibZSMGtdY/hqdefault.jpg",
+              "video_url": "https://www.youtube.com/watch?v=BpibZSMGtdY",
+              "cluster_id": 0,
+              "category": "Artificial Intelligence"
+            }
+          ]
+        }
+      ],
+      "should_generate": false
+    },
+    "General Financial Investing and Speculation": {
+      "name": "General Financial Investing and Speculation",
+      "meta_summary": "",
+      "convergence_score": 0.0,
+      "percentile": 0.0,
+      "regime_state": "Neutral",
+      "clusters": [
+        {
+          "id": 0,
+          "name": "AI Geopolitics Intensifying Investment Reevaluation",
+          "description": "AI-driven inflation and geopolitical tensions are forcing a reassessment of investment strategies, even as college retains value.",
+          "bias": "neutral",
+          "regime": "Accelerating",
+          "size": 2,
+          "strength": 1.3449297601974455,
+          "coherence": 0.6724648800987227,
+          "channels": [
+            "The Prof G Pod \u2013 Scott Galloway",
+            "David Lin"
+          ],
+          "avg_signal": 8.0,
+          "briefs": [
+            {
+              "episode_title": "Iran Strike Begins: Which Assets Will \u2018Break Loose\u2019 Next? | Clem Chambers",
+              "channel": "David Lin",
+              "duration_minutes": 59,
+              "podcast_date": "2026-02-28",
+              "processing_date": "2026-02-28",
+              "one_line_summary": "AI-driven inflation, exacerbated geopolitical tensions, and market shifts necessitate a reevaluation of investment strategies.",
+              "core_claims": [
+                "AI boom will drive elevated inflation, not runaway inflation.",
+                "Money is flowing to AI build-out, requiring more printed money to keep others afloat, increasing inflationary pressure.",
+                "Anybody that can fix an air conditioning unit, or wire some cables up, or hang from a power cable or whatever or put up steel sheds, they're going to be making so much money."
+              ],
+              "signal_strength": 9,
+              "themes": [
+                "macroeconomics",
+                "inflation",
+                "AI",
+                "geopolitics",
+                "investing"
+              ],
+              "positioning_implication": "Shift investment focus towards commodities, strategic minerals, and infrastructure supporting AI deployment, recognizing geopolitical instability as a key market driver.",
+              "time_horizon": "medium",
+              "shelf_life": "Medium",
+              "thumbnail": "https://i.ytimg.com/vi/cG8mQE5XWg8/hqdefault.jpg",
+              "video_url": "https://www.youtube.com/watch?v=cG8mQE5XWg8",
+              "cluster_id": 0,
+              "category": "General Financial Investing and Speculation"
+            },
+            {
+              "episode_title": "What Does AI Mean For Higher Ed? | Office Hours",
+              "channel": "The Prof G Pod \u2013 Scott Galloway",
+              "duration_minutes": 29,
+              "podcast_date": "2026-02-28",
+              "processing_date": "2024-04-25",
+              "one_line_summary": "Despite AI's rise, college remains valuable for networking, personal development, and signaling capabilities.",
+              "core_claims": [
+                "College graduates earn ~66% more per week than high school graduates.",
+                "College provides access to a higher-level 'gene pool foam', improving peer networks.",
+                "Losing a male role model significantly increases a boy's risk of incarceration, suicide, and substance abuse.",
+                "Current higher education is corrupt and raising tuition faster than inflation."
+              ],
+              "signal_strength": 7,
+              "themes": [
+                "higher education",
+                "ai disruption",
+                "parenting",
+                "relationships",
+                "career",
+                "economics"
+              ],
+              "positioning_implication": "Assess the holistic value of higher education beyond knowledge acquisition, focusing on networking and personal growth. Prioritize actions to maintain or improve access to quality higher education.",
+              "time_horizon": "medium",
+              "shelf_life": "Medium",
+              "thumbnail": "https://i.ytimg.com/vi/mdSPRuXLcyk/hqdefault.jpg",
+              "video_url": "https://www.youtube.com/watch?v=mdSPRuXLcyk",
+              "cluster_id": 0,
+              "category": "General Financial Investing and Speculation"
+            }
+          ]
+        },
+        {
+          "id": 1,
+          "name": "Inflation Intensifying Bearish Market Pressure",
+          "description": "Unexpected inflation data and AI-driven layoffs intensify bearish pressure on market technicals, signaling potential economic shifts.",
+          "bias": "defensive",
+          "regime": "Accelerating",
+          "size": 2,
+          "strength": 1.5164713459020562,
+          "coherence": 0.7582356729510281,
+          "channels": [
+            "Verified Investing"
+          ],
+          "avg_signal": 8.5,
+          "briefs": [
+            {
+              "episode_title": "Inflation Surges, Market Technicals Remain Strongly Bearish, Here Are The Trade",
+              "channel": "Verified Investing",
+              "duration_minutes": 23,
+              "podcast_date": "2026-02-28",
+              "processing_date": "2026-02-28",
+              "one_line_summary": "Inflation data impacts market technicals indicating a bearish trend with specific S&P and NASDAQ levels to watch for potential breakdowns.",
+              "core_claims": [
+                "Year-over-year PPI came in at 2.9% versus 2.6% forecast.",
+                "Month-over-month PPI came in at 0.5% versus 0.3% forecast.",
+                "Core PPI came in at 3.6% versus 3% forecast.",
+                "Core PPI month-over-month came in at 0.8% versus 0.3% forecast.",
+                "S&P 500 showing a head and shoulders pattern, bearish breakout at 6790 targeting 6500.",
+                "NASDAQ midpoint of parallel target by mid-year is $20,000."
+              ],
+              "signal_strength": 8,
+              "themes": [
+                "inflation",
+                "market technicals",
+                "bearish trend",
+                "economic indicators",
+                "AI impact",
+                "sector analysis"
+              ],
+              "positioning_implication": "Reduce equity exposure; monitor S&P 500 6790 level for downside confirmation and NASDAQ $20,000 target.",
+              "time_horizon": "medium",
+              "shelf_life": "Medium",
+              "thumbnail": "https://i.ytimg.com/vi/gm3egOi8u90/hqdefault.jpg",
+              "video_url": "https://www.youtube.com/watch?v=gm3egOi8u90",
+              "cluster_id": 1,
+              "category": "General Financial Investing and Speculation"
+            },
+            {
+              "episode_title": "INFLATION SHOCKER: AI Takes Jobs as the Market Collapses! \ud83d\udea8",
+              "channel": "Verified Investing",
+              "duration_minutes": 25,
+              "podcast_date": "2026-02-28",
+              "processing_date": "2024-03-01",
+              "one_line_summary": "Inflation data surges unexpectedly, pressuring markets while AI-driven layoffs signal economic shift.",
+              "core_claims": [
+                "Producer Price Index (PPI) year-over-year at 2.9% vs. expectations of 2.6%.",
+                "PPI month-over-month at +0.5% vs. expectations of 0.3%.",
+                "Block (XYZ) is laying off 50% of employees due to AI adoption.",
+                "Nvidia selling off 5.5% despite good earnings and raised guidance.",
+                "Duolingo presents a potential swing trade opportunity.",
+                "Dell's level at 142.45 may present a short day trade opportunity.",
+                "Silver could squeeze to 100.",
+                "Nvidia's target by mid-year is $150."
+              ],
+              "signal_strength": 9,
+              "themes": [
+                "inflation",
+                "ai",
+                "layoffs",
+                "market analysis",
+                "technical analysis",
+                "trading strategies",
+                "stagflation"
+              ],
+              "positioning_implication": "De-risk equity exposure and re-evaluate sector allocations given inflationary pressures and technological labor displacement. Consider short-term swing trades in oversold sectors.",
+              "time_horizon": "short",
+              "shelf_life": "Medium",
+              "thumbnail": "https://i.ytimg.com/vi/vWjCA6DSwVY/hqdefault.jpg",
+              "video_url": "https://www.youtube.com/watch?v=vWjCA6DSwVY",
+              "cluster_id": 1,
+              "category": "General Financial Investing and Speculation"
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "name": "Crypto Valuation Pivoting Amid Adoption Signals",
+          "description": "Token valuation models are being reassessed as adoption broadens and macroeconomic conditions shift, creating uncertainty.",
+          "bias": "neutral",
+          "regime": "Emerging",
+          "size": 1,
+          "strength": 1.0,
+          "coherence": 1.0,
+          "channels": [
+            "David Lin"
+          ],
+          "avg_signal": 7.0,
+          "briefs": [
+            {
+              "episode_title": "Are Mass Layoffs Starting? 'Global Intelligence Crisis' Explained  | Daniel Marin",
+              "channel": "David Lin",
+              "duration_minutes": 51,
+              "podcast_date": "2026-02-28",
+              "processing_date": "2026-02-28",
+              "one_line_summary": "The crypto space is searching for its soul, reassessing token valuation amid strong adoption signals and broader economic shifts.",
+              "core_claims": [
+                "Crypto adoption and thesis strength are at a peak despite Bitcoin's 50% drop from its all-time high.",
+                "Capital isn't rotating into Bitcoin, but potentially into other crypto projects as Nasdaq diverges.",
+                "AI agents are poised to optimize commerce, potentially overlapping blockchain's initial goals by reducing trade friction.",
+                "Breaking RSA encryption with quantum computers is projected within 10 years, manageable by increasing encryption key sizes, but potentially catastrophic for Bitcoin due to its upgrade inflexibility.",
+                "Nexus launched the $EUSDx stablecoin, making it one of the first layer-one blockchains to have a native stablecoin."
+              ],
+              "signal_strength": 7,
+              "themes": [
+                "crypto",
+                "ai",
+                "investment",
+                "blockchain",
+                "economics",
+                "technology",
+                "valuation",
+                "security"
+              ],
+              "positioning_implication": "Assess the sustainability of crypto investments based on fundamentals, considering the impact of AI on blockchain's original utility. Monitor developments in quantum computing to anticipate future security risks.",
+              "time_horizon": "medium",
+              "shelf_life": "Medium",
+              "thumbnail": "https://i.ytimg.com/vi/dax6N4qCdes/hqdefault.jpg",
+              "video_url": "https://www.youtube.com/watch?v=dax6N4qCdes",
+              "cluster_id": 4,
+              "category": "General Financial Investing and Speculation"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "name": "Silver: Manipulation Allegations Intensifying",
+          "description": "The narrative highlights rising silver prices coupled with a CME technical glitch, fueling speculation of market manipulation.\n\u26a1 Convergence Alert: Overlap detected with [Silver Demand Intensifying Comex Default Risk] in Precious Metals (0.75 sim)",
+          "bias": "defensive",
+          "regime": "Emerging",
+          "size": 1,
+          "strength": 1.0,
+          "coherence": 1.0,
+          "channels": [
+            "Clive Thompson"
+          ],
+          "avg_signal": 7.0,
+          "briefs": [
+            {
+              "episode_title": "Friday 27th February 2026.  Silver continues rising despite tchnical glitch on wednesday evening.",
+              "channel": "Clive Thompson",
+              "duration_minutes": 20,
+              "podcast_date": "2026-02-28",
+              "processing_date": "2024-01-26",
+              "one_line_summary": "Silver prices are rising amidst market volatility and a technical glitch on the CME, leading to allegations of market manipulation.",
+              "core_claims": [
+                "Dow Jones is down 1.33% at 48,838.",
+                "Nasdaq is down 0.72% and S&P is down 0.63%.",
+                "Gold is trading at $5,233, up $49 or 0.95%.",
+                "Silver is at $92.21, up 4.5%.",
+                "Shanghai silver price trades significantly higher at $105.76 compared to New York's $92.35.",
+                "22.7 million ounces of silver have been notified for delivery out of 31 million remaining open interest."
+              ],
+              "signal_strength": 7,
+              "themes": [
+                "market analysis",
+                "silver",
+                "gold",
+                "cme",
+                "market manipulation",
+                "technical glitch"
+              ],
+              "positioning_implication": "Heightened volatility suggests potential for short-term gains in precious metals; however, counterparty risk may be elevated.  Monitor regulatory actions in response to the glitch.",
+              "time_horizon": "short",
+              "shelf_life": "Medium",
+              "thumbnail": "https://i.ytimg.com/vi/ifnHh_Wa8_k/hqdefault.jpg",
+              "video_url": "https://www.youtube.com/watch?v=ifnHh_Wa8_k",
+              "cluster_id": 3,
+              "category": "General Financial Investing and Speculation"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "name": "Prediction Markets: Regulation Intensifying Addiction Risks",
+          "description": "This narrative highlights the growing regulatory scrutiny of prediction markets due to concerns about potential addiction and their resemblance to gambling.",
+          "bias": "defensive",
+          "regime": "Emerging",
+          "size": 1,
+          "strength": 1.0,
+          "coherence": 1.0,
+          "channels": [
+            "The Prof G Pod \u2013 Scott Galloway"
+          ],
+          "avg_signal": 7.0,
+          "briefs": [
+            {
+              "episode_title": "Prediction Markets vs. Gambling: Where\u2019s the Line? | Prof G Markets",
+              "channel": "The Prof G Pod \u2013 Scott Galloway",
+              "duration_minutes": 30,
+              "podcast_date": "2026-02-28",
+              "processing_date": "2026-02-28",
+              "one_line_summary": "This episode explores the distinction between prediction markets and gambling, focusing on potential addiction risks and regulatory challenges.",
+              "core_claims": [
+                "American's are getting 30 additional minutes of sleep per day, on average, compared to two decades ago.",
+                "Calshi experienced revenue growth of approximately 1,000%.",
+                "Calshi's platform volume increased from $280 million to $2.3 billion.",
+                "Calshi recently raised a billion dollars at an $11 billion valuation.",
+                "The most active traders in prediction markets spend considerable time modeling and forecasting, often using sophisticated methods.",
+                "Prediction markets incentivize truth and objectivity, which is a good thing for society."
+              ],
+              "signal_strength": 7,
+              "themes": [
+                "prediction markets",
+                "gambling",
+                "regulation",
+                "technology",
+                "financial markets",
+                "addiction",
+                "risk management"
+              ],
+              "positioning_implication": "Evaluate the ethical and societal impacts of prediction markets amidst debates on gamification and regulation.",
+              "time_horizon": "medium",
+              "shelf_life": "Medium",
+              "thumbnail": "https://i.ytimg.com/vi/J31lDCBRZgg/hqdefault.jpg",
+              "video_url": "https://www.youtube.com/watch?v=J31lDCBRZgg",
+              "cluster_id": 2,
+              "category": "General Financial Investing and Speculation"
+            }
+          ]
+        }
+      ],
+      "should_generate": false
+    },
+    "Precious Metals": {
+      "name": "Precious Metals",
+      "meta_summary": "",
+      "convergence_score": 0.0,
+      "percentile": 0.0,
+      "regime_state": "Neutral",
+      "clusters": [
+        {
+          "id": 0,
+          "name": "Silver Demand Intensifying Comex Default Risk",
+          "description": "Physical silver demand and regulatory shifts in India are converging to potentially trigger a Comex default, exacerbating financial instability.",
+          "bias": "defensive",
+          "regime": "Accelerating",
+          "size": 2,
+          "strength": 1.4836218020399705,
+          "coherence": 0.7418109010199853,
+          "channels": [
+            "Wall Street Bullion",
+            "Rons Basement"
+          ],
+          "avg_signal": 9.0,
+          "briefs": [
+            {
+              "episode_title": "URGENT: Silver Price SKYROCKETING! Here's What You NEED to Know!",
+              "channel": "Wall Street Bullion",
+              "duration_minutes": 33,
+              "podcast_date": "2026-02-28",
+              "processing_date": "2024-03-08",
+              "one_line_summary": "Increased physical demand for precious metals, particularly silver, may lead to shortages and potential Comex default, triggering financial instability.",
+              "core_claims": [
+                "Silver price is projected to reach $150 by January next year.",
+                "Gold price is projected to reach $7500 by the end of January next year.",
+                "Massive demand for physical delivery, especially for silver, is occurring.",
+                "Comex faces potential default due to silver deliveries, possibly triggering a credit market freeze.",
+                "Chinese may trigger a COMEX default to undermine US financial system."
+              ],
+              "signal_strength": 9,
+              "themes": [
+                "precious metals",
+                "silver",
+                "gold",
+                "economic crisis",
+                "financial war",
+                "geopolitics",
+                "comex default",
+                "supply chain",
+                "inflation"
+              ],
+              "positioning_implication": "Shift portfolio allocation towards physical precious metals to hedge against potential economic instability and currency devaluation; prioritize physical possession over paper assets.",
+              "time_horizon": "short",
+              "shelf_life": "Short",
+              "thumbnail": "https://i.ytimg.com/vi/ImtoxjDl2Ts/hqdefault.jpg",
+              "video_url": "https://www.youtube.com/watch?v=ImtoxjDl2Ts",
+              "cluster_id": 0,
+              "category": "Precious Metals"
+            },
+            {
+              "episode_title": "\ud83d\udea8SILVER ALERT! - BIG News on COMEX, Big Banks and INDIA! - (China, Jane Street & Gold Price too)",
+              "channel": "Rons Basement",
+              "duration_minutes": 53,
+              "podcast_date": "2026-02-28",
+              "processing_date": "2024-03-01",
+              "one_line_summary": "Citigroup forecasts silver at $150 within three months, driven by physical and speculative demand, while India shifts valuation methods away from LBMA benchmarks and enables silver monetization.",
+              "core_claims": [
+                "Citigroup expects spot silver to hit $150 per ounce in three months.",
+                "India's market regulator mandates mutual funds and ETFs to value physical gold and silver holdings using domestic spot prices, effective April 1st.",
+                "The Reserve Bank of India affirms silver's full monetization via lending against gold and silver collateral, effective April 1st, allowing loans secured by silver.",
+                "Stock funds in India can invest up to 35% of their assets in gold and silver instruments.",
+                "Shanghai Gold Exchange has spot prices over $100/oz and healthy contango, compared to lower Comex prices and backwardation signals.",
+                "Registered vaults are scraping by at 86 to 87 million ounces."
+              ],
+              "signal_strength": 9,
+              "themes": [
+                "silver price forecast",
+                "indian market regulation",
+                "gold silver ratio",
+                "comex manipulation",
+                "monetary policy",
+                "physical demand"
+              ],
+              "positioning_implication": "Anticipate short-term silver price appreciation, particularly in response to Indian policy shifts; hedge against dollar devaluation, focusing on assets in jurisdictions with high physical demand and transparent pricing.",
+              "time_horizon": "short",
+              "shelf_life": "Medium",
+              "thumbnail": "https://i.ytimg.com/vi/qFBkinUimSo/hqdefault.jpg",
+              "video_url": "https://www.youtube.com/watch?v=qFBkinUimSo",
+              "cluster_id": 0,
+              "category": "Precious Metals"
+            }
+          ]
+        },
+        {
+          "id": 1,
+          "name": "Silver Supply Chains Fragmenting; Gold Miners Tightening",
+          "description": "Mexican cartel activity threatens silver supply while gold miners' fundamentals improve, potentially driving a structural bull cycle.",
+          "bias": "constructive",
+          "regime": "Emerging",
+          "size": 1,
+          "strength": 1.0,
+          "coherence": 1.0,
+          "channels": [
+            "Arcadia Economics"
+          ],
+          "avg_signal": 8.0,
+          "briefs": [
+            {
+              "episode_title": "UBS Describes What Has Them So Excited About Gold Miners",
+              "channel": "Arcadia Economics",
+              "duration_minutes": 25,
+              "podcast_date": "2026-02-28",
+              "processing_date": "2024-04-03",
+              "one_line_summary": "UBS analysts see a structural bull cycle re-engaging in gold miners driven by sustained demand, improved fundamentals, and controlled costs, while cartel fragmentation in Mexico threatens silver supply chains.",
+              "core_claims": [
+                "UBS sees bullion trending towards $5900 driven by central bank buying, ETF inflows, and easing real rates.",
+                "Miners are generating stronger cash flow, reducing leverage, and exercising capital discipline with expanding margins due to stable input costs.",
+                "Mexico's silver heartland is colliding with cartel fragmentation, rising extortion costs, and geopolitical pressure, disrupting supply chains.",
+                "Cartel violence and fragmentation intensify across Mexico's primary mining belts, raising costs and suspending operations.",
+                "As long as gold remains above $4500, JP Morgan stands by its thesis.",
+                "Gold futures are losing validity due to delayed deliveries, driving traders to GLD and SLV."
+              ],
+              "signal_strength": 8,
+              "themes": [
+                "gold",
+                "silver",
+                "mining",
+                "cartels",
+                "supply chain",
+                "economics",
+                "commodities"
+              ],
+              "positioning_implication": "Monitor geopolitical risks impacting precious metal supply chains and consider miners poised to benefit from a sustained bull market.",
+              "time_horizon": "medium",
+              "shelf_life": "Medium",
+              "thumbnail": "https://i.ytimg.com/vi/WtLe8x3t5Rg/hqdefault.jpg",
+              "video_url": "https://www.youtube.com/watch?v=WtLe8x3t5Rg",
+              "cluster_id": 1,
+              "category": "Precious Metals"
+            }
+          ]
+        }
+      ],
+      "should_generate": false
+    },
+    "Philosophy and Thoughtfulness": {
+      "name": "Philosophy and Thoughtfulness",
+      "meta_summary": "",
+      "convergence_score": 0.0,
+      "percentile": 0.0,
+      "regime_state": "Neutral",
+      "clusters": [
+        {
+          "id": 0,
+          "name": "AI Intensifying Cognitive Overload",
+          "description": "AI-generated content threatens to overwhelm individual cognitive capacity and critical thinking skills.",
+          "bias": "defensive",
+          "regime": "Emerging",
+          "size": 1,
+          "strength": 0.0,
+          "coherence": 1.0,
+          "channels": [
+            "Nate Hagens"
+          ],
+          "avg_signal": 8.0,
+          "briefs": [
+            {
+              "episode_title": "AI and the Coming Deluge of Noise | Frankly 128",
+              "channel": "Nate Hagens",
+              "duration_minutes": 41,
+              "podcast_date": "2026-02-28",
+              "processing_date": "2026-02-28",
+              "one_line_summary": "AI-driven content explosion risks overwhelming individual agency and discernment, mirroring the nutrient-deficient food system.",
+              "core_claims": [
+                "AI is set to amplify information at a rate that drowns out genuine signal, leaving individuals disoriented.",
+                "The sheer increase in content from AI will overshadow the increase in actual, valuable knowledge.",
+                "Cheap AI content, engineered for engagement, will compete with thoughtful, accurate information, resembling addictive ultra-processed foods.",
+                "The scarcity will shift from content creation to authenticity, judgment, and discerning truth.",
+                "Cognitive GLP-1, originating from AI companies, may become necessary to manage information overload, like pharmaceutical appetite suppressants.",
+                "Three key questions (Is it true? Is it relevant? Is it useful?) serve as filters before consuming content."
+              ],
+              "signal_strength": 8,
+              "themes": [
+                "ai",
+                "information overload",
+                "cognitive health",
+                "authenticity",
+                "media",
+                "critical thinking"
+              ],
+              "positioning_implication": "Prioritize cognitive discipline and critical discernment to combat AI-driven information overload; cultivate personal filters for assessing truth, relevance, and usefulness.",
+              "time_horizon": "medium",
+              "shelf_life": "Medium",
+              "thumbnail": "https://i.ytimg.com/vi/Ucgyd5ML0j4/hqdefault.jpg",
+              "video_url": "https://www.youtube.com/watch?v=Ucgyd5ML0j4",
+              "cluster_id": 0,
+              "category": "Philosophy and Thoughtfulness"
+            }
+          ]
+        }
+      ],
+      "should_generate": false
+    }
+  },
+  "clusters": []
+}
