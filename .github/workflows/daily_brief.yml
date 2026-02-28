@@ -28,13 +28,22 @@ jobs:
         run: |
           python3 -m pip install --upgrade pip
           sudo apt-get update && sudo apt-get install -y ffmpeg
-          pip install -r requirements.txt
+          python3 -m pip install -r requirements.txt
           python3 -m pip install bgutil-ytdlp-pot-provider
           python3 -m pip install -U https://github.com/yt-dlp/yt-dlp/archive/master.tar.gz
           which ffmpeg
           ffmpeg -version | head -n 1
-          which yt-dlp
-          yt-dlp --version
+
+      - name: Verify yt-dlp plugin discovery
+        run: |
+          echo "=== Python path ==="
+          which python3
+          echo "=== yt-dlp version ==="
+          python3 -m yt_dlp --version
+          echo "=== Installed POT packages ==="
+          python3 -m pip list | grep -iE 'pot|bgutil|yt.dlp'
+          echo "=== yt-dlp plugin test (list extractors for youtube) ==="
+          python3 -m yt_dlp --list-extractors 2>&1 | grep -i pot || echo "No POT extractors found (may still work via plugin)"
 
       - name: Wait for bgutil provider
         run: |

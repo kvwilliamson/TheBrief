@@ -48,19 +48,42 @@ def _ensure_cookies_file():
         logger.info("cookies.txt created from YOUTUBE_COOKIES env var")
 
 
-def _detect_bgutil_server():
-    """Check if bgutil HTTP server is running and return appropriate extractor args."""
+def _log_environment_diagnostics():
+    """Log yt-dlp version and plugin availability for debugging CI issues."""
+    try:
+        ver = subprocess.run(
+            [sys.executable, "-m", "yt_dlp", "--version"],
+            capture_output=True, text=True, timeout=10
+        )
+        logger.info(f"yt-dlp version: {ver.stdout.strip()}")
+    except Exception as e:
+        logger.warning(f"Could not get yt-dlp version: {e}")
+
+    # Check if bgutil plugin is discoverable in the current Python env
+    try:
+        pkgs = subprocess.run(
+            [sys.executable, "-m", "pip", "list", "--format=columns"],
+            capture_output=True, text=True, timeout=10
+        )
+        pot_packages = [line for line in pkgs.stdout.splitlines() if "pot" in line.lower() or "bgutil" in line.lower()]
+        if pot_packages:
+            logger.info(f"POT-related packages: {', '.join(p.strip() for p in pot_packages)}")
+        else:
+            logger.warning("No POT provider packages found in current Python environment")
+    except Exception as e:
+        logger.warning(f"Could not list packages: {e}")
+
+    # Check if bgutil HTTP server is reachable
     try:
         import urllib.request
         req = urllib.request.urlopen("http://127.0.0.1:4416/", timeout=2)
         req.close()
-        logger.info("bgutil POT provider detected on port 4416")
-        return True
+        logger.info("bgutil POT provider HTTP server detected on port 4416")
     except Exception:
-        return False
+        logger.info("bgutil HTTP server not available on port 4416 (will rely on cookies)")
 
 
-def extract_audio_for_video(video, bgutil_available=False):
+def extract_audio_for_video(video):
     """Extracts audio for a single video using yt-dlp with retry logic."""
     video_id = video["id"]
     video_url = video["url"]
@@ -89,9 +112,6 @@ def extract_audio_for_video(video, bgutil_available=False):
         "-o", output_template
     ]
 
-    # Wire in extractor args for bgutil POT provider when server is available
-    if bgutil_available:
-        command.extend(["--extractor-args", "youtube:player_skip=webpage"])
 
     # Add cookies if cookies.txt exists
     if os.path.exists("cookies.txt"):
@@ -147,9 +167,9 @@ def run_extraction():
         logger.info("Queue is empty.")
         return []
 
-    # One-time setup: cookies + bgutil detection (before the loop)
+    # One-time setup: cookies + environment diagnostics (before the loop)
     _ensure_cookies_file()
-    bgutil_available = _detect_bgutil_server()
+    _log_environment_diagnostics()
     
     processed_queue = []
     start_time = time.time()
@@ -163,7 +183,7 @@ def run_extraction():
             continue
             
         logger.info(f"Extracting audio for {video['title']} ({video['id']})...")
-        result = extract_audio_for_video(video, bgutil_available=bgutil_available)
+        result = extract_audio_for_video(video)
         if result:
             processed_queue.append(result)
 
