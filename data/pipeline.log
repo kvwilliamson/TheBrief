@@ -1,0 +1,155 @@
+2026-02-27 09:16:46,121 - INFO - ==================================================
+2026-02-27 09:16:46,121 - INFO - Starting TheBrief Daily Pipeline
+2026-02-27 09:16:46,121 - INFO - ==================================================
+2026-02-27 09:16:46,121 - INFO - 
+--- Phase 1: Discovery ---
+2026-02-27 09:16:46,123 - INFO - Discovering videos published after 2026-02-26T14:16:46.123462+00:00 (24h lookback)
+2026-02-27 09:16:49,327 - INFO - Found 1 new potential videos on Silver Dragons.
+2026-02-27 09:16:49,441 - INFO - Found 1 new potential videos on Wall Street Bullion .
+2026-02-27 09:16:50,000 - INFO - Found 2 new potential videos on Rons Basement.
+2026-02-27 09:16:51,710 - INFO - Found 1 new potential videos on Kitco NEWS.
+2026-02-27 09:16:51,854 - INFO - Found 1 new potential videos on Yankee Stacking.
+2026-02-27 09:16:51,949 - INFO - Found 2 new potential videos on Arcadia Economics.
+2026-02-27 09:16:52,733 - INFO - Found 1 new potential videos on David Lin .
+2026-02-27 09:16:52,747 - INFO - Found 3 new potential videos on AI News & Strategy Daily | Nate B Jones.
+2026-02-27 09:16:53,417 - INFO - Found 7 new potential videos on Verified Investing.
+2026-02-27 09:16:53,603 - INFO - Found 1 new potential videos on GoldSilver .
+2026-02-27 09:16:53,686 - INFO - Found 1 new potential videos on Miles Franklin Media.
+2026-02-27 09:16:54,294 - INFO - Found 1 new potential videos on Adam Taggart | Thoughtful Money®.
+2026-02-27 09:16:54,394 - INFO - Found 1 new potential videos on Nate Hagens.
+2026-02-27 09:16:54,573 - INFO - Found 2 new potential videos on Matthew Berman.
+2026-02-27 09:16:55,326 - INFO - Found 6 new potential videos on The Prof G Pod – Scott Galloway.
+2026-02-27 09:16:55,579 - INFO - Found 3 new potential videos on Raging Moderates.
+2026-02-27 09:16:56,091 - INFO - Found 20 total long-form videos across all channels.
+2026-02-27 09:16:56,093 - INFO - Discovery complete. Added 20 new videos to queue.
+2026-02-27 09:16:56,093 - INFO - 
+--- Phase 2: Extraction ---
+2026-02-27 09:16:56,094 - INFO - Extracting audio for EARNINGS EXPLOSION! 💥 MUST-WATCH LEVELS! 📈 (XmR2gZUfKFc)...
+2026-02-27 09:17:07,405 - INFO - Successfully extracted: audio/XmR2gZUfKFc.mp3
+2026-02-27 09:17:07,405 - INFO - Extracting audio for Silver. Hasn’t. Even. Started. (mgo873yp0vA)...
+2026-02-27 09:17:31,442 - INFO - Successfully extracted: audio/mgo873yp0vA.mp3
+2026-02-27 09:17:31,442 - INFO - Extracting audio for AI and the Coming Deluge of Noise | Frankly 128 (Ucgyd5ML0j4)...
+2026-02-27 09:17:44,230 - INFO - Successfully extracted: audio/Ucgyd5ML0j4.mp3
+2026-02-27 09:17:44,230 - INFO - Extracting audio for Prediction Markets vs. Gambling: Where’s the Line? | Prof G Markets (J31lDCBRZgg)...
+2026-02-27 09:18:06,301 - INFO - Successfully extracted: audio/J31lDCBRZgg.mp3
+2026-02-27 09:18:06,301 - INFO - Extracting audio for Hillary Clinton Accuses GOP of Trump COVER-UP in Epstein Case (b6IH_kF0HZU)...
+2026-02-27 09:18:23,387 - INFO - Successfully extracted: audio/b6IH_kF0HZU.mp3
+2026-02-27 09:18:23,387 - INFO - Extracting audio for Where is Silver Price Going? Silver Pros (S8 E2) (mWJRxw1p6-o)...
+2026-02-27 09:19:02,872 - INFO - Successfully extracted: audio/mWJRxw1p6-o.mp3
+2026-02-27 09:19:02,873 - INFO - Extracting audio for Gold & Silver Trading Halted: They’re Playing Very Dangerous Game | Andy Schectman & Michelle Makori (poSXbr94Lrg)...
+2026-02-27 09:19:26,103 - INFO - Successfully extracted: audio/poSXbr94Lrg.mp3
+2026-02-27 09:19:26,103 - INFO - Extracting audio for CME Halts and Silver Volatility: Peter Schiff on the Shift to Physical Demand (QtLS8toJt-w)...
+2026-02-27 09:19:50,150 - INFO - Successfully extracted: audio/QtLS8toJt-w.mp3
+2026-02-27 09:19:50,150 - INFO - Extracting audio for EXCLUSIVE: Binance Execs Hit Back At Billion Dollar Iran Terror Funding Allegations (GIcuz4sAEfQ)...
+2026-02-27 09:20:10,879 - INFO - Successfully extracted: audio/GIcuz4sAEfQ.mp3
+2026-02-27 09:20:10,879 - INFO - Extracting audio for BULLION DEALER REACTS TO DRAMATIC SILVER MARKET MOVE!  HE WARNS: "WE MUST DO THIS!" (J8_TZ0ahaaM)...
+2026-02-27 09:20:15,557 - INFO - Successfully extracted: audio/J8_TZ0ahaaM.mp3
+2026-02-27 09:20:15,557 - INFO - Extracting audio for TECH IN TROUBLE? ⚠️ NVDA’s Guidance Fails to Save Semis (d1pDpbwGHg4)...
+2026-02-27 09:20:23,355 - INFO - Successfully extracted: audio/d1pDpbwGHg4.mp3
+2026-02-27 09:20:23,355 - INFO - Extracting audio for Silver Wars Appear To Just Be Getting Started (x9_2Gf2chss)...
+2026-02-27 09:20:32,640 - INFO - Successfully extracted: audio/x9_2Gf2chss.mp3
+2026-02-27 09:20:32,640 - INFO - Extracting audio for Earnings Central Live 🎬 - $INTU, $ADSK, $ZS, $DELL (VrkfRTR7XKE)...
+2026-02-27 09:20:39,175 - INFO - Successfully extracted: audio/VrkfRTR7XKE.mp3
+2026-02-27 09:20:39,175 - INFO - Extracting audio for Is the U.S. About to Go to War With Iran? | Prof G Conversations (w_sh_ESXP5A)...
+2026-02-27 09:20:50,980 - INFO - Successfully extracted: audio/w_sh_ESXP5A.mp3
+2026-02-27 09:20:50,981 - INFO - Extracting audio for Market Mavericks with Gareth Soloway, Scott Melker, Mike McGlone (uPwyGGR_BQQ)...
+2026-02-27 09:20:59,704 - INFO - Successfully extracted: audio/uPwyGGR_BQQ.mp3
+2026-02-27 09:20:59,704 - INFO - Extracting audio for SILVER PRICE ALERT: COMEX Is In BIG Trouble! MUST LISTEN (BDb8u5Wc_Zc)...
+2026-02-27 09:21:06,082 - INFO - Successfully extracted: audio/BDb8u5Wc_Zc.mp3
+2026-02-27 09:21:06,082 - INFO - Extracting audio for **SILVER Price Manipulation!** You MUST Hear THESE Facts! - (Gold Price too) (GuT10hobS3g)...
+2026-02-27 09:21:15,290 - INFO - Successfully extracted: audio/GuT10hobS3g.mp3
+2026-02-27 09:21:15,290 - INFO - Extracting audio for Coming Wave Of Distressed Sellers To Tank Home Prices Worse Than The GFC | Melody Wright (ZP1u2oYL1ro)...
+2026-02-27 09:21:28,666 - INFO - Successfully extracted: audio/ZP1u2oYL1ro.mp3
+2026-02-27 09:21:28,666 - INFO - Extracting audio for Don't Fall For the Stock Market Hype. The $7,000 Raise AI Is Giving You (That Nobody Mentions) (q6pbQ5li5Cg)...
+2026-02-27 09:21:35,918 - INFO - Successfully extracted: audio/q6pbQ5li5Cg.mp3
+2026-02-27 09:21:35,918 - INFO - Extracting audio for NVIDIA WARNING: Why Great Earnings Could Trigger a Bear Market 🚨 (kvz7L_k3ESY)...
+2026-02-27 09:21:41,940 - INFO - Successfully extracted: audio/kvz7L_k3ESY.mp3
+2026-02-27 09:21:41,941 - INFO - Extraction complete. 20 audio files ready. (Time: 285.8s)
+2026-02-27 09:21:41,941 - INFO - 
+--- Phase 3: Summarization (Direct Audio) ---
+2026-02-27 09:21:45,106 - INFO - Generating Brief for AI and the Coming Deluge of Noise | Frankly 128 (Ucgyd5ML0j4)...
+2026-02-27 09:21:45,112 - INFO - AFC is enabled with max remote calls: 10.
+2026-02-27 09:21:45,686 - INFO - Generating Brief for Silver. Hasn’t. Even. Started. (mgo873yp0vA)...
+2026-02-27 09:21:45,688 - INFO - AFC is enabled with max remote calls: 10.
+2026-02-27 09:21:46,394 - INFO - Generating Brief for EARNINGS EXPLOSION! 💥 MUST-WATCH LEVELS! 📈 (XmR2gZUfKFc)...
+2026-02-27 09:21:46,396 - INFO - AFC is enabled with max remote calls: 10.
+2026-02-27 09:21:51,824 - ERROR - Schema parsing error for Silver. Hasn’t. Even. Started.: Expecting value: line 1 column 956 (char 955)
+2026-02-27 09:21:54,096 - INFO - ✅ Brief successfully generated for AI and the Coming Deluge of Noise | Frankly 128
+2026-02-27 09:21:57,044 - INFO - ✅ Brief successfully generated for EARNINGS EXPLOSION! 💥 MUST-WATCH LEVELS! 📈
+2026-02-27 09:21:58,806 - INFO - Generating Brief for Prediction Markets vs. Gambling: Where’s the Line? | Prof G Markets (J31lDCBRZgg)...
+2026-02-27 09:21:58,809 - INFO - AFC is enabled with max remote calls: 10.
+2026-02-27 09:21:59,223 - INFO - Generating Brief for Hillary Clinton Accuses GOP of Trump COVER-UP in Epstein Case (b6IH_kF0HZU)...
+2026-02-27 09:21:59,225 - INFO - AFC is enabled with max remote calls: 10.
+2026-02-27 09:22:00,113 - ERROR - Error summarising audio Hillary Clinton Accuses GOP of Trump COVER-UP in Epstein Case: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more details.', 'status': 'RESOURCE_EXHAUSTED'}}
+2026-02-27 09:22:02,825 - INFO - Generating Brief for Where is Silver Price Going? Silver Pros (S8 E2) (mWJRxw1p6-o)...
+2026-02-27 09:22:02,827 - INFO - AFC is enabled with max remote calls: 10.
+2026-02-27 09:22:06,157 - INFO - Generating Brief for Gold & Silver Trading Halted: They’re Playing Very Dangerous Game | Andy Schectman & Michelle Makori (poSXbr94Lrg)...
+2026-02-27 09:22:06,159 - INFO - AFC is enabled with max remote calls: 10.
+2026-02-27 09:22:15,808 - INFO - ✅ Brief successfully generated for Prediction Markets vs. Gambling: Where’s the Line? | Prof G Markets
+2026-02-27 09:22:19,698 - INFO - ✅ Brief successfully generated for Gold & Silver Trading Halted: They’re Playing Very Dangerous Game | Andy Schectman & Michelle Makori
+2026-02-27 09:22:19,867 - INFO - Generating Brief for CME Halts and Silver Volatility: Peter Schiff on the Shift to Physical Demand (QtLS8toJt-w)...
+2026-02-27 09:22:19,869 - INFO - AFC is enabled with max remote calls: 10.
+2026-02-27 09:22:20,015 - INFO - ✅ Brief successfully generated for Where is Silver Price Going? Silver Pros (S8 E2)
+2026-02-27 09:22:23,609 - INFO - Generating Brief for BULLION DEALER REACTS TO DRAMATIC SILVER MARKET MOVE!  HE WARNS: "WE MUST DO THIS!" (J8_TZ0ahaaM)...
+2026-02-27 09:22:23,612 - INFO - AFC is enabled with max remote calls: 10.
+2026-02-27 09:22:25,511 - INFO - Generating Brief for EXCLUSIVE: Binance Execs Hit Back At Billion Dollar Iran Terror Funding Allegations (GIcuz4sAEfQ)...
+2026-02-27 09:22:25,513 - INFO - AFC is enabled with max remote calls: 10.
+2026-02-27 09:22:30,018 - ERROR - Schema parsing error for BULLION DEALER REACTS TO DRAMATIC SILVER MARKET MOVE!  HE WARNS: "WE MUST DO THIS!": Expecting value: line 1 column 1093 (char 1092)
+2026-02-27 09:22:30,532 - ERROR - Schema parsing error for CME Halts and Silver Volatility: Peter Schiff on the Shift to Physical Demand: Expecting value: line 1 column 1087 (char 1086)
+2026-02-27 09:22:33,617 - INFO - Generating Brief for TECH IN TROUBLE? ⚠️ NVDA’s Guidance Fails to Save Semis (d1pDpbwGHg4)...
+2026-02-27 09:22:33,619 - INFO - AFC is enabled with max remote calls: 10.
+2026-02-27 09:22:34,931 - INFO - Generating Brief for Silver Wars Appear To Just Be Getting Started (x9_2Gf2chss)...
+2026-02-27 09:22:34,933 - INFO - AFC is enabled with max remote calls: 10.
+2026-02-27 09:22:36,786 - INFO - ✅ Brief successfully generated for EXCLUSIVE: Binance Execs Hit Back At Billion Dollar Iran Terror Funding Allegations
+2026-02-27 09:22:38,925 - INFO - Generating Brief for Earnings Central Live 🎬 - $INTU, $ADSK, $ZS, $DELL (VrkfRTR7XKE)...
+2026-02-27 09:22:38,927 - INFO - AFC is enabled with max remote calls: 10.
+2026-02-27 09:22:42,715 - ERROR - Schema parsing error for TECH IN TROUBLE? ⚠️ NVDA’s Guidance Fails to Save Semis: Expecting value: line 1 column 1311 (char 1310)
+2026-02-27 09:22:44,615 - INFO - ✅ Brief successfully generated for Silver Wars Appear To Just Be Getting Started
+2026-02-27 09:22:49,486 - INFO - Generating Brief for Market Mavericks with Gareth Soloway, Scott Melker, Mike McGlone (uPwyGGR_BQQ)...
+2026-02-27 09:22:49,489 - INFO - AFC is enabled with max remote calls: 10.
+2026-02-27 09:22:50,102 - ERROR - Schema parsing error for Earnings Central Live 🎬 - $INTU, $ADSK, $ZS, $DELL: Expecting value: line 1 column 1260 (char 1259)
+2026-02-27 09:22:50,121 - INFO - Generating Brief for Is the U.S. About to Go to War With Iran? | Prof G Conversations (w_sh_ESXP5A)...
+2026-02-27 09:22:50,122 - INFO - AFC is enabled with max remote calls: 10.
+2026-02-27 09:22:52,881 - INFO - Generating Brief for SILVER PRICE ALERT: COMEX Is In BIG Trouble! MUST LISTEN (BDb8u5Wc_Zc)...
+2026-02-27 09:22:52,883 - INFO - AFC is enabled with max remote calls: 10.
+2026-02-27 09:23:02,698 - INFO - ✅ Brief successfully generated for SILVER PRICE ALERT: COMEX Is In BIG Trouble! MUST LISTEN
+2026-02-27 09:23:02,992 - ERROR - Schema parsing error for Market Mavericks with Gareth Soloway, Scott Melker, Mike McGlone: Expecting value: line 1 column 1289 (char 1288)
+2026-02-27 09:23:06,811 - INFO - ✅ Brief successfully generated for Is the U.S. About to Go to War With Iran? | Prof G Conversations
+2026-02-27 09:23:09,846 - INFO - Generating Brief for **SILVER Price Manipulation!** You MUST Hear THESE Facts! - (Gold Price too) (GuT10hobS3g)...
+2026-02-27 09:23:09,848 - INFO - AFC is enabled with max remote calls: 10.
+2026-02-27 09:23:11,584 - INFO - Generating Brief for Coming Wave Of Distressed Sellers To Tank Home Prices Worse Than The GFC | Melody Wright (ZP1u2oYL1ro)...
+2026-02-27 09:23:11,586 - INFO - AFC is enabled with max remote calls: 10.
+2026-02-27 09:23:12,310 - INFO - Generating Brief for Don't Fall For the Stock Market Hype. The $7,000 Raise AI Is Giving You (That Nobody Mentions) (q6pbQ5li5Cg)...
+2026-02-27 09:23:12,312 - INFO - AFC is enabled with max remote calls: 10.
+2026-02-27 09:23:23,987 - INFO - ✅ Brief successfully generated for **SILVER Price Manipulation!** You MUST Hear THESE Facts! - (Gold Price too)
+2026-02-27 09:23:26,132 - INFO - Generating Brief for NVIDIA WARNING: Why Great Earnings Could Trigger a Bear Market 🚨 (kvz7L_k3ESY)...
+2026-02-27 09:23:26,135 - INFO - AFC is enabled with max remote calls: 10.
+2026-02-27 09:23:28,224 - INFO - ✅ Brief successfully generated for Don't Fall For the Stock Market Hype. The $7,000 Raise AI Is Giving You (That Nobody Mentions)
+2026-02-27 09:23:35,354 - INFO - ✅ Brief successfully generated for NVIDIA WARNING: Why Great Earnings Could Trigger a Bear Market 🚨
+2026-02-27 09:23:36,991 - INFO - ✅ Brief successfully generated for Coming Wave Of Distressed Sellers To Tank Home Prices Worse Than The GFC | Melody Wright
+2026-02-27 09:23:36,991 - INFO - --- Phase 3: Category Synthesis (13 assets across categories) ---
+2026-02-27 09:23:36,992 - INFO - Analyzing 4 categories: Philosophy and Thoughtfulness, General Financial Investing and Speculation, Precious Metals, Artificial Intelligence
+2026-02-27 09:23:36,992 - INFO - Processing Synthesis for sector: Philosophy and Thoughtfulness (1 assets)...
+2026-02-27 09:23:37,010 - INFO - AFC is enabled with max remote calls: 10.
+2026-02-27 09:23:38,117 - INFO - ✅ Synthesis complete for Philosophy and Thoughtfulness
+2026-02-27 09:23:38,118 - INFO - Processing Synthesis for sector: General Financial Investing and Speculation (6 assets)...
+2026-02-27 09:23:38,174 - INFO - AFC is enabled with max remote calls: 10.
+2026-02-27 09:23:39,346 - INFO - AFC is enabled with max remote calls: 10.
+2026-02-27 09:23:40,678 - INFO - AFC is enabled with max remote calls: 10.
+2026-02-27 09:23:41,804 - INFO - AFC is enabled with max remote calls: 10.
+2026-02-27 09:23:42,929 - INFO - ✅ Synthesis complete for General Financial Investing and Speculation
+2026-02-27 09:23:42,930 - INFO - Processing Synthesis for sector: Precious Metals (5 assets)...
+2026-02-27 09:23:42,938 - INFO - AFC is enabled with max remote calls: 10.
+2026-02-27 09:23:43,954 - INFO - AFC is enabled with max remote calls: 10.
+2026-02-27 09:23:44,966 - INFO - AFC is enabled with max remote calls: 10.
+2026-02-27 09:23:46,207 - INFO - ✅ Synthesis complete for Precious Metals
+2026-02-27 09:23:46,207 - INFO - Processing Synthesis for sector: Artificial Intelligence (1 assets)...
+2026-02-27 09:23:46,208 - INFO - AFC is enabled with max remote calls: 10.
+2026-02-27 09:23:47,334 - INFO - ✅ Synthesis complete for Artificial Intelligence
+2026-02-27 09:23:47,347 - INFO - Summarization complete. 13 briefs written to briefs/2026-02-27.md (Time: 125.4s)
+2026-02-27 09:23:49,025 - INFO - Email digest sent successfully to kwilliamson.mail@gmail.com.
+2026-02-27 09:23:50,058 - INFO - Email digest sent successfully to kochava72@gmail.com.
+2026-02-27 09:23:50,096 - INFO - Queue cleared.
+2026-02-27 09:23:50,111 - INFO - ==================================================
+2026-02-27 09:23:50,111 - INFO - Pipeline Execution Complete
+2026-02-27 09:23:50,111 - INFO - ==================================================

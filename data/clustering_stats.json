@@ -612,5 +612,161 @@
       1,
       1
     ]
+  },
+  {
+    "timestamp": "2026-02-27T07:05:28.088086",
+    "video_count": 19,
+    "cluster_count": 12,
+    "singleton_count": 9,
+    "max_cluster_size": 6,
+    "mean_cluster_size": 1.5833333333333333,
+    "avg_coherence": 0.9339195634299978,
+    "threshold_dist": 0.30515099618736674,
+    "percentile": 85,
+    "linkage": "complete",
+    "distribution": [
+      6,
+      2,
+      1,
+      2,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "timestamp": "2026-02-27T07:36:55.865470",
+    "video_count": 7,
+    "cluster_count": 5,
+    "singleton_count": 4,
+    "max_cluster_size": 3,
+    "mean_cluster_size": 1.4,
+    "avg_coherence": 0.9582339685120594,
+    "threshold_dist": 0.22592426747326755,
+    "percentile": 85,
+    "linkage": "complete",
+    "distribution": [
+      3,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "timestamp": "2026-02-27T07:37:02.596310",
+    "video_count": 9,
+    "cluster_count": 6,
+    "singleton_count": 5,
+    "max_cluster_size": 4,
+    "mean_cluster_size": 1.5,
+    "avg_coherence": 0.9515081749181754,
+    "threshold_dist": 0.3335720924736315,
+    "percentile": 85,
+    "linkage": "complete",
+    "distribution": [
+      4,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "timestamp": "2026-02-27T08:04:20.984890",
+    "video_count": 10,
+    "cluster_count": 8,
+    "singleton_count": 7,
+    "max_cluster_size": 3,
+    "mean_cluster_size": 1.25,
+    "avg_coherence": 0.9714406310432029,
+    "threshold_dist": 0.3315393623599959,
+    "percentile": 85,
+    "linkage": "complete",
+    "distribution": [
+      3,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "timestamp": "2026-02-27T08:04:38.928314",
+    "video_count": 6,
+    "cluster_count": 5,
+    "singleton_count": 4,
+    "max_cluster_size": 2,
+    "mean_cluster_size": 1.2,
+    "avg_coherence": 0.9564870963026115,
+    "threshold_dist": 0.22432974795202099,
+    "percentile": 85,
+    "linkage": "complete",
+    "distribution": [
+      2,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "timestamp": "2026-02-27T09:09:25.381287",
+    "video_count": 7,
+    "cluster_count": 1,
+    "singleton_count": 0,
+    "max_cluster_size": 7,
+    "mean_cluster_size": 7.0,
+    "avg_coherence": 0.9999999999999998,
+    "threshold_dist": 2.220446049250313e-16,
+    "percentile": 85,
+    "linkage": "complete",
+    "distribution": [
+      7
+    ]
+  },
+  {
+    "timestamp": "2026-02-27T09:23:38.171079",
+    "video_count": 6,
+    "cluster_count": 4,
+    "singleton_count": 2,
+    "max_cluster_size": 2,
+    "mean_cluster_size": 1.5,
+    "avg_coherence": 0.8277045522145262,
+    "threshold_dist": 0.4356198799143848,
+    "percentile": 85,
+    "linkage": "complete",
+    "distribution": [
+      2,
+      2,
+      1,
+      1
+    ]
+  },
+  {
+    "timestamp": "2026-02-27T09:23:42.933038",
+    "video_count": 5,
+    "cluster_count": 3,
+    "singleton_count": 1,
+    "max_cluster_size": 2,
+    "mean_cluster_size": 1.6666666666666667,
+    "avg_coherence": 0.8529620059771936,
+    "threshold_dist": 0.2441961791744084,
+    "percentile": 85,
+    "linkage": "complete",
+    "distribution": [
+      2,
+      1,
+      2
+    ]
   }
 ]
