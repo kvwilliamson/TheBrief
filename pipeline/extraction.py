@@ -112,10 +112,12 @@ def extract_audio_for_video(video):
         "-o", output_template
     ]
 
-
-    # Add cookies if cookies.txt exists
+    # Cookie authentication: prefer cookies.txt (CI), fall back to browser cookies (local)
     if os.path.exists("cookies.txt"):
         command.extend(["--cookies", "cookies.txt"])
+    else:
+        # Local runs: extract cookies directly from Chrome
+        command.extend(["--cookies-from-browser", "chrome"])
     
     command.append(video_url)
     
