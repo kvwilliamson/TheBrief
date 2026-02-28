@@ -2,6 +2,7 @@ import os
 import subprocess
 import json
 import logging
+import sys
 import time
 import random
 import shutil
@@ -75,7 +76,6 @@ def extract_audio_for_video(video, bgutil_available=False):
 
     ffmpeg_path = get_ffmpeg_path()
     
-    import sys
     command = [
         sys.executable, "-m", "yt_dlp",
         "-f", "bestaudio/best",
