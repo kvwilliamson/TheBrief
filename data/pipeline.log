@@ -253,3 +253,59 @@
 2026-03-01 06:17:32,393 - INFO - ==================================================
 2026-03-01 06:17:32,394 - INFO - Pipeline Execution Complete
 2026-03-01 06:17:32,394 - INFO - ==================================================
+2026-03-01 09:50:05,397 - INFO - ==================================================
+2026-03-01 09:50:05,397 - INFO - Starting TheBrief Daily Pipeline
+2026-03-01 09:50:05,397 - INFO - ==================================================
+2026-03-01 09:50:05,397 - INFO - 
+--- Phase 1: Discovery ---
+2026-03-01 09:50:05,401 - INFO - Discovering videos published after 2026-02-28T09:50:05.401466+00:00 (24h lookback)
+2026-03-01 09:50:05,883 - INFO - Found 1 new potential videos on Wall Street Bullion .
+2026-03-01 09:50:05,982 - INFO - Found 3 new potential videos on Rons Basement.
+2026-03-01 09:50:06,143 - INFO - Found 1 new potential videos on Arcadia Economics.
+2026-03-01 09:50:06,237 - INFO - Found 2 new potential videos on AI News & Strategy Daily | Nate B Jones.
+2026-03-01 09:50:06,386 - INFO - Found 1 new potential videos on Clive Thompson.
+2026-03-01 09:50:06,844 - INFO - Found 2 new potential videos on Adam Taggart | Thoughtful Money®.
+2026-03-01 09:50:06,886 - INFO - Found 1 new potential videos on Miles Franklin Media.
+2026-03-01 09:50:07,012 - INFO - Found 1 new potential videos on Felix & Friends (Goat Academy).
+2026-03-01 09:50:07,022 - INFO - Found 1 new potential videos on Commodity Culture.
+2026-03-01 09:50:07,084 - INFO - Found 1 new potential videos on Matthew Berman.
+2026-03-01 09:50:07,236 - INFO - Found 1 new potential videos on Wes Roth.
+2026-03-01 09:50:07,263 - INFO - Found 3 new potential videos on Raging Moderates.
+2026-03-01 09:50:07,609 - INFO - Found 10 total long-form videos across all channels.
+2026-03-01 09:50:07,611 - INFO - Discovery complete. Added 3 new videos to queue.
+2026-03-01 09:50:07,611 - INFO - 
+--- Phase 2: Extraction ---
+2026-03-01 09:50:07,847 - INFO - yt-dlp version: 2026.02.21
+2026-03-01 09:50:08,205 - INFO - POT-related packages: bgutil-ytdlp-pot-provider 1.2.2
+2026-03-01 09:50:08,230 - INFO - bgutil HTTP server not available on port 4416 (will rely on cookies)
+2026-03-01 09:50:08,230 - INFO - Extracting audio for ALERT: Gold & Silver Prices To SKYROCKET As War In The Middle East Breaks Out (FVSLQ_7fJTs)...
+2026-03-01 09:50:24,767 - INFO - Successfully extracted: audio/FVSLQ_7fJTs.mp3
+2026-03-01 09:50:32,678 - INFO - Extracting audio for Precious Metals Mining Profits Set to Rise by HUNDREDS of Percent — Analyst Forecasts Are Obsolete (e4SkAKs74Jw)...
+2026-03-01 09:50:51,514 - INFO - Successfully extracted: audio/e4SkAKs74Jw.mp3
+2026-03-01 09:50:58,625 - INFO - Extracting audio for My 10-Year-Old Vibe Codes. She Also Does Math by Hand. Why That's the Only Strategy That Works. (2ghhiPLg-jg)...
+2026-03-01 09:51:18,566 - INFO - Successfully extracted: audio/2ghhiPLg-jg.mp3
+2026-03-01 09:51:18,566 - INFO - Extraction complete. 3/3 audio files ready. (Time: 70.3s)
+2026-03-01 09:51:18,566 - INFO - 
+--- Phase 3: Summarization (Direct Audio) ---
+2026-03-01 09:51:19,546 - INFO - Generating Brief for ALERT: Gold & Silver Prices To SKYROCKET As War In The Middle East Breaks Out (FVSLQ_7fJTs)...
+2026-03-01 09:51:19,548 - INFO - AFC is enabled with max remote calls: 10.
+2026-03-01 09:51:19,685 - INFO - Generating Brief for My 10-Year-Old Vibe Codes. She Also Does Math by Hand. Why That's the Only Strategy That Works. (2ghhiPLg-jg)...
+2026-03-01 09:51:19,686 - INFO - AFC is enabled with max remote calls: 10.
+2026-03-01 09:51:20,139 - INFO - Generating Brief for Precious Metals Mining Profits Set to Rise by HUNDREDS of Percent — Analyst Forecasts Are Obsolete (e4SkAKs74Jw)...
+2026-03-01 09:51:20,140 - INFO - AFC is enabled with max remote calls: 10.
+2026-03-01 09:51:26,133 - INFO - ✅ Brief successfully generated for ALERT: Gold & Silver Prices To SKYROCKET As War In The Middle East Breaks Out
+2026-03-01 09:51:26,933 - ERROR - Schema parsing error for Precious Metals Mining Profits Set to Rise by HUNDREDS of Percent — Analyst Forecasts Are Obsolete: Expecting value: line 1 column 1396 (char 1395)
+2026-03-01 09:51:27,425 - INFO - ✅ Brief successfully generated for My 10-Year-Old Vibe Codes. She Also Does Math by Hand. Why That's the Only Strategy That Works.
+2026-03-01 09:51:27,425 - INFO - --- Phase 3: Category Synthesis (2 assets across categories) ---
+2026-03-01 09:51:27,425 - INFO - Analyzing 2 categories: Precious Metals, Artificial Intelligence
+2026-03-01 09:51:27,426 - INFO - Processing Synthesis for sector: Precious Metals (1 assets)...
+2026-03-01 09:51:27,432 - INFO - AFC is enabled with max remote calls: 10.
+2026-03-01 09:51:28,266 - INFO - ✅ Synthesis complete for Precious Metals
+2026-03-01 09:51:28,267 - INFO - Processing Synthesis for sector: Artificial Intelligence (1 assets)...
+2026-03-01 09:51:28,267 - INFO - AFC is enabled with max remote calls: 10.
+2026-03-01 09:51:29,028 - INFO - ✅ Synthesis complete for Artificial Intelligence
+2026-03-01 09:51:29,032 - INFO - Summarization complete. 2 briefs written to briefs/2026-03-01.md (Time: 10.4s)
+2026-03-01 09:51:29,033 - INFO - Queue cleared.
+2026-03-01 09:51:29,038 - INFO - ==================================================
+2026-03-01 09:51:29,039 - INFO - Pipeline Execution Complete
+2026-03-01 09:51:29,039 - INFO - ==================================================
