@@ -1,56 +1,5 @@
 [
   {
-    "timestamp": "2026-02-26T17:26:20.422494",
-    "video_count": 19,
-    "cluster_count": 13,
-    "singleton_count": 8,
-    "max_cluster_size": 3,
-    "mean_cluster_size": 1.4615384615384615,
-    "threshold_dist": 0.24235423917016596,
-    "percentile": 85,
-    "linkage": "complete",
-    "distribution": [
-      2,
-      2,
-      3,
-      1,
-      1,
-      2,
-      2,
-      1,
-      1,
-      1,
-      1,
-      1,
-      1
-    ]
-  },
-  {
-    "timestamp": "2026-02-26T17:26:20.424393",
-    "video_count": 19,
-    "cluster_count": 12,
-    "singleton_count": 7,
-    "max_cluster_size": 3,
-    "mean_cluster_size": 1.5833333333333333,
-    "threshold_dist": 0.24234327612662865,
-    "percentile": 85,
-    "linkage": "average",
-    "distribution": [
-      3,
-      2,
-      2,
-      3,
-      1,
-      2,
-      1,
-      1,
-      1,
-      1,
-      1,
-      1
-    ]
-  },
-  {
     "timestamp": "2026-02-26T17:26:20.426106",
     "video_count": 19,
     "cluster_count": 6,
@@ -744,6 +693,39 @@
     "mean_cluster_size": 1.5,
     "avg_coherence": 0.8709054505099927,
     "threshold_dist": 0.25818909898001474,
+    "percentile": 85,
+    "linkage": "complete",
+    "distribution": [
+      2,
+      1
+    ]
+  },
+  {
+    "timestamp": "2026-03-01T05:27:59.497822",
+    "video_count": 4,
+    "cluster_count": 3,
+    "singleton_count": 2,
+    "max_cluster_size": 2,
+    "mean_cluster_size": 1.3333333333333333,
+    "avg_coherence": 0.9135946673649338,
+    "threshold_dist": 0.2773602153636503,
+    "percentile": 85,
+    "linkage": "complete",
+    "distribution": [
+      2,
+      1,
+      1
+    ]
+  },
+  {
+    "timestamp": "2026-03-01T05:28:04.103536",
+    "video_count": 3,
+    "cluster_count": 2,
+    "singleton_count": 1,
+    "max_cluster_size": 2,
+    "mean_cluster_size": 1.5,
+    "avg_coherence": 0.8235605425822861,
+    "threshold_dist": 0.352878914835428,
     "percentile": 85,
     "linkage": "complete",
     "distribution": [

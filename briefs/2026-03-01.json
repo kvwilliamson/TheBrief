@@ -4,32 +4,27 @@
     {
       "episode_title": "ALERT: Gold & Silver Prices To SKYROCKET As War In The Middle East Breaks Out",
       "channel": "Wall Street Bullion",
-      "duration_minutes": 45,
+      "duration_minutes": 41,
       "podcast_date": "2026-03-01",
-      "processing_date": "2024-02-27",
-      "one_line_summary": "Geopolitical tensions, particularly regarding China and Taiwan, and potential US economic dependence on China will drive gold and silver prices higher.",
+      "processing_date": "2026-03-01",
+      "one_line_summary": "Gold and silver prices will continue to climb due to increasing global tensions, particularly the US vs. China conflict, and the potential for a delayed but not eliminated invasion of Taiwan.",
       "core_claims": [
-        "Current global tensions, namely the potential for a US-China conflict over Taiwan, are currently suppressed by internal purges within the Chinese People's Liberation Army, delaying but not eliminating the risk.",
-        "The market anticipates events a year in advance, causing gold and silver prices to reflect perceived geopolitical risks.",
-        "The US economy is heavily reliant on China for vital components, potentially limiting its capacity to act forcefully against Chinese aggression.",
-        "Central banks are actively purchasing gold, driven by geopolitical tensions rather than concerns about fiat currency.",
-        "Copper, like gold and silver, acts as a 'money metal' and its price trends tend to correlate with gold over time, suggesting it is positioned for future price appreciation.",
-        "The speaker has invested in Floral (American Atomic), Copper and oil."
+        "The shift of China potentially invading Taiwan has been pushed back a year or two due to political instability, impacting gold and silver's vertical acceleration.",
+        "China's industrial dominance, particularly in rare earth processing, complicates America's self-reliance and military strategy.",
+        "Copper, a monetary metal with a history in coins, tends to track gold's movements and is set to rise significantly.",
+        "Oil prices are expected to surge above $100 in the coming years.",
+        "Nuclear energy, underwater cables, and AI sectors represent strategic investment opportunities."
       ],
-      "signal_strength": 8,
+      "signal_strength": 7,
       "themes": [
         "geopolitics",
         "precious metals",
+        "economic forecasting",
         "china",
         "taiwan",
-        "commodities",
-        "investment strategy",
-        "central banks",
-        "copper",
-        "nuclear power",
-        "AI"
+        "investment strategies"
       ],
-      "positioning_implication": "Consider hedging geopolitical risk with allocations to gold, silver, and potentially copper, nuclear power stations or AI, while recognizing the potential for delayed but not eliminated escalation.",
+      "positioning_implication": "Shift investment focus towards copper, nuclear energy, underwater cables and AI sectors; hedge against long-term geopolitical risks with precious metals.",
       "time_horizon": "medium",
       "shelf_life": "Medium",
       "thumbnail": "https://i.ytimg.com/vi/FVSLQ_7fJTs/hqdefault.jpg",
@@ -38,33 +33,268 @@
       "category": "Precious Metals"
     },
     {
-      "episode_title": "My 10-Year-Old Vibe Codes. She Also Does Math by Hand. Why That's the Only Strategy That Works.",
-      "channel": "AI News & Strategy Daily | Nate B Jones",
-      "duration_minutes": 0,
+      "episode_title": "\ud83e\udd8d\ud83e\udd8d- SILVER & Gold Just had a MASSIVE Change... (Iran, COMEX, China & More News too!)",
+      "channel": "Rons Basement",
+      "duration_minutes": 51,
       "podcast_date": "2026-03-01",
       "processing_date": "2026-03-01",
-      "one_line_summary": "Balancing AI usage with foundational skills is crucial for children's development in a rapidly changing world.",
+      "one_line_summary": "Geopolitical tensions and market dynamics cause shifts in precious metal prices and inventories, with China's silver market showing unique volatility.",
       "core_claims": [
-        "Artificial General Intelligence (AGI) is currently available.",
-        "AI tutors outperform human tutors in controlled studies.",
-        "86% of students globally use AI in their learning, with the UK reporting 92% usage in 2025.",
-        "Khan Academy's AI tutor, Khanmigo, increased from 68,000 to 1.4 million users in one year."
+        "US attacks on Iran led to an immediate price increase for gold, with Chinese spot gold dark market quoting $5,560 per ounce.",
+        "PAX Gold briefly surpassed its all-time high due to investors seeking safety amidst US-Israel attack on Iran.",
+        "Thailand halted gold trading due to excessive price volatility following US-Israeli strikes on Iran.",
+        "China's Shenzhen-Shubai gold and silver markets saw physical silver buyback price premium shoot up almost $20 USD per troy ounce.",
+        "Registered silver at the COMEX is at an all-time low, with the exchange potentially running out of physical silver in coming weeks.",
+        "The Shanghai Futures Exchange inventory plunged below 10 million ounces, and a Shanghai silver vault experienced significant silver outflow overnight.",
+        "The largest precious metals recycling company in SZ China is offering about $105 per ounce to buy back 99.99% silver."
       ],
       "signal_strength": 9,
       "themes": [
-        "education",
-        "artificial intelligence",
-        "parenting",
-        "future of work",
-        "cognitive development"
+        "geopolitics",
+        "precious metals",
+        "silver",
+        "gold",
+        "market volatility",
+        "china",
+        "comex",
+        "supply chain"
       ],
-      "positioning_implication": "Prioritize building foundational cognitive skills alongside AI literacy to enable effective AI utilization and critical thinking.  This dual approach prepares individuals for a future where AI is prevalent but human intellect remains essential.",
+      "positioning_implication": "Heightened geopolitical risk creates opportunities in precious metals, particularly silver, but requires vigilance due to potential for market manipulation and volatility.",
+      "time_horizon": "short",
+      "shelf_life": "Short",
+      "thumbnail": "https://i.ytimg.com/vi/rCqf_H27jCs/hqdefault.jpg",
+      "video_url": "https://www.youtube.com/watch?v=rCqf_H27jCs",
+      "cluster_id": 2,
+      "category": "Precious Metals"
+    },
+    {
+      "episode_title": "BREAKING: Trump BOMBS Iran and Calls for REGIME CHANGE",
+      "channel": "Raging Moderates",
+      "duration_minutes": 35,
+      "podcast_date": "2026-03-01",
+      "processing_date": "2026-03-01",
+      "one_line_summary": "Trump orders a military assault on Iran, targeting nuclear facilities and signaling support for regime change, escalating regional tensions with missile strikes and international calls for restraint.",
+      "core_claims": [
+        "Trump initiated a 'massive and ongoing' military targeting of Iran's nuclear program, missile industry, and navy.",
+        "Israeli forces reportedly targeted senior leadership sites in Iran, including areas tied to Supreme Leader Ali Khamenei.",
+        "Iran responded with an unprecedented wave of ballistic missile strikes toward Israel and US targets across the region, including the UAE, Qatar, and Bahrain.",
+        "The Israeli government spent 'months of preparation' before this assault.",
+        "Trump's speech acknowledged potential American casualties, differing from his prior 'peace president' campaign stance.",
+        "A solution that the Iranians had allegedly agreed to looked similar to the nuclear deal that Trump tore up."
+      ],
+      "signal_strength": 8,
+      "themes": [
+        "iran",
+        "trump",
+        "military action",
+        "regime change",
+        "israel",
+        "middle east",
+        "foreign policy",
+        "nuclear deal",
+        "conflict escalation"
+      ],
+      "positioning_implication": "Assess geopolitical risk exposure and downstream impacts on regional alliances; evaluate humanitarian scenarios and contingency plans.",
+      "time_horizon": "short",
+      "shelf_life": "Medium",
+      "thumbnail": "https://i.ytimg.com/vi/vk7UD2rqNho/hqdefault.jpg",
+      "video_url": "https://www.youtube.com/watch?v=vk7UD2rqNho",
+      "cluster_id": 0,
+      "category": "Politics"
+    },
+    {
+      "episode_title": "CLAUDE GOT BANNED - NOW THEY WILL KILL IT (LIVESTREAM)",
+      "channel": "Wes Roth",
+      "duration_minutes": 112,
+      "podcast_date": "2026-03-01",
+      "processing_date": "2026-03-01",
+      "one_line_summary": "The Pentagon's decision to designate Anthropic as a supply chain risk suggests a deeper conflict beyond federal restrictions, potentially jeopardizing the company's future.",
+      "core_claims": [
+        "Anthropic has been banned from all federal agencies.",
+        "The conflict originated when Claude was used in a lethal military operation in Caracas, Venezuela.",
+        "Anthropic may not survive the supply chain designation, leading to acquisition.",
+        "There is fear the company has a connection to the EA/Effective Altruism movement."
+      ],
+      "signal_strength": 8,
+      "themes": [
+        "ai ethics",
+        "government regulation",
+        "national security",
+        "artificial intelligence",
+        "supply chain risks",
+        "autonomous weapons"
+      ],
+      "positioning_implication": "Assess AI company relationships to defense contracts and potential regulatory risks. Evaluate Anthropic for potential acquisition opportunities.",
       "time_horizon": "medium",
       "shelf_life": "Medium",
-      "thumbnail": "https://i.ytimg.com/vi/2ghhiPLg-jg/hqdefault.jpg",
-      "video_url": "https://www.youtube.com/watch?v=2ghhiPLg-jg",
+      "thumbnail": "https://i.ytimg.com/vi/eAWkezTcIlM/hqdefault.jpg",
+      "video_url": "https://www.youtube.com/watch?v=eAWkezTcIlM",
       "cluster_id": 0,
       "category": "Artificial Intelligence"
+    },
+    {
+      "episode_title": "Precious Metals Mining Profits Set to Rise by HUNDREDS of Percent \u2014 Analyst Forecasts Are Obsolete",
+      "channel": "Clive Thompson",
+      "duration_minutes": 28,
+      "podcast_date": "2026-03-01",
+      "processing_date": "2026-03-01",
+      "one_line_summary": "Precious metal values are rising on confidence collapse and systemic failure fears, shifting investment focus towards gold and silver miners despite geopolitical risks.",
+      "core_claims": [
+        "Gold has established itself above $5000, becoming the 'new norm'.",
+        "Silver has established itself above $50, indicating a sustained price level.",
+        "Central banks are increasing gold reserves while decreasing US dollar exposure.",
+        "Silver industrial demand is rising even as mine production declines.",
+        "The silver deficit is increasing and is met by above-ground recycled and sold-back stocks.",
+        "India's new law lets equity funds invest up to 20% in gold/silver."
+      ],
+      "signal_strength": 9,
+      "themes": [
+        "precious metals",
+        "investment strategy",
+        "economic indicators",
+        "risk management",
+        "monetary policy",
+        "silver deficit"
+      ],
+      "positioning_implication": "Shift investment focus towards precious metal mining companies, particularly silver, anticipating significant profit increases due to rising metal prices and evolving monetary policies.",
+      "time_horizon": "medium",
+      "shelf_life": "Medium",
+      "thumbnail": "https://i.ytimg.com/vi/e4SkAKs74Jw/hqdefault.jpg",
+      "video_url": "https://www.youtube.com/watch?v=e4SkAKs74Jw",
+      "cluster_id": 0,
+      "category": "General Financial Investing and Speculation"
+    },
+    {
+      "episode_title": "A STORM is Coming - '40 to 50%' Crash Ahead as Market Bubble Starts to Crack: Edward Dowd",
+      "channel": "Commodity Culture",
+      "duration_minutes": 0,
+      "podcast_date": "2026-03-01",
+      "processing_date": "2026-03-01",
+      "one_line_summary": "The market is set for a significant 40-50% drawdown due to converging economic crises across AI, real estate, and demographics.",
+      "core_claims": [
+        "A 40% to 50% market drawdown is anticipated.",
+        "China faces a demographic crisis that will send shockwaves through the global economy.",
+        "The AI story is collapsing and will contribute to the market downturn.",
+        "The White Swan housing crisis is accelerating, indicated by plunging new permits and unprecedented gaps between homes for sale and sold.",
+        "Long duration treasuries are predicted to be the best performing asset class in 2026.",
+        "Home affordability is 30% overpriced, suggesting a 30% correction is needed."
+      ],
+      "signal_strength": 8,
+      "themes": [
+        "market crash",
+        "housing crisis",
+        "china",
+        "ai bubble",
+        "treasuries",
+        "economic outlook",
+        "black swan",
+        "geopolitics"
+      ],
+      "positioning_implication": "De-risk portfolios and consider long-duration treasuries; raise cash to capitalize on buying opportunities amidst anticipated market volatility and economic slowdown.",
+      "time_horizon": "short",
+      "shelf_life": "Medium",
+      "thumbnail": "https://i.ytimg.com/vi/87A_CMVJVbQ/hqdefault.jpg",
+      "video_url": "https://www.youtube.com/watch?v=87A_CMVJVbQ",
+      "cluster_id": 1,
+      "category": "Precious Metals"
+    },
+    {
+      "episode_title": "The Market Is At A \"Very Important Crossroads\". Which Way Will It Break? | Lance Roberts",
+      "channel": "Adam Taggart | Thoughtful Money\u00ae",
+      "duration_minutes": 65,
+      "podcast_date": "2026-03-01",
+      "processing_date": "2026-03-01",
+      "one_line_summary": "The market is at a pivotal point, needing to decide direction, and traders should follow that trend.",
+      "core_claims": [
+        "The market needs to decide which way it's going to break out.",
+        "A 3-4% market correction is normal and shouldn't cause major concern.",
+        "Technology is now cheaper on a forward valuation basis than staples, industrials, and energy.",
+        "A cross below daily moving averages is a bearish sign warranting caution; exposure was reduced in equity model this week.",
+        "If November lows are breached, a reversal down to 6550 on the S&P is possible.",
+        "If 3-3.5% economic growth occurs because of capex spending, 3.7% inflation should be expected."
+      ],
+      "signal_strength": 7,
+      "themes": [
+        "market analysis",
+        "economic indicators",
+        "technical analysis",
+        "investment strategy",
+        "inflation",
+        "job market",
+        "artificial intelligence"
+      ],
+      "positioning_implication": "Be prepared to adapt to market shifts and potential corrections by adjusting investment strategies and diversifying portfolios.",
+      "time_horizon": "short",
+      "shelf_life": "Short",
+      "thumbnail": "https://i.ytimg.com/vi/ZsdcO6wZ1Fc/hqdefault.jpg",
+      "video_url": "https://www.youtube.com/watch?v=ZsdcO6wZ1Fc",
+      "cluster_id": 1,
+      "category": "General Financial Investing and Speculation"
+    },
+    {
+      "episode_title": "\u2018Hidden\u2019 Gold & Silver Buyers: Governments, Banks & Companies Reshaping Markets | Phair & Makori",
+      "channel": "Miles Franklin Media",
+      "duration_minutes": 60,
+      "podcast_date": "2026-03-01",
+      "processing_date": "2024-02-29",
+      "one_line_summary": "Governments, banks, and companies are strategically acquiring gold and silver, signaling a shift from trading to hoarding in a bifurcated world.",
+      "core_claims": [
+        "Globalization broke down in the last five years, resulting in a decade of major change.",
+        "Governments are now active participants in commodity markets.",
+        "Publicly listed companies are adding physical silver to balance sheets as treasury assets.",
+        "Central banks and institutions are accumulating gold, driven by distrust in the Western banking system.",
+        "World War III type scenarios could absolutely be formed.",
+        "Airlines that normally do high value are going to a 3x price on bid systems because amount of material moving is unseen to the public."
+      ],
+      "signal_strength": 9,
+      "themes": [
+        "precious metals",
+        "geopolitics",
+        "market manipulation",
+        "financial system",
+        "economic warfare",
+        "commodities",
+        "supply chain"
+      ],
+      "positioning_implication": "Shift investment focus towards hard assets amid geopolitical tensions; reassess counterparty risks and jurisdictional exposures.",
+      "time_horizon": "medium",
+      "shelf_life": "Medium",
+      "thumbnail": "https://i.ytimg.com/vi/PL9N-OBalE0/hqdefault.jpg",
+      "video_url": "https://www.youtube.com/watch?v=PL9N-OBalE0",
+      "cluster_id": 0,
+      "category": "Precious Metals"
+    },
+    {
+      "episode_title": "The US Iran Conflict Will Make (Smart) Investors Rich l Here\u2019s How",
+      "channel": "Felix & Friends (Goat Academy)",
+      "duration_minutes": 43,
+      "podcast_date": "2026-03-01",
+      "processing_date": "2024-01-26",
+      "one_line_summary": "Geopolitical conflicts follow predictable market phases, presenting opportunities for informed investors who avoid panic.",
+      "core_claims": [
+        "Major conflicts like the Gulf War, Iraq War, and Russia-Ukraine War all follow a similar market pattern that retail investors often misinterpret, either panic-selling or chasing defense stocks at the peak.",
+        "Markets go through three phases during geopolitical conflict: an initial shock, a repricing phase, and a sector rotation phase.",
+        "During the initial shock phase, oil prices and the VIX (fear index) increase, while risk stocks drop and gold tends to rise.",
+        "The S&P typically declines 5-7% in the first 10 days of a conflict, remaining flat after 35 days, and rising 8-10% after 12 months.",
+        "Energy infrastructure companies and defense stocks are likely to benefit in the long term.",
+        "Following a geopolitical shock, gold continues to outperform by 19% on average after six months."
+      ],
+      "signal_strength": 8,
+      "themes": [
+        "investing",
+        "geopolitics",
+        "market analysis",
+        "risk management",
+        "oil prices",
+        "defense stocks"
+      ],
+      "positioning_implication": "Shift portfolio allocation to benefit from predictable sector rotations during geopolitical tensions. Prioritize companies with pricing power to mitigate inflation risks.",
+      "time_horizon": "medium",
+      "shelf_life": "Medium",
+      "thumbnail": "https://i.ytimg.com/vi/XnU_ZfkSDfc/hqdefault.jpg",
+      "video_url": "https://www.youtube.com/watch?v=XnU_ZfkSDfc",
+      "cluster_id": 0,
+      "category": "General Financial Investing and Speculation"
     }
   ],
   "category_intelligence": {
@@ -77,14 +307,15 @@
       "clusters": [
         {
           "id": 0,
-          "name": "China-Taiwan Geopolitics Intensifying Precious Metals Demand",
-          "description": "Geopolitical risks involving China and Taiwan are expected to increase demand for gold and silver as safe-haven assets.",
+          "name": "Geopolitical Tensions Intensifying Precious Metals Hoarding",
+          "description": "Escalating US-China tensions and Taiwan invasion risks are driving strategic gold and silver accumulation, shifting market dynamics from trading to hoarding.\n\u26a1 Convergence Alert: Overlap detected with [Systemic Fears Intensifying Precious Metals Pivot] in General Financial Investing and Speculation (0.82 sim)",
           "bias": "constructive",
-          "regime": "Emerging",
-          "size": 1,
-          "strength": 0.0,
-          "coherence": 1.0,
+          "regime": "Accelerating",
+          "size": 2,
+          "strength": 1.4815680041896027,
+          "coherence": 0.7407840020948013,
           "channels": [
+            "Miles Franklin Media",
             "Wall Street Bullion"
           ],
           "avg_signal": 8.0,
@@ -92,38 +323,228 @@
             {
               "episode_title": "ALERT: Gold & Silver Prices To SKYROCKET As War In The Middle East Breaks Out",
               "channel": "Wall Street Bullion",
-              "duration_minutes": 45,
+              "duration_minutes": 41,
               "podcast_date": "2026-03-01",
-              "processing_date": "2024-02-27",
-              "one_line_summary": "Geopolitical tensions, particularly regarding China and Taiwan, and potential US economic dependence on China will drive gold and silver prices higher.",
+              "processing_date": "2026-03-01",
+              "one_line_summary": "Gold and silver prices will continue to climb due to increasing global tensions, particularly the US vs. China conflict, and the potential for a delayed but not eliminated invasion of Taiwan.",
               "core_claims": [
-                "Current global tensions, namely the potential for a US-China conflict over Taiwan, are currently suppressed by internal purges within the Chinese People's Liberation Army, delaying but not eliminating the risk.",
-                "The market anticipates events a year in advance, causing gold and silver prices to reflect perceived geopolitical risks.",
-                "The US economy is heavily reliant on China for vital components, potentially limiting its capacity to act forcefully against Chinese aggression.",
-                "Central banks are actively purchasing gold, driven by geopolitical tensions rather than concerns about fiat currency.",
-                "Copper, like gold and silver, acts as a 'money metal' and its price trends tend to correlate with gold over time, suggesting it is positioned for future price appreciation.",
-                "The speaker has invested in Floral (American Atomic), Copper and oil."
+                "The shift of China potentially invading Taiwan has been pushed back a year or two due to political instability, impacting gold and silver's vertical acceleration.",
+                "China's industrial dominance, particularly in rare earth processing, complicates America's self-reliance and military strategy.",
+                "Copper, a monetary metal with a history in coins, tends to track gold's movements and is set to rise significantly.",
+                "Oil prices are expected to surge above $100 in the coming years.",
+                "Nuclear energy, underwater cables, and AI sectors represent strategic investment opportunities."
               ],
-              "signal_strength": 8,
+              "signal_strength": 7,
               "themes": [
                 "geopolitics",
                 "precious metals",
+                "economic forecasting",
                 "china",
                 "taiwan",
-                "commodities",
-                "investment strategy",
-                "central banks",
-                "copper",
-                "nuclear power",
-                "AI"
+                "investment strategies"
               ],
-              "positioning_implication": "Consider hedging geopolitical risk with allocations to gold, silver, and potentially copper, nuclear power stations or AI, while recognizing the potential for delayed but not eliminated escalation.",
+              "positioning_implication": "Shift investment focus towards copper, nuclear energy, underwater cables and AI sectors; hedge against long-term geopolitical risks with precious metals.",
               "time_horizon": "medium",
               "shelf_life": "Medium",
               "thumbnail": "https://i.ytimg.com/vi/FVSLQ_7fJTs/hqdefault.jpg",
               "video_url": "https://www.youtube.com/watch?v=FVSLQ_7fJTs",
               "cluster_id": 0,
               "category": "Precious Metals"
+            },
+            {
+              "episode_title": "\u2018Hidden\u2019 Gold & Silver Buyers: Governments, Banks & Companies Reshaping Markets | Phair & Makori",
+              "channel": "Miles Franklin Media",
+              "duration_minutes": 60,
+              "podcast_date": "2026-03-01",
+              "processing_date": "2024-02-29",
+              "one_line_summary": "Governments, banks, and companies are strategically acquiring gold and silver, signaling a shift from trading to hoarding in a bifurcated world.",
+              "core_claims": [
+                "Globalization broke down in the last five years, resulting in a decade of major change.",
+                "Governments are now active participants in commodity markets.",
+                "Publicly listed companies are adding physical silver to balance sheets as treasury assets.",
+                "Central banks and institutions are accumulating gold, driven by distrust in the Western banking system.",
+                "World War III type scenarios could absolutely be formed.",
+                "Airlines that normally do high value are going to a 3x price on bid systems because amount of material moving is unseen to the public."
+              ],
+              "signal_strength": 9,
+              "themes": [
+                "precious metals",
+                "geopolitics",
+                "market manipulation",
+                "financial system",
+                "economic warfare",
+                "commodities",
+                "supply chain"
+              ],
+              "positioning_implication": "Shift investment focus towards hard assets amid geopolitical tensions; reassess counterparty risks and jurisdictional exposures.",
+              "time_horizon": "medium",
+              "shelf_life": "Medium",
+              "thumbnail": "https://i.ytimg.com/vi/PL9N-OBalE0/hqdefault.jpg",
+              "video_url": "https://www.youtube.com/watch?v=PL9N-OBalE0",
+              "cluster_id": 0,
+              "category": "Precious Metals"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "name": "China Silver Volatility Intensifying Geopolitical Metals Pressure",
+          "description": "China's silver market volatility amplifies geopolitical pressures on precious metal pricing and inventories.\n\u26a1 Convergence Alert: Overlap detected with [Systemic Fears Intensifying Precious Metals Pivot] in General Financial Investing and Speculation (0.77 sim)",
+          "bias": "neutral",
+          "regime": "Emerging",
+          "size": 1,
+          "strength": 1.0,
+          "coherence": 1.0,
+          "channels": [
+            "Rons Basement"
+          ],
+          "avg_signal": 9.0,
+          "briefs": [
+            {
+              "episode_title": "\ud83e\udd8d\ud83e\udd8d- SILVER & Gold Just had a MASSIVE Change... (Iran, COMEX, China & More News too!)",
+              "channel": "Rons Basement",
+              "duration_minutes": 51,
+              "podcast_date": "2026-03-01",
+              "processing_date": "2026-03-01",
+              "one_line_summary": "Geopolitical tensions and market dynamics cause shifts in precious metal prices and inventories, with China's silver market showing unique volatility.",
+              "core_claims": [
+                "US attacks on Iran led to an immediate price increase for gold, with Chinese spot gold dark market quoting $5,560 per ounce.",
+                "PAX Gold briefly surpassed its all-time high due to investors seeking safety amidst US-Israel attack on Iran.",
+                "Thailand halted gold trading due to excessive price volatility following US-Israeli strikes on Iran.",
+                "China's Shenzhen-Shubai gold and silver markets saw physical silver buyback price premium shoot up almost $20 USD per troy ounce.",
+                "Registered silver at the COMEX is at an all-time low, with the exchange potentially running out of physical silver in coming weeks.",
+                "The Shanghai Futures Exchange inventory plunged below 10 million ounces, and a Shanghai silver vault experienced significant silver outflow overnight.",
+                "The largest precious metals recycling company in SZ China is offering about $105 per ounce to buy back 99.99% silver."
+              ],
+              "signal_strength": 9,
+              "themes": [
+                "geopolitics",
+                "precious metals",
+                "silver",
+                "gold",
+                "market volatility",
+                "china",
+                "comex",
+                "supply chain"
+              ],
+              "positioning_implication": "Heightened geopolitical risk creates opportunities in precious metals, particularly silver, but requires vigilance due to potential for market manipulation and volatility.",
+              "time_horizon": "short",
+              "shelf_life": "Short",
+              "thumbnail": "https://i.ytimg.com/vi/rCqf_H27jCs/hqdefault.jpg",
+              "video_url": "https://www.youtube.com/watch?v=rCqf_H27jCs",
+              "cluster_id": 2,
+              "category": "Precious Metals"
+            }
+          ]
+        },
+        {
+          "id": 1,
+          "name": "Economic Crises Converging: Market Drawdown",
+          "description": "Highlights the confluence of AI, real estate, and demographic crises leading to a substantial market correction.",
+          "bias": "defensive",
+          "regime": "Emerging",
+          "size": 1,
+          "strength": 1.0,
+          "coherence": 1.0,
+          "channels": [
+            "Commodity Culture"
+          ],
+          "avg_signal": 8.0,
+          "briefs": [
+            {
+              "episode_title": "A STORM is Coming - '40 to 50%' Crash Ahead as Market Bubble Starts to Crack: Edward Dowd",
+              "channel": "Commodity Culture",
+              "duration_minutes": 0,
+              "podcast_date": "2026-03-01",
+              "processing_date": "2026-03-01",
+              "one_line_summary": "The market is set for a significant 40-50% drawdown due to converging economic crises across AI, real estate, and demographics.",
+              "core_claims": [
+                "A 40% to 50% market drawdown is anticipated.",
+                "China faces a demographic crisis that will send shockwaves through the global economy.",
+                "The AI story is collapsing and will contribute to the market downturn.",
+                "The White Swan housing crisis is accelerating, indicated by plunging new permits and unprecedented gaps between homes for sale and sold.",
+                "Long duration treasuries are predicted to be the best performing asset class in 2026.",
+                "Home affordability is 30% overpriced, suggesting a 30% correction is needed."
+              ],
+              "signal_strength": 8,
+              "themes": [
+                "market crash",
+                "housing crisis",
+                "china",
+                "ai bubble",
+                "treasuries",
+                "economic outlook",
+                "black swan",
+                "geopolitics"
+              ],
+              "positioning_implication": "De-risk portfolios and consider long-duration treasuries; raise cash to capitalize on buying opportunities amidst anticipated market volatility and economic slowdown.",
+              "time_horizon": "short",
+              "shelf_life": "Medium",
+              "thumbnail": "https://i.ytimg.com/vi/87A_CMVJVbQ/hqdefault.jpg",
+              "video_url": "https://www.youtube.com/watch?v=87A_CMVJVbQ",
+              "cluster_id": 1,
+              "category": "Precious Metals"
+            }
+          ]
+        }
+      ],
+      "should_generate": false
+    },
+    "Politics": {
+      "name": "Politics",
+      "meta_summary": "",
+      "convergence_score": 0.0,
+      "percentile": 0.0,
+      "regime_state": "Neutral",
+      "clusters": [
+        {
+          "id": 0,
+          "name": "Iran Conflict Escalation Intensifying",
+          "description": "Military action signals a shift towards regime change, heightening regional instability and international diplomatic pressure.",
+          "bias": "defensive",
+          "regime": "Emerging",
+          "size": 1,
+          "strength": 0.0,
+          "coherence": 1.0,
+          "channels": [
+            "Raging Moderates"
+          ],
+          "avg_signal": 8.0,
+          "briefs": [
+            {
+              "episode_title": "BREAKING: Trump BOMBS Iran and Calls for REGIME CHANGE",
+              "channel": "Raging Moderates",
+              "duration_minutes": 35,
+              "podcast_date": "2026-03-01",
+              "processing_date": "2026-03-01",
+              "one_line_summary": "Trump orders a military assault on Iran, targeting nuclear facilities and signaling support for regime change, escalating regional tensions with missile strikes and international calls for restraint.",
+              "core_claims": [
+                "Trump initiated a 'massive and ongoing' military targeting of Iran's nuclear program, missile industry, and navy.",
+                "Israeli forces reportedly targeted senior leadership sites in Iran, including areas tied to Supreme Leader Ali Khamenei.",
+                "Iran responded with an unprecedented wave of ballistic missile strikes toward Israel and US targets across the region, including the UAE, Qatar, and Bahrain.",
+                "The Israeli government spent 'months of preparation' before this assault.",
+                "Trump's speech acknowledged potential American casualties, differing from his prior 'peace president' campaign stance.",
+                "A solution that the Iranians had allegedly agreed to looked similar to the nuclear deal that Trump tore up."
+              ],
+              "signal_strength": 8,
+              "themes": [
+                "iran",
+                "trump",
+                "military action",
+                "regime change",
+                "israel",
+                "middle east",
+                "foreign policy",
+                "nuclear deal",
+                "conflict escalation"
+              ],
+              "positioning_implication": "Assess geopolitical risk exposure and downstream impacts on regional alliances; evaluate humanitarian scenarios and contingency plans.",
+              "time_horizon": "short",
+              "shelf_life": "Medium",
+              "thumbnail": "https://i.ytimg.com/vi/vk7UD2rqNho/hqdefault.jpg",
+              "video_url": "https://www.youtube.com/watch?v=vk7UD2rqNho",
+              "cluster_id": 0,
+              "category": "Politics"
             }
           ]
         }
@@ -139,46 +560,187 @@
       "clusters": [
         {
           "id": 0,
-          "name": "AI Skills Intensifying Education Pivot",
-          "description": "Highlights the growing need to adapt educational approaches to integrate AI skills while maintaining foundational knowledge.",
-          "bias": "constructive",
+          "name": "Anthropic: National Security Risks Intensifying",
+          "description": "The Pentagon's action signals escalating national security scrutiny, potentially hindering Anthropic's growth and market access.",
+          "bias": "defensive",
           "regime": "Emerging",
           "size": 1,
           "strength": 0.0,
           "coherence": 1.0,
           "channels": [
-            "AI News & Strategy Daily | Nate B Jones"
+            "Wes Roth"
           ],
-          "avg_signal": 9.0,
+          "avg_signal": 8.0,
           "briefs": [
             {
-              "episode_title": "My 10-Year-Old Vibe Codes. She Also Does Math by Hand. Why That's the Only Strategy That Works.",
-              "channel": "AI News & Strategy Daily | Nate B Jones",
-              "duration_minutes": 0,
+              "episode_title": "CLAUDE GOT BANNED - NOW THEY WILL KILL IT (LIVESTREAM)",
+              "channel": "Wes Roth",
+              "duration_minutes": 112,
               "podcast_date": "2026-03-01",
               "processing_date": "2026-03-01",
-              "one_line_summary": "Balancing AI usage with foundational skills is crucial for children's development in a rapidly changing world.",
+              "one_line_summary": "The Pentagon's decision to designate Anthropic as a supply chain risk suggests a deeper conflict beyond federal restrictions, potentially jeopardizing the company's future.",
               "core_claims": [
-                "Artificial General Intelligence (AGI) is currently available.",
-                "AI tutors outperform human tutors in controlled studies.",
-                "86% of students globally use AI in their learning, with the UK reporting 92% usage in 2025.",
-                "Khan Academy's AI tutor, Khanmigo, increased from 68,000 to 1.4 million users in one year."
+                "Anthropic has been banned from all federal agencies.",
+                "The conflict originated when Claude was used in a lethal military operation in Caracas, Venezuela.",
+                "Anthropic may not survive the supply chain designation, leading to acquisition.",
+                "There is fear the company has a connection to the EA/Effective Altruism movement."
+              ],
+              "signal_strength": 8,
+              "themes": [
+                "ai ethics",
+                "government regulation",
+                "national security",
+                "artificial intelligence",
+                "supply chain risks",
+                "autonomous weapons"
+              ],
+              "positioning_implication": "Assess AI company relationships to defense contracts and potential regulatory risks. Evaluate Anthropic for potential acquisition opportunities.",
+              "time_horizon": "medium",
+              "shelf_life": "Medium",
+              "thumbnail": "https://i.ytimg.com/vi/eAWkezTcIlM/hqdefault.jpg",
+              "video_url": "https://www.youtube.com/watch?v=eAWkezTcIlM",
+              "cluster_id": 0,
+              "category": "Artificial Intelligence"
+            }
+          ]
+        }
+      ],
+      "should_generate": false
+    },
+    "General Financial Investing and Speculation": {
+      "name": "General Financial Investing and Speculation",
+      "meta_summary": "",
+      "convergence_score": 0.0,
+      "percentile": 0.0,
+      "regime_state": "Neutral",
+      "clusters": [
+        {
+          "id": 0,
+          "name": "Systemic Fears Intensifying Precious Metals Pivot",
+          "description": "Investment focus shifts to precious metals as systemic fears and geopolitical risks intensify.",
+          "bias": "defensive",
+          "regime": "Accelerating",
+          "size": 2,
+          "strength": 1.294242170329144,
+          "coherence": 0.647121085164572,
+          "channels": [
+            "Felix & Friends (Goat Academy)",
+            "Clive Thompson"
+          ],
+          "avg_signal": 8.5,
+          "briefs": [
+            {
+              "episode_title": "Precious Metals Mining Profits Set to Rise by HUNDREDS of Percent \u2014 Analyst Forecasts Are Obsolete",
+              "channel": "Clive Thompson",
+              "duration_minutes": 28,
+              "podcast_date": "2026-03-01",
+              "processing_date": "2026-03-01",
+              "one_line_summary": "Precious metal values are rising on confidence collapse and systemic failure fears, shifting investment focus towards gold and silver miners despite geopolitical risks.",
+              "core_claims": [
+                "Gold has established itself above $5000, becoming the 'new norm'.",
+                "Silver has established itself above $50, indicating a sustained price level.",
+                "Central banks are increasing gold reserves while decreasing US dollar exposure.",
+                "Silver industrial demand is rising even as mine production declines.",
+                "The silver deficit is increasing and is met by above-ground recycled and sold-back stocks.",
+                "India's new law lets equity funds invest up to 20% in gold/silver."
               ],
               "signal_strength": 9,
               "themes": [
-                "education",
-                "artificial intelligence",
-                "parenting",
-                "future of work",
-                "cognitive development"
+                "precious metals",
+                "investment strategy",
+                "economic indicators",
+                "risk management",
+                "monetary policy",
+                "silver deficit"
               ],
-              "positioning_implication": "Prioritize building foundational cognitive skills alongside AI literacy to enable effective AI utilization and critical thinking.  This dual approach prepares individuals for a future where AI is prevalent but human intellect remains essential.",
+              "positioning_implication": "Shift investment focus towards precious metal mining companies, particularly silver, anticipating significant profit increases due to rising metal prices and evolving monetary policies.",
               "time_horizon": "medium",
               "shelf_life": "Medium",
-              "thumbnail": "https://i.ytimg.com/vi/2ghhiPLg-jg/hqdefault.jpg",
-              "video_url": "https://www.youtube.com/watch?v=2ghhiPLg-jg",
+              "thumbnail": "https://i.ytimg.com/vi/e4SkAKs74Jw/hqdefault.jpg",
+              "video_url": "https://www.youtube.com/watch?v=e4SkAKs74Jw",
               "cluster_id": 0,
-              "category": "Artificial Intelligence"
+              "category": "General Financial Investing and Speculation"
+            },
+            {
+              "episode_title": "The US Iran Conflict Will Make (Smart) Investors Rich l Here\u2019s How",
+              "channel": "Felix & Friends (Goat Academy)",
+              "duration_minutes": 43,
+              "podcast_date": "2026-03-01",
+              "processing_date": "2024-01-26",
+              "one_line_summary": "Geopolitical conflicts follow predictable market phases, presenting opportunities for informed investors who avoid panic.",
+              "core_claims": [
+                "Major conflicts like the Gulf War, Iraq War, and Russia-Ukraine War all follow a similar market pattern that retail investors often misinterpret, either panic-selling or chasing defense stocks at the peak.",
+                "Markets go through three phases during geopolitical conflict: an initial shock, a repricing phase, and a sector rotation phase.",
+                "During the initial shock phase, oil prices and the VIX (fear index) increase, while risk stocks drop and gold tends to rise.",
+                "The S&P typically declines 5-7% in the first 10 days of a conflict, remaining flat after 35 days, and rising 8-10% after 12 months.",
+                "Energy infrastructure companies and defense stocks are likely to benefit in the long term.",
+                "Following a geopolitical shock, gold continues to outperform by 19% on average after six months."
+              ],
+              "signal_strength": 8,
+              "themes": [
+                "investing",
+                "geopolitics",
+                "market analysis",
+                "risk management",
+                "oil prices",
+                "defense stocks"
+              ],
+              "positioning_implication": "Shift portfolio allocation to benefit from predictable sector rotations during geopolitical tensions. Prioritize companies with pricing power to mitigate inflation risks.",
+              "time_horizon": "medium",
+              "shelf_life": "Medium",
+              "thumbnail": "https://i.ytimg.com/vi/XnU_ZfkSDfc/hqdefault.jpg",
+              "video_url": "https://www.youtube.com/watch?v=XnU_ZfkSDfc",
+              "cluster_id": 0,
+              "category": "General Financial Investing and Speculation"
+            }
+          ]
+        },
+        {
+          "id": 1,
+          "name": "Market Pivoting: Direction Decisive",
+          "description": "The market faces a critical juncture, requiring traders to align with the emerging trend for optimal investment strategy.",
+          "bias": "neutral",
+          "regime": "Emerging",
+          "size": 1,
+          "strength": 1.0,
+          "coherence": 1.0,
+          "channels": [
+            "Adam Taggart | Thoughtful Money\u00ae"
+          ],
+          "avg_signal": 7.0,
+          "briefs": [
+            {
+              "episode_title": "The Market Is At A \"Very Important Crossroads\". Which Way Will It Break? | Lance Roberts",
+              "channel": "Adam Taggart | Thoughtful Money\u00ae",
+              "duration_minutes": 65,
+              "podcast_date": "2026-03-01",
+              "processing_date": "2026-03-01",
+              "one_line_summary": "The market is at a pivotal point, needing to decide direction, and traders should follow that trend.",
+              "core_claims": [
+                "The market needs to decide which way it's going to break out.",
+                "A 3-4% market correction is normal and shouldn't cause major concern.",
+                "Technology is now cheaper on a forward valuation basis than staples, industrials, and energy.",
+                "A cross below daily moving averages is a bearish sign warranting caution; exposure was reduced in equity model this week.",
+                "If November lows are breached, a reversal down to 6550 on the S&P is possible.",
+                "If 3-3.5% economic growth occurs because of capex spending, 3.7% inflation should be expected."
+              ],
+              "signal_strength": 7,
+              "themes": [
+                "market analysis",
+                "economic indicators",
+                "technical analysis",
+                "investment strategy",
+                "inflation",
+                "job market",
+                "artificial intelligence"
+              ],
+              "positioning_implication": "Be prepared to adapt to market shifts and potential corrections by adjusting investment strategies and diversifying portfolios.",
+              "time_horizon": "short",
+              "shelf_life": "Short",
+              "thumbnail": "https://i.ytimg.com/vi/ZsdcO6wZ1Fc/hqdefault.jpg",
+              "video_url": "https://www.youtube.com/watch?v=ZsdcO6wZ1Fc",
+              "cluster_id": 1,
+              "category": "General Financial Investing and Speculation"
             }
           ]
         }
