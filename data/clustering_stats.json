@@ -1,51 +1,5 @@
 [
   {
-    "timestamp": "2026-02-26T17:26:20.426106",
-    "video_count": 19,
-    "cluster_count": 6,
-    "singleton_count": 5,
-    "max_cluster_size": 14,
-    "mean_cluster_size": 3.1666666666666665,
-    "threshold_dist": 0.24549763927366897,
-    "percentile": 85,
-    "linkage": "single",
-    "distribution": [
-      14,
-      1,
-      1,
-      1,
-      1,
-      1
-    ]
-  },
-  {
-    "timestamp": "2026-02-26T17:26:20.428407",
-    "video_count": 21,
-    "cluster_count": 14,
-    "singleton_count": 9,
-    "max_cluster_size": 3,
-    "mean_cluster_size": 1.5,
-    "threshold_dist": 0.24042350001212875,
-    "percentile": 85,
-    "linkage": "complete",
-    "distribution": [
-      3,
-      3,
-      2,
-      2,
-      2,
-      1,
-      1,
-      1,
-      1,
-      1,
-      1,
-      1,
-      1,
-      1
-    ]
-  },
-  {
     "timestamp": "2026-02-26T17:26:20.430169",
     "video_count": 21,
     "cluster_count": 12,
@@ -730,6 +684,39 @@
     "linkage": "complete",
     "distribution": [
       2,
+      1
+    ]
+  },
+  {
+    "timestamp": "2026-03-02T07:06:54.236562",
+    "video_count": 3,
+    "cluster_count": 2,
+    "singleton_count": 1,
+    "max_cluster_size": 2,
+    "mean_cluster_size": 1.5,
+    "avg_coherence": 0.8649737772710293,
+    "threshold_dist": 0.27005244545794127,
+    "percentile": 85,
+    "linkage": "complete",
+    "distribution": [
+      2,
+      1
+    ]
+  },
+  {
+    "timestamp": "2026-03-02T07:06:57.839138",
+    "video_count": 4,
+    "cluster_count": 3,
+    "singleton_count": 2,
+    "max_cluster_size": 2,
+    "mean_cluster_size": 1.3333333333333333,
+    "avg_coherence": 0.8995182088149537,
+    "threshold_dist": 0.30703642774074824,
+    "percentile": 85,
+    "linkage": "complete",
+    "distribution": [
+      2,
+      1,
       1
     ]
   }
