@@ -1,0 +1,1479 @@
+{
+  "date": "2026-03-03",
+  "briefs": [
+    {
+      "episode_title": "They spent MILLIONS on this...",
+      "channel": "Matthew Berman",
+      "duration_minutes": 15,
+      "podcast_date": "2026-03-03",
+      "processing_date": "2024-01-26",
+      "one_line_summary": "My Fitness Pal's acquisition of Cal AI demonstrates a misunderstanding of the evolving software landscape where core functionalities can be rapidly replicated using AI agents.",
+      "core_claims": [
+        "My Fitness Pal acquired Cal AI, indicating a misunderstanding of the current software trajectory.",
+        "The core functionality of Cal AI can be 'vibecoded' in under an hour.",
+        "TechCrunch reports acquisition negotiations lasted almost a year, indicating the core dev team may have been focused on the wrong things.",
+        "My Fitness Pal's previous acquisition by Under Armour resulted in a $130 million loss over five years.",
+        "AI agents will diminish the vertical SaaS category by incorporating similar functionality directly.",
+        "The speaker created the core functionality of Cal AI in under 20 minutes with openCLaw, incurring minimal additional cost."
+      ],
+      "signal_strength": 9,
+      "themes": [
+        "ai agents",
+        "software industry",
+        "acquisitions",
+        "saas",
+        "valuation",
+        "distribution",
+        "tech debt"
+      ],
+      "positioning_implication": "Assess the durability of SaaS businesses relying on easily replicated features and distribution as core differentiators. Re-evaluate investment in companies unable to adapt to rapidly evolving technology landscapes.",
+      "time_horizon": "short",
+      "shelf_life": "Medium",
+      "thumbnail": "https://i.ytimg.com/vi/deEri629Nnw/hqdefault.jpg",
+      "video_url": "https://www.youtube.com/watch?v=deEri629Nnw",
+      "cluster_id": 2,
+      "category": "Artificial Intelligence"
+    },
+    {
+      "episode_title": "Fareed Zakaria on the Endgame in Iran  | Prof G Conversations",
+      "channel": "The Prof G Pod \u2013 Scott Galloway",
+      "duration_minutes": 42,
+      "podcast_date": "2026-03-03",
+      "processing_date": "2026-03-03",
+      "one_line_summary": "US/Israeli military campaign against Iran aims to destabilize the regime, but success is uncertain due to Iran's institutionalized structure.",
+      "core_claims": [
+        "Upside: Regime decapitation leading to collapse, defanging Iran as a regional power by destroying its navy, ballistic missile capability, and military-industrial complex.",
+        "Downside: Iran's institutionalized regime, difficult to change from the air without ground troops, could lead to regional instability.",
+        "Iranian miscalculation: Uniting the Gulf in support of the mission due to Iranian attacks on multiple Arab countries.",
+        "Success for Iran is survival, posing a challenge to the U.S. goal of regime change."
+      ],
+      "signal_strength": 7,
+      "themes": [
+        "iran",
+        "geopolitics",
+        "us foreign policy",
+        "military strategy",
+        "regime change",
+        "middle east"
+      ],
+      "positioning_implication": "Assess exposure to increased geopolitical instability and potential shifts in regional power dynamics. Adapt strategies to account for diverse global reactions and potential economic impacts.",
+      "time_horizon": "medium",
+      "shelf_life": "Medium",
+      "thumbnail": "https://i.ytimg.com/vi/JlOai763iOw/hqdefault.jpg",
+      "video_url": "https://www.youtube.com/watch?v=JlOai763iOw",
+      "cluster_id": 4,
+      "category": "General Financial Investing and Speculation"
+    },
+    {
+      "episode_title": "Why Everything You Know About REITs Is (Probably) Wrong: Dr. Mariya Letdin",
+      "channel": "Verified Investing",
+      "duration_minutes": 42,
+      "podcast_date": "2026-03-03",
+      "processing_date": "2026-03-03",
+      "one_line_summary": "Retail investors may misunderstand REITs by applying general stock market tools, overlooking unique features like illiquid asset bases and tax-exempt status.",
+      "core_claims": [
+        "REITs are publicly traded like stocks, but their underlying business model involves owning commercial real estate and distributing earnings as dividends.",
+        "REITs are generally tax-exempt, provided they distribute earnings to shareholders, resulting in steady dividends.",
+        "REITs often access capital markets more than regular firms due to their inability to retain earnings for growth, leading to constant public market pricing.",
+        "Short-term REIT pricing may offer opportunities due to mispricing between net asset value and public stock price.",
+        "REITs are often evaluated using tools ill-suited for their unique characteristics, failing to explain variation in REIT performance.",
+        "Using a value factor (high dividend yield) can predict poor REIT performance, with the speaker recommending shorting such REITs."
+      ],
+      "signal_strength": 8,
+      "themes": [
+        "reits",
+        "real estate",
+        "investing",
+        "finance",
+        "asset allocation",
+        "financial analysis"
+      ],
+      "positioning_implication": "Shift investment analysis in REITs to account for the asset class's distinct legal structure and financial reporting standards; focus on understanding market-specific impacts rather than broad generalizations.",
+      "time_horizon": "medium",
+      "shelf_life": "Medium",
+      "thumbnail": "https://i.ytimg.com/vi/nAWwqb7Abtk/hqdefault.jpg",
+      "video_url": "https://www.youtube.com/watch?v=nAWwqb7Abtk",
+      "cluster_id": 6,
+      "category": "General Financial Investing and Speculation"
+    },
+    {
+      "episode_title": "\u201cWe\u2019re Consuming More Than We Produce\u201d Silver Warning | Randy Smallwood",
+      "channel": "Kitco NEWS",
+      "duration_minutes": 35,
+      "podcast_date": "2026-03-03",
+      "processing_date": "2026-03-03",
+      "one_line_summary": "Silver's structural deficit and unique industrial demand, coupled with increasing Western investment, positions it for continued growth alongside gold, while mining costs and strategic project management remain critical.",
+      "core_claims": [
+        "$5,000 is considered the new base price for gold.",
+        "Silver is firming up in the high or mid 90s ($93-$94) per ounce.",
+        "Mining industry challenges revolve around lower grade materials becoming economical at current prices.",
+        "Silver's existing structural deficit is caused by consuming more than is being produced.",
+        "Peak silver production occurred around 2017-2018, and there has not been any substantive growth in the space since.",
+        "Wheaton expects to hit 900,000 gold equivalent ounces this year and to break the million mark well before 2030, targeting 1.2 million ounces."
+      ],
+      "signal_strength": 8,
+      "themes": [
+        "precious metals",
+        "silver",
+        "gold",
+        "mining industry",
+        "investment strategy",
+        "economic outlook"
+      ],
+      "positioning_implication": "Shift focus towards strategic allocation in silver mining operations, emphasizing project efficiency and cost management to capitalize on anticipated price appreciation.",
+      "time_horizon": "medium",
+      "shelf_life": "Medium",
+      "thumbnail": "https://i.ytimg.com/vi/rJwE0arp1y8/hqdefault.jpg",
+      "video_url": "https://www.youtube.com/watch?v=rJwE0arp1y8",
+      "cluster_id": 2,
+      "category": "General Financial Investing and Speculation"
+    },
+    {
+      "episode_title": "The Great Rotation Out Of Stocks Begins As Markets Enter \u2018Fourth Turning\u2019 | David Hay",
+      "channel": "David Lin",
+      "duration_minutes": 69,
+      "podcast_date": "2026-03-03",
+      "processing_date": "2024-04-03",
+      "one_line_summary": "Capital flight from US markets is underway, signaling the end of American exceptionalism and the beginning of a 'fourth turning' crisis era.",
+      "core_claims": [
+        "The age of American exceptionalism in markets may be ending.",
+        "Capital is flowing out of the US into other assets, including emerging markets.",
+        "Year-to-date performance for US stocks is the worst relative to global equities since 1995.",
+        "The US stock market is priced as if it were still the 1990s, despite current economic challenges.",
+        "Valuations overseas are much less demanding than in the US.",
+        "The Chinese market is quite interesting and could be one of the better performers."
+      ],
+      "signal_strength": 8,
+      "themes": [
+        "market rotation",
+        "fourth turning",
+        "american exceptionalism",
+        "emerging markets",
+        "capital flows",
+        "value investing"
+      ],
+      "positioning_implication": "Reduce exposure to overvalued US equities and diversify into international markets, particularly emerging economies.  Consider hard assets and selective opportunities in undervalued sectors.",
+      "time_horizon": "long",
+      "shelf_life": "Medium",
+      "thumbnail": "https://i.ytimg.com/vi/T9OYjEu_1Ls/hqdefault.jpg",
+      "video_url": "https://www.youtube.com/watch?v=T9OYjEu_1Ls",
+      "cluster_id": 1,
+      "category": "General Financial Investing and Speculation"
+    },
+    {
+      "episode_title": "LIVE Q & A WITH MILES FRANKLIN",
+      "channel": "Miles Franklin Media",
+      "duration_minutes": 54,
+      "podcast_date": "2026-03-03",
+      "processing_date": "2026-03-03",
+      "one_line_summary": "COMEX silver deliveries show a lack of trust and perception management via market intervention.",
+      "core_claims": [
+        "The Comex has experienced four glitches in three months, all technical issues, two on the way up, two on the way down.",
+        "Natural gas came back on before metals following a 'glitch', which the speaker finds insulting.",
+        "Silver leaving COMEX vaults exceeded deliveries by 165% for February contracts, signaling lack of trust.",
+        "Arbitrage between COMEX and Shanghai persists despite opportunity, indicating strategic control, natural gas closed 101, and 88 in change.",
+        "New laws in India allow retirement funds to invest in metals starting in April, using domestic exchange prices.",
+        "Bank of America projects silver could reach $309/oz by 2026.",
+        "75% of silver mined is a byproduct; state-sponsored price floors are needed to incentivize deeper silver mining."
+      ],
+      "signal_strength": 8,
+      "themes": [
+        "comex",
+        "silver",
+        "market manipulation",
+        "gold",
+        "delivery failures",
+        "trust",
+        "supply chain"
+      ],
+      "positioning_implication": "Be aware of contrivances in commodity markets and shift to physical holdings; anticipate strategic moves affecting arbitrage.",
+      "time_horizon": "short",
+      "shelf_life": "Medium",
+      "thumbnail": "https://i.ytimg.com/vi/eY6OKFqAeIw/hqdefault.jpg",
+      "video_url": "https://www.youtube.com/watch?v=eY6OKFqAeIw",
+      "cluster_id": 2,
+      "category": "Precious Metals"
+    },
+    {
+      "episode_title": "Trump LOSES CONTROL as UNLAWFUL War in Iran ERUPTS",
+      "channel": "Raging Moderates",
+      "duration_minutes": 33,
+      "podcast_date": "2026-03-03",
+      "processing_date": "2026-03-03",
+      "one_line_summary": "A retired US Navy Admiral analyzes potential scenarios following US-Israeli strikes in Iran, emphasizing the need for a comprehensive plan beyond military action.",
+      "core_claims": [
+        "There is a 30% chance that the Iranian people will rise up and overthrow the current regime.",
+        "A potential outcome involves a more moderate 'Iran 3.0' with remnants of the existing government.",
+        "A darker scenario exists where the current Iranian leadership intensifies repression of the populace.",
+        "Changing the Iranian regime through air power alone is unlikely without ground support."
+      ],
+      "signal_strength": 7,
+      "themes": [
+        "iran",
+        "middle east",
+        "military strategy",
+        "geopolitics",
+        "us foreign policy",
+        "risk assessment"
+      ],
+      "positioning_implication": "Assess potential shifts in power dynamics and resource flows, considering the likelihood of various regime change scenarios. Prioritize intelligence gathering and preparation of internal support structures rather than solely relying on military intervention.",
+      "time_horizon": "medium",
+      "shelf_life": "Medium",
+      "thumbnail": "https://i.ytimg.com/vi/lyFF59qoYbg/hqdefault.jpg",
+      "video_url": "https://www.youtube.com/watch?v=lyFF59qoYbg",
+      "cluster_id": 0,
+      "category": "Politics"
+    },
+    {
+      "episode_title": "FROM GAP TO GAIN \ud83d\ude80 How the US Bucked the Global Sell-Off",
+      "channel": "Verified Investing",
+      "duration_minutes": 22,
+      "podcast_date": "2026-03-03",
+      "processing_date": "2026-03-03",
+      "one_line_summary": "US markets defied global downturns due to easing inflation fears and news, presenting a near-term bullish outlook amidst underlying bearish conditions.",
+      "core_claims": [
+        "The US market bucked the overnight trend of red Asian and European markets.",
+        "Nvidia invested in Lite and Cohort to support AI data center space building.",
+        "The 10-year yield spiked due to higher oil costs, raising inflation concerns.",
+        "Closing of the Strait of Hormuz is anticipated to put pressure on oil prices.",
+        "Nokia's partnerships with TIM Brazil and Telecom spurred a 6.99% gain.",
+        "Palantir consolidates bearishly, with 145.87-147.56 acting as near term resistance."
+      ],
+      "signal_strength": 8,
+      "themes": [
+        "market analysis",
+        "investment strategies",
+        "geopolitics",
+        "technical analysis",
+        "oil prices",
+        "nvidia investments"
+      ],
+      "positioning_implication": "Maintain awareness of geopolitical tensions impacting market volatility; prioritize vigilance against potential pullbacks in overbought assets.",
+      "time_horizon": "short",
+      "shelf_life": "Medium",
+      "thumbnail": "https://i.ytimg.com/vi/SZyOzfwH_Q8/hqdefault.jpg",
+      "video_url": "https://www.youtube.com/watch?v=SZyOzfwH_Q8",
+      "cluster_id": 5,
+      "category": "General Financial Investing and Speculation"
+    },
+    {
+      "episode_title": "Claude kill count going up",
+      "channel": "Wes Roth",
+      "duration_minutes": 23,
+      "podcast_date": "2026-03-03",
+      "processing_date": "2024-05-01",
+      "one_line_summary": "Anthropic's Claude is confirmed for military ops, causing debate on AI control amid potential restrictions.",
+      "core_claims": [
+        "Claude was used by CENTCOM for intelligence assessments, target identification, and simulating battlefield scenarios after a Trump ban.",
+        "Anthropic supports lawful military uses, but draws red lines at autonomous weapons and mass domestic surveillance.",
+        "Sam Altman is advocating against supply chain risk designation for Anthropic, which could severely limit its business and is pushing for equal opportunities for all AI labs.",
+        "OpenAI has signed a contract with the Department of War, adhering to the same safeguards Anthropic was banned for requesting.",
+        "Dario Amodei believes he's building a world-changing technology that must be carefully controlled, leading to a clash with the Pentagon over policy control."
+      ],
+      "signal_strength": 8,
+      "themes": [
+        "ai ethics",
+        "military ai",
+        "government regulation",
+        "tech policy",
+        "national security",
+        "corporate responsibility"
+      ],
+      "positioning_implication": "Assess AI vendors based on security posture and regulatory alignment. Prioritize adaptive governance models amid AI's evolving role.",
+      "time_horizon": "medium",
+      "shelf_life": "Medium",
+      "thumbnail": "https://i.ytimg.com/vi/Hzm3D7i3NFk/hqdefault.jpg",
+      "video_url": "https://www.youtube.com/watch?v=Hzm3D7i3NFk",
+      "cluster_id": 1,
+      "category": "Artificial Intelligence"
+    },
+    {
+      "episode_title": "Iran Strike Shock: Panic Selling Just Starting, What Gets Hit Next? | Chris Vermeulen",
+      "channel": "David Lin",
+      "duration_minutes": 37,
+      "podcast_date": "2026-03-03",
+      "processing_date": "2024-01-27",
+      "one_line_summary": "Geopolitical tensions from Iran strike drive volatility across oil, stocks, gold, and Bitcoin, necessitating caution amidst market fluctuations.",
+      "core_claims": [
+        "Oil experienced an 11-12% spike overnight following news of the Iran strike.",
+        "Equities initially sold off sharply with the S&P 500 down 1.75% and Nasdaq over 2%, but buyers stepped in.",
+        "Stellar Gold's Tower project is estimated at $2.5 billion after-tax, assuming a $3,200 gold price.",
+        "Stellar Gold has drilled over 16 million ounces of gold across its projects, costing over $2 billion to replicate.",
+        "Bitcoin faces a potential downside target around $51,100 - $52,000 based on Fibonacci extension.",
+        "Gold's next potential move targets around $6,100, providing significant upside potential."
+      ],
+      "signal_strength": 8,
+      "themes": [
+        "geopolitics",
+        "market volatility",
+        "commodities",
+        "equities",
+        "cryptocurrency",
+        "technical analysis"
+      ],
+      "positioning_implication": "Exercise caution and monitor key resistance/support levels; shift portfolio allocation based on confirmed trend breaks rather than reacting to news headlines.",
+      "time_horizon": "short",
+      "shelf_life": "Short",
+      "thumbnail": "https://i.ytimg.com/vi/7WUOe29ylCI/hqdefault.jpg",
+      "video_url": "https://www.youtube.com/watch?v=7WUOe29ylCI",
+      "cluster_id": 0,
+      "category": "General Financial Investing and Speculation"
+    },
+    {
+      "episode_title": "Navigating Corporate Politics and Scott\u2019s Guide to Fundraising | Office Hours",
+      "channel": "The Prof G Pod \u2013 Scott Galloway",
+      "duration_minutes": 40,
+      "podcast_date": "2026-03-03",
+      "processing_date": "2024-01-26",
+      "one_line_summary": "Progressive identity politics and ideological purity tests risk alienating key demographics, potentially leading to adverse political outcomes.",
+      "core_claims": [
+        "Progressive identity politics and purity tests alienate potential democratic voters.",
+        "The Democratic Party's perceived focus on identity politics could lead to unexpected election results, such as a JD Vance presidency.",
+        "The speaker suggests focusing on economic security before engaging in corporate activism, advising caution when speaking out against employers.",
+        "Content marketing, including newsletters, videos, and podcast appearances, is effective for raising awareness and securing funding.",
+        "LinkedIn ads offer a high return on ad spend for B2B marketing by targeting specific professionals based on job title, industry, and skills.",
+        "Atheism, while lacking a belief in the divine, provides a framework for courage, self-forgiveness, and living a more authentic life.",
+        "Religion serves as a net positive in many individuals' lives, offering comfort, community, and a moral compass."
+      ],
+      "signal_strength": 8,
+      "themes": [
+        "identity politics",
+        "political strategy",
+        "corporate activism",
+        "fundraising",
+        "marketing",
+        "religion",
+        "atheism"
+      ],
+      "positioning_implication": "Re-evaluate ideological rigidity to broaden appeal and consider pragmatic risks before public activism; leverage content to build influence.",
+      "time_horizon": "medium",
+      "shelf_life": "Medium",
+      "thumbnail": "https://i.ytimg.com/vi/DgcuZJ5qD0E/hqdefault.jpg",
+      "video_url": "https://www.youtube.com/watch?v=DgcuZJ5qD0E",
+      "cluster_id": 3,
+      "category": "General Financial Investing and Speculation"
+    },
+    {
+      "episode_title": "America\u2019s \u20186 Trials by Fire\u2019: $40 Trillion Debt, CBDCs & Crisis That Began in 1971 | Kevin Freeman",
+      "channel": "Miles Franklin Media",
+      "duration_minutes": 59,
+      "podcast_date": "2026-03-03",
+      "processing_date": "2026-03-03",
+      "one_line_summary": "Leaving the gold standard in 1971 unleashed compounding global risks; debt, currency dethronement, CBDCs, wealth gaps, demographic shifts, and immigration crises.",
+      "core_claims": [
+        "National debt near $40T threatens the dollar's reserve currency status.",
+        "Central Bank Digital Currencies (CBDCs) aim to control money completely, exceeding the dollar's limitations.",
+        "Leaving the gold standard expanded the wealth gap, disproportionately enriching the top 0.1%.",
+        "Every trial began in 1971 when Nixon left the gold standard, ending with a country takeover via open borders."
+      ],
+      "signal_strength": 9,
+      "themes": [
+        "economic warfare",
+        "gold standard",
+        "cbdc",
+        "wealth gap",
+        "geopolitics",
+        "monetary policy"
+      ],
+      "positioning_implication": "Assess portfolio exposure to dollar devaluation and consider diversifying into alternative assets with inherent scarcity.",
+      "time_horizon": "medium",
+      "shelf_life": "Medium",
+      "thumbnail": "https://i.ytimg.com/vi/NSzgNju1zzo/hqdefault.jpg",
+      "video_url": "https://www.youtube.com/watch?v=NSzgNju1zzo",
+      "cluster_id": 1,
+      "category": "Precious Metals"
+    },
+    {
+      "episode_title": "Uranium Supply Gap Deepens as Nuclear Demand Rises | Scott Melbye",
+      "channel": "Kitco NEWS",
+      "duration_minutes": 27,
+      "podcast_date": "2026-03-03",
+      "processing_date": "2024-05-09",
+      "one_line_summary": "The uranium market faces a near-term supply deficit escalating to a significant gap by 2045, necessitating increased production and strategic reserves.",
+      "core_claims": [
+        "The uranium market faces a near-term deficit of 50 million pounds, escalating to 1.7 billion pounds by 2045.",
+        "Utilities are returning to the uranium market at below-replacement levels, encountering limited supply responses.",
+        "China's nuclear program is growing so rapidly it will surpass the US's by 2030.",
+        "The Russia ban on uranium fully kicks in at the end of next year.",
+        "US-licensed, permitted projects can produce 20 to 25 million pounds under strong market conditions and policy support.",
+        "Nuclear energy around the world is already on track to double by 2045."
+      ],
+      "signal_strength": 9,
+      "themes": [
+        "uranium market",
+        "supply deficit",
+        "nuclear energy",
+        "geopolitics",
+        "strategic reserves",
+        "market trends"
+      ],
+      "positioning_implication": "Prioritize strategic investments in domestic uranium production and secure long-term supply contracts with diversified sources. Anticipate increased market volatility and geopolitical risks affecting uranium supply chains.",
+      "time_horizon": "long",
+      "shelf_life": "Medium",
+      "thumbnail": "https://i.ytimg.com/vi/J4oakAHibZM/hqdefault.jpg",
+      "video_url": "https://www.youtube.com/watch?v=J4oakAHibZM",
+      "cluster_id": 2,
+      "category": "General Financial Investing and Speculation"
+    },
+    {
+      "episode_title": "Government and Big Tech ALL IN on URANIUM - 'Supply Can't Keep Up'",
+      "channel": "Commodity Culture",
+      "duration_minutes": 43,
+      "podcast_date": "2026-02-27",
+      "processing_date": "2026-03-03",
+      "one_line_summary": "Uranium demand is growing rapidly due to nuclear reactor construction, restarts, and tech sector needs, while supply struggles to keep pace.",
+      "core_claims": [
+        "China will become a larger nuclear power (reactor fleet) than the US for the first time.",
+        "Average electricity prices in the US are up over 40% in the last four years, partly due to AI data center demand.",
+        "Separative Work Unit (SWU) prices have increased from roughly $50 to over $175.",
+        "US government recently provided $2.7 billion ($900M each) to three companies to build a more robust domestic uranium conversion/enrichment pipeline.",
+        "Cameco is paying $15 million a year to keep uranium assets in the ground, viewing current prices ($85-90/lb) as insufficient for extraction."
+      ],
+      "signal_strength": 9,
+      "themes": [
+        "uranium",
+        "nuclear energy",
+        "supply chain",
+        "demand",
+        "government policy",
+        "big tech",
+        "china",
+        "electricity prices"
+      ],
+      "positioning_implication": "Anticipate increasing uranium prices and strategic shifts in energy infrastructure investment, particularly focusing on regions and companies with secure supply chains and governmental support.",
+      "time_horizon": "medium",
+      "shelf_life": "Medium",
+      "thumbnail": "https://i.ytimg.com/vi/E-gzA3yOLc4/hqdefault.jpg",
+      "video_url": "https://www.youtube.com/watch?v=E-gzA3yOLc4",
+      "cluster_id": 0,
+      "category": "Precious Metals"
+    },
+    {
+      "episode_title": "You Don't Need SaaS. The $0.10 System That Replaced My AI Workflow (45 Min No-Code Build)",
+      "channel": "AI News & Strategy Daily | Nate B Jones",
+      "duration_minutes": 45,
+      "podcast_date": "2026-03-03",
+      "processing_date": "2026-03-03",
+      "one_line_summary": "Agent-readable memory architectures are more critical than specific AI model choices for achieving compounding advantages in AI-driven tasks.",
+      "core_claims": [
+        "Open-source protocol MCP's usage grew to over 1.5 million autonomous agents in a couple weeks after OpenClaw passed 190,000 Github stars.",
+        "Digital workers toggle between applications roughly 1200 times a day, devastating attention.",
+        "US productivity grew roughly 2.7% in 2025, double the decade average, attributed to AI agents and AI.",
+        "The total running cost for a personal AI memory architecture using Slack and Supabase is roughly $0.10 to $0.30 a month for 20 thoughts a day."
+      ],
+      "signal_strength": 9,
+      "themes": [
+        "ai agents",
+        "memory architecture",
+        "knowledge management",
+        "productivity",
+        "open source",
+        "mcp protocol"
+      ],
+      "positioning_implication": "Prioritize building a personal, agent-readable memory system to maximize the effectiveness of AI tools. This provides an edge in AI integration that can widen every week.",
+      "time_horizon": "medium",
+      "shelf_life": "Medium",
+      "thumbnail": "https://i.ytimg.com/vi/2JiMmye2ezg/hqdefault.jpg",
+      "video_url": "https://www.youtube.com/watch?v=2JiMmye2ezg",
+      "cluster_id": 0,
+      "category": "Artificial Intelligence"
+    },
+    {
+      "episode_title": "WAR PANIC: Oil Spikes, Yields Surge & The S&P 500 Implodes \ud83d\udea8",
+      "channel": "Verified Investing",
+      "duration_minutes": 26,
+      "podcast_date": "2026-03-03",
+      "processing_date": "2026-03-03",
+      "one_line_summary": "Geopolitical tensions are causing market volatility and inflation fears, impacting stocks, oil, and yields.",
+      "core_claims": [
+        "ES futures trading lower, down nearly 1% but off overnight lows.",
+        "S&P 500 showing a classic rounded top signal indicating distribution between institutional selling and retail buying.",
+        "Closing below 6790 on the S&P 500 opens an air pocket to 6720 with a potential target of 6570-6550.",
+        "Key NASDAQ level at 22275; breaking below opens a path to 20000 within six months.",
+        "US Dollar surging is normal with fear in the markets; potential upside to a parallel resistance level, with downside if not taking out the orange high pivot.",
+        "10-year yield spikes indicate inflation concerns, potentially limiting Fed's inclination to cut rates.",
+        "Oil pushes sharply higher to $72.12 up 7% on the day but breakout does not suggest long position."
+      ],
+      "signal_strength": 8,
+      "themes": [
+        "geopolitics",
+        "inflation",
+        "technical analysis",
+        "market volatility",
+        "trading strategies"
+      ],
+      "positioning_implication": "Be cautious of downside risk in equities due to geopolitical factors and potential for sustained inflation; high probability setups are essential.",
+      "time_horizon": "short",
+      "shelf_life": "Short",
+      "thumbnail": "https://i.ytimg.com/vi/rCfw5owfrZ4/hqdefault.jpg",
+      "video_url": "https://www.youtube.com/watch?v=rCfw5owfrZ4",
+      "cluster_id": 0,
+      "category": "General Financial Investing and Speculation"
+    },
+    {
+      "episode_title": "Iran War: The US Is Secretly Bailing Out The Stock Market (Again)",
+      "channel": "Felix & Friends (Goat Academy)",
+      "duration_minutes": 55,
+      "podcast_date": "2026-03-03",
+      "processing_date": "2026-03-03",
+      "one_line_summary": "The US Federal Reserve is engaging in money printing under a new name to stabilize the stock market amidst geopolitical tensions.",
+      "core_claims": [
+        "The Fed has started pumping money into the system again in October and heavily last week.",
+        "The Fed is calling money printing 'reserve management purchases'.",
+        "Government spending is up 88%.",
+        "Interest on US debt consumes 20 cents of every tax dollar.",
+        "Defense stocks are performing well due to a potential increase in the defense budget from a trillion to a trillion and a half.",
+        "Gold is 13% more expensive in Shanghai than in the US."
+      ],
+      "signal_strength": 8,
+      "themes": [
+        "financial markets",
+        "monetary policy",
+        "geopolitics",
+        "investment strategies",
+        "defense stocks",
+        "gold"
+      ],
+      "positioning_implication": "Shift investment focus towards assets benefiting from monetary easing and geopolitical instability, while remaining cautious of short-term oil price spikes; prioritize understanding exit strategies.",
+      "time_horizon": "medium",
+      "shelf_life": "Medium",
+      "thumbnail": "https://i.ytimg.com/vi/Qvl9TTxW1j8/hqdefault.jpg",
+      "video_url": "https://www.youtube.com/watch?v=Qvl9TTxW1j8",
+      "cluster_id": 0,
+      "category": "General Financial Investing and Speculation"
+    },
+    {
+      "episode_title": "MAJOR SUPPORT TEST: Are the Floodgates About to Open?",
+      "channel": "Verified Investing",
+      "duration_minutes": 16,
+      "podcast_date": "2026-03-03",
+      "processing_date": "2024-01-26",
+      "one_line_summary": "Key support levels for major indices and individual stocks are identified with potential trading strategies contingent on their breach or support.",
+      "core_claims": [
+        "Oracle is trading slightly lower in the pre-market and might be picked up for a long trade around $136.48, with a double bottom at $135.14 as additional support.",
+        "LITE is considered a shortable level at $752.92, with a potential add at $765, expecting a 7-8% pullback; exiting if price closes above $765 on a 15-minute basis.",
+        "S&P 500 is expected to find support at $676.57, with the next support level at $671.40, where a day trade setup is planned.",
+        "QQQ's long level is $590.07, with a shortable level at $616.52 if markets rebound.",
+        "Nvidia is eyed for a long day trade at $171.88, with additional support at $166.90, and a dollar-cost averaging strategy.",
+        "Norwegian Cruise Line Holding is eyed for a long at $21.49, with a double bottom at $21.06, but dollar-cost averaging down to $20.79 due to a gap in the charts."
+      ],
+      "signal_strength": 7,
+      "themes": [
+        "trading strategies",
+        "support levels",
+        "market analysis",
+        "short selling",
+        "long positions",
+        "dollar-cost averaging"
+      ],
+      "positioning_implication": "Adjust trading strategies to capitalize on potential breakouts or breakdowns at identified support and resistance levels. Dollar-cost averaging may mitigate risk in volatile stocks.",
+      "time_horizon": "short",
+      "shelf_life": "Short",
+      "thumbnail": "https://i.ytimg.com/vi/Iauk6DW_MGY/hqdefault.jpg",
+      "video_url": "https://www.youtube.com/watch?v=Iauk6DW_MGY",
+      "cluster_id": 5,
+      "category": "General Financial Investing and Speculation"
+    },
+    {
+      "episode_title": "What the AI Scare Gets Wrong | Prof G Markets",
+      "channel": "The Prof G Pod \u2013 Scott Galloway",
+      "duration_minutes": 57,
+      "podcast_date": "2026-03-03",
+      "processing_date": "2026-03-03",
+      "one_line_summary": "A blog post portraying a dystopian AI future caused a market drawdown, but its conclusions and resulting actions are largely unfounded, while the economic implications of increased industrial policy are more concerning.",
+      "core_claims": [
+        "Netflix opting out of the Warner Brothers Discovery bidding war increased their market cap by $36 billion and gave them $2.5 billion for the breakup fee.",
+        "AI's addition to GDP growth makes America a giant bet on AI, while deficit spending is expected to reach $2 trillion next year.",
+        "U.S. markets are underperforming every major international market, driven by dollar weakness and loss of faith in the U.S. government."
+      ],
+      "signal_strength": 7,
+      "themes": [
+        "ai impact",
+        "market irrationality",
+        "investment strategy",
+        "economic inequality",
+        "media landscape",
+        "industrial policy"
+      ],
+      "positioning_implication": "Evaluate exposures considering narrative-driven market reactions, focus on underlying fundamentals, and prepare for potential economic shifts from government policy changes.",
+      "time_horizon": "medium",
+      "shelf_life": "Medium",
+      "thumbnail": "https://i.ytimg.com/vi/hnIVawlvDEk/hqdefault.jpg",
+      "video_url": "https://www.youtube.com/watch?v=hnIVawlvDEk",
+      "cluster_id": 1,
+      "category": "General Financial Investing and Speculation"
+    }
+  ],
+  "category_intelligence": {
+    "Artificial Intelligence": {
+      "name": "Artificial Intelligence",
+      "meta_summary": "",
+      "convergence_score": 0.0,
+      "percentile": 0.0,
+      "regime_state": "Neutral",
+      "clusters": [
+        {
+          "id": 2,
+          "name": "AI Agents Eroding SaaS Acquisition Value",
+          "description": "The acquisition highlights the risk of overpaying for SaaS companies whose core features are easily replicated by AI agents, potentially accelerating tech debt.",
+          "bias": "defensive",
+          "regime": "Emerging",
+          "size": 1,
+          "strength": 1.0,
+          "coherence": 1.0,
+          "channels": [
+            "Matthew Berman"
+          ],
+          "avg_signal": 9.0,
+          "briefs": [
+            {
+              "episode_title": "They spent MILLIONS on this...",
+              "channel": "Matthew Berman",
+              "duration_minutes": 15,
+              "podcast_date": "2026-03-03",
+              "processing_date": "2024-01-26",
+              "one_line_summary": "My Fitness Pal's acquisition of Cal AI demonstrates a misunderstanding of the evolving software landscape where core functionalities can be rapidly replicated using AI agents.",
+              "core_claims": [
+                "My Fitness Pal acquired Cal AI, indicating a misunderstanding of the current software trajectory.",
+                "The core functionality of Cal AI can be 'vibecoded' in under an hour.",
+                "TechCrunch reports acquisition negotiations lasted almost a year, indicating the core dev team may have been focused on the wrong things.",
+                "My Fitness Pal's previous acquisition by Under Armour resulted in a $130 million loss over five years.",
+                "AI agents will diminish the vertical SaaS category by incorporating similar functionality directly.",
+                "The speaker created the core functionality of Cal AI in under 20 minutes with openCLaw, incurring minimal additional cost."
+              ],
+              "signal_strength": 9,
+              "themes": [
+                "ai agents",
+                "software industry",
+                "acquisitions",
+                "saas",
+                "valuation",
+                "distribution",
+                "tech debt"
+              ],
+              "positioning_implication": "Assess the durability of SaaS businesses relying on easily replicated features and distribution as core differentiators. Re-evaluate investment in companies unable to adapt to rapidly evolving technology landscapes.",
+              "time_horizon": "short",
+              "shelf_life": "Medium",
+              "thumbnail": "https://i.ytimg.com/vi/deEri629Nnw/hqdefault.jpg",
+              "video_url": "https://www.youtube.com/watch?v=deEri629Nnw",
+              "cluster_id": 2,
+              "category": "Artificial Intelligence"
+            }
+          ]
+        },
+        {
+          "id": 1,
+          "name": "AI Military Use Intensifying Debate",
+          "description": "Anthropic's military deployment of Claude accelerates the AI ethics debate, potentially triggering government restrictions.",
+          "bias": "neutral",
+          "regime": "Emerging",
+          "size": 1,
+          "strength": 1.0,
+          "coherence": 1.0,
+          "channels": [
+            "Wes Roth"
+          ],
+          "avg_signal": 8.0,
+          "briefs": [
+            {
+              "episode_title": "Claude kill count going up",
+              "channel": "Wes Roth",
+              "duration_minutes": 23,
+              "podcast_date": "2026-03-03",
+              "processing_date": "2024-05-01",
+              "one_line_summary": "Anthropic's Claude is confirmed for military ops, causing debate on AI control amid potential restrictions.",
+              "core_claims": [
+                "Claude was used by CENTCOM for intelligence assessments, target identification, and simulating battlefield scenarios after a Trump ban.",
+                "Anthropic supports lawful military uses, but draws red lines at autonomous weapons and mass domestic surveillance.",
+                "Sam Altman is advocating against supply chain risk designation for Anthropic, which could severely limit its business and is pushing for equal opportunities for all AI labs.",
+                "OpenAI has signed a contract with the Department of War, adhering to the same safeguards Anthropic was banned for requesting.",
+                "Dario Amodei believes he's building a world-changing technology that must be carefully controlled, leading to a clash with the Pentagon over policy control."
+              ],
+              "signal_strength": 8,
+              "themes": [
+                "ai ethics",
+                "military ai",
+                "government regulation",
+                "tech policy",
+                "national security",
+                "corporate responsibility"
+              ],
+              "positioning_implication": "Assess AI vendors based on security posture and regulatory alignment. Prioritize adaptive governance models amid AI's evolving role.",
+              "time_horizon": "medium",
+              "shelf_life": "Medium",
+              "thumbnail": "https://i.ytimg.com/vi/Hzm3D7i3NFk/hqdefault.jpg",
+              "video_url": "https://www.youtube.com/watch?v=Hzm3D7i3NFk",
+              "cluster_id": 1,
+              "category": "Artificial Intelligence"
+            }
+          ]
+        },
+        {
+          "id": 0,
+          "name": "AI Agent Memory Architectures Intensifying Productivity",
+          "description": "Highlights the increasing importance of memory architectures in AI agents for achieving compounding productivity gains, potentially outweighing the impact of specific AI model choices.",
+          "bias": "constructive",
+          "regime": "Emerging",
+          "size": 1,
+          "strength": 1.0,
+          "coherence": 1.0,
+          "channels": [
+            "AI News & Strategy Daily | Nate B Jones"
+          ],
+          "avg_signal": 9.0,
+          "briefs": [
+            {
+              "episode_title": "You Don't Need SaaS. The $0.10 System That Replaced My AI Workflow (45 Min No-Code Build)",
+              "channel": "AI News & Strategy Daily | Nate B Jones",
+              "duration_minutes": 45,
+              "podcast_date": "2026-03-03",
+              "processing_date": "2026-03-03",
+              "one_line_summary": "Agent-readable memory architectures are more critical than specific AI model choices for achieving compounding advantages in AI-driven tasks.",
+              "core_claims": [
+                "Open-source protocol MCP's usage grew to over 1.5 million autonomous agents in a couple weeks after OpenClaw passed 190,000 Github stars.",
+                "Digital workers toggle between applications roughly 1200 times a day, devastating attention.",
+                "US productivity grew roughly 2.7% in 2025, double the decade average, attributed to AI agents and AI.",
+                "The total running cost for a personal AI memory architecture using Slack and Supabase is roughly $0.10 to $0.30 a month for 20 thoughts a day."
+              ],
+              "signal_strength": 9,
+              "themes": [
+                "ai agents",
+                "memory architecture",
+                "knowledge management",
+                "productivity",
+                "open source",
+                "mcp protocol"
+              ],
+              "positioning_implication": "Prioritize building a personal, agent-readable memory system to maximize the effectiveness of AI tools. This provides an edge in AI integration that can widen every week.",
+              "time_horizon": "medium",
+              "shelf_life": "Medium",
+              "thumbnail": "https://i.ytimg.com/vi/2JiMmye2ezg/hqdefault.jpg",
+              "video_url": "https://www.youtube.com/watch?v=2JiMmye2ezg",
+              "cluster_id": 0,
+              "category": "Artificial Intelligence"
+            }
+          ]
+        }
+      ],
+      "should_generate": false
+    },
+    "General Financial Investing and Speculation": {
+      "name": "General Financial Investing and Speculation",
+      "meta_summary": "",
+      "convergence_score": 0.0,
+      "percentile": 0.0,
+      "regime_state": "Neutral",
+      "clusters": [
+        {
+          "id": 0,
+          "name": "Geopolitical Tensions Intensifying Market Volatility",
+          "description": "Heightened geopolitical risks are exacerbating market instability across asset classes, requiring vigilant risk management.",
+          "bias": "defensive",
+          "regime": "Accelerating",
+          "size": 3,
+          "strength": 2.0442553386528424,
+          "coherence": 0.6814184462176142,
+          "channels": [
+            "Felix & Friends (Goat Academy)",
+            "David Lin",
+            "Verified Investing"
+          ],
+          "avg_signal": 8.0,
+          "briefs": [
+            {
+              "episode_title": "Iran Strike Shock: Panic Selling Just Starting, What Gets Hit Next? | Chris Vermeulen",
+              "channel": "David Lin",
+              "duration_minutes": 37,
+              "podcast_date": "2026-03-03",
+              "processing_date": "2024-01-27",
+              "one_line_summary": "Geopolitical tensions from Iran strike drive volatility across oil, stocks, gold, and Bitcoin, necessitating caution amidst market fluctuations.",
+              "core_claims": [
+                "Oil experienced an 11-12% spike overnight following news of the Iran strike.",
+                "Equities initially sold off sharply with the S&P 500 down 1.75% and Nasdaq over 2%, but buyers stepped in.",
+                "Stellar Gold's Tower project is estimated at $2.5 billion after-tax, assuming a $3,200 gold price.",
+                "Stellar Gold has drilled over 16 million ounces of gold across its projects, costing over $2 billion to replicate.",
+                "Bitcoin faces a potential downside target around $51,100 - $52,000 based on Fibonacci extension.",
+                "Gold's next potential move targets around $6,100, providing significant upside potential."
+              ],
+              "signal_strength": 8,
+              "themes": [
+                "geopolitics",
+                "market volatility",
+                "commodities",
+                "equities",
+                "cryptocurrency",
+                "technical analysis"
+              ],
+              "positioning_implication": "Exercise caution and monitor key resistance/support levels; shift portfolio allocation based on confirmed trend breaks rather than reacting to news headlines.",
+              "time_horizon": "short",
+              "shelf_life": "Short",
+              "thumbnail": "https://i.ytimg.com/vi/7WUOe29ylCI/hqdefault.jpg",
+              "video_url": "https://www.youtube.com/watch?v=7WUOe29ylCI",
+              "cluster_id": 0,
+              "category": "General Financial Investing and Speculation"
+            },
+            {
+              "episode_title": "WAR PANIC: Oil Spikes, Yields Surge & The S&P 500 Implodes \ud83d\udea8",
+              "channel": "Verified Investing",
+              "duration_minutes": 26,
+              "podcast_date": "2026-03-03",
+              "processing_date": "2026-03-03",
+              "one_line_summary": "Geopolitical tensions are causing market volatility and inflation fears, impacting stocks, oil, and yields.",
+              "core_claims": [
+                "ES futures trading lower, down nearly 1% but off overnight lows.",
+                "S&P 500 showing a classic rounded top signal indicating distribution between institutional selling and retail buying.",
+                "Closing below 6790 on the S&P 500 opens an air pocket to 6720 with a potential target of 6570-6550.",
+                "Key NASDAQ level at 22275; breaking below opens a path to 20000 within six months.",
+                "US Dollar surging is normal with fear in the markets; potential upside to a parallel resistance level, with downside if not taking out the orange high pivot.",
+                "10-year yield spikes indicate inflation concerns, potentially limiting Fed's inclination to cut rates.",
+                "Oil pushes sharply higher to $72.12 up 7% on the day but breakout does not suggest long position."
+              ],
+              "signal_strength": 8,
+              "themes": [
+                "geopolitics",
+                "inflation",
+                "technical analysis",
+                "market volatility",
+                "trading strategies"
+              ],
+              "positioning_implication": "Be cautious of downside risk in equities due to geopolitical factors and potential for sustained inflation; high probability setups are essential.",
+              "time_horizon": "short",
+              "shelf_life": "Short",
+              "thumbnail": "https://i.ytimg.com/vi/rCfw5owfrZ4/hqdefault.jpg",
+              "video_url": "https://www.youtube.com/watch?v=rCfw5owfrZ4",
+              "cluster_id": 0,
+              "category": "General Financial Investing and Speculation"
+            },
+            {
+              "episode_title": "Iran War: The US Is Secretly Bailing Out The Stock Market (Again)",
+              "channel": "Felix & Friends (Goat Academy)",
+              "duration_minutes": 55,
+              "podcast_date": "2026-03-03",
+              "processing_date": "2026-03-03",
+              "one_line_summary": "The US Federal Reserve is engaging in money printing under a new name to stabilize the stock market amidst geopolitical tensions.",
+              "core_claims": [
+                "The Fed has started pumping money into the system again in October and heavily last week.",
+                "The Fed is calling money printing 'reserve management purchases'.",
+                "Government spending is up 88%.",
+                "Interest on US debt consumes 20 cents of every tax dollar.",
+                "Defense stocks are performing well due to a potential increase in the defense budget from a trillion to a trillion and a half.",
+                "Gold is 13% more expensive in Shanghai than in the US."
+              ],
+              "signal_strength": 8,
+              "themes": [
+                "financial markets",
+                "monetary policy",
+                "geopolitics",
+                "investment strategies",
+                "defense stocks",
+                "gold"
+              ],
+              "positioning_implication": "Shift investment focus towards assets benefiting from monetary easing and geopolitical instability, while remaining cautious of short-term oil price spikes; prioritize understanding exit strategies.",
+              "time_horizon": "medium",
+              "shelf_life": "Medium",
+              "thumbnail": "https://i.ytimg.com/vi/Qvl9TTxW1j8/hqdefault.jpg",
+              "video_url": "https://www.youtube.com/watch?v=Qvl9TTxW1j8",
+              "cluster_id": 0,
+              "category": "General Financial Investing and Speculation"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "name": "Commodity Deficits Intensifying",
+          "description": "Silver and uranium markets face structural deficits, requiring strategic investment and production increases to meet future demand.\n\u26a1 Convergence Alert: Overlap detected with [Uranium Supply Crunch Intensifying] in Precious Metals (0.81 sim)",
+          "bias": "constructive",
+          "regime": "Accelerating",
+          "size": 2,
+          "strength": 1.3263963826334089,
+          "coherence": 0.6631981913167044,
+          "channels": [
+            "Kitco NEWS"
+          ],
+          "avg_signal": 8.5,
+          "briefs": [
+            {
+              "episode_title": "\u201cWe\u2019re Consuming More Than We Produce\u201d Silver Warning | Randy Smallwood",
+              "channel": "Kitco NEWS",
+              "duration_minutes": 35,
+              "podcast_date": "2026-03-03",
+              "processing_date": "2026-03-03",
+              "one_line_summary": "Silver's structural deficit and unique industrial demand, coupled with increasing Western investment, positions it for continued growth alongside gold, while mining costs and strategic project management remain critical.",
+              "core_claims": [
+                "$5,000 is considered the new base price for gold.",
+                "Silver is firming up in the high or mid 90s ($93-$94) per ounce.",
+                "Mining industry challenges revolve around lower grade materials becoming economical at current prices.",
+                "Silver's existing structural deficit is caused by consuming more than is being produced.",
+                "Peak silver production occurred around 2017-2018, and there has not been any substantive growth in the space since.",
+                "Wheaton expects to hit 900,000 gold equivalent ounces this year and to break the million mark well before 2030, targeting 1.2 million ounces."
+              ],
+              "signal_strength": 8,
+              "themes": [
+                "precious metals",
+                "silver",
+                "gold",
+                "mining industry",
+                "investment strategy",
+                "economic outlook"
+              ],
+              "positioning_implication": "Shift focus towards strategic allocation in silver mining operations, emphasizing project efficiency and cost management to capitalize on anticipated price appreciation.",
+              "time_horizon": "medium",
+              "shelf_life": "Medium",
+              "thumbnail": "https://i.ytimg.com/vi/rJwE0arp1y8/hqdefault.jpg",
+              "video_url": "https://www.youtube.com/watch?v=rJwE0arp1y8",
+              "cluster_id": 2,
+              "category": "General Financial Investing and Speculation"
+            },
+            {
+              "episode_title": "Uranium Supply Gap Deepens as Nuclear Demand Rises | Scott Melbye",
+              "channel": "Kitco NEWS",
+              "duration_minutes": 27,
+              "podcast_date": "2026-03-03",
+              "processing_date": "2024-05-09",
+              "one_line_summary": "The uranium market faces a near-term supply deficit escalating to a significant gap by 2045, necessitating increased production and strategic reserves.",
+              "core_claims": [
+                "The uranium market faces a near-term deficit of 50 million pounds, escalating to 1.7 billion pounds by 2045.",
+                "Utilities are returning to the uranium market at below-replacement levels, encountering limited supply responses.",
+                "China's nuclear program is growing so rapidly it will surpass the US's by 2030.",
+                "The Russia ban on uranium fully kicks in at the end of next year.",
+                "US-licensed, permitted projects can produce 20 to 25 million pounds under strong market conditions and policy support.",
+                "Nuclear energy around the world is already on track to double by 2045."
+              ],
+              "signal_strength": 9,
+              "themes": [
+                "uranium market",
+                "supply deficit",
+                "nuclear energy",
+                "geopolitics",
+                "strategic reserves",
+                "market trends"
+              ],
+              "positioning_implication": "Prioritize strategic investments in domestic uranium production and secure long-term supply contracts with diversified sources. Anticipate increased market volatility and geopolitical risks affecting uranium supply chains.",
+              "time_horizon": "long",
+              "shelf_life": "Medium",
+              "thumbnail": "https://i.ytimg.com/vi/J4oakAHibZM/hqdefault.jpg",
+              "video_url": "https://www.youtube.com/watch?v=J4oakAHibZM",
+              "cluster_id": 2,
+              "category": "General Financial Investing and Speculation"
+            }
+          ]
+        },
+        {
+          "id": 1,
+          "name": "Capital Flight Accelerating Fourth Turning Crisis",
+          "description": "Narrative suggests capital flight from the US, driven by perceived decline and AI-related market instability, will exacerbate a predicted societal crisis.",
+          "bias": "defensive",
+          "regime": "Accelerating",
+          "size": 2,
+          "strength": 1.3121469448561096,
+          "coherence": 0.6560734724280548,
+          "channels": [
+            "David Lin",
+            "The Prof G Pod \u2013 Scott Galloway"
+          ],
+          "avg_signal": 7.5,
+          "briefs": [
+            {
+              "episode_title": "The Great Rotation Out Of Stocks Begins As Markets Enter \u2018Fourth Turning\u2019 | David Hay",
+              "channel": "David Lin",
+              "duration_minutes": 69,
+              "podcast_date": "2026-03-03",
+              "processing_date": "2024-04-03",
+              "one_line_summary": "Capital flight from US markets is underway, signaling the end of American exceptionalism and the beginning of a 'fourth turning' crisis era.",
+              "core_claims": [
+                "The age of American exceptionalism in markets may be ending.",
+                "Capital is flowing out of the US into other assets, including emerging markets.",
+                "Year-to-date performance for US stocks is the worst relative to global equities since 1995.",
+                "The US stock market is priced as if it were still the 1990s, despite current economic challenges.",
+                "Valuations overseas are much less demanding than in the US.",
+                "The Chinese market is quite interesting and could be one of the better performers."
+              ],
+              "signal_strength": 8,
+              "themes": [
+                "market rotation",
+                "fourth turning",
+                "american exceptionalism",
+                "emerging markets",
+                "capital flows",
+                "value investing"
+              ],
+              "positioning_implication": "Reduce exposure to overvalued US equities and diversify into international markets, particularly emerging economies.  Consider hard assets and selective opportunities in undervalued sectors.",
+              "time_horizon": "long",
+              "shelf_life": "Medium",
+              "thumbnail": "https://i.ytimg.com/vi/T9OYjEu_1Ls/hqdefault.jpg",
+              "video_url": "https://www.youtube.com/watch?v=T9OYjEu_1Ls",
+              "cluster_id": 1,
+              "category": "General Financial Investing and Speculation"
+            },
+            {
+              "episode_title": "What the AI Scare Gets Wrong | Prof G Markets",
+              "channel": "The Prof G Pod \u2013 Scott Galloway",
+              "duration_minutes": 57,
+              "podcast_date": "2026-03-03",
+              "processing_date": "2026-03-03",
+              "one_line_summary": "A blog post portraying a dystopian AI future caused a market drawdown, but its conclusions and resulting actions are largely unfounded, while the economic implications of increased industrial policy are more concerning.",
+              "core_claims": [
+                "Netflix opting out of the Warner Brothers Discovery bidding war increased their market cap by $36 billion and gave them $2.5 billion for the breakup fee.",
+                "AI's addition to GDP growth makes America a giant bet on AI, while deficit spending is expected to reach $2 trillion next year.",
+                "U.S. markets are underperforming every major international market, driven by dollar weakness and loss of faith in the U.S. government."
+              ],
+              "signal_strength": 7,
+              "themes": [
+                "ai impact",
+                "market irrationality",
+                "investment strategy",
+                "economic inequality",
+                "media landscape",
+                "industrial policy"
+              ],
+              "positioning_implication": "Evaluate exposures considering narrative-driven market reactions, focus on underlying fundamentals, and prepare for potential economic shifts from government policy changes.",
+              "time_horizon": "medium",
+              "shelf_life": "Medium",
+              "thumbnail": "https://i.ytimg.com/vi/hnIVawlvDEk/hqdefault.jpg",
+              "video_url": "https://www.youtube.com/watch?v=hnIVawlvDEk",
+              "cluster_id": 1,
+              "category": "General Financial Investing and Speculation"
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "name": "Markets Defying Gravity",
+          "description": "US markets' bullish divergence intensifies despite global economic headwinds, creating tactical trading opportunities around key support levels.",
+          "bias": "constructive",
+          "regime": "Accelerating",
+          "size": 2,
+          "strength": 1.3866042894869606,
+          "coherence": 0.6933021447434803,
+          "channels": [
+            "Verified Investing"
+          ],
+          "avg_signal": 7.5,
+          "briefs": [
+            {
+              "episode_title": "FROM GAP TO GAIN \ud83d\ude80 How the US Bucked the Global Sell-Off",
+              "channel": "Verified Investing",
+              "duration_minutes": 22,
+              "podcast_date": "2026-03-03",
+              "processing_date": "2026-03-03",
+              "one_line_summary": "US markets defied global downturns due to easing inflation fears and news, presenting a near-term bullish outlook amidst underlying bearish conditions.",
+              "core_claims": [
+                "The US market bucked the overnight trend of red Asian and European markets.",
+                "Nvidia invested in Lite and Cohort to support AI data center space building.",
+                "The 10-year yield spiked due to higher oil costs, raising inflation concerns.",
+                "Closing of the Strait of Hormuz is anticipated to put pressure on oil prices.",
+                "Nokia's partnerships with TIM Brazil and Telecom spurred a 6.99% gain.",
+                "Palantir consolidates bearishly, with 145.87-147.56 acting as near term resistance."
+              ],
+              "signal_strength": 8,
+              "themes": [
+                "market analysis",
+                "investment strategies",
+                "geopolitics",
+                "technical analysis",
+                "oil prices",
+                "nvidia investments"
+              ],
+              "positioning_implication": "Maintain awareness of geopolitical tensions impacting market volatility; prioritize vigilance against potential pullbacks in overbought assets.",
+              "time_horizon": "short",
+              "shelf_life": "Medium",
+              "thumbnail": "https://i.ytimg.com/vi/SZyOzfwH_Q8/hqdefault.jpg",
+              "video_url": "https://www.youtube.com/watch?v=SZyOzfwH_Q8",
+              "cluster_id": 5,
+              "category": "General Financial Investing and Speculation"
+            },
+            {
+              "episode_title": "MAJOR SUPPORT TEST: Are the Floodgates About to Open?",
+              "channel": "Verified Investing",
+              "duration_minutes": 16,
+              "podcast_date": "2026-03-03",
+              "processing_date": "2024-01-26",
+              "one_line_summary": "Key support levels for major indices and individual stocks are identified with potential trading strategies contingent on their breach or support.",
+              "core_claims": [
+                "Oracle is trading slightly lower in the pre-market and might be picked up for a long trade around $136.48, with a double bottom at $135.14 as additional support.",
+                "LITE is considered a shortable level at $752.92, with a potential add at $765, expecting a 7-8% pullback; exiting if price closes above $765 on a 15-minute basis.",
+                "S&P 500 is expected to find support at $676.57, with the next support level at $671.40, where a day trade setup is planned.",
+                "QQQ's long level is $590.07, with a shortable level at $616.52 if markets rebound.",
+                "Nvidia is eyed for a long day trade at $171.88, with additional support at $166.90, and a dollar-cost averaging strategy.",
+                "Norwegian Cruise Line Holding is eyed for a long at $21.49, with a double bottom at $21.06, but dollar-cost averaging down to $20.79 due to a gap in the charts."
+              ],
+              "signal_strength": 7,
+              "themes": [
+                "trading strategies",
+                "support levels",
+                "market analysis",
+                "short selling",
+                "long positions",
+                "dollar-cost averaging"
+              ],
+              "positioning_implication": "Adjust trading strategies to capitalize on potential breakouts or breakdowns at identified support and resistance levels. Dollar-cost averaging may mitigate risk in volatile stocks.",
+              "time_horizon": "short",
+              "shelf_life": "Short",
+              "thumbnail": "https://i.ytimg.com/vi/Iauk6DW_MGY/hqdefault.jpg",
+              "video_url": "https://www.youtube.com/watch?v=Iauk6DW_MGY",
+              "cluster_id": 5,
+              "category": "General Financial Investing and Speculation"
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "name": "Iran Regime Destabilization Campaign Intensifying",
+          "description": "The narrative suggests a US/Israeli military campaign is underway to destabilize Iran, but its success is questionable given Iran's entrenched power structures.\n\u26a1 Convergence Alert: Overlap detected with [Iran Geopolitical Risks Intensifying] in Politics (0.79 sim)",
+          "bias": "neutral",
+          "regime": "Emerging",
+          "size": 1,
+          "strength": 1.0,
+          "coherence": 1.0,
+          "channels": [
+            "The Prof G Pod \u2013 Scott Galloway"
+          ],
+          "avg_signal": 7.0,
+          "briefs": [
+            {
+              "episode_title": "Fareed Zakaria on the Endgame in Iran  | Prof G Conversations",
+              "channel": "The Prof G Pod \u2013 Scott Galloway",
+              "duration_minutes": 42,
+              "podcast_date": "2026-03-03",
+              "processing_date": "2026-03-03",
+              "one_line_summary": "US/Israeli military campaign against Iran aims to destabilize the regime, but success is uncertain due to Iran's institutionalized structure.",
+              "core_claims": [
+                "Upside: Regime decapitation leading to collapse, defanging Iran as a regional power by destroying its navy, ballistic missile capability, and military-industrial complex.",
+                "Downside: Iran's institutionalized regime, difficult to change from the air without ground troops, could lead to regional instability.",
+                "Iranian miscalculation: Uniting the Gulf in support of the mission due to Iranian attacks on multiple Arab countries.",
+                "Success for Iran is survival, posing a challenge to the U.S. goal of regime change."
+              ],
+              "signal_strength": 7,
+              "themes": [
+                "iran",
+                "geopolitics",
+                "us foreign policy",
+                "military strategy",
+                "regime change",
+                "middle east"
+              ],
+              "positioning_implication": "Assess exposure to increased geopolitical instability and potential shifts in regional power dynamics. Adapt strategies to account for diverse global reactions and potential economic impacts.",
+              "time_horizon": "medium",
+              "shelf_life": "Medium",
+              "thumbnail": "https://i.ytimg.com/vi/JlOai763iOw/hqdefault.jpg",
+              "video_url": "https://www.youtube.com/watch?v=JlOai763iOw",
+              "cluster_id": 4,
+              "category": "General Financial Investing and Speculation"
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "name": "Retail REIT Misunderstanding Intensifying",
+          "description": "Retail investors' misunderstanding of REITs' unique characteristics is growing, potentially leading to misinformed investment decisions.",
+          "bias": "defensive",
+          "regime": "Emerging",
+          "size": 1,
+          "strength": 1.0,
+          "coherence": 1.0,
+          "channels": [
+            "Verified Investing"
+          ],
+          "avg_signal": 8.0,
+          "briefs": [
+            {
+              "episode_title": "Why Everything You Know About REITs Is (Probably) Wrong: Dr. Mariya Letdin",
+              "channel": "Verified Investing",
+              "duration_minutes": 42,
+              "podcast_date": "2026-03-03",
+              "processing_date": "2026-03-03",
+              "one_line_summary": "Retail investors may misunderstand REITs by applying general stock market tools, overlooking unique features like illiquid asset bases and tax-exempt status.",
+              "core_claims": [
+                "REITs are publicly traded like stocks, but their underlying business model involves owning commercial real estate and distributing earnings as dividends.",
+                "REITs are generally tax-exempt, provided they distribute earnings to shareholders, resulting in steady dividends.",
+                "REITs often access capital markets more than regular firms due to their inability to retain earnings for growth, leading to constant public market pricing.",
+                "Short-term REIT pricing may offer opportunities due to mispricing between net asset value and public stock price.",
+                "REITs are often evaluated using tools ill-suited for their unique characteristics, failing to explain variation in REIT performance.",
+                "Using a value factor (high dividend yield) can predict poor REIT performance, with the speaker recommending shorting such REITs."
+              ],
+              "signal_strength": 8,
+              "themes": [
+                "reits",
+                "real estate",
+                "investing",
+                "finance",
+                "asset allocation",
+                "financial analysis"
+              ],
+              "positioning_implication": "Shift investment analysis in REITs to account for the asset class's distinct legal structure and financial reporting standards; focus on understanding market-specific impacts rather than broad generalizations.",
+              "time_horizon": "medium",
+              "shelf_life": "Medium",
+              "thumbnail": "https://i.ytimg.com/vi/nAWwqb7Abtk/hqdefault.jpg",
+              "video_url": "https://www.youtube.com/watch?v=nAWwqb7Abtk",
+              "cluster_id": 6,
+              "category": "General Financial Investing and Speculation"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "name": "Identity Politics Alienating Key Demographics",
+          "description": "Progressive identity politics risk electoral backlash by alienating moderate voters.",
+          "bias": "defensive",
+          "regime": "Emerging",
+          "size": 1,
+          "strength": 1.0,
+          "coherence": 1.0,
+          "channels": [
+            "The Prof G Pod \u2013 Scott Galloway"
+          ],
+          "avg_signal": 8.0,
+          "briefs": [
+            {
+              "episode_title": "Navigating Corporate Politics and Scott\u2019s Guide to Fundraising | Office Hours",
+              "channel": "The Prof G Pod \u2013 Scott Galloway",
+              "duration_minutes": 40,
+              "podcast_date": "2026-03-03",
+              "processing_date": "2024-01-26",
+              "one_line_summary": "Progressive identity politics and ideological purity tests risk alienating key demographics, potentially leading to adverse political outcomes.",
+              "core_claims": [
+                "Progressive identity politics and purity tests alienate potential democratic voters.",
+                "The Democratic Party's perceived focus on identity politics could lead to unexpected election results, such as a JD Vance presidency.",
+                "The speaker suggests focusing on economic security before engaging in corporate activism, advising caution when speaking out against employers.",
+                "Content marketing, including newsletters, videos, and podcast appearances, is effective for raising awareness and securing funding.",
+                "LinkedIn ads offer a high return on ad spend for B2B marketing by targeting specific professionals based on job title, industry, and skills.",
+                "Atheism, while lacking a belief in the divine, provides a framework for courage, self-forgiveness, and living a more authentic life.",
+                "Religion serves as a net positive in many individuals' lives, offering comfort, community, and a moral compass."
+              ],
+              "signal_strength": 8,
+              "themes": [
+                "identity politics",
+                "political strategy",
+                "corporate activism",
+                "fundraising",
+                "marketing",
+                "religion",
+                "atheism"
+              ],
+              "positioning_implication": "Re-evaluate ideological rigidity to broaden appeal and consider pragmatic risks before public activism; leverage content to build influence.",
+              "time_horizon": "medium",
+              "shelf_life": "Medium",
+              "thumbnail": "https://i.ytimg.com/vi/DgcuZJ5qD0E/hqdefault.jpg",
+              "video_url": "https://www.youtube.com/watch?v=DgcuZJ5qD0E",
+              "cluster_id": 3,
+              "category": "General Financial Investing and Speculation"
+            }
+          ]
+        }
+      ],
+      "should_generate": false
+    },
+    "Precious Metals": {
+      "name": "Precious Metals",
+      "meta_summary": "",
+      "convergence_score": 0.0,
+      "percentile": 0.0,
+      "regime_state": "Neutral",
+      "clusters": [
+        {
+          "id": 2,
+          "name": "Silver Trust Eroding Amid Delivery Concerns",
+          "description": "This narrative suggests a growing lack of confidence in COMEX silver deliveries, potentially driven by perceived market manipulation and supply chain vulnerabilities.",
+          "bias": "defensive",
+          "regime": "Emerging",
+          "size": 1,
+          "strength": 1.0,
+          "coherence": 1.0,
+          "channels": [
+            "Miles Franklin Media"
+          ],
+          "avg_signal": 8.0,
+          "briefs": [
+            {
+              "episode_title": "LIVE Q & A WITH MILES FRANKLIN",
+              "channel": "Miles Franklin Media",
+              "duration_minutes": 54,
+              "podcast_date": "2026-03-03",
+              "processing_date": "2026-03-03",
+              "one_line_summary": "COMEX silver deliveries show a lack of trust and perception management via market intervention.",
+              "core_claims": [
+                "The Comex has experienced four glitches in three months, all technical issues, two on the way up, two on the way down.",
+                "Natural gas came back on before metals following a 'glitch', which the speaker finds insulting.",
+                "Silver leaving COMEX vaults exceeded deliveries by 165% for February contracts, signaling lack of trust.",
+                "Arbitrage between COMEX and Shanghai persists despite opportunity, indicating strategic control, natural gas closed 101, and 88 in change.",
+                "New laws in India allow retirement funds to invest in metals starting in April, using domestic exchange prices.",
+                "Bank of America projects silver could reach $309/oz by 2026.",
+                "75% of silver mined is a byproduct; state-sponsored price floors are needed to incentivize deeper silver mining."
+              ],
+              "signal_strength": 8,
+              "themes": [
+                "comex",
+                "silver",
+                "market manipulation",
+                "gold",
+                "delivery failures",
+                "trust",
+                "supply chain"
+              ],
+              "positioning_implication": "Be aware of contrivances in commodity markets and shift to physical holdings; anticipate strategic moves affecting arbitrage.",
+              "time_horizon": "short",
+              "shelf_life": "Medium",
+              "thumbnail": "https://i.ytimg.com/vi/eY6OKFqAeIw/hqdefault.jpg",
+              "video_url": "https://www.youtube.com/watch?v=eY6OKFqAeIw",
+              "cluster_id": 2,
+              "category": "Precious Metals"
+            }
+          ]
+        },
+        {
+          "id": 1,
+          "name": "Monetary Policy Intensifying Geopolitical Risks",
+          "description": "The end of the gold standard is framed as accelerating systemic risks across debt, currency stability, and geopolitical fault lines.",
+          "bias": "defensive",
+          "regime": "Emerging",
+          "size": 1,
+          "strength": 1.0,
+          "coherence": 1.0,
+          "channels": [
+            "Miles Franklin Media"
+          ],
+          "avg_signal": 9.0,
+          "briefs": [
+            {
+              "episode_title": "America\u2019s \u20186 Trials by Fire\u2019: $40 Trillion Debt, CBDCs & Crisis That Began in 1971 | Kevin Freeman",
+              "channel": "Miles Franklin Media",
+              "duration_minutes": 59,
+              "podcast_date": "2026-03-03",
+              "processing_date": "2026-03-03",
+              "one_line_summary": "Leaving the gold standard in 1971 unleashed compounding global risks; debt, currency dethronement, CBDCs, wealth gaps, demographic shifts, and immigration crises.",
+              "core_claims": [
+                "National debt near $40T threatens the dollar's reserve currency status.",
+                "Central Bank Digital Currencies (CBDCs) aim to control money completely, exceeding the dollar's limitations.",
+                "Leaving the gold standard expanded the wealth gap, disproportionately enriching the top 0.1%.",
+                "Every trial began in 1971 when Nixon left the gold standard, ending with a country takeover via open borders."
+              ],
+              "signal_strength": 9,
+              "themes": [
+                "economic warfare",
+                "gold standard",
+                "cbdc",
+                "wealth gap",
+                "geopolitics",
+                "monetary policy"
+              ],
+              "positioning_implication": "Assess portfolio exposure to dollar devaluation and consider diversifying into alternative assets with inherent scarcity.",
+              "time_horizon": "medium",
+              "shelf_life": "Medium",
+              "thumbnail": "https://i.ytimg.com/vi/NSzgNju1zzo/hqdefault.jpg",
+              "video_url": "https://www.youtube.com/watch?v=NSzgNju1zzo",
+              "cluster_id": 1,
+              "category": "Precious Metals"
+            }
+          ]
+        },
+        {
+          "id": 0,
+          "name": "Uranium Supply Crunch Intensifying",
+          "description": "Uranium demand from nuclear and tech sectors is outpacing constrained supply, potentially driving price increases.",
+          "bias": "constructive",
+          "regime": "Emerging",
+          "size": 1,
+          "strength": 1.0,
+          "coherence": 1.0,
+          "channels": [
+            "Commodity Culture"
+          ],
+          "avg_signal": 9.0,
+          "briefs": [
+            {
+              "episode_title": "Government and Big Tech ALL IN on URANIUM - 'Supply Can't Keep Up'",
+              "channel": "Commodity Culture",
+              "duration_minutes": 43,
+              "podcast_date": "2026-02-27",
+              "processing_date": "2026-03-03",
+              "one_line_summary": "Uranium demand is growing rapidly due to nuclear reactor construction, restarts, and tech sector needs, while supply struggles to keep pace.",
+              "core_claims": [
+                "China will become a larger nuclear power (reactor fleet) than the US for the first time.",
+                "Average electricity prices in the US are up over 40% in the last four years, partly due to AI data center demand.",
+                "Separative Work Unit (SWU) prices have increased from roughly $50 to over $175.",
+                "US government recently provided $2.7 billion ($900M each) to three companies to build a more robust domestic uranium conversion/enrichment pipeline.",
+                "Cameco is paying $15 million a year to keep uranium assets in the ground, viewing current prices ($85-90/lb) as insufficient for extraction."
+              ],
+              "signal_strength": 9,
+              "themes": [
+                "uranium",
+                "nuclear energy",
+                "supply chain",
+                "demand",
+                "government policy",
+                "big tech",
+                "china",
+                "electricity prices"
+              ],
+              "positioning_implication": "Anticipate increasing uranium prices and strategic shifts in energy infrastructure investment, particularly focusing on regions and companies with secure supply chains and governmental support.",
+              "time_horizon": "medium",
+              "shelf_life": "Medium",
+              "thumbnail": "https://i.ytimg.com/vi/E-gzA3yOLc4/hqdefault.jpg",
+              "video_url": "https://www.youtube.com/watch?v=E-gzA3yOLc4",
+              "cluster_id": 0,
+              "category": "Precious Metals"
+            }
+          ]
+        }
+      ],
+      "should_generate": false
+    },
+    "Politics": {
+      "name": "Politics",
+      "meta_summary": "",
+      "convergence_score": 0.0,
+      "percentile": 0.0,
+      "regime_state": "Neutral",
+      "clusters": [
+        {
+          "id": 0,
+          "name": "Iran Geopolitical Risks Intensifying",
+          "description": "This narrative highlights the escalating risks and complexities surrounding potential US-Israeli military action against Iran, emphasizing the need for broader strategic planning.",
+          "bias": "neutral",
+          "regime": "Emerging",
+          "size": 1,
+          "strength": 0.0,
+          "coherence": 1.0,
+          "channels": [
+            "Raging Moderates"
+          ],
+          "avg_signal": 7.0,
+          "briefs": [
+            {
+              "episode_title": "Trump LOSES CONTROL as UNLAWFUL War in Iran ERUPTS",
+              "channel": "Raging Moderates",
+              "duration_minutes": 33,
+              "podcast_date": "2026-03-03",
+              "processing_date": "2026-03-03",
+              "one_line_summary": "A retired US Navy Admiral analyzes potential scenarios following US-Israeli strikes in Iran, emphasizing the need for a comprehensive plan beyond military action.",
+              "core_claims": [
+                "There is a 30% chance that the Iranian people will rise up and overthrow the current regime.",
+                "A potential outcome involves a more moderate 'Iran 3.0' with remnants of the existing government.",
+                "A darker scenario exists where the current Iranian leadership intensifies repression of the populace.",
+                "Changing the Iranian regime through air power alone is unlikely without ground support."
+              ],
+              "signal_strength": 7,
+              "themes": [
+                "iran",
+                "middle east",
+                "military strategy",
+                "geopolitics",
+                "us foreign policy",
+                "risk assessment"
+              ],
+              "positioning_implication": "Assess potential shifts in power dynamics and resource flows, considering the likelihood of various regime change scenarios. Prioritize intelligence gathering and preparation of internal support structures rather than solely relying on military intervention.",
+              "time_horizon": "medium",
+              "shelf_life": "Medium",
+              "thumbnail": "https://i.ytimg.com/vi/lyFF59qoYbg/hqdefault.jpg",
+              "video_url": "https://www.youtube.com/watch?v=lyFF59qoYbg",
+              "cluster_id": 0,
+              "category": "Politics"
+            }
+          ]
+        }
+      ],
+      "should_generate": false
+    }
+  },
+  "clusters": []
+}
