@@ -235,3 +235,148 @@
 2026-03-03 11:30:35,079 - INFO - ==================================================
 2026-03-03 11:30:35,080 - INFO - Pipeline Execution Complete
 2026-03-03 11:30:35,080 - INFO - ==================================================
+2026-03-04 06:11:02,355 - INFO - ==================================================
+2026-03-04 06:11:02,355 - INFO - Starting TheBrief Daily Pipeline
+2026-03-04 06:11:02,355 - INFO - ==================================================
+2026-03-04 06:11:02,355 - INFO - 
+--- Phase 1: Discovery ---
+2026-03-04 06:11:02,359 - INFO - Discovering videos published after 2026-03-03T06:11:02.359052+00:00 (24h lookback)
+2026-03-04 06:11:02,624 - INFO - Found 1 new potential videos on Wall Street Bullion .
+2026-03-04 06:11:02,908 - INFO - Found 2 new potential videos on Kitco NEWS.
+2026-03-04 06:11:03,155 - INFO - Found 1 new potential videos on AI News & Strategy Daily | Nate B Jones.
+2026-03-04 06:11:03,183 - INFO - Found 2 new potential videos on David Lin .
+2026-03-04 06:11:03,339 - INFO - Found 3 new potential videos on Rons Basement.
+2026-03-04 06:11:03,356 - INFO - Found 6 new potential videos on Verified Investing.
+2026-03-04 06:11:03,376 - INFO - Found 3 new potential videos on Arcadia Economics.
+2026-03-04 06:11:03,616 - INFO - Found 1 new potential videos on Commodity Culture.
+2026-03-04 06:11:03,686 - INFO - Found 2 new potential videos on Nate Hagens.
+2026-03-04 06:11:03,703 - INFO - Found 1 new potential videos on Adam Taggart | Thoughtful Money®.
+2026-03-04 06:11:03,797 - INFO - Found 1 new potential videos on Matthew Berman.
+2026-03-04 06:11:03,938 - INFO - Found 4 new potential videos on The Prof G Pod – Scott Galloway.
+2026-03-04 06:11:03,954 - INFO - Found 5 new potential videos on Raging Moderates.
+2026-03-04 06:11:04,128 - INFO - Found 18 total long-form videos across all channels.
+2026-03-04 06:11:04,130 - INFO - Discovery complete. Added 18 new videos to queue.
+2026-03-04 06:11:04,130 - INFO - 
+--- Phase 2: Extraction ---
+2026-03-04 06:11:04,356 - INFO - yt-dlp version: 2026.03.03
+2026-03-04 06:11:04,708 - INFO - POT-related packages: bgutil-ytdlp-pot-provider 1.3.0
+2026-03-04 06:11:04,733 - INFO - bgutil HTTP server not available on port 4416 (will rely on cookies)
+2026-03-04 06:11:04,733 - INFO - Extracting audio for Iran War Rocks Markets; Investor Says 3 Sectors Are About To Explode | Tavi Costa (o3_rq5amtOA)...
+2026-03-04 06:11:31,225 - INFO - Successfully extracted: audio/o3_rq5amtOA.mp3
+2026-03-04 06:11:38,988 - INFO - Extracting audio for Trump's Iran War BACKFIRES as MAGA Turns on Him (H4vKysYvbrA)...
+2026-03-04 06:11:56,698 - INFO - Successfully extracted: audio/H4vKysYvbrA.mp3
+2026-03-04 06:12:01,900 - INFO - Extracting audio for THE GREAT SAVE! 🛡️ Stock Market Defies the Breakdown (aLn1mueIAmI)...
+2026-03-04 06:12:14,285 - INFO - Successfully extracted: audio/aLn1mueIAmI.mp3
+2026-03-04 06:12:24,518 - INFO - Extracting audio for Earning's Central Live 🎬 - ROST, BOX, CRWD (3slKnNA6UeI)...
+2026-03-04 06:12:38,688 - INFO - Successfully extracted: audio/3slKnNA6UeI.mp3
+2026-03-04 06:12:46,472 - INFO - Extracting audio for Epic Adventure To Find Gold: Inside Billion Dollar Mine (LZvIJw85OZk)...
+2026-03-04 06:13:16,373 - INFO - Successfully extracted: audio/LZvIJw85OZk.mp3
+2026-03-04 06:13:24,949 - INFO - Extracting audio for SHOCKING Silver Price Drop! Is it Still a Safe Haven Amidst War? Uncover the Truth! (NuifnQzromo)...
+2026-03-04 06:13:33,833 - INFO - Successfully extracted: audio/NuifnQzromo.mp3
+2026-03-04 06:13:44,328 - INFO - Extracting audio for Gold & Silver Crash Again As Iran War Gets Ugly Quickly (n3PBtj_v1QM)...
+2026-03-04 06:13:59,486 - INFO - Successfully extracted: audio/n3PBtj_v1QM.mp3
+2026-03-04 06:14:10,017 - INFO - Extracting audio for **THIS is BIG!** 🦍🦍 SILVER Just had a MASSIVE Change... (PRICE SMASH!) Gold - Precious Metals News (v2NRb7dADm0)...
+2026-03-04 06:14:28,956 - INFO - Successfully extracted: audio/v2NRb7dADm0.mp3
+2026-03-04 06:14:38,942 - INFO - Extracting audio for Gold Surges on Middle East Escalation. Pullback Risk Ahead? | James Thorne (rvcLtbX6sLM)...
+2026-03-04 06:14:54,637 - INFO - Successfully extracted: audio/rvcLtbX6sLM.mp3
+2026-03-04 06:15:02,084 - INFO - Extracting audio for What Trump’s War With Iran Means for China and Global Oil | China Decode (_j8mXCcQjoU)...
+2026-03-04 06:15:24,827 - INFO - Successfully extracted: audio/_j8mXCcQjoU.mp3
+2026-03-04 06:15:31,067 - INFO - Extracting audio for Regime Change, Forever Wars, and the MADNESS of the 'Elite': Marc Faber (FpUh6b4_3eg)...
+2026-03-04 06:15:55,534 - INFO - Successfully extracted: audio/FpUh6b4_3eg.mp3
+2026-03-04 06:16:06,637 - INFO - Extracting audio for "Meaningful Tailwinds" To Push Stocks Higher Over Coming Months? | Darius Dale (XLvqG7WdLEc)...
+2026-03-04 06:16:53,645 - INFO - Successfully extracted: audio/XLvqG7WdLEc.mp3
+2026-03-04 06:17:03,072 - INFO - Extracting audio for Dario Amodei Made One Mistake. Sam Altman Got $110 Billion. Here's the Full Story. (pTtueIqrg0Q)...
+2026-03-04 06:17:21,577 - INFO - Successfully extracted: audio/pTtueIqrg0Q.mp3
+2026-03-04 06:17:32,882 - INFO - Extracting audio for The Most Common Fallacies of Climate Skeptics (bEO5X42Nzhc)...
+2026-03-04 06:17:42,739 - INFO - Successfully extracted: audio/bEO5X42Nzhc.mp3
+2026-03-04 06:17:51,240 - INFO - Extracting audio for Market Fear Spikes, Institutional Analysis Revealed: Oil Surges, Yields Pop, Market Trap Door Opens (vLNPeaUJwKU)...
+2026-03-04 06:18:04,326 - INFO - Successfully extracted: audio/vLNPeaUJwKU.mp3
+2026-03-04 06:18:14,398 - INFO - Extracting audio for S&P 500 Support & Resistance Levels Breaking Down — What Traders Need to Watch Right Now (NOqiBEh2ubs)...
+2026-03-04 06:18:23,700 - INFO - Successfully extracted: audio/NOqiBEh2ubs.mp3
+2026-03-04 06:18:31,303 - INFO - Extracting audio for War With Iran: Why Oil Didn’t Spike As Expected | Prof G Markets (8sLofQtW4Rw)...
+2026-03-04 06:18:50,399 - INFO - Successfully extracted: audio/8sLofQtW4Rw.mp3
+2026-03-04 06:19:01,600 - INFO - Extracting audio for Frank Giustra & Ian Harris: $6.00 Copper, $1.5B Buyout & The "Gun-Shy" Majors Paying The Price (0SJe0dLzNKA)...
+2026-03-04 06:19:18,737 - INFO - Successfully extracted: audio/0SJe0dLzNKA.mp3
+2026-03-04 06:19:18,738 - INFO - Extraction complete. 18/18 audio files ready. (Time: 494.0s)
+2026-03-04 06:19:18,738 - INFO - 
+--- Phase 3: Summarization (Direct Audio) ---
+2026-03-04 06:19:19,999 - INFO - Generating Brief for THE GREAT SAVE! 🛡️ Stock Market Defies the Breakdown (aLn1mueIAmI)...
+2026-03-04 06:19:20,001 - INFO - AFC is enabled with max remote calls: 10.
+2026-03-04 06:19:20,241 - INFO - Generating Brief for Iran War Rocks Markets; Investor Says 3 Sectors Are About To Explode | Tavi Costa (o3_rq5amtOA)...
+2026-03-04 06:19:20,242 - INFO - AFC is enabled with max remote calls: 10.
+2026-03-04 06:19:20,349 - INFO - Generating Brief for Trump's Iran War BACKFIRES as MAGA Turns on Him (H4vKysYvbrA)...
+2026-03-04 06:19:20,350 - INFO - AFC is enabled with max remote calls: 10.
+2026-03-04 06:19:28,411 - ERROR - Schema parsing error for Trump's Iran War BACKFIRES as MAGA Turns on Him: Expecting value: line 1 column 1195 (char 1194)
+2026-03-04 06:19:29,832 - INFO - ✅ Brief successfully generated for THE GREAT SAVE! 🛡️ Stock Market Defies the Breakdown
+2026-03-04 06:19:30,107 - INFO - Generating Brief for Earning's Central Live 🎬 - ROST, BOX, CRWD (3slKnNA6UeI)...
+2026-03-04 06:19:30,108 - INFO - AFC is enabled with max remote calls: 10.
+2026-03-04 06:19:31,154 - INFO - Generating Brief for Epic Adventure To Find Gold: Inside Billion Dollar Mine (LZvIJw85OZk)...
+2026-03-04 06:19:31,155 - INFO - AFC is enabled with max remote calls: 10.
+2026-03-04 06:19:32,491 - INFO - ✅ Brief successfully generated for Iran War Rocks Markets; Investor Says 3 Sectors Are About To Explode | Tavi Costa
+2026-03-04 06:19:33,578 - INFO - Generating Brief for SHOCKING Silver Price Drop! Is it Still a Safe Haven Amidst War? Uncover the Truth! (NuifnQzromo)...
+2026-03-04 06:19:33,579 - INFO - AFC is enabled with max remote calls: 10.
+2026-03-04 06:19:37,065 - INFO - ✅ Brief successfully generated for Earning's Central Live 🎬 - ROST, BOX, CRWD
+2026-03-04 06:19:37,993 - INFO - Generating Brief for Gold & Silver Crash Again As Iran War Gets Ugly Quickly (n3PBtj_v1QM)...
+2026-03-04 06:19:37,994 - INFO - AFC is enabled with max remote calls: 10.
+2026-03-04 06:19:38,184 - ERROR - Schema parsing error for SHOCKING Silver Price Drop! Is it Still a Safe Haven Amidst War? Uncover the Truth!: Expecting value: line 1 column 1056 (char 1055)
+2026-03-04 06:19:40,196 - INFO - Generating Brief for **THIS is BIG!** 🦍🦍 SILVER Just had a MASSIVE Change... (PRICE SMASH!) Gold - Precious Metals News (v2NRb7dADm0)...
+2026-03-04 06:19:40,197 - INFO - AFC is enabled with max remote calls: 10.
+2026-03-04 06:19:44,108 - ERROR - Schema parsing error for Epic Adventure To Find Gold: Inside Billion Dollar Mine: Expecting value: line 1 column 1814 (char 1813)
+2026-03-04 06:19:45,442 - INFO - ✅ Brief successfully generated for Gold & Silver Crash Again As Iran War Gets Ugly Quickly
+2026-03-04 06:19:45,674 - INFO - Generating Brief for Gold Surges on Middle East Escalation. Pullback Risk Ahead? | James Thorne (rvcLtbX6sLM)...
+2026-03-04 06:19:45,675 - INFO - AFC is enabled with max remote calls: 10.
+2026-03-04 06:19:46,361 - INFO - Generating Brief for What Trump’s War With Iran Means for China and Global Oil | China Decode (_j8mXCcQjoU)...
+2026-03-04 06:19:46,362 - INFO - AFC is enabled with max remote calls: 10.
+2026-03-04 06:19:49,474 - INFO - ✅ Brief successfully generated for **THIS is BIG!** 🦍🦍 SILVER Just had a MASSIVE Change... (PRICE SMASH!) Gold - Precious Metals News
+2026-03-04 06:19:50,452 - INFO - Generating Brief for Regime Change, Forever Wars, and the MADNESS of the 'Elite': Marc Faber (FpUh6b4_3eg)...
+2026-03-04 06:19:50,453 - INFO - AFC is enabled with max remote calls: 10.
+2026-03-04 06:19:54,492 - INFO - ✅ Brief successfully generated for Gold Surges on Middle East Escalation. Pullback Risk Ahead? | James Thorne
+2026-03-04 06:19:56,744 - INFO - Generating Brief for "Meaningful Tailwinds" To Push Stocks Higher Over Coming Months? | Darius Dale (XLvqG7WdLEc)...
+2026-03-04 06:19:56,745 - INFO - AFC is enabled with max remote calls: 10.
+2026-03-04 06:19:59,068 - INFO - ✅ Brief successfully generated for Regime Change, Forever Wars, and the MADNESS of the 'Elite': Marc Faber
+2026-03-04 06:19:59,924 - INFO - ✅ Brief successfully generated for What Trump’s War With Iran Means for China and Global Oil | China Decode
+2026-03-04 06:20:00,096 - INFO - Generating Brief for Dario Amodei Made One Mistake. Sam Altman Got $110 Billion. Here's the Full Story. (pTtueIqrg0Q)...
+2026-03-04 06:20:00,097 - INFO - AFC is enabled with max remote calls: 10.
+2026-03-04 06:20:01,003 - INFO - Generating Brief for The Most Common Fallacies of Climate Skeptics (bEO5X42Nzhc)...
+2026-03-04 06:20:01,004 - INFO - AFC is enabled with max remote calls: 10.
+2026-03-04 06:20:05,743 - ERROR - Schema parsing error for The Most Common Fallacies of Climate Skeptics: Expecting value: line 1 column 1346 (char 1345)
+2026-03-04 06:20:07,008 - INFO - Generating Brief for Market Fear Spikes, Institutional Analysis Revealed: Oil Surges, Yields Pop, Market Trap Door Opens (vLNPeaUJwKU)...
+2026-03-04 06:20:07,009 - INFO - AFC is enabled with max remote calls: 10.
+2026-03-04 06:20:09,264 - INFO - ✅ Brief successfully generated for Dario Amodei Made One Mistake. Sam Altman Got $110 Billion. Here's the Full Story.
+2026-03-04 06:20:10,240 - INFO - Generating Brief for S&P 500 Support & Resistance Levels Breaking Down — What Traders Need to Watch Right Now (NOqiBEh2ubs)...
+2026-03-04 06:20:10,241 - INFO - AFC is enabled with max remote calls: 10.
+2026-03-04 06:20:13,590 - INFO - ✅ Brief successfully generated for Market Fear Spikes, Institutional Analysis Revealed: Oil Surges, Yields Pop, Market Trap Door Opens
+2026-03-04 06:20:14,763 - INFO - Generating Brief for War With Iran: Why Oil Didn’t Spike As Expected | Prof G Markets (8sLofQtW4Rw)...
+2026-03-04 06:20:14,764 - INFO - AFC is enabled with max remote calls: 10.
+2026-03-04 06:20:17,077 - INFO - ✅ Brief successfully generated for S&P 500 Support & Resistance Levels Breaking Down — What Traders Need to Watch Right Now
+2026-03-04 06:20:18,373 - INFO - Generating Brief for Frank Giustra & Ian Harris: $6.00 Copper, $1.5B Buyout & The "Gun-Shy" Majors Paying The Price (0SJe0dLzNKA)...
+2026-03-04 06:20:18,374 - INFO - AFC is enabled with max remote calls: 10.
+2026-03-04 06:20:24,769 - INFO - ✅ Brief successfully generated for Frank Giustra & Ian Harris: $6.00 Copper, $1.5B Buyout & The "Gun-Shy" Majors Paying The Price
+2026-03-04 06:20:27,308 - INFO - ✅ Brief successfully generated for "Meaningful Tailwinds" To Push Stocks Higher Over Coming Months? | Darius Dale
+2026-03-04 06:20:27,623 - INFO - ✅ Brief successfully generated for War With Iran: Why Oil Didn’t Spike As Expected | Prof G Markets
+2026-03-04 06:20:27,624 - INFO - --- Phase 3: Category Synthesis (14 assets across categories) ---
+2026-03-04 06:20:27,624 - INFO - Analyzing 3 categories: General Financial Investing and Speculation, Precious Metals, Artificial Intelligence
+2026-03-04 06:20:27,624 - INFO - Processing Synthesis for sector: General Financial Investing and Speculation (10 assets)...
+2026-03-04 06:20:27,658 - INFO - AFC is enabled with max remote calls: 10.
+2026-03-04 06:20:28,542 - ERROR - Error generating cluster label: Invalid \escape: line 2 column 21 (char 22)
+2026-03-04 06:20:28,543 - INFO - AFC is enabled with max remote calls: 10.
+2026-03-04 06:20:29,318 - INFO - AFC is enabled with max remote calls: 10.
+2026-03-04 06:20:30,211 - INFO - AFC is enabled with max remote calls: 10.
+2026-03-04 06:20:31,043 - INFO - AFC is enabled with max remote calls: 10.
+2026-03-04 06:20:31,901 - INFO - AFC is enabled with max remote calls: 10.
+2026-03-04 06:20:32,817 - INFO - ✅ Synthesis complete for General Financial Investing and Speculation
+2026-03-04 06:20:32,817 - INFO - Processing Synthesis for sector: Precious Metals (3 assets)...
+2026-03-04 06:20:32,822 - INFO - AFC is enabled with max remote calls: 10.
+2026-03-04 06:20:33,643 - INFO - AFC is enabled with max remote calls: 10.
+2026-03-04 06:20:34,703 - INFO - AFC is enabled with max remote calls: 10.
+2026-03-04 06:20:35,589 - INFO - ✅ Synthesis complete for Precious Metals
+2026-03-04 06:20:35,589 - INFO - Processing Synthesis for sector: Artificial Intelligence (1 assets)...
+2026-03-04 06:20:35,590 - INFO - AFC is enabled with max remote calls: 10.
+2026-03-04 06:20:36,443 - INFO - ✅ Synthesis complete for Artificial Intelligence
+2026-03-04 06:20:36,455 - INFO - Summarization complete. 14 briefs written to briefs/2026-03-04.md (Time: 77.7s)
+2026-03-04 06:20:37,614 - INFO - Email digest sent successfully to kwilliamson.mail@gmail.com.
+2026-03-04 06:20:38,302 - INFO - Email digest sent successfully to kochava72@gmail.com.
+2026-03-04 06:20:38,316 - INFO - Queue cleared.
+2026-03-04 06:20:38,322 - INFO - ==================================================
+2026-03-04 06:20:38,322 - INFO - Pipeline Execution Complete
+2026-03-04 06:20:38,322 - INFO - ==================================================
