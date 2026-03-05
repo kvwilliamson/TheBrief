@@ -11,5 +11,10 @@ if [ ! -d "venv" ]; then
     ./venv/bin/pip install -r requirements.txt
 fi
 
+# Auto-update yt-dlp to stay ahead of YouTube anti-bot changes
+echo "🔄 Checking for yt-dlp updates..."
+./venv/bin/pip install -U yt-dlp --quiet 2>/dev/null
+echo "✅ yt-dlp $(./venv/bin/python3 -m yt_dlp --version)"
+
 echo "🚀 Starting TheBrief Dashboard..."
 ./venv/bin/streamlit run app.py
