@@ -1,70 +1,5 @@
 [
   {
-    "timestamp": "2026-02-26T17:26:20.430169",
-    "video_count": 21,
-    "cluster_count": 12,
-    "singleton_count": 6,
-    "max_cluster_size": 3,
-    "mean_cluster_size": 1.75,
-    "threshold_dist": 0.24120799374125246,
-    "percentile": 85,
-    "linkage": "average",
-    "distribution": [
-      3,
-      2,
-      3,
-      2,
-      2,
-      1,
-      3,
-      1,
-      1,
-      1,
-      1,
-      1
-    ]
-  },
-  {
-    "timestamp": "2026-02-26T17:26:20.431856",
-    "video_count": 21,
-    "cluster_count": 6,
-    "singleton_count": 5,
-    "max_cluster_size": 16,
-    "mean_cluster_size": 3.5,
-    "threshold_dist": 0.24266291876876567,
-    "percentile": 85,
-    "linkage": "single",
-    "distribution": [
-      16,
-      1,
-      1,
-      1,
-      1,
-      1
-    ]
-  },
-  {
-    "timestamp": "2026-02-26T17:26:20.432933",
-    "video_count": 10,
-    "cluster_count": 8,
-    "singleton_count": 6,
-    "max_cluster_size": 2,
-    "mean_cluster_size": 1.25,
-    "threshold_dist": 0.22869265445402676,
-    "percentile": 85,
-    "linkage": "complete",
-    "distribution": [
-      2,
-      2,
-      1,
-      1,
-      1,
-      1,
-      1,
-      1
-    ]
-  },
-  {
     "timestamp": "2026-02-26T17:26:20.435021",
     "video_count": 25,
     "cluster_count": 20,
@@ -716,6 +651,61 @@
     "linkage": "complete",
     "distribution": [
       2,
+      1,
+      1
+    ]
+  },
+  {
+    "timestamp": "2026-03-03T06:49:26.043774",
+    "video_count": 2,
+    "cluster_count": 1,
+    "singleton_count": 0,
+    "max_cluster_size": 2,
+    "mean_cluster_size": 2.0,
+    "avg_coherence": 0.5556078000652199,
+    "threshold_dist": 0.4443921999347801,
+    "percentile": 85,
+    "linkage": "complete",
+    "distribution": [
+      2
+    ]
+  },
+  {
+    "timestamp": "2026-03-03T06:49:27.405156",
+    "video_count": 11,
+    "cluster_count": 8,
+    "singleton_count": 7,
+    "max_cluster_size": 4,
+    "mean_cluster_size": 1.375,
+    "avg_coherence": 0.9644009392866154,
+    "threshold_dist": 0.3389691778639712,
+    "percentile": 85,
+    "linkage": "complete",
+    "distribution": [
+      4,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "timestamp": "2026-03-03T06:49:34.803417",
+    "video_count": 5,
+    "cluster_count": 4,
+    "singleton_count": 3,
+    "max_cluster_size": 2,
+    "mean_cluster_size": 1.25,
+    "avg_coherence": 0.9491334280185735,
+    "threshold_dist": 0.2587027384103455,
+    "percentile": 85,
+    "linkage": "complete",
+    "distribution": [
+      2,
+      1,
       1,
       1
     ]
