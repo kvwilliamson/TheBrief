@@ -527,3 +527,84 @@
 2026-03-07 06:32:28,621 - INFO - ==================================================
 2026-03-07 06:32:28,621 - INFO - Pipeline Execution Complete
 2026-03-07 06:32:28,621 - INFO - ==================================================
+2026-03-08 06:26:08,948 - INFO - ==================================================
+2026-03-08 06:26:08,948 - INFO - Starting TheBrief Daily Pipeline
+2026-03-08 06:26:08,949 - INFO - ==================================================
+2026-03-08 06:26:08,949 - INFO - 
+--- Phase 1: Discovery ---
+2026-03-08 06:26:08,952 - INFO - Discovering videos published after 2026-03-07T06:26:08.952746+00:00 (24h lookback)
+2026-03-08 06:26:09,479 - INFO - Found 1 new potential videos on Silver Dragons.
+2026-03-08 06:26:09,657 - INFO - Found 2 new potential videos on AI News & Strategy Daily | Nate B Jones.
+2026-03-08 06:26:09,719 - INFO - Found 4 new potential videos on Rons Basement.
+2026-03-08 06:26:09,857 - INFO - Found 1 new potential videos on David Lin .
+2026-03-08 06:26:10,038 - INFO - Found 1 new potential videos on Miles Franklin Media.
+2026-03-08 06:26:10,192 - INFO - Found 1 new potential videos on Adam Taggart | Thoughtful Money®.
+2026-03-08 06:26:10,198 - INFO - Found 1 new potential videos on Verified Investing.
+2026-03-08 06:26:10,282 - INFO - Found 1 new potential videos on Matthew Berman.
+2026-03-08 06:26:10,368 - INFO - Found 1 new potential videos on The Prof G Pod – Scott Galloway.
+2026-03-08 06:26:10,528 - INFO - Found 2 new potential videos on Raging Moderates.
+2026-03-08 06:26:10,648 - INFO - Found 8 total long-form videos across all channels.
+2026-03-08 06:26:10,650 - INFO - Discovery complete. Added 7 new videos to queue.
+2026-03-08 06:26:10,650 - INFO - 
+--- Phase 2: Extraction ---
+2026-03-08 06:26:10,872 - INFO - yt-dlp version: 2026.03.03
+2026-03-08 06:26:11,217 - INFO - POT-related packages: bgutil-ytdlp-pot-provider 1.3.1
+2026-03-08 06:26:11,241 - INFO - bgutil HTTP server not available on port 4416 (will rely on cookies)
+2026-03-08 06:26:11,241 - INFO - Extracting audio for 🚨This Will Send SILVER SOARING! - Must HEAR Big Precious Metals NEWS (k-VhGsQXXMg)...
+2026-03-08 06:26:32,942 - INFO - Successfully extracted: audio/k-VhGsQXXMg.mp3
+2026-03-08 06:26:40,798 - INFO - Extracting audio for How Gold and Crypto Fit Into the Modern Economy: Campbell Harvey of Duke University (uDNxbq7jy3Q)...
+2026-03-08 06:27:06,950 - INFO - Successfully extracted: audio/uDNxbq7jy3Q.mp3
+2026-03-08 06:27:14,728 - INFO - Extracting audio for Silver Mines Vanishing Warns CEO: $300 Price This Cycle | Glenn Jessome (uZpMz_yiilU)...
+2026-03-08 06:27:36,163 - INFO - Successfully extracted: audio/uZpMz_yiilU.mp3
+2026-03-08 06:27:43,435 - INFO - Extracting audio for BEST SILVER TO BUY IN 2026 HANDS DOWN (YU92iGi_Ak4)...
+2026-03-08 06:27:53,715 - INFO - Successfully extracted: audio/YU92iGi_Ak4.mp3
+2026-03-08 06:27:59,707 - INFO - Extracting audio for Are We Already in a Wartime Economy? What It Means for Inflation, Gold & Dollar | Michael Wilkerson (7CrpWLS3Ons)...
+2026-03-08 06:28:27,451 - INFO - Successfully extracted: audio/7CrpWLS3Ons.mp3
+2026-03-08 06:28:36,244 - INFO - Extracting audio for Will The Iran War Crash The Markets? | Michael Lebowitz (R41MJXEtsQc)...
+2026-03-08 06:29:19,096 - INFO - Successfully extracted: audio/R41MJXEtsQc.mp3
+2026-03-08 06:29:30,564 - INFO - Extracting audio for GPT-5.4 Let Mickey Mouse Into a Production Database. Nobody Noticed. (What This Means For Your Work) (-_vL1KXd2rc)...
+2026-03-08 06:29:49,602 - INFO - Successfully extracted: audio/-_vL1KXd2rc.mp3
+2026-03-08 06:29:49,603 - INFO - Extraction complete. 7/7 audio files ready. (Time: 218.4s)
+2026-03-08 06:29:49,603 - INFO - 
+--- Phase 3: Summarization (Direct Audio) ---
+2026-03-08 06:29:50,655 - INFO - Generating Brief for 🚨This Will Send SILVER SOARING! - Must HEAR Big Precious Metals NEWS (k-VhGsQXXMg)...
+2026-03-08 06:29:50,657 - INFO - AFC is enabled with max remote calls: 10.
+2026-03-08 06:29:50,745 - INFO - Generating Brief for How Gold and Crypto Fit Into the Modern Economy: Campbell Harvey of Duke University (uDNxbq7jy3Q)...
+2026-03-08 06:29:50,746 - INFO - AFC is enabled with max remote calls: 10.
+2026-03-08 06:29:51,022 - INFO - Generating Brief for Silver Mines Vanishing Warns CEO: $300 Price This Cycle | Glenn Jessome (uZpMz_yiilU)...
+2026-03-08 06:29:51,023 - INFO - AFC is enabled with max remote calls: 10.
+2026-03-08 06:30:01,459 - INFO - ✅ Brief successfully generated for How Gold and Crypto Fit Into the Modern Economy: Campbell Harvey of Duke University
+2026-03-08 06:30:02,093 - INFO - ✅ Brief successfully generated for 🚨This Will Send SILVER SOARING! - Must HEAR Big Precious Metals NEWS
+2026-03-08 06:30:02,299 - INFO - ✅ Brief successfully generated for Silver Mines Vanishing Warns CEO: $300 Price This Cycle | Glenn Jessome
+2026-03-08 06:30:02,441 - INFO - Generating Brief for BEST SILVER TO BUY IN 2026 HANDS DOWN (YU92iGi_Ak4)...
+2026-03-08 06:30:02,442 - INFO - AFC is enabled with max remote calls: 10.
+2026-03-08 06:30:03,675 - INFO - Generating Brief for Will The Iran War Crash The Markets? | Michael Lebowitz (R41MJXEtsQc)...
+2026-03-08 06:30:03,678 - INFO - AFC is enabled with max remote calls: 10.
+2026-03-08 06:30:03,951 - INFO - Generating Brief for Are We Already in a Wartime Economy? What It Means for Inflation, Gold & Dollar | Michael Wilkerson (7CrpWLS3Ons)...
+2026-03-08 06:30:03,952 - INFO - AFC is enabled with max remote calls: 10.
+2026-03-08 06:30:06,394 - ERROR - Schema parsing error for BEST SILVER TO BUY IN 2026 HANDS DOWN: Expecting value: line 1 column 1128 (char 1127)
+2026-03-08 06:30:08,360 - INFO - Generating Brief for GPT-5.4 Let Mickey Mouse Into a Production Database. Nobody Noticed. (What This Means For Your Work) (-_vL1KXd2rc)...
+2026-03-08 06:30:08,362 - INFO - AFC is enabled with max remote calls: 10.
+2026-03-08 06:30:16,435 - INFO - ✅ Brief successfully generated for GPT-5.4 Let Mickey Mouse Into a Production Database. Nobody Noticed. (What This Means For Your Work)
+2026-03-08 06:30:18,333 - INFO - ✅ Brief successfully generated for Are We Already in a Wartime Economy? What It Means for Inflation, Gold & Dollar | Michael Wilkerson
+2026-03-08 06:30:26,565 - INFO - ✅ Brief successfully generated for Will The Iran War Crash The Markets? | Michael Lebowitz
+2026-03-08 06:30:26,565 - INFO - --- Phase 3: Category Synthesis (6 assets across categories) ---
+2026-03-08 06:30:26,566 - INFO - Analyzing 3 categories: General Financial Investing and Speculation, Precious Metals, Artificial Intelligence
+2026-03-08 06:30:26,566 - INFO - Processing Synthesis for sector: General Financial Investing and Speculation (3 assets)...
+2026-03-08 06:30:26,596 - INFO - AFC is enabled with max remote calls: 10.
+2026-03-08 06:30:27,505 - INFO - AFC is enabled with max remote calls: 10.
+2026-03-08 06:30:28,338 - INFO - ✅ Synthesis complete for General Financial Investing and Speculation
+2026-03-08 06:30:28,339 - INFO - Processing Synthesis for sector: Precious Metals (2 assets)...
+2026-03-08 06:30:28,342 - INFO - AFC is enabled with max remote calls: 10.
+2026-03-08 06:30:28,984 - INFO - AFC is enabled with max remote calls: 10.
+2026-03-08 06:30:29,794 - INFO - ✅ Synthesis complete for Precious Metals
+2026-03-08 06:30:29,794 - INFO - Processing Synthesis for sector: Artificial Intelligence (1 assets)...
+2026-03-08 06:30:29,795 - INFO - AFC is enabled with max remote calls: 10.
+2026-03-08 06:30:30,649 - INFO - ✅ Synthesis complete for Artificial Intelligence
+2026-03-08 06:30:30,657 - INFO - Summarization complete. 6 briefs written to briefs/2026-03-08.md (Time: 41.0s)
+2026-03-08 06:30:31,783 - INFO - Email digest sent successfully to kwilliamson.mail@gmail.com.
+2026-03-08 06:30:32,607 - INFO - Email digest sent successfully to kochava72@gmail.com.
+2026-03-08 06:30:32,617 - INFO - Queue cleared.
+2026-03-08 06:30:32,623 - INFO - ==================================================
+2026-03-08 06:30:32,623 - INFO - Pipeline Execution Complete
+2026-03-08 06:30:32,623 - INFO - ==================================================
