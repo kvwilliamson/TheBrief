@@ -608,3 +608,103 @@
 2026-03-08 06:30:32,623 - INFO - ==================================================
 2026-03-08 06:30:32,623 - INFO - Pipeline Execution Complete
 2026-03-08 06:30:32,623 - INFO - ==================================================
+2026-03-09 06:36:27,624 - INFO - ==================================================
+2026-03-09 06:36:27,624 - INFO - Starting TheBrief Daily Pipeline
+2026-03-09 06:36:27,624 - INFO - ==================================================
+2026-03-09 06:36:27,624 - INFO - 
+--- Phase 1: Discovery ---
+2026-03-09 06:36:27,628 - INFO - Discovering videos published after 2026-03-08T06:36:27.628554+00:00 (24h lookback)
+2026-03-09 06:36:27,970 - INFO - Found 1 new potential videos on Bald Guy Money.
+2026-03-09 06:36:28,106 - INFO - Found 1 new potential videos on Wall Street Bullion .
+2026-03-09 06:36:28,170 - INFO - Found 1 new potential videos on Rons Basement.
+2026-03-09 06:36:28,415 - INFO - Found 1 new potential videos on Clive Thompson.
+2026-03-09 06:36:28,466 - INFO - Found 2 new potential videos on AI News & Strategy Daily | Nate B Jones.
+2026-03-09 06:36:28,482 - INFO - Found 1 new potential videos on David Lin .
+2026-03-09 06:36:28,669 - INFO - Found 1 new potential videos on Felix & Friends (Goat Academy).
+2026-03-09 06:36:28,824 - INFO - Found 1 new potential videos on Adam Taggart | Thoughtful Money®.
+2026-03-09 06:36:28,851 - INFO - Found 1 new potential videos on Miles Franklin Media.
+2026-03-09 06:36:29,085 - INFO - Found 2 new potential videos on Raging Moderates.
+2026-03-09 06:36:29,098 - INFO - Found 1 new potential videos on Wes Roth.
+2026-03-09 06:36:29,119 - INFO - Found 1 new potential videos on The Prof G Pod – Scott Galloway.
+2026-03-09 06:36:29,277 - INFO - Found 10 total long-form videos across all channels.
+2026-03-09 06:36:29,279 - INFO - Discovery complete. Added 10 new videos to queue.
+2026-03-09 06:36:29,279 - INFO - 
+--- Phase 2: Extraction ---
+2026-03-09 06:36:29,517 - INFO - yt-dlp version: 2026.03.03
+2026-03-09 06:36:29,871 - INFO - POT-related packages: bgutil-ytdlp-pot-provider 1.3.1
+2026-03-09 06:36:29,894 - INFO - bgutil HTTP server not available on port 4416 (will rely on cookies)
+2026-03-09 06:36:29,894 - INFO - Extracting audio for Claude JUST became AWARE (mA8C55NLYzw)...
+2026-03-09 06:36:47,119 - INFO - Successfully extracted: audio/mA8C55NLYzw.mp3
+2026-03-09 06:36:54,595 - INFO - Extracting audio for Why Silver Could Be the Most Mispriced Asset on Earth (822BUedTDRo)...
+2026-03-09 06:37:04,025 - INFO - Successfully extracted: audio/822BUedTDRo.mp3
+2026-03-09 06:37:15,283 - INFO - Extracting audio for Economist Warns 50-Year Crisis To Break Market Bubble | Steve Hanke (_cRUYOcieo0)...
+2026-03-09 06:37:40,866 - INFO - Successfully extracted: audio/_cRUYOcieo0.mp3
+2026-03-09 06:37:49,794 - INFO - Extracting audio for The dominos are falling.  The cockroaches have arrived.  Gold and silver are the only refuge. (EvqBzClEZkg)...
+2026-03-09 06:38:12,656 - INFO - Successfully extracted: audio/EvqBzClEZkg.mp3
+2026-03-09 06:38:17,711 - INFO - Extracting audio for SCARY NEWS! - WW3 & Silver Prices That Will SHOCK The World! (AjyATYIkcDo)...
+2026-03-09 06:38:28,869 - INFO - Successfully extracted: audio/AjyATYIkcDo.mp3
+2026-03-09 06:38:35,834 - INFO - Extracting audio for 45 People, $200M Revenue. The Question Nobody's Asking About AI and Your Team Size. (hnwM01CpzmA)...
+2026-03-09 06:38:52,770 - INFO - Successfully extracted: audio/hnwM01CpzmA.mp3
+2026-03-09 06:38:59,755 - INFO - Extracting audio for 🚨$1728 SILVER! - You MUST Hear THIS - Precious Metals Just Had a MAJOR CHANGE (sW7cr3ovCkI)...
+2026-03-09 06:39:20,951 - INFO - Successfully extracted: audio/sW7cr3ovCkI.mp3
+2026-03-09 06:39:28,174 - INFO - Extracting audio for Does A "Lost Decade" For Stocks Lie Ahead? | New Harbor Financial (0Edpe_8xF7w)...
+2026-03-09 06:39:58,302 - INFO - Successfully extracted: audio/0Edpe_8xF7w.mp3
+2026-03-09 06:40:07,111 - INFO - Extracting audio for Gold & Silver Prices During Oil Shock - What Happened The Last 2 Times? (aaa-Vw0MFA0)...
+2026-03-09 06:40:20,379 - INFO - Successfully extracted: audio/aaa-Vw0MFA0.mp3
+2026-03-09 06:40:27,787 - INFO - Extracting audio for This Metal Is Set To Explode (Not Gold Or Silver) (_opyvjj_BTQ)...
+2026-03-09 06:40:43,474 - INFO - Successfully extracted: audio/_opyvjj_BTQ.mp3
+2026-03-09 06:40:43,475 - INFO - Extraction complete. 10/10 audio files ready. (Time: 253.6s)
+2026-03-09 06:40:43,475 - INFO - 
+--- Phase 3: Summarization (Direct Audio) ---
+2026-03-09 06:40:44,975 - INFO - Generating Brief for Why Silver Could Be the Most Mispriced Asset on Earth (822BUedTDRo)...
+2026-03-09 06:40:44,977 - INFO - AFC is enabled with max remote calls: 10.
+2026-03-09 06:40:45,232 - INFO - Generating Brief for Claude JUST became AWARE (mA8C55NLYzw)...
+2026-03-09 06:40:45,233 - INFO - AFC is enabled with max remote calls: 10.
+2026-03-09 06:40:45,278 - INFO - Generating Brief for Economist Warns 50-Year Crisis To Break Market Bubble | Steve Hanke (_cRUYOcieo0)...
+2026-03-09 06:40:45,279 - INFO - AFC is enabled with max remote calls: 10.
+2026-03-09 06:40:51,306 - INFO - ✅ Brief successfully generated for Why Silver Could Be the Most Mispriced Asset on Earth
+2026-03-09 06:40:53,100 - INFO - Generating Brief for The dominos are falling.  The cockroaches have arrived.  Gold and silver are the only refuge. (EvqBzClEZkg)...
+2026-03-09 06:40:53,101 - INFO - AFC is enabled with max remote calls: 10.
+2026-03-09 06:40:54,613 - INFO - ✅ Brief successfully generated for Claude JUST became AWARE
+2026-03-09 06:40:55,867 - INFO - Generating Brief for SCARY NEWS! - WW3 & Silver Prices That Will SHOCK The World! (AjyATYIkcDo)...
+2026-03-09 06:40:55,869 - INFO - AFC is enabled with max remote calls: 10.
+2026-03-09 06:40:58,738 - INFO - ✅ Brief successfully generated for Economist Warns 50-Year Crisis To Break Market Bubble | Steve Hanke
+2026-03-09 06:41:00,579 - INFO - Generating Brief for 45 People, $200M Revenue. The Question Nobody's Asking About AI and Your Team Size. (hnwM01CpzmA)...
+2026-03-09 06:41:00,580 - INFO - AFC is enabled with max remote calls: 10.
+2026-03-09 06:41:03,238 - INFO - ✅ Brief successfully generated for SCARY NEWS! - WW3 & Silver Prices That Will SHOCK The World!
+2026-03-09 06:41:04,637 - INFO - Generating Brief for 🚨$1728 SILVER! - You MUST Hear THIS - Precious Metals Just Had a MAJOR CHANGE (sW7cr3ovCkI)...
+2026-03-09 06:41:04,638 - INFO - AFC is enabled with max remote calls: 10.
+2026-03-09 06:41:05,628 - INFO - ✅ Brief successfully generated for The dominos are falling.  The cockroaches have arrived.  Gold and silver are the only refuge.
+2026-03-09 06:41:07,594 - INFO - Generating Brief for Does A "Lost Decade" For Stocks Lie Ahead? | New Harbor Financial (0Edpe_8xF7w)...
+2026-03-09 06:41:07,595 - INFO - AFC is enabled with max remote calls: 10.
+2026-03-09 06:41:08,518 - INFO - ✅ Brief successfully generated for 45 People, $200M Revenue. The Question Nobody's Asking About AI and Your Team Size.
+2026-03-09 06:41:09,499 - INFO - Generating Brief for Gold & Silver Prices During Oil Shock - What Happened The Last 2 Times? (aaa-Vw0MFA0)...
+2026-03-09 06:41:09,500 - INFO - AFC is enabled with max remote calls: 10.
+2026-03-09 06:41:14,474 - ERROR - Schema parsing error for 🚨$1728 SILVER! - You MUST Hear THIS - Precious Metals Just Had a MAJOR CHANGE: Expecting value: line 1 column 1234 (char 1233)
+2026-03-09 06:41:15,857 - INFO - Generating Brief for This Metal Is Set To Explode (Not Gold Or Silver) (_opyvjj_BTQ)...
+2026-03-09 06:41:15,858 - INFO - AFC is enabled with max remote calls: 10.
+2026-03-09 06:41:16,014 - INFO - ✅ Brief successfully generated for Gold & Silver Prices During Oil Shock - What Happened The Last 2 Times?
+2026-03-09 06:41:24,178 - INFO - ✅ Brief successfully generated for This Metal Is Set To Explode (Not Gold Or Silver)
+2026-03-09 06:41:27,721 - INFO - ✅ Brief successfully generated for Does A "Lost Decade" For Stocks Lie Ahead? | New Harbor Financial
+2026-03-09 06:41:27,721 - INFO - --- Phase 3: Category Synthesis (9 assets across categories) ---
+2026-03-09 06:41:27,722 - INFO - Analyzing 3 categories: Precious Metals, Artificial Intelligence, General Financial Investing and Speculation
+2026-03-09 06:41:27,722 - INFO - Processing Synthesis for sector: Precious Metals (2 assets)...
+2026-03-09 06:41:27,750 - INFO - AFC is enabled with max remote calls: 10.
+2026-03-09 06:41:28,540 - INFO - AFC is enabled with max remote calls: 10.
+2026-03-09 06:41:29,339 - INFO - ✅ Synthesis complete for Precious Metals
+2026-03-09 06:41:29,339 - INFO - Processing Synthesis for sector: Artificial Intelligence (2 assets)...
+2026-03-09 06:41:29,342 - INFO - AFC is enabled with max remote calls: 10.
+2026-03-09 06:41:30,176 - INFO - ✅ Synthesis complete for Artificial Intelligence
+2026-03-09 06:41:30,177 - INFO - Processing Synthesis for sector: General Financial Investing and Speculation (5 assets)...
+2026-03-09 06:41:30,183 - INFO - AFC is enabled with max remote calls: 10.
+2026-03-09 06:41:30,987 - INFO - AFC is enabled with max remote calls: 10.
+2026-03-09 06:41:31,744 - INFO - AFC is enabled with max remote calls: 10.
+2026-03-09 06:41:32,561 - INFO - AFC is enabled with max remote calls: 10.
+2026-03-09 06:41:33,319 - INFO - ✅ Synthesis complete for General Financial Investing and Speculation
+2026-03-09 06:41:33,327 - INFO - Summarization complete. 9 briefs written to briefs/2026-03-09.md (Time: 49.8s)
+2026-03-09 06:41:35,262 - INFO - Email digest sent successfully to kwilliamson.mail@gmail.com.
+2026-03-09 06:41:36,130 - INFO - Email digest sent successfully to kochava72@gmail.com.
+2026-03-09 06:41:36,173 - INFO - Queue cleared.
+2026-03-09 06:41:36,180 - INFO - ==================================================
+2026-03-09 06:41:36,180 - INFO - Pipeline Execution Complete
+2026-03-09 06:41:36,180 - INFO - ==================================================
