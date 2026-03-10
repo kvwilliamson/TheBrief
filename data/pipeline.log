@@ -708,3 +708,165 @@
 2026-03-09 06:41:36,180 - INFO - ==================================================
 2026-03-09 06:41:36,180 - INFO - Pipeline Execution Complete
 2026-03-09 06:41:36,180 - INFO - ==================================================
+2026-03-10 06:29:13,854 - INFO - ==================================================
+2026-03-10 06:29:13,854 - INFO - Starting TheBrief Daily Pipeline
+2026-03-10 06:29:13,854 - INFO - ==================================================
+2026-03-10 06:29:13,854 - INFO - 
+--- Phase 1: Discovery ---
+2026-03-10 06:29:13,858 - INFO - Discovering videos published after 2026-03-09T06:29:13.858192+00:00 (24h lookback)
+2026-03-10 06:29:14,127 - INFO - Found 4 new potential videos on Rons Basement.
+2026-03-10 06:29:14,183 - INFO - Found 1 new potential videos on Wall Street Bullion .
+2026-03-10 06:29:14,377 - INFO - Found 2 new potential videos on Kitco NEWS.
+2026-03-10 06:29:14,420 - INFO - Found 1 new potential videos on Silver Dragons.
+2026-03-10 06:29:14,622 - INFO - Found 2 new potential videos on AI News & Strategy Daily | Nate B Jones.
+2026-03-10 06:29:14,628 - INFO - Found 2 new potential videos on David Lin .
+2026-03-10 06:29:14,652 - INFO - Found 1 new potential videos on Clive Thompson.
+2026-03-10 06:29:14,689 - INFO - Found 1 new potential videos on Arcadia Economics.
+2026-03-10 06:29:14,797 - INFO - Found 1 new potential videos on TheTechnicalTraders.
+2026-03-10 06:29:14,855 - INFO - Found 1 new potential videos on Felix & Friends (Goat Academy).
+2026-03-10 06:29:14,888 - INFO - Found 1 new potential videos on Adam Taggart | Thoughtful Money®.
+2026-03-10 06:29:14,894 - INFO - Found 6 new potential videos on Verified Investing.
+2026-03-10 06:29:14,932 - INFO - Found 1 new potential videos on Miles Franklin Media.
+2026-03-10 06:29:15,099 - INFO - Found 1 new potential videos on Nate Hagens.
+2026-03-10 06:29:15,109 - INFO - Found 1 new potential videos on Matthew Berman.
+2026-03-10 06:29:15,250 - INFO - Found 4 new potential videos on Raging Moderates.
+2026-03-10 06:29:15,302 - INFO - Found 5 new potential videos on The Prof G Pod – Scott Galloway.
+2026-03-10 06:29:15,479 - INFO - Found 20 total long-form videos across all channels.
+2026-03-10 06:29:15,482 - INFO - Discovery complete. Added 20 new videos to queue.
+2026-03-10 06:29:15,483 - INFO - 
+--- Phase 2: Extraction ---
+2026-03-10 06:29:15,708 - INFO - yt-dlp version: 2026.03.03
+2026-03-10 06:29:16,059 - INFO - POT-related packages: bgutil-ytdlp-pot-provider 1.3.1
+2026-03-10 06:29:16,083 - INFO - bgutil HTTP server not available on port 4416 (will rely on cookies)
+2026-03-10 06:29:16,083 - INFO - Extracting audio for 2008-Style Crisis Signals Flashing Warns Ex-Lehman VP | Lawrence McDonald (bwZ1ardgEyA)...
+2026-03-10 06:29:40,987 - INFO - Successfully extracted: audio/bwZ1ardgEyA.mp3
+2026-03-10 06:29:46,705 - INFO - Extracting audio for Live Q & A WITH MILES FRANKLIN (TuZOchzIII8)...
+2026-03-10 06:30:32,403 - INFO - Successfully extracted: audio/TuZOchzIII8.mp3
+2026-03-10 06:30:42,568 - INFO - Extracting audio for Silver Looks Stronger Than Gold Right Now. Here’s Why | Gary Wagner (ubZQtvONyio)...
+2026-03-10 06:30:55,369 - INFO - Successfully extracted: audio/ubZQtvONyio.mp3
+2026-03-10 06:31:04,749 - INFO - Extracting audio for THE GREAT OIL FAKEOUT! 🛑 (s1bnpe3HiBg)...
+2026-03-10 06:31:16,548 - INFO - Successfully extracted: audio/s1bnpe3HiBg.mp3
+2026-03-10 06:31:25,872 - INFO - Extracting audio for Gold Vs. Mining Stocks: Which One's The Better Buy Right Now | with David Morgan (utMDeqycVGE)...
+2026-03-10 06:31:34,498 - INFO - Successfully extracted: audio/utMDeqycVGE.mp3
+2026-03-10 06:31:44,435 - INFO - Extracting audio for Clem Chambers: 'Gold Is For War' And $6000 Is The Real Target (bR-sLfGUT4w)...
+2026-03-10 06:32:07,766 - INFO - Successfully extracted: audio/bR-sLfGUT4w.mp3
+2026-03-10 06:32:15,099 - INFO - Extracting audio for Trump DOWNPLAYS War Costs as Oil EXPLODES and Markets TANK (IWxe8oFb1-I)...
+2026-03-10 06:32:33,389 - INFO - Successfully extracted: audio/IWxe8oFb1-I.mp3
+2026-03-10 06:32:44,771 - INFO - Extracting audio for What Comes After Silver’s Historic Run? CEO Reveals Next Moves | Jalen Yuan (FCNN-H1UAqQ)...
+2026-03-10 06:33:01,205 - INFO - Successfully extracted: audio/FCNN-H1UAqQ.mp3
+2026-03-10 06:33:13,131 - INFO - Extracting audio for WARNING: Silver Price NEWS! What You NEED To Know NOW! (OTeKgWaa69A)...
+2026-03-10 06:33:25,524 - INFO - Successfully extracted: audio/OTeKgWaa69A.mp3
+2026-03-10 06:33:35,820 - INFO - Extracting audio for Dylan Patel: They Don't See It Coming (E5B0cS6XRkg)...
+2026-03-10 06:34:20,458 - INFO - Successfully extracted: audio/E5B0cS6XRkg.mp3
+2026-03-10 06:34:26,597 - INFO - Extracting audio for DEALER ON "WORST SILVER TO BUY" YOUR SILVER QUESTIONS ANSWERED (wOxvDb9SEzM)...
+2026-03-10 06:34:38,188 - INFO - Successfully extracted: audio/wOxvDb9SEzM.mp3
+2026-03-10 06:34:46,201 - INFO - Extracting audio for Does Wealth Make You Selfish? | Office Hours (vC35UuUkLSo)...
+2026-03-10 06:34:59,882 - INFO - Successfully extracted: audio/vC35UuUkLSo.mp3
+2026-03-10 06:35:05,407 - INFO - Extracting audio for 🚨 SILVER'S NEXT Move! - Be Prepared for THIS (Gold Price News Update) (l3DK3oGMOds)...
+2026-03-10 06:35:23,016 - INFO - Successfully extracted: audio/l3DK3oGMOds.mp3
+2026-03-10 06:35:32,402 - INFO - Extracting audio for Market Meltdown Starting: Stocks, Gold, Silver, Miners (_tG9lmA6jhU)...
+2026-03-10 06:35:42,345 - INFO - Successfully extracted: audio/_tG9lmA6jhU.mp3
+2026-03-10 06:35:49,564 - INFO - Extracting audio for Claude Blackmailed Its Developers. Here's Why the System Hasn't Collapsed Yet. (iY7BDpZWJbE)...
+2026-03-10 06:36:10,175 - INFO - Successfully extracted: audio/iY7BDpZWJbE.mp3
+2026-03-10 06:36:20,276 - INFO - Extracting audio for The Investment Opportunity of a Lifetime Is Here (But Not For Long) (P4YKp0sf_pw)...
+2026-03-10 06:36:37,712 - INFO - Successfully extracted: audio/P4YKp0sf_pw.mp3
+2026-03-10 06:36:47,441 - INFO - Extracting audio for OIL SPIKES 20%: Markets Collapse, Investors Panic, But Major Trades Revealed! (gGpAbMkpAPc)...
+2026-03-10 06:37:00,949 - INFO - Successfully extracted: audio/gGpAbMkpAPc.mp3
+2026-03-10 06:37:12,281 - INFO - Extracting audio for OIL Hits a Wall — Will the SPY & NASDAQ Hold or Fold? | Today's Best Trade Setups (7fwhfXuaoG4)...
+2026-03-10 06:37:22,440 - INFO - Successfully extracted: audio/7fwhfXuaoG4.mp3
+2026-03-10 06:37:33,497 - INFO - Extracting audio for The Iran War Risk Markets Are Ignoring | Prof G Markets (puUUG0ckL28)...
+2026-03-10 06:38:03,954 - INFO - Successfully extracted: audio/puUUG0ckL28.mp3
+2026-03-10 06:38:13,439 - INFO - Extracting audio for Monday 9th March 2026.  Financial Markets brief. War escalates. Oil over $100, everything else down. (AxXYEYZWjDA)...
+2026-03-10 06:38:26,427 - INFO - Successfully extracted: audio/AxXYEYZWjDA.mp3
+2026-03-10 06:38:26,428 - INFO - Extraction complete. 20/20 audio files ready. (Time: 550.3s)
+2026-03-10 06:38:26,428 - INFO - 
+--- Phase 3: Summarization (Direct Audio) ---
+2026-03-10 06:38:27,710 - INFO - Generating Brief for Silver Looks Stronger Than Gold Right Now. Here’s Why | Gary Wagner (ubZQtvONyio)...
+2026-03-10 06:38:27,711 - INFO - AFC is enabled with max remote calls: 10.
+2026-03-10 06:38:28,000 - INFO - Generating Brief for Live Q & A WITH MILES FRANKLIN (TuZOchzIII8)...
+2026-03-10 06:38:28,001 - INFO - AFC is enabled with max remote calls: 10.
+2026-03-10 06:38:28,005 - INFO - Generating Brief for 2008-Style Crisis Signals Flashing Warns Ex-Lehman VP | Lawrence McDonald (bwZ1ardgEyA)...
+2026-03-10 06:38:28,006 - INFO - AFC is enabled with max remote calls: 10.
+2026-03-10 06:38:35,746 - ERROR - Schema parsing error for Silver Looks Stronger Than Gold Right Now. Here’s Why | Gary Wagner: Expecting value: line 1 column 1222 (char 1221)
+2026-03-10 06:38:36,937 - INFO - Generating Brief for THE GREAT OIL FAKEOUT! 🛑 (s1bnpe3HiBg)...
+2026-03-10 06:38:36,938 - INFO - AFC is enabled with max remote calls: 10.
+2026-03-10 06:38:40,717 - INFO - ✅ Brief successfully generated for 2008-Style Crisis Signals Flashing Warns Ex-Lehman VP | Lawrence McDonald
+2026-03-10 06:38:41,473 - INFO - Generating Brief for Gold Vs. Mining Stocks: Which One's The Better Buy Right Now | with David Morgan (utMDeqycVGE)...
+2026-03-10 06:38:41,474 - INFO - AFC is enabled with max remote calls: 10.
+2026-03-10 06:38:44,958 - INFO - ✅ Brief successfully generated for THE GREAT OIL FAKEOUT! 🛑
+2026-03-10 06:38:45,845 - INFO - Generating Brief for Clem Chambers: 'Gold Is For War' And $6000 Is The Real Target (bR-sLfGUT4w)...
+2026-03-10 06:38:45,845 - INFO - AFC is enabled with max remote calls: 10.
+2026-03-10 06:38:46,104 - ERROR - Schema parsing error for Gold Vs. Mining Stocks: Which One's The Better Buy Right Now | with David Morgan: Expecting value: line 1 column 1263 (char 1262)
+2026-03-10 06:38:47,624 - INFO - Generating Brief for Trump DOWNPLAYS War Costs as Oil EXPLODES and Markets TANK (IWxe8oFb1-I)...
+2026-03-10 06:38:47,625 - INFO - AFC is enabled with max remote calls: 10.
+2026-03-10 06:38:54,368 - INFO - ✅ Brief successfully generated for Live Q & A WITH MILES FRANKLIN
+2026-03-10 06:38:55,182 - INFO - Generating Brief for What Comes After Silver’s Historic Run? CEO Reveals Next Moves | Jalen Yuan (FCNN-H1UAqQ)...
+2026-03-10 06:38:55,185 - INFO - AFC is enabled with max remote calls: 10.
+2026-03-10 06:38:56,544 - INFO - ✅ Brief successfully generated for Clem Chambers: 'Gold Is For War' And $6000 Is The Real Target
+2026-03-10 06:38:56,609 - INFO - ✅ Brief successfully generated for Trump DOWNPLAYS War Costs as Oil EXPLODES and Markets TANK
+2026-03-10 06:38:58,098 - INFO - Generating Brief for WARNING: Silver Price NEWS! What You NEED To Know NOW! (OTeKgWaa69A)...
+2026-03-10 06:38:58,099 - INFO - AFC is enabled with max remote calls: 10.
+2026-03-10 06:38:58,241 - INFO - Generating Brief for Dylan Patel: They Don't See It Coming (E5B0cS6XRkg)...
+2026-03-10 06:38:58,243 - INFO - AFC is enabled with max remote calls: 10.
+2026-03-10 06:39:01,831 - INFO - ✅ Brief successfully generated for What Comes After Silver’s Historic Run? CEO Reveals Next Moves | Jalen Yuan
+2026-03-10 06:39:02,825 - INFO - Generating Brief for DEALER ON "WORST SILVER TO BUY" YOUR SILVER QUESTIONS ANSWERED (wOxvDb9SEzM)...
+2026-03-10 06:39:02,826 - INFO - AFC is enabled with max remote calls: 10.
+2026-03-10 06:39:03,920 - INFO - ✅ Brief successfully generated for WARNING: Silver Price NEWS! What You NEED To Know NOW!
+2026-03-10 06:39:04,785 - INFO - Generating Brief for Does Wealth Make You Selfish? | Office Hours (vC35UuUkLSo)...
+2026-03-10 06:39:04,786 - INFO - AFC is enabled with max remote calls: 10.
+2026-03-10 06:39:08,738 - INFO - ✅ Brief successfully generated for DEALER ON "WORST SILVER TO BUY" YOUR SILVER QUESTIONS ANSWERED
+2026-03-10 06:39:09,719 - INFO - Generating Brief for 🚨 SILVER'S NEXT Move! - Be Prepared for THIS (Gold Price News Update) (l3DK3oGMOds)...
+2026-03-10 06:39:09,721 - INFO - AFC is enabled with max remote calls: 10.
+2026-03-10 06:39:11,746 - INFO - ✅ Brief successfully generated for Does Wealth Make You Selfish? | Office Hours
+2026-03-10 06:39:12,801 - INFO - Generating Brief for Market Meltdown Starting: Stocks, Gold, Silver, Miners (_tG9lmA6jhU)...
+2026-03-10 06:39:12,802 - INFO - AFC is enabled with max remote calls: 10.
+2026-03-10 06:39:18,699 - INFO - ✅ Brief successfully generated for Market Meltdown Starting: Stocks, Gold, Silver, Miners
+2026-03-10 06:39:19,196 - ERROR - Schema parsing error for 🚨 SILVER'S NEXT Move! - Be Prepared for THIS (Gold Price News Update): Expecting value: line 1 column 1179 (char 1178)
+2026-03-10 06:39:19,856 - INFO - Generating Brief for Claude Blackmailed Its Developers. Here's Why the System Hasn't Collapsed Yet. (iY7BDpZWJbE)...
+2026-03-10 06:39:19,857 - INFO - AFC is enabled with max remote calls: 10.
+2026-03-10 06:39:20,776 - INFO - Generating Brief for The Investment Opportunity of a Lifetime Is Here (But Not For Long) (P4YKp0sf_pw)...
+2026-03-10 06:39:20,777 - INFO - AFC is enabled with max remote calls: 10.
+2026-03-10 06:39:23,523 - INFO - ✅ Brief successfully generated for Dylan Patel: They Don't See It Coming
+2026-03-10 06:39:24,730 - INFO - Generating Brief for OIL SPIKES 20%: Markets Collapse, Investors Panic, But Major Trades Revealed! (gGpAbMkpAPc)...
+2026-03-10 06:39:24,731 - INFO - AFC is enabled with max remote calls: 10.
+2026-03-10 06:39:27,406 - ERROR - Schema parsing error for The Investment Opportunity of a Lifetime Is Here (But Not For Long): Expecting value: line 1 column 1122 (char 1121)
+2026-03-10 06:39:28,916 - INFO - Generating Brief for OIL Hits a Wall — Will the SPY & NASDAQ Hold or Fold? | Today's Best Trade Setups (7fwhfXuaoG4)...
+2026-03-10 06:39:28,917 - INFO - AFC is enabled with max remote calls: 10.
+2026-03-10 06:39:29,577 - INFO - ✅ Brief successfully generated for Claude Blackmailed Its Developers. Here's Why the System Hasn't Collapsed Yet.
+2026-03-10 06:39:30,716 - INFO - Generating Brief for The Iran War Risk Markets Are Ignoring | Prof G Markets (puUUG0ckL28)...
+2026-03-10 06:39:30,717 - INFO - AFC is enabled with max remote calls: 10.
+2026-03-10 06:39:31,404 - INFO - ✅ Brief successfully generated for OIL SPIKES 20%: Markets Collapse, Investors Panic, But Major Trades Revealed!
+2026-03-10 06:39:32,306 - INFO - Generating Brief for Monday 9th March 2026.  Financial Markets brief. War escalates. Oil over $100, everything else down. (AxXYEYZWjDA)...
+2026-03-10 06:39:32,307 - INFO - AFC is enabled with max remote calls: 10.
+2026-03-10 06:39:34,591 - ERROR - Schema parsing error for OIL Hits a Wall — Will the SPY & NASDAQ Hold or Fold? | Today's Best Trade Setups: Expecting value: line 1 column 1257 (char 1256)
+2026-03-10 06:39:38,739 - INFO - ✅ Brief successfully generated for Monday 9th March 2026.  Financial Markets brief. War escalates. Oil over $100, everything else down.
+2026-03-10 06:39:48,153 - INFO - ✅ Brief successfully generated for The Iran War Risk Markets Are Ignoring | Prof G Markets
+2026-03-10 06:39:48,154 - INFO - --- Phase 3: Category Synthesis (15 assets across categories) ---
+2026-03-10 06:39:48,154 - INFO - Analyzing 4 categories: General Financial Investing and Speculation, Precious Metals, Politics, Artificial Intelligence
+2026-03-10 06:39:48,154 - INFO - Processing Synthesis for sector: General Financial Investing and Speculation (9 assets)...
+2026-03-10 06:39:48,190 - INFO - AFC is enabled with max remote calls: 10.
+2026-03-10 06:39:49,122 - INFO - AFC is enabled with max remote calls: 10.
+2026-03-10 06:39:49,930 - INFO - AFC is enabled with max remote calls: 10.
+2026-03-10 06:39:50,825 - INFO - AFC is enabled with max remote calls: 10.
+2026-03-10 06:39:51,678 - INFO - AFC is enabled with max remote calls: 10.
+2026-03-10 06:39:52,539 - INFO - AFC is enabled with max remote calls: 10.
+2026-03-10 06:39:53,325 - INFO - AFC is enabled with max remote calls: 10.
+2026-03-10 06:39:54,183 - INFO - ✅ Synthesis complete for General Financial Investing and Speculation
+2026-03-10 06:39:54,183 - INFO - Processing Synthesis for sector: Precious Metals (3 assets)...
+2026-03-10 06:39:54,188 - INFO - AFC is enabled with max remote calls: 10.
+2026-03-10 06:39:55,069 - INFO - AFC is enabled with max remote calls: 10.
+2026-03-10 06:39:55,886 - INFO - AFC is enabled with max remote calls: 10.
+2026-03-10 06:39:56,584 - INFO - ✅ Synthesis complete for Precious Metals
+2026-03-10 06:39:56,584 - INFO - Processing Synthesis for sector: Politics (1 assets)...
+2026-03-10 06:39:56,585 - INFO - AFC is enabled with max remote calls: 10.
+2026-03-10 06:39:57,362 - INFO - ✅ Synthesis complete for Politics
+2026-03-10 06:39:57,362 - INFO - Processing Synthesis for sector: Artificial Intelligence (2 assets)...
+2026-03-10 06:39:57,365 - INFO - AFC is enabled with max remote calls: 10.
+2026-03-10 06:39:58,161 - INFO - ✅ Synthesis complete for Artificial Intelligence
+2026-03-10 06:39:58,174 - INFO - Summarization complete. 15 briefs written to briefs/2026-03-10.md (Time: 91.7s)
+2026-03-10 06:39:59,440 - INFO - Email digest sent successfully to kwilliamson.mail@gmail.com.
+2026-03-10 06:40:00,309 - INFO - Email digest sent successfully to kochava72@gmail.com.
+2026-03-10 06:40:00,323 - INFO - Queue cleared.
+2026-03-10 06:40:00,329 - INFO - ==================================================
+2026-03-10 06:40:00,329 - INFO - Pipeline Execution Complete
+2026-03-10 06:40:00,329 - INFO - ==================================================
