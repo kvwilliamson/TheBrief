@@ -1,0 +1,514 @@
+{
+  "date": "2026-03-15",
+  "briefs": [
+    {
+      "episode_title": "The Challenges (and Rewards) of Resource Sector Investing: Rick Rule",
+      "channel": "Verified Investing",
+      "duration_minutes": 60,
+      "podcast_date": "2026-03-15",
+      "processing_date": "2026-03-15",
+      "one_line_summary": "Gold prices are expected to rise due to people's concerns about maintaining purchasing power in fiat currencies, while junior mining stocks face significant risk, and copper requires substantial investment to meet future demand.",
+      "core_claims": [
+        "The US dollar is projected to lose 75% of its purchasing power over the next 10 years.",
+        "85% of listed junior miners worldwide are considered valueless.",
+        "The copper industry needs $250 billion in constant 2025 dollars to maintain current production levels, but that investment will fail to cover projected shortfalls.",
+        "Rare earth elements are not actually rare but have been produced cheaply by China, an advantage that is eroding.",
+        "2026 term uranium prices are substantially higher than spot prices, suggesting utilities will pay more for securing future supplies."
+      ],
+      "signal_strength": 8,
+      "themes": [
+        "commodities",
+        "investing",
+        "economics",
+        "mining",
+        "uranium",
+        "copper",
+        "gold",
+        "rare earth elements",
+        "junior miners"
+      ],
+      "positioning_implication": "Favor assets that retain value during currency devaluation, while scrutinizing resource projects for economic viability and geopolitical risk, focusing on underinvested areas like copper and long-term supply contracts like in uranium.",
+      "time_horizon": "long",
+      "shelf_life": "Medium",
+      "thumbnail": "https://i.ytimg.com/vi/FEK3sAHoz3A/hqdefault.jpg",
+      "video_url": "https://www.youtube.com/watch?v=FEK3sAHoz3A",
+      "cluster_id": 1,
+      "category": "General Financial Investing and Speculation"
+    },
+    {
+      "episode_title": "\ud83d\udea8 BUCKLE UP Precious Metals Stackers! \ud83d\udea8 - THIS Is SERIOUS (Silver and Gold Price News UPDATE)",
+      "channel": "Rons Basement",
+      "duration_minutes": 38,
+      "podcast_date": "2026-03-15",
+      "processing_date": "2026-03-15",
+      "one_line_summary": "Geopolitical instability and economic uncertainty will benefit gold and silver, but the potential shift away from the petrodollar presents a major risk.",
+      "core_claims": [
+        "Gold and silver could provide returns that 'we can only dream about' in the coming years and decades.",
+        "Tether Gold is tokenized gold representing one ounce of physical gold in a Swiss vault used to track gold price over the weekend.",
+        "Oil's price stability is critical, and rising prices will force rate cuts and money printing.",
+        "A senior Iranian official suggested allowing oil tanker passage through the Strait of Hormuz only if traded in Chinese Yuan, challenging the petrodollar system.",
+        "Historical data from the 1970s stagflation shows that it is a historically strong condition for gold and silver.",
+        "Mining stocks have plummeted over the last two weeks, but this could signal a potentially strong rally ahead for gold and silver."
+      ],
+      "signal_strength": 9,
+      "themes": [
+        "precious metals",
+        "gold",
+        "silver",
+        "market analysis",
+        "geopolitics",
+        "inflation",
+        "oil prices",
+        "petrodollar"
+      ],
+      "positioning_implication": "Consider hedging against dollar devaluation and inflation by allocating capital to precious metals, but also to diversify geographically.",
+      "time_horizon": "long",
+      "shelf_life": "Medium",
+      "thumbnail": "https://i.ytimg.com/vi/pX-oQpTAOBo/hqdefault.jpg",
+      "video_url": "https://www.youtube.com/watch?v=pX-oQpTAOBo",
+      "cluster_id": 0,
+      "category": "Precious Metals"
+    },
+    {
+      "episode_title": "Credit Market Meltdown, Hirings Collapse; Is 2008 Repeating? | Eric Basmajian",
+      "channel": "David Lin",
+      "duration_minutes": 52,
+      "podcast_date": "2026-03-15",
+      "processing_date": "2026-03-15",
+      "one_line_summary": "Private credit market strains, influenced by labor market weakness and broader economic factors, signal potential systemic risk.",
+      "core_claims": [
+        "Families are deficient $20,000 projecting from 2005 to 2006.",
+        "Construction and manufacturing have lost 120,000-130,000 jobs since 2023.",
+        "Real income grew at a 1.8% pace prior to 2007 dropping to 1.3% trend.",
+        "Drop in tariffs would be a net positive.",
+        "The overall labor market trend shows loss of momentum and slowdown in labor market.",
+        "The market is pricing less than one rate cut, changing from three rate cuts previously."
+      ],
+      "signal_strength": 8,
+      "themes": [
+        "credit markets",
+        "labor market",
+        "monetary policy",
+        "housing",
+        "tariffs",
+        "real income"
+      ],
+      "positioning_implication": "Monitor cyclical sector job losses as leading indicators.  Prioritize real-time economic data to differentiate tactical shifts.",
+      "time_horizon": "medium",
+      "shelf_life": "Medium",
+      "thumbnail": "https://i.ytimg.com/vi/p-9rjdU5X08/hqdefault.jpg",
+      "video_url": "https://www.youtube.com/watch?v=p-9rjdU5X08",
+      "cluster_id": 2,
+      "category": "General Financial Investing and Speculation"
+    },
+    {
+      "episode_title": "AI Made Every Company 10x More Productive. The Ones Cutting Headcount Are Telling on Themselves.",
+      "channel": "AI News & Strategy Daily | Nate B Jones",
+      "duration_minutes": 26,
+      "podcast_date": "2026-03-15",
+      "processing_date": "2024-02-27",
+      "one_line_summary": "AI-driven compression of intelligence costs unlocks new strategic possibilities beyond headcount reduction, demanding a shift in mindset and increased human capacity for innovation.",
+      "core_claims": [
+        "Whoop is hiring 600 people, doubling its workforce, betting on AI and human capital.",
+        "Smart operators are focusing on how to enable people to work differently and build things previously impossible.",
+        "Cursor's Cloud Agents update allows developers to spin up to 20 parallel agents, leading to increased autonomous code generation.",
+        "Companies focusing on ambition, not cost reduction, will win the race.",
+        "When efficiency increases, consumption goes up due to new viable applications, a pattern known as Jevon's paradox.",
+        "The demand for human insight, judgment, creativity, and domain expertise will explode with the advancement of AI."
+      ],
+      "signal_strength": 9,
+      "themes": [
+        "ai",
+        "productivity",
+        "future of work",
+        "strategy",
+        "innovation",
+        "human capital"
+      ],
+      "positioning_implication": "Shift strategic focus from cost-cutting to innovation, empowering human capital with AI to unlock new opportunities. Prioritize developing human capabilities for insight, creativity, and domain expertise.",
+      "time_horizon": "medium",
+      "shelf_life": "Medium",
+      "thumbnail": "https://i.ytimg.com/vi/u-giatW9mYU/hqdefault.jpg",
+      "video_url": "https://www.youtube.com/watch?v=u-giatW9mYU",
+      "cluster_id": 0,
+      "category": "Artificial Intelligence"
+    },
+    {
+      "episode_title": "Gold and Silver Investors MUST Hear Developments - (Precious Metals Update w/ First Mining Gold)",
+      "channel": "Rons Basement",
+      "duration_minutes": 48,
+      "podcast_date": "2026-03-15",
+      "processing_date": "2024-01-25",
+      "one_line_summary": "First Mining Gold's CEO discusses geopolitical instability driving precious metals, and Springpole project catalysts.",
+      "core_claims": [
+        "Unprecedented times and frightening global geopolitics and instability are likely driving gold price increases.",
+        "Oil reactions to disruptions indicate potentially severe oil shock effects on inflation; gold responds to such signals early.",
+        "Massive flight to safety into US dollar has mitigated a bigger rise in gold, but this is expected to change soon.",
+        "High inflation reflects fiat currency devaluation, benefiting gold as a relatively stable purchasing power.",
+        "Amount of gold held by world central banks has surpassed the amount of US Treasuries.",
+        "First Mining Gold expects an environmental assessment decision in Q2 2026 for their Springpole project, a major catalyst."
+      ],
+      "signal_strength": 8,
+      "themes": [
+        "precious metals",
+        "geopolitics",
+        "inflation",
+        "investment strategy",
+        "mining",
+        "gold",
+        "project development"
+      ],
+      "positioning_implication": "Anticipate increased gold demand due to global instability and currency devaluation; development stage mining companies offer growth.",
+      "time_horizon": "medium",
+      "shelf_life": "Medium",
+      "thumbnail": "https://i.ytimg.com/vi/oBH4qOWtJik/hqdefault.jpg",
+      "video_url": "https://www.youtube.com/watch?v=oBH4qOWtJik",
+      "cluster_id": 0,
+      "category": "Precious Metals"
+    },
+    {
+      "episode_title": "Will The Iran War Oil Price Shock Sink Stocks? | Lance Roberts",
+      "channel": "Adam Taggart | Thoughtful Money\u00ae",
+      "duration_minutes": 59,
+      "podcast_date": "2026-03-15",
+      "processing_date": "2026-03-15",
+      "one_line_summary": "The duration of the Iran conflict and its impact on oil prices will determine the risk of a recession and market corrections.",
+      "core_claims": [
+        "Sustained high oil prices (90-180 days) could cost consumers an additional $600-$800, impacting discretionary spending.",
+        "War-related impacts are sector-specific, affecting consumer discretionary (Walmart, Target) more than tech (Google).",
+        "The overall index may not reflect sectoral declines due to technology's market capitalization dominance.",
+        "The market is factoring in the Iran conflict, volatile oil, and the private credit situation to some extent.",
+        "Declining rates below 4% were oversold, expecting yields back up to 4.2% or more.",
+        "Private credit sector downturns are a natural \"culling\" process, not a systemic subprime event.",
+        "The market prices futures contracts, not today's supply & demand, therefore Strategic Petroleum Reserve releases have zero impact."
+      ],
+      "signal_strength": 8,
+      "themes": [
+        "economics",
+        "market analysis",
+        "geopolitics",
+        "investment strategy",
+        "energy sector",
+        "risk assessment"
+      ],
+      "positioning_implication": "Reduce exposure to sectors sensitive to energy costs; consider rebalancing to growth stocks if conflict resolution appears imminent.",
+      "time_horizon": "medium",
+      "shelf_life": "Medium",
+      "thumbnail": "https://i.ytimg.com/vi/vyBOb7-dp8o/hqdefault.jpg",
+      "video_url": "https://www.youtube.com/watch?v=vyBOb7-dp8o",
+      "cluster_id": 0,
+      "category": "General Financial Investing and Speculation"
+    }
+  ],
+  "category_intelligence": {
+    "General Financial Investing and Speculation": {
+      "name": "General Financial Investing and Speculation",
+      "meta_summary": "",
+      "convergence_score": 0.0,
+      "percentile": 0.0,
+      "regime_state": "Neutral",
+      "clusters": [
+        {
+          "id": 1,
+          "name": "Gold Converging: Fiat Purchasing Power Eroding",
+          "description": "Gold prices are expected to rise as fiat currency purchasing power erodes, while junior miners face risk and copper requires investment.\n\u26a1 Convergence Alert: Overlap detected with [Geopolitics Intensifying Precious Metals Demand; Petrodollar Risk] in Precious Metals (0.77 sim)",
+          "bias": "constructive",
+          "regime": "Emerging",
+          "size": 1,
+          "strength": 1.0,
+          "coherence": 1.0,
+          "channels": [
+            "Verified Investing"
+          ],
+          "avg_signal": 8.0,
+          "briefs": [
+            {
+              "episode_title": "The Challenges (and Rewards) of Resource Sector Investing: Rick Rule",
+              "channel": "Verified Investing",
+              "duration_minutes": 60,
+              "podcast_date": "2026-03-15",
+              "processing_date": "2026-03-15",
+              "one_line_summary": "Gold prices are expected to rise due to people's concerns about maintaining purchasing power in fiat currencies, while junior mining stocks face significant risk, and copper requires substantial investment to meet future demand.",
+              "core_claims": [
+                "The US dollar is projected to lose 75% of its purchasing power over the next 10 years.",
+                "85% of listed junior miners worldwide are considered valueless.",
+                "The copper industry needs $250 billion in constant 2025 dollars to maintain current production levels, but that investment will fail to cover projected shortfalls.",
+                "Rare earth elements are not actually rare but have been produced cheaply by China, an advantage that is eroding.",
+                "2026 term uranium prices are substantially higher than spot prices, suggesting utilities will pay more for securing future supplies."
+              ],
+              "signal_strength": 8,
+              "themes": [
+                "commodities",
+                "investing",
+                "economics",
+                "mining",
+                "uranium",
+                "copper",
+                "gold",
+                "rare earth elements",
+                "junior miners"
+              ],
+              "positioning_implication": "Favor assets that retain value during currency devaluation, while scrutinizing resource projects for economic viability and geopolitical risk, focusing on underinvested areas like copper and long-term supply contracts like in uranium.",
+              "time_horizon": "long",
+              "shelf_life": "Medium",
+              "thumbnail": "https://i.ytimg.com/vi/FEK3sAHoz3A/hqdefault.jpg",
+              "video_url": "https://www.youtube.com/watch?v=FEK3sAHoz3A",
+              "cluster_id": 1,
+              "category": "General Financial Investing and Speculation"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "name": "Credit Market Strains Intensifying Systemic Risk",
+          "description": "Private credit market weakness, driven by labor and economic factors, suggests increasing systemic vulnerability.",
+          "bias": "defensive",
+          "regime": "Emerging",
+          "size": 1,
+          "strength": 1.0,
+          "coherence": 1.0,
+          "channels": [
+            "David Lin"
+          ],
+          "avg_signal": 8.0,
+          "briefs": [
+            {
+              "episode_title": "Credit Market Meltdown, Hirings Collapse; Is 2008 Repeating? | Eric Basmajian",
+              "channel": "David Lin",
+              "duration_minutes": 52,
+              "podcast_date": "2026-03-15",
+              "processing_date": "2026-03-15",
+              "one_line_summary": "Private credit market strains, influenced by labor market weakness and broader economic factors, signal potential systemic risk.",
+              "core_claims": [
+                "Families are deficient $20,000 projecting from 2005 to 2006.",
+                "Construction and manufacturing have lost 120,000-130,000 jobs since 2023.",
+                "Real income grew at a 1.8% pace prior to 2007 dropping to 1.3% trend.",
+                "Drop in tariffs would be a net positive.",
+                "The overall labor market trend shows loss of momentum and slowdown in labor market.",
+                "The market is pricing less than one rate cut, changing from three rate cuts previously."
+              ],
+              "signal_strength": 8,
+              "themes": [
+                "credit markets",
+                "labor market",
+                "monetary policy",
+                "housing",
+                "tariffs",
+                "real income"
+              ],
+              "positioning_implication": "Monitor cyclical sector job losses as leading indicators.  Prioritize real-time economic data to differentiate tactical shifts.",
+              "time_horizon": "medium",
+              "shelf_life": "Medium",
+              "thumbnail": "https://i.ytimg.com/vi/p-9rjdU5X08/hqdefault.jpg",
+              "video_url": "https://www.youtube.com/watch?v=p-9rjdU5X08",
+              "cluster_id": 2,
+              "category": "General Financial Investing and Speculation"
+            }
+          ]
+        },
+        {
+          "id": 0,
+          "name": "Iran Conflict Intensifying Recession Risk",
+          "description": "Heightened geopolitical tensions in Iran, influencing oil prices, are increasing the likelihood of economic downturn and market instability.",
+          "bias": "defensive",
+          "regime": "Emerging",
+          "size": 1,
+          "strength": 1.0,
+          "coherence": 1.0,
+          "channels": [
+            "Adam Taggart | Thoughtful Money\u00ae"
+          ],
+          "avg_signal": 8.0,
+          "briefs": [
+            {
+              "episode_title": "Will The Iran War Oil Price Shock Sink Stocks? | Lance Roberts",
+              "channel": "Adam Taggart | Thoughtful Money\u00ae",
+              "duration_minutes": 59,
+              "podcast_date": "2026-03-15",
+              "processing_date": "2026-03-15",
+              "one_line_summary": "The duration of the Iran conflict and its impact on oil prices will determine the risk of a recession and market corrections.",
+              "core_claims": [
+                "Sustained high oil prices (90-180 days) could cost consumers an additional $600-$800, impacting discretionary spending.",
+                "War-related impacts are sector-specific, affecting consumer discretionary (Walmart, Target) more than tech (Google).",
+                "The overall index may not reflect sectoral declines due to technology's market capitalization dominance.",
+                "The market is factoring in the Iran conflict, volatile oil, and the private credit situation to some extent.",
+                "Declining rates below 4% were oversold, expecting yields back up to 4.2% or more.",
+                "Private credit sector downturns are a natural \"culling\" process, not a systemic subprime event.",
+                "The market prices futures contracts, not today's supply & demand, therefore Strategic Petroleum Reserve releases have zero impact."
+              ],
+              "signal_strength": 8,
+              "themes": [
+                "economics",
+                "market analysis",
+                "geopolitics",
+                "investment strategy",
+                "energy sector",
+                "risk assessment"
+              ],
+              "positioning_implication": "Reduce exposure to sectors sensitive to energy costs; consider rebalancing to growth stocks if conflict resolution appears imminent.",
+              "time_horizon": "medium",
+              "shelf_life": "Medium",
+              "thumbnail": "https://i.ytimg.com/vi/vyBOb7-dp8o/hqdefault.jpg",
+              "video_url": "https://www.youtube.com/watch?v=vyBOb7-dp8o",
+              "cluster_id": 0,
+              "category": "General Financial Investing and Speculation"
+            }
+          ]
+        }
+      ],
+      "should_generate": false
+    },
+    "Precious Metals": {
+      "name": "Precious Metals",
+      "meta_summary": "",
+      "convergence_score": 0.0,
+      "percentile": 0.0,
+      "regime_state": "Neutral",
+      "clusters": [
+        {
+          "id": 0,
+          "name": "Geopolitics Intensifying Precious Metals Demand; Petrodollar Risk",
+          "description": "Geopolitical instability is expected to bolster gold and silver demand, although a potential shift away from the petrodollar poses a significant downside risk.",
+          "bias": "constructive",
+          "regime": "Accelerating",
+          "size": 2,
+          "strength": 1.3974424360000648,
+          "coherence": 0.6987212180000324,
+          "channels": [
+            "Rons Basement"
+          ],
+          "avg_signal": 8.5,
+          "briefs": [
+            {
+              "episode_title": "\ud83d\udea8 BUCKLE UP Precious Metals Stackers! \ud83d\udea8 - THIS Is SERIOUS (Silver and Gold Price News UPDATE)",
+              "channel": "Rons Basement",
+              "duration_minutes": 38,
+              "podcast_date": "2026-03-15",
+              "processing_date": "2026-03-15",
+              "one_line_summary": "Geopolitical instability and economic uncertainty will benefit gold and silver, but the potential shift away from the petrodollar presents a major risk.",
+              "core_claims": [
+                "Gold and silver could provide returns that 'we can only dream about' in the coming years and decades.",
+                "Tether Gold is tokenized gold representing one ounce of physical gold in a Swiss vault used to track gold price over the weekend.",
+                "Oil's price stability is critical, and rising prices will force rate cuts and money printing.",
+                "A senior Iranian official suggested allowing oil tanker passage through the Strait of Hormuz only if traded in Chinese Yuan, challenging the petrodollar system.",
+                "Historical data from the 1970s stagflation shows that it is a historically strong condition for gold and silver.",
+                "Mining stocks have plummeted over the last two weeks, but this could signal a potentially strong rally ahead for gold and silver."
+              ],
+              "signal_strength": 9,
+              "themes": [
+                "precious metals",
+                "gold",
+                "silver",
+                "market analysis",
+                "geopolitics",
+                "inflation",
+                "oil prices",
+                "petrodollar"
+              ],
+              "positioning_implication": "Consider hedging against dollar devaluation and inflation by allocating capital to precious metals, but also to diversify geographically.",
+              "time_horizon": "long",
+              "shelf_life": "Medium",
+              "thumbnail": "https://i.ytimg.com/vi/pX-oQpTAOBo/hqdefault.jpg",
+              "video_url": "https://www.youtube.com/watch?v=pX-oQpTAOBo",
+              "cluster_id": 0,
+              "category": "Precious Metals"
+            },
+            {
+              "episode_title": "Gold and Silver Investors MUST Hear Developments - (Precious Metals Update w/ First Mining Gold)",
+              "channel": "Rons Basement",
+              "duration_minutes": 48,
+              "podcast_date": "2026-03-15",
+              "processing_date": "2024-01-25",
+              "one_line_summary": "First Mining Gold's CEO discusses geopolitical instability driving precious metals, and Springpole project catalysts.",
+              "core_claims": [
+                "Unprecedented times and frightening global geopolitics and instability are likely driving gold price increases.",
+                "Oil reactions to disruptions indicate potentially severe oil shock effects on inflation; gold responds to such signals early.",
+                "Massive flight to safety into US dollar has mitigated a bigger rise in gold, but this is expected to change soon.",
+                "High inflation reflects fiat currency devaluation, benefiting gold as a relatively stable purchasing power.",
+                "Amount of gold held by world central banks has surpassed the amount of US Treasuries.",
+                "First Mining Gold expects an environmental assessment decision in Q2 2026 for their Springpole project, a major catalyst."
+              ],
+              "signal_strength": 8,
+              "themes": [
+                "precious metals",
+                "geopolitics",
+                "inflation",
+                "investment strategy",
+                "mining",
+                "gold",
+                "project development"
+              ],
+              "positioning_implication": "Anticipate increased gold demand due to global instability and currency devaluation; development stage mining companies offer growth.",
+              "time_horizon": "medium",
+              "shelf_life": "Medium",
+              "thumbnail": "https://i.ytimg.com/vi/oBH4qOWtJik/hqdefault.jpg",
+              "video_url": "https://www.youtube.com/watch?v=oBH4qOWtJik",
+              "cluster_id": 0,
+              "category": "Precious Metals"
+            }
+          ]
+        }
+      ],
+      "should_generate": false
+    },
+    "Artificial Intelligence": {
+      "name": "Artificial Intelligence",
+      "meta_summary": "",
+      "convergence_score": 0.0,
+      "percentile": 0.0,
+      "regime_state": "Neutral",
+      "clusters": [
+        {
+          "id": 0,
+          "name": "AI Intensifying Strategic Innovation Demands",
+          "description": "AI-driven compression forces organizations to re-evaluate strategic priorities, shifting focus from cost reduction to innovation and requiring increased human capital investment.",
+          "bias": "constructive",
+          "regime": "Emerging",
+          "size": 1,
+          "strength": 0.0,
+          "coherence": 1.0,
+          "channels": [
+            "AI News & Strategy Daily | Nate B Jones"
+          ],
+          "avg_signal": 9.0,
+          "briefs": [
+            {
+              "episode_title": "AI Made Every Company 10x More Productive. The Ones Cutting Headcount Are Telling on Themselves.",
+              "channel": "AI News & Strategy Daily | Nate B Jones",
+              "duration_minutes": 26,
+              "podcast_date": "2026-03-15",
+              "processing_date": "2024-02-27",
+              "one_line_summary": "AI-driven compression of intelligence costs unlocks new strategic possibilities beyond headcount reduction, demanding a shift in mindset and increased human capacity for innovation.",
+              "core_claims": [
+                "Whoop is hiring 600 people, doubling its workforce, betting on AI and human capital.",
+                "Smart operators are focusing on how to enable people to work differently and build things previously impossible.",
+                "Cursor's Cloud Agents update allows developers to spin up to 20 parallel agents, leading to increased autonomous code generation.",
+                "Companies focusing on ambition, not cost reduction, will win the race.",
+                "When efficiency increases, consumption goes up due to new viable applications, a pattern known as Jevon's paradox.",
+                "The demand for human insight, judgment, creativity, and domain expertise will explode with the advancement of AI."
+              ],
+              "signal_strength": 9,
+              "themes": [
+                "ai",
+                "productivity",
+                "future of work",
+                "strategy",
+                "innovation",
+                "human capital"
+              ],
+              "positioning_implication": "Shift strategic focus from cost-cutting to innovation, empowering human capital with AI to unlock new opportunities. Prioritize developing human capabilities for insight, creativity, and domain expertise.",
+              "time_horizon": "medium",
+              "shelf_life": "Medium",
+              "thumbnail": "https://i.ytimg.com/vi/u-giatW9mYU/hqdefault.jpg",
+              "video_url": "https://www.youtube.com/watch?v=u-giatW9mYU",
+              "cluster_id": 0,
+              "category": "Artificial Intelligence"
+            }
+          ]
+        }
+      ],
+      "should_generate": false
+    }
+  },
+  "clusters": []
+}
