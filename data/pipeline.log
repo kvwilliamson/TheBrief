@@ -1856,3 +1856,178 @@
 2026-03-17 06:45:53,468 - INFO - ==================================================
 2026-03-17 06:45:53,468 - INFO - Pipeline Execution Complete
 2026-03-17 06:45:53,468 - INFO - ==================================================
+2026-03-18 06:37:04,550 - INFO - ==================================================
+2026-03-18 06:37:04,550 - INFO - Starting TheBrief Daily Pipeline
+2026-03-18 06:37:04,550 - INFO - ==================================================
+2026-03-18 06:37:04,550 - INFO - 
+--- Phase 1: Discovery ---
+2026-03-18 06:37:04,554 - INFO - Discovering videos published after 2026-03-17T06:37:04.554258+00:00 (24h lookback)
+2026-03-18 06:37:04,865 - INFO - Found 1 new potential videos on Rons Basement.
+2026-03-18 06:37:05,006 - INFO - Found 1 new potential videos on Wall Street Bullion .
+2026-03-18 06:37:05,159 - INFO - Found 1 new potential videos on Silver Dragons.
+2026-03-18 06:37:05,165 - INFO - Found 1 new potential videos on Kitco NEWS.
+2026-03-18 06:37:05,171 - INFO - Found 1 new potential videos on Arcadia Economics.
+2026-03-18 06:37:05,216 - INFO - Found 1 new potential videos on AI News & Strategy Daily | Nate B Jones.
+2026-03-18 06:37:05,328 - INFO - Found 2 new potential videos on David Lin .
+2026-03-18 06:37:05,392 - INFO - Found 2 new potential videos on Clive Thompson.
+2026-03-18 06:37:05,524 - INFO - Found 1 new potential videos on Felix & Friends (Goat Academy).
+2026-03-18 06:37:05,545 - INFO - Found 3 new potential videos on Adam Taggart | Thoughtful Money®.
+2026-03-18 06:37:05,574 - INFO - Found 1 new potential videos on TheTechnicalTraders.
+2026-03-18 06:37:05,736 - INFO - Found 1 new potential videos on Miles Franklin Media.
+2026-03-18 06:37:05,744 - INFO - Found 1 new potential videos on Commodity Culture.
+2026-03-18 06:37:05,866 - INFO - Found 6 new potential videos on Verified Investing.
+2026-03-18 06:37:05,913 - INFO - Found 1 new potential videos on Matthew Berman.
+2026-03-18 06:37:05,916 - INFO - Found 1 new potential videos on Wes Roth.
+2026-03-18 06:37:05,955 - INFO - Found 1 new potential videos on CPM Group.
+2026-03-18 06:37:06,027 - INFO - Found 7 new potential videos on The Prof G Pod – Scott Galloway.
+2026-03-18 06:37:06,178 - INFO - Found 6 new potential videos on Raging Moderates.
+2026-03-18 06:37:06,454 - INFO - Found 22 total long-form videos across all channels.
+2026-03-18 06:37:06,462 - INFO - Discovery complete. Added 22 new videos to queue.
+2026-03-18 06:37:06,462 - INFO - 
+--- Phase 2: Extraction ---
+2026-03-18 06:37:06,701 - INFO - yt-dlp version: 2026.03.17
+2026-03-18 06:37:07,050 - INFO - POT-related packages: bgutil-ytdlp-pot-provider 1.3.1
+2026-03-18 06:37:07,074 - INFO - bgutil HTTP server not available on port 4416 (will rely on cookies)
+2026-03-18 06:37:07,074 - INFO - Extracting audio for Grok 5 Could be xAI's Biggest Breakthrough Yet... (rzJC-ngZ6CY)...
+2026-03-18 06:37:25,493 - INFO - Successfully extracted: audio/rzJC-ngZ6CY.mp3
+2026-03-18 06:37:35,942 - INFO - Extracting audio for Wednesday March 18th, Stock Market, economics, politics and war update (t9Nntg_w5kI)...
+2026-03-18 06:37:49,237 - INFO - Successfully extracted: audio/t9Nntg_w5kI.mp3
+2026-03-18 06:37:58,977 - INFO - Extracting audio for This Strategic U.S. Gold Deal Is Flying Under the Radar | Andy Schectman & Michelle Makori (Ydu15sijyug)...
+2026-03-18 06:38:32,319 - INFO - Successfully extracted: audio/Ydu15sijyug.mp3
+2026-03-18 06:38:42,011 - INFO - Extracting audio for How Long Can Markets Survive The Energy Crisis? Experts Reveal What's Next (ca2saahipdM)...
+2026-03-18 06:38:56,763 - INFO - Successfully extracted: audio/ca2saahipdM.mp3
+2026-03-18 06:39:06,176 - INFO - Extracting audio for Trump MELTS DOWN as Allies REJECT His Iran Demands (aPwa5G0J9HY)...
+2026-03-18 06:39:22,555 - INFO - Successfully extracted: audio/aPwa5G0J9HY.mp3
+2026-03-18 06:39:33,888 - INFO - Extracting audio for MARKET TUG-OF-WAR! 📉 Yields vs. Oil with FOMC on Deck (tqAg6vZk7a4)...
+2026-03-18 06:39:48,852 - INFO - Successfully extracted: audio/tqAg6vZk7a4.mp3
+2026-03-18 06:39:58,626 - INFO - Extracting audio for Cause Of Silver's Record 36% One-Day Crash Revealed By BIS (T5g_RgK6Pio)...
+2026-03-18 06:40:14,998 - INFO - Successfully extracted: audio/T5g_RgK6Pio.mp3
+2026-03-18 06:40:23,663 - INFO - Extracting audio for Gold Is Pricing the End of the Paper-Credit System | Larry McDonald (Q_p-0F-dUN0)...
+2026-03-18 06:40:46,638 - INFO - Successfully extracted: audio/Q_p-0F-dUN0.mp3
+2026-03-18 06:40:53,787 - INFO - Extracting audio for DEALER REVEALS EXTREME SILVER PRICE FLOOR (LOWER THAN YOU THINK) (G_IpRneT7Z0)...
+2026-03-18 06:41:04,940 - INFO - Successfully extracted: audio/G_IpRneT7Z0.mp3
+2026-03-18 06:41:16,483 - INFO - Extracting audio for 🚨THIS IS BIG: Central Bank Collapse IMMINENT As Silver Prices Are Set To SOAR (98GBflhFkGc)...
+2026-03-18 06:41:30,451 - INFO - Successfully extracted: audio/98GBflhFkGc.mp3
+2026-03-18 06:41:38,957 - INFO - Extracting audio for Why Gold And Silver Prices Are Falling Despite Iran Conflict Escalating (Jl8g4HfCWzA)...
+2026-03-18 06:41:51,849 - INFO - Successfully extracted: audio/Jl8g4HfCWzA.mp3
+2026-03-18 06:41:58,456 - INFO - Extracting audio for **THIS is BIG!** 🚨 SILVER Just had a MASSIVE Change... (CHINA Shock!) Gold - Precious Metals News (EukMc1NUcSY)...
+2026-03-18 06:42:21,167 - INFO - Successfully extracted: audio/EukMc1NUcSY.mp3
+2026-03-18 06:42:28,658 - INFO - Extracting audio for 'Deep Financial Crisis' In U.S. Could Make China The World's Largest Economy | Shaun Rein (FCoKt51L7Dc)...
+2026-03-18 06:42:46,212 - INFO - Successfully extracted: audio/FCoKt51L7Dc.mp3
+2026-03-18 06:42:57,511 - INFO - Extracting audio for Why Isn't GOLD Spiking as Iran War Rages? 'Be Careful What You Wish For': Keith Weiner (tNcAgwmnI5M)...
+2026-03-18 06:43:15,467 - INFO - Successfully extracted: audio/tNcAgwmnI5M.mp3
+2026-03-18 06:43:26,163 - INFO - Extracting audio for Are China & The USA Working Together To Carve Up The Globe? | Peter Alexander (sS2pyxgS21k)...
+2026-03-18 06:44:08,318 - INFO - Successfully extracted: audio/sS2pyxgS21k.mp3
+2026-03-18 06:44:19,966 - INFO - Extracting audio for Anthropic Didn't Build a New Browser. They Did Something Smarter. (QT7W_uHjqWE)...
+2026-03-18 06:44:35,538 - INFO - Successfully extracted: audio/QT7W_uHjqWE.mp3
+2026-03-18 06:44:46,742 - INFO - Extracting audio for Gold and Silver Miners: There are Index changes coming up shortly.  I name the companies. (qHDLCsER4s8)...
+2026-03-18 06:44:58,009 - INFO - Successfully extracted: audio/qHDLCsER4s8.mp3
+2026-03-18 06:45:05,341 - INFO - Extracting audio for THE 2008 TRAP: Why the S&P 500 Bounce is a Massive "Sell The News" Event 🚨 (kOkX322LDDU)...
+2026-03-18 06:45:20,148 - INFO - Successfully extracted: audio/kOkX322LDDU.mp3
+2026-03-18 06:45:30,989 - INFO - Extracting audio for The FED Just Did the UNTHINKABLE to Gold (bDJ0Ebk0PA0)...
+2026-03-18 06:45:47,106 - INFO - Successfully extracted: audio/bDJ0Ebk0PA0.mp3
+2026-03-18 06:45:56,218 - INFO - Extracting audio for SPY & NASDAQ — Here's What Makes or Breaks the Market Today (F45HNVzT6gg)...
+2026-03-18 06:46:07,002 - INFO - Successfully extracted: audio/F45HNVzT6gg.mp3
+2026-03-18 06:46:13,939 - INFO - Extracting audio for Why the Pentagon Is Hiring Wall Street Bankers | Prof G Markets (uU4HI_M_ZYI)...
+2026-03-18 06:46:28,714 - INFO - Successfully extracted: audio/uU4HI_M_ZYI.mp3
+2026-03-18 06:46:39,432 - INFO - Extracting audio for Will China Decide the Future of the Persian Gulf? | China Decode (lqrgCSmAwGM)...
+2026-03-18 06:47:04,677 - INFO - Successfully extracted: audio/lqrgCSmAwGM.mp3
+2026-03-18 06:47:04,678 - INFO - Extraction complete. 22/22 audio files ready. (Time: 597.6s)
+2026-03-18 06:47:04,678 - INFO - 
+--- Phase 3: Summarization (Direct Audio) ---
+2026-03-18 06:47:05,638 - INFO - Generating Brief for Wednesday March 18th, Stock Market, economics, politics and war update (t9Nntg_w5kI)...
+2026-03-18 06:47:05,640 - INFO - AFC is enabled with max remote calls: 10.
+2026-03-18 06:47:05,985 - INFO - Generating Brief for Grok 5 Could be xAI's Biggest Breakthrough Yet... (rzJC-ngZ6CY)...
+2026-03-18 06:47:05,986 - INFO - AFC is enabled with max remote calls: 10.
+2026-03-18 06:47:06,162 - INFO - Generating Brief for This Strategic U.S. Gold Deal Is Flying Under the Radar | Andy Schectman & Michelle Makori (Ydu15sijyug)...
+2026-03-18 06:47:06,163 - INFO - AFC is enabled with max remote calls: 10.
+2026-03-18 06:47:13,814 - INFO - ✅ Brief successfully generated for Wednesday March 18th, Stock Market, economics, politics and war update
+2026-03-18 06:47:14,702 - INFO - Generating Brief for How Long Can Markets Survive The Energy Crisis? Experts Reveal What's Next (ca2saahipdM)...
+2026-03-18 06:47:14,703 - INFO - AFC is enabled with max remote calls: 10.
+2026-03-18 06:47:15,039 - INFO - ✅ Brief successfully generated for Grok 5 Could be xAI's Biggest Breakthrough Yet...
+2026-03-18 06:47:16,364 - INFO - Generating Brief for Trump MELTS DOWN as Allies REJECT His Iran Demands (aPwa5G0J9HY)...
+2026-03-18 06:47:16,365 - INFO - AFC is enabled with max remote calls: 10.
+2026-03-18 06:47:21,785 - ERROR - Schema parsing error for How Long Can Markets Survive The Energy Crisis? Experts Reveal What's Next: Expecting value: line 1 column 1324 (char 1323)
+2026-03-18 06:47:23,496 - INFO - Generating Brief for MARKET TUG-OF-WAR! 📉 Yields vs. Oil with FOMC on Deck (tqAg6vZk7a4)...
+2026-03-18 06:47:23,497 - INFO - AFC is enabled with max remote calls: 10.
+2026-03-18 06:47:25,007 - INFO - ✅ Brief successfully generated for Trump MELTS DOWN as Allies REJECT His Iran Demands
+2026-03-18 06:47:25,914 - INFO - Generating Brief for Cause Of Silver's Record 36% One-Day Crash Revealed By BIS (T5g_RgK6Pio)...
+2026-03-18 06:47:25,914 - INFO - AFC is enabled with max remote calls: 10.
+2026-03-18 06:47:27,483 - INFO - ✅ Brief successfully generated for This Strategic U.S. Gold Deal Is Flying Under the Radar | Andy Schectman & Michelle Makori
+2026-03-18 06:47:28,507 - INFO - Generating Brief for Gold Is Pricing the End of the Paper-Credit System | Larry McDonald (Q_p-0F-dUN0)...
+2026-03-18 06:47:28,507 - INFO - AFC is enabled with max remote calls: 10.
+2026-03-18 06:47:31,926 - INFO - ✅ Brief successfully generated for MARKET TUG-OF-WAR! 📉 Yields vs. Oil with FOMC on Deck
+2026-03-18 06:47:33,027 - INFO - Generating Brief for DEALER REVEALS EXTREME SILVER PRICE FLOOR (LOWER THAN YOU THINK) (G_IpRneT7Z0)...
+2026-03-18 06:47:33,029 - INFO - AFC is enabled with max remote calls: 10.
+2026-03-18 06:47:35,063 - INFO - ✅ Brief successfully generated for Cause Of Silver's Record 36% One-Day Crash Revealed By BIS
+2026-03-18 06:47:36,046 - INFO - Generating Brief for 🚨THIS IS BIG: Central Bank Collapse IMMINENT As Silver Prices Are Set To SOAR (98GBflhFkGc)...
+2026-03-18 06:47:36,047 - INFO - AFC is enabled with max remote calls: 10.
+2026-03-18 06:47:39,527 - INFO - ✅ Brief successfully generated for DEALER REVEALS EXTREME SILVER PRICE FLOOR (LOWER THAN YOU THINK)
+2026-03-18 06:47:40,575 - INFO - Generating Brief for Why Gold And Silver Prices Are Falling Despite Iran Conflict Escalating (Jl8g4HfCWzA)...
+2026-03-18 06:47:40,576 - INFO - AFC is enabled with max remote calls: 10.
+2026-03-18 06:47:43,430 - ERROR - Schema parsing error for 🚨THIS IS BIG: Central Bank Collapse IMMINENT As Silver Prices Are Set To SOAR: Expecting value: line 1 column 1148 (char 1147)
+2026-03-18 06:47:45,164 - INFO - Generating Brief for **THIS is BIG!** 🚨 SILVER Just had a MASSIVE Change... (CHINA Shock!) Gold - Precious Metals News (EukMc1NUcSY)...
+2026-03-18 06:47:45,165 - INFO - AFC is enabled with max remote calls: 10.
+2026-03-18 06:47:46,582 - INFO - ✅ Brief successfully generated for Why Gold And Silver Prices Are Falling Despite Iran Conflict Escalating
+2026-03-18 06:47:47,692 - INFO - Generating Brief for 'Deep Financial Crisis' In U.S. Could Make China The World's Largest Economy | Shaun Rein (FCoKt51L7Dc)...
+2026-03-18 06:47:47,693 - INFO - AFC is enabled with max remote calls: 10.
+2026-03-18 06:47:49,604 - INFO - ✅ Brief successfully generated for Gold Is Pricing the End of the Paper-Credit System | Larry McDonald
+2026-03-18 06:47:50,512 - INFO - Generating Brief for Why Isn't GOLD Spiking as Iran War Rages? 'Be Careful What You Wish For': Keith Weiner (tNcAgwmnI5M)...
+2026-03-18 06:47:50,513 - INFO - AFC is enabled with max remote calls: 10.
+2026-03-18 06:47:54,988 - ERROR - Schema parsing error for **THIS is BIG!** 🚨 SILVER Just had a MASSIVE Change... (CHINA Shock!) Gold - Precious Metals News: Expecting value: line 1 column 1003 (char 1002)
+2026-03-18 06:47:55,767 - INFO - ✅ Brief successfully generated for 'Deep Financial Crisis' In U.S. Could Make China The World's Largest Economy | Shaun Rein
+2026-03-18 06:47:56,871 - INFO - Generating Brief for Are China & The USA Working Together To Carve Up The Globe? | Peter Alexander (sS2pyxgS21k)...
+2026-03-18 06:47:56,872 - INFO - AFC is enabled with max remote calls: 10.
+2026-03-18 06:47:57,379 - INFO - Generating Brief for Anthropic Didn't Build a New Browser. They Did Something Smarter. (QT7W_uHjqWE)...
+2026-03-18 06:47:57,380 - INFO - AFC is enabled with max remote calls: 10.
+2026-03-18 06:48:01,197 - INFO - ✅ Brief successfully generated for Why Isn't GOLD Spiking as Iran War Rages? 'Be Careful What You Wish For': Keith Weiner
+2026-03-18 06:48:02,032 - INFO - Generating Brief for Gold and Silver Miners: There are Index changes coming up shortly.  I name the companies. (qHDLCsER4s8)...
+2026-03-18 06:48:02,033 - INFO - AFC is enabled with max remote calls: 10.
+2026-03-18 06:48:03,202 - INFO - ✅ Brief successfully generated for Anthropic Didn't Build a New Browser. They Did Something Smarter.
+2026-03-18 06:48:04,910 - INFO - Generating Brief for THE 2008 TRAP: Why the S&P 500 Bounce is a Massive "Sell The News" Event 🚨 (kOkX322LDDU)...
+2026-03-18 06:48:04,911 - INFO - AFC is enabled with max remote calls: 10.
+2026-03-18 06:48:08,448 - INFO - ✅ Brief successfully generated for Gold and Silver Miners: There are Index changes coming up shortly.  I name the companies.
+2026-03-18 06:48:09,550 - INFO - Generating Brief for The FED Just Did the UNTHINKABLE to Gold (bDJ0Ebk0PA0)...
+2026-03-18 06:48:09,551 - INFO - AFC is enabled with max remote calls: 10.
+2026-03-18 06:48:11,568 - INFO - ✅ Brief successfully generated for THE 2008 TRAP: Why the S&P 500 Bounce is a Massive "Sell The News" Event 🚨
+2026-03-18 06:48:12,441 - INFO - Generating Brief for SPY & NASDAQ — Here's What Makes or Breaks the Market Today (F45HNVzT6gg)...
+2026-03-18 06:48:12,442 - INFO - AFC is enabled with max remote calls: 10.
+2026-03-18 06:48:18,963 - ERROR - Schema parsing error for SPY & NASDAQ — Here's What Makes or Breaks the Market Today: Expecting value: line 1 column 1136 (char 1135)
+2026-03-18 06:48:20,303 - INFO - Generating Brief for Why the Pentagon Is Hiring Wall Street Bankers | Prof G Markets (uU4HI_M_ZYI)...
+2026-03-18 06:48:20,304 - INFO - AFC is enabled with max remote calls: 10.
+2026-03-18 06:48:40,412 - INFO - ✅ Brief successfully generated for The FED Just Did the UNTHINKABLE to Gold
+2026-03-18 06:48:40,482 - INFO - ✅ Brief successfully generated for Why the Pentagon Is Hiring Wall Street Bankers | Prof G Markets
+2026-03-18 06:48:41,340 - INFO - Generating Brief for Will China Decide the Future of the Persian Gulf? | China Decode (lqrgCSmAwGM)...
+2026-03-18 06:48:41,341 - INFO - AFC is enabled with max remote calls: 10.
+2026-03-18 06:48:48,273 - INFO - ✅ Brief successfully generated for Are China & The USA Working Together To Carve Up The Globe? | Peter Alexander
+2026-03-18 06:48:56,886 - INFO - ✅ Brief successfully generated for Will China Decide the Future of the Persian Gulf? | China Decode
+2026-03-18 06:48:56,887 - INFO - --- Phase 3: Category Synthesis (18 assets across categories) ---
+2026-03-18 06:48:56,887 - INFO - Analyzing 4 categories: General Financial Investing and Speculation, Artificial Intelligence, Politics, Precious Metals
+2026-03-18 06:48:56,887 - INFO - Processing Synthesis for sector: General Financial Investing and Speculation (10 assets)...
+2026-03-18 06:48:56,923 - INFO - AFC is enabled with max remote calls: 10.
+2026-03-18 06:48:57,754 - INFO - AFC is enabled with max remote calls: 10.
+2026-03-18 06:48:58,653 - INFO - AFC is enabled with max remote calls: 10.
+2026-03-18 06:48:59,634 - INFO - AFC is enabled with max remote calls: 10.
+2026-03-18 06:49:00,445 - INFO - AFC is enabled with max remote calls: 10.
+2026-03-18 06:49:01,464 - INFO - AFC is enabled with max remote calls: 10.
+2026-03-18 06:49:02,347 - INFO - ✅ Synthesis complete for General Financial Investing and Speculation
+2026-03-18 06:49:02,347 - INFO - Processing Synthesis for sector: Artificial Intelligence (2 assets)...
+2026-03-18 06:49:02,351 - INFO - AFC is enabled with max remote calls: 10.
+2026-03-18 06:49:03,327 - INFO - AFC is enabled with max remote calls: 10.
+2026-03-18 06:49:04,224 - INFO - ✅ Synthesis complete for Artificial Intelligence
+2026-03-18 06:49:04,224 - INFO - Processing Synthesis for sector: Politics (1 assets)...
+2026-03-18 06:49:04,225 - INFO - AFC is enabled with max remote calls: 10.
+2026-03-18 06:49:05,013 - INFO - ✅ Synthesis complete for Politics
+2026-03-18 06:49:05,013 - INFO - Processing Synthesis for sector: Precious Metals (5 assets)...
+2026-03-18 06:49:05,019 - INFO - AFC is enabled with max remote calls: 10.
+2026-03-18 06:49:05,934 - INFO - AFC is enabled with max remote calls: 10.
+2026-03-18 06:49:06,723 - INFO - AFC is enabled with max remote calls: 10.
+2026-03-18 06:49:07,402 - INFO - AFC is enabled with max remote calls: 10.
+2026-03-18 06:49:08,815 - INFO - ✅ Synthesis complete for Precious Metals
+2026-03-18 06:49:08,835 - INFO - Summarization complete. 18 briefs written to briefs/2026-03-18.md (Time: 124.1s)
+2026-03-18 06:49:09,851 - INFO - Email digest sent successfully to kwilliamson.mail@gmail.com.
+2026-03-18 06:49:10,618 - INFO - Email digest sent successfully to kochava72@gmail.com.
+2026-03-18 06:49:10,628 - INFO - Queue cleared.
+2026-03-18 06:49:10,634 - INFO - ==================================================
+2026-03-18 06:49:10,635 - INFO - Pipeline Execution Complete
+2026-03-18 06:49:10,635 - INFO - ==================================================

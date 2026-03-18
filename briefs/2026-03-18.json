@@ -1,0 +1,1440 @@
+{
+  "date": "2026-03-18",
+  "briefs": [
+    {
+      "episode_title": "Wednesday March 18th, Stock Market, economics, politics and war update",
+      "channel": "Clive Thompson",
+      "duration_minutes": 25,
+      "podcast_date": "2026-03-18",
+      "processing_date": "2024-01-27",
+      "one_line_summary": "Financial markets are reacting to increased inflation risk driven by war and oil prices; private credit markets face redemption pressure.",
+      "core_claims": [
+        "The Straits of Hormuz are effectively closed to allied shipping due to Iranian threats, while Iranian oil tankers heading to India and China are allowed passage.",
+        "The US GDP showed a large drop in the fourth quarter, from over 4% to 0.7%, indicating a slowing economy.",
+        "The US national debt is approaching $39 trillion, with interest payments projected to exceed economic growth by 2031.",
+        "The ten-year US bond yield increased from 3.9% before the war to 4.20%, and similar yield spikes have been seen globally.",
+        "Private credit funds face redemption restrictions; the situation will worsen by the end of June.",
+        "Core personal consumer expenditure index inflation is rising (November 2.8%, January 3.1%)."
+      ],
+      "signal_strength": 7,
+      "themes": [
+        "financial markets",
+        "inflation",
+        "geopolitics",
+        "economic slowdown",
+        "debt",
+        "private credit"
+      ],
+      "positioning_implication": "De-risk portfolios by favoring defensive sectors like healthcare and utilities; consider hedging strategies against potential credit market instability and rising inflation.",
+      "time_horizon": "medium",
+      "shelf_life": "Medium",
+      "thumbnail": "https://i.ytimg.com/vi/t9Nntg_w5kI/hqdefault.jpg",
+      "video_url": "https://www.youtube.com/watch?v=t9Nntg_w5kI",
+      "cluster_id": 1,
+      "category": "General Financial Investing and Speculation"
+    },
+    {
+      "episode_title": "Grok 5 Could be xAI's Biggest Breakthrough Yet...",
+      "channel": "Wes Roth",
+      "duration_minutes": 36,
+      "podcast_date": "2026-03-18",
+      "processing_date": "2026-03-18",
+      "one_line_summary": "xAI aggressively rebuilds its AI capabilities with focus on Grok 5, coding, and space-based infrastructure.",
+      "core_claims": [
+        "xAI has three Grok models in training simultaneously.",
+        "10 of the 12 original xAI founders departed, citing burnout and performance pressure.",
+        "xAI is hiring talent from Cursor and Thinking Machines Lab, including ex-Mistral co-founders, to accelerate Grok 5 development.",
+        "SpaceX and xAI are merging, potentially leading to AI data centers in space.",
+        "Grok 420 is a go-to for real-time search and event tracking.",
+        "xAI aims to surpass competitors like Anthropic, Google, and OpenAI within three years, requiring advanced observation tools to discern the second-place competitor."
+      ],
+      "signal_strength": 8,
+      "themes": [
+        "artificial intelligence",
+        "xai",
+        "grok",
+        "machine learning",
+        "space infrastructure",
+        "talent acquisition"
+      ],
+      "positioning_implication": "Assess long-term AI dominance strategies considering infrastructure and talent, monitoring xAI's space integration and Grok's real-time capabilities.",
+      "time_horizon": "long",
+      "shelf_life": "Medium",
+      "thumbnail": "https://i.ytimg.com/vi/rzJC-ngZ6CY/hqdefault.jpg",
+      "video_url": "https://www.youtube.com/watch?v=rzJC-ngZ6CY",
+      "cluster_id": 1,
+      "category": "Artificial Intelligence"
+    },
+    {
+      "episode_title": "Trump MELTS DOWN as Allies REJECT His Iran Demands",
+      "channel": "Raging Moderates",
+      "duration_minutes": 55,
+      "podcast_date": "2026-03-18",
+      "processing_date": "2026-03-18",
+      "one_line_summary": "The administration faces increasing pressure on multiple fronts as tensions with Iran escalate and alliances strain due to conflicting promises and domestic issues.",
+      "core_claims": [
+        "Bankruptcy among farmers rose 46% in 2025, projected to increase in 2026 due to increased diesel prices and lack of available workers.",
+        "92% of Americans are concerned about the cost of food and consumer goods; consumer prices have increased 24% since March of 2021.",
+        "A January survey found that 53% chance gas prices will exceed 4.00 this week."
+      ],
+      "signal_strength": 8,
+      "themes": [
+        "iran",
+        "immigration",
+        "economy",
+        "alliances",
+        "domestic policy",
+        "consumer prices"
+      ],
+      "positioning_implication": "Assess vulnerabilities tied to economic pressure points and alliance cohesion, as shifting public perceptions challenge established narratives.",
+      "time_horizon": "short",
+      "shelf_life": "Medium",
+      "thumbnail": "https://i.ytimg.com/vi/aPwa5G0J9HY/hqdefault.jpg",
+      "video_url": "https://www.youtube.com/watch?v=aPwa5G0J9HY",
+      "cluster_id": 0,
+      "category": "Politics"
+    },
+    {
+      "episode_title": "This Strategic U.S. Gold Deal Is Flying Under the Radar | Andy Schectman & Michelle Makori",
+      "channel": "Miles Franklin Media",
+      "duration_minutes": 59,
+      "podcast_date": "2026-03-18",
+      "processing_date": "2026-03-18",
+      "one_line_summary": "The U.S. is strategically accumulating gold through indirect means, potentially impacting global markets and challenging the dollar's dominance.",
+      "core_claims": [
+        "The U.S. is brokering deals to bring Venezuelan gold into U.S. markets.",
+        "Gold has become the single largest U.S. export for three out of the last four months.",
+        "The critical minerals list added by the Trump administration includes silver, and gold is being accumulated by central banks at record levels.",
+        "There's speculation the gold leaving the U.S. is heading to Switzerland for refining, masking U.S. gold accumulation.",
+        "The European Union and China classify silver as critical, and China will require gold for things like rare earths."
+      ],
+      "signal_strength": 8,
+      "themes": [
+        "gold market",
+        "strategic resources",
+        "de-dollarization",
+        "supply chain control",
+        "geopolitics",
+        "economic policy"
+      ],
+      "positioning_implication": "Monitor global gold flows and supply chain shifts; anticipate potential currency revaluations and shifts in international economic power dynamics.",
+      "time_horizon": "medium",
+      "shelf_life": "Medium",
+      "thumbnail": "https://i.ytimg.com/vi/Ydu15sijyug/hqdefault.jpg",
+      "video_url": "https://www.youtube.com/watch?v=Ydu15sijyug",
+      "cluster_id": 3,
+      "category": "Precious Metals"
+    },
+    {
+      "episode_title": "MARKET TUG-OF-WAR! \ud83d\udcc9 Yields vs. Oil with FOMC on Deck",
+      "channel": "Verified Investing",
+      "duration_minutes": 27,
+      "podcast_date": "2026-03-18",
+      "processing_date": "2026-03-18",
+      "one_line_summary": "Market action shows heightened price volatility amidst FOMC anticipation, with potential for rate hike signals to trigger market reactions.",
+      "core_claims": [
+        "Jerome Powell floating potential rate hikes could lead to market volatility.",
+        "S&P 500 closed within yesterday's price range after being higher earlier in the day.",
+        "NASDAQ closed within yesterday's price range despite a push up through trend lines.",
+        "Leading index SMH trading within yesterday's price range with resistance at $407.40 and support at $387.09.",
+        "IWM rejects previous support, indicating a downward move towards $241.78.",
+        "US Oil and 10-year yield are in a 'tug-of-war,' where rising oil could pressure inflation and rising yields could negatively impact equities.",
+        "Bitcoin achieved a daily close above a key level, but lacks follow-through with potential for further upside if the price closes above $74,914 today.",
+        "Delta Airlines demand outweighs increased oil costs, leading to 6.56% increase.",
+        "WDC closes higher with $313.81 negating daily top tail, but nears overbought RSI at 65.21 with next resistance at $340-345.",
+        "TME free subscription pool is shrinking, decreasing investor interest."
+      ],
+      "signal_strength": 7,
+      "themes": [
+        "market analysis",
+        "fomc",
+        "rate hikes",
+        "yield curve",
+        "oil prices",
+        "technical analysis",
+        "cryptocurrency",
+        "airlines",
+        "earnings",
+        "chinese stocks"
+      ],
+      "positioning_implication": "Prepare for potential market shifts driven by FOMC statements; adjust portfolios to hedge against volatility from potential rate hike hints or oil price fluctuations.",
+      "time_horizon": "short",
+      "shelf_life": "Short",
+      "thumbnail": "https://i.ytimg.com/vi/tqAg6vZk7a4/hqdefault.jpg",
+      "video_url": "https://www.youtube.com/watch?v=tqAg6vZk7a4",
+      "cluster_id": 2,
+      "category": "General Financial Investing and Speculation"
+    },
+    {
+      "episode_title": "Cause Of Silver's Record 36% One-Day Crash Revealed By BIS",
+      "channel": "Arcadia Economics",
+      "duration_minutes": 31,
+      "podcast_date": "2026-03-18",
+      "processing_date": "2024-02-29",
+      "one_line_summary": "BIS attributes the historic silver sell-off to destabilizing effects of leveraged ETFs during the Iran war amid broader geopolitical tensions and retail investment fervor.",
+      "core_claims": [
+        "The BIS identified destabilizing leveraged ETFs as a primary cause of silver's record 36% one-day crash.",
+        "Precious metals prices tumbled following the launch of the Iran war, with silver falling to $79.49 after reaching $121.",
+        " Margin-triggered liquidations and leverage ETF rebalancing created a self-reinforcing loop of lower prices and further margin calls in the silver market.",
+        "The LME halted electronic trading for over two hours due to issues with its primary matching engine amid commodity price volatility driven by the Iran war.",
+        "Analysts suggest that the failure of the LME to restore electronic trading promptly amid the Iran war is not coincidental.",
+        "The DeAmbasud gold project has a 72% internal rate of return at $2750 gold."
+      ],
+      "signal_strength": 8,
+      "themes": [
+        "silver",
+        "market manipulation",
+        "etfs",
+        "geopolitics",
+        "central banks",
+        "commodities"
+      ],
+      "positioning_implication": "Monitor leveraged ETF activity and geopolitical tensions for potential market volatility; reassess commodities risk exposure given potential supply chain disruptions and price distortions.",
+      "time_horizon": "short",
+      "shelf_life": "Medium",
+      "thumbnail": "https://i.ytimg.com/vi/T5g_RgK6Pio/hqdefault.jpg",
+      "video_url": "https://www.youtube.com/watch?v=T5g_RgK6Pio",
+      "cluster_id": 1,
+      "category": "Precious Metals"
+    },
+    {
+      "episode_title": "DEALER REVEALS EXTREME SILVER PRICE FLOOR (LOWER THAN YOU THINK)",
+      "channel": "Silver Dragons",
+      "duration_minutes": 30,
+      "podcast_date": "2026-03-18",
+      "processing_date": "2026-03-18",
+      "one_line_summary": "A silver dealer anticipates a potential price floor drop for silver, influenced by historical trends and market reactions.",
+      "core_claims": [
+        "One national refiner resumed buying alloyed silver, including sterling, US 90%, 40%, and war nickels, with a weekly purchase limit of 250 ounces.",
+        "The dealer suggests silver could return to prices below $20, mirroring post-2011 trends when silver dropped significantly after hitting nearly $50.",
+        "A price surge could overwhelm refiners, potentially leading to temporary buying halts; however, purchase limits may mitigate this.",
+        "A target silver price between $150 and $300 is viewed as realistic.",
+        "The speaker indicates a six-year deficit in silver production exists, making price changes harder to quickly impact.",
+        "Silver at less than $20 would be eliminated by smart stackers daily."
+      ],
+      "signal_strength": 7,
+      "themes": [
+        "silver price",
+        "market analysis",
+        "precious metals",
+        "investment strategy",
+        "economic forecast",
+        "supply chain"
+      ],
+      "positioning_implication": "Consider hedging strategies against potential downside risk in silver while acknowledging long-term upside potential. Actively monitor market reactions to global events and policy changes.",
+      "time_horizon": "medium",
+      "shelf_life": "Medium",
+      "thumbnail": "https://i.ytimg.com/vi/G_IpRneT7Z0/hqdefault.jpg",
+      "video_url": "https://www.youtube.com/watch?v=G_IpRneT7Z0",
+      "cluster_id": 2,
+      "category": "Precious Metals"
+    },
+    {
+      "episode_title": "Why Gold And Silver Prices Are Falling Despite Iran Conflict Escalating",
+      "channel": "CPM Group",
+      "duration_minutes": 22,
+      "podcast_date": "2026-03-18",
+      "processing_date": "2026-03-18",
+      "one_line_summary": "Gold and silver prices are consolidating despite geopolitical tensions, reflecting pre-emptive market pricing and seasonal demand shifts.",
+      "core_claims": [
+        "Gold prices are consolidating around $5,000 after a record high of $5,500+ in January.",
+        "Political and economic environments still support higher gold prices later, but a temporary dip to $4,850 is possible.",
+        "Reduced investment and fabrication demand contribute to potential short-term price weakness in gold and silver markets.",
+        "Correlation between quarterly oil and gold prices is low (21% nominal, 40% inflation-adjusted), so their movements aren't always synchronized.",
+        "Higher oil prices, though not directly correlated, can positively affect gold by increasing cash flow to oil-exporting Islamic countries, and acting as an inflator.",
+        "Gold price development is not always dependent on negative inflation-adjusted interest rates.",
+        "Silver prices are also consolidating around $80.66, showing short-term technical weakness.",
+        "Longer-term, silver prices are expected to increase due to economic and political factors."
+      ],
+      "signal_strength": 7,
+      "themes": [
+        "precious metals",
+        "gold",
+        "silver",
+        "market consolidation",
+        "investment demand",
+        "geopolitics",
+        "oil prices",
+        "interest rates"
+      ],
+      "positioning_implication": "Maintain awareness of potential short-term price volatility in precious metals, while recognizing underlying support from broader economic and geopolitical factors. Evaluate buying opportunities during price dips.",
+      "time_horizon": "medium",
+      "shelf_life": "Medium",
+      "thumbnail": "https://i.ytimg.com/vi/Jl8g4HfCWzA/hqdefault.jpg",
+      "video_url": "https://www.youtube.com/watch?v=Jl8g4HfCWzA",
+      "cluster_id": 0,
+      "category": "Precious Metals"
+    },
+    {
+      "episode_title": "Gold Is Pricing the End of the Paper-Credit System | Larry McDonald",
+      "channel": "Kitco NEWS",
+      "duration_minutes": 42,
+      "podcast_date": "2026-03-18",
+      "processing_date": "2026-03-18",
+      "one_line_summary": "Gold's price action signals an exhaustion of the paper credit system, requiring new portfolio construction.",
+      "core_claims": [
+        "Global output fell by approximately 8 million barrels a day in March.",
+        "Urea fertilizer prices are approximately 28% higher.",
+        "Diesel is over $5 a gallon as American farmers enter planting and seeding season.",
+        "Attacks in the Middle East have impacted trust across the supply chain, likely disrupting it for 60-90 days.",
+        "Defaults in private credit could hit 8% as AI disrupts the software industry.",
+        "The DBA ETF is starting to dramatically outperform the NASDAQ."
+      ],
+      "signal_strength": 8,
+      "themes": [
+        "gold",
+        "inflation",
+        "geopolitics",
+        "supply chains",
+        "private credit",
+        "energy"
+      ],
+      "positioning_implication": "Reallocate portfolios toward hard assets including precious metals, energy, and agricultural commodities, anticipating increased market volatility and supply disruptions.",
+      "time_horizon": "medium",
+      "shelf_life": "Medium",
+      "thumbnail": "https://i.ytimg.com/vi/Q_p-0F-dUN0/hqdefault.jpg",
+      "video_url": "https://www.youtube.com/watch?v=Q_p-0F-dUN0",
+      "cluster_id": 1,
+      "category": "General Financial Investing and Speculation"
+    },
+    {
+      "episode_title": "'Deep Financial Crisis' In U.S. Could Make China The World's Largest Economy | Shaun Rein",
+      "channel": "David Lin",
+      "duration_minutes": 32,
+      "podcast_date": "2026-03-18",
+      "processing_date": "2024-02-29",
+      "one_line_summary": "Analyst projects China's potential economic dominance due to US decline and increased Chinese economic independence.",
+      "core_claims": [
+        "China could become the world's largest economy if the US faces a deep financial crisis.",
+        "China has been investing heavily in solar and wind energy, increasing its energy independence.",
+        "More than 50% of new auto sales in China in 2025 were NEVs (New Energy Vehicles).",
+        "Increased tension in the Middle East will push Chinese consumers to adopt NEVs even more.",
+        "China's central military commission is not ready for a land invasion of Taiwan due to corruption investigations.",
+        "Chinese state banks are now flooding AI and advanced manufacturers with new loans."
+      ],
+      "signal_strength": 7,
+      "themes": [
+        "china",
+        "us economy",
+        "geopolitics",
+        "energy independence",
+        "electric vehicles",
+        "financial crisis"
+      ],
+      "positioning_implication": "Consider shifting investment focus towards Chinese companies poised to benefit from increasing domestic demand and geopolitical tensions. Monitor US economic stability and leadership effectiveness to gauge potential shifts in global economic power.",
+      "time_horizon": "medium",
+      "shelf_life": "Medium",
+      "thumbnail": "https://i.ytimg.com/vi/FCoKt51L7Dc/hqdefault.jpg",
+      "video_url": "https://www.youtube.com/watch?v=FCoKt51L7Dc",
+      "cluster_id": 4,
+      "category": "General Financial Investing and Speculation"
+    },
+    {
+      "episode_title": "Why Isn't GOLD Spiking as Iran War Rages? 'Be Careful What You Wish For': Keith Weiner",
+      "channel": "Commodity Culture",
+      "duration_minutes": 56,
+      "podcast_date": "2026-03-18",
+      "processing_date": "2024-05-02",
+      "one_line_summary": "Despite geopolitical tensions, dollar liquidity scramble and proactive Fed policy impact gold's behavior, revealing complex market dynamics beyond simple safety plays.",
+      "core_claims": [
+        "Gold's price stability amid conflict results from a 'scramble for dollar liquidity,' driven by debt servicing needs, not perceived safety.",
+        "Gold's bid-offer spread remains stable during crises, unlike other assets, making it attractive yet a first-to-sell asset during liquidity crunches.",
+        "Desperation for dollar liquidity creates an acute phase, followed by a hangover, influencing gold's attractiveness as a buy versus sell.",
+        "The Fed's hyper-proactive approach aims to prevent a 2008-style event, expecting gold to sell off less during future crises than in 2008.",
+        "US likely to win current conflict but will incur more debt, potentially devaluing the dollar against gold long-term.",
+        "Silver supply and demand remain tight, with bullish pressures expected to keep prices high, though potentially retracing to $60."
+      ],
+      "signal_strength": 8,
+      "themes": [
+        "gold",
+        "silver",
+        "dollar liquidity",
+        "fed policy",
+        "geopolitics",
+        "market dynamics"
+      ],
+      "positioning_implication": "Assess portfolio liquidity needs, recognizing dollar strength can counterintuitive.",
+      "time_horizon": "medium",
+      "shelf_life": "Medium",
+      "thumbnail": "https://i.ytimg.com/vi/tNcAgwmnI5M/hqdefault.jpg",
+      "video_url": "https://www.youtube.com/watch?v=tNcAgwmnI5M",
+      "cluster_id": 0,
+      "category": "Precious Metals"
+    },
+    {
+      "episode_title": "Anthropic Didn't Build a New Browser. They Did Something Smarter.",
+      "channel": "AI News & Strategy Daily | Nate B Jones",
+      "duration_minutes": 25,
+      "podcast_date": "2026-03-18",
+      "processing_date": "2026-03-18",
+      "one_line_summary": "Anthropic's Claude extension for Chrome enables free agents within the browser to perform repeatable online tasks, saving users significant time.",
+      "core_claims": [
+        "The Claude extension can automate tasks like checking multiple websites for weekly reports, negotiating discounts with customer service, and managing meeting schedules.",
+        "Users can record workflows in the Claude extension and schedule them to run daily, weekly, monthly, or annually without manual intervention.",
+        "Claude in Chrome has built-in knowledge of how to navigate popular platforms like Gmail, allowing it to manage inboxes, identify marketing emails, and pull up important messages without step-by-step instructions.",
+        "Users can create logical folder structures for Google Drive, sort documents, and flag duplicates using Claude.",
+        "Claude can pull data from multiple browser tabs in a group and synthesize the content to produce structured outputs, such as compiling recipes or competitor pricing.",
+        "Claude can test websites on a schedule and look for bugs, offering a basic and more sophisticated debugging system."
+      ],
+      "signal_strength": 9,
+      "themes": [
+        "automation",
+        "browser extension",
+        "ai agents",
+        "productivity",
+        "task management",
+        "llm"
+      ],
+      "positioning_implication": "Prioritize integrating AI-driven browser extensions for process automation to enhance user efficiency. Understand the limitations around data-heavy tasks and implement task decomposition strategies.",
+      "time_horizon": "short",
+      "shelf_life": "Medium",
+      "thumbnail": "https://i.ytimg.com/vi/QT7W_uHjqWE/hqdefault.jpg",
+      "video_url": "https://www.youtube.com/watch?v=QT7W_uHjqWE",
+      "cluster_id": 0,
+      "category": "Artificial Intelligence"
+    },
+    {
+      "episode_title": "Gold and Silver Miners: There are Index changes coming up shortly.  I name the companies.",
+      "channel": "Clive Thompson",
+      "duration_minutes": 12,
+      "podcast_date": "2026-03-18",
+      "processing_date": "2024-02-26",
+      "one_line_summary": "Upcoming index changes in gold and silver mining stocks will lead to ETF rebalancing, with specific company additions and removals noted across different indexes.",
+      "core_claims": [
+        "The Market Vectors Global Gold Miners Index (MVGDX) requires a minimum market cap of $150 million and average daily trading of $1 million over the previous two months.",
+        "Greatland Resources came onto the stock market around June or July last year and is eligible for entering the MVGDX index.",
+        "The stocks which go into the MVGDX index must generate at least 50% of their revenue from gold or silver mining.",
+        "MVGDX Index Implementation will be on March 20th.",
+        "Greatland Resources, Aris Mining Corp, Centerra Gold, and Endeavor Silver Corp are being added to the MVGDX index.",
+        "Greatland Resources, Regis Resources, and Westgold are entering the S&P ASX 100 index.",
+        "The gold price has risen approximately 20% since the start of the year, from $4300 to $5000.",
+        "Bond yields have generally increased since the start of January, despite expectations they would fall due to the war."
+      ],
+      "signal_strength": 8,
+      "themes": [
+        "finance",
+        "gold",
+        "silver",
+        "mining",
+        "index funds",
+        "etf",
+        "market analysis"
+      ],
+      "positioning_implication": "Anticipate short-term price movements in newly added and removed companies due to ETF rebalancing. Align investment strategies with broader market trends in precious metals.",
+      "time_horizon": "short",
+      "shelf_life": "Short",
+      "thumbnail": "https://i.ytimg.com/vi/qHDLCsER4s8/hqdefault.jpg",
+      "video_url": "https://www.youtube.com/watch?v=qHDLCsER4s8",
+      "cluster_id": 0,
+      "category": "General Financial Investing and Speculation"
+    },
+    {
+      "episode_title": "THE 2008 TRAP: Why the S&P 500 Bounce is a Massive \"Sell The News\" Event \ud83d\udea8",
+      "channel": "Verified Investing",
+      "duration_minutes": 26,
+      "podcast_date": "2026-03-18",
+      "processing_date": "2026-03-18",
+      "one_line_summary": "The current market mirrors 2008's pre-collapse environment, with rising oil, emerging credit problems, and private credit market strains.",
+      "core_claims": [
+        "Oil price is 50% higher since late February.",
+        "The S&P 500's recent rally correlates inversely with a drop in oil prices.",
+        "Private credit markets face major issues, including investors unable to withdraw funds.",
+        "Mimicking 2008, credit problems and rising oil prices are surfacing concurrently.",
+        "A break below 609 in Meta Platforms will signal a major breakdown.",
+        "A short play for Lemonade consideration would be around $69."
+      ],
+      "signal_strength": 8,
+      "themes": [
+        "market analysis",
+        "financial crisis",
+        "economic indicators",
+        "technical analysis",
+        "investment strategy",
+        "oil prices",
+        "credit markets"
+      ],
+      "positioning_implication": "Reduce exposure to risk assets, anticipating a potential market downturn. Prioritize capital preservation in the face of emerging financial strains.",
+      "time_horizon": "short",
+      "shelf_life": "Short",
+      "thumbnail": "https://i.ytimg.com/vi/kOkX322LDDU/hqdefault.jpg",
+      "video_url": "https://www.youtube.com/watch?v=kOkX322LDDU",
+      "cluster_id": 2,
+      "category": "General Financial Investing and Speculation"
+    },
+    {
+      "episode_title": "The FED Just Did the UNTHINKABLE to Gold",
+      "channel": "Felix & Friends (Goat Academy)",
+      "duration_minutes": 32,
+      "podcast_date": "2026-03-18",
+      "processing_date": "2024-01-26",
+      "one_line_summary": "Gold's current bull market is driven by central banks replacing dollars with gold as a reserve asset and will enter new phases when the Federal Reserve restarts large-scale money printing and the government bond market enters a \"death spiral.\"",
+      "core_claims": [
+        "Gold move has three phases, barely in phase one where it is calm institutional buying.",
+        "Phase two starts when the Federal Reserve is forced to print money at a rate surpassing Covid stimulus.",
+        "Phase three sees the entire government bond market enter a 'death spiral'.",
+        "Central banks have bought over a thousand tons of gold per year for three years, doubling the norm.",
+        "Institutions are currently selling gold, which historically results in a 21% increase in gold prices over the next 90 days.",
+        "The Fed has reported about $245 billion in losses since 2022.",
+        "US interest payments will be over $1 trillion just this year."
+      ],
+      "signal_strength": 8,
+      "themes": [
+        "gold",
+        "fed",
+        "central banks",
+        "financial crisis",
+        "market analysis",
+        "economic forecasting"
+      ],
+      "positioning_implication": "Consider shifting portfolio allocation toward gold and precious metal mining operations in anticipation of increased volatility and currency devaluation. Further research is warranted into private equity risk.",
+      "time_horizon": "medium",
+      "shelf_life": "Medium",
+      "thumbnail": "https://i.ytimg.com/vi/bDJ0Ebk0PA0/hqdefault.jpg",
+      "video_url": "https://www.youtube.com/watch?v=bDJ0Ebk0PA0",
+      "cluster_id": 0,
+      "category": "General Financial Investing and Speculation"
+    },
+    {
+      "episode_title": "Why the Pentagon Is Hiring Wall Street Bankers | Prof G Markets",
+      "channel": "The Prof G Pod \u2013 Scott Galloway",
+      "duration_minutes": 8,
+      "podcast_date": "2026-03-18",
+      "processing_date": "2026-03-18",
+      "one_line_summary": "The Pentagon is recruiting Wall Street investment bankers for a 30-person economic defense unit to deploy $200 billion in sectors vital to national security, aiming to counter China's military superiority.",
+      "core_claims": [
+        "The Defense Department is recruiting investment bankers for a new 30-person economic defense unit.",
+        "The team would be tasked with identifying strategic investment opportunities and deploying as much as $200 billion over the next three years.",
+        "The money would be directed towards sectors considered vital to national security, including mineral extraction, drones, and energy.",
+        "The goal is to prevent China from gaining military superiority.",
+        "To lure top talent, the Pentagon is offering high salaries, access to foreign contacts, and the chance to manage more capital than most investors deploy in their entire careers."
+      ],
+      "signal_strength": 8,
+      "themes": [
+        "defense",
+        "investment banking",
+        "national security",
+        "china",
+        "financial strategy",
+        "government"
+      ],
+      "positioning_implication": "Assess investment opportunities in sectors targeted by the US government's economic defense strategy.  Consider potential shifts in market dynamics due to government intervention and strategic alignment with national security priorities.",
+      "time_horizon": "medium",
+      "shelf_life": "Medium",
+      "thumbnail": "https://i.ytimg.com/vi/uU4HI_M_ZYI/hqdefault.jpg",
+      "video_url": "https://www.youtube.com/watch?v=uU4HI_M_ZYI",
+      "cluster_id": 3,
+      "category": "General Financial Investing and Speculation"
+    },
+    {
+      "episode_title": "Are China & The USA Working Together To Carve Up The Globe? | Peter Alexander",
+      "channel": "Adam Taggart | Thoughtful Money\u00ae",
+      "duration_minutes": 74,
+      "podcast_date": "2026-03-18",
+      "processing_date": "2026-03-18",
+      "one_line_summary": "China and the United States may be negotiating a fourth communique to divide up the world.",
+      "core_claims": [
+        "China and the U.S. may be in the process of negotiating a fourth communique to divide up the world.",
+        "China needs to shift away from a growth-at-all-costs economic model towards quality growth.",
+        "China is building a manufacturing moat with 47% of Chinese exports being intermediate goods.",
+        "The Chinese economy is transitioning from an old economic model to a new economic model.",
+        "Economic peak pessimism for China has passed and is moving forward.",
+        "China moved from textiles and toys to next-gen, fourth industrial revolution-type manufacturing processes."
+      ],
+      "signal_strength": 8,
+      "themes": [
+        "geopolitics",
+        "china",
+        "united states",
+        "economics",
+        "manufacturing",
+        "trade",
+        "investing"
+      ],
+      "positioning_implication": "Assess geopolitical exposures and potential impact of a new US-China agreement. Consider diversification into assets uncorrelated with traditional Western markets and currencies.",
+      "time_horizon": "medium",
+      "shelf_life": "Medium",
+      "thumbnail": "https://i.ytimg.com/vi/sS2pyxgS21k/hqdefault.jpg",
+      "video_url": "https://www.youtube.com/watch?v=sS2pyxgS21k",
+      "cluster_id": 5,
+      "category": "General Financial Investing and Speculation"
+    },
+    {
+      "episode_title": "Will China Decide the Future of the Persian Gulf? | China Decode",
+      "channel": "The Prof G Pod \u2013 Scott Galloway",
+      "duration_minutes": 43,
+      "podcast_date": "2026-03-18",
+      "processing_date": "2026-03-18",
+      "one_line_summary": "China is deeply involved in the Middle East commercially, but may avoid military entanglement despite US restructuring efforts and its own energy needs.",
+      "core_claims": [
+        "China is playing a long game in the Middle East and globally.",
+        "China's presence in the Middle East, including the Gulf and Iran, is deeper than many Western companies.",
+        "Post-war Middle East will be restructured, led by Jerusalem, impacting the US and Chinese strategies.",
+        "China's involvement beyond commercial interests in the Middle East poses dangers with few gains, especially with US involvement.",
+        "China observes but stays away from being criticized providing military hardware to Iran, wary of a longer, deeper crisis.",
+        "China is getting preferential treatment in oil passage through the straits, but exact volumes lack transparency.",
+        "China doesn't want to restructure the way the Middle East map has been formulated."
+      ],
+      "signal_strength": 7,
+      "themes": [
+        "china",
+        "middle east",
+        "geopolitics",
+        "oil markets",
+        "us foreign policy",
+        "energy security"
+      ],
+      "positioning_implication": "Assess exposures relative to a potential fragmentation in the Middle East, and the strategic implications for supply chain resilience.",
+      "time_horizon": "medium",
+      "shelf_life": "Medium",
+      "thumbnail": "https://i.ytimg.com/vi/lqrgCSmAwGM/hqdefault.jpg",
+      "video_url": "https://www.youtube.com/watch?v=lqrgCSmAwGM",
+      "cluster_id": 4,
+      "category": "General Financial Investing and Speculation"
+    }
+  ],
+  "category_intelligence": {
+    "General Financial Investing and Speculation": {
+      "name": "General Financial Investing and Speculation",
+      "meta_summary": "",
+      "convergence_score": 0.0,
+      "percentile": 0.0,
+      "regime_state": "Neutral",
+      "clusters": [
+        {
+          "id": 1,
+          "name": "Private Credit Redemption Pressure Intensifying",
+          "description": "Heightened inflation risk, fueled by geopolitical tensions and energy prices, is exacerbating redemption pressures within private credit markets, signaling a potential shift away from traditional paper credit systems.\n\u26a1 Convergence Alert: Overlap detected with [Gold: Geopolitics-Liquidity Tension Stalling Price Action] in Precious Metals (0.78 sim)",
+          "bias": "defensive",
+          "regime": "Accelerating",
+          "size": 2,
+          "strength": 1.3875946992662977,
+          "coherence": 0.6937973496331489,
+          "channels": [
+            "Clive Thompson",
+            "Kitco NEWS"
+          ],
+          "avg_signal": 7.5,
+          "briefs": [
+            {
+              "episode_title": "Wednesday March 18th, Stock Market, economics, politics and war update",
+              "channel": "Clive Thompson",
+              "duration_minutes": 25,
+              "podcast_date": "2026-03-18",
+              "processing_date": "2024-01-27",
+              "one_line_summary": "Financial markets are reacting to increased inflation risk driven by war and oil prices; private credit markets face redemption pressure.",
+              "core_claims": [
+                "The Straits of Hormuz are effectively closed to allied shipping due to Iranian threats, while Iranian oil tankers heading to India and China are allowed passage.",
+                "The US GDP showed a large drop in the fourth quarter, from over 4% to 0.7%, indicating a slowing economy.",
+                "The US national debt is approaching $39 trillion, with interest payments projected to exceed economic growth by 2031.",
+                "The ten-year US bond yield increased from 3.9% before the war to 4.20%, and similar yield spikes have been seen globally.",
+                "Private credit funds face redemption restrictions; the situation will worsen by the end of June.",
+                "Core personal consumer expenditure index inflation is rising (November 2.8%, January 3.1%)."
+              ],
+              "signal_strength": 7,
+              "themes": [
+                "financial markets",
+                "inflation",
+                "geopolitics",
+                "economic slowdown",
+                "debt",
+                "private credit"
+              ],
+              "positioning_implication": "De-risk portfolios by favoring defensive sectors like healthcare and utilities; consider hedging strategies against potential credit market instability and rising inflation.",
+              "time_horizon": "medium",
+              "shelf_life": "Medium",
+              "thumbnail": "https://i.ytimg.com/vi/t9Nntg_w5kI/hqdefault.jpg",
+              "video_url": "https://www.youtube.com/watch?v=t9Nntg_w5kI",
+              "cluster_id": 1,
+              "category": "General Financial Investing and Speculation"
+            },
+            {
+              "episode_title": "Gold Is Pricing the End of the Paper-Credit System | Larry McDonald",
+              "channel": "Kitco NEWS",
+              "duration_minutes": 42,
+              "podcast_date": "2026-03-18",
+              "processing_date": "2026-03-18",
+              "one_line_summary": "Gold's price action signals an exhaustion of the paper credit system, requiring new portfolio construction.",
+              "core_claims": [
+                "Global output fell by approximately 8 million barrels a day in March.",
+                "Urea fertilizer prices are approximately 28% higher.",
+                "Diesel is over $5 a gallon as American farmers enter planting and seeding season.",
+                "Attacks in the Middle East have impacted trust across the supply chain, likely disrupting it for 60-90 days.",
+                "Defaults in private credit could hit 8% as AI disrupts the software industry.",
+                "The DBA ETF is starting to dramatically outperform the NASDAQ."
+              ],
+              "signal_strength": 8,
+              "themes": [
+                "gold",
+                "inflation",
+                "geopolitics",
+                "supply chains",
+                "private credit",
+                "energy"
+              ],
+              "positioning_implication": "Reallocate portfolios toward hard assets including precious metals, energy, and agricultural commodities, anticipating increased market volatility and supply disruptions.",
+              "time_horizon": "medium",
+              "shelf_life": "Medium",
+              "thumbnail": "https://i.ytimg.com/vi/Q_p-0F-dUN0/hqdefault.jpg",
+              "video_url": "https://www.youtube.com/watch?v=Q_p-0F-dUN0",
+              "cluster_id": 1,
+              "category": "General Financial Investing and Speculation"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "name": "Market Volatility Intensifying Amidst Economic Strain",
+          "description": "Heightened market volatility, fueled by FOMC anticipation and echoes of the 2008 financial crisis, suggests a tightening economic environment.",
+          "bias": "defensive",
+          "regime": "Accelerating",
+          "size": 2,
+          "strength": 1.3651795460655367,
+          "coherence": 0.6825897730327684,
+          "channels": [
+            "Verified Investing"
+          ],
+          "avg_signal": 7.5,
+          "briefs": [
+            {
+              "episode_title": "MARKET TUG-OF-WAR! \ud83d\udcc9 Yields vs. Oil with FOMC on Deck",
+              "channel": "Verified Investing",
+              "duration_minutes": 27,
+              "podcast_date": "2026-03-18",
+              "processing_date": "2026-03-18",
+              "one_line_summary": "Market action shows heightened price volatility amidst FOMC anticipation, with potential for rate hike signals to trigger market reactions.",
+              "core_claims": [
+                "Jerome Powell floating potential rate hikes could lead to market volatility.",
+                "S&P 500 closed within yesterday's price range after being higher earlier in the day.",
+                "NASDAQ closed within yesterday's price range despite a push up through trend lines.",
+                "Leading index SMH trading within yesterday's price range with resistance at $407.40 and support at $387.09.",
+                "IWM rejects previous support, indicating a downward move towards $241.78.",
+                "US Oil and 10-year yield are in a 'tug-of-war,' where rising oil could pressure inflation and rising yields could negatively impact equities.",
+                "Bitcoin achieved a daily close above a key level, but lacks follow-through with potential for further upside if the price closes above $74,914 today.",
+                "Delta Airlines demand outweighs increased oil costs, leading to 6.56% increase.",
+                "WDC closes higher with $313.81 negating daily top tail, but nears overbought RSI at 65.21 with next resistance at $340-345.",
+                "TME free subscription pool is shrinking, decreasing investor interest."
+              ],
+              "signal_strength": 7,
+              "themes": [
+                "market analysis",
+                "fomc",
+                "rate hikes",
+                "yield curve",
+                "oil prices",
+                "technical analysis",
+                "cryptocurrency",
+                "airlines",
+                "earnings",
+                "chinese stocks"
+              ],
+              "positioning_implication": "Prepare for potential market shifts driven by FOMC statements; adjust portfolios to hedge against volatility from potential rate hike hints or oil price fluctuations.",
+              "time_horizon": "short",
+              "shelf_life": "Short",
+              "thumbnail": "https://i.ytimg.com/vi/tqAg6vZk7a4/hqdefault.jpg",
+              "video_url": "https://www.youtube.com/watch?v=tqAg6vZk7a4",
+              "cluster_id": 2,
+              "category": "General Financial Investing and Speculation"
+            },
+            {
+              "episode_title": "THE 2008 TRAP: Why the S&P 500 Bounce is a Massive \"Sell The News\" Event \ud83d\udea8",
+              "channel": "Verified Investing",
+              "duration_minutes": 26,
+              "podcast_date": "2026-03-18",
+              "processing_date": "2026-03-18",
+              "one_line_summary": "The current market mirrors 2008's pre-collapse environment, with rising oil, emerging credit problems, and private credit market strains.",
+              "core_claims": [
+                "Oil price is 50% higher since late February.",
+                "The S&P 500's recent rally correlates inversely with a drop in oil prices.",
+                "Private credit markets face major issues, including investors unable to withdraw funds.",
+                "Mimicking 2008, credit problems and rising oil prices are surfacing concurrently.",
+                "A break below 609 in Meta Platforms will signal a major breakdown.",
+                "A short play for Lemonade consideration would be around $69."
+              ],
+              "signal_strength": 8,
+              "themes": [
+                "market analysis",
+                "financial crisis",
+                "economic indicators",
+                "technical analysis",
+                "investment strategy",
+                "oil prices",
+                "credit markets"
+              ],
+              "positioning_implication": "Reduce exposure to risk assets, anticipating a potential market downturn. Prioritize capital preservation in the face of emerging financial strains.",
+              "time_horizon": "short",
+              "shelf_life": "Short",
+              "thumbnail": "https://i.ytimg.com/vi/kOkX322LDDU/hqdefault.jpg",
+              "video_url": "https://www.youtube.com/watch?v=kOkX322LDDU",
+              "cluster_id": 2,
+              "category": "General Financial Investing and Speculation"
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "name": "China Geopolitical Influence Intensifying",
+          "description": "China's economic and commercial influence is projected to rise amidst perceived US decline and strategic restructuring, particularly in energy and the Middle East.",
+          "bias": "constructive",
+          "regime": "Accelerating",
+          "size": 2,
+          "strength": 1.415757263694367,
+          "coherence": 0.7078786318471835,
+          "channels": [
+            "The Prof G Pod \u2013 Scott Galloway",
+            "David Lin"
+          ],
+          "avg_signal": 7.0,
+          "briefs": [
+            {
+              "episode_title": "'Deep Financial Crisis' In U.S. Could Make China The World's Largest Economy | Shaun Rein",
+              "channel": "David Lin",
+              "duration_minutes": 32,
+              "podcast_date": "2026-03-18",
+              "processing_date": "2024-02-29",
+              "one_line_summary": "Analyst projects China's potential economic dominance due to US decline and increased Chinese economic independence.",
+              "core_claims": [
+                "China could become the world's largest economy if the US faces a deep financial crisis.",
+                "China has been investing heavily in solar and wind energy, increasing its energy independence.",
+                "More than 50% of new auto sales in China in 2025 were NEVs (New Energy Vehicles).",
+                "Increased tension in the Middle East will push Chinese consumers to adopt NEVs even more.",
+                "China's central military commission is not ready for a land invasion of Taiwan due to corruption investigations.",
+                "Chinese state banks are now flooding AI and advanced manufacturers with new loans."
+              ],
+              "signal_strength": 7,
+              "themes": [
+                "china",
+                "us economy",
+                "geopolitics",
+                "energy independence",
+                "electric vehicles",
+                "financial crisis"
+              ],
+              "positioning_implication": "Consider shifting investment focus towards Chinese companies poised to benefit from increasing domestic demand and geopolitical tensions. Monitor US economic stability and leadership effectiveness to gauge potential shifts in global economic power.",
+              "time_horizon": "medium",
+              "shelf_life": "Medium",
+              "thumbnail": "https://i.ytimg.com/vi/FCoKt51L7Dc/hqdefault.jpg",
+              "video_url": "https://www.youtube.com/watch?v=FCoKt51L7Dc",
+              "cluster_id": 4,
+              "category": "General Financial Investing and Speculation"
+            },
+            {
+              "episode_title": "Will China Decide the Future of the Persian Gulf? | China Decode",
+              "channel": "The Prof G Pod \u2013 Scott Galloway",
+              "duration_minutes": 43,
+              "podcast_date": "2026-03-18",
+              "processing_date": "2026-03-18",
+              "one_line_summary": "China is deeply involved in the Middle East commercially, but may avoid military entanglement despite US restructuring efforts and its own energy needs.",
+              "core_claims": [
+                "China is playing a long game in the Middle East and globally.",
+                "China's presence in the Middle East, including the Gulf and Iran, is deeper than many Western companies.",
+                "Post-war Middle East will be restructured, led by Jerusalem, impacting the US and Chinese strategies.",
+                "China's involvement beyond commercial interests in the Middle East poses dangers with few gains, especially with US involvement.",
+                "China observes but stays away from being criticized providing military hardware to Iran, wary of a longer, deeper crisis.",
+                "China is getting preferential treatment in oil passage through the straits, but exact volumes lack transparency.",
+                "China doesn't want to restructure the way the Middle East map has been formulated."
+              ],
+              "signal_strength": 7,
+              "themes": [
+                "china",
+                "middle east",
+                "geopolitics",
+                "oil markets",
+                "us foreign policy",
+                "energy security"
+              ],
+              "positioning_implication": "Assess exposures relative to a potential fragmentation in the Middle East, and the strategic implications for supply chain resilience.",
+              "time_horizon": "medium",
+              "shelf_life": "Medium",
+              "thumbnail": "https://i.ytimg.com/vi/lqrgCSmAwGM/hqdefault.jpg",
+              "video_url": "https://www.youtube.com/watch?v=lqrgCSmAwGM",
+              "cluster_id": 4,
+              "category": "General Financial Investing and Speculation"
+            }
+          ]
+        },
+        {
+          "id": 0,
+          "name": "Gold Bull Market Intensifying Amid ETF Rebalancing",
+          "description": "Anticipated central bank gold accumulation and index rebalancing will likely amplify gold's bull market momentum.\n\u26a1 Convergence Alert: Overlap detected with [Gold: Geopolitics-Liquidity Tension Stalling Price Action] in Precious Metals (0.79 sim)\n\u26a1 Convergence Alert: Overlap detected with [Dollar Dominance: Eroding via Gold Accumulation] in Precious Metals (0.77 sim)",
+          "bias": "constructive",
+          "regime": "Accelerating",
+          "size": 2,
+          "strength": 1.3482550128403983,
+          "coherence": 0.6741275064201991,
+          "channels": [
+            "Clive Thompson",
+            "Felix & Friends (Goat Academy)"
+          ],
+          "avg_signal": 8.0,
+          "briefs": [
+            {
+              "episode_title": "Gold and Silver Miners: There are Index changes coming up shortly.  I name the companies.",
+              "channel": "Clive Thompson",
+              "duration_minutes": 12,
+              "podcast_date": "2026-03-18",
+              "processing_date": "2024-02-26",
+              "one_line_summary": "Upcoming index changes in gold and silver mining stocks will lead to ETF rebalancing, with specific company additions and removals noted across different indexes.",
+              "core_claims": [
+                "The Market Vectors Global Gold Miners Index (MVGDX) requires a minimum market cap of $150 million and average daily trading of $1 million over the previous two months.",
+                "Greatland Resources came onto the stock market around June or July last year and is eligible for entering the MVGDX index.",
+                "The stocks which go into the MVGDX index must generate at least 50% of their revenue from gold or silver mining.",
+                "MVGDX Index Implementation will be on March 20th.",
+                "Greatland Resources, Aris Mining Corp, Centerra Gold, and Endeavor Silver Corp are being added to the MVGDX index.",
+                "Greatland Resources, Regis Resources, and Westgold are entering the S&P ASX 100 index.",
+                "The gold price has risen approximately 20% since the start of the year, from $4300 to $5000.",
+                "Bond yields have generally increased since the start of January, despite expectations they would fall due to the war."
+              ],
+              "signal_strength": 8,
+              "themes": [
+                "finance",
+                "gold",
+                "silver",
+                "mining",
+                "index funds",
+                "etf",
+                "market analysis"
+              ],
+              "positioning_implication": "Anticipate short-term price movements in newly added and removed companies due to ETF rebalancing. Align investment strategies with broader market trends in precious metals.",
+              "time_horizon": "short",
+              "shelf_life": "Short",
+              "thumbnail": "https://i.ytimg.com/vi/qHDLCsER4s8/hqdefault.jpg",
+              "video_url": "https://www.youtube.com/watch?v=qHDLCsER4s8",
+              "cluster_id": 0,
+              "category": "General Financial Investing and Speculation"
+            },
+            {
+              "episode_title": "The FED Just Did the UNTHINKABLE to Gold",
+              "channel": "Felix & Friends (Goat Academy)",
+              "duration_minutes": 32,
+              "podcast_date": "2026-03-18",
+              "processing_date": "2024-01-26",
+              "one_line_summary": "Gold's current bull market is driven by central banks replacing dollars with gold as a reserve asset and will enter new phases when the Federal Reserve restarts large-scale money printing and the government bond market enters a \"death spiral.\"",
+              "core_claims": [
+                "Gold move has three phases, barely in phase one where it is calm institutional buying.",
+                "Phase two starts when the Federal Reserve is forced to print money at a rate surpassing Covid stimulus.",
+                "Phase three sees the entire government bond market enter a 'death spiral'.",
+                "Central banks have bought over a thousand tons of gold per year for three years, doubling the norm.",
+                "Institutions are currently selling gold, which historically results in a 21% increase in gold prices over the next 90 days.",
+                "The Fed has reported about $245 billion in losses since 2022.",
+                "US interest payments will be over $1 trillion just this year."
+              ],
+              "signal_strength": 8,
+              "themes": [
+                "gold",
+                "fed",
+                "central banks",
+                "financial crisis",
+                "market analysis",
+                "economic forecasting"
+              ],
+              "positioning_implication": "Consider shifting portfolio allocation toward gold and precious metal mining operations in anticipation of increased volatility and currency devaluation. Further research is warranted into private equity risk.",
+              "time_horizon": "medium",
+              "shelf_life": "Medium",
+              "thumbnail": "https://i.ytimg.com/vi/bDJ0Ebk0PA0/hqdefault.jpg",
+              "video_url": "https://www.youtube.com/watch?v=bDJ0Ebk0PA0",
+              "cluster_id": 0,
+              "category": "General Financial Investing and Speculation"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "name": "Defense Spending Intensifying Against China",
+          "description": "The Pentagon's recruitment of Wall Street bankers to manage a $200 billion economic defense fund signals an escalation of financial strategies aimed at countering China's military advancements.",
+          "bias": "defensive",
+          "regime": "Emerging",
+          "size": 1,
+          "strength": 1.0,
+          "coherence": 1.0,
+          "channels": [
+            "The Prof G Pod \u2013 Scott Galloway"
+          ],
+          "avg_signal": 8.0,
+          "briefs": [
+            {
+              "episode_title": "Why the Pentagon Is Hiring Wall Street Bankers | Prof G Markets",
+              "channel": "The Prof G Pod \u2013 Scott Galloway",
+              "duration_minutes": 8,
+              "podcast_date": "2026-03-18",
+              "processing_date": "2026-03-18",
+              "one_line_summary": "The Pentagon is recruiting Wall Street investment bankers for a 30-person economic defense unit to deploy $200 billion in sectors vital to national security, aiming to counter China's military superiority.",
+              "core_claims": [
+                "The Defense Department is recruiting investment bankers for a new 30-person economic defense unit.",
+                "The team would be tasked with identifying strategic investment opportunities and deploying as much as $200 billion over the next three years.",
+                "The money would be directed towards sectors considered vital to national security, including mineral extraction, drones, and energy.",
+                "The goal is to prevent China from gaining military superiority.",
+                "To lure top talent, the Pentagon is offering high salaries, access to foreign contacts, and the chance to manage more capital than most investors deploy in their entire careers."
+              ],
+              "signal_strength": 8,
+              "themes": [
+                "defense",
+                "investment banking",
+                "national security",
+                "china",
+                "financial strategy",
+                "government"
+              ],
+              "positioning_implication": "Assess investment opportunities in sectors targeted by the US government's economic defense strategy.  Consider potential shifts in market dynamics due to government intervention and strategic alignment with national security priorities.",
+              "time_horizon": "medium",
+              "shelf_life": "Medium",
+              "thumbnail": "https://i.ytimg.com/vi/uU4HI_M_ZYI/hqdefault.jpg",
+              "video_url": "https://www.youtube.com/watch?v=uU4HI_M_ZYI",
+              "cluster_id": 3,
+              "category": "General Financial Investing and Speculation"
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "name": "US-China Geopolitical Tensions Intensifying",
+          "description": "The narrative suggests a potential escalation of geopolitical competition between the US and China, possibly leading to a formal agreement to manage global influence.",
+          "bias": "defensive",
+          "regime": "Emerging",
+          "size": 1,
+          "strength": 1.0,
+          "coherence": 1.0,
+          "channels": [
+            "Adam Taggart | Thoughtful Money\u00ae"
+          ],
+          "avg_signal": 8.0,
+          "briefs": [
+            {
+              "episode_title": "Are China & The USA Working Together To Carve Up The Globe? | Peter Alexander",
+              "channel": "Adam Taggart | Thoughtful Money\u00ae",
+              "duration_minutes": 74,
+              "podcast_date": "2026-03-18",
+              "processing_date": "2026-03-18",
+              "one_line_summary": "China and the United States may be negotiating a fourth communique to divide up the world.",
+              "core_claims": [
+                "China and the U.S. may be in the process of negotiating a fourth communique to divide up the world.",
+                "China needs to shift away from a growth-at-all-costs economic model towards quality growth.",
+                "China is building a manufacturing moat with 47% of Chinese exports being intermediate goods.",
+                "The Chinese economy is transitioning from an old economic model to a new economic model.",
+                "Economic peak pessimism for China has passed and is moving forward.",
+                "China moved from textiles and toys to next-gen, fourth industrial revolution-type manufacturing processes."
+              ],
+              "signal_strength": 8,
+              "themes": [
+                "geopolitics",
+                "china",
+                "united states",
+                "economics",
+                "manufacturing",
+                "trade",
+                "investing"
+              ],
+              "positioning_implication": "Assess geopolitical exposures and potential impact of a new US-China agreement. Consider diversification into assets uncorrelated with traditional Western markets and currencies.",
+              "time_horizon": "medium",
+              "shelf_life": "Medium",
+              "thumbnail": "https://i.ytimg.com/vi/sS2pyxgS21k/hqdefault.jpg",
+              "video_url": "https://www.youtube.com/watch?v=sS2pyxgS21k",
+              "cluster_id": 5,
+              "category": "General Financial Investing and Speculation"
+            }
+          ]
+        }
+      ],
+      "should_generate": false
+    },
+    "Artificial Intelligence": {
+      "name": "Artificial Intelligence",
+      "meta_summary": "",
+      "convergence_score": 0.0,
+      "percentile": 0.0,
+      "regime_state": "Neutral",
+      "clusters": [
+        {
+          "id": 1,
+          "name": "xAI Intensifying AI and Space Ambitions",
+          "description": "xAI's renewed focus on Grok 5, coding AI, and space infrastructure signals an acceleration of its competitive strategy.",
+          "bias": "constructive",
+          "regime": "Emerging",
+          "size": 1,
+          "strength": 1.0,
+          "coherence": 1.0,
+          "channels": [
+            "Wes Roth"
+          ],
+          "avg_signal": 8.0,
+          "briefs": [
+            {
+              "episode_title": "Grok 5 Could be xAI's Biggest Breakthrough Yet...",
+              "channel": "Wes Roth",
+              "duration_minutes": 36,
+              "podcast_date": "2026-03-18",
+              "processing_date": "2026-03-18",
+              "one_line_summary": "xAI aggressively rebuilds its AI capabilities with focus on Grok 5, coding, and space-based infrastructure.",
+              "core_claims": [
+                "xAI has three Grok models in training simultaneously.",
+                "10 of the 12 original xAI founders departed, citing burnout and performance pressure.",
+                "xAI is hiring talent from Cursor and Thinking Machines Lab, including ex-Mistral co-founders, to accelerate Grok 5 development.",
+                "SpaceX and xAI are merging, potentially leading to AI data centers in space.",
+                "Grok 420 is a go-to for real-time search and event tracking.",
+                "xAI aims to surpass competitors like Anthropic, Google, and OpenAI within three years, requiring advanced observation tools to discern the second-place competitor."
+              ],
+              "signal_strength": 8,
+              "themes": [
+                "artificial intelligence",
+                "xai",
+                "grok",
+                "machine learning",
+                "space infrastructure",
+                "talent acquisition"
+              ],
+              "positioning_implication": "Assess long-term AI dominance strategies considering infrastructure and talent, monitoring xAI's space integration and Grok's real-time capabilities.",
+              "time_horizon": "long",
+              "shelf_life": "Medium",
+              "thumbnail": "https://i.ytimg.com/vi/rzJC-ngZ6CY/hqdefault.jpg",
+              "video_url": "https://www.youtube.com/watch?v=rzJC-ngZ6CY",
+              "cluster_id": 1,
+              "category": "Artificial Intelligence"
+            }
+          ]
+        },
+        {
+          "id": 0,
+          "name": "AI Agents Accelerating Task Automation",
+          "description": "The emergence of free AI agents within browser extensions, exemplified by Anthropic's Claude, signals a rapid shift towards automated online task completion, potentially boosting user productivity.",
+          "bias": "constructive",
+          "regime": "Emerging",
+          "size": 1,
+          "strength": 1.0,
+          "coherence": 1.0,
+          "channels": [
+            "AI News & Strategy Daily | Nate B Jones"
+          ],
+          "avg_signal": 9.0,
+          "briefs": [
+            {
+              "episode_title": "Anthropic Didn't Build a New Browser. They Did Something Smarter.",
+              "channel": "AI News & Strategy Daily | Nate B Jones",
+              "duration_minutes": 25,
+              "podcast_date": "2026-03-18",
+              "processing_date": "2026-03-18",
+              "one_line_summary": "Anthropic's Claude extension for Chrome enables free agents within the browser to perform repeatable online tasks, saving users significant time.",
+              "core_claims": [
+                "The Claude extension can automate tasks like checking multiple websites for weekly reports, negotiating discounts with customer service, and managing meeting schedules.",
+                "Users can record workflows in the Claude extension and schedule them to run daily, weekly, monthly, or annually without manual intervention.",
+                "Claude in Chrome has built-in knowledge of how to navigate popular platforms like Gmail, allowing it to manage inboxes, identify marketing emails, and pull up important messages without step-by-step instructions.",
+                "Users can create logical folder structures for Google Drive, sort documents, and flag duplicates using Claude.",
+                "Claude can pull data from multiple browser tabs in a group and synthesize the content to produce structured outputs, such as compiling recipes or competitor pricing.",
+                "Claude can test websites on a schedule and look for bugs, offering a basic and more sophisticated debugging system."
+              ],
+              "signal_strength": 9,
+              "themes": [
+                "automation",
+                "browser extension",
+                "ai agents",
+                "productivity",
+                "task management",
+                "llm"
+              ],
+              "positioning_implication": "Prioritize integrating AI-driven browser extensions for process automation to enhance user efficiency. Understand the limitations around data-heavy tasks and implement task decomposition strategies.",
+              "time_horizon": "short",
+              "shelf_life": "Medium",
+              "thumbnail": "https://i.ytimg.com/vi/QT7W_uHjqWE/hqdefault.jpg",
+              "video_url": "https://www.youtube.com/watch?v=QT7W_uHjqWE",
+              "cluster_id": 0,
+              "category": "Artificial Intelligence"
+            }
+          ]
+        }
+      ],
+      "should_generate": false
+    },
+    "Politics": {
+      "name": "Politics",
+      "meta_summary": "",
+      "convergence_score": 0.0,
+      "percentile": 0.0,
+      "regime_state": "Neutral",
+      "clusters": [
+        {
+          "id": 0,
+          "name": "Iran Tensions Intensifying; Alliances Fragmenting",
+          "description": "Escalating Iran tensions and strained alliances signal a weakening of the administration's foreign policy position.",
+          "bias": "defensive",
+          "regime": "Emerging",
+          "size": 1,
+          "strength": 0.0,
+          "coherence": 1.0,
+          "channels": [
+            "Raging Moderates"
+          ],
+          "avg_signal": 8.0,
+          "briefs": [
+            {
+              "episode_title": "Trump MELTS DOWN as Allies REJECT His Iran Demands",
+              "channel": "Raging Moderates",
+              "duration_minutes": 55,
+              "podcast_date": "2026-03-18",
+              "processing_date": "2026-03-18",
+              "one_line_summary": "The administration faces increasing pressure on multiple fronts as tensions with Iran escalate and alliances strain due to conflicting promises and domestic issues.",
+              "core_claims": [
+                "Bankruptcy among farmers rose 46% in 2025, projected to increase in 2026 due to increased diesel prices and lack of available workers.",
+                "92% of Americans are concerned about the cost of food and consumer goods; consumer prices have increased 24% since March of 2021.",
+                "A January survey found that 53% chance gas prices will exceed 4.00 this week."
+              ],
+              "signal_strength": 8,
+              "themes": [
+                "iran",
+                "immigration",
+                "economy",
+                "alliances",
+                "domestic policy",
+                "consumer prices"
+              ],
+              "positioning_implication": "Assess vulnerabilities tied to economic pressure points and alliance cohesion, as shifting public perceptions challenge established narratives.",
+              "time_horizon": "short",
+              "shelf_life": "Medium",
+              "thumbnail": "https://i.ytimg.com/vi/aPwa5G0J9HY/hqdefault.jpg",
+              "video_url": "https://www.youtube.com/watch?v=aPwa5G0J9HY",
+              "cluster_id": 0,
+              "category": "Politics"
+            }
+          ]
+        }
+      ],
+      "should_generate": false
+    },
+    "Precious Metals": {
+      "name": "Precious Metals",
+      "meta_summary": "",
+      "convergence_score": 0.0,
+      "percentile": 0.0,
+      "regime_state": "Neutral",
+      "clusters": [
+        {
+          "id": 0,
+          "name": "Gold: Geopolitics-Liquidity Tension Stalling Price Action",
+          "description": "Gold's price consolidation reflects a balance between geopolitical risk premiums and dollar liquidity dynamics, suggesting limited near-term upside.",
+          "bias": "neutral",
+          "regime": "Accelerating",
+          "size": 2,
+          "strength": 1.588294066044693,
+          "coherence": 0.7941470330223465,
+          "channels": [
+            "Commodity Culture",
+            "CPM Group"
+          ],
+          "avg_signal": 7.5,
+          "briefs": [
+            {
+              "episode_title": "Why Gold And Silver Prices Are Falling Despite Iran Conflict Escalating",
+              "channel": "CPM Group",
+              "duration_minutes": 22,
+              "podcast_date": "2026-03-18",
+              "processing_date": "2026-03-18",
+              "one_line_summary": "Gold and silver prices are consolidating despite geopolitical tensions, reflecting pre-emptive market pricing and seasonal demand shifts.",
+              "core_claims": [
+                "Gold prices are consolidating around $5,000 after a record high of $5,500+ in January.",
+                "Political and economic environments still support higher gold prices later, but a temporary dip to $4,850 is possible.",
+                "Reduced investment and fabrication demand contribute to potential short-term price weakness in gold and silver markets.",
+                "Correlation between quarterly oil and gold prices is low (21% nominal, 40% inflation-adjusted), so their movements aren't always synchronized.",
+                "Higher oil prices, though not directly correlated, can positively affect gold by increasing cash flow to oil-exporting Islamic countries, and acting as an inflator.",
+                "Gold price development is not always dependent on negative inflation-adjusted interest rates.",
+                "Silver prices are also consolidating around $80.66, showing short-term technical weakness.",
+                "Longer-term, silver prices are expected to increase due to economic and political factors."
+              ],
+              "signal_strength": 7,
+              "themes": [
+                "precious metals",
+                "gold",
+                "silver",
+                "market consolidation",
+                "investment demand",
+                "geopolitics",
+                "oil prices",
+                "interest rates"
+              ],
+              "positioning_implication": "Maintain awareness of potential short-term price volatility in precious metals, while recognizing underlying support from broader economic and geopolitical factors. Evaluate buying opportunities during price dips.",
+              "time_horizon": "medium",
+              "shelf_life": "Medium",
+              "thumbnail": "https://i.ytimg.com/vi/Jl8g4HfCWzA/hqdefault.jpg",
+              "video_url": "https://www.youtube.com/watch?v=Jl8g4HfCWzA",
+              "cluster_id": 0,
+              "category": "Precious Metals"
+            },
+            {
+              "episode_title": "Why Isn't GOLD Spiking as Iran War Rages? 'Be Careful What You Wish For': Keith Weiner",
+              "channel": "Commodity Culture",
+              "duration_minutes": 56,
+              "podcast_date": "2026-03-18",
+              "processing_date": "2024-05-02",
+              "one_line_summary": "Despite geopolitical tensions, dollar liquidity scramble and proactive Fed policy impact gold's behavior, revealing complex market dynamics beyond simple safety plays.",
+              "core_claims": [
+                "Gold's price stability amid conflict results from a 'scramble for dollar liquidity,' driven by debt servicing needs, not perceived safety.",
+                "Gold's bid-offer spread remains stable during crises, unlike other assets, making it attractive yet a first-to-sell asset during liquidity crunches.",
+                "Desperation for dollar liquidity creates an acute phase, followed by a hangover, influencing gold's attractiveness as a buy versus sell.",
+                "The Fed's hyper-proactive approach aims to prevent a 2008-style event, expecting gold to sell off less during future crises than in 2008.",
+                "US likely to win current conflict but will incur more debt, potentially devaluing the dollar against gold long-term.",
+                "Silver supply and demand remain tight, with bullish pressures expected to keep prices high, though potentially retracing to $60."
+              ],
+              "signal_strength": 8,
+              "themes": [
+                "gold",
+                "silver",
+                "dollar liquidity",
+                "fed policy",
+                "geopolitics",
+                "market dynamics"
+              ],
+              "positioning_implication": "Assess portfolio liquidity needs, recognizing dollar strength can counterintuitive.",
+              "time_horizon": "medium",
+              "shelf_life": "Medium",
+              "thumbnail": "https://i.ytimg.com/vi/tNcAgwmnI5M/hqdefault.jpg",
+              "video_url": "https://www.youtube.com/watch?v=tNcAgwmnI5M",
+              "cluster_id": 0,
+              "category": "Precious Metals"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "name": "Dollar Dominance: Eroding via Gold Accumulation",
+          "description": "The narrative suggests a deliberate U.S. strategy to bolster its strategic position via gold, potentially undermining the dollar's global standing.",
+          "bias": "counter-consensus",
+          "regime": "Emerging",
+          "size": 1,
+          "strength": 1.0,
+          "coherence": 1.0,
+          "channels": [
+            "Miles Franklin Media"
+          ],
+          "avg_signal": 8.0,
+          "briefs": [
+            {
+              "episode_title": "This Strategic U.S. Gold Deal Is Flying Under the Radar | Andy Schectman & Michelle Makori",
+              "channel": "Miles Franklin Media",
+              "duration_minutes": 59,
+              "podcast_date": "2026-03-18",
+              "processing_date": "2026-03-18",
+              "one_line_summary": "The U.S. is strategically accumulating gold through indirect means, potentially impacting global markets and challenging the dollar's dominance.",
+              "core_claims": [
+                "The U.S. is brokering deals to bring Venezuelan gold into U.S. markets.",
+                "Gold has become the single largest U.S. export for three out of the last four months.",
+                "The critical minerals list added by the Trump administration includes silver, and gold is being accumulated by central banks at record levels.",
+                "There's speculation the gold leaving the U.S. is heading to Switzerland for refining, masking U.S. gold accumulation.",
+                "The European Union and China classify silver as critical, and China will require gold for things like rare earths."
+              ],
+              "signal_strength": 8,
+              "themes": [
+                "gold market",
+                "strategic resources",
+                "de-dollarization",
+                "supply chain control",
+                "geopolitics",
+                "economic policy"
+              ],
+              "positioning_implication": "Monitor global gold flows and supply chain shifts; anticipate potential currency revaluations and shifts in international economic power dynamics.",
+              "time_horizon": "medium",
+              "shelf_life": "Medium",
+              "thumbnail": "https://i.ytimg.com/vi/Ydu15sijyug/hqdefault.jpg",
+              "video_url": "https://www.youtube.com/watch?v=Ydu15sijyug",
+              "cluster_id": 3,
+              "category": "Precious Metals"
+            }
+          ]
+        },
+        {
+          "id": 1,
+          "name": "Silver Market Fragility Intensifying Amid Geopolitical Tensions",
+          "description": "Leveraged ETFs exacerbate silver market instability during geopolitical crises, highlighting vulnerabilities amplified by retail investment.",
+          "bias": "defensive",
+          "regime": "Emerging",
+          "size": 1,
+          "strength": 1.0,
+          "coherence": 1.0,
+          "channels": [
+            "Arcadia Economics"
+          ],
+          "avg_signal": 8.0,
+          "briefs": [
+            {
+              "episode_title": "Cause Of Silver's Record 36% One-Day Crash Revealed By BIS",
+              "channel": "Arcadia Economics",
+              "duration_minutes": 31,
+              "podcast_date": "2026-03-18",
+              "processing_date": "2024-02-29",
+              "one_line_summary": "BIS attributes the historic silver sell-off to destabilizing effects of leveraged ETFs during the Iran war amid broader geopolitical tensions and retail investment fervor.",
+              "core_claims": [
+                "The BIS identified destabilizing leveraged ETFs as a primary cause of silver's record 36% one-day crash.",
+                "Precious metals prices tumbled following the launch of the Iran war, with silver falling to $79.49 after reaching $121.",
+                " Margin-triggered liquidations and leverage ETF rebalancing created a self-reinforcing loop of lower prices and further margin calls in the silver market.",
+                "The LME halted electronic trading for over two hours due to issues with its primary matching engine amid commodity price volatility driven by the Iran war.",
+                "Analysts suggest that the failure of the LME to restore electronic trading promptly amid the Iran war is not coincidental.",
+                "The DeAmbasud gold project has a 72% internal rate of return at $2750 gold."
+              ],
+              "signal_strength": 8,
+              "themes": [
+                "silver",
+                "market manipulation",
+                "etfs",
+                "geopolitics",
+                "central banks",
+                "commodities"
+              ],
+              "positioning_implication": "Monitor leveraged ETF activity and geopolitical tensions for potential market volatility; reassess commodities risk exposure given potential supply chain disruptions and price distortions.",
+              "time_horizon": "short",
+              "shelf_life": "Medium",
+              "thumbnail": "https://i.ytimg.com/vi/T5g_RgK6Pio/hqdefault.jpg",
+              "video_url": "https://www.youtube.com/watch?v=T5g_RgK6Pio",
+              "cluster_id": 1,
+              "category": "Precious Metals"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "name": "Silver Price Floor Eroding",
+          "description": "Silver's price floor faces potential decline, driven by historical patterns and anticipated market responses.",
+          "bias": "defensive",
+          "regime": "Emerging",
+          "size": 1,
+          "strength": 1.0,
+          "coherence": 1.0,
+          "channels": [
+            "Silver Dragons"
+          ],
+          "avg_signal": 7.0,
+          "briefs": [
+            {
+              "episode_title": "DEALER REVEALS EXTREME SILVER PRICE FLOOR (LOWER THAN YOU THINK)",
+              "channel": "Silver Dragons",
+              "duration_minutes": 30,
+              "podcast_date": "2026-03-18",
+              "processing_date": "2026-03-18",
+              "one_line_summary": "A silver dealer anticipates a potential price floor drop for silver, influenced by historical trends and market reactions.",
+              "core_claims": [
+                "One national refiner resumed buying alloyed silver, including sterling, US 90%, 40%, and war nickels, with a weekly purchase limit of 250 ounces.",
+                "The dealer suggests silver could return to prices below $20, mirroring post-2011 trends when silver dropped significantly after hitting nearly $50.",
+                "A price surge could overwhelm refiners, potentially leading to temporary buying halts; however, purchase limits may mitigate this.",
+                "A target silver price between $150 and $300 is viewed as realistic.",
+                "The speaker indicates a six-year deficit in silver production exists, making price changes harder to quickly impact.",
+                "Silver at less than $20 would be eliminated by smart stackers daily."
+              ],
+              "signal_strength": 7,
+              "themes": [
+                "silver price",
+                "market analysis",
+                "precious metals",
+                "investment strategy",
+                "economic forecast",
+                "supply chain"
+              ],
+              "positioning_implication": "Consider hedging strategies against potential downside risk in silver while acknowledging long-term upside potential. Actively monitor market reactions to global events and policy changes.",
+              "time_horizon": "medium",
+              "shelf_life": "Medium",
+              "thumbnail": "https://i.ytimg.com/vi/G_IpRneT7Z0/hqdefault.jpg",
+              "video_url": "https://www.youtube.com/watch?v=G_IpRneT7Z0",
+              "cluster_id": 2,
+              "category": "Precious Metals"
+            }
+          ]
+        }
+      ],
+      "should_generate": false
+    }
+  },
+  "clusters": []
+}
