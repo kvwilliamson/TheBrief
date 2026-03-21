@@ -2304,3 +2304,129 @@
 2026-03-20 06:42:19,787 - INFO - ==================================================
 2026-03-20 06:42:19,787 - INFO - Pipeline Execution Complete
 2026-03-20 06:42:19,787 - INFO - ==================================================
+2026-03-21 06:26:09,101 - INFO - ==================================================
+2026-03-21 06:26:09,102 - INFO - Starting TheBrief Daily Pipeline
+2026-03-21 06:26:09,102 - INFO - ==================================================
+2026-03-21 06:26:09,102 - INFO - 
+--- Phase 1: Discovery ---
+2026-03-21 06:26:09,106 - INFO - Discovering videos published after 2026-03-20T06:26:09.106027+00:00 (24h lookback)
+2026-03-21 06:26:09,432 - INFO - Found 1 new potential videos on Wall Street Bullion .
+2026-03-21 06:26:09,537 - INFO - Found 1 new potential videos on Kitco NEWS.
+2026-03-21 06:26:09,759 - INFO - Found 1 new potential videos on AI News & Strategy Daily | Nate B Jones.
+2026-03-21 06:26:09,797 - INFO - Found 2 new potential videos on David Lin .
+2026-03-21 06:26:10,061 - INFO - Found 2 new potential videos on TheTechnicalTraders.
+2026-03-21 06:26:10,219 - INFO - Found 3 new potential videos on Verified Investing.
+2026-03-21 06:26:10,333 - INFO - Found 1 new potential videos on Commodity Culture.
+2026-03-21 06:26:10,391 - INFO - Found 1 new potential videos on Matthew Berman.
+2026-03-21 06:26:10,405 - INFO - Found 1 new potential videos on CPM Group.
+2026-03-21 06:26:10,442 - INFO - Found 1 new potential videos on Wes Roth.
+2026-03-21 06:26:10,475 - INFO - Found 4 new potential videos on The Prof G Pod – Scott Galloway.
+2026-03-21 06:26:10,635 - INFO - Found 15 total long-form videos across all channels.
+2026-03-21 06:26:10,643 - INFO - Discovery complete. Added 15 new videos to queue.
+2026-03-21 06:26:10,643 - INFO - 
+--- Phase 2: Extraction ---
+2026-03-21 06:26:10,899 - INFO - yt-dlp version: 2026.03.17
+2026-03-21 06:26:11,260 - INFO - POT-related packages: bgutil-ytdlp-pot-provider 1.3.1
+2026-03-21 06:26:11,284 - INFO - bgutil HTTP server not available on port 4416 (will rely on cookies)
+2026-03-21 06:26:11,284 - INFO - Extracting audio for 'Everything Is Getting Hit': Next Is 2008, 9/11 For Stocks, Oil, Bitcoin | Mike McGlone (P9TqgoTrKUw)...
+2026-03-21 06:26:35,032 - INFO - Successfully extracted: audio/P9TqgoTrKUw.mp3
+2026-03-21 06:26:45,534 - INFO - Extracting audio for MARKET TREND CHANGE! 🚨 SPY Cracks 200 SMA as Geopolitics & Yields Explode (V_XZF1QseLE)...
+2026-03-21 06:27:02,786 - INFO - Successfully extracted: audio/V_XZF1QseLE.mp3
+2026-03-21 06:27:14,730 - INFO - Extracting audio for There Is No Silver Shortage: What Investors Keep Getting It Wrong (bQre2cDlizU)...
+2026-03-21 06:27:27,915 - INFO - Successfully extracted: audio/bQre2cDlizU.mp3
+2026-03-21 06:27:34,230 - INFO - Extracting audio for “The Scariest Time Of My Life” | Gerald Celente’s Warning for the Global Reset (QdYpKXeIeAM)...
+2026-03-21 06:28:00,521 - INFO - Successfully extracted: audio/QdYpKXeIeAM.mp3
+2026-03-21 06:28:08,940 - INFO - Extracting audio for The Future Live | 03.20.26 | Guests from MOTS Podcast, Microsoft, Eliza Labs, and Sentient! (lnQ1K-fr1Ws)...
+2026-03-21 06:30:51,776 - INFO - Successfully extracted: audio/lnQ1K-fr1Ws.mp3
+2026-03-21 06:30:57,612 - INFO - Extracting audio for THIS IS BAD: Central Bank Collapse INCOMING! Silver Price Chaos Update (fzIP8tyjvWo)...
+2026-03-21 06:31:10,121 - INFO - Successfully extracted: audio/fzIP8tyjvWo.mp3
+2026-03-21 06:31:20,786 - INFO - Extracting audio for Will Gold Price Collapse Continue? Trader Called Top, Here’s The Bottom | Gary Wagner (b5SVbHHyCSo)...
+2026-03-21 06:31:39,666 - INFO - Successfully extracted: audio/b5SVbHHyCSo.mp3
+2026-03-21 06:31:50,728 - INFO - Extracting audio for How AI Is Destroying the Advertising Industry | Office Hours (o601cXYmRak)...
+2026-03-21 06:32:06,277 - INFO - Successfully extracted: audio/o601cXYmRak.mp3
+2026-03-21 06:32:15,898 - INFO - Extracting audio for 'No Buffer' To Stop ENERGY From Soaring as Hormuz Choked and War Escalates (8JywLo-9F34)...
+2026-03-21 06:32:32,739 - INFO - Successfully extracted: audio/8JywLo-9F34.mp3
+2026-03-21 06:32:38,978 - INFO - Extracting audio for Whats Next for Gold, Silver, Miners, Bitcoin, and Indices (1s7Bg6KFOcM)...
+2026-03-21 06:32:53,787 - INFO - Successfully extracted: audio/1s7Bg6KFOcM.mp3
+2026-03-21 06:33:01,771 - INFO - Extracting audio for Anthropic Just Gave Your AI Agent the One Thing OpenClaw Has. Without the Risk. (vqnAOV8NMZ4)...
+2026-03-21 06:33:22,433 - INFO - Successfully extracted: audio/vqnAOV8NMZ4.mp3
+2026-03-21 06:33:27,878 - INFO - Extracting audio for THE OIL CRASH IS COMING: Why I Am Flipping Bullish on the S&P 500 📈 (Lb2TBooD274)...
+2026-03-21 06:33:42,330 - INFO - Successfully extracted: audio/Lb2TBooD274.mp3
+2026-03-21 06:33:52,141 - INFO - Extracting audio for Key Stocks to Trade & Avoid Today - Triple Witching Volatility Warning (I_AUKuzi2Ro)...
+2026-03-21 06:34:02,637 - INFO - Successfully extracted: audio/I_AUKuzi2Ro.mp3
+2026-03-21 06:34:10,627 - INFO - Extracting audio for The 35% Recession Warning Markets Are Ignoring | Prof G Markets (FEBBCzHNQWQ)...
+2026-03-21 06:34:43,612 - INFO - Successfully extracted: audio/FEBBCzHNQWQ.mp3
+2026-03-21 06:34:50,853 - INFO - Extracting audio for no one saw what APPLE just did... (gVbD5cQ1GC8)...
+2026-03-21 06:35:04,336 - INFO - Successfully extracted: audio/gVbD5cQ1GC8.mp3
+2026-03-21 06:35:04,337 - INFO - Extraction complete. 15/15 audio files ready. (Time: 533.1s)
+2026-03-21 06:35:04,337 - INFO - 
+--- Phase 3: Summarization (Direct Audio) ---
+2026-03-21 06:35:05,890 - INFO - Generating Brief for There Is No Silver Shortage: What Investors Keep Getting It Wrong (bQre2cDlizU)...
+2026-03-21 06:35:05,892 - INFO - AFC is enabled with max remote calls: 10.
+2026-03-21 06:35:06,151 - INFO - Generating Brief for MARKET TREND CHANGE! 🚨 SPY Cracks 200 SMA as Geopolitics & Yields Explode (V_XZF1QseLE)...
+2026-03-21 06:35:06,152 - INFO - AFC is enabled with max remote calls: 10.
+2026-03-21 06:35:06,358 - INFO - Generating Brief for 'Everything Is Getting Hit': Next Is 2008, 9/11 For Stocks, Oil, Bitcoin | Mike McGlone (P9TqgoTrKUw)...
+2026-03-21 06:35:06,359 - INFO - AFC is enabled with max remote calls: 10.
+2026-03-21 06:35:13,215 - INFO - ✅ Brief successfully generated for There Is No Silver Shortage: What Investors Keep Getting It Wrong
+2026-03-21 06:35:15,165 - INFO - Generating Brief for “The Scariest Time Of My Life” | Gerald Celente’s Warning for the Global Reset (QdYpKXeIeAM)...
+2026-03-21 06:35:15,166 - INFO - AFC is enabled with max remote calls: 10.
+2026-03-21 06:35:15,669 - INFO - ✅ Brief successfully generated for MARKET TREND CHANGE! 🚨 SPY Cracks 200 SMA as Geopolitics & Yields Explode
+2026-03-21 06:35:18,166 - INFO - Generating Brief for The Future Live | 03.20.26 | Guests from MOTS Podcast, Microsoft, Eliza Labs, and Sentient! (lnQ1K-fr1Ws)...
+2026-03-21 06:35:18,167 - INFO - AFC is enabled with max remote calls: 10.
+2026-03-21 06:35:18,327 - ERROR - Schema parsing error for 'Everything Is Getting Hit': Next Is 2008, 9/11 For Stocks, Oil, Bitcoin | Mike McGlone: Expecting value: line 1 column 738 (char 737)
+2026-03-21 06:35:20,320 - INFO - Generating Brief for THIS IS BAD: Central Bank Collapse INCOMING! Silver Price Chaos Update (fzIP8tyjvWo)...
+2026-03-21 06:35:20,321 - INFO - AFC is enabled with max remote calls: 10.
+2026-03-21 06:35:29,531 - INFO - ✅ Brief successfully generated for THIS IS BAD: Central Bank Collapse INCOMING! Silver Price Chaos Update
+2026-03-21 06:35:31,033 - INFO - Generating Brief for Will Gold Price Collapse Continue? Trader Called Top, Here’s The Bottom | Gary Wagner (b5SVbHHyCSo)...
+2026-03-21 06:35:31,034 - INFO - AFC is enabled with max remote calls: 10.
+2026-03-21 06:35:31,554 - INFO - ✅ Brief successfully generated for “The Scariest Time Of My Life” | Gerald Celente’s Warning for the Global Reset
+2026-03-21 06:35:32,670 - INFO - Generating Brief for How AI Is Destroying the Advertising Industry | Office Hours (o601cXYmRak)...
+2026-03-21 06:35:32,672 - INFO - AFC is enabled with max remote calls: 10.
+2026-03-21 06:35:40,713 - INFO - ✅ Brief successfully generated for How AI Is Destroying the Advertising Industry | Office Hours
+2026-03-21 06:35:42,142 - INFO - Generating Brief for 'No Buffer' To Stop ENERGY From Soaring as Hormuz Choked and War Escalates (8JywLo-9F34)...
+2026-03-21 06:35:42,143 - INFO - AFC is enabled with max remote calls: 10.
+2026-03-21 06:35:43,337 - ERROR - Schema parsing error for Will Gold Price Collapse Continue? Trader Called Top, Here’s The Bottom | Gary Wagner: Expecting value: line 1 column 1116 (char 1115)
+2026-03-21 06:35:45,151 - INFO - Generating Brief for Whats Next for Gold, Silver, Miners, Bitcoin, and Indices (1s7Bg6KFOcM)...
+2026-03-21 06:35:45,152 - INFO - AFC is enabled with max remote calls: 10.
+2026-03-21 06:35:50,849 - INFO - ✅ Brief successfully generated for 'No Buffer' To Stop ENERGY From Soaring as Hormuz Choked and War Escalates
+2026-03-21 06:35:52,445 - ERROR - Schema parsing error for Whats Next for Gold, Silver, Miners, Bitcoin, and Indices: Expecting value: line 1 column 1172 (char 1171)
+2026-03-21 06:35:52,552 - INFO - Generating Brief for Anthropic Just Gave Your AI Agent the One Thing OpenClaw Has. Without the Risk. (vqnAOV8NMZ4)...
+2026-03-21 06:35:52,553 - INFO - AFC is enabled with max remote calls: 10.
+2026-03-21 06:35:54,113 - INFO - Generating Brief for THE OIL CRASH IS COMING: Why I Am Flipping Bullish on the S&P 500 📈 (Lb2TBooD274)...
+2026-03-21 06:35:54,114 - INFO - AFC is enabled with max remote calls: 10.
+2026-03-21 06:35:55,850 - INFO - ✅ Brief successfully generated for The Future Live | 03.20.26 | Guests from MOTS Podcast, Microsoft, Eliza Labs, and Sentient!
+2026-03-21 06:35:57,329 - INFO - Generating Brief for Key Stocks to Trade & Avoid Today - Triple Witching Volatility Warning (I_AUKuzi2Ro)...
+2026-03-21 06:35:57,330 - INFO - AFC is enabled with max remote calls: 10.
+2026-03-21 06:36:01,382 - INFO - ✅ Brief successfully generated for THE OIL CRASH IS COMING: Why I Am Flipping Bullish on the S&P 500 📈
+2026-03-21 06:36:03,456 - INFO - Generating Brief for The 35% Recession Warning Markets Are Ignoring | Prof G Markets (FEBBCzHNQWQ)...
+2026-03-21 06:36:03,457 - INFO - AFC is enabled with max remote calls: 10.
+2026-03-21 06:36:03,617 - INFO - ✅ Brief successfully generated for Key Stocks to Trade & Avoid Today - Triple Witching Volatility Warning
+2026-03-21 06:36:05,505 - INFO - Generating Brief for no one saw what APPLE just did... (gVbD5cQ1GC8)...
+2026-03-21 06:36:05,506 - INFO - AFC is enabled with max remote calls: 10.
+2026-03-21 06:36:06,267 - INFO - ✅ Brief successfully generated for Anthropic Just Gave Your AI Agent the One Thing OpenClaw Has. Without the Risk.
+2026-03-21 06:36:12,296 - INFO - ✅ Brief successfully generated for no one saw what APPLE just did...
+2026-03-21 06:36:18,168 - INFO - ✅ Brief successfully generated for The 35% Recession Warning Markets Are Ignoring | Prof G Markets
+2026-03-21 06:36:18,169 - INFO - --- Phase 3: Category Synthesis (12 assets across categories) ---
+2026-03-21 06:36:18,170 - INFO - Analyzing 3 categories: Precious Metals, General Financial Investing and Speculation, Artificial Intelligence
+2026-03-21 06:36:18,170 - INFO - Processing Synthesis for sector: Precious Metals (3 assets)...
+2026-03-21 06:36:18,197 - INFO - AFC is enabled with max remote calls: 10.
+2026-03-21 06:36:19,266 - INFO - AFC is enabled with max remote calls: 10.
+2026-03-21 06:36:20,196 - INFO - ✅ Synthesis complete for Precious Metals
+2026-03-21 06:36:20,196 - INFO - Processing Synthesis for sector: General Financial Investing and Speculation (6 assets)...
+2026-03-21 06:36:20,203 - INFO - AFC is enabled with max remote calls: 10.
+2026-03-21 06:36:21,146 - INFO - AFC is enabled with max remote calls: 10.
+2026-03-21 06:36:22,134 - INFO - AFC is enabled with max remote calls: 10.
+2026-03-21 06:36:23,009 - INFO - AFC is enabled with max remote calls: 10.
+2026-03-21 06:36:23,902 - INFO - ✅ Synthesis complete for General Financial Investing and Speculation
+2026-03-21 06:36:23,902 - INFO - Processing Synthesis for sector: Artificial Intelligence (3 assets)...
+2026-03-21 06:36:23,907 - INFO - AFC is enabled with max remote calls: 10.
+2026-03-21 06:36:24,829 - INFO - AFC is enabled with max remote calls: 10.
+2026-03-21 06:36:25,717 - INFO - AFC is enabled with max remote calls: 10.
+2026-03-21 06:36:26,697 - INFO - ✅ Synthesis complete for Artificial Intelligence
+2026-03-21 06:36:26,715 - INFO - Summarization complete. 12 briefs written to briefs/2026-03-21.md (Time: 82.3s)
+2026-03-21 06:36:29,043 - INFO - Email digest sent successfully to kwilliamson.mail@gmail.com.
+2026-03-21 06:36:29,701 - INFO - Email digest sent successfully to kochava72@gmail.com.
+2026-03-21 06:36:29,714 - INFO - Queue cleared.
+2026-03-21 06:36:29,720 - INFO - ==================================================
+2026-03-21 06:36:29,720 - INFO - Pipeline Execution Complete
+2026-03-21 06:36:29,720 - INFO - ==================================================
