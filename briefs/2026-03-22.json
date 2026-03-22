@@ -1,0 +1,518 @@
+{
+  "date": "2026-03-22",
+  "briefs": [
+    {
+      "episode_title": "This is Not Good \u2026 Silver Prices To Crash to $20?! LISTEN CLOSE",
+      "channel": "Wall Street Bullion",
+      "duration_minutes": 34,
+      "podcast_date": "2026-03-22",
+      "processing_date": "2024-03-22",
+      "one_line_summary": "Geopolitical instability and energy crises may induce deflation, with gold volatility signaling a potential stock market correction and a possible long-term peak in gold and silver prices.",
+      "core_claims": [
+        "Gold's volatility is higher than the S&P 500's and suggests it has transitioned from a store of value to a speculative risk asset.",
+        "The closure of the Straits of Hormuz by Iran is expected to trigger a relief rally in equities and a collapse in crude oil and energy prices.",
+        "The front-month WTI crude oil contract is expected to be closer to $50 by November.",
+        "180-day volatility on the S&P 500 and NASDAQ remains near 10-year lows despite market instability, indicating potential for further corrections.",
+        "Mid-term elections may influence lowered energy prices.",
+        "Expect to see negative GDP by the end of this year."
+      ],
+      "signal_strength": 7,
+      "themes": [
+        "commodities",
+        "market volatility",
+        "geopolitics",
+        "economic recession",
+        "energy crisis",
+        "deflation"
+      ],
+      "positioning_implication": "Consider a short-term tactical trading approach amidst anticipated volatility and potential market corrections. Prioritize risk-off strategies and stay underweight in risk assets in the medium term.",
+      "time_horizon": "medium",
+      "shelf_life": "Medium",
+      "thumbnail": "https://i.ytimg.com/vi/WWipQAGIr5A/hqdefault.jpg",
+      "video_url": "https://www.youtube.com/watch?v=WWipQAGIr5A",
+      "cluster_id": 1,
+      "category": "Precious Metals"
+    },
+    {
+      "episode_title": "Claudia Sahm: How the Jobs Report, CPI Inflation, and Fed Policy Are Misunderstood",
+      "channel": "Verified Investing",
+      "duration_minutes": 51,
+      "podcast_date": "2026-03-22",
+      "processing_date": "2026-03-22",
+      "one_line_summary": "The conversation navigates nuances in economic policy, labor market dynamics, and the reliability of economic indicators.",
+      "core_claims": [
+        "The Sahm rule, a recession indicator, has been accurate since 1959.",
+        "Economists play a crucial role in preventing bad policies.",
+        "Even a modest increase in the unemployment rate typically happens during a recession.",
+        "The current US economy exhibits a 'jobless expansion,' with GDP growing without corresponding job creation.",
+        "The US labor market is not very dynamic, with a low hiring rate making it vulnerable to a rapid rise in unemployment if layoffs occur.",
+        "Fiscal policy can be more targeted than monetary policy, making it a powerful tool in a crisis."
+      ],
+      "signal_strength": 7,
+      "themes": [
+        "economic policy",
+        "recession indicators",
+        "labor market dynamics",
+        "federal reserve",
+        "cpi",
+        "fiscal policy"
+      ],
+      "positioning_implication": "Prioritize a diversified approach to economic analysis, acknowledging the limitations of single indicators and the complexity of the economic landscape.",
+      "time_horizon": "medium",
+      "shelf_life": "Medium",
+      "thumbnail": "https://i.ytimg.com/vi/Zfx6JfiYEso/hqdefault.jpg",
+      "video_url": "https://www.youtube.com/watch?v=Zfx6JfiYEso",
+      "cluster_id": 1,
+      "category": "General Financial Investing and Speculation"
+    },
+    {
+      "episode_title": "Gold Is Becoming Money Again in America | Jason Cozens & Andy Schectman",
+      "channel": "Miles Franklin Media",
+      "duration_minutes": 63,
+      "podcast_date": "2026-03-22",
+      "processing_date": "2024-03-22",
+      "one_line_summary": "US states are legislating the recognition and use of gold and silver as currency, facilitated by technological advancements.",
+      "core_claims": [
+        "US debt, nearing $39 trillion, is unsustainable and a matter of national security.",
+        "Nations are targeting the US currency, either as strategy or reaction, contributing to de-dollarization.",
+        "Central banks are buying more gold than US Treasuries, and China is selling US gold treasuries.",
+        "States are enabling the use of gold and silver as money in transactions via legislation.",
+        "Florida aims to launch electronic transactional gold by July of the current year."
+      ],
+      "signal_strength": 8,
+      "themes": [
+        "monetary policy",
+        "gold",
+        "silver",
+        "us economy",
+        "legislation",
+        "digital currency",
+        "de-dollarization"
+      ],
+      "positioning_implication": "Consider strategies that benefit from decentralized finance and the re-emergence of precious metals as transactional currencies. Adapt to potential shifts in the global monetary landscape.",
+      "time_horizon": "medium",
+      "shelf_life": "Medium",
+      "thumbnail": "https://i.ytimg.com/vi/R0LdswC1k-g/hqdefault.jpg",
+      "video_url": "https://www.youtube.com/watch?v=R0LdswC1k-g",
+      "cluster_id": 0,
+      "category": "Precious Metals"
+    },
+    {
+      "episode_title": "Your AI Agent Fails 97.5% of Real Work. The Fix Isn't Coding.",
+      "channel": "AI News & Strategy Daily | Nate B Jones",
+      "duration_minutes": 31,
+      "podcast_date": "2026-03-22",
+      "processing_date": "2026-03-22",
+      "one_line_summary": "AI agent deployment failures stem from human deployment errors, particularly a lack of contextual judgment in evaluations, leading to potential destructive outcomes despite technical competence.",
+      "core_claims": [
+        "AI agents fail in 97.5% of real-world freelance projects because of insufficient contextual understanding, despite expert-level task completion in controlled benchmarks.",
+        "Most companies don't test whether an AI agent's output is safe or appropriate for specific organizational environments and decisions, leading to potentially destructive errors.",
+        "Senior employees are increasingly valuable due to their system-level thinking and ability to provide contextual evaluations that prevent AI agents from causing organizational damage.",
+        "Companies that adopt generative AI see junior employment drop roughly 8% due to the replacement of tasks, but senior employment keeps rising.",
+        "75% of AI models break previously working features during maintenance, indicating a key difference between writing new code and maintaining existing code."
+      ],
+      "signal_strength": 9,
+      "themes": [
+        "ai agents",
+        "failure rates",
+        "contextual understanding",
+        "human judgment",
+        "evaluations",
+        "labor market",
+        "automation risks",
+        "deployment strategy"
+      ],
+      "positioning_implication": "Prioritize investment in human expertise and contextual evaluation frameworks over purely technical AI advancements. Mitigate risks of automation by emphasizing system-level thinking and organizational awareness in AI deployments.",
+      "time_horizon": "medium",
+      "shelf_life": "Medium",
+      "thumbnail": "https://i.ytimg.com/vi/awV2kJzh8zk/hqdefault.jpg",
+      "video_url": "https://www.youtube.com/watch?v=awV2kJzh8zk",
+      "cluster_id": 0,
+      "category": "Artificial Intelligence"
+    },
+    {
+      "episode_title": "Why is Gold CRASHING? (During a War?)",
+      "channel": "Felix & Friends (Goat Academy)",
+      "duration_minutes": 30,
+      "podcast_date": "2026-03-22",
+      "processing_date": "2026-03-22",
+      "one_line_summary": "Gold's recent collapse, its worst since 1983, is driven by factors beyond war, including oil disruptions, algorithmic trading, and leveraged ETFs.",
+      "core_claims": [
+        "Gold suffered its worst weekly collapse since 1983, even as bombs fell in the Middle East.",
+        "Following the money, particularly Wall Street's movements, is crucial for investment success.",
+        "Retail investors poured over $70 billion into gold ETFs, many of which were leveraged.",
+        "Gulf states may be selling gold to fund their governments and defend their currency pegs due to disrupted oil revenue.",
+        "A \"death spiral\" is created by leveraged ETF's rebalancing and triggering margin calls.",
+        "Paper gold is crashing, while physical gold is being bought up by Asian central banks and eastern buyers at a discount."
+      ],
+      "signal_strength": 8,
+      "themes": [
+        "gold",
+        "financial markets",
+        "geopolitics",
+        "investment strategy",
+        "risk management",
+        "etfs"
+      ],
+      "positioning_implication": "Reduce exposure to leveraged gold ETFs. Monitor the dollar index and treasury yields to gauge potential market shifts.",
+      "time_horizon": "medium",
+      "shelf_life": "Medium",
+      "thumbnail": "https://i.ytimg.com/vi/4Qr8EO9AlFw/hqdefault.jpg",
+      "video_url": "https://www.youtube.com/watch?v=4Qr8EO9AlFw",
+      "cluster_id": 2,
+      "category": "General Financial Investing and Speculation"
+    },
+    {
+      "episode_title": "The Market Just Broke Below A Critical Support Level | Lance Roberts",
+      "channel": "Adam Taggart | Thoughtful Money\u00ae",
+      "duration_minutes": 55,
+      "podcast_date": "2026-03-22",
+      "processing_date": "2026-03-22",
+      "one_line_summary": "The market's break below the 200-day moving average signals potential weakness that may persist.",
+      "core_claims": [
+        "Market broke below 200-day moving average, the first break since last April (214 days).",
+        "Analyst estimates for earnings through the end of the year are being ratcheted up.",
+        "US assets over international assets will be the trade.",
+        "West Texas Intermediate crude futures suggest a return to the $60 range by year's end, anticipating a short-lived event.",
+        "Oil price impacts on international economies are greater due to their relative weakness compared to the US."
+      ],
+      "signal_strength": 7,
+      "themes": [
+        "market analysis",
+        "oil prices",
+        "economic impact",
+        "private credit",
+        "socialism",
+        "technical analysis"
+      ],
+      "positioning_implication": "Reduce risk on rallies; rebalance portfolio, trimming areas under pressure; and raise cash to protect against possible further market declines.",
+      "time_horizon": "medium",
+      "shelf_life": "Medium",
+      "thumbnail": "https://i.ytimg.com/vi/4gVs2x_q4vw/hqdefault.jpg",
+      "video_url": "https://www.youtube.com/watch?v=4gVs2x_q4vw",
+      "cluster_id": 0,
+      "category": "General Financial Investing and Speculation"
+    }
+  ],
+  "category_intelligence": {
+    "Precious Metals": {
+      "name": "Precious Metals",
+      "meta_summary": "",
+      "convergence_score": 0.0,
+      "percentile": 0.0,
+      "regime_state": "Neutral",
+      "clusters": [
+        {
+          "id": 1,
+          "name": "Geopolitics Intensifying Deflationary Pressures",
+          "description": "Geopolitical and energy shocks may trigger deflation, amplified by gold volatility foreshadowing stock market correction.",
+          "bias": "defensive",
+          "regime": "Emerging",
+          "size": 1,
+          "strength": 1.0,
+          "coherence": 1.0,
+          "channels": [
+            "Wall Street Bullion"
+          ],
+          "avg_signal": 7.0,
+          "briefs": [
+            {
+              "episode_title": "This is Not Good \u2026 Silver Prices To Crash to $20?! LISTEN CLOSE",
+              "channel": "Wall Street Bullion",
+              "duration_minutes": 34,
+              "podcast_date": "2026-03-22",
+              "processing_date": "2024-03-22",
+              "one_line_summary": "Geopolitical instability and energy crises may induce deflation, with gold volatility signaling a potential stock market correction and a possible long-term peak in gold and silver prices.",
+              "core_claims": [
+                "Gold's volatility is higher than the S&P 500's and suggests it has transitioned from a store of value to a speculative risk asset.",
+                "The closure of the Straits of Hormuz by Iran is expected to trigger a relief rally in equities and a collapse in crude oil and energy prices.",
+                "The front-month WTI crude oil contract is expected to be closer to $50 by November.",
+                "180-day volatility on the S&P 500 and NASDAQ remains near 10-year lows despite market instability, indicating potential for further corrections.",
+                "Mid-term elections may influence lowered energy prices.",
+                "Expect to see negative GDP by the end of this year."
+              ],
+              "signal_strength": 7,
+              "themes": [
+                "commodities",
+                "market volatility",
+                "geopolitics",
+                "economic recession",
+                "energy crisis",
+                "deflation"
+              ],
+              "positioning_implication": "Consider a short-term tactical trading approach amidst anticipated volatility and potential market corrections. Prioritize risk-off strategies and stay underweight in risk assets in the medium term.",
+              "time_horizon": "medium",
+              "shelf_life": "Medium",
+              "thumbnail": "https://i.ytimg.com/vi/WWipQAGIr5A/hqdefault.jpg",
+              "video_url": "https://www.youtube.com/watch?v=WWipQAGIr5A",
+              "cluster_id": 1,
+              "category": "Precious Metals"
+            }
+          ]
+        },
+        {
+          "id": 0,
+          "name": "De-Dollarization Accelerating via State-Level Gold Legislation",
+          "description": "US states' legislative actions recognizing gold/silver as currency, enabled by technology, incrementally signal a move away from dollar dominance.",
+          "bias": "counter-consensus",
+          "regime": "Emerging",
+          "size": 1,
+          "strength": 1.0,
+          "coherence": 1.0,
+          "channels": [
+            "Miles Franklin Media"
+          ],
+          "avg_signal": 8.0,
+          "briefs": [
+            {
+              "episode_title": "Gold Is Becoming Money Again in America | Jason Cozens & Andy Schectman",
+              "channel": "Miles Franklin Media",
+              "duration_minutes": 63,
+              "podcast_date": "2026-03-22",
+              "processing_date": "2024-03-22",
+              "one_line_summary": "US states are legislating the recognition and use of gold and silver as currency, facilitated by technological advancements.",
+              "core_claims": [
+                "US debt, nearing $39 trillion, is unsustainable and a matter of national security.",
+                "Nations are targeting the US currency, either as strategy or reaction, contributing to de-dollarization.",
+                "Central banks are buying more gold than US Treasuries, and China is selling US gold treasuries.",
+                "States are enabling the use of gold and silver as money in transactions via legislation.",
+                "Florida aims to launch electronic transactional gold by July of the current year."
+              ],
+              "signal_strength": 8,
+              "themes": [
+                "monetary policy",
+                "gold",
+                "silver",
+                "us economy",
+                "legislation",
+                "digital currency",
+                "de-dollarization"
+              ],
+              "positioning_implication": "Consider strategies that benefit from decentralized finance and the re-emergence of precious metals as transactional currencies. Adapt to potential shifts in the global monetary landscape.",
+              "time_horizon": "medium",
+              "shelf_life": "Medium",
+              "thumbnail": "https://i.ytimg.com/vi/R0LdswC1k-g/hqdefault.jpg",
+              "video_url": "https://www.youtube.com/watch?v=R0LdswC1k-g",
+              "cluster_id": 0,
+              "category": "Precious Metals"
+            }
+          ]
+        }
+      ],
+      "should_generate": false
+    },
+    "General Financial Investing and Speculation": {
+      "name": "General Financial Investing and Speculation",
+      "meta_summary": "",
+      "convergence_score": 0.0,
+      "percentile": 0.0,
+      "regime_state": "Neutral",
+      "clusters": [
+        {
+          "id": 1,
+          "name": "Recession Indicators Intensifying",
+          "description": "Narrative suggests recession indicators are gaining strength, potentially signaling an economic downturn.",
+          "bias": "defensive",
+          "regime": "Emerging",
+          "size": 1,
+          "strength": 1.0,
+          "coherence": 1.0,
+          "channels": [
+            "Verified Investing"
+          ],
+          "avg_signal": 7.0,
+          "briefs": [
+            {
+              "episode_title": "Claudia Sahm: How the Jobs Report, CPI Inflation, and Fed Policy Are Misunderstood",
+              "channel": "Verified Investing",
+              "duration_minutes": 51,
+              "podcast_date": "2026-03-22",
+              "processing_date": "2026-03-22",
+              "one_line_summary": "The conversation navigates nuances in economic policy, labor market dynamics, and the reliability of economic indicators.",
+              "core_claims": [
+                "The Sahm rule, a recession indicator, has been accurate since 1959.",
+                "Economists play a crucial role in preventing bad policies.",
+                "Even a modest increase in the unemployment rate typically happens during a recession.",
+                "The current US economy exhibits a 'jobless expansion,' with GDP growing without corresponding job creation.",
+                "The US labor market is not very dynamic, with a low hiring rate making it vulnerable to a rapid rise in unemployment if layoffs occur.",
+                "Fiscal policy can be more targeted than monetary policy, making it a powerful tool in a crisis."
+              ],
+              "signal_strength": 7,
+              "themes": [
+                "economic policy",
+                "recession indicators",
+                "labor market dynamics",
+                "federal reserve",
+                "cpi",
+                "fiscal policy"
+              ],
+              "positioning_implication": "Prioritize a diversified approach to economic analysis, acknowledging the limitations of single indicators and the complexity of the economic landscape.",
+              "time_horizon": "medium",
+              "shelf_life": "Medium",
+              "thumbnail": "https://i.ytimg.com/vi/Zfx6JfiYEso/hqdefault.jpg",
+              "video_url": "https://www.youtube.com/watch?v=Zfx6JfiYEso",
+              "cluster_id": 1,
+              "category": "General Financial Investing and Speculation"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "name": "Gold Collapse Intensifying Market Risk",
+          "description": "Gold's sharp decline signals amplified market vulnerability due to algorithmic trading and leveraged investment products.",
+          "bias": "defensive",
+          "regime": "Emerging",
+          "size": 1,
+          "strength": 1.0,
+          "coherence": 1.0,
+          "channels": [
+            "Felix & Friends (Goat Academy)"
+          ],
+          "avg_signal": 8.0,
+          "briefs": [
+            {
+              "episode_title": "Why is Gold CRASHING? (During a War?)",
+              "channel": "Felix & Friends (Goat Academy)",
+              "duration_minutes": 30,
+              "podcast_date": "2026-03-22",
+              "processing_date": "2026-03-22",
+              "one_line_summary": "Gold's recent collapse, its worst since 1983, is driven by factors beyond war, including oil disruptions, algorithmic trading, and leveraged ETFs.",
+              "core_claims": [
+                "Gold suffered its worst weekly collapse since 1983, even as bombs fell in the Middle East.",
+                "Following the money, particularly Wall Street's movements, is crucial for investment success.",
+                "Retail investors poured over $70 billion into gold ETFs, many of which were leveraged.",
+                "Gulf states may be selling gold to fund their governments and defend their currency pegs due to disrupted oil revenue.",
+                "A \"death spiral\" is created by leveraged ETF's rebalancing and triggering margin calls.",
+                "Paper gold is crashing, while physical gold is being bought up by Asian central banks and eastern buyers at a discount."
+              ],
+              "signal_strength": 8,
+              "themes": [
+                "gold",
+                "financial markets",
+                "geopolitics",
+                "investment strategy",
+                "risk management",
+                "etfs"
+              ],
+              "positioning_implication": "Reduce exposure to leveraged gold ETFs. Monitor the dollar index and treasury yields to gauge potential market shifts.",
+              "time_horizon": "medium",
+              "shelf_life": "Medium",
+              "thumbnail": "https://i.ytimg.com/vi/4Qr8EO9AlFw/hqdefault.jpg",
+              "video_url": "https://www.youtube.com/watch?v=4Qr8EO9AlFw",
+              "cluster_id": 2,
+              "category": "General Financial Investing and Speculation"
+            }
+          ]
+        },
+        {
+          "id": 0,
+          "name": "Market Weakness Intensifying Below 200-Day Average",
+          "description": "The breach of the 200-day moving average suggests increasing downside risk for the market.",
+          "bias": "defensive",
+          "regime": "Emerging",
+          "size": 1,
+          "strength": 1.0,
+          "coherence": 1.0,
+          "channels": [
+            "Adam Taggart | Thoughtful Money\u00ae"
+          ],
+          "avg_signal": 7.0,
+          "briefs": [
+            {
+              "episode_title": "The Market Just Broke Below A Critical Support Level | Lance Roberts",
+              "channel": "Adam Taggart | Thoughtful Money\u00ae",
+              "duration_minutes": 55,
+              "podcast_date": "2026-03-22",
+              "processing_date": "2026-03-22",
+              "one_line_summary": "The market's break below the 200-day moving average signals potential weakness that may persist.",
+              "core_claims": [
+                "Market broke below 200-day moving average, the first break since last April (214 days).",
+                "Analyst estimates for earnings through the end of the year are being ratcheted up.",
+                "US assets over international assets will be the trade.",
+                "West Texas Intermediate crude futures suggest a return to the $60 range by year's end, anticipating a short-lived event.",
+                "Oil price impacts on international economies are greater due to their relative weakness compared to the US."
+              ],
+              "signal_strength": 7,
+              "themes": [
+                "market analysis",
+                "oil prices",
+                "economic impact",
+                "private credit",
+                "socialism",
+                "technical analysis"
+              ],
+              "positioning_implication": "Reduce risk on rallies; rebalance portfolio, trimming areas under pressure; and raise cash to protect against possible further market declines.",
+              "time_horizon": "medium",
+              "shelf_life": "Medium",
+              "thumbnail": "https://i.ytimg.com/vi/4gVs2x_q4vw/hqdefault.jpg",
+              "video_url": "https://www.youtube.com/watch?v=4gVs2x_q4vw",
+              "cluster_id": 0,
+              "category": "General Financial Investing and Speculation"
+            }
+          ]
+        }
+      ],
+      "should_generate": false
+    },
+    "Artificial Intelligence": {
+      "name": "Artificial Intelligence",
+      "meta_summary": "",
+      "convergence_score": 0.0,
+      "percentile": 0.0,
+      "regime_state": "Neutral",
+      "clusters": [
+        {
+          "id": 0,
+          "name": "Human Judgment Intensifying AI Deployment Risks",
+          "description": "Highlights that AI deployment failures are increasingly attributed to flawed human judgment during evaluation, potentially leading to destructive outcomes.",
+          "bias": "defensive",
+          "regime": "Emerging",
+          "size": 1,
+          "strength": 0.0,
+          "coherence": 1.0,
+          "channels": [
+            "AI News & Strategy Daily | Nate B Jones"
+          ],
+          "avg_signal": 9.0,
+          "briefs": [
+            {
+              "episode_title": "Your AI Agent Fails 97.5% of Real Work. The Fix Isn't Coding.",
+              "channel": "AI News & Strategy Daily | Nate B Jones",
+              "duration_minutes": 31,
+              "podcast_date": "2026-03-22",
+              "processing_date": "2026-03-22",
+              "one_line_summary": "AI agent deployment failures stem from human deployment errors, particularly a lack of contextual judgment in evaluations, leading to potential destructive outcomes despite technical competence.",
+              "core_claims": [
+                "AI agents fail in 97.5% of real-world freelance projects because of insufficient contextual understanding, despite expert-level task completion in controlled benchmarks.",
+                "Most companies don't test whether an AI agent's output is safe or appropriate for specific organizational environments and decisions, leading to potentially destructive errors.",
+                "Senior employees are increasingly valuable due to their system-level thinking and ability to provide contextual evaluations that prevent AI agents from causing organizational damage.",
+                "Companies that adopt generative AI see junior employment drop roughly 8% due to the replacement of tasks, but senior employment keeps rising.",
+                "75% of AI models break previously working features during maintenance, indicating a key difference between writing new code and maintaining existing code."
+              ],
+              "signal_strength": 9,
+              "themes": [
+                "ai agents",
+                "failure rates",
+                "contextual understanding",
+                "human judgment",
+                "evaluations",
+                "labor market",
+                "automation risks",
+                "deployment strategy"
+              ],
+              "positioning_implication": "Prioritize investment in human expertise and contextual evaluation frameworks over purely technical AI advancements. Mitigate risks of automation by emphasizing system-level thinking and organizational awareness in AI deployments.",
+              "time_horizon": "medium",
+              "shelf_life": "Medium",
+              "thumbnail": "https://i.ytimg.com/vi/awV2kJzh8zk/hqdefault.jpg",
+              "video_url": "https://www.youtube.com/watch?v=awV2kJzh8zk",
+              "cluster_id": 0,
+              "category": "Artificial Intelligence"
+            }
+          ]
+        }
+      ],
+      "should_generate": false
+    }
+  },
+  "clusters": []
+}
