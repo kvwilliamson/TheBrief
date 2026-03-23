@@ -1,0 +1,635 @@
+{
+  "date": "2026-03-23",
+  "briefs": [
+    {
+      "episode_title": "Comex Silver.  What happened at the end of Jan? What about the March contract? Will May repeat?",
+      "channel": "Clive Thompson",
+      "duration_minutes": 23,
+      "podcast_date": "2026-03-23",
+      "processing_date": "2026-03-23",
+      "one_line_summary": "Comex silver registered stock is declining, and May deliveries will be interesting given high open interest.",
+      "core_claims": [
+        "Registered or deliverable silver held in Comex warehouses is consistently declining.",
+        "Deliveries in March 2026 were well below available amounts and did not significantly change the Comex silver amount.",
+        "Projections show a continued downward trend in Comex silver inventory if the previous trend maintains.",
+        "May open interest is high, with 363 million ounces against Comex stocks around 79 million ounces."
+      ],
+      "signal_strength": 7,
+      "themes": [
+        "commodities",
+        "silver",
+        "comex",
+        "market analysis",
+        "supply chain",
+        "futures contracts"
+      ],
+      "positioning_implication": "Monitor Comex silver inventories and delivery activity to assess potential supply constraints and market volatility. Be aware of potential scams impersonating the analyst.",
+      "time_horizon": "short",
+      "shelf_life": "Short",
+      "thumbnail": "https://i.ytimg.com/vi/wOQQFo_IxVU/hqdefault.jpg",
+      "video_url": "https://www.youtube.com/watch?v=wOQQFo_IxVU",
+      "cluster_id": 2,
+      "category": "General Financial Investing and Speculation"
+    },
+    {
+      "episode_title": "Cursor is CAUGHT red handed...",
+      "channel": "Wes Roth",
+      "duration_minutes": 20,
+      "podcast_date": "2026-03-23",
+      "processing_date": "2024-01-19",
+      "one_line_summary": "Cursor's AI model, Composer 2, is revealed to be based on Kimi K2.5, causing controversy over licensing and attribution.",
+      "core_claims": [
+        "Cursor's Composer 2 model is based on Kimi K2.5, a Chinese open-source model.",
+        "Cursor failed to initially disclose the use of Kimi K2.5 as the base for their Composer 2 model, violating the license.",
+        "Cursor is utilizing Fireworks AI, an inference provider, to potentially circumvent the need to disclose the underlying Kimi K2.5 model.",
+        "Cursor spent 3/4 of compute on top of the existing kimi model.",
+        "Cursor utilizes self-summarization: where the model summarizes everything it knows, then continues with that compressed context.",
+        "Composer 2 was able to solve the 'make doom for mips' test"
+      ],
+      "signal_strength": 8,
+      "themes": [
+        "ai models",
+        "open source",
+        "licensing",
+        "attribution",
+        "china",
+        "reinforcement learning",
+        "transparency"
+      ],
+      "positioning_implication": "Assess the implications of open-source AI models being rebranded and used in commercial products without proper attribution. Monitor geopolitical sensitivities related to AI technologies originating from specific countries.",
+      "time_horizon": "medium",
+      "shelf_life": "Medium",
+      "thumbnail": "https://i.ytimg.com/vi/dtcgzGAeUZA/hqdefault.jpg",
+      "video_url": "https://www.youtube.com/watch?v=dtcgzGAeUZA",
+      "cluster_id": 0,
+      "category": "Artificial Intelligence"
+    },
+    {
+      "episode_title": "Gold to $7,000? Why This Correction Changes Nothing | Don Durrett & Andy Schectman",
+      "channel": "Miles Franklin Media",
+      "duration_minutes": 58,
+      "podcast_date": "2026-03-23",
+      "processing_date": "2026-03-23",
+      "one_line_summary": "Despite recent corrections, gold remains poised for a significant upward trajectory driven by underlying economic factors and monetary policy failures.",
+      "core_claims": [
+        "The top of the mountain for gold is $7,000.",
+        "Silver will reach somewhere between $175 and $180, possibly ripping to $250-$280 at some point before falling back down.",
+        "The dollar is expected to devalue by 30-40% after the reset.",
+        "Gold's all-time high by the end of June is a firm belief."
+      ],
+      "signal_strength": 8,
+      "themes": [
+        "gold",
+        "silver",
+        "mining stocks",
+        "economic reset",
+        "inflation",
+        "market correction"
+      ],
+      "positioning_implication": "Increase allocation to physical gold and silver, and consider strategic investments in mining stocks. Diversify and prepare for potential devaluation of the dollar during the reset.",
+      "time_horizon": "medium",
+      "shelf_life": "Medium",
+      "thumbnail": "https://i.ytimg.com/vi/SW2oW-1z8H8/hqdefault.jpg",
+      "video_url": "https://www.youtube.com/watch?v=SW2oW-1z8H8",
+      "cluster_id": 0,
+      "category": "Precious Metals"
+    },
+    {
+      "episode_title": "McKinsey Says $1 Trillion In Sales Will Go Through AI Agents. Most Businesses Are Invisible.",
+      "channel": "AI News & Strategy Daily | Nate B Jones",
+      "duration_minutes": 28,
+      "podcast_date": "2026-03-23",
+      "processing_date": "2024-03-29",
+      "one_line_summary": "Companies must prioritize agent-readable/writable systems to capture future AI-driven commerce, requiring significant internal data stack changes.",
+      "core_claims": [
+        "McKinsey projects AI agents will drive $1 trillion in US B2C retail revenue by 2030.",
+        "99% of future attention will be AI/agent-driven, demanding readable/writable infrastructure.",
+        "The traditional anti-bot web architecture is becoming obsolete, necessitating a shift to pro-bot systems.",
+        "The ability for agents to effectively discover, evaluate, and transact hinges on accessible, agent-readable transactional infrastructure.",
+        "Many companies resist agent readability due to fear of losing direct customer relationships and control."
+      ],
+      "signal_strength": 9,
+      "themes": [
+        "ai agents",
+        "ecommerce",
+        "data architecture",
+        "future of commerce",
+        "agent readability",
+        "b2c retail",
+        "data strategy"
+      ],
+      "positioning_implication": "Re-evaluate data architecture to accommodate AI agents, or risk invisibility in future markets. Prioritize structured data and agent-accessible interfaces over traditional marketing.",
+      "time_horizon": "medium",
+      "shelf_life": "Medium",
+      "thumbnail": "https://i.ytimg.com/vi/BE4RclIGDmY/hqdefault.jpg",
+      "video_url": "https://www.youtube.com/watch?v=BE4RclIGDmY",
+      "cluster_id": 0,
+      "category": "Artificial Intelligence"
+    },
+    {
+      "episode_title": "Gold, Silver Collapse, What\u2019s Next? 'Fear Trade' Just Started | Gary Thompson",
+      "channel": "David Lin",
+      "duration_minutes": 56,
+      "podcast_date": "2026-03-23",
+      "processing_date": "2026-03-23",
+      "one_line_summary": "Current market volatility is driven by a 'fear trade' rather than fundamental shifts, presenting a buying opportunity in metals.",
+      "core_claims": [
+        "Gold and silver had unprecedented runs, with gold topping at $5500 an ounce and silver at above $100 an ounce.",
+        "The silver market is currently running into its sixth year of a deficit, with production not keeping up with demand and continued strength in demand from new applications.",
+        "Silver batteries using solid-state technology are slated to come to gadgets in 2026, and the real demand will come out in 2027, likely replacing Lithium-ion batteries.",
+        "Current market correction does not represent a correction in the fundamentals of metal demand; fundamentals that drove metal prices higher are still in place.",
+        "Brixston Metals' stock is up 85% YTD due to drilling at the Langus project, which it hasn't drilled since 2022, generating chart-topping drill results and interest from investors."
+      ],
+      "signal_strength": 7,
+      "themes": [
+        "metals",
+        "silver",
+        "gold",
+        "mining",
+        "investment",
+        "geopolitics",
+        "supply chain"
+      ],
+      "positioning_implication": "Consider opportunities presented by market volatility, particularly in undervalued commodities, while acknowledging geopolitical risks.",
+      "time_horizon": "medium",
+      "shelf_life": "Medium",
+      "thumbnail": "https://i.ytimg.com/vi/mcUY_Kl_94w/hqdefault.jpg",
+      "video_url": "https://www.youtube.com/watch?v=mcUY_Kl_94w",
+      "cluster_id": 1,
+      "category": "General Financial Investing and Speculation"
+    },
+    {
+      "episode_title": "The Next Leg Up For Gold & Silver Start Soon - This Is Why!",
+      "channel": "Bald Guy Money",
+      "duration_minutes": 25,
+      "podcast_date": "2026-03-23",
+      "processing_date": "2026-03-23",
+      "one_line_summary": "Gold and silver are poised for another upswing due to macro economic factors.",
+      "core_claims": [
+        "Gold was never as high as it is right now measured in USD before December 22, 2025.",
+        "Fundamentals for gold and silver have not changed since the end of January.",
+        "The pullback is happening on the backdrop of an all out market correction.",
+        "Gold and silver enter their final leg up before a more significant pause.",
+        "Gold and silver performed best when oil prices rose significantly.",
+        "The U.S. government is rebuilding its strategic silver stockpile and paying above spot to secure it."
+      ],
+      "signal_strength": 7,
+      "themes": [
+        "gold",
+        "silver",
+        "commodities",
+        "market correction",
+        "oil prices",
+        "economic downturn",
+        "investing",
+        "recession",
+        "deflation"
+      ],
+      "positioning_implication": "Consider increasing or maintaining allocations to gold and silver, as current market corrections present potential buying opportunities before the next upswing. Watch for signals of aggressive interest rate cuts or rising inflation.",
+      "time_horizon": "medium",
+      "shelf_life": "Medium",
+      "thumbnail": "https://i.ytimg.com/vi/vHI6sXb-mSQ/hqdefault.jpg",
+      "video_url": "https://www.youtube.com/watch?v=vHI6sXb-mSQ",
+      "cluster_id": 1,
+      "category": "General Financial Investing and Speculation"
+    },
+    {
+      "episode_title": "Sun March 22, 2026 Financial Markets update. War, Hormuz, Oil, Dollar, stocks, gold, silver, miners.",
+      "channel": "Clive Thompson",
+      "duration_minutes": 28,
+      "podcast_date": "2026-03-23",
+      "processing_date": "2024-02-29",
+      "one_line_summary": "Market analysis reveals persistent Middle East crisis impacting oil prices, stock market declines, and dollar strength amidst falling precious metal values and rising bond yields.",
+      "core_claims": [
+        "Oil prices are rising due to the Strait of Hormuz being effectively closed, with West Texas Intermediate crude at $98.10 and Brent crude at $107.84.",
+        "Stock markets had a rough week, with most major indices declining, except for the Nikkei 225 in Japan, which is still up on the year.",
+        "The US government 10-year bond yield started the year at 4.15 and is now at 4.38, indicating rising yields.",
+        "The dollar has risen sharply in the last few weeks, particularly since the end of January.",
+        "Gold miners' stocks are falling sharply despite good company results from Barrick, Agnico Eagle, etc.",
+        "US economy is slowing with job offers going down and GDP trends downwards since 2024."
+      ],
+      "signal_strength": 8,
+      "themes": [
+        "geopolitics",
+        "oil prices",
+        "stock market decline",
+        "bond yields",
+        "dollar strength",
+        "gold",
+        "silver",
+        "mining stocks",
+        "economic slowdown",
+        "investment strategy"
+      ],
+      "positioning_implication": "Reduce exposure to equities and precious metals; increase exposure to US dollar and consider hedging against rising interest rates. Diversify portfolio by underweighting equities and commodities in favor of cash and fixed income assets.",
+      "time_horizon": "short",
+      "shelf_life": "Medium",
+      "thumbnail": "https://i.ytimg.com/vi/RbVvh3gpczY/hqdefault.jpg",
+      "video_url": "https://www.youtube.com/watch?v=RbVvh3gpczY",
+      "cluster_id": 0,
+      "category": "General Financial Investing and Speculation"
+    },
+    {
+      "episode_title": "A Market \"Retrenchment\" Ahead Looks Likely | Jonathan Wellum",
+      "channel": "Adam Taggart | Thoughtful Money\u00ae",
+      "duration_minutes": 58,
+      "podcast_date": "2026-03-23",
+      "processing_date": "2026-03-23",
+      "one_line_summary": "Markets face potential retrenchment due to rising energy costs, inflation, geopolitical tensions, and increasing interest rates, suggesting a possible global recession.",
+      "core_claims": [
+        "Increasing energy costs will cause increasing inflation.",
+        "Further decoupling in the global economy is occurring due to the war in Iran.",
+        "Rising interest rates will negatively affect the overall economy, given its indebtedness."
+      ],
+      "signal_strength": 8,
+      "themes": [
+        "market retrenchment",
+        "inflation",
+        "interest rates",
+        "geopolitical risk",
+        "precious metals",
+        "energy sector"
+      ],
+      "positioning_implication": "Reduce exposure to sectors vulnerable to rising costs and geopolitical uncertainty. Increase allocation to defensive assets and sectors benefiting from higher energy prices.",
+      "time_horizon": "medium",
+      "shelf_life": "Medium",
+      "thumbnail": "https://i.ytimg.com/vi/xmvU7-9pX7o/hqdefault.jpg",
+      "video_url": "https://www.youtube.com/watch?v=xmvU7-9pX7o",
+      "cluster_id": 0,
+      "category": "General Financial Investing and Speculation"
+    }
+  ],
+  "category_intelligence": {
+    "General Financial Investing and Speculation": {
+      "name": "General Financial Investing and Speculation",
+      "meta_summary": "",
+      "convergence_score": 0.0,
+      "percentile": 0.0,
+      "regime_state": "Neutral",
+      "clusters": [
+        {
+          "id": 1,
+          "name": "Metals: Fear Trade Intensifying Upswing",
+          "description": "Metals, particularly gold and silver, are positioned for gains as market volatility driven by fear creates buying opportunities.\n\u26a1 Convergence Alert: Overlap detected with [Gold Intensifying Upward Trajectory] in Precious Metals (0.81 sim)",
+          "bias": "constructive",
+          "regime": "Accelerating",
+          "size": 2,
+          "strength": 1.4963502966763,
+          "coherence": 0.74817514833815,
+          "channels": [
+            "David Lin",
+            "Bald Guy Money"
+          ],
+          "avg_signal": 7.0,
+          "briefs": [
+            {
+              "episode_title": "Gold, Silver Collapse, What\u2019s Next? 'Fear Trade' Just Started | Gary Thompson",
+              "channel": "David Lin",
+              "duration_minutes": 56,
+              "podcast_date": "2026-03-23",
+              "processing_date": "2026-03-23",
+              "one_line_summary": "Current market volatility is driven by a 'fear trade' rather than fundamental shifts, presenting a buying opportunity in metals.",
+              "core_claims": [
+                "Gold and silver had unprecedented runs, with gold topping at $5500 an ounce and silver at above $100 an ounce.",
+                "The silver market is currently running into its sixth year of a deficit, with production not keeping up with demand and continued strength in demand from new applications.",
+                "Silver batteries using solid-state technology are slated to come to gadgets in 2026, and the real demand will come out in 2027, likely replacing Lithium-ion batteries.",
+                "Current market correction does not represent a correction in the fundamentals of metal demand; fundamentals that drove metal prices higher are still in place.",
+                "Brixston Metals' stock is up 85% YTD due to drilling at the Langus project, which it hasn't drilled since 2022, generating chart-topping drill results and interest from investors."
+              ],
+              "signal_strength": 7,
+              "themes": [
+                "metals",
+                "silver",
+                "gold",
+                "mining",
+                "investment",
+                "geopolitics",
+                "supply chain"
+              ],
+              "positioning_implication": "Consider opportunities presented by market volatility, particularly in undervalued commodities, while acknowledging geopolitical risks.",
+              "time_horizon": "medium",
+              "shelf_life": "Medium",
+              "thumbnail": "https://i.ytimg.com/vi/mcUY_Kl_94w/hqdefault.jpg",
+              "video_url": "https://www.youtube.com/watch?v=mcUY_Kl_94w",
+              "cluster_id": 1,
+              "category": "General Financial Investing and Speculation"
+            },
+            {
+              "episode_title": "The Next Leg Up For Gold & Silver Start Soon - This Is Why!",
+              "channel": "Bald Guy Money",
+              "duration_minutes": 25,
+              "podcast_date": "2026-03-23",
+              "processing_date": "2026-03-23",
+              "one_line_summary": "Gold and silver are poised for another upswing due to macro economic factors.",
+              "core_claims": [
+                "Gold was never as high as it is right now measured in USD before December 22, 2025.",
+                "Fundamentals for gold and silver have not changed since the end of January.",
+                "The pullback is happening on the backdrop of an all out market correction.",
+                "Gold and silver enter their final leg up before a more significant pause.",
+                "Gold and silver performed best when oil prices rose significantly.",
+                "The U.S. government is rebuilding its strategic silver stockpile and paying above spot to secure it."
+              ],
+              "signal_strength": 7,
+              "themes": [
+                "gold",
+                "silver",
+                "commodities",
+                "market correction",
+                "oil prices",
+                "economic downturn",
+                "investing",
+                "recession",
+                "deflation"
+              ],
+              "positioning_implication": "Consider increasing or maintaining allocations to gold and silver, as current market corrections present potential buying opportunities before the next upswing. Watch for signals of aggressive interest rate cuts or rising inflation.",
+              "time_horizon": "medium",
+              "shelf_life": "Medium",
+              "thumbnail": "https://i.ytimg.com/vi/vHI6sXb-mSQ/hqdefault.jpg",
+              "video_url": "https://www.youtube.com/watch?v=vHI6sXb-mSQ",
+              "cluster_id": 1,
+              "category": "General Financial Investing and Speculation"
+            }
+          ]
+        },
+        {
+          "id": 0,
+          "name": "Geopolitical Tensions Intensifying Global Market Retrenchment",
+          "description": "Heightened geopolitical risks and energy inflation are accelerating market retrenchment, increasing recessionary pressures.",
+          "bias": "defensive",
+          "regime": "Accelerating",
+          "size": 2,
+          "strength": 1.395764024098799,
+          "coherence": 0.6978820120493995,
+          "channels": [
+            "Adam Taggart | Thoughtful Money\u00ae",
+            "Clive Thompson"
+          ],
+          "avg_signal": 8.0,
+          "briefs": [
+            {
+              "episode_title": "Sun March 22, 2026 Financial Markets update. War, Hormuz, Oil, Dollar, stocks, gold, silver, miners.",
+              "channel": "Clive Thompson",
+              "duration_minutes": 28,
+              "podcast_date": "2026-03-23",
+              "processing_date": "2024-02-29",
+              "one_line_summary": "Market analysis reveals persistent Middle East crisis impacting oil prices, stock market declines, and dollar strength amidst falling precious metal values and rising bond yields.",
+              "core_claims": [
+                "Oil prices are rising due to the Strait of Hormuz being effectively closed, with West Texas Intermediate crude at $98.10 and Brent crude at $107.84.",
+                "Stock markets had a rough week, with most major indices declining, except for the Nikkei 225 in Japan, which is still up on the year.",
+                "The US government 10-year bond yield started the year at 4.15 and is now at 4.38, indicating rising yields.",
+                "The dollar has risen sharply in the last few weeks, particularly since the end of January.",
+                "Gold miners' stocks are falling sharply despite good company results from Barrick, Agnico Eagle, etc.",
+                "US economy is slowing with job offers going down and GDP trends downwards since 2024."
+              ],
+              "signal_strength": 8,
+              "themes": [
+                "geopolitics",
+                "oil prices",
+                "stock market decline",
+                "bond yields",
+                "dollar strength",
+                "gold",
+                "silver",
+                "mining stocks",
+                "economic slowdown",
+                "investment strategy"
+              ],
+              "positioning_implication": "Reduce exposure to equities and precious metals; increase exposure to US dollar and consider hedging against rising interest rates. Diversify portfolio by underweighting equities and commodities in favor of cash and fixed income assets.",
+              "time_horizon": "short",
+              "shelf_life": "Medium",
+              "thumbnail": "https://i.ytimg.com/vi/RbVvh3gpczY/hqdefault.jpg",
+              "video_url": "https://www.youtube.com/watch?v=RbVvh3gpczY",
+              "cluster_id": 0,
+              "category": "General Financial Investing and Speculation"
+            },
+            {
+              "episode_title": "A Market \"Retrenchment\" Ahead Looks Likely | Jonathan Wellum",
+              "channel": "Adam Taggart | Thoughtful Money\u00ae",
+              "duration_minutes": 58,
+              "podcast_date": "2026-03-23",
+              "processing_date": "2026-03-23",
+              "one_line_summary": "Markets face potential retrenchment due to rising energy costs, inflation, geopolitical tensions, and increasing interest rates, suggesting a possible global recession.",
+              "core_claims": [
+                "Increasing energy costs will cause increasing inflation.",
+                "Further decoupling in the global economy is occurring due to the war in Iran.",
+                "Rising interest rates will negatively affect the overall economy, given its indebtedness."
+              ],
+              "signal_strength": 8,
+              "themes": [
+                "market retrenchment",
+                "inflation",
+                "interest rates",
+                "geopolitical risk",
+                "precious metals",
+                "energy sector"
+              ],
+              "positioning_implication": "Reduce exposure to sectors vulnerable to rising costs and geopolitical uncertainty. Increase allocation to defensive assets and sectors benefiting from higher energy prices.",
+              "time_horizon": "medium",
+              "shelf_life": "Medium",
+              "thumbnail": "https://i.ytimg.com/vi/xmvU7-9pX7o/hqdefault.jpg",
+              "video_url": "https://www.youtube.com/watch?v=xmvU7-9pX7o",
+              "cluster_id": 0,
+              "category": "General Financial Investing and Speculation"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "name": "Comex Silver Supply Tightening",
+          "description": "Declining Comex silver stocks and high open interest in May futures suggest a potential supply squeeze.",
+          "bias": "constructive",
+          "regime": "Emerging",
+          "size": 1,
+          "strength": 1.0,
+          "coherence": 1.0,
+          "channels": [
+            "Clive Thompson"
+          ],
+          "avg_signal": 7.0,
+          "briefs": [
+            {
+              "episode_title": "Comex Silver.  What happened at the end of Jan? What about the March contract? Will May repeat?",
+              "channel": "Clive Thompson",
+              "duration_minutes": 23,
+              "podcast_date": "2026-03-23",
+              "processing_date": "2026-03-23",
+              "one_line_summary": "Comex silver registered stock is declining, and May deliveries will be interesting given high open interest.",
+              "core_claims": [
+                "Registered or deliverable silver held in Comex warehouses is consistently declining.",
+                "Deliveries in March 2026 were well below available amounts and did not significantly change the Comex silver amount.",
+                "Projections show a continued downward trend in Comex silver inventory if the previous trend maintains.",
+                "May open interest is high, with 363 million ounces against Comex stocks around 79 million ounces."
+              ],
+              "signal_strength": 7,
+              "themes": [
+                "commodities",
+                "silver",
+                "comex",
+                "market analysis",
+                "supply chain",
+                "futures contracts"
+              ],
+              "positioning_implication": "Monitor Comex silver inventories and delivery activity to assess potential supply constraints and market volatility. Be aware of potential scams impersonating the analyst.",
+              "time_horizon": "short",
+              "shelf_life": "Short",
+              "thumbnail": "https://i.ytimg.com/vi/wOQQFo_IxVU/hqdefault.jpg",
+              "video_url": "https://www.youtube.com/watch?v=wOQQFo_IxVU",
+              "cluster_id": 2,
+              "category": "General Financial Investing and Speculation"
+            }
+          ]
+        }
+      ],
+      "should_generate": false
+    },
+    "Artificial Intelligence": {
+      "name": "Artificial Intelligence",
+      "meta_summary": "",
+      "convergence_score": 0.0,
+      "percentile": 0.0,
+      "regime_state": "Neutral",
+      "clusters": [
+        {
+          "id": 0,
+          "name": "AI Model Transparency Intensifying Data Architecture Pressure",
+          "description": "The controversy surrounding AI model attribution and licensing is intensifying pressure on companies to adapt their data architecture for AI-driven commerce.",
+          "bias": "neutral",
+          "regime": "Accelerating",
+          "size": 2,
+          "strength": 1.0903240248704147,
+          "coherence": 0.5451620124352073,
+          "channels": [
+            "AI News & Strategy Daily | Nate B Jones",
+            "Wes Roth"
+          ],
+          "avg_signal": 8.5,
+          "briefs": [
+            {
+              "episode_title": "Cursor is CAUGHT red handed...",
+              "channel": "Wes Roth",
+              "duration_minutes": 20,
+              "podcast_date": "2026-03-23",
+              "processing_date": "2024-01-19",
+              "one_line_summary": "Cursor's AI model, Composer 2, is revealed to be based on Kimi K2.5, causing controversy over licensing and attribution.",
+              "core_claims": [
+                "Cursor's Composer 2 model is based on Kimi K2.5, a Chinese open-source model.",
+                "Cursor failed to initially disclose the use of Kimi K2.5 as the base for their Composer 2 model, violating the license.",
+                "Cursor is utilizing Fireworks AI, an inference provider, to potentially circumvent the need to disclose the underlying Kimi K2.5 model.",
+                "Cursor spent 3/4 of compute on top of the existing kimi model.",
+                "Cursor utilizes self-summarization: where the model summarizes everything it knows, then continues with that compressed context.",
+                "Composer 2 was able to solve the 'make doom for mips' test"
+              ],
+              "signal_strength": 8,
+              "themes": [
+                "ai models",
+                "open source",
+                "licensing",
+                "attribution",
+                "china",
+                "reinforcement learning",
+                "transparency"
+              ],
+              "positioning_implication": "Assess the implications of open-source AI models being rebranded and used in commercial products without proper attribution. Monitor geopolitical sensitivities related to AI technologies originating from specific countries.",
+              "time_horizon": "medium",
+              "shelf_life": "Medium",
+              "thumbnail": "https://i.ytimg.com/vi/dtcgzGAeUZA/hqdefault.jpg",
+              "video_url": "https://www.youtube.com/watch?v=dtcgzGAeUZA",
+              "cluster_id": 0,
+              "category": "Artificial Intelligence"
+            },
+            {
+              "episode_title": "McKinsey Says $1 Trillion In Sales Will Go Through AI Agents. Most Businesses Are Invisible.",
+              "channel": "AI News & Strategy Daily | Nate B Jones",
+              "duration_minutes": 28,
+              "podcast_date": "2026-03-23",
+              "processing_date": "2024-03-29",
+              "one_line_summary": "Companies must prioritize agent-readable/writable systems to capture future AI-driven commerce, requiring significant internal data stack changes.",
+              "core_claims": [
+                "McKinsey projects AI agents will drive $1 trillion in US B2C retail revenue by 2030.",
+                "99% of future attention will be AI/agent-driven, demanding readable/writable infrastructure.",
+                "The traditional anti-bot web architecture is becoming obsolete, necessitating a shift to pro-bot systems.",
+                "The ability for agents to effectively discover, evaluate, and transact hinges on accessible, agent-readable transactional infrastructure.",
+                "Many companies resist agent readability due to fear of losing direct customer relationships and control."
+              ],
+              "signal_strength": 9,
+              "themes": [
+                "ai agents",
+                "ecommerce",
+                "data architecture",
+                "future of commerce",
+                "agent readability",
+                "b2c retail",
+                "data strategy"
+              ],
+              "positioning_implication": "Re-evaluate data architecture to accommodate AI agents, or risk invisibility in future markets. Prioritize structured data and agent-accessible interfaces over traditional marketing.",
+              "time_horizon": "medium",
+              "shelf_life": "Medium",
+              "thumbnail": "https://i.ytimg.com/vi/BE4RclIGDmY/hqdefault.jpg",
+              "video_url": "https://www.youtube.com/watch?v=BE4RclIGDmY",
+              "cluster_id": 0,
+              "category": "Artificial Intelligence"
+            }
+          ]
+        }
+      ],
+      "should_generate": false
+    },
+    "Precious Metals": {
+      "name": "Precious Metals",
+      "meta_summary": "",
+      "convergence_score": 0.0,
+      "percentile": 0.0,
+      "regime_state": "Neutral",
+      "clusters": [
+        {
+          "id": 0,
+          "name": "Gold Intensifying Upward Trajectory",
+          "description": "Gold's upward momentum is strengthening despite market corrections, fueled by economic anxieties and monetary policy shortcomings.",
+          "bias": "constructive",
+          "regime": "Emerging",
+          "size": 1,
+          "strength": 0.0,
+          "coherence": 1.0,
+          "channels": [
+            "Miles Franklin Media"
+          ],
+          "avg_signal": 8.0,
+          "briefs": [
+            {
+              "episode_title": "Gold to $7,000? Why This Correction Changes Nothing | Don Durrett & Andy Schectman",
+              "channel": "Miles Franklin Media",
+              "duration_minutes": 58,
+              "podcast_date": "2026-03-23",
+              "processing_date": "2026-03-23",
+              "one_line_summary": "Despite recent corrections, gold remains poised for a significant upward trajectory driven by underlying economic factors and monetary policy failures.",
+              "core_claims": [
+                "The top of the mountain for gold is $7,000.",
+                "Silver will reach somewhere between $175 and $180, possibly ripping to $250-$280 at some point before falling back down.",
+                "The dollar is expected to devalue by 30-40% after the reset.",
+                "Gold's all-time high by the end of June is a firm belief."
+              ],
+              "signal_strength": 8,
+              "themes": [
+                "gold",
+                "silver",
+                "mining stocks",
+                "economic reset",
+                "inflation",
+                "market correction"
+              ],
+              "positioning_implication": "Increase allocation to physical gold and silver, and consider strategic investments in mining stocks. Diversify and prepare for potential devaluation of the dollar during the reset.",
+              "time_horizon": "medium",
+              "shelf_life": "Medium",
+              "thumbnail": "https://i.ytimg.com/vi/SW2oW-1z8H8/hqdefault.jpg",
+              "video_url": "https://www.youtube.com/watch?v=SW2oW-1z8H8",
+              "cluster_id": 0,
+              "category": "Precious Metals"
+            }
+          ]
+        }
+      ],
+      "should_generate": false
+    }
+  },
+  "clusters": []
+}

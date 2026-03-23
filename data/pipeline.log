@@ -2505,3 +2505,93 @@
 2026-03-22 06:33:59,945 - INFO - ==================================================
 2026-03-22 06:33:59,945 - INFO - Pipeline Execution Complete
 2026-03-22 06:33:59,945 - INFO - ==================================================
+2026-03-23 06:42:55,403 - INFO - ==================================================
+2026-03-23 06:42:55,403 - INFO - Starting TheBrief Daily Pipeline
+2026-03-23 06:42:55,403 - INFO - ==================================================
+2026-03-23 06:42:55,403 - INFO - 
+--- Phase 1: Discovery ---
+2026-03-23 06:42:55,407 - INFO - Discovering videos published after 2026-03-22T06:42:55.407401+00:00 (24h lookback)
+2026-03-23 06:42:55,876 - INFO - Found 1 new potential videos on Bald Guy Money.
+2026-03-23 06:42:55,878 - INFO - Found 1 new potential videos on Yankee Stacking.
+2026-03-23 06:42:56,060 - INFO - Found 2 new potential videos on AI News & Strategy Daily | Nate B Jones.
+2026-03-23 06:42:56,140 - INFO - Found 2 new potential videos on Clive Thompson.
+2026-03-23 06:42:56,153 - INFO - Found 1 new potential videos on David Lin .
+2026-03-23 06:42:56,604 - INFO - Found 1 new potential videos on Miles Franklin Media.
+2026-03-23 06:42:56,668 - INFO - Found 1 new potential videos on Adam Taggart | Thoughtful Money®.
+2026-03-23 06:42:56,894 - INFO - Found 1 new potential videos on Wes Roth.
+2026-03-23 06:42:57,185 - INFO - Found 2 new potential videos on The Prof G Pod – Scott Galloway.
+2026-03-23 06:42:57,378 - INFO - Found 9 total long-form videos across all channels.
+2026-03-23 06:42:57,384 - INFO - Discovery complete. Added 9 new videos to queue.
+2026-03-23 06:42:57,384 - INFO - 
+--- Phase 2: Extraction ---
+2026-03-23 06:42:57,641 - INFO - yt-dlp version: 2026.03.17
+2026-03-23 06:42:58,001 - INFO - POT-related packages: bgutil-ytdlp-pot-provider 1.3.1
+2026-03-23 06:42:58,025 - INFO - bgutil HTTP server not available on port 4416 (will rely on cookies)
+2026-03-23 06:42:58,025 - INFO - Extracting audio for Cursor is CAUGHT red handed... (dtcgzGAeUZA)...
+2026-03-23 06:43:16,509 - INFO - Successfully extracted: audio/dtcgzGAeUZA.mp3
+2026-03-23 06:43:24,646 - INFO - Extracting audio for Gold to $7,000? Why This Correction Changes Nothing | Don Durrett & Andy Schectman (SW2oW-1z8H8)...
+2026-03-23 06:43:49,318 - INFO - Successfully extracted: audio/SW2oW-1z8H8.mp3
+2026-03-23 06:43:55,182 - INFO - Extracting audio for Comex Silver.  What happened at the end of Jan? What about the March contract? Will May repeat? (wOQQFo_IxVU)...
+2026-03-23 06:44:06,205 - INFO - Successfully extracted: audio/wOQQFo_IxVU.mp3
+2026-03-23 06:44:14,354 - INFO - Extracting audio for DEALER WARNS "I WAS RIGHT" ABOUT SILVER & GOLD!! 📉 Bullion Buyers Swarm Shop! (hGVMHMJ50QQ)...
+2026-03-23 06:44:29,014 - INFO - Successfully extracted: audio/hGVMHMJ50QQ.mp3
+2026-03-23 06:44:38,150 - INFO - Extracting audio for McKinsey Says $1 Trillion In Sales Will Go Through AI Agents. Most Businesses Are Invisible. (BE4RclIGDmY)...
+2026-03-23 06:44:54,903 - INFO - Successfully extracted: audio/BE4RclIGDmY.mp3
+2026-03-23 06:45:01,571 - INFO - Extracting audio for Gold, Silver Collapse, What’s Next? 'Fear Trade' Just Started | Gary Thompson (mcUY_Kl_94w)...
+2026-03-23 06:45:21,773 - INFO - Successfully extracted: audio/mcUY_Kl_94w.mp3
+2026-03-23 06:45:30,525 - INFO - Extracting audio for A Market "Retrenchment" Ahead Looks Likely | Jonathan Wellum (xmvU7-9pX7o)...
+2026-03-23 06:46:00,942 - INFO - Successfully extracted: audio/xmvU7-9pX7o.mp3
+2026-03-23 06:46:12,518 - INFO - Extracting audio for The Next Leg Up For Gold & Silver Start Soon - This Is Why! (vHI6sXb-mSQ)...
+2026-03-23 06:46:24,472 - INFO - Successfully extracted: audio/vHI6sXb-mSQ.mp3
+2026-03-23 06:46:34,582 - INFO - Extracting audio for Sun March 22, 2026 Financial Markets update. War, Hormuz, Oil, Dollar, stocks, gold, silver, miners. (RbVvh3gpczY)...
+2026-03-23 06:46:50,221 - INFO - Successfully extracted: audio/RbVvh3gpczY.mp3
+2026-03-23 06:46:50,222 - INFO - Extraction complete. 9/9 audio files ready. (Time: 232.2s)
+2026-03-23 06:46:50,222 - INFO - 
+--- Phase 3: Summarization (Direct Audio) ---
+2026-03-23 06:46:52,105 - INFO - Generating Brief for Gold to $7,000? Why This Correction Changes Nothing | Don Durrett & Andy Schectman (SW2oW-1z8H8)...
+2026-03-23 06:46:52,107 - INFO - AFC is enabled with max remote calls: 10.
+2026-03-23 06:46:52,199 - INFO - Generating Brief for Cursor is CAUGHT red handed... (dtcgzGAeUZA)...
+2026-03-23 06:46:52,200 - INFO - AFC is enabled with max remote calls: 10.
+2026-03-23 06:46:52,228 - INFO - Generating Brief for Comex Silver.  What happened at the end of Jan? What about the March contract? Will May repeat? (wOQQFo_IxVU)...
+2026-03-23 06:46:52,229 - INFO - AFC is enabled with max remote calls: 10.
+2026-03-23 06:46:59,030 - INFO - ✅ Brief successfully generated for Comex Silver.  What happened at the end of Jan? What about the March contract? Will May repeat?
+2026-03-23 06:47:00,375 - INFO - ✅ Brief successfully generated for Cursor is CAUGHT red handed...
+2026-03-23 06:47:00,558 - INFO - Generating Brief for DEALER WARNS "I WAS RIGHT" ABOUT SILVER & GOLD!! 📉 Bullion Buyers Swarm Shop! (hGVMHMJ50QQ)...
+2026-03-23 06:47:00,559 - INFO - AFC is enabled with max remote calls: 10.
+2026-03-23 06:47:02,001 - INFO - Generating Brief for McKinsey Says $1 Trillion In Sales Will Go Through AI Agents. Most Businesses Are Invisible. (BE4RclIGDmY)...
+2026-03-23 06:47:02,003 - INFO - AFC is enabled with max remote calls: 10.
+2026-03-23 06:47:07,568 - INFO - ✅ Brief successfully generated for Gold to $7,000? Why This Correction Changes Nothing | Don Durrett & Andy Schectman
+2026-03-23 06:47:09,134 - INFO - Generating Brief for Gold, Silver Collapse, What’s Next? 'Fear Trade' Just Started | Gary Thompson (mcUY_Kl_94w)...
+2026-03-23 06:47:09,135 - INFO - AFC is enabled with max remote calls: 10.
+2026-03-23 06:47:09,183 - ERROR - Schema parsing error for DEALER WARNS "I WAS RIGHT" ABOUT SILVER & GOLD!! 📉 Bullion Buyers Swarm Shop!: Expecting value: line 1 column 1109 (char 1108)
+2026-03-23 06:47:11,231 - INFO - ✅ Brief successfully generated for McKinsey Says $1 Trillion In Sales Will Go Through AI Agents. Most Businesses Are Invisible.
+2026-03-23 06:47:11,977 - INFO - Generating Brief for A Market "Retrenchment" Ahead Looks Likely | Jonathan Wellum (xmvU7-9pX7o)...
+2026-03-23 06:47:11,978 - INFO - AFC is enabled with max remote calls: 10.
+2026-03-23 06:47:13,055 - INFO - Generating Brief for The Next Leg Up For Gold & Silver Start Soon - This Is Why! (vHI6sXb-mSQ)...
+2026-03-23 06:47:13,056 - INFO - AFC is enabled with max remote calls: 10.
+2026-03-23 06:47:17,846 - INFO - ✅ Brief successfully generated for Gold, Silver Collapse, What’s Next? 'Fear Trade' Just Started | Gary Thompson
+2026-03-23 06:47:19,384 - INFO - Generating Brief for Sun March 22, 2026 Financial Markets update. War, Hormuz, Oil, Dollar, stocks, gold, silver, miners. (RbVvh3gpczY)...
+2026-03-23 06:47:19,385 - INFO - AFC is enabled with max remote calls: 10.
+2026-03-23 06:47:20,068 - INFO - ✅ Brief successfully generated for The Next Leg Up For Gold & Silver Start Soon - This Is Why!
+2026-03-23 06:47:26,883 - INFO - ✅ Brief successfully generated for Sun March 22, 2026 Financial Markets update. War, Hormuz, Oil, Dollar, stocks, gold, silver, miners.
+2026-03-23 06:47:31,851 - INFO - ✅ Brief successfully generated for A Market "Retrenchment" Ahead Looks Likely | Jonathan Wellum
+2026-03-23 06:47:31,851 - INFO - --- Phase 3: Category Synthesis (8 assets across categories) ---
+2026-03-23 06:47:31,852 - INFO - Analyzing 3 categories: General Financial Investing and Speculation, Artificial Intelligence, Precious Metals
+2026-03-23 06:47:31,852 - INFO - Processing Synthesis for sector: General Financial Investing and Speculation (5 assets)...
+2026-03-23 06:47:31,882 - INFO - AFC is enabled with max remote calls: 10.
+2026-03-23 06:47:32,629 - INFO - AFC is enabled with max remote calls: 10.
+2026-03-23 06:47:33,428 - INFO - AFC is enabled with max remote calls: 10.
+2026-03-23 06:47:34,278 - INFO - ✅ Synthesis complete for General Financial Investing and Speculation
+2026-03-23 06:47:34,278 - INFO - Processing Synthesis for sector: Artificial Intelligence (2 assets)...
+2026-03-23 06:47:34,282 - INFO - AFC is enabled with max remote calls: 10.
+2026-03-23 06:47:35,104 - INFO - ✅ Synthesis complete for Artificial Intelligence
+2026-03-23 06:47:35,104 - INFO - Processing Synthesis for sector: Precious Metals (1 assets)...
+2026-03-23 06:47:35,105 - INFO - AFC is enabled with max remote calls: 10.
+2026-03-23 06:47:35,877 - INFO - ✅ Synthesis complete for Precious Metals
+2026-03-23 06:47:35,890 - INFO - Summarization complete. 8 briefs written to briefs/2026-03-23.md (Time: 45.6s)
+2026-03-23 06:47:37,198 - INFO - Email digest sent successfully to kwilliamson.mail@gmail.com.
+2026-03-23 06:47:38,462 - INFO - Email digest sent successfully to kochava72@gmail.com.
+2026-03-23 06:47:38,487 - INFO - Queue cleared.
+2026-03-23 06:47:38,493 - INFO - ==================================================
+2026-03-23 06:47:38,494 - INFO - Pipeline Execution Complete
+2026-03-23 06:47:38,494 - INFO - ==================================================
