@@ -2595,3 +2595,123 @@
 2026-03-23 06:47:38,493 - INFO - ==================================================
 2026-03-23 06:47:38,494 - INFO - Pipeline Execution Complete
 2026-03-23 06:47:38,494 - INFO - ==================================================
+2026-03-24 06:36:48,744 - INFO - ==================================================
+2026-03-24 06:36:48,744 - INFO - Starting TheBrief Daily Pipeline
+2026-03-24 06:36:48,744 - INFO - ==================================================
+2026-03-24 06:36:48,744 - INFO - 
+--- Phase 1: Discovery ---
+2026-03-24 06:36:48,748 - INFO - Discovering videos published after 2026-03-23T06:36:48.748410+00:00 (24h lookback)
+2026-03-24 06:36:49,026 - INFO - Found 1 new potential videos on Wall Street Bullion .
+2026-03-24 06:36:49,046 - INFO - Found 1 new potential videos on Kitco NEWS.
+2026-03-24 06:36:49,372 - INFO - Found 2 new potential videos on AI News & Strategy Daily | Nate B Jones.
+2026-03-24 06:36:49,381 - INFO - Found 2 new potential videos on David Lin .
+2026-03-24 06:36:49,495 - INFO - Found 1 new potential videos on TheTechnicalTraders.
+2026-03-24 06:36:49,595 - INFO - Found 1 new potential videos on Adam Taggart | Thoughtful Money®.
+2026-03-24 06:36:49,658 - INFO - Found 5 new potential videos on Verified Investing.
+2026-03-24 06:36:49,678 - INFO - Found 2 new potential videos on Miles Franklin Media.
+2026-03-24 06:36:49,704 - INFO - Found 1 new potential videos on Commodity Culture.
+2026-03-24 06:36:49,882 - INFO - Found 1 new potential videos on Wes Roth.
+2026-03-24 06:36:49,954 - INFO - Found 3 new potential videos on The Prof G Pod – Scott Galloway.
+2026-03-24 06:36:50,083 - INFO - Found 14 total long-form videos across all channels.
+2026-03-24 06:36:50,091 - INFO - Discovery complete. Added 14 new videos to queue.
+2026-03-24 06:36:50,092 - INFO - 
+--- Phase 2: Extraction ---
+2026-03-24 06:36:50,341 - INFO - yt-dlp version: 2026.03.17
+2026-03-24 06:36:50,693 - INFO - POT-related packages: bgutil-ytdlp-pot-provider 1.3.1
+2026-03-24 06:36:50,717 - INFO - bgutil HTTP server not available on port 4416 (will rely on cookies)
+2026-03-24 06:36:50,717 - INFO - Extracting audio for Biggest Energy Shock In History To Break 'Fragile' Markets | Doomberg (RFtMIYG5aao)...
+2026-03-24 06:37:12,804 - INFO - Successfully extracted: audio/RFtMIYG5aao.mp3
+2026-03-24 06:37:18,792 - INFO - Extracting audio for Sara Imari Walker  "AI is Life" | Simulations, the Universe and the Origins of Life (DfiCs2oW0DQ)...
+2026-03-24 06:38:07,777 - INFO - Successfully extracted: audio/DfiCs2oW0DQ.mp3
+2026-03-24 06:38:17,243 - INFO - Extracting audio for LIVE Q & A WITH MILES FRANKLIN (klPXQWaq8C8)...
+2026-03-24 06:39:01,529 - INFO - Successfully extracted: audio/klPXQWaq8C8.mp3
+2026-03-24 06:39:08,752 - INFO - Extracting audio for FOG OF WAR TRAP? 🛑 Markets Reverse After Iran News, Oil Plunges, Travel Stocks Rip (vX3dNcxEf70)...
+2026-03-24 06:39:24,315 - INFO - Successfully extracted: audio/vX3dNcxEf70.mp3
+2026-03-24 06:39:34,221 - INFO - Extracting audio for Food Inflation Set To Surge: Economist Warns How Bad It Could Get | Michael Madowitz (znKo364UwwQ)...
+2026-03-24 06:39:51,446 - INFO - Successfully extracted: audio/znKo364UwwQ.mp3
+2026-03-24 06:39:57,246 - INFO - Extracting audio for THIS IS CRAZY: Silver Price to Rebound to $100 or Collapse Further? (VGC8F8sMxDw)...
+2026-03-24 06:40:10,147 - INFO - Successfully extracted: audio/VGC8F8sMxDw.mp3
+2026-03-24 06:40:18,238 - INFO - Extracting audio for Gold's Next Cycle Won't Need a Falling Dollar to Succeed: Gareth Soloway (OXR5WYlCP7E)...
+2026-03-24 06:40:37,120 - INFO - Successfully extracted: audio/OXR5WYlCP7E.mp3
+2026-03-24 06:40:43,399 - INFO - Extracting audio for The Rise of the Grifter Economy | Office Hours (Natcl31gbKQ)...
+2026-03-24 06:40:54,241 - INFO - Successfully extracted: audio/Natcl31gbKQ.mp3
+2026-03-24 06:41:05,279 - INFO - Extracting audio for 'Uncertainty' in Markets Driving Major Opportunity in URANIUM For Contrarians (k7vptpqKw6Y)...
+2026-03-24 06:41:22,262 - INFO - Successfully extracted: audio/k7vptpqKw6Y.mp3
+2026-03-24 06:41:30,411 - INFO - Extracting audio for I Mapped Where Every AI Agent Actually Sits. Most People Pick Wrong. (b7IS4C9QALc)...
+2026-03-24 06:41:45,626 - INFO - Successfully extracted: audio/b7IS4C9QALc.mp3
+2026-03-24 06:41:52,757 - INFO - Extracting audio for Massive moves in gold, silver, oil, dollar, and stocks... What does it mean? (iPhVBI3eDWY)...
+2026-03-24 06:42:02,155 - INFO - Successfully extracted: audio/iPhVBI3eDWY.mp3
+2026-03-24 06:42:09,961 - INFO - Extracting audio for THE OIL COLLAPSE: Why Trump Just Triggered the S&P 500 Bounce! 🚨 BUT IT WON'T LAST (epw4z4ebXV8)...
+2026-03-24 06:42:23,171 - INFO - Successfully extracted: audio/epw4z4ebXV8.mp3
+2026-03-24 06:42:32,786 - INFO - Extracting audio for Military Strikes Paused — But I Don’t Trust This Bounce | Key Resistance Levels (NVDA, BTC, META) (pnM6stuCM2A)...
+2026-03-24 06:42:43,290 - INFO - Successfully extracted: audio/pnM6stuCM2A.mp3
+2026-03-24 06:42:50,359 - INFO - Extracting audio for The Next Inflation Wave Is Already Here | Prof G Markets (INOBmMhLIuA)...
+2026-03-24 06:43:26,978 - INFO - Successfully extracted: audio/INOBmMhLIuA.mp3
+2026-03-24 06:43:26,978 - INFO - Extraction complete. 14/14 audio files ready. (Time: 396.3s)
+2026-03-24 06:43:26,978 - INFO - 
+--- Phase 3: Summarization (Direct Audio) ---
+2026-03-24 06:43:28,357 - INFO - Generating Brief for Biggest Energy Shock In History To Break 'Fragile' Markets | Doomberg (RFtMIYG5aao)...
+2026-03-24 06:43:28,359 - INFO - AFC is enabled with max remote calls: 10.
+2026-03-24 06:43:28,897 - INFO - Generating Brief for LIVE Q & A WITH MILES FRANKLIN (klPXQWaq8C8)...
+2026-03-24 06:43:28,900 - INFO - AFC is enabled with max remote calls: 10.
+2026-03-24 06:43:29,198 - INFO - Generating Brief for Sara Imari Walker  "AI is Life" | Simulations, the Universe and the Origins of Life (DfiCs2oW0DQ)...
+2026-03-24 06:43:29,200 - INFO - AFC is enabled with max remote calls: 10.
+2026-03-24 06:43:45,807 - INFO - ✅ Brief successfully generated for Biggest Energy Shock In History To Break 'Fragile' Markets | Doomberg
+2026-03-24 06:43:47,166 - INFO - Generating Brief for FOG OF WAR TRAP? 🛑 Markets Reverse After Iran News, Oil Plunges, Travel Stocks Rip (vX3dNcxEf70)...
+2026-03-24 06:43:47,167 - INFO - AFC is enabled with max remote calls: 10.
+2026-03-24 06:43:52,911 - INFO - ✅ Brief successfully generated for FOG OF WAR TRAP? 🛑 Markets Reverse After Iran News, Oil Plunges, Travel Stocks Rip
+2026-03-24 06:43:53,336 - INFO - ✅ Brief successfully generated for Sara Imari Walker  "AI is Life" | Simulations, the Universe and the Origins of Life
+2026-03-24 06:43:54,225 - INFO - Generating Brief for THIS IS CRAZY: Silver Price to Rebound to $100 or Collapse Further? (VGC8F8sMxDw)...
+2026-03-24 06:43:54,226 - INFO - AFC is enabled with max remote calls: 10.
+2026-03-24 06:43:54,343 - INFO - Generating Brief for Food Inflation Set To Surge: Economist Warns How Bad It Could Get | Michael Madowitz (znKo364UwwQ)...
+2026-03-24 06:43:54,344 - INFO - AFC is enabled with max remote calls: 10.
+2026-03-24 06:44:00,240 - INFO - ✅ Brief successfully generated for LIVE Q & A WITH MILES FRANKLIN
+2026-03-24 06:44:01,529 - INFO - Generating Brief for Gold's Next Cycle Won't Need a Falling Dollar to Succeed: Gareth Soloway (OXR5WYlCP7E)...
+2026-03-24 06:44:01,530 - INFO - AFC is enabled with max remote calls: 10.
+2026-03-24 06:44:02,032 - INFO - ✅ Brief successfully generated for THIS IS CRAZY: Silver Price to Rebound to $100 or Collapse Further?
+2026-03-24 06:44:03,028 - INFO - Generating Brief for The Rise of the Grifter Economy | Office Hours (Natcl31gbKQ)...
+2026-03-24 06:44:03,029 - INFO - AFC is enabled with max remote calls: 10.
+2026-03-24 06:44:05,991 - INFO - ✅ Brief successfully generated for Food Inflation Set To Surge: Economist Warns How Bad It Could Get | Michael Madowitz
+2026-03-24 06:44:07,311 - INFO - Generating Brief for 'Uncertainty' in Markets Driving Major Opportunity in URANIUM For Contrarians (k7vptpqKw6Y)...
+2026-03-24 06:44:07,312 - INFO - AFC is enabled with max remote calls: 10.
+2026-03-24 06:44:09,619 - INFO - ✅ Brief successfully generated for The Rise of the Grifter Economy | Office Hours
+2026-03-24 06:44:10,508 - INFO - Generating Brief for I Mapped Where Every AI Agent Actually Sits. Most People Pick Wrong. (b7IS4C9QALc)...
+2026-03-24 06:44:10,509 - INFO - AFC is enabled with max remote calls: 10.
+2026-03-24 06:44:12,237 - INFO - ✅ Brief successfully generated for Gold's Next Cycle Won't Need a Falling Dollar to Succeed: Gareth Soloway
+2026-03-24 06:44:13,524 - INFO - Generating Brief for Massive moves in gold, silver, oil, dollar, and stocks... What does it mean? (iPhVBI3eDWY)...
+2026-03-24 06:44:13,525 - INFO - AFC is enabled with max remote calls: 10.
+2026-03-24 06:44:14,826 - ERROR - Schema parsing error for 'Uncertainty' in Markets Driving Major Opportunity in URANIUM For Contrarians: Expecting value: line 1 column 1391 (char 1390)
+2026-03-24 06:44:16,547 - INFO - Generating Brief for THE OIL COLLAPSE: Why Trump Just Triggered the S&P 500 Bounce! 🚨 BUT IT WON'T LAST (epw4z4ebXV8)...
+2026-03-24 06:44:16,548 - INFO - AFC is enabled with max remote calls: 10.
+2026-03-24 06:44:18,130 - ERROR - Schema parsing error for Massive moves in gold, silver, oil, dollar, and stocks... What does it mean?: Invalid \escape: line 1 column 749 (char 748)
+2026-03-24 06:44:18,858 - ERROR - Schema parsing error for I Mapped Where Every AI Agent Actually Sits. Most People Pick Wrong.: Expecting value: line 1 column 1089 (char 1088)
+2026-03-24 06:44:19,569 - INFO - Generating Brief for Military Strikes Paused — But I Don’t Trust This Bounce | Key Resistance Levels (NVDA, BTC, META) (pnM6stuCM2A)...
+2026-03-24 06:44:19,570 - INFO - AFC is enabled with max remote calls: 10.
+2026-03-24 06:44:21,405 - INFO - Generating Brief for The Next Inflation Wave Is Already Here | Prof G Markets (INOBmMhLIuA)...
+2026-03-24 06:44:21,406 - INFO - AFC is enabled with max remote calls: 10.
+2026-03-24 06:44:23,808 - INFO - ✅ Brief successfully generated for THE OIL COLLAPSE: Why Trump Just Triggered the S&P 500 Bounce! 🚨 BUT IT WON'T LAST
+2026-03-24 06:44:24,621 - ERROR - Schema parsing error for Military Strikes Paused — But I Don’t Trust This Bounce | Key Resistance Levels (NVDA, BTC, META): Expecting value: line 1 column 1381 (char 1380)
+2026-03-24 06:44:38,457 - INFO - ✅ Brief successfully generated for The Next Inflation Wave Is Already Here | Prof G Markets
+2026-03-24 06:44:38,458 - INFO - --- Phase 3: Category Synthesis (10 assets across categories) ---
+2026-03-24 06:44:38,458 - INFO - Analyzing 3 categories: General Financial Investing and Speculation, Artificial Intelligence, Precious Metals
+2026-03-24 06:44:38,458 - INFO - Processing Synthesis for sector: General Financial Investing and Speculation (7 assets)...
+2026-03-24 06:44:38,490 - INFO - AFC is enabled with max remote calls: 10.
+2026-03-24 06:44:39,567 - INFO - AFC is enabled with max remote calls: 10.
+2026-03-24 06:44:40,537 - INFO - AFC is enabled with max remote calls: 10.
+2026-03-24 06:44:41,594 - INFO - AFC is enabled with max remote calls: 10.
+2026-03-24 06:44:42,566 - INFO - AFC is enabled with max remote calls: 10.
+2026-03-24 06:44:43,803 - INFO - ✅ Synthesis complete for General Financial Investing and Speculation
+2026-03-24 06:44:43,803 - INFO - Processing Synthesis for sector: Artificial Intelligence (1 assets)...
+2026-03-24 06:44:43,804 - INFO - AFC is enabled with max remote calls: 10.
+2026-03-24 06:44:44,754 - INFO - ✅ Synthesis complete for Artificial Intelligence
+2026-03-24 06:44:44,754 - INFO - Processing Synthesis for sector: Precious Metals (2 assets)...
+2026-03-24 06:44:44,758 - INFO - AFC is enabled with max remote calls: 10.
+2026-03-24 06:44:46,004 - INFO - AFC is enabled with max remote calls: 10.
+2026-03-24 06:44:47,318 - INFO - ✅ Synthesis complete for Precious Metals
+2026-03-24 06:44:47,336 - INFO - Summarization complete. 10 briefs written to briefs/2026-03-24.md (Time: 80.3s)
+2026-03-24 06:44:48,394 - INFO - Email digest sent successfully to kwilliamson.mail@gmail.com.
+2026-03-24 06:44:48,882 - INFO - Email digest sent successfully to kochava72@gmail.com.
+2026-03-24 06:44:48,892 - INFO - Queue cleared.
+2026-03-24 06:44:48,899 - INFO - ==================================================
+2026-03-24 06:44:48,899 - INFO - Pipeline Execution Complete
+2026-03-24 06:44:48,899 - INFO - ==================================================
