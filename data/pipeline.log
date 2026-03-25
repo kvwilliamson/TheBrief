@@ -2715,3 +2715,148 @@
 2026-03-24 06:44:48,899 - INFO - ==================================================
 2026-03-24 06:44:48,899 - INFO - Pipeline Execution Complete
 2026-03-24 06:44:48,899 - INFO - ==================================================
+2026-03-25 06:36:35,371 - INFO - ==================================================
+2026-03-25 06:36:35,371 - INFO - Starting TheBrief Daily Pipeline
+2026-03-25 06:36:35,371 - INFO - ==================================================
+2026-03-25 06:36:35,371 - INFO - 
+--- Phase 1: Discovery ---
+2026-03-25 06:36:35,375 - INFO - Discovering videos published after 2026-03-24T06:36:35.375513+00:00 (24h lookback)
+2026-03-25 06:36:35,640 - INFO - Found 1 new potential videos on Wall Street Bullion .
+2026-03-25 06:36:35,705 - INFO - Found 1 new potential videos on Kitco NEWS.
+2026-03-25 06:36:35,772 - INFO - Found 1 new potential videos on GoldSilver .
+2026-03-25 06:36:35,888 - INFO - Found 1 new potential videos on AI News & Strategy Daily | Nate B Jones.
+2026-03-25 06:36:36,014 - INFO - Found 2 new potential videos on David Lin .
+2026-03-25 06:36:36,062 - INFO - Found 1 new potential videos on Felix & Friends (Goat Academy).
+2026-03-25 06:36:36,091 - INFO - Found 6 new potential videos on Verified Investing.
+2026-03-25 06:36:36,193 - INFO - Found 1 new potential videos on Adam Taggart | Thoughtful Money®.
+2026-03-25 06:36:36,211 - INFO - Found 1 new potential videos on Miles Franklin Media.
+2026-03-25 06:36:36,223 - INFO - Found 2 new potential videos on TheTechnicalTraders.
+2026-03-25 06:36:36,345 - INFO - Found 1 new potential videos on Matthew Berman.
+2026-03-25 06:36:36,381 - INFO - Found 1 new potential videos on Wes Roth.
+2026-03-25 06:36:36,433 - INFO - Found 4 new potential videos on The Prof G Pod – Scott Galloway.
+2026-03-25 06:36:36,441 - INFO - Found 1 new potential videos on CPM Group.
+2026-03-25 06:36:36,709 - INFO - Found 18 total long-form videos across all channels.
+2026-03-25 06:36:36,720 - INFO - Discovery complete. Added 18 new videos to queue.
+2026-03-25 06:36:36,720 - INFO - 
+--- Phase 2: Extraction ---
+2026-03-25 06:36:36,976 - INFO - yt-dlp version: 2026.03.17
+2026-03-25 06:36:37,326 - INFO - POT-related packages: bgutil-ytdlp-pot-provider 1.3.1
+2026-03-25 06:36:37,350 - INFO - bgutil HTTP server not available on port 4416 (will rely on cookies)
+2026-03-25 06:36:37,350 - INFO - Extracting audio for Claude just killed OpenClaw (0e1ZzerTq70)...
+2026-03-25 06:36:54,258 - INFO - Successfully extracted: audio/0e1ZzerTq70.mp3
+2026-03-25 06:37:00,225 - INFO - Extracting audio for CBO Director Warns Debt Will Surpass WWII Levels, Interest Rates To Spike | Phillip Swagel (ASm34vcYj5g)...
+2026-03-25 06:37:18,541 - INFO - Successfully extracted: audio/ASm34vcYj5g.mp3
+2026-03-25 06:37:28,827 - INFO - Extracting audio for Is the Fed Being Replaced? ‘Stablecoins Are the New System’ | E.B. Tucker & Andy Schectman (gk4YsRCrNE0)...
+2026-03-25 06:38:05,034 - INFO - Successfully extracted: audio/gk4YsRCrNE0.mp3
+2026-03-25 06:38:11,515 - INFO - Extracting audio for 2026 Gold Market Outlook: The Definitive Source for Gold Data and Insight (UUHFqhtDezM)...
+2026-03-25 06:38:58,532 - INFO - Successfully extracted: audio/UUHFqhtDezM.mp3
+2026-03-25 06:39:09,047 - INFO - Extracting audio for The 'Everything Bubble' Has Popped: Why Stocks Will Fall 50% In The Next Few Months - Harry Dent (aKALVEP4hRs)...
+2026-03-25 06:39:39,177 - INFO - Successfully extracted: audio/aKALVEP4hRs.mp3
+2026-03-25 06:39:47,301 - INFO - Extracting audio for MARKET AT THE BRINK! 🛑 Yields Hit New Highs, Trading the Crude Oil Reversal (nl-2doOsnko)...
+2026-03-25 06:40:01,896 - INFO - Successfully extracted: audio/nl-2doOsnko.mp3
+2026-03-25 06:40:13,510 - INFO - Extracting audio for Gold's Worst Crash Since 1983, Is This An Opportunity Or Trap? | Morgan Steckler (KhJ2KJe3KeQ)...
+2026-03-25 06:40:37,179 - INFO - Successfully extracted: audio/KhJ2KJe3KeQ.mp3
+2026-03-25 06:40:46,996 - INFO - Extracting audio for Brace Yourself! Andy Schectman EXPOSES the Shocking Truth About Silver Prices Ahead! (V14OrVnp8ik)...
+2026-03-25 06:41:02,403 - INFO - Successfully extracted: audio/V14OrVnp8ik.mp3
+2026-03-25 06:41:10,715 - INFO - Extracting audio for Hard Takeoff has started (mhoFqhLXc3g)...
+2026-03-25 06:41:23,434 - INFO - Successfully extracted: audio/mhoFqhLXc3g.mp3
+2026-03-25 06:41:30,304 - INFO - Extracting audio for Apple Doubles Down on China as Trump Blinks | China Decode (WARSIG9iq8A)...
+2026-03-25 06:41:56,658 - INFO - Successfully extracted: audio/WARSIG9iq8A.mp3
+2026-03-25 06:42:03,177 - INFO - Extracting audio for Here's The Latest Outlook From Lacy Hunt, Ed Dowd, Lyn Alden + A Dozen Other Experts (xgY6YMur5dc)...
+2026-03-25 06:42:19,074 - INFO - Successfully extracted: audio/xgY6YMur5dc.mp3
+2026-03-25 06:42:26,064 - INFO - Extracting audio for What to invest in now? (KzvXF8iWAM8)...
+2026-03-25 06:42:36,107 - INFO - Successfully extracted: audio/KzvXF8iWAM8.mp3
+2026-03-25 06:42:42,873 - INFO - Extracting audio for Gold Is Down — Here’s What History Says Happens Next (N6LZFVwqMQI)...
+2026-03-25 06:42:53,752 - INFO - Successfully extracted: audio/N6LZFVwqMQI.mp3
+2026-03-25 06:43:02,845 - INFO - Extracting audio for Nvidia Just Open-Sourced What OpenAI Wants You to Pay Consultants For. (7AO4w4Y_L24)...
+2026-03-25 06:43:20,006 - INFO - Successfully extracted: audio/7AO4w4Y_L24.mp3
+2026-03-25 06:43:29,050 - INFO - Extracting audio for RIGGED? $1.5B Insider Bet Placed 5 Min Before Trump Post! Latest Forecast on Markets, Warning! (4f4eag7QTLg)...
+2026-03-25 06:43:41,308 - INFO - Successfully extracted: audio/4f4eag7QTLg.mp3
+2026-03-25 06:43:47,736 - INFO - Extracting audio for The Uncomfortable Silver Truth (BkolED63RA0)...
+2026-03-25 06:44:06,437 - INFO - Successfully extracted: audio/BkolED63RA0.mp3
+2026-03-25 06:44:11,996 - INFO - Extracting audio for VOLATILITY EXPLOSION! 💣 4 High-Octane Trade Setups (MygmIEyywtY)...
+2026-03-25 06:44:24,509 - INFO - Successfully extracted: audio/MygmIEyywtY.mp3
+2026-03-25 06:44:32,839 - INFO - Extracting audio for $1T Moved on Iran “Talks” — Did They Even Happen? | Prof G Markets (_yyGgvqOMB8)...
+2026-03-25 06:44:50,219 - INFO - Successfully extracted: audio/_yyGgvqOMB8.mp3
+2026-03-25 06:44:50,220 - INFO - Extraction complete. 18/18 audio files ready. (Time: 492.9s)
+2026-03-25 06:44:50,220 - INFO - 
+--- Phase 3: Summarization (Direct Audio) ---
+2026-03-25 06:44:51,339 - INFO - Generating Brief for CBO Director Warns Debt Will Surpass WWII Levels, Interest Rates To Spike | Phillip Swagel (ASm34vcYj5g)...
+2026-03-25 06:44:51,341 - INFO - AFC is enabled with max remote calls: 10.
+2026-03-25 06:44:51,614 - INFO - Generating Brief for Is the Fed Being Replaced? ‘Stablecoins Are the New System’ | E.B. Tucker & Andy Schectman (gk4YsRCrNE0)...
+2026-03-25 06:44:51,615 - INFO - AFC is enabled with max remote calls: 10.
+2026-03-25 06:44:51,682 - INFO - Generating Brief for Claude just killed OpenClaw (0e1ZzerTq70)...
+2026-03-25 06:44:51,683 - INFO - AFC is enabled with max remote calls: 10.
+2026-03-25 06:45:03,589 - INFO - ✅ Brief successfully generated for Claude just killed OpenClaw
+2026-03-25 06:45:04,991 - ERROR - Schema parsing error for CBO Director Warns Debt Will Surpass WWII Levels, Interest Rates To Spike | Phillip Swagel: Invalid \escape: line 1 column 321 (char 320)
+2026-03-25 06:45:05,017 - INFO - Generating Brief for 2026 Gold Market Outlook: The Definitive Source for Gold Data and Insight (UUHFqhtDezM)...
+2026-03-25 06:45:05,018 - INFO - AFC is enabled with max remote calls: 10.
+2026-03-25 06:45:06,355 - INFO - Generating Brief for The 'Everything Bubble' Has Popped: Why Stocks Will Fall 50% In The Next Few Months - Harry Dent (aKALVEP4hRs)...
+2026-03-25 06:45:06,358 - INFO - AFC is enabled with max remote calls: 10.
+2026-03-25 06:45:17,711 - INFO - ✅ Brief successfully generated for The 'Everything Bubble' Has Popped: Why Stocks Will Fall 50% In The Next Few Months - Harry Dent
+2026-03-25 06:45:18,232 - INFO - ✅ Brief successfully generated for Is the Fed Being Replaced? ‘Stablecoins Are the New System’ | E.B. Tucker & Andy Schectman
+2026-03-25 06:45:18,468 - INFO - Generating Brief for MARKET AT THE BRINK! 🛑 Yields Hit New Highs, Trading the Crude Oil Reversal (nl-2doOsnko)...
+2026-03-25 06:45:18,469 - INFO - AFC is enabled with max remote calls: 10.
+2026-03-25 06:45:19,381 - INFO - Generating Brief for Gold's Worst Crash Since 1983, Is This An Opportunity Or Trap? | Morgan Steckler (KhJ2KJe3KeQ)...
+2026-03-25 06:45:19,382 - INFO - AFC is enabled with max remote calls: 10.
+2026-03-25 06:45:25,806 - INFO - ✅ Brief successfully generated for 2026 Gold Market Outlook: The Definitive Source for Gold Data and Insight
+2026-03-25 06:45:26,854 - INFO - Generating Brief for Brace Yourself! Andy Schectman EXPOSES the Shocking Truth About Silver Prices Ahead! (V14OrVnp8ik)...
+2026-03-25 06:45:26,855 - INFO - AFC is enabled with max remote calls: 10.
+2026-03-25 06:45:28,514 - INFO - ✅ Brief successfully generated for MARKET AT THE BRINK! 🛑 Yields Hit New Highs, Trading the Crude Oil Reversal
+2026-03-25 06:45:29,512 - INFO - Generating Brief for Hard Takeoff has started (mhoFqhLXc3g)...
+2026-03-25 06:45:29,513 - INFO - AFC is enabled with max remote calls: 10.
+2026-03-25 06:45:29,636 - INFO - ✅ Brief successfully generated for Gold's Worst Crash Since 1983, Is This An Opportunity Or Trap? | Morgan Steckler
+2026-03-25 06:45:30,657 - INFO - Generating Brief for Apple Doubles Down on China as Trump Blinks | China Decode (WARSIG9iq8A)...
+2026-03-25 06:45:30,658 - INFO - AFC is enabled with max remote calls: 10.
+2026-03-25 06:45:35,172 - INFO - ✅ Brief successfully generated for Brace Yourself! Andy Schectman EXPOSES the Shocking Truth About Silver Prices Ahead!
+2026-03-25 06:45:35,245 - INFO - ✅ Brief successfully generated for Hard Takeoff has started
+2026-03-25 06:45:35,952 - INFO - Generating Brief for What to invest in now? (KzvXF8iWAM8)...
+2026-03-25 06:45:35,953 - INFO - AFC is enabled with max remote calls: 10.
+2026-03-25 06:45:36,763 - INFO - Generating Brief for Here's The Latest Outlook From Lacy Hunt, Ed Dowd, Lyn Alden + A Dozen Other Experts (xgY6YMur5dc)...
+2026-03-25 06:45:36,764 - INFO - AFC is enabled with max remote calls: 10.
+2026-03-25 06:45:41,831 - ERROR - Schema parsing error for What to invest in now?: Expecting value: line 1 column 1204 (char 1203)
+2026-03-25 06:45:43,435 - INFO - Generating Brief for Gold Is Down — Here’s What History Says Happens Next (N6LZFVwqMQI)...
+2026-03-25 06:45:43,436 - INFO - AFC is enabled with max remote calls: 10.
+2026-03-25 06:45:44,684 - INFO - ✅ Brief successfully generated for Apple Doubles Down on China as Trump Blinks | China Decode
+2026-03-25 06:45:45,929 - INFO - Generating Brief for Nvidia Just Open-Sourced What OpenAI Wants You to Pay Consultants For. (7AO4w4Y_L24)...
+2026-03-25 06:45:45,930 - INFO - AFC is enabled with max remote calls: 10.
+2026-03-25 06:45:47,085 - INFO - ✅ Brief successfully generated for Here's The Latest Outlook From Lacy Hunt, Ed Dowd, Lyn Alden + A Dozen Other Experts
+2026-03-25 06:45:48,119 - INFO - Generating Brief for RIGGED? $1.5B Insider Bet Placed 5 Min Before Trump Post! Latest Forecast on Markets, Warning! (4f4eag7QTLg)...
+2026-03-25 06:45:48,120 - INFO - AFC is enabled with max remote calls: 10.
+2026-03-25 06:45:50,080 - INFO - ✅ Brief successfully generated for Gold Is Down — Here’s What History Says Happens Next
+2026-03-25 06:45:51,030 - INFO - Generating Brief for The Uncomfortable Silver Truth (BkolED63RA0)...
+2026-03-25 06:45:51,031 - INFO - AFC is enabled with max remote calls: 10.
+2026-03-25 06:45:53,684 - INFO - ✅ Brief successfully generated for Nvidia Just Open-Sourced What OpenAI Wants You to Pay Consultants For.
+2026-03-25 06:45:54,549 - INFO - Generating Brief for VOLATILITY EXPLOSION! 💣 4 High-Octane Trade Setups (MygmIEyywtY)...
+2026-03-25 06:45:54,550 - INFO - AFC is enabled with max remote calls: 10.
+2026-03-25 06:45:55,789 - INFO - ✅ Brief successfully generated for RIGGED? $1.5B Insider Bet Placed 5 Min Before Trump Post! Latest Forecast on Markets, Warning!
+2026-03-25 06:45:56,787 - INFO - Generating Brief for $1T Moved on Iran “Talks” — Did They Even Happen? | Prof G Markets (_yyGgvqOMB8)...
+2026-03-25 06:45:56,788 - INFO - AFC is enabled with max remote calls: 10.
+2026-03-25 06:46:01,982 - INFO - ✅ Brief successfully generated for The Uncomfortable Silver Truth
+2026-03-25 06:46:02,365 - INFO - ✅ Brief successfully generated for VOLATILITY EXPLOSION! 💣 4 High-Octane Trade Setups
+2026-03-25 06:46:06,064 - ERROR - Schema parsing error for $1T Moved on Iran “Talks” — Did They Even Happen? | Prof G Markets: Expecting value: line 1 column 915 (char 914)
+2026-03-25 06:46:06,439 - INFO - --- Phase 3: Category Synthesis (15 assets across categories) ---
+2026-03-25 06:46:06,440 - INFO - Analyzing 3 categories: Artificial Intelligence, General Financial Investing and Speculation, Precious Metals
+2026-03-25 06:46:06,440 - INFO - Processing Synthesis for sector: Artificial Intelligence (3 assets)...
+2026-03-25 06:46:06,467 - INFO - AFC is enabled with max remote calls: 10.
+2026-03-25 06:46:07,315 - INFO - AFC is enabled with max remote calls: 10.
+2026-03-25 06:46:08,345 - INFO - ✅ Synthesis complete for Artificial Intelligence
+2026-03-25 06:46:08,345 - INFO - Processing Synthesis for sector: General Financial Investing and Speculation (8 assets)...
+2026-03-25 06:46:08,354 - INFO - AFC is enabled with max remote calls: 10.
+2026-03-25 06:46:09,182 - INFO - AFC is enabled with max remote calls: 10.
+2026-03-25 06:46:10,079 - INFO - AFC is enabled with max remote calls: 10.
+2026-03-25 06:46:10,814 - INFO - AFC is enabled with max remote calls: 10.
+2026-03-25 06:46:11,678 - INFO - AFC is enabled with max remote calls: 10.
+2026-03-25 06:46:12,532 - INFO - ✅ Synthesis complete for General Financial Investing and Speculation
+2026-03-25 06:46:12,532 - INFO - Processing Synthesis for sector: Precious Metals (4 assets)...
+2026-03-25 06:46:12,537 - INFO - AFC is enabled with max remote calls: 10.
+2026-03-25 06:46:13,366 - INFO - AFC is enabled with max remote calls: 10.
+2026-03-25 06:46:14,181 - INFO - AFC is enabled with max remote calls: 10.
+2026-03-25 06:46:14,986 - INFO - ✅ Synthesis complete for Precious Metals
+2026-03-25 06:46:15,005 - INFO - Summarization complete. 15 briefs written to briefs/2026-03-25.md (Time: 84.7s)
+2026-03-25 06:46:16,142 - INFO - Email digest sent successfully to kwilliamson.mail@gmail.com.
+2026-03-25 06:46:16,762 - INFO - Email digest sent successfully to kochava72@gmail.com.
+2026-03-25 06:46:16,772 - INFO - Queue cleared.
+2026-03-25 06:46:16,778 - INFO - ==================================================
+2026-03-25 06:46:16,778 - INFO - Pipeline Execution Complete
+2026-03-25 06:46:16,778 - INFO - ==================================================
