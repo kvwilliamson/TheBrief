@@ -1,0 +1,777 @@
+{
+  "date": "2026-03-26",
+  "briefs": [
+    {
+      "episode_title": "Classic Manipulation Playbook? What\u2019s Behind Silver Collapse | Andy Schectman & Michelle Makori",
+      "channel": "Miles Franklin Media",
+      "duration_minutes": 52,
+      "podcast_date": "2026-03-26",
+      "processing_date": "2026-03-26",
+      "one_line_summary": "Gold and silver's price volatility amid geopolitical tension is discussed, highlighting market manipulation allegations and China's consistent precious metal accumulation.",
+      "core_claims": [
+        "Gold posted its worst week in decades during heightened geopolitical tensions.",
+        "Silver has collapsed nearly 50% from its January highs.",
+        "Jane Street built a massive position in the world's largest silver ETF, becoming the single largest holder.",
+        "China has been adding gold to its reserves for 16 straight months, importing silver at an 8-year high.",
+        "Deutsche Bank warns a war in Iran could test the petrodollar system's foundations, with Iran accepting Chinese yuan for oil shipments."
+      ],
+      "signal_strength": 8,
+      "themes": [
+        "market manipulation",
+        "precious metals",
+        "geopolitics",
+        "de-dollarization",
+        "china",
+        "silver"
+      ],
+      "positioning_implication": "Assess diversification strategies, considering geopolitical risks and shifts in global currency dynamics. Monitor central bank actions and emerging market behaviors related to precious metals.",
+      "time_horizon": "medium",
+      "shelf_life": "Medium",
+      "thumbnail": "https://i.ytimg.com/vi/Ydnj6u8B7ZI/hqdefault.jpg",
+      "video_url": "https://www.youtube.com/watch?v=Ydnj6u8B7ZI",
+      "cluster_id": 0,
+      "category": "Precious Metals"
+    },
+    {
+      "episode_title": "Is Gold\u2019s Selloff Over? Biggest Shift Since 2008, Massive Inflation Ahead | Florian Grummes",
+      "channel": "David Lin",
+      "duration_minutes": 45,
+      "podcast_date": "2026-03-26",
+      "processing_date": "2026-03-26",
+      "one_line_summary": "Gold's pullback is a healthy correction in a bull market, though short-term caution is advised amidst potential recessionary pressures and an unclear end to crypto winter.",
+      "core_claims": [
+        "Gold initially sold off with other assets during a market panic, but is now showing signs of recovery.",
+        "Iran denied negotiations with Trump, complicating the assessment of global stability and market reactions.",
+        "The commodity to stock ratio suggests a significant shift, with commodities expected to outperform stocks in the coming years.",
+        "Rebuilding oil and gas facilities in Qatar will take 3-5 years, impacting long-term supply.",
+        "Bitcoin has not sold off like gold over the last few weeks and has been moving sideways. In a crisis ex-pat crypto investors move funds out of Dubai.",
+        "Bitcoin and crypto have an advantage against gold: Money can be moved very fast."
+      ],
+      "signal_strength": 7,
+      "themes": [
+        "gold",
+        "bitcoin",
+        "commodities",
+        "inflation",
+        "geopolitics",
+        "market analysis"
+      ],
+      "positioning_implication": "Exercise caution in the short term but bias toward long-term commodity exposure, especially gold, due to inflationary pressures and geopolitical instability; monitor potential risks in the stock market and crypto.",
+      "time_horizon": "medium",
+      "shelf_life": "Medium",
+      "thumbnail": "https://i.ytimg.com/vi/K3lGLUeSwbw/hqdefault.jpg",
+      "video_url": "https://www.youtube.com/watch?v=K3lGLUeSwbw",
+      "cluster_id": 0,
+      "category": "General Financial Investing and Speculation"
+    },
+    {
+      "episode_title": "THE \"DEEP SEEK\" MOMENT \ud83d\udea8 Why S&P 500 Leaders are at Risk",
+      "channel": "Verified Investing",
+      "duration_minutes": 21,
+      "podcast_date": "2026-03-26",
+      "processing_date": "2026-03-26",
+      "one_line_summary": "Google's new AI memory compression tech poses a risk to memory-dependent tech sector leaders.",
+      "core_claims": [
+        "The S&P 500 is in a consolidation phase but remains above a critical pivot point.",
+        "IWM is showing relative strength compared to NASDAQ and S&P 500.",
+        "Google's new 'TurboQuant' AI memory compression tech cuts memory usage by six times or more, but is not open source.",
+        "Nvidia has broken key trendlines, indicating potential downward pressure if it remains below $185.50.",
+        "Micron is forming a narrow body bar, indicating potential to re-attack the 50% area of the parallel around $406.66."
+      ],
+      "signal_strength": 8,
+      "themes": [
+        "market analysis",
+        "tech disruption",
+        "artificial intelligence",
+        "semiconductors",
+        "commodities trading"
+      ],
+      "positioning_implication": "Reduce exposure to memory-dependent tech companies vulnerable to AI-driven efficiency improvements; monitor Nvidia's trendline for potential downside risk.",
+      "time_horizon": "medium",
+      "shelf_life": "Medium",
+      "thumbnail": "https://i.ytimg.com/vi/1thP_aCbp0E/hqdefault.jpg",
+      "video_url": "https://www.youtube.com/watch?v=1thP_aCbp0E",
+      "cluster_id": 2,
+      "category": "General Financial Investing and Speculation"
+    },
+    {
+      "episode_title": "OpenAI just killed SORA",
+      "channel": "Wes Roth",
+      "duration_minutes": 4,
+      "podcast_date": "2026-03-26",
+      "processing_date": "2024-04-02",
+      "one_line_summary": "OpenAI pivots SORA from consumer video app to world simulation for robot training, impacting economic automation.",
+      "core_claims": [
+        "OpenAI is shutting down SORA as a consumer video app.",
+        "SORA's new mission focuses on building systems that understand the world by simulating environments.",
+        "OpenAI aims to simulate the world for training robots using a physics simulation engine.",
+        "OpenAI's new models will automate a lot of the economy."
+      ],
+      "signal_strength": 8,
+      "themes": [
+        "artificial intelligence",
+        "robotics",
+        "economic automation",
+        "video generation",
+        "simulation"
+      ],
+      "positioning_implication": "Reassess strategies for content creation and automation in light of AI's shift towards robotics and world simulation. Economic models should incorporate accelerated automation effects.",
+      "time_horizon": "medium",
+      "shelf_life": "Medium",
+      "thumbnail": "https://i.ytimg.com/vi/osSTRP4_o18/hqdefault.jpg",
+      "video_url": "https://www.youtube.com/watch?v=osSTRP4_o18",
+      "cluster_id": 0,
+      "category": "Artificial Intelligence"
+    },
+    {
+      "episode_title": "Ignore Short Term NOISE: Bullish Trends Driving GOLD 'Firmly Intact'",
+      "channel": "Commodity Culture",
+      "duration_minutes": 27,
+      "podcast_date": "2026-03-26",
+      "processing_date": "2026-03-26",
+      "one_line_summary": "Despite short-term fluctuations due to geopolitical events and Fed policy, long-term drivers for gold, like diversification from the US dollar, remain strong.",
+      "core_claims": [
+        "Gold is down around 14% over the last month but is still up well over 100% over the past two years.",
+        "Central banks' gold buying slowed in January due to rapid price shock, but accumulation should continue long-term.",
+        "The Fed holding rates steady is a short-term headwind for gold, while historically, gold remains a long-term store of value.",
+        "US Gold Mining preliminary economic assessment outlines a 15-year mine life, with peak production in the first three years driving payback to 2.1 years.",
+        "The state of Alaska allocated an $8.5 million check to design a road leading directly to the future mine gate at Whistler.",
+        "US Gold Mining is exploring targets in the Whistler orbit for district-scale exploration expansion, focusing on growing the project's value."
+      ],
+      "signal_strength": 7,
+      "themes": [
+        "gold market",
+        "central banks",
+        "fed policy",
+        "mining projects",
+        "alaska",
+        "us gold mining"
+      ],
+      "positioning_implication": "Maintain a long-term bullish outlook on gold, despite short-term volatility.  Focus on companies with strong exploration potential and favorable jurisdictions.",
+      "time_horizon": "long",
+      "shelf_life": "Medium",
+      "thumbnail": "https://i.ytimg.com/vi/7wG1Wziz9lE/hqdefault.jpg",
+      "video_url": "https://www.youtube.com/watch?v=7wG1Wziz9lE",
+      "cluster_id": 0,
+      "category": "Precious Metals"
+    },
+    {
+      "episode_title": "Why Governments Will Never Let Physical Gold Be Money Again | Saifedean Ammous",
+      "channel": "Kitco NEWS",
+      "duration_minutes": 60,
+      "podcast_date": "2026-03-26",
+      "processing_date": "2026-03-26",
+      "one_line_summary": "Governments are unlikely to reinstate physical gold as money due to its inherent limits on monetary control, while Bitcoin serves as a superior digital alternative to gold's monetary properties.",
+      "core_claims": [
+        "Institutional adoption of Bitcoin is proceeding faster than expected, suggesting that a significant portion of individuals will engage with Bitcoin through institutional channels rather than independently.",
+        "Governments are unlikely to back fiat currencies with gold or Bitcoin due to political incentives to maintain inflationary policies and the perception of a 'free lunch'.",
+        "A gold peg would require dollar revaluation, but restoring true monetary discipline and protecting the dollar's credibility requires a non-Ponzi asset backing.",
+        "The demand for Bitcoin as a hedge against inflation exceeds the capacity of its blockchain, necessitating second-layer solutions and institutional adoption to broaden access."
+      ],
+      "signal_strength": 9,
+      "themes": [
+        "bitcoin",
+        "gold standard",
+        "monetary policy",
+        "inflation",
+        "government control",
+        "economic warfare"
+      ],
+      "positioning_implication": "Favor decentralized, verifiable assets with limited government control; monitor geopolitical stressors that expose fiat vulnerabilities.",
+      "time_horizon": "long",
+      "shelf_life": "Medium",
+      "thumbnail": "https://i.ytimg.com/vi/DbPuG16U7mg/hqdefault.jpg",
+      "video_url": "https://www.youtube.com/watch?v=DbPuG16U7mg",
+      "cluster_id": 4,
+      "category": "General Financial Investing and Speculation"
+    },
+    {
+      "episode_title": "Tobi L\u00fctke Made a 20-Year-Old Codebase 53% Faster Overnight. Here's How.",
+      "channel": "AI News & Strategy Daily | Nate B Jones",
+      "duration_minutes": 26,
+      "podcast_date": "2026-03-26",
+      "processing_date": "2024-03-27",
+      "one_line_summary": "Different AI agent species require specific configurations to maximize efficacy across diverse tasks, underscoring the critical need for targeted deployment.",
+      "core_claims": [
+        "Sophisticated AI agents diverge into at least four distinct types, each suited for specific production use cases.",
+        "Coding harnesses serve as single-LLM agents working with files and tools to accomplish coding work, often used by individual contributors.",
+        "Dark factories involve fully autonomous systems where software emerges from a specification with minimal human intervention.",
+        "Auto-research frameworks descend from classical machine learning, automating AI agent optimization for a given metric (e.g., conversion rate).",
+        "Orchestration frameworks, commonly used in big companies, involve multiple LLMs aligned to hand work over under a centralized framework.",
+        "The key to successful coding harnesses lies in well-decomposed work, allowing distribution among single-threaded agents.",
+        "Simple agent scaling works best, avoiding excessive management layers for effective performance."
+      ],
+      "signal_strength": 8,
+      "themes": [
+        "ai agents",
+        "llm",
+        "coding",
+        "automation",
+        "machine learning",
+        "orchestration"
+      ],
+      "positioning_implication": "Strategically align AI agent types with task requirements to avoid mismatched deployments. Prioritize simplicity and well-defined metrics in AI agent system design.",
+      "time_horizon": "medium",
+      "shelf_life": "Medium",
+      "thumbnail": "https://i.ytimg.com/vi/YpPcDHc3e9U/hqdefault.jpg",
+      "video_url": "https://www.youtube.com/watch?v=YpPcDHc3e9U",
+      "cluster_id": 0,
+      "category": "Artificial Intelligence"
+    },
+    {
+      "episode_title": "Is Cuba Next? | Mario Braga, RANE",
+      "channel": "Adam Taggart | Thoughtful Money\u00ae",
+      "duration_minutes": 69,
+      "podcast_date": "2026-03-26",
+      "processing_date": "2026-03-26",
+      "one_line_summary": "Cuba's energy dependence and political history shape its current crisis and potential future relations with the US.",
+      "core_claims": [
+        "The US embargo has been in place since the 1960s due to the socialist revolution led by Fidel Castro.",
+        "The collapse of the Soviet Union in the 1990s resulted in Cuba losing its main ally and facing a significant economic crisis.",
+        "Venezuela's socialist revolution in the late 1990s, led by Hugo Ch\u00e1vez, provided Cuba with much-needed oil in exchange for doctors and intelligence services.",
+        "Cuba only produces about 40% of the oil it consumes, relying on imports, primarily from Venezuela and previously from Russia and Mexico.",
+        "In 2025, Mexico overtook Venezuela as the main provider of oil to Cuba due to Venezuela's economic crisis.",
+        "In the last year and a half, there have been seven widespread blackouts across Cuba due to the energy crisis."
+      ],
+      "signal_strength": 7,
+      "themes": [
+        "geopolitics",
+        "cuba",
+        "us foreign policy",
+        "latin america",
+        "energy crisis",
+        "economic sanctions"
+      ],
+      "positioning_implication": "Monitor US policy shifts regarding Cuba, and recognize the potential for both economic and political instability in the region.",
+      "time_horizon": "medium",
+      "shelf_life": "Medium",
+      "thumbnail": "https://i.ytimg.com/vi/nFxBIZiqnik/hqdefault.jpg",
+      "video_url": "https://www.youtube.com/watch?v=nFxBIZiqnik",
+      "cluster_id": 3,
+      "category": "General Financial Investing and Speculation"
+    },
+    {
+      "episode_title": "Bullish Market Bounce Expected, But Head And Shoulders Sends SCARY Signal",
+      "channel": "Verified Investing",
+      "duration_minutes": 34,
+      "podcast_date": "2026-03-26",
+      "processing_date": "2026-03-26",
+      "one_line_summary": "A multi-week market bounce is expected before a potential head and shoulders pattern signals further decline.",
+      "core_claims": [
+        "Positive news regarding US-Iran relations triggered a futures surge, meeting short-term resistance.",
+        "Overnight S&P futures action has been confined between resistance from the initial surge high and support from the first pullback low.",
+        "Technical analysis suggests a one to two week bounce due to a trendline zone and Fibonacci retracement aligning at the 23.6% level.",
+        "If the market forms a rounded top, bounces, then rolls over, it could create a bearish head and shoulders pattern, targeting a return to the 6800 range.",
+        "Bitcoin remains bullish within its current parallel channel but breaking below $69,000 would signal a bearish pattern emerging."
+      ],
+      "signal_strength": 7,
+      "themes": [
+        "technical analysis",
+        "market bounce",
+        "bearish patterns",
+        "oil prices",
+        "cryptocurrency",
+        "economic slowdown"
+      ],
+      "positioning_implication": "Expect short-term market gains, but hedge against a potential reversal toward lower targets; monitor key levels in oil and crypto for shifts in momentum.",
+      "time_horizon": "short",
+      "shelf_life": "Medium",
+      "thumbnail": "https://i.ytimg.com/vi/tjrcgV0KStk/hqdefault.jpg",
+      "video_url": "https://www.youtube.com/watch?v=tjrcgV0KStk",
+      "cluster_id": 0,
+      "category": "General Financial Investing and Speculation"
+    },
+    {
+      "episode_title": "Is the Oil Crisis About to Break Global Supply Chains? | Prof G Markets",
+      "channel": "The Prof G Pod \u2013 Scott Galloway",
+      "duration_minutes": 36,
+      "podcast_date": "2026-03-26",
+      "processing_date": "2026-03-26",
+      "one_line_summary": "Geopolitical tensions around the Strait of Hormuz and the Red Sea significantly disrupt global supply chains, leading to increased costs and transit times.",
+      "core_claims": [
+        "The Strait of Hormuz closure for 25 days impacts global energy exports, raising fertilizer prices by 25%, gas by 30%, and diesel by 40%.",
+        "War risk insurance premiums for vessels have increased by 50%, and oil tanker shipping costs have surged by as much as 200%.",
+        "Air cargo prices from Asia to Europe have doubled due to Middle Eastern airline capacity being taken offline.",
+        "Ocean freight prices have increased by 50% due to container ships rerouting around the tip of Africa to avoid the Red Sea.",
+        "United Airlines projects jet fuel price increases will cost them $11 billion, potentially increasing plane ticket prices by 30%.",
+        "0.6% of the world's container ships are stuck inside the Strait of Hormuz."
+      ],
+      "signal_strength": 8,
+      "themes": [
+        "supply chains",
+        "oil crisis",
+        "geopolitics",
+        "shipping",
+        "freight costs",
+        "energy markets"
+      ],
+      "positioning_implication": "Businesses should prepare for increased costs and longer delivery times due to ongoing geopolitical disruptions in key shipping lanes. Strategic diversification of supply chains and regional partnerships may mitigate risks.",
+      "time_horizon": "medium",
+      "shelf_life": "Medium",
+      "thumbnail": "https://i.ytimg.com/vi/8Qm9fGCdckk/hqdefault.jpg",
+      "video_url": "https://www.youtube.com/watch?v=8Qm9fGCdckk",
+      "cluster_id": 1,
+      "category": "General Financial Investing and Speculation"
+    }
+  ],
+  "category_intelligence": {
+    "Precious Metals": {
+      "name": "Precious Metals",
+      "meta_summary": "",
+      "convergence_score": 0.0,
+      "percentile": 0.0,
+      "regime_state": "Neutral",
+      "clusters": [
+        {
+          "id": 0,
+          "name": "Geopolitical Tension Intensifying Gold's De-Dollarization Narrative",
+          "description": "This narrative highlights how geopolitical instability and alleged market manipulation are accelerating gold's role as a hedge against dollar dominance, particularly with China's ongoing accumulation.\n\u26a1 Convergence Alert: Overlap detected with [Markets: Recession Fears Intensifying Gold Correction] in General Financial Investing and Speculation (0.79 sim)",
+          "bias": "constructive",
+          "regime": "Accelerating",
+          "size": 2,
+          "strength": 1.3271575470201997,
+          "coherence": 0.6635787735100999,
+          "channels": [
+            "Commodity Culture",
+            "Miles Franklin Media"
+          ],
+          "avg_signal": 7.5,
+          "briefs": [
+            {
+              "episode_title": "Classic Manipulation Playbook? What\u2019s Behind Silver Collapse | Andy Schectman & Michelle Makori",
+              "channel": "Miles Franklin Media",
+              "duration_minutes": 52,
+              "podcast_date": "2026-03-26",
+              "processing_date": "2026-03-26",
+              "one_line_summary": "Gold and silver's price volatility amid geopolitical tension is discussed, highlighting market manipulation allegations and China's consistent precious metal accumulation.",
+              "core_claims": [
+                "Gold posted its worst week in decades during heightened geopolitical tensions.",
+                "Silver has collapsed nearly 50% from its January highs.",
+                "Jane Street built a massive position in the world's largest silver ETF, becoming the single largest holder.",
+                "China has been adding gold to its reserves for 16 straight months, importing silver at an 8-year high.",
+                "Deutsche Bank warns a war in Iran could test the petrodollar system's foundations, with Iran accepting Chinese yuan for oil shipments."
+              ],
+              "signal_strength": 8,
+              "themes": [
+                "market manipulation",
+                "precious metals",
+                "geopolitics",
+                "de-dollarization",
+                "china",
+                "silver"
+              ],
+              "positioning_implication": "Assess diversification strategies, considering geopolitical risks and shifts in global currency dynamics. Monitor central bank actions and emerging market behaviors related to precious metals.",
+              "time_horizon": "medium",
+              "shelf_life": "Medium",
+              "thumbnail": "https://i.ytimg.com/vi/Ydnj6u8B7ZI/hqdefault.jpg",
+              "video_url": "https://www.youtube.com/watch?v=Ydnj6u8B7ZI",
+              "cluster_id": 0,
+              "category": "Precious Metals"
+            },
+            {
+              "episode_title": "Ignore Short Term NOISE: Bullish Trends Driving GOLD 'Firmly Intact'",
+              "channel": "Commodity Culture",
+              "duration_minutes": 27,
+              "podcast_date": "2026-03-26",
+              "processing_date": "2026-03-26",
+              "one_line_summary": "Despite short-term fluctuations due to geopolitical events and Fed policy, long-term drivers for gold, like diversification from the US dollar, remain strong.",
+              "core_claims": [
+                "Gold is down around 14% over the last month but is still up well over 100% over the past two years.",
+                "Central banks' gold buying slowed in January due to rapid price shock, but accumulation should continue long-term.",
+                "The Fed holding rates steady is a short-term headwind for gold, while historically, gold remains a long-term store of value.",
+                "US Gold Mining preliminary economic assessment outlines a 15-year mine life, with peak production in the first three years driving payback to 2.1 years.",
+                "The state of Alaska allocated an $8.5 million check to design a road leading directly to the future mine gate at Whistler.",
+                "US Gold Mining is exploring targets in the Whistler orbit for district-scale exploration expansion, focusing on growing the project's value."
+              ],
+              "signal_strength": 7,
+              "themes": [
+                "gold market",
+                "central banks",
+                "fed policy",
+                "mining projects",
+                "alaska",
+                "us gold mining"
+              ],
+              "positioning_implication": "Maintain a long-term bullish outlook on gold, despite short-term volatility.  Focus on companies with strong exploration potential and favorable jurisdictions.",
+              "time_horizon": "long",
+              "shelf_life": "Medium",
+              "thumbnail": "https://i.ytimg.com/vi/7wG1Wziz9lE/hqdefault.jpg",
+              "video_url": "https://www.youtube.com/watch?v=7wG1Wziz9lE",
+              "cluster_id": 0,
+              "category": "Precious Metals"
+            }
+          ]
+        }
+      ],
+      "should_generate": false
+    },
+    "General Financial Investing and Speculation": {
+      "name": "General Financial Investing and Speculation",
+      "meta_summary": "",
+      "convergence_score": 0.0,
+      "percentile": 0.0,
+      "regime_state": "Neutral",
+      "clusters": [
+        {
+          "id": 0,
+          "name": "Markets: Recession Fears Intensifying Gold Correction",
+          "description": "Markets face a multi-week bounce before a potential head and shoulders pattern signals further decline, while gold's pullback is a healthy correction amidst recessionary pressures.",
+          "bias": "defensive",
+          "regime": "Accelerating",
+          "size": 2,
+          "strength": 1.4100701921340193,
+          "coherence": 0.7050350960670096,
+          "channels": [
+            "Verified Investing",
+            "David Lin"
+          ],
+          "avg_signal": 7.0,
+          "briefs": [
+            {
+              "episode_title": "Is Gold\u2019s Selloff Over? Biggest Shift Since 2008, Massive Inflation Ahead | Florian Grummes",
+              "channel": "David Lin",
+              "duration_minutes": 45,
+              "podcast_date": "2026-03-26",
+              "processing_date": "2026-03-26",
+              "one_line_summary": "Gold's pullback is a healthy correction in a bull market, though short-term caution is advised amidst potential recessionary pressures and an unclear end to crypto winter.",
+              "core_claims": [
+                "Gold initially sold off with other assets during a market panic, but is now showing signs of recovery.",
+                "Iran denied negotiations with Trump, complicating the assessment of global stability and market reactions.",
+                "The commodity to stock ratio suggests a significant shift, with commodities expected to outperform stocks in the coming years.",
+                "Rebuilding oil and gas facilities in Qatar will take 3-5 years, impacting long-term supply.",
+                "Bitcoin has not sold off like gold over the last few weeks and has been moving sideways. In a crisis ex-pat crypto investors move funds out of Dubai.",
+                "Bitcoin and crypto have an advantage against gold: Money can be moved very fast."
+              ],
+              "signal_strength": 7,
+              "themes": [
+                "gold",
+                "bitcoin",
+                "commodities",
+                "inflation",
+                "geopolitics",
+                "market analysis"
+              ],
+              "positioning_implication": "Exercise caution in the short term but bias toward long-term commodity exposure, especially gold, due to inflationary pressures and geopolitical instability; monitor potential risks in the stock market and crypto.",
+              "time_horizon": "medium",
+              "shelf_life": "Medium",
+              "thumbnail": "https://i.ytimg.com/vi/K3lGLUeSwbw/hqdefault.jpg",
+              "video_url": "https://www.youtube.com/watch?v=K3lGLUeSwbw",
+              "cluster_id": 0,
+              "category": "General Financial Investing and Speculation"
+            },
+            {
+              "episode_title": "Bullish Market Bounce Expected, But Head And Shoulders Sends SCARY Signal",
+              "channel": "Verified Investing",
+              "duration_minutes": 34,
+              "podcast_date": "2026-03-26",
+              "processing_date": "2026-03-26",
+              "one_line_summary": "A multi-week market bounce is expected before a potential head and shoulders pattern signals further decline.",
+              "core_claims": [
+                "Positive news regarding US-Iran relations triggered a futures surge, meeting short-term resistance.",
+                "Overnight S&P futures action has been confined between resistance from the initial surge high and support from the first pullback low.",
+                "Technical analysis suggests a one to two week bounce due to a trendline zone and Fibonacci retracement aligning at the 23.6% level.",
+                "If the market forms a rounded top, bounces, then rolls over, it could create a bearish head and shoulders pattern, targeting a return to the 6800 range.",
+                "Bitcoin remains bullish within its current parallel channel but breaking below $69,000 would signal a bearish pattern emerging."
+              ],
+              "signal_strength": 7,
+              "themes": [
+                "technical analysis",
+                "market bounce",
+                "bearish patterns",
+                "oil prices",
+                "cryptocurrency",
+                "economic slowdown"
+              ],
+              "positioning_implication": "Expect short-term market gains, but hedge against a potential reversal toward lower targets; monitor key levels in oil and crypto for shifts in momentum.",
+              "time_horizon": "short",
+              "shelf_life": "Medium",
+              "thumbnail": "https://i.ytimg.com/vi/tjrcgV0KStk/hqdefault.jpg",
+              "video_url": "https://www.youtube.com/watch?v=tjrcgV0KStk",
+              "cluster_id": 0,
+              "category": "General Financial Investing and Speculation"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "name": "AI Memory Compression Eroding Semiconductor Leadership",
+          "description": "Google's AI memory compression technology threatens established semiconductor firms reliant on memory-intensive applications, potentially shifting market power.",
+          "bias": "defensive",
+          "regime": "Emerging",
+          "size": 1,
+          "strength": 1.0,
+          "coherence": 1.0,
+          "channels": [
+            "Verified Investing"
+          ],
+          "avg_signal": 8.0,
+          "briefs": [
+            {
+              "episode_title": "THE \"DEEP SEEK\" MOMENT \ud83d\udea8 Why S&P 500 Leaders are at Risk",
+              "channel": "Verified Investing",
+              "duration_minutes": 21,
+              "podcast_date": "2026-03-26",
+              "processing_date": "2026-03-26",
+              "one_line_summary": "Google's new AI memory compression tech poses a risk to memory-dependent tech sector leaders.",
+              "core_claims": [
+                "The S&P 500 is in a consolidation phase but remains above a critical pivot point.",
+                "IWM is showing relative strength compared to NASDAQ and S&P 500.",
+                "Google's new 'TurboQuant' AI memory compression tech cuts memory usage by six times or more, but is not open source.",
+                "Nvidia has broken key trendlines, indicating potential downward pressure if it remains below $185.50.",
+                "Micron is forming a narrow body bar, indicating potential to re-attack the 50% area of the parallel around $406.66."
+              ],
+              "signal_strength": 8,
+              "themes": [
+                "market analysis",
+                "tech disruption",
+                "artificial intelligence",
+                "semiconductors",
+                "commodities trading"
+              ],
+              "positioning_implication": "Reduce exposure to memory-dependent tech companies vulnerable to AI-driven efficiency improvements; monitor Nvidia's trendline for potential downside risk.",
+              "time_horizon": "medium",
+              "shelf_life": "Medium",
+              "thumbnail": "https://i.ytimg.com/vi/1thP_aCbp0E/hqdefault.jpg",
+              "video_url": "https://www.youtube.com/watch?v=1thP_aCbp0E",
+              "cluster_id": 2,
+              "category": "General Financial Investing and Speculation"
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "name": "Bitcoin Converging on Gold's Monetary Role",
+          "description": "This narrative suggests Bitcoin is increasingly viewed as a viable digital alternative to gold, challenging traditional monetary systems.",
+          "bias": "constructive",
+          "regime": "Emerging",
+          "size": 1,
+          "strength": 1.0,
+          "coherence": 1.0,
+          "channels": [
+            "Kitco NEWS"
+          ],
+          "avg_signal": 9.0,
+          "briefs": [
+            {
+              "episode_title": "Why Governments Will Never Let Physical Gold Be Money Again | Saifedean Ammous",
+              "channel": "Kitco NEWS",
+              "duration_minutes": 60,
+              "podcast_date": "2026-03-26",
+              "processing_date": "2026-03-26",
+              "one_line_summary": "Governments are unlikely to reinstate physical gold as money due to its inherent limits on monetary control, while Bitcoin serves as a superior digital alternative to gold's monetary properties.",
+              "core_claims": [
+                "Institutional adoption of Bitcoin is proceeding faster than expected, suggesting that a significant portion of individuals will engage with Bitcoin through institutional channels rather than independently.",
+                "Governments are unlikely to back fiat currencies with gold or Bitcoin due to political incentives to maintain inflationary policies and the perception of a 'free lunch'.",
+                "A gold peg would require dollar revaluation, but restoring true monetary discipline and protecting the dollar's credibility requires a non-Ponzi asset backing.",
+                "The demand for Bitcoin as a hedge against inflation exceeds the capacity of its blockchain, necessitating second-layer solutions and institutional adoption to broaden access."
+              ],
+              "signal_strength": 9,
+              "themes": [
+                "bitcoin",
+                "gold standard",
+                "monetary policy",
+                "inflation",
+                "government control",
+                "economic warfare"
+              ],
+              "positioning_implication": "Favor decentralized, verifiable assets with limited government control; monitor geopolitical stressors that expose fiat vulnerabilities.",
+              "time_horizon": "long",
+              "shelf_life": "Medium",
+              "thumbnail": "https://i.ytimg.com/vi/DbPuG16U7mg/hqdefault.jpg",
+              "video_url": "https://www.youtube.com/watch?v=DbPuG16U7mg",
+              "cluster_id": 4,
+              "category": "General Financial Investing and Speculation"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "name": "Cuba-US Relations: Energy Crisis Intensifying",
+          "description": "Cuba's energy vulnerability and political legacy are intensifying the crisis and shaping potential US relations.",
+          "bias": "neutral",
+          "regime": "Emerging",
+          "size": 1,
+          "strength": 1.0,
+          "coherence": 1.0,
+          "channels": [
+            "Adam Taggart | Thoughtful Money\u00ae"
+          ],
+          "avg_signal": 7.0,
+          "briefs": [
+            {
+              "episode_title": "Is Cuba Next? | Mario Braga, RANE",
+              "channel": "Adam Taggart | Thoughtful Money\u00ae",
+              "duration_minutes": 69,
+              "podcast_date": "2026-03-26",
+              "processing_date": "2026-03-26",
+              "one_line_summary": "Cuba's energy dependence and political history shape its current crisis and potential future relations with the US.",
+              "core_claims": [
+                "The US embargo has been in place since the 1960s due to the socialist revolution led by Fidel Castro.",
+                "The collapse of the Soviet Union in the 1990s resulted in Cuba losing its main ally and facing a significant economic crisis.",
+                "Venezuela's socialist revolution in the late 1990s, led by Hugo Ch\u00e1vez, provided Cuba with much-needed oil in exchange for doctors and intelligence services.",
+                "Cuba only produces about 40% of the oil it consumes, relying on imports, primarily from Venezuela and previously from Russia and Mexico.",
+                "In 2025, Mexico overtook Venezuela as the main provider of oil to Cuba due to Venezuela's economic crisis.",
+                "In the last year and a half, there have been seven widespread blackouts across Cuba due to the energy crisis."
+              ],
+              "signal_strength": 7,
+              "themes": [
+                "geopolitics",
+                "cuba",
+                "us foreign policy",
+                "latin america",
+                "energy crisis",
+                "economic sanctions"
+              ],
+              "positioning_implication": "Monitor US policy shifts regarding Cuba, and recognize the potential for both economic and political instability in the region.",
+              "time_horizon": "medium",
+              "shelf_life": "Medium",
+              "thumbnail": "https://i.ytimg.com/vi/nFxBIZiqnik/hqdefault.jpg",
+              "video_url": "https://www.youtube.com/watch?v=nFxBIZiqnik",
+              "cluster_id": 3,
+              "category": "General Financial Investing and Speculation"
+            }
+          ]
+        },
+        {
+          "id": 1,
+          "name": "Strait of Hormuz Tensions Intensifying Supply Chain Strain",
+          "description": "Geopolitical risks in key maritime chokepoints are exacerbating existing global supply chain vulnerabilities, driving up costs and delivery times.",
+          "bias": "defensive",
+          "regime": "Emerging",
+          "size": 1,
+          "strength": 1.0,
+          "coherence": 1.0,
+          "channels": [
+            "The Prof G Pod \u2013 Scott Galloway"
+          ],
+          "avg_signal": 8.0,
+          "briefs": [
+            {
+              "episode_title": "Is the Oil Crisis About to Break Global Supply Chains? | Prof G Markets",
+              "channel": "The Prof G Pod \u2013 Scott Galloway",
+              "duration_minutes": 36,
+              "podcast_date": "2026-03-26",
+              "processing_date": "2026-03-26",
+              "one_line_summary": "Geopolitical tensions around the Strait of Hormuz and the Red Sea significantly disrupt global supply chains, leading to increased costs and transit times.",
+              "core_claims": [
+                "The Strait of Hormuz closure for 25 days impacts global energy exports, raising fertilizer prices by 25%, gas by 30%, and diesel by 40%.",
+                "War risk insurance premiums for vessels have increased by 50%, and oil tanker shipping costs have surged by as much as 200%.",
+                "Air cargo prices from Asia to Europe have doubled due to Middle Eastern airline capacity being taken offline.",
+                "Ocean freight prices have increased by 50% due to container ships rerouting around the tip of Africa to avoid the Red Sea.",
+                "United Airlines projects jet fuel price increases will cost them $11 billion, potentially increasing plane ticket prices by 30%.",
+                "0.6% of the world's container ships are stuck inside the Strait of Hormuz."
+              ],
+              "signal_strength": 8,
+              "themes": [
+                "supply chains",
+                "oil crisis",
+                "geopolitics",
+                "shipping",
+                "freight costs",
+                "energy markets"
+              ],
+              "positioning_implication": "Businesses should prepare for increased costs and longer delivery times due to ongoing geopolitical disruptions in key shipping lanes. Strategic diversification of supply chains and regional partnerships may mitigate risks.",
+              "time_horizon": "medium",
+              "shelf_life": "Medium",
+              "thumbnail": "https://i.ytimg.com/vi/8Qm9fGCdckk/hqdefault.jpg",
+              "video_url": "https://www.youtube.com/watch?v=8Qm9fGCdckk",
+              "cluster_id": 1,
+              "category": "General Financial Investing and Speculation"
+            }
+          ]
+        }
+      ],
+      "should_generate": false
+    },
+    "Artificial Intelligence": {
+      "name": "Artificial Intelligence",
+      "meta_summary": "",
+      "convergence_score": 0.0,
+      "percentile": 0.0,
+      "regime_state": "Neutral",
+      "clusters": [
+        {
+          "id": 0,
+          "name": "AI Automation Intensifying Economic Restructuring",
+          "description": "AI's shift towards robotics training and specialized agent deployment accelerates automation, reshaping economic structures.",
+          "bias": "neutral",
+          "regime": "Accelerating",
+          "size": 2,
+          "strength": 1.196422487106038,
+          "coherence": 0.598211243553019,
+          "channels": [
+            "AI News & Strategy Daily | Nate B Jones",
+            "Wes Roth"
+          ],
+          "avg_signal": 8.0,
+          "briefs": [
+            {
+              "episode_title": "OpenAI just killed SORA",
+              "channel": "Wes Roth",
+              "duration_minutes": 4,
+              "podcast_date": "2026-03-26",
+              "processing_date": "2024-04-02",
+              "one_line_summary": "OpenAI pivots SORA from consumer video app to world simulation for robot training, impacting economic automation.",
+              "core_claims": [
+                "OpenAI is shutting down SORA as a consumer video app.",
+                "SORA's new mission focuses on building systems that understand the world by simulating environments.",
+                "OpenAI aims to simulate the world for training robots using a physics simulation engine.",
+                "OpenAI's new models will automate a lot of the economy."
+              ],
+              "signal_strength": 8,
+              "themes": [
+                "artificial intelligence",
+                "robotics",
+                "economic automation",
+                "video generation",
+                "simulation"
+              ],
+              "positioning_implication": "Reassess strategies for content creation and automation in light of AI's shift towards robotics and world simulation. Economic models should incorporate accelerated automation effects.",
+              "time_horizon": "medium",
+              "shelf_life": "Medium",
+              "thumbnail": "https://i.ytimg.com/vi/osSTRP4_o18/hqdefault.jpg",
+              "video_url": "https://www.youtube.com/watch?v=osSTRP4_o18",
+              "cluster_id": 0,
+              "category": "Artificial Intelligence"
+            },
+            {
+              "episode_title": "Tobi L\u00fctke Made a 20-Year-Old Codebase 53% Faster Overnight. Here's How.",
+              "channel": "AI News & Strategy Daily | Nate B Jones",
+              "duration_minutes": 26,
+              "podcast_date": "2026-03-26",
+              "processing_date": "2024-03-27",
+              "one_line_summary": "Different AI agent species require specific configurations to maximize efficacy across diverse tasks, underscoring the critical need for targeted deployment.",
+              "core_claims": [
+                "Sophisticated AI agents diverge into at least four distinct types, each suited for specific production use cases.",
+                "Coding harnesses serve as single-LLM agents working with files and tools to accomplish coding work, often used by individual contributors.",
+                "Dark factories involve fully autonomous systems where software emerges from a specification with minimal human intervention.",
+                "Auto-research frameworks descend from classical machine learning, automating AI agent optimization for a given metric (e.g., conversion rate).",
+                "Orchestration frameworks, commonly used in big companies, involve multiple LLMs aligned to hand work over under a centralized framework.",
+                "The key to successful coding harnesses lies in well-decomposed work, allowing distribution among single-threaded agents.",
+                "Simple agent scaling works best, avoiding excessive management layers for effective performance."
+              ],
+              "signal_strength": 8,
+              "themes": [
+                "ai agents",
+                "llm",
+                "coding",
+                "automation",
+                "machine learning",
+                "orchestration"
+              ],
+              "positioning_implication": "Strategically align AI agent types with task requirements to avoid mismatched deployments. Prioritize simplicity and well-defined metrics in AI agent system design.",
+              "time_horizon": "medium",
+              "shelf_life": "Medium",
+              "thumbnail": "https://i.ytimg.com/vi/YpPcDHc3e9U/hqdefault.jpg",
+              "video_url": "https://www.youtube.com/watch?v=YpPcDHc3e9U",
+              "cluster_id": 0,
+              "category": "Artificial Intelligence"
+            }
+          ]
+        }
+      ],
+      "should_generate": false
+    }
+  },
+  "clusters": []
+}
