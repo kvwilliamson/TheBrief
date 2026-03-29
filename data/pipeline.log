@@ -3246,3 +3246,82 @@
 2026-03-28 06:45:24,542 - INFO - ==================================================
 2026-03-28 06:45:24,542 - INFO - Pipeline Execution Complete
 2026-03-28 06:45:24,542 - INFO - ==================================================
+2026-03-29 06:39:09,879 - INFO - ==================================================
+2026-03-29 06:39:09,880 - INFO - Starting TheBrief Daily Pipeline
+2026-03-29 06:39:09,880 - INFO - ==================================================
+2026-03-29 06:39:09,880 - INFO - 
+--- Phase 1: Discovery ---
+2026-03-29 06:39:09,883 - INFO - Discovering videos published after 2026-03-28T06:39:09.883900+00:00 (24h lookback)
+2026-03-29 06:39:10,203 - INFO - Found 1 new potential videos on Wall Street Bullion .
+2026-03-29 06:39:10,571 - INFO - Found 2 new potential videos on AI News & Strategy Daily | Nate B Jones.
+2026-03-29 06:39:10,642 - INFO - Found 1 new potential videos on David Lin .
+2026-03-29 06:39:10,893 - INFO - Found 1 new potential videos on Felix & Friends (Goat Academy).
+2026-03-29 06:39:11,124 - INFO - Found 1 new potential videos on Adam Taggart | Thoughtful Money®.
+2026-03-29 06:39:11,161 - INFO - Found 1 new potential videos on Verified Investing.
+2026-03-29 06:39:11,300 - INFO - Found 2 new potential videos on Matthew Berman.
+2026-03-29 06:39:11,402 - INFO - Found 1 new potential videos on Wes Roth.
+2026-03-29 06:39:11,434 - INFO - Found 2 new potential videos on The Prof G Pod – Scott Galloway.
+2026-03-29 06:39:11,584 - INFO - Found 8 total long-form videos across all channels.
+2026-03-29 06:39:11,590 - INFO - Discovery complete. Added 7 new videos to queue.
+2026-03-29 06:39:11,591 - INFO - 
+--- Phase 2: Extraction ---
+2026-03-29 06:39:11,838 - INFO - yt-dlp version: 2026.03.17
+2026-03-29 06:39:12,195 - INFO - POT-related packages: bgutil-ytdlp-pot-provider 1.3.1
+2026-03-29 06:39:12,219 - INFO - bgutil HTTP server not available on port 4416 (will rely on cookies)
+2026-03-29 06:39:12,220 - INFO - Extracting audio for Fuel Crisis Spreads Globally: Brace For Price Explosion | Colin Grabow (VWeUvwYFLjs)...
+2026-03-29 06:39:33,390 - INFO - Successfully extracted: audio/VWeUvwYFLjs.mp3
+2026-03-29 06:39:44,981 - INFO - Extracting audio for How AI Reshapes Labor Markets: Aleksandra Przegalinska, Harvard University (57TKgSd_f7U)...
+2026-03-29 06:40:07,265 - INFO - Successfully extracted: audio/57TKgSd_f7U.mp3
+2026-03-29 06:40:14,349 - INFO - Extracting audio for SILVER PRICE MELTDOWN? WHAT’S NEXT? (_P4q3GiwVJg)...
+2026-03-29 06:40:26,243 - INFO - Successfully extracted: audio/_P4q3GiwVJg.mp3
+2026-03-29 06:40:37,055 - INFO - Extracting audio for Anthropic Just Gave You 3 Tools That Work While You're Gone. (3e7gmNPr5Vo)...
+2026-03-29 06:40:55,431 - INFO - Successfully extracted: audio/3e7gmNPr5Vo.mp3
+2026-03-29 06:41:00,824 - INFO - Extracting audio for Wall Of Worry Puts Stocks At Risk Of Screaming Higher On Any Good News | Lance Roberts (8RFkWUsg1ig)...
+2026-03-29 06:41:43,450 - INFO - Successfully extracted: audio/8RFkWUsg1ig.mp3
+2026-03-29 06:41:49,897 - INFO - Extracting audio for Claude MYTHOS is Anthropic's MOST DANGEROUS Model (dZF__37HWQA)...
+2026-03-29 06:42:03,172 - INFO - Successfully extracted: audio/dZF__37HWQA.mp3
+2026-03-29 06:42:09,955 - INFO - Extracting audio for The Biggest GOLD Reset Yet AHEAD (X1PUdPn6MCU)...
+2026-03-29 06:42:26,877 - INFO - Successfully extracted: audio/X1PUdPn6MCU.mp3
+2026-03-29 06:42:26,878 - INFO - Extraction complete. 7/7 audio files ready. (Time: 194.7s)
+2026-03-29 06:42:26,878 - INFO - 
+--- Phase 3: Summarization (Direct Audio) ---
+2026-03-29 06:42:28,736 - INFO - Generating Brief for SILVER PRICE MELTDOWN? WHAT’S NEXT? (_P4q3GiwVJg)...
+2026-03-29 06:42:28,737 - INFO - AFC is enabled with max remote calls: 10.
+2026-03-29 06:42:28,825 - INFO - Generating Brief for How AI Reshapes Labor Markets: Aleksandra Przegalinska, Harvard University (57TKgSd_f7U)...
+2026-03-29 06:42:28,826 - INFO - AFC is enabled with max remote calls: 10.
+2026-03-29 06:42:28,961 - INFO - Generating Brief for Fuel Crisis Spreads Globally: Brace For Price Explosion | Colin Grabow (VWeUvwYFLjs)...
+2026-03-29 06:42:28,962 - INFO - AFC is enabled with max remote calls: 10.
+2026-03-29 06:42:35,629 - INFO - ✅ Brief successfully generated for SILVER PRICE MELTDOWN? WHAT’S NEXT?
+2026-03-29 06:42:36,954 - INFO - Generating Brief for Anthropic Just Gave You 3 Tools That Work While You're Gone. (3e7gmNPr5Vo)...
+2026-03-29 06:42:36,955 - INFO - AFC is enabled with max remote calls: 10.
+2026-03-29 06:42:38,407 - INFO - ✅ Brief successfully generated for How AI Reshapes Labor Markets: Aleksandra Przegalinska, Harvard University
+2026-03-29 06:42:39,957 - ERROR - Schema parsing error for Fuel Crisis Spreads Globally: Brace For Price Explosion | Colin Grabow: Expecting value: line 1 column 1360 (char 1359)
+2026-03-29 06:42:40,418 - INFO - Generating Brief for Wall Of Worry Puts Stocks At Risk Of Screaming Higher On Any Good News | Lance Roberts (8RFkWUsg1ig)...
+2026-03-29 06:42:40,419 - INFO - AFC is enabled with max remote calls: 10.
+2026-03-29 06:42:42,138 - INFO - Generating Brief for Claude MYTHOS is Anthropic's MOST DANGEROUS Model (dZF__37HWQA)...
+2026-03-29 06:42:42,139 - INFO - AFC is enabled with max remote calls: 10.
+2026-03-29 06:42:46,700 - INFO - ✅ Brief successfully generated for Anthropic Just Gave You 3 Tools That Work While You're Gone.
+2026-03-29 06:42:48,120 - INFO - Generating Brief for The Biggest GOLD Reset Yet AHEAD (X1PUdPn6MCU)...
+2026-03-29 06:42:48,121 - INFO - AFC is enabled with max remote calls: 10.
+2026-03-29 06:42:50,088 - INFO - ✅ Brief successfully generated for Claude MYTHOS is Anthropic's MOST DANGEROUS Model
+2026-03-29 06:42:57,604 - INFO - ✅ Brief successfully generated for The Biggest GOLD Reset Yet AHEAD
+2026-03-29 06:43:09,589 - INFO - ✅ Brief successfully generated for Wall Of Worry Puts Stocks At Risk Of Screaming Higher On Any Good News | Lance Roberts
+2026-03-29 06:43:09,590 - INFO - --- Phase 3: Category Synthesis (6 assets across categories) ---
+2026-03-29 06:43:09,590 - INFO - Analyzing 3 categories: Precious Metals, General Financial Investing and Speculation, Artificial Intelligence
+2026-03-29 06:43:09,590 - INFO - Processing Synthesis for sector: Precious Metals (1 assets)...
+2026-03-29 06:43:09,595 - INFO - AFC is enabled with max remote calls: 10.
+2026-03-29 06:43:10,460 - INFO - ✅ Synthesis complete for Precious Metals
+2026-03-29 06:43:10,461 - INFO - Processing Synthesis for sector: General Financial Investing and Speculation (3 assets)...
+2026-03-29 06:43:10,486 - INFO - AFC is enabled with max remote calls: 10.
+2026-03-29 06:43:11,426 - INFO - AFC is enabled with max remote calls: 10.
+2026-03-29 06:43:12,491 - INFO - ✅ Synthesis complete for General Financial Investing and Speculation
+2026-03-29 06:43:12,491 - INFO - Processing Synthesis for sector: Artificial Intelligence (2 assets)...
+2026-03-29 06:43:12,495 - INFO - AFC is enabled with max remote calls: 10.
+2026-03-29 06:43:13,341 - INFO - ✅ Synthesis complete for Artificial Intelligence
+2026-03-29 06:43:13,354 - INFO - Summarization complete. 6 briefs written to briefs/2026-03-29.md (Time: 46.4s)
+2026-03-29 06:43:15,216 - INFO - Email digest sent successfully to kwilliamson.mail@gmail.com.
+2026-03-29 06:43:16,103 - INFO - Email digest sent successfully to kochava72@gmail.com.
+2026-03-29 06:43:16,116 - INFO - Queue cleared.
+2026-03-29 06:43:16,122 - INFO - ==================================================
+2026-03-29 06:43:16,122 - INFO - Pipeline Execution Complete
+2026-03-29 06:43:16,122 - INFO - ==================================================

@@ -1,0 +1,490 @@
+{
+  "date": "2026-03-29",
+  "briefs": [
+    {
+      "episode_title": "SILVER PRICE MELTDOWN? WHAT\u2019S NEXT?",
+      "channel": "Wall Street Bullion",
+      "duration_minutes": 22,
+      "podcast_date": "2026-03-29",
+      "processing_date": "2024-05-02",
+      "one_line_summary": "Geopolitical tension and broader financial instability could spur liquidity crises, initially depressing precious metal prices before a potential resurgence.",
+      "core_claims": [
+        "Liquidity crisis driven by margin calls on risky assets is currently depressing gold and silver prices.",
+        "Inflation is expected to rise significantly in the coming months and years.",
+        "Oil prices could potentially hit $200 a barrel.",
+        "Commodities, including oil, are preferable investment destinations over stocks for the rest of the year.",
+        "Interest rate hikes may not necessarily depress precious metal performance, referencing the 1970s."
+      ],
+      "signal_strength": 7,
+      "themes": [
+        "precious metals",
+        "investment strategy",
+        "economic outlook",
+        "geopolitics",
+        "inflation",
+        "commodities"
+      ],
+      "positioning_implication": "Consider dollar-cost averaging into precious metals, even amidst market volatility, anticipating future appreciation due to ongoing global uncertainties and inflationary pressures.  Maintain a diversified portfolio including cash.",
+      "time_horizon": "medium",
+      "shelf_life": "Medium",
+      "thumbnail": "https://i.ytimg.com/vi/_P4q3GiwVJg/hqdefault.jpg",
+      "video_url": "https://www.youtube.com/watch?v=_P4q3GiwVJg",
+      "cluster_id": 0,
+      "category": "Precious Metals"
+    },
+    {
+      "episode_title": "How AI Reshapes Labor Markets: Aleksandra Przegalinska, Harvard University",
+      "channel": "Verified Investing",
+      "duration_minutes": 50,
+      "podcast_date": "2026-03-29",
+      "processing_date": "2026-03-29",
+      "one_line_summary": "AI's framing as a productivity boom masks a complex labor market transition impacting younger workers and raising concerns about misrepresented productivity gains.",
+      "core_claims": [
+        "General productivity gains on AI are around 16%, which may not meet market expectations.",
+        "AI should enhance skills and level expertise, not just automate tasks.",
+        "Resistance towards AI correlates with negative user experiences and lack of communication from companies."
+      ],
+      "signal_strength": 8,
+      "themes": [
+        "ai",
+        "labor market",
+        "automation",
+        "productivity",
+        "human-ai interaction",
+        "policy"
+      ],
+      "positioning_implication": "Strategically assess the human-centric design of AI and its impact on workforce dynamics to address potential resistance and ensure ethical AI deployment.",
+      "time_horizon": "medium",
+      "shelf_life": "Medium",
+      "thumbnail": "https://i.ytimg.com/vi/57TKgSd_f7U/hqdefault.jpg",
+      "video_url": "https://www.youtube.com/watch?v=57TKgSd_f7U",
+      "cluster_id": 1,
+      "category": "General Financial Investing and Speculation"
+    },
+    {
+      "episode_title": "Anthropic Just Gave You 3 Tools That Work While You're Gone.",
+      "channel": "AI News & Strategy Daily | Nate B Jones",
+      "duration_minutes": 23,
+      "podcast_date": "2026-03-29",
+      "processing_date": "2024-02-02",
+      "one_line_summary": "Anthropic's new tools empower remote, always-on AI agents to perform tasks independently, shifting focus to 'work off the desk' rather than just 'work on the desk'.",
+      "core_claims": [
+        "Anthropic shipped OpenCLAW tools, Dispatch and Computer Use, to allow secure, remote AI task execution without constant monitoring.",
+        "Dispatch facilitates command of multiple Claude co-work sessions on a desktop from a mobile interface, enabling parallel task execution.",
+        "Scheduled tasks in Claude offer a cloud-based computer for messaging and task automation on a recurring basis, regardless of laptop status.",
+        "People coding whole apps are benefiting from the new features with no previous coding experience.",
+        "The core distinction moving forward will be in AI applications that remove work versus those that create more work."
+      ],
+      "signal_strength": 9,
+      "themes": [
+        "ai agents",
+        "automation",
+        "remote work",
+        "open claw",
+        "anthropic",
+        "efficiency",
+        "productivity",
+        "cloud computing",
+        "software development"
+      ],
+      "positioning_implication": "Prioritize AI tools and agent architectures that demonstrably reduce workload, enabling proactive management and asynchronous task completion. Adopt frameworks that allow remote direction of multiple workstreams.",
+      "time_horizon": "short",
+      "shelf_life": "Medium",
+      "thumbnail": "https://i.ytimg.com/vi/3e7gmNPr5Vo/hqdefault.jpg",
+      "video_url": "https://www.youtube.com/watch?v=3e7gmNPr5Vo",
+      "cluster_id": 0,
+      "category": "Artificial Intelligence"
+    },
+    {
+      "episode_title": "Claude MYTHOS is Anthropic's MOST DANGEROUS Model",
+      "channel": "Wes Roth",
+      "duration_minutes": 22,
+      "podcast_date": "2026-03-29",
+      "processing_date": "2026-03-29",
+      "one_line_summary": "Anthropic's leaked Claude Mythos model signals unprecedented cyber risk, impacting security stocks.",
+      "core_claims": [
+        "Claude Mythos is Anthropic's most powerful AI model to date, exceeding Opus models in software coding, academic reasoning, and cybersecurity tests.",
+        "Anthropic is taking a cautious approach to releasing Claude Mythos, starting with a small number of early access customers for security applications.",
+        "The Claude Mythos model will be compute intensive and very expensive for customers to use.",
+        "The Claude Mythos release focuses on cyber defenders, providing them with a head start in improving code bases against AI-driven exploits.",
+        "The market reaction to the leak was negative, with cybersecurity stocks dropping immediately.",
+        "The leak included 3,000 internal events, PDFs, images and blog posts."
+      ],
+      "signal_strength": 8,
+      "themes": [
+        "artificial intelligence",
+        "cybersecurity",
+        "threat intelligence",
+        "model release",
+        "risk assessment",
+        "marketing"
+      ],
+      "positioning_implication": "Prioritize advanced cyber defense strategies; consider Anthropic's IPO timing implications; monitor new model capabilities.",
+      "time_horizon": "medium",
+      "shelf_life": "Medium",
+      "thumbnail": "https://i.ytimg.com/vi/dZF__37HWQA/hqdefault.jpg",
+      "video_url": "https://www.youtube.com/watch?v=dZF__37HWQA",
+      "cluster_id": 0,
+      "category": "Artificial Intelligence"
+    },
+    {
+      "episode_title": "The Biggest GOLD Reset Yet AHEAD",
+      "channel": "Felix & Friends (Goat Academy)",
+      "duration_minutes": 32,
+      "podcast_date": "2026-03-29",
+      "processing_date": "2024-04-24",
+      "one_line_summary": "An Iran war scenario is forcing central banks and countries to liquidate gold reserves to meet USD obligations amidst disrupted oil flows.",
+      "core_claims": [
+        "Turkey liquidated 58 tons of gold in two weeks due to financial pressures from energy imports.",
+        "Gulf states are rumored to be selling gold secretly.",
+        "Russia is limiting gold exports starting in April 2026, potentially creating volatility.",
+        "The Middle East oil-producing countries have linked their currency to the USD.",
+        "For every $10 increase in oil prices, Turkey needs an extra $4-5 billion USD per year.",
+        "Saudi and other Gulf states are facing a currency peg crisis due to reduced oil revenue and increased dollar demand, leading to potential gold sales."
+      ],
+      "signal_strength": 8,
+      "themes": [
+        "gold",
+        "central banks",
+        "geopolitics",
+        "currency peg",
+        "oil",
+        "iran war",
+        "economic crisis",
+        "market manipulation",
+        "russia"
+      ],
+      "positioning_implication": "Monitor geopolitical tensions and their impacts on commodity markets; evaluate exposure to countries with currency pegs facing economic pressures.",
+      "time_horizon": "medium",
+      "shelf_life": "Medium",
+      "thumbnail": "https://i.ytimg.com/vi/X1PUdPn6MCU/hqdefault.jpg",
+      "video_url": "https://www.youtube.com/watch?v=X1PUdPn6MCU",
+      "cluster_id": 0,
+      "category": "General Financial Investing and Speculation"
+    },
+    {
+      "episode_title": "Wall Of Worry Puts Stocks At Risk Of Screaming Higher On Any Good News | Lance Roberts",
+      "channel": "Adam Taggart | Thoughtful Money\u00ae",
+      "duration_minutes": 58,
+      "podcast_date": "2026-03-29",
+      "processing_date": "2026-03-29",
+      "one_line_summary": "Equities, plagued by war concerns and high oil, risk a sharp upward correction if uncertainties resolve, despite rising corporate earnings.",
+      "core_claims": [
+        "Markets may rally 10-15% upon any positive resolution, indicating suppressed bullish potential.",
+        "Markets briefly surpassed the 200-day moving average before facing resistance, leading to a 5% cash position increase.",
+        "Markets below the 200-day moving average for more than four weeks signals a sustainable downtrend.",
+        "Earnings estimates for the S&P 500 are rising, creating a valuation disconnect with market pricing.",
+        "Energy makes up 6.25% of CPI, while housing constitutes 44%, diminishing energy's inflation impact relative to housing market changes.",
+        "Elevated oil prices sustained for 3-7 months could create economic challenges."
+      ],
+      "signal_strength": 7,
+      "themes": [
+        "equities",
+        "geopolitics",
+        "inflation",
+        "market analysis",
+        "earnings",
+        "cpi"
+      ],
+      "positioning_implication": "Maintain strategic flexibility to capitalize on potential market corrections while acknowledging downside risks; prioritize fundamental analysis over headline-driven reactions.",
+      "time_horizon": "medium",
+      "shelf_life": "Medium",
+      "thumbnail": "https://i.ytimg.com/vi/8RFkWUsg1ig/hqdefault.jpg",
+      "video_url": "https://www.youtube.com/watch?v=8RFkWUsg1ig",
+      "cluster_id": 0,
+      "category": "General Financial Investing and Speculation"
+    }
+  ],
+  "category_intelligence": {
+    "Precious Metals": {
+      "name": "Precious Metals",
+      "meta_summary": "",
+      "convergence_score": 0.0,
+      "percentile": 0.0,
+      "regime_state": "Neutral",
+      "clusters": [
+        {
+          "id": 0,
+          "name": "Geopolitical Tensions Intensifying Liquidity Risks",
+          "description": "Heightened geopolitical risks may trigger liquidity crunches, initially weakening precious metal prices before a possible recovery.\n\u26a1 Convergence Alert: Overlap detected with [Geopolitics Intensifying Gold Liquidation Pressure] in General Financial Investing and Speculation (0.78 sim)",
+          "bias": "defensive",
+          "regime": "Emerging",
+          "size": 1,
+          "strength": 0.0,
+          "coherence": 1.0,
+          "channels": [
+            "Wall Street Bullion"
+          ],
+          "avg_signal": 7.0,
+          "briefs": [
+            {
+              "episode_title": "SILVER PRICE MELTDOWN? WHAT\u2019S NEXT?",
+              "channel": "Wall Street Bullion",
+              "duration_minutes": 22,
+              "podcast_date": "2026-03-29",
+              "processing_date": "2024-05-02",
+              "one_line_summary": "Geopolitical tension and broader financial instability could spur liquidity crises, initially depressing precious metal prices before a potential resurgence.",
+              "core_claims": [
+                "Liquidity crisis driven by margin calls on risky assets is currently depressing gold and silver prices.",
+                "Inflation is expected to rise significantly in the coming months and years.",
+                "Oil prices could potentially hit $200 a barrel.",
+                "Commodities, including oil, are preferable investment destinations over stocks for the rest of the year.",
+                "Interest rate hikes may not necessarily depress precious metal performance, referencing the 1970s."
+              ],
+              "signal_strength": 7,
+              "themes": [
+                "precious metals",
+                "investment strategy",
+                "economic outlook",
+                "geopolitics",
+                "inflation",
+                "commodities"
+              ],
+              "positioning_implication": "Consider dollar-cost averaging into precious metals, even amidst market volatility, anticipating future appreciation due to ongoing global uncertainties and inflationary pressures.  Maintain a diversified portfolio including cash.",
+              "time_horizon": "medium",
+              "shelf_life": "Medium",
+              "thumbnail": "https://i.ytimg.com/vi/_P4q3GiwVJg/hqdefault.jpg",
+              "video_url": "https://www.youtube.com/watch?v=_P4q3GiwVJg",
+              "cluster_id": 0,
+              "category": "Precious Metals"
+            }
+          ]
+        }
+      ],
+      "should_generate": false
+    },
+    "General Financial Investing and Speculation": {
+      "name": "General Financial Investing and Speculation",
+      "meta_summary": "",
+      "convergence_score": 0.0,
+      "percentile": 0.0,
+      "regime_state": "Neutral",
+      "clusters": [
+        {
+          "id": 0,
+          "name": "Geopolitics Intensifying Gold Liquidation Pressure",
+          "description": "Escalating geopolitical tensions, particularly an Iran war scenario, are forcing central bank gold liquidation to manage USD obligations amid disrupted oil flows, while simultaneously creating a volatile environment for equities.",
+          "bias": "defensive",
+          "regime": "Accelerating",
+          "size": 2,
+          "strength": 1.2679081483226355,
+          "coherence": 0.6339540741613178,
+          "channels": [
+            "Adam Taggart | Thoughtful Money\u00ae",
+            "Felix & Friends (Goat Academy)"
+          ],
+          "avg_signal": 7.5,
+          "briefs": [
+            {
+              "episode_title": "The Biggest GOLD Reset Yet AHEAD",
+              "channel": "Felix & Friends (Goat Academy)",
+              "duration_minutes": 32,
+              "podcast_date": "2026-03-29",
+              "processing_date": "2024-04-24",
+              "one_line_summary": "An Iran war scenario is forcing central banks and countries to liquidate gold reserves to meet USD obligations amidst disrupted oil flows.",
+              "core_claims": [
+                "Turkey liquidated 58 tons of gold in two weeks due to financial pressures from energy imports.",
+                "Gulf states are rumored to be selling gold secretly.",
+                "Russia is limiting gold exports starting in April 2026, potentially creating volatility.",
+                "The Middle East oil-producing countries have linked their currency to the USD.",
+                "For every $10 increase in oil prices, Turkey needs an extra $4-5 billion USD per year.",
+                "Saudi and other Gulf states are facing a currency peg crisis due to reduced oil revenue and increased dollar demand, leading to potential gold sales."
+              ],
+              "signal_strength": 8,
+              "themes": [
+                "gold",
+                "central banks",
+                "geopolitics",
+                "currency peg",
+                "oil",
+                "iran war",
+                "economic crisis",
+                "market manipulation",
+                "russia"
+              ],
+              "positioning_implication": "Monitor geopolitical tensions and their impacts on commodity markets; evaluate exposure to countries with currency pegs facing economic pressures.",
+              "time_horizon": "medium",
+              "shelf_life": "Medium",
+              "thumbnail": "https://i.ytimg.com/vi/X1PUdPn6MCU/hqdefault.jpg",
+              "video_url": "https://www.youtube.com/watch?v=X1PUdPn6MCU",
+              "cluster_id": 0,
+              "category": "General Financial Investing and Speculation"
+            },
+            {
+              "episode_title": "Wall Of Worry Puts Stocks At Risk Of Screaming Higher On Any Good News | Lance Roberts",
+              "channel": "Adam Taggart | Thoughtful Money\u00ae",
+              "duration_minutes": 58,
+              "podcast_date": "2026-03-29",
+              "processing_date": "2026-03-29",
+              "one_line_summary": "Equities, plagued by war concerns and high oil, risk a sharp upward correction if uncertainties resolve, despite rising corporate earnings.",
+              "core_claims": [
+                "Markets may rally 10-15% upon any positive resolution, indicating suppressed bullish potential.",
+                "Markets briefly surpassed the 200-day moving average before facing resistance, leading to a 5% cash position increase.",
+                "Markets below the 200-day moving average for more than four weeks signals a sustainable downtrend.",
+                "Earnings estimates for the S&P 500 are rising, creating a valuation disconnect with market pricing.",
+                "Energy makes up 6.25% of CPI, while housing constitutes 44%, diminishing energy's inflation impact relative to housing market changes.",
+                "Elevated oil prices sustained for 3-7 months could create economic challenges."
+              ],
+              "signal_strength": 7,
+              "themes": [
+                "equities",
+                "geopolitics",
+                "inflation",
+                "market analysis",
+                "earnings",
+                "cpi"
+              ],
+              "positioning_implication": "Maintain strategic flexibility to capitalize on potential market corrections while acknowledging downside risks; prioritize fundamental analysis over headline-driven reactions.",
+              "time_horizon": "medium",
+              "shelf_life": "Medium",
+              "thumbnail": "https://i.ytimg.com/vi/8RFkWUsg1ig/hqdefault.jpg",
+              "video_url": "https://www.youtube.com/watch?v=8RFkWUsg1ig",
+              "cluster_id": 0,
+              "category": "General Financial Investing and Speculation"
+            }
+          ]
+        },
+        {
+          "id": 1,
+          "name": "AI Productivity Narrative Masks Labor Market Transition",
+          "description": "The narrative of AI-driven productivity gains obscures the disruptive impact on younger workers and potentially overstates actual productivity improvements.",
+          "bias": "defensive",
+          "regime": "Emerging",
+          "size": 1,
+          "strength": 1.0,
+          "coherence": 1.0,
+          "channels": [
+            "Verified Investing"
+          ],
+          "avg_signal": 8.0,
+          "briefs": [
+            {
+              "episode_title": "How AI Reshapes Labor Markets: Aleksandra Przegalinska, Harvard University",
+              "channel": "Verified Investing",
+              "duration_minutes": 50,
+              "podcast_date": "2026-03-29",
+              "processing_date": "2026-03-29",
+              "one_line_summary": "AI's framing as a productivity boom masks a complex labor market transition impacting younger workers and raising concerns about misrepresented productivity gains.",
+              "core_claims": [
+                "General productivity gains on AI are around 16%, which may not meet market expectations.",
+                "AI should enhance skills and level expertise, not just automate tasks.",
+                "Resistance towards AI correlates with negative user experiences and lack of communication from companies."
+              ],
+              "signal_strength": 8,
+              "themes": [
+                "ai",
+                "labor market",
+                "automation",
+                "productivity",
+                "human-ai interaction",
+                "policy"
+              ],
+              "positioning_implication": "Strategically assess the human-centric design of AI and its impact on workforce dynamics to address potential resistance and ensure ethical AI deployment.",
+              "time_horizon": "medium",
+              "shelf_life": "Medium",
+              "thumbnail": "https://i.ytimg.com/vi/57TKgSd_f7U/hqdefault.jpg",
+              "video_url": "https://www.youtube.com/watch?v=57TKgSd_f7U",
+              "cluster_id": 1,
+              "category": "General Financial Investing and Speculation"
+            }
+          ]
+        }
+      ],
+      "should_generate": false
+    },
+    "Artificial Intelligence": {
+      "name": "Artificial Intelligence",
+      "meta_summary": "",
+      "convergence_score": 0.0,
+      "percentile": 0.0,
+      "regime_state": "Neutral",
+      "clusters": [
+        {
+          "id": 0,
+          "name": "Anthropic: AI Autonomy Intensifying Cyber Risks",
+          "description": "Anthropic's advancements in autonomous AI agents, while boosting productivity, simultaneously amplify cybersecurity vulnerabilities, creating a dual-edged narrative.",
+          "bias": "defensive",
+          "regime": "Accelerating",
+          "size": 2,
+          "strength": 1.383975009442938,
+          "coherence": 0.691987504721469,
+          "channels": [
+            "Wes Roth",
+            "AI News & Strategy Daily | Nate B Jones"
+          ],
+          "avg_signal": 8.5,
+          "briefs": [
+            {
+              "episode_title": "Anthropic Just Gave You 3 Tools That Work While You're Gone.",
+              "channel": "AI News & Strategy Daily | Nate B Jones",
+              "duration_minutes": 23,
+              "podcast_date": "2026-03-29",
+              "processing_date": "2024-02-02",
+              "one_line_summary": "Anthropic's new tools empower remote, always-on AI agents to perform tasks independently, shifting focus to 'work off the desk' rather than just 'work on the desk'.",
+              "core_claims": [
+                "Anthropic shipped OpenCLAW tools, Dispatch and Computer Use, to allow secure, remote AI task execution without constant monitoring.",
+                "Dispatch facilitates command of multiple Claude co-work sessions on a desktop from a mobile interface, enabling parallel task execution.",
+                "Scheduled tasks in Claude offer a cloud-based computer for messaging and task automation on a recurring basis, regardless of laptop status.",
+                "People coding whole apps are benefiting from the new features with no previous coding experience.",
+                "The core distinction moving forward will be in AI applications that remove work versus those that create more work."
+              ],
+              "signal_strength": 9,
+              "themes": [
+                "ai agents",
+                "automation",
+                "remote work",
+                "open claw",
+                "anthropic",
+                "efficiency",
+                "productivity",
+                "cloud computing",
+                "software development"
+              ],
+              "positioning_implication": "Prioritize AI tools and agent architectures that demonstrably reduce workload, enabling proactive management and asynchronous task completion. Adopt frameworks that allow remote direction of multiple workstreams.",
+              "time_horizon": "short",
+              "shelf_life": "Medium",
+              "thumbnail": "https://i.ytimg.com/vi/3e7gmNPr5Vo/hqdefault.jpg",
+              "video_url": "https://www.youtube.com/watch?v=3e7gmNPr5Vo",
+              "cluster_id": 0,
+              "category": "Artificial Intelligence"
+            },
+            {
+              "episode_title": "Claude MYTHOS is Anthropic's MOST DANGEROUS Model",
+              "channel": "Wes Roth",
+              "duration_minutes": 22,
+              "podcast_date": "2026-03-29",
+              "processing_date": "2026-03-29",
+              "one_line_summary": "Anthropic's leaked Claude Mythos model signals unprecedented cyber risk, impacting security stocks.",
+              "core_claims": [
+                "Claude Mythos is Anthropic's most powerful AI model to date, exceeding Opus models in software coding, academic reasoning, and cybersecurity tests.",
+                "Anthropic is taking a cautious approach to releasing Claude Mythos, starting with a small number of early access customers for security applications.",
+                "The Claude Mythos model will be compute intensive and very expensive for customers to use.",
+                "The Claude Mythos release focuses on cyber defenders, providing them with a head start in improving code bases against AI-driven exploits.",
+                "The market reaction to the leak was negative, with cybersecurity stocks dropping immediately.",
+                "The leak included 3,000 internal events, PDFs, images and blog posts."
+              ],
+              "signal_strength": 8,
+              "themes": [
+                "artificial intelligence",
+                "cybersecurity",
+                "threat intelligence",
+                "model release",
+                "risk assessment",
+                "marketing"
+              ],
+              "positioning_implication": "Prioritize advanced cyber defense strategies; consider Anthropic's IPO timing implications; monitor new model capabilities.",
+              "time_horizon": "medium",
+              "shelf_life": "Medium",
+              "thumbnail": "https://i.ytimg.com/vi/dZF__37HWQA/hqdefault.jpg",
+              "video_url": "https://www.youtube.com/watch?v=dZF__37HWQA",
+              "cluster_id": 0,
+              "category": "Artificial Intelligence"
+            }
+          ]
+        }
+      ],
+      "should_generate": false
+    }
+  },
+  "clusters": []
+}
