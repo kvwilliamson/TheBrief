@@ -1,0 +1,251 @@
+{
+  "date": "2026-03-30",
+  "briefs": [
+    {
+      "episode_title": "48 Days. That's How Long Before the Helium Runs Out for AI Chips.",
+      "channel": "AI News & Strategy Daily | Nate B Jones",
+      "duration_minutes": 29,
+      "podcast_date": "2026-03-30",
+      "processing_date": "2026-03-30",
+      "one_line_summary": "Missile strike on a Qatar LNG facility could critically disrupt global helium supply, impacting AI chip production.",
+      "core_claims": [
+        "Hyperscalers will spend over a trillion dollars on AI in the next 24 months, which may be at risk due to helium supply chain issues.",
+        "Memory and chip production rely on helium, sourced significantly from a now-offline Qatari plant due to missile strikes.",
+        "ISO containers holding liquid helium are only viable for 35-48 days before the helium begins to vaporize.",
+        "14% of Qatar's helium production capacity is permanently damaged, with reconstruction estimated to take up to five years.",
+        "TSMC imports the bulk of its energy as LNG, holding only 11 days of gas reserves, rendering it vulnerable to energy price hikes.",
+        "There is geopolitical restructuring underway that favors Chinese compute economics, over a US allied semiconductor system."
+      ],
+      "signal_strength": 9,
+      "themes": [
+        "supply chain",
+        "geopolitics",
+        "semiconductors",
+        "helium",
+        "lng",
+        "ai chips",
+        "energy prices"
+      ],
+      "positioning_implication": "Proactively assess and diversify supply chains, and model the impact of energy price volatility on long-term compute costs. Consider near-term procurement to mitigate anticipated price increases.",
+      "time_horizon": "medium",
+      "shelf_life": "Medium",
+      "thumbnail": "https://i.ytimg.com/vi/sTkqCREdMXo/hqdefault.jpg",
+      "video_url": "https://www.youtube.com/watch?v=sTkqCREdMXo",
+      "cluster_id": 0,
+      "category": "Artificial Intelligence"
+    },
+    {
+      "episode_title": "Gold, Metals Signal Bigger Crisis Ahead: Stocks Next To Crash? | Ian Harris",
+      "channel": "David Lin",
+      "duration_minutes": 53,
+      "podcast_date": "2026-03-30",
+      "processing_date": "2024-04-24",
+      "one_line_summary": "Metals complex is at risk of collapse, signaling a crisis extending beyond metals and potentially impacting the entire commodity complex.",
+      "core_claims": [
+        "The Philippines declared a state of national energy emergency.",
+        "New Zealand government is giving weekly cash payments to 150,000 families to offset gas prices.",
+        "China has stopped shipping oil inventories to safeguard domestic supplies.",
+        "The Strait of Hormuz impacts Asia mostly, with 80% of oil going to Asia.",
+        "Taiwan buys 69% of its helium from the GCC countries.",
+        "Major manufacturers of semiconductor chips are at risk."
+      ],
+      "signal_strength": 8,
+      "themes": [
+        "commodities",
+        "supply chain",
+        "energy crisis",
+        "metals",
+        "geopolitics",
+        "inflation"
+      ],
+      "positioning_implication": "Evaluate supply chain vulnerabilities in critical sectors and consider hedging strategies against commodity price volatility.",
+      "time_horizon": "medium",
+      "shelf_life": "Medium",
+      "thumbnail": "https://i.ytimg.com/vi/NpI2OACd7y4/hqdefault.jpg",
+      "video_url": "https://www.youtube.com/watch?v=NpI2OACd7y4",
+      "cluster_id": 0,
+      "category": "General Financial Investing and Speculation"
+    },
+    {
+      "episode_title": "Maximizing Your Tax-Free Wealth & Income For Retirement | Ed Slott",
+      "channel": "Adam Taggart | Thoughtful Money\u00ae",
+      "duration_minutes": 52,
+      "podcast_date": "2026-03-30",
+      "processing_date": "2026-03-30",
+      "one_line_summary": "Always paying taxes at the lowest rates, even before required, is the key to saving taxes over a lifetime and beyond for beneficiaries.",
+      "core_claims": [
+        "65% of Americans either believe their retirement savings are off track or they aren't sure.",
+        "The median savings balance stands at just $87,000.",
+        "Roth IRA is the best account ever created.",
+        "Tax laws are written in pencil."
+      ],
+      "signal_strength": 8,
+      "themes": [
+        "roth ira",
+        "tax planning",
+        "retirement",
+        "financial planning",
+        "tax rates",
+        "annuities"
+      ],
+      "positioning_implication": "Evaluate current and projected tax brackets to determine if Roth conversions or other strategies are optimal for long-term tax savings, considering the impact on beneficiaries.",
+      "time_horizon": "long",
+      "shelf_life": "Medium",
+      "thumbnail": "https://i.ytimg.com/vi/Fbi_dfFaIzQ/hqdefault.jpg",
+      "video_url": "https://www.youtube.com/watch?v=Fbi_dfFaIzQ",
+      "cluster_id": 0,
+      "category": "General Financial Investing and Speculation"
+    }
+  ],
+  "category_intelligence": {
+    "Artificial Intelligence": {
+      "name": "Artificial Intelligence",
+      "meta_summary": "",
+      "convergence_score": 0.0,
+      "percentile": 0.0,
+      "regime_state": "Neutral",
+      "clusters": [
+        {
+          "id": 0,
+          "name": "Helium Supply Chain Tightening",
+          "description": "Qatar LNG disruption threatens AI chip production, intensifying helium supply chain vulnerabilities.",
+          "bias": "defensive",
+          "regime": "Emerging",
+          "size": 1,
+          "strength": 0.0,
+          "coherence": 1.0,
+          "channels": [
+            "AI News & Strategy Daily | Nate B Jones"
+          ],
+          "avg_signal": 9.0,
+          "briefs": [
+            {
+              "episode_title": "48 Days. That's How Long Before the Helium Runs Out for AI Chips.",
+              "channel": "AI News & Strategy Daily | Nate B Jones",
+              "duration_minutes": 29,
+              "podcast_date": "2026-03-30",
+              "processing_date": "2026-03-30",
+              "one_line_summary": "Missile strike on a Qatar LNG facility could critically disrupt global helium supply, impacting AI chip production.",
+              "core_claims": [
+                "Hyperscalers will spend over a trillion dollars on AI in the next 24 months, which may be at risk due to helium supply chain issues.",
+                "Memory and chip production rely on helium, sourced significantly from a now-offline Qatari plant due to missile strikes.",
+                "ISO containers holding liquid helium are only viable for 35-48 days before the helium begins to vaporize.",
+                "14% of Qatar's helium production capacity is permanently damaged, with reconstruction estimated to take up to five years.",
+                "TSMC imports the bulk of its energy as LNG, holding only 11 days of gas reserves, rendering it vulnerable to energy price hikes.",
+                "There is geopolitical restructuring underway that favors Chinese compute economics, over a US allied semiconductor system."
+              ],
+              "signal_strength": 9,
+              "themes": [
+                "supply chain",
+                "geopolitics",
+                "semiconductors",
+                "helium",
+                "lng",
+                "ai chips",
+                "energy prices"
+              ],
+              "positioning_implication": "Proactively assess and diversify supply chains, and model the impact of energy price volatility on long-term compute costs. Consider near-term procurement to mitigate anticipated price increases.",
+              "time_horizon": "medium",
+              "shelf_life": "Medium",
+              "thumbnail": "https://i.ytimg.com/vi/sTkqCREdMXo/hqdefault.jpg",
+              "video_url": "https://www.youtube.com/watch?v=sTkqCREdMXo",
+              "cluster_id": 0,
+              "category": "Artificial Intelligence"
+            }
+          ]
+        }
+      ],
+      "should_generate": false
+    },
+    "General Financial Investing and Speculation": {
+      "name": "General Financial Investing and Speculation",
+      "meta_summary": "",
+      "convergence_score": 0.0,
+      "percentile": 0.0,
+      "regime_state": "Neutral",
+      "clusters": [
+        {
+          "id": 0,
+          "name": "Metals Complex Converging, Tax Planning Intensifying",
+          "description": "The metals complex faces potential collapse, while proactive tax planning strategies gain prominence for long-term financial security.",
+          "bias": "neutral",
+          "regime": "Accelerating",
+          "size": 2,
+          "strength": 1.0709647842909116,
+          "coherence": 0.5354823921454558,
+          "channels": [
+            "David Lin",
+            "Adam Taggart | Thoughtful Money\u00ae"
+          ],
+          "avg_signal": 8.0,
+          "briefs": [
+            {
+              "episode_title": "Gold, Metals Signal Bigger Crisis Ahead: Stocks Next To Crash? | Ian Harris",
+              "channel": "David Lin",
+              "duration_minutes": 53,
+              "podcast_date": "2026-03-30",
+              "processing_date": "2024-04-24",
+              "one_line_summary": "Metals complex is at risk of collapse, signaling a crisis extending beyond metals and potentially impacting the entire commodity complex.",
+              "core_claims": [
+                "The Philippines declared a state of national energy emergency.",
+                "New Zealand government is giving weekly cash payments to 150,000 families to offset gas prices.",
+                "China has stopped shipping oil inventories to safeguard domestic supplies.",
+                "The Strait of Hormuz impacts Asia mostly, with 80% of oil going to Asia.",
+                "Taiwan buys 69% of its helium from the GCC countries.",
+                "Major manufacturers of semiconductor chips are at risk."
+              ],
+              "signal_strength": 8,
+              "themes": [
+                "commodities",
+                "supply chain",
+                "energy crisis",
+                "metals",
+                "geopolitics",
+                "inflation"
+              ],
+              "positioning_implication": "Evaluate supply chain vulnerabilities in critical sectors and consider hedging strategies against commodity price volatility.",
+              "time_horizon": "medium",
+              "shelf_life": "Medium",
+              "thumbnail": "https://i.ytimg.com/vi/NpI2OACd7y4/hqdefault.jpg",
+              "video_url": "https://www.youtube.com/watch?v=NpI2OACd7y4",
+              "cluster_id": 0,
+              "category": "General Financial Investing and Speculation"
+            },
+            {
+              "episode_title": "Maximizing Your Tax-Free Wealth & Income For Retirement | Ed Slott",
+              "channel": "Adam Taggart | Thoughtful Money\u00ae",
+              "duration_minutes": 52,
+              "podcast_date": "2026-03-30",
+              "processing_date": "2026-03-30",
+              "one_line_summary": "Always paying taxes at the lowest rates, even before required, is the key to saving taxes over a lifetime and beyond for beneficiaries.",
+              "core_claims": [
+                "65% of Americans either believe their retirement savings are off track or they aren't sure.",
+                "The median savings balance stands at just $87,000.",
+                "Roth IRA is the best account ever created.",
+                "Tax laws are written in pencil."
+              ],
+              "signal_strength": 8,
+              "themes": [
+                "roth ira",
+                "tax planning",
+                "retirement",
+                "financial planning",
+                "tax rates",
+                "annuities"
+              ],
+              "positioning_implication": "Evaluate current and projected tax brackets to determine if Roth conversions or other strategies are optimal for long-term tax savings, considering the impact on beneficiaries.",
+              "time_horizon": "long",
+              "shelf_life": "Medium",
+              "thumbnail": "https://i.ytimg.com/vi/Fbi_dfFaIzQ/hqdefault.jpg",
+              "video_url": "https://www.youtube.com/watch?v=Fbi_dfFaIzQ",
+              "cluster_id": 0,
+              "category": "General Financial Investing and Speculation"
+            }
+          ]
+        }
+      ],
+      "should_generate": false
+    }
+  },
+  "clusters": []
+}
