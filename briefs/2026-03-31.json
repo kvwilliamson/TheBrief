@@ -1,0 +1,740 @@
+{
+  "date": "2026-03-31",
+  "briefs": [
+    {
+      "episode_title": "AI Self EVOLUTION (Meta Harness)",
+      "channel": "Matthew Berman",
+      "duration_minutes": 21,
+      "podcast_date": "2026-03-31",
+      "processing_date": "2026-03-31",
+      "one_line_summary": "AI models can improve themselves by self-evolving their own 'harness,' or the code that tells them how to operate.",
+      "core_claims": [
+        "Meta Harness is a system to optimize model harnesses, developed by teams at Stanford, MIT, and Crafted.",
+        "The performance of language models relies not only on model weights, but also on the code or harness that dictates what information is stored, retrieved, and presented.",
+        "Changing the harness around a fixed language model can produce a 6x performance gap on the same benchmark.",
+        "Meta Harness uses a coding agent with access to a file system that serves as a feedback channel to diagnose, propose edits, and interact with code.",
+        "Meta Harness enables significant improvements across text classification, retrieval-augmented math reasoning, and terminal bench testing compared to other methods."
+      ],
+      "signal_strength": 9,
+      "themes": [
+        "ai",
+        "self-improvement",
+        "machine learning",
+        "code",
+        "automation",
+        "meta-learning"
+      ],
+      "positioning_implication": "Focus on developing adaptable AI systems that can refine their operational parameters automatically. Evaluate the potential of self-evolving software to accelerate innovation and improve performance across various applications.",
+      "time_horizon": "long",
+      "shelf_life": "Medium",
+      "thumbnail": "https://i.ytimg.com/vi/61JUHDK-em8/hqdefault.jpg",
+      "video_url": "https://www.youtube.com/watch?v=61JUHDK-em8",
+      "cluster_id": 0,
+      "category": "Artificial Intelligence"
+    },
+    {
+      "episode_title": "The Mining Paradox: Record Low CapEx Just Created A Generational Buy | Tavi Costa",
+      "channel": "Kitco NEWS",
+      "duration_minutes": 58,
+      "podcast_date": "2026-03-31",
+      "processing_date": "2026-03-31",
+      "one_line_summary": "Record low capital expenditure in the mining sector coupled with structural demand creates a unique buying opportunity amid a trapped Fed.",
+      "core_claims": [
+        "Central banks lack the capacity to significantly raise rates, making an inflationary environment more likely.",
+        "Resource markets are misunderstood, with the focus primarily on demand rather than the critical issue of constrained supply.",
+        "The current global landscape resembles the 1970s, but with a Fed unable to aggressively raise rates, potentially unleashing inflation.",
+        "The market underestimates the government's capacity for radical changes to address the interest rate problem, many of which have inflationary consequences.",
+        "Physical gold market dynamics show gold's increasing importance as both a reserve asset and collateral in a stressed system.",
+        "Mining industry's lack of capital expenditure signals early stage of mining cycle, indicating visibility for supply constraints."
+      ],
+      "signal_strength": 9,
+      "themes": [
+        "mining",
+        "inflation",
+        "monetary policy",
+        "resource scarcity",
+        "geopolitics",
+        "investment strategy"
+      ],
+      "positioning_implication": "Shift portfolio allocation towards hard assets, commodities, and emerging markets to capitalize on an inflationary environment and potential government interventions.",
+      "time_horizon": "long",
+      "shelf_life": "Medium",
+      "thumbnail": "https://i.ytimg.com/vi/JGibjutkaXM/hqdefault.jpg",
+      "video_url": "https://www.youtube.com/watch?v=JGibjutkaXM",
+      "cluster_id": 0,
+      "category": "General Financial Investing and Speculation"
+    },
+    {
+      "episode_title": "\ud83d\udea8 URGENT: Silver Price Surge to $300 & Central Bank Crisis Imminent! Are You Prepared?!",
+      "channel": "Wall Street Bullion",
+      "duration_minutes": 26,
+      "podcast_date": "2026-03-31",
+      "processing_date": "2024-04-29",
+      "one_line_summary": "Ongoing geopolitical tensions and energy crises could trigger a global economic shutdown if not addressed immediately.",
+      "core_claims": [
+        "Oil prices potentially reaching $200 per barrel may force consumers to reallocate funds from other sectors to maintain essential oil consumption.",
+        "Continued pressure on the Straits could result in financial institutions collapsing and further weaken the dollar.",
+        "Gold futures open interest has fallen to 2008 levels, signaling decreased market participation and a potential dollar hoarding situation.",
+        "If conflict continues or escalates, nuclear war is unlikely due to mutually assured destruction.",
+        "Consumers may cancel discretionary subscriptions to afford fuel, affecting marginal producers such as Netflix."
+      ],
+      "signal_strength": 8,
+      "themes": [
+        "geopolitics",
+        "energy crisis",
+        "economic collapse",
+        "inflation",
+        "precious metals",
+        "risk management"
+      ],
+      "positioning_implication": "Increase holdings in precious metals and essential goods while closely monitoring geopolitical indicators for potential market shifts. Prepare for possible supply chain disruptions and subsequent economic volatility.",
+      "time_horizon": "short",
+      "shelf_life": "Medium",
+      "thumbnail": "https://i.ytimg.com/vi/boa8pkNSqwk/hqdefault.jpg",
+      "video_url": "https://www.youtube.com/watch?v=boa8pkNSqwk",
+      "cluster_id": 0,
+      "category": "Precious Metals"
+    },
+    {
+      "episode_title": "Is AI Killing Entry-Level Jobs? | Office Hours",
+      "channel": "The Prof G Pod \u2013 Scott Galloway",
+      "duration_minutes": 36,
+      "podcast_date": "2026-03-31",
+      "processing_date": "2024-04-26",
+      "one_line_summary": "AI's impact on entry-level job availability and strategies for career adaptation are discussed, highlighting industry shifts and demographic trends.",
+      "core_claims": [
+        "New graduates account for only 7% of big tech new hires, a decrease from 25% in 2023 and over 50% pre-pandemic.",
+        "Entry-level employment in AI-exposed occupations has fallen by approximately 13% since generative AI adoption began.",
+        "Large corporations may see AI affect at least 10% of tasks for 80% of the workforce, notably in writing, coding, and analysis.",
+        "The number of Americans over the age of 85 is projected to double from 6.5 million in 2022 to 13.7 million by 2040."
+      ],
+      "signal_strength": 8,
+      "themes": [
+        "ai impact",
+        "job market",
+        "career advice",
+        "demographics",
+        "senior care",
+        "economic trends"
+      ],
+      "positioning_implication": "Re-evaluate talent acquisition and development strategies considering AI's influence. Investment should focus on adapting to and leveraging AI rather than resisting its integration.",
+      "time_horizon": "medium",
+      "shelf_life": "Medium",
+      "thumbnail": "https://i.ytimg.com/vi/ogSGA791QSc/hqdefault.jpg",
+      "video_url": "https://www.youtube.com/watch?v=ogSGA791QSc",
+      "cluster_id": 3,
+      "category": "General Financial Investing and Speculation"
+    },
+    {
+      "episode_title": "OIL Flashes MASSIVE Sell Signal: Investors PANIC, Why I Am BUYING This Market Bounce!",
+      "channel": "Verified Investing",
+      "duration_minutes": 22,
+      "podcast_date": "2026-03-31",
+      "processing_date": "2026-03-31",
+      "one_line_summary": "Oil's bearish chart pattern suggests a move back to the $70 per barrel range, potentially falling to sub-$50 by year-end despite contrary bullish sentiments.",
+      "core_claims": [
+        "Oil is showing a bearish reversal signal, similar to silver's top formation at $120 per ounce before a 50% drop.",
+        "Despite CNBC analysts predicting $200 oil, current charts do not support it, indicating a 10% chance of surpassing $120 per barrel.",
+        "The speaker forecasts a move back to the $70 per barrel range within the next two months and potentially sub-$50 oil by year-end.",
+        "The speaker is bullish on the market near term, predicting the near term markets of 5-6% upside due to oil coming in.",
+        "Even with a potential market bounce, the speaker expects a market downturn to around 6100, down to 5500-5600 by year-end.",
+        "Bitcoin is the only asset since February that is net positive."
+      ],
+      "signal_strength": 8,
+      "themes": [
+        "oil price",
+        "bearish market",
+        "technical analysis",
+        "market correction",
+        "investment strategy",
+        "economic outlook"
+      ],
+      "positioning_implication": "Reduce exposure to oil-related assets; consider short-term long positions in oversold sectors anticipating a bounce, but maintain a bearish long-term outlook.",
+      "time_horizon": "medium",
+      "shelf_life": "Medium",
+      "thumbnail": "https://i.ytimg.com/vi/M3a7PXApKQI/hqdefault.jpg",
+      "video_url": "https://www.youtube.com/watch?v=M3a7PXApKQI",
+      "cluster_id": 2,
+      "category": "General Financial Investing and Speculation"
+    },
+    {
+      "episode_title": "Anthropic, OpenAI, and Microsoft Just Agreed on One File Format. It Changes Everything.",
+      "channel": "AI News & Strategy Daily | Nate B Jones",
+      "duration_minutes": 30,
+      "podcast_date": "2026-03-31",
+      "processing_date": "2024-04-26",
+      "one_line_summary": "Skills are transitioning from individual configurations to organizational infrastructure, becoming the substrate for consistent AI outcomes.",
+      "core_claims": [
+        "Skills are shifting from personal configuration to organizational infrastructure.",
+        "Agents now call the majority of skills, superseding human calls.",
+        "Skills are not limited to developers, extending to general business and personal life applications.",
+        "Skills are becoming a common infrastructure vehicle underlining AI work.",
+        "Alpha needs to be thought of differently because skills are now an open standard.",
+        "Agent-based design makes a skill's description a routing signal instead of a label."
+      ],
+      "signal_strength": 9,
+      "themes": [
+        "ai skills",
+        "agentic workflows",
+        "open standards",
+        "organizational infrastructure",
+        "ai development",
+        "automation"
+      ],
+      "positioning_implication": "Strategically prioritize skill-based AI implementation for enhanced productivity and broader applicability across diverse business functions. Emphasize open standards for wider integration and community collaboration.",
+      "time_horizon": "medium",
+      "shelf_life": "Medium",
+      "thumbnail": "https://i.ytimg.com/vi/0cVuMHaYEHE/hqdefault.jpg",
+      "video_url": "https://www.youtube.com/watch?v=0cVuMHaYEHE",
+      "cluster_id": 0,
+      "category": "Artificial Intelligence"
+    },
+    {
+      "episode_title": "The US Iran War Will Make (Some) Investors Rich l Here\u2019s How",
+      "channel": "Felix & Friends (Goat Academy)",
+      "duration_minutes": 30,
+      "podcast_date": "2026-03-31",
+      "processing_date": "2026-03-31",
+      "one_line_summary": "A US-Iran war could trigger a market crash, but also create wealth opportunities if one knows how to navigate it.",
+      "core_claims": [
+        "Physical oil price is $150+ while paper price is at $113, indicating scarcity and denial by financial markets.",
+        "Every oil spike in the last 50 years has been followed by a market crash.",
+        "The Fed is caught in stagflation where cutting rates worsens inflation, while hiking rates collapses the economy.",
+        "Bank of America anticipates a 'policy panic' bailout by governments and central banks involving de-escalation of the war, potential Fed rate cuts, and government bond purchases to lower interest rates.",
+        "Consumer discretionary stocks are trading at levels reminiscent of the Global Financial Crisis and COVID, creating a potential buying opportunity if financial conditions loosen, rate hikes halt, and private credit doesn't collapse.",
+        "Following a market shock gold does well afterwards, about 19% 6 months in, historically."
+      ],
+      "signal_strength": 9,
+      "themes": [
+        "investing",
+        "economics",
+        "geopolitics",
+        "market crash",
+        "oil prices",
+        "inflation",
+        "recession",
+        "policy intervention",
+        "risk management",
+        "gold"
+      ],
+      "positioning_implication": "Prepare for market volatility tied to geopolitical tensions and oil prices. Identify sectors poised to benefit from policy responses and a potential weakening dollar, while diligently managing risk and adhering to rules-based investment strategies.",
+      "time_horizon": "short",
+      "shelf_life": "Medium",
+      "thumbnail": "https://i.ytimg.com/vi/q0BUPCHMeH4/hqdefault.jpg",
+      "video_url": "https://www.youtube.com/watch?v=q0BUPCHMeH4",
+      "cluster_id": 0,
+      "category": "General Financial Investing and Speculation"
+    },
+    {
+      "episode_title": "Google's TurboQuant Crashed the AI Chip Market",
+      "channel": "Wes Roth",
+      "duration_minutes": 27,
+      "podcast_date": "2026-03-31",
+      "processing_date": "2026-03-31",
+      "one_line_summary": "Google's TurboQuant, a compression algorithm for AI, reduces memory requirements by at least 6x and increases speed by up to 8x with zero accuracy loss, potentially disrupting the AI chip market.",
+      "core_claims": [
+        "TurboQuant achieves at least a 6x reduction in memory requirements for AI models.",
+        "TurboQuant results in up to an 8x speed increase.",
+        "TurboQuant maintains zero accuracy loss.",
+        "TurboQuant will lead to approximately 50% cost reduction for enterprises running large language models at scale.",
+        "TurboQuant directly multiplies Nvidia's infrastructure efficiency, similar to a +20 intelligence boost in a video game.",
+        "TurboQuant will double the possible valuable output due to doubled processing capability."
+      ],
+      "signal_strength": 9,
+      "themes": [
+        "ai",
+        "machine learning",
+        "compression algorithms",
+        "hardware",
+        "market disruption",
+        "cost reduction",
+        "gpu",
+        "tpu"
+      ],
+      "positioning_implication": "Evaluate potential infrastructure cost savings from TurboQuant or similar compression algorithms, and assess the impact on hardware vendor strategy.",
+      "time_horizon": "medium",
+      "shelf_life": "Medium",
+      "thumbnail": "https://i.ytimg.com/vi/u0UV0ZkcbqI/hqdefault.jpg",
+      "video_url": "https://www.youtube.com/watch?v=u0UV0ZkcbqI",
+      "cluster_id": 1,
+      "category": "Artificial Intelligence"
+    },
+    {
+      "episode_title": "Trump Says the Economy Is Strong \u2014 Voters Disagree | Prof G Markets",
+      "channel": "The Prof G Pod \u2013 Scott Galloway",
+      "duration_minutes": 49,
+      "podcast_date": "2026-03-31",
+      "processing_date": "2026-03-31",
+      "one_line_summary": "Consumer economic sentiment is diverging from positive macro indicators, challenging political narratives.",
+      "core_claims": [
+        "AI Sora app lasted 175 days, 25 fewer than Quibi.",
+        "Mortgage demand fell 10% last week, refinancing dropped 15%.",
+        "Job creation in the private sector was effectively zero.",
+        "Only 28% of workers say now is a good time to find a quality job, down from 70% in mid-2022.",
+        "Gas prices have jumped 30% since the start of the Iran war.",
+        "The top 1% now owns 32% of total US wealth, roughly equal to the bottom 90% combined.",
+        "Since 2016, the top 1% have captured 33% of total wealth gains, and the bottom 50% have only captured 6%.",
+        "The top 10 US billionaires gained $700 billion in a single year last year.",
+        "The top 1% income is up 162% since 1980; the lowest 36%.",
+        "For every 10% increase in housing prices, birth rates decline 1%."
+      ],
+      "signal_strength": 8,
+      "themes": [
+        "consumer sentiment",
+        "economic disparity",
+        "market disconnect",
+        "social media impact",
+        "political narrative",
+        "financial regulation"
+      ],
+      "positioning_implication": "Adjust resource allocation to address discrepancies between macro data and micro-level consumer experiences; anticipate potential regulatory shifts affecting finance and social media.",
+      "time_horizon": "medium",
+      "shelf_life": "Medium",
+      "thumbnail": "https://i.ytimg.com/vi/5AOyRSlEAE8/hqdefault.jpg",
+      "video_url": "https://www.youtube.com/watch?v=5AOyRSlEAE8",
+      "cluster_id": 1,
+      "category": "General Financial Investing and Speculation"
+    }
+  ],
+  "category_intelligence": {
+    "Artificial Intelligence": {
+      "name": "Artificial Intelligence",
+      "meta_summary": "",
+      "convergence_score": 0.0,
+      "percentile": 0.0,
+      "regime_state": "Neutral",
+      "clusters": [
+        {
+          "id": 0,
+          "name": "AI Self-Improvement Intensifying Automation",
+          "description": "AI models are increasingly automating their own development and deployment, shifting skills towards organizational infrastructure.",
+          "bias": "constructive",
+          "regime": "Accelerating",
+          "size": 2,
+          "strength": 1.2348120985663988,
+          "coherence": 0.6174060492831994,
+          "channels": [
+            "AI News & Strategy Daily | Nate B Jones",
+            "Matthew Berman"
+          ],
+          "avg_signal": 9.0,
+          "briefs": [
+            {
+              "episode_title": "AI Self EVOLUTION (Meta Harness)",
+              "channel": "Matthew Berman",
+              "duration_minutes": 21,
+              "podcast_date": "2026-03-31",
+              "processing_date": "2026-03-31",
+              "one_line_summary": "AI models can improve themselves by self-evolving their own 'harness,' or the code that tells them how to operate.",
+              "core_claims": [
+                "Meta Harness is a system to optimize model harnesses, developed by teams at Stanford, MIT, and Crafted.",
+                "The performance of language models relies not only on model weights, but also on the code or harness that dictates what information is stored, retrieved, and presented.",
+                "Changing the harness around a fixed language model can produce a 6x performance gap on the same benchmark.",
+                "Meta Harness uses a coding agent with access to a file system that serves as a feedback channel to diagnose, propose edits, and interact with code.",
+                "Meta Harness enables significant improvements across text classification, retrieval-augmented math reasoning, and terminal bench testing compared to other methods."
+              ],
+              "signal_strength": 9,
+              "themes": [
+                "ai",
+                "self-improvement",
+                "machine learning",
+                "code",
+                "automation",
+                "meta-learning"
+              ],
+              "positioning_implication": "Focus on developing adaptable AI systems that can refine their operational parameters automatically. Evaluate the potential of self-evolving software to accelerate innovation and improve performance across various applications.",
+              "time_horizon": "long",
+              "shelf_life": "Medium",
+              "thumbnail": "https://i.ytimg.com/vi/61JUHDK-em8/hqdefault.jpg",
+              "video_url": "https://www.youtube.com/watch?v=61JUHDK-em8",
+              "cluster_id": 0,
+              "category": "Artificial Intelligence"
+            },
+            {
+              "episode_title": "Anthropic, OpenAI, and Microsoft Just Agreed on One File Format. It Changes Everything.",
+              "channel": "AI News & Strategy Daily | Nate B Jones",
+              "duration_minutes": 30,
+              "podcast_date": "2026-03-31",
+              "processing_date": "2024-04-26",
+              "one_line_summary": "Skills are transitioning from individual configurations to organizational infrastructure, becoming the substrate for consistent AI outcomes.",
+              "core_claims": [
+                "Skills are shifting from personal configuration to organizational infrastructure.",
+                "Agents now call the majority of skills, superseding human calls.",
+                "Skills are not limited to developers, extending to general business and personal life applications.",
+                "Skills are becoming a common infrastructure vehicle underlining AI work.",
+                "Alpha needs to be thought of differently because skills are now an open standard.",
+                "Agent-based design makes a skill's description a routing signal instead of a label."
+              ],
+              "signal_strength": 9,
+              "themes": [
+                "ai skills",
+                "agentic workflows",
+                "open standards",
+                "organizational infrastructure",
+                "ai development",
+                "automation"
+              ],
+              "positioning_implication": "Strategically prioritize skill-based AI implementation for enhanced productivity and broader applicability across diverse business functions. Emphasize open standards for wider integration and community collaboration.",
+              "time_horizon": "medium",
+              "shelf_life": "Medium",
+              "thumbnail": "https://i.ytimg.com/vi/0cVuMHaYEHE/hqdefault.jpg",
+              "video_url": "https://www.youtube.com/watch?v=0cVuMHaYEHE",
+              "cluster_id": 0,
+              "category": "Artificial Intelligence"
+            }
+          ]
+        },
+        {
+          "id": 1,
+          "name": "TurboQuant Accelerating AI Hardware Disruption",
+          "description": "Google's TurboQuant algorithm significantly reduces AI model memory and increases speed, potentially reshaping the AI hardware landscape by lowering costs and improving efficiency.",
+          "bias": "constructive",
+          "regime": "Emerging",
+          "size": 1,
+          "strength": 1.0,
+          "coherence": 1.0,
+          "channels": [
+            "Wes Roth"
+          ],
+          "avg_signal": 9.0,
+          "briefs": [
+            {
+              "episode_title": "Google's TurboQuant Crashed the AI Chip Market",
+              "channel": "Wes Roth",
+              "duration_minutes": 27,
+              "podcast_date": "2026-03-31",
+              "processing_date": "2026-03-31",
+              "one_line_summary": "Google's TurboQuant, a compression algorithm for AI, reduces memory requirements by at least 6x and increases speed by up to 8x with zero accuracy loss, potentially disrupting the AI chip market.",
+              "core_claims": [
+                "TurboQuant achieves at least a 6x reduction in memory requirements for AI models.",
+                "TurboQuant results in up to an 8x speed increase.",
+                "TurboQuant maintains zero accuracy loss.",
+                "TurboQuant will lead to approximately 50% cost reduction for enterprises running large language models at scale.",
+                "TurboQuant directly multiplies Nvidia's infrastructure efficiency, similar to a +20 intelligence boost in a video game.",
+                "TurboQuant will double the possible valuable output due to doubled processing capability."
+              ],
+              "signal_strength": 9,
+              "themes": [
+                "ai",
+                "machine learning",
+                "compression algorithms",
+                "hardware",
+                "market disruption",
+                "cost reduction",
+                "gpu",
+                "tpu"
+              ],
+              "positioning_implication": "Evaluate potential infrastructure cost savings from TurboQuant or similar compression algorithms, and assess the impact on hardware vendor strategy.",
+              "time_horizon": "medium",
+              "shelf_life": "Medium",
+              "thumbnail": "https://i.ytimg.com/vi/u0UV0ZkcbqI/hqdefault.jpg",
+              "video_url": "https://www.youtube.com/watch?v=u0UV0ZkcbqI",
+              "cluster_id": 1,
+              "category": "Artificial Intelligence"
+            }
+          ]
+        }
+      ],
+      "should_generate": false
+    },
+    "General Financial Investing and Speculation": {
+      "name": "General Financial Investing and Speculation",
+      "meta_summary": "",
+      "convergence_score": 0.0,
+      "percentile": 0.0,
+      "regime_state": "Neutral",
+      "clusters": [
+        {
+          "id": 0,
+          "name": "Geopolitics Intensifying Mining Investment Thesis",
+          "description": "Geopolitical tensions and monetary policy create investment opportunities in mining despite broader market risks.",
+          "bias": "constructive",
+          "regime": "Accelerating",
+          "size": 2,
+          "strength": 1.4107907585955608,
+          "coherence": 0.7053953792977804,
+          "channels": [
+            "Felix & Friends (Goat Academy)",
+            "Kitco NEWS"
+          ],
+          "avg_signal": 9.0,
+          "briefs": [
+            {
+              "episode_title": "The Mining Paradox: Record Low CapEx Just Created A Generational Buy | Tavi Costa",
+              "channel": "Kitco NEWS",
+              "duration_minutes": 58,
+              "podcast_date": "2026-03-31",
+              "processing_date": "2026-03-31",
+              "one_line_summary": "Record low capital expenditure in the mining sector coupled with structural demand creates a unique buying opportunity amid a trapped Fed.",
+              "core_claims": [
+                "Central banks lack the capacity to significantly raise rates, making an inflationary environment more likely.",
+                "Resource markets are misunderstood, with the focus primarily on demand rather than the critical issue of constrained supply.",
+                "The current global landscape resembles the 1970s, but with a Fed unable to aggressively raise rates, potentially unleashing inflation.",
+                "The market underestimates the government's capacity for radical changes to address the interest rate problem, many of which have inflationary consequences.",
+                "Physical gold market dynamics show gold's increasing importance as both a reserve asset and collateral in a stressed system.",
+                "Mining industry's lack of capital expenditure signals early stage of mining cycle, indicating visibility for supply constraints."
+              ],
+              "signal_strength": 9,
+              "themes": [
+                "mining",
+                "inflation",
+                "monetary policy",
+                "resource scarcity",
+                "geopolitics",
+                "investment strategy"
+              ],
+              "positioning_implication": "Shift portfolio allocation towards hard assets, commodities, and emerging markets to capitalize on an inflationary environment and potential government interventions.",
+              "time_horizon": "long",
+              "shelf_life": "Medium",
+              "thumbnail": "https://i.ytimg.com/vi/JGibjutkaXM/hqdefault.jpg",
+              "video_url": "https://www.youtube.com/watch?v=JGibjutkaXM",
+              "cluster_id": 0,
+              "category": "General Financial Investing and Speculation"
+            },
+            {
+              "episode_title": "The US Iran War Will Make (Some) Investors Rich l Here\u2019s How",
+              "channel": "Felix & Friends (Goat Academy)",
+              "duration_minutes": 30,
+              "podcast_date": "2026-03-31",
+              "processing_date": "2026-03-31",
+              "one_line_summary": "A US-Iran war could trigger a market crash, but also create wealth opportunities if one knows how to navigate it.",
+              "core_claims": [
+                "Physical oil price is $150+ while paper price is at $113, indicating scarcity and denial by financial markets.",
+                "Every oil spike in the last 50 years has been followed by a market crash.",
+                "The Fed is caught in stagflation where cutting rates worsens inflation, while hiking rates collapses the economy.",
+                "Bank of America anticipates a 'policy panic' bailout by governments and central banks involving de-escalation of the war, potential Fed rate cuts, and government bond purchases to lower interest rates.",
+                "Consumer discretionary stocks are trading at levels reminiscent of the Global Financial Crisis and COVID, creating a potential buying opportunity if financial conditions loosen, rate hikes halt, and private credit doesn't collapse.",
+                "Following a market shock gold does well afterwards, about 19% 6 months in, historically."
+              ],
+              "signal_strength": 9,
+              "themes": [
+                "investing",
+                "economics",
+                "geopolitics",
+                "market crash",
+                "oil prices",
+                "inflation",
+                "recession",
+                "policy intervention",
+                "risk management",
+                "gold"
+              ],
+              "positioning_implication": "Prepare for market volatility tied to geopolitical tensions and oil prices. Identify sectors poised to benefit from policy responses and a potential weakening dollar, while diligently managing risk and adhering to rules-based investment strategies.",
+              "time_horizon": "short",
+              "shelf_life": "Medium",
+              "thumbnail": "https://i.ytimg.com/vi/q0BUPCHMeH4/hqdefault.jpg",
+              "video_url": "https://www.youtube.com/watch?v=q0BUPCHMeH4",
+              "cluster_id": 0,
+              "category": "General Financial Investing and Speculation"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "name": "AI Intensifying Entry-Level Job Market Erosion",
+          "description": "This narrative highlights the accelerating displacement of entry-level jobs by AI, necessitating proactive career adaptation strategies across demographics.",
+          "bias": "defensive",
+          "regime": "Emerging",
+          "size": 1,
+          "strength": 1.0,
+          "coherence": 1.0,
+          "channels": [
+            "The Prof G Pod \u2013 Scott Galloway"
+          ],
+          "avg_signal": 8.0,
+          "briefs": [
+            {
+              "episode_title": "Is AI Killing Entry-Level Jobs? | Office Hours",
+              "channel": "The Prof G Pod \u2013 Scott Galloway",
+              "duration_minutes": 36,
+              "podcast_date": "2026-03-31",
+              "processing_date": "2024-04-26",
+              "one_line_summary": "AI's impact on entry-level job availability and strategies for career adaptation are discussed, highlighting industry shifts and demographic trends.",
+              "core_claims": [
+                "New graduates account for only 7% of big tech new hires, a decrease from 25% in 2023 and over 50% pre-pandemic.",
+                "Entry-level employment in AI-exposed occupations has fallen by approximately 13% since generative AI adoption began.",
+                "Large corporations may see AI affect at least 10% of tasks for 80% of the workforce, notably in writing, coding, and analysis.",
+                "The number of Americans over the age of 85 is projected to double from 6.5 million in 2022 to 13.7 million by 2040."
+              ],
+              "signal_strength": 8,
+              "themes": [
+                "ai impact",
+                "job market",
+                "career advice",
+                "demographics",
+                "senior care",
+                "economic trends"
+              ],
+              "positioning_implication": "Re-evaluate talent acquisition and development strategies considering AI's influence. Investment should focus on adapting to and leveraging AI rather than resisting its integration.",
+              "time_horizon": "medium",
+              "shelf_life": "Medium",
+              "thumbnail": "https://i.ytimg.com/vi/ogSGA791QSc/hqdefault.jpg",
+              "video_url": "https://www.youtube.com/watch?v=ogSGA791QSc",
+              "cluster_id": 3,
+              "category": "General Financial Investing and Speculation"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "name": "Oil Price: Bearish Correction Accelerating",
+          "description": "Oil prices face accelerating downward pressure, potentially breaching $70 and approaching $50 by year-end, driven by technical bearish signals.",
+          "bias": "counter-consensus",
+          "regime": "Emerging",
+          "size": 1,
+          "strength": 1.0,
+          "coherence": 1.0,
+          "channels": [
+            "Verified Investing"
+          ],
+          "avg_signal": 8.0,
+          "briefs": [
+            {
+              "episode_title": "OIL Flashes MASSIVE Sell Signal: Investors PANIC, Why I Am BUYING This Market Bounce!",
+              "channel": "Verified Investing",
+              "duration_minutes": 22,
+              "podcast_date": "2026-03-31",
+              "processing_date": "2026-03-31",
+              "one_line_summary": "Oil's bearish chart pattern suggests a move back to the $70 per barrel range, potentially falling to sub-$50 by year-end despite contrary bullish sentiments.",
+              "core_claims": [
+                "Oil is showing a bearish reversal signal, similar to silver's top formation at $120 per ounce before a 50% drop.",
+                "Despite CNBC analysts predicting $200 oil, current charts do not support it, indicating a 10% chance of surpassing $120 per barrel.",
+                "The speaker forecasts a move back to the $70 per barrel range within the next two months and potentially sub-$50 oil by year-end.",
+                "The speaker is bullish on the market near term, predicting the near term markets of 5-6% upside due to oil coming in.",
+                "Even with a potential market bounce, the speaker expects a market downturn to around 6100, down to 5500-5600 by year-end.",
+                "Bitcoin is the only asset since February that is net positive."
+              ],
+              "signal_strength": 8,
+              "themes": [
+                "oil price",
+                "bearish market",
+                "technical analysis",
+                "market correction",
+                "investment strategy",
+                "economic outlook"
+              ],
+              "positioning_implication": "Reduce exposure to oil-related assets; consider short-term long positions in oversold sectors anticipating a bounce, but maintain a bearish long-term outlook.",
+              "time_horizon": "medium",
+              "shelf_life": "Medium",
+              "thumbnail": "https://i.ytimg.com/vi/M3a7PXApKQI/hqdefault.jpg",
+              "video_url": "https://www.youtube.com/watch?v=M3a7PXApKQI",
+              "cluster_id": 2,
+              "category": "General Financial Investing and Speculation"
+            }
+          ]
+        },
+        {
+          "id": 1,
+          "name": "Sentiment Divergence Eroding Political Narratives",
+          "description": "Consumer pessimism challenges the prevailing positive economic and political outlook.",
+          "bias": "counter-consensus",
+          "regime": "Emerging",
+          "size": 1,
+          "strength": 1.0,
+          "coherence": 1.0,
+          "channels": [
+            "The Prof G Pod \u2013 Scott Galloway"
+          ],
+          "avg_signal": 8.0,
+          "briefs": [
+            {
+              "episode_title": "Trump Says the Economy Is Strong \u2014 Voters Disagree | Prof G Markets",
+              "channel": "The Prof G Pod \u2013 Scott Galloway",
+              "duration_minutes": 49,
+              "podcast_date": "2026-03-31",
+              "processing_date": "2026-03-31",
+              "one_line_summary": "Consumer economic sentiment is diverging from positive macro indicators, challenging political narratives.",
+              "core_claims": [
+                "AI Sora app lasted 175 days, 25 fewer than Quibi.",
+                "Mortgage demand fell 10% last week, refinancing dropped 15%.",
+                "Job creation in the private sector was effectively zero.",
+                "Only 28% of workers say now is a good time to find a quality job, down from 70% in mid-2022.",
+                "Gas prices have jumped 30% since the start of the Iran war.",
+                "The top 1% now owns 32% of total US wealth, roughly equal to the bottom 90% combined.",
+                "Since 2016, the top 1% have captured 33% of total wealth gains, and the bottom 50% have only captured 6%.",
+                "The top 10 US billionaires gained $700 billion in a single year last year.",
+                "The top 1% income is up 162% since 1980; the lowest 36%.",
+                "For every 10% increase in housing prices, birth rates decline 1%."
+              ],
+              "signal_strength": 8,
+              "themes": [
+                "consumer sentiment",
+                "economic disparity",
+                "market disconnect",
+                "social media impact",
+                "political narrative",
+                "financial regulation"
+              ],
+              "positioning_implication": "Adjust resource allocation to address discrepancies between macro data and micro-level consumer experiences; anticipate potential regulatory shifts affecting finance and social media.",
+              "time_horizon": "medium",
+              "shelf_life": "Medium",
+              "thumbnail": "https://i.ytimg.com/vi/5AOyRSlEAE8/hqdefault.jpg",
+              "video_url": "https://www.youtube.com/watch?v=5AOyRSlEAE8",
+              "cluster_id": 1,
+              "category": "General Financial Investing and Speculation"
+            }
+          ]
+        }
+      ],
+      "should_generate": false
+    },
+    "Precious Metals": {
+      "name": "Precious Metals",
+      "meta_summary": "",
+      "convergence_score": 0.0,
+      "percentile": 0.0,
+      "regime_state": "Neutral",
+      "clusters": [
+        {
+          "id": 0,
+          "name": "Geopolitical Tensions Intensifying Economic Shutdown Risk",
+          "description": "Heightened geopolitical and energy risks are converging, increasing the probability of a global economic shutdown.",
+          "bias": "defensive",
+          "regime": "Emerging",
+          "size": 1,
+          "strength": 0.0,
+          "coherence": 1.0,
+          "channels": [
+            "Wall Street Bullion"
+          ],
+          "avg_signal": 8.0,
+          "briefs": [
+            {
+              "episode_title": "\ud83d\udea8 URGENT: Silver Price Surge to $300 & Central Bank Crisis Imminent! Are You Prepared?!",
+              "channel": "Wall Street Bullion",
+              "duration_minutes": 26,
+              "podcast_date": "2026-03-31",
+              "processing_date": "2024-04-29",
+              "one_line_summary": "Ongoing geopolitical tensions and energy crises could trigger a global economic shutdown if not addressed immediately.",
+              "core_claims": [
+                "Oil prices potentially reaching $200 per barrel may force consumers to reallocate funds from other sectors to maintain essential oil consumption.",
+                "Continued pressure on the Straits could result in financial institutions collapsing and further weaken the dollar.",
+                "Gold futures open interest has fallen to 2008 levels, signaling decreased market participation and a potential dollar hoarding situation.",
+                "If conflict continues or escalates, nuclear war is unlikely due to mutually assured destruction.",
+                "Consumers may cancel discretionary subscriptions to afford fuel, affecting marginal producers such as Netflix."
+              ],
+              "signal_strength": 8,
+              "themes": [
+                "geopolitics",
+                "energy crisis",
+                "economic collapse",
+                "inflation",
+                "precious metals",
+                "risk management"
+              ],
+              "positioning_implication": "Increase holdings in precious metals and essential goods while closely monitoring geopolitical indicators for potential market shifts. Prepare for possible supply chain disruptions and subsequent economic volatility.",
+              "time_horizon": "short",
+              "shelf_life": "Medium",
+              "thumbnail": "https://i.ytimg.com/vi/boa8pkNSqwk/hqdefault.jpg",
+              "video_url": "https://www.youtube.com/watch?v=boa8pkNSqwk",
+              "cluster_id": 0,
+              "category": "Precious Metals"
+            }
+          ]
+        }
+      ],
+      "should_generate": false
+    }
+  },
+  "clusters": []
+}

@@ -3388,3 +3388,111 @@
 2026-03-30 06:56:25,402 - INFO - ==================================================
 2026-03-30 06:56:25,403 - INFO - Pipeline Execution Complete
 2026-03-30 06:56:25,403 - INFO - ==================================================
+2026-03-31 06:44:20,834 - INFO - ==================================================
+2026-03-31 06:44:20,834 - INFO - Starting TheBrief Daily Pipeline
+2026-03-31 06:44:20,834 - INFO - ==================================================
+2026-03-31 06:44:20,835 - INFO - 
+--- Phase 1: Discovery ---
+2026-03-31 06:44:20,838 - INFO - Discovering videos published after 2026-03-30T06:44:20.838578+00:00 (24h lookback)
+2026-03-31 06:44:21,283 - INFO - Found 1 new potential videos on Wall Street Bullion .
+2026-03-31 06:44:21,302 - INFO - Found 1 new potential videos on Kitco NEWS.
+2026-03-31 06:44:21,615 - INFO - Found 1 new potential videos on AI News & Strategy Daily | Nate B Jones.
+2026-03-31 06:44:21,622 - INFO - Found 1 new potential videos on David Lin .
+2026-03-31 06:44:21,792 - INFO - Found 5 new potential videos on Verified Investing.
+2026-03-31 06:44:22,218 - INFO - Found 1 new potential videos on Adam Taggart | Thoughtful Money®.
+2026-03-31 06:44:22,380 - INFO - Found 2 new potential videos on Matthew Berman.
+2026-03-31 06:44:22,467 - INFO - Found 1 new potential videos on Felix & Friends (Goat Academy).
+2026-03-31 06:44:22,505 - INFO - Found 1 new potential videos on Wes Roth.
+2026-03-31 06:44:22,534 - INFO - Found 5 new potential videos on The Prof G Pod – Scott Galloway.
+2026-03-31 06:44:22,782 - INFO - Found 12 total long-form videos across all channels.
+2026-03-31 06:44:22,791 - INFO - Discovery complete. Added 12 new videos to queue.
+2026-03-31 06:44:22,791 - INFO - 
+--- Phase 2: Extraction ---
+2026-03-31 06:44:23,039 - INFO - yt-dlp version: 2026.03.17
+2026-03-31 06:44:23,388 - INFO - POT-related packages: bgutil-ytdlp-pot-provider 1.3.1
+2026-03-31 06:44:23,412 - INFO - bgutil HTTP server not available on port 4416 (will rely on cookies)
+2026-03-31 06:44:23,413 - INFO - Extracting audio for AI Self EVOLUTION (Meta Harness) (61JUHDK-em8)...
+2026-03-31 06:44:43,748 - INFO - Successfully extracted: audio/61JUHDK-em8.mp3
+2026-03-31 06:44:52,872 - INFO - Extracting audio for The Mining Paradox: Record Low CapEx Just Created A Generational Buy | Tavi Costa (JGibjutkaXM)...
+2026-03-31 06:45:19,724 - INFO - Successfully extracted: audio/JGibjutkaXM.mp3
+2026-03-31 06:45:25,036 - INFO - Extracting audio for Market Repeating 2022; Nothing Is Safe In Next Financial Crisis Warns Trader | Chris Vermeulen (0AuY2IigwI8)...
+2026-03-31 06:45:49,101 - INFO - Successfully extracted: audio/0AuY2IigwI8.mp3
+2026-03-31 06:45:59,944 - INFO - Extracting audio for THE GROWTH EXIT! 📉 Oil at $103 Is Crushing Tech (8s3tI3bcZmM)...
+2026-03-31 06:46:15,238 - INFO - Successfully extracted: audio/8s3tI3bcZmM.mp3
+2026-03-31 06:46:26,585 - INFO - Extracting audio for 🚨 URGENT: Silver Price Surge to $300 & Central Bank Crisis Imminent! Are You Prepared?! (boa8pkNSqwk)...
+2026-03-31 06:46:39,486 - INFO - Successfully extracted: audio/boa8pkNSqwk.mp3
+2026-03-31 06:46:47,397 - INFO - Extracting audio for Is AI Killing Entry-Level Jobs? | Office Hours (ogSGA791QSc)...
+2026-03-31 06:47:01,699 - INFO - Successfully extracted: audio/ogSGA791QSc.mp3
+2026-03-31 06:47:13,240 - INFO - Extracting audio for Anthropic, OpenAI, and Microsoft Just Agreed on One File Format. It Changes Everything. (0cVuMHaYEHE)...
+2026-03-31 06:47:32,665 - INFO - Successfully extracted: audio/0cVuMHaYEHE.mp3
+2026-03-31 06:47:42,432 - INFO - Extracting audio for OIL Flashes MASSIVE Sell Signal: Investors PANIC, Why I Am BUYING This Market Bounce! (M3a7PXApKQI)...
+2026-03-31 06:47:56,677 - INFO - Successfully extracted: audio/M3a7PXApKQI.mp3
+2026-03-31 06:48:05,384 - INFO - Extracting audio for The US Iran War Will Make (Some) Investors Rich l Here’s How (q0BUPCHMeH4)...
+2026-03-31 06:48:22,793 - INFO - Successfully extracted: audio/q0BUPCHMeH4.mp3
+2026-03-31 06:48:28,176 - INFO - Extracting audio for Don't Trust This Bounce — SPX & NDX Bull Trap + NVDA, AMD, ORCL & USO Setups (rCC-Mn6-S8k)...
+2026-03-31 06:48:39,458 - INFO - Successfully extracted: audio/rCC-Mn6-S8k.mp3
+2026-03-31 06:48:47,421 - INFO - Extracting audio for Trump Says the Economy Is Strong — Voters Disagree | Prof G Markets (5AOyRSlEAE8)...
+2026-03-31 06:49:22,099 - INFO - Successfully extracted: audio/5AOyRSlEAE8.mp3
+2026-03-31 06:49:32,646 - INFO - Extracting audio for Google's TurboQuant Crashed the AI Chip Market (u0UV0ZkcbqI)...
+2026-03-31 06:49:49,766 - INFO - Successfully extracted: audio/u0UV0ZkcbqI.mp3
+2026-03-31 06:49:49,767 - INFO - Extraction complete. 12/12 audio files ready. (Time: 326.4s)
+2026-03-31 06:49:49,767 - INFO - 
+--- Phase 3: Summarization (Direct Audio) ---
+2026-03-31 06:49:51,741 - INFO - Generating Brief for AI Self EVOLUTION (Meta Harness) (61JUHDK-em8)...
+2026-03-31 06:49:51,742 - INFO - AFC is enabled with max remote calls: 10.
+2026-03-31 06:49:51,994 - INFO - Generating Brief for Market Repeating 2022; Nothing Is Safe In Next Financial Crisis Warns Trader | Chris Vermeulen (0AuY2IigwI8)...
+2026-03-31 06:49:51,995 - INFO - AFC is enabled with max remote calls: 10.
+2026-03-31 06:49:52,002 - INFO - Generating Brief for The Mining Paradox: Record Low CapEx Just Created A Generational Buy | Tavi Costa (JGibjutkaXM)...
+2026-03-31 06:49:52,003 - INFO - AFC is enabled with max remote calls: 10.
+2026-03-31 06:50:03,605 - INFO - ✅ Brief successfully generated for AI Self EVOLUTION (Meta Harness)
+2026-03-31 06:50:05,546 - INFO - Generating Brief for THE GROWTH EXIT! 📉 Oil at $103 Is Crushing Tech (8s3tI3bcZmM)...
+2026-03-31 06:50:05,547 - INFO - AFC is enabled with max remote calls: 10.
+2026-03-31 06:50:06,842 - INFO - ✅ Brief successfully generated for The Mining Paradox: Record Low CapEx Just Created A Generational Buy | Tavi Costa
+2026-03-31 06:50:08,428 - INFO - Generating Brief for 🚨 URGENT: Silver Price Surge to $300 & Central Bank Crisis Imminent! Are You Prepared?! (boa8pkNSqwk)...
+2026-03-31 06:50:08,431 - INFO - AFC is enabled with max remote calls: 10.
+2026-03-31 06:50:09,652 - ERROR - Schema parsing error for Market Repeating 2022; Nothing Is Safe In Next Financial Crisis Warns Trader | Chris Vermeulen: Expecting value: line 1 column 824 (char 823)
+2026-03-31 06:50:11,451 - ERROR - Schema parsing error for THE GROWTH EXIT! 📉 Oil at $103 Is Crushing Tech: Expecting value: line 1 column 1019 (char 1018)
+2026-03-31 06:50:11,540 - INFO - Generating Brief for Is AI Killing Entry-Level Jobs? | Office Hours (ogSGA791QSc)...
+2026-03-31 06:50:11,541 - INFO - AFC is enabled with max remote calls: 10.
+2026-03-31 06:50:14,072 - INFO - Generating Brief for Anthropic, OpenAI, and Microsoft Just Agreed on One File Format. It Changes Everything. (0cVuMHaYEHE)...
+2026-03-31 06:50:14,073 - INFO - AFC is enabled with max remote calls: 10.
+2026-03-31 06:50:17,294 - INFO - ✅ Brief successfully generated for 🚨 URGENT: Silver Price Surge to $300 & Central Bank Crisis Imminent! Are You Prepared?!
+2026-03-31 06:50:18,708 - INFO - Generating Brief for OIL Flashes MASSIVE Sell Signal: Investors PANIC, Why I Am BUYING This Market Bounce! (M3a7PXApKQI)...
+2026-03-31 06:50:18,709 - INFO - AFC is enabled with max remote calls: 10.
+2026-03-31 06:50:18,970 - INFO - ✅ Brief successfully generated for Is AI Killing Entry-Level Jobs? | Office Hours
+2026-03-31 06:50:20,466 - INFO - Generating Brief for The US Iran War Will Make (Some) Investors Rich l Here’s How (q0BUPCHMeH4)...
+2026-03-31 06:50:20,467 - INFO - AFC is enabled with max remote calls: 10.
+2026-03-31 06:50:26,713 - INFO - ✅ Brief successfully generated for OIL Flashes MASSIVE Sell Signal: Investors PANIC, Why I Am BUYING This Market Bounce!
+2026-03-31 06:50:28,239 - INFO - Generating Brief for Don't Trust This Bounce — SPX & NDX Bull Trap + NVDA, AMD, ORCL & USO Setups (rCC-Mn6-S8k)...
+2026-03-31 06:50:28,241 - INFO - AFC is enabled with max remote calls: 10.
+2026-03-31 06:50:33,003 - ERROR - Schema parsing error for Don't Trust This Bounce — SPX & NDX Bull Trap + NVDA, AMD, ORCL & USO Setups: Expecting value: line 1 column 1020 (char 1019)
+2026-03-31 06:50:35,649 - INFO - Generating Brief for Trump Says the Economy Is Strong — Voters Disagree | Prof G Markets (5AOyRSlEAE8)...
+2026-03-31 06:50:35,650 - INFO - AFC is enabled with max remote calls: 10.
+2026-03-31 06:50:38,773 - INFO - ✅ Brief successfully generated for Anthropic, OpenAI, and Microsoft Just Agreed on One File Format. It Changes Everything.
+2026-03-31 06:50:40,365 - INFO - Generating Brief for Google's TurboQuant Crashed the AI Chip Market (u0UV0ZkcbqI)...
+2026-03-31 06:50:40,366 - INFO - AFC is enabled with max remote calls: 10.
+2026-03-31 06:50:55,635 - INFO - ✅ Brief successfully generated for The US Iran War Will Make (Some) Investors Rich l Here’s How
+2026-03-31 06:50:56,026 - INFO - ✅ Brief successfully generated for Google's TurboQuant Crashed the AI Chip Market
+2026-03-31 06:50:58,192 - INFO - ✅ Brief successfully generated for Trump Says the Economy Is Strong — Voters Disagree | Prof G Markets
+2026-03-31 06:50:58,192 - INFO - --- Phase 3: Category Synthesis (9 assets across categories) ---
+2026-03-31 06:50:58,193 - INFO - Analyzing 3 categories: Artificial Intelligence, General Financial Investing and Speculation, Precious Metals
+2026-03-31 06:50:58,193 - INFO - Processing Synthesis for sector: Artificial Intelligence (3 assets)...
+2026-03-31 06:50:58,223 - INFO - AFC is enabled with max remote calls: 10.
+2026-03-31 06:50:58,971 - INFO - AFC is enabled with max remote calls: 10.
+2026-03-31 06:51:00,027 - INFO - ✅ Synthesis complete for Artificial Intelligence
+2026-03-31 06:51:00,027 - INFO - Processing Synthesis for sector: General Financial Investing and Speculation (5 assets)...
+2026-03-31 06:51:00,034 - INFO - AFC is enabled with max remote calls: 10.
+2026-03-31 06:51:00,824 - INFO - AFC is enabled with max remote calls: 10.
+2026-03-31 06:51:01,762 - INFO - AFC is enabled with max remote calls: 10.
+2026-03-31 06:51:02,535 - INFO - AFC is enabled with max remote calls: 10.
+2026-03-31 06:51:03,298 - INFO - ✅ Synthesis complete for General Financial Investing and Speculation
+2026-03-31 06:51:03,298 - INFO - Processing Synthesis for sector: Precious Metals (1 assets)...
+2026-03-31 06:51:03,299 - INFO - AFC is enabled with max remote calls: 10.
+2026-03-31 06:51:04,025 - INFO - ✅ Synthesis complete for Precious Metals
+2026-03-31 06:51:04,039 - INFO - Summarization complete. 9 briefs written to briefs/2026-03-31.md (Time: 74.2s)
+2026-03-31 06:51:06,090 - INFO - Email digest sent successfully to kwilliamson.mail@gmail.com.
+2026-03-31 06:51:07,377 - INFO - Email digest sent successfully to kochava72@gmail.com.
+2026-03-31 06:51:07,402 - INFO - Queue cleared.
+2026-03-31 06:51:07,409 - INFO - ==================================================
+2026-03-31 06:51:07,409 - INFO - Pipeline Execution Complete
+2026-03-31 06:51:07,409 - INFO - ==================================================
