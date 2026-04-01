@@ -3496,3 +3496,143 @@
 2026-03-31 06:51:07,409 - INFO - ==================================================
 2026-03-31 06:51:07,409 - INFO - Pipeline Execution Complete
 2026-03-31 06:51:07,409 - INFO - ==================================================
+2026-04-01 06:58:43,005 - INFO - ==================================================
+2026-04-01 06:58:43,005 - INFO - Starting TheBrief Daily Pipeline
+2026-04-01 06:58:43,005 - INFO - ==================================================
+2026-04-01 06:58:43,005 - INFO - 
+--- Phase 1: Discovery ---
+2026-04-01 06:58:43,010 - INFO - Discovering videos published after 2026-03-31T06:58:43.010197+00:00 (24h lookback)
+2026-04-01 06:58:43,365 - INFO - Found 1 new potential videos on Kitco NEWS.
+2026-04-01 06:58:43,374 - INFO - Found 1 new potential videos on Wall Street Bullion .
+2026-04-01 06:58:43,701 - INFO - Found 1 new potential videos on GoldSilver .
+2026-04-01 06:58:43,708 - INFO - Found 2 new potential videos on AI News & Strategy Daily | Nate B Jones.
+2026-04-01 06:58:43,831 - INFO - Found 2 new potential videos on David Lin .
+2026-04-01 06:58:44,252 - INFO - Found 2 new potential videos on Adam Taggart | Thoughtful Money®.
+2026-04-01 06:58:44,299 - INFO - Found 5 new potential videos on Verified Investing.
+2026-04-01 06:58:44,351 - INFO - Found 2 new potential videos on Matthew Berman.
+2026-04-01 06:58:44,386 - INFO - Found 1 new potential videos on Commodity Culture.
+2026-04-01 06:58:44,435 - INFO - Found 1 new potential videos on CPM Group.
+2026-04-01 06:58:44,556 - INFO - Found 3 new potential videos on Wes Roth.
+2026-04-01 06:58:44,702 - INFO - Found 4 new potential videos on The Prof G Pod – Scott Galloway.
+2026-04-01 06:58:44,931 - INFO - Found 18 total long-form videos across all channels.
+2026-04-01 06:58:44,944 - INFO - Discovery complete. Added 18 new videos to queue.
+2026-04-01 06:58:44,944 - INFO - 
+--- Phase 2: Extraction ---
+2026-04-01 06:58:45,201 - INFO - yt-dlp version: 2026.03.17
+2026-04-01 06:58:45,554 - INFO - POT-related packages: bgutil-ytdlp-pot-provider 1.3.1
+2026-04-01 06:58:45,578 - INFO - bgutil HTTP server not available on port 4416 (will rely on cookies)
+2026-04-01 06:58:45,578 - INFO - Extracting audio for 'Significant Disruption' Coming: Make $100k/Month Or Lose Your Job | @Sahil_Bloom (Cx74s3gOnwI)...
+2026-04-01 06:59:05,056 - INFO - Successfully extracted: audio/Cx74s3gOnwI.mp3
+2026-04-01 06:59:14,684 - INFO - Extracting audio for Claude Code source code LEAKED (PNjIXYAFgCI)...
+2026-04-01 06:59:27,546 - INFO - Successfully extracted: audio/PNjIXYAFgCI.mp3
+2026-04-01 06:59:39,481 - INFO - Extracting audio for Claude Code was just leaked... (WOAH) (dYG8JxtSgmM)...
+2026-04-01 06:59:52,212 - INFO - Successfully extracted: audio/dYG8JxtSgmM.mp3
+2026-04-01 07:00:00,751 - INFO - Extracting audio for Claude LEAKED | Wes Roth, Dylan Curious & Julia McCoy (yxg20_E-DEk)...
+2026-04-01 07:00:47,267 - INFO - Successfully extracted: audio/yxg20_E-DEk.mp3
+2026-04-01 07:00:56,971 - INFO - Extracting audio for Fed Must Act Now Or System Collapses: 'Never Seen Anything Like This' | Danielle DiMartino Booth (dpTkW9FXB2Q)...
+2026-04-01 07:01:16,396 - INFO - Successfully extracted: audio/dpTkW9FXB2Q.mp3
+2026-04-01 07:01:25,003 - INFO - Extracting audio for Why Gold and Silver Prices Are Rising Again (9C23bw1HpJQ)...
+2026-04-01 07:01:43,494 - INFO - Successfully extracted: audio/9C23bw1HpJQ.mp3
+2026-04-01 07:01:51,866 - INFO - Extracting audio for THE MEGA CAP COMEBACK! 🚀 Markets Rally on Peace Hopes (tYc8PqJvlUE)...
+2026-04-01 07:02:04,870 - INFO - Successfully extracted: audio/tYc8PqJvlUE.mp3
+2026-04-01 07:02:15,167 - INFO - Extracting audio for One on One with Marc Benioff (TMbGHKcuxPk)...
+2026-04-01 07:03:08,335 - INFO - Successfully extracted: audio/TMbGHKcuxPk.mp3
+2026-04-01 07:03:15,287 - INFO - Extracting audio for The Global Supply Chain Crisis And The Return To Resource Sovereignty: Col. Douglas Macgregor (HMxG3f1eoBY)...
+2026-04-01 07:03:37,438 - INFO - Successfully extracted: audio/HMxG3f1eoBY.mp3
+2026-04-01 07:03:44,892 - INFO - Extracting audio for 🔴$300 Silver Price Coming? You NEED to Hear This! Gold & Precious Metals SHOCKING News Update! (tjnIkcGmsIQ)...
+2026-04-01 07:04:00,017 - INFO - Successfully extracted: audio/tjnIkcGmsIQ.mp3
+2026-04-01 07:04:05,331 - INFO - Extracting audio for 'Trump is Trapped' in Iran as Israeli Fanatics Push For Total Armageddon: Bob Moriarty (Jx9lezqunq8)...
+2026-04-01 07:04:27,375 - INFO - Successfully extracted: audio/Jx9lezqunq8.mp3
+2026-04-01 07:04:33,506 - INFO - Extracting audio for Could Gold Really Hit $26,000? (707QOdKp6e4)...
+2026-04-01 07:04:44,439 - INFO - Successfully extracted: audio/707QOdKp6e4.mp3
+2026-04-01 07:04:49,567 - INFO - Extracting audio for China Walks a DANGEROUS Line as Iran War Escalates | China Decode (IknIOAA3RSE)...
+2026-04-01 07:05:16,187 - INFO - Successfully extracted: audio/IknIOAA3RSE.mp3
+2026-04-01 07:05:25,225 - INFO - Extracting audio for "We're Now In The Middle Of A Market Correction" Admits Longtime Wall Street Bull | Ed Yardeni (JReLinb4Fvg)...
+2026-04-01 07:05:55,762 - INFO - Successfully extracted: audio/JReLinb4Fvg.mp3
+2026-04-01 07:06:06,985 - INFO - Extracting audio for Your iPhone Is About to Control Every AI App You Use. Here's What This Means For You. (BhXNtvZvziY)...
+2026-04-01 07:06:22,936 - INFO - Successfully extracted: audio/BhXNtvZvziY.mp3
+2026-04-01 07:06:34,881 - INFO - Extracting audio for Stocks Surging, Oil Topping, Mega Bounce Beginning...Here Are The Forecasts And Shocking Trades (U8ZrUFVHhGg)...
+2026-04-01 07:06:48,445 - INFO - Successfully extracted: audio/U8ZrUFVHhGg.mp3
+2026-04-01 07:06:53,640 - INFO - Extracting audio for Oil Fades, Bulls Wake Up — SPY & NASDAQ Eye a Surge | NVDA, ORCL, MU, BTC (WHh9TPJDCTU)...
+2026-04-01 07:07:04,779 - INFO - Successfully extracted: audio/WHh9TPJDCTU.mp3
+2026-04-01 07:07:16,533 - INFO - Extracting audio for Big Tech Is Now Advising the White House — What Could Go Wrong? | Prof G Markets (4iI4gGwsP_0)...
+2026-04-01 07:07:35,444 - INFO - Successfully extracted: audio/4iI4gGwsP_0.mp3
+2026-04-01 07:07:35,445 - INFO - Extraction complete. 18/18 audio files ready. (Time: 529.9s)
+2026-04-01 07:07:35,445 - INFO - 
+--- Phase 3: Summarization (Direct Audio) ---
+2026-04-01 07:07:36,756 - INFO - Generating Brief for Claude Code was just leaked... (WOAH) (dYG8JxtSgmM)...
+2026-04-01 07:07:36,758 - INFO - AFC is enabled with max remote calls: 10.
+2026-04-01 07:07:36,802 - INFO - Generating Brief for Claude Code source code LEAKED (PNjIXYAFgCI)...
+2026-04-01 07:07:36,803 - INFO - AFC is enabled with max remote calls: 10.
+2026-04-01 07:07:36,851 - INFO - Generating Brief for 'Significant Disruption' Coming: Make $100k/Month Or Lose Your Job | @Sahil_Bloom (Cx74s3gOnwI)...
+2026-04-01 07:07:36,852 - INFO - AFC is enabled with max remote calls: 10.
+2026-04-01 07:07:43,293 - INFO - ✅ Brief successfully generated for Claude Code source code LEAKED
+2026-04-01 07:07:44,429 - INFO - ✅ Brief successfully generated for Claude Code was just leaked... (WOAH)
+2026-04-01 07:07:44,560 - INFO - ✅ Brief successfully generated for 'Significant Disruption' Coming: Make $100k/Month Or Lose Your Job | @Sahil_Bloom
+2026-04-01 07:07:44,896 - INFO - Generating Brief for Claude LEAKED | Wes Roth, Dylan Curious & Julia McCoy (yxg20_E-DEk)...
+2026-04-01 07:07:44,897 - INFO - AFC is enabled with max remote calls: 10.
+2026-04-01 07:07:45,745 - INFO - Generating Brief for Fed Must Act Now Or System Collapses: 'Never Seen Anything Like This' | Danielle DiMartino Booth (dpTkW9FXB2Q)...
+2026-04-01 07:07:45,746 - INFO - AFC is enabled with max remote calls: 10.
+2026-04-01 07:07:45,883 - INFO - Generating Brief for Why Gold and Silver Prices Are Rising Again (9C23bw1HpJQ)...
+2026-04-01 07:07:45,884 - INFO - AFC is enabled with max remote calls: 10.
+2026-04-01 07:07:55,216 - INFO - ✅ Brief successfully generated for Fed Must Act Now Or System Collapses: 'Never Seen Anything Like This' | Danielle DiMartino Booth
+2026-04-01 07:07:56,141 - ERROR - Schema parsing error for Why Gold and Silver Prices Are Rising Again: Expecting value: line 1 column 1178 (char 1177)
+2026-04-01 07:07:56,189 - INFO - Generating Brief for THE MEGA CAP COMEBACK! 🚀 Markets Rally on Peace Hopes (tYc8PqJvlUE)...
+2026-04-01 07:07:56,190 - INFO - AFC is enabled with max remote calls: 10.
+2026-04-01 07:07:58,401 - INFO - Generating Brief for One on One with Marc Benioff (TMbGHKcuxPk)...
+2026-04-01 07:07:58,402 - INFO - AFC is enabled with max remote calls: 10.
+2026-04-01 07:08:03,687 - INFO - ✅ Brief successfully generated for THE MEGA CAP COMEBACK! 🚀 Markets Rally on Peace Hopes
+2026-04-01 07:08:04,913 - INFO - Generating Brief for The Global Supply Chain Crisis And The Return To Resource Sovereignty: Col. Douglas Macgregor (HMxG3f1eoBY)...
+2026-04-01 07:08:04,914 - INFO - AFC is enabled with max remote calls: 10.
+2026-04-01 07:08:12,419 - INFO - ✅ Brief successfully generated for One on One with Marc Benioff
+2026-04-01 07:08:13,617 - INFO - Generating Brief for 🔴$300 Silver Price Coming? You NEED to Hear This! Gold & Precious Metals SHOCKING News Update! (tjnIkcGmsIQ)...
+2026-04-01 07:08:13,618 - INFO - AFC is enabled with max remote calls: 10.
+2026-04-01 07:08:16,423 - INFO - ✅ Brief successfully generated for The Global Supply Chain Crisis And The Return To Resource Sovereignty: Col. Douglas Macgregor
+2026-04-01 07:08:17,503 - INFO - Generating Brief for 'Trump is Trapped' in Iran as Israeli Fanatics Push For Total Armageddon: Bob Moriarty (Jx9lezqunq8)...
+2026-04-01 07:08:17,504 - INFO - AFC is enabled with max remote calls: 10.
+2026-04-01 07:08:18,615 - INFO - ✅ Brief successfully generated for Claude LEAKED | Wes Roth, Dylan Curious & Julia McCoy
+2026-04-01 07:08:19,696 - INFO - Generating Brief for Could Gold Really Hit $26,000? (707QOdKp6e4)...
+2026-04-01 07:08:19,697 - INFO - AFC is enabled with max remote calls: 10.
+2026-04-01 07:08:24,208 - ERROR - Schema parsing error for Could Gold Really Hit $26,000?: Expecting value: line 1 column 1148 (char 1147)
+2026-04-01 07:08:26,278 - INFO - Generating Brief for China Walks a DANGEROUS Line as Iran War Escalates | China Decode (IknIOAA3RSE)...
+2026-04-01 07:08:26,279 - INFO - AFC is enabled with max remote calls: 10.
+2026-04-01 07:08:27,325 - INFO - ✅ Brief successfully generated for 🔴$300 Silver Price Coming? You NEED to Hear This! Gold & Precious Metals SHOCKING News Update!
+2026-04-01 07:08:28,759 - INFO - Generating Brief for "We're Now In The Middle Of A Market Correction" Admits Longtime Wall Street Bull | Ed Yardeni (JReLinb4Fvg)...
+2026-04-01 07:08:28,760 - INFO - AFC is enabled with max remote calls: 10.
+2026-04-01 07:08:29,517 - ERROR - Schema parsing error for 'Trump is Trapped' in Iran as Israeli Fanatics Push For Total Armageddon: Bob Moriarty: Expecting value: line 1 column 1354 (char 1353)
+2026-04-01 07:08:30,955 - INFO - Generating Brief for Your iPhone Is About to Control Every AI App You Use. Here's What This Means For You. (BhXNtvZvziY)...
+2026-04-01 07:08:30,956 - INFO - AFC is enabled with max remote calls: 10.
+2026-04-01 07:08:36,894 - ERROR - Schema parsing error for Your iPhone Is About to Control Every AI App You Use. Here's What This Means For You.: Expecting value: line 1 column 1446 (char 1445)
+2026-04-01 07:08:38,709 - INFO - Generating Brief for Stocks Surging, Oil Topping, Mega Bounce Beginning...Here Are The Forecasts And Shocking Trades (U8ZrUFVHhGg)...
+2026-04-01 07:08:38,710 - INFO - AFC is enabled with max remote calls: 10.
+2026-04-01 07:08:40,472 - ERROR - Schema parsing error for China Walks a DANGEROUS Line as Iran War Escalates | China Decode: Expecting value: line 1 column 1196 (char 1195)
+2026-04-01 07:08:42,391 - INFO - Generating Brief for Oil Fades, Bulls Wake Up — SPY & NASDAQ Eye a Surge | NVDA, ORCL, MU, BTC (WHh9TPJDCTU)...
+2026-04-01 07:08:42,392 - INFO - AFC is enabled with max remote calls: 10.
+2026-04-01 07:08:45,353 - INFO - ✅ Brief successfully generated for Stocks Surging, Oil Topping, Mega Bounce Beginning...Here Are The Forecasts And Shocking Trades
+2026-04-01 07:08:45,601 - ERROR - Schema parsing error for "We're Now In The Middle Of A Market Correction" Admits Longtime Wall Street Bull | Ed Yardeni: Expecting value: line 1 column 1302 (char 1301)
+2026-04-01 07:08:46,415 - INFO - Generating Brief for Big Tech Is Now Advising the White House — What Could Go Wrong? | Prof G Markets (4iI4gGwsP_0)...
+2026-04-01 07:08:46,416 - INFO - AFC is enabled with max remote calls: 10.
+2026-04-01 07:08:47,550 - ERROR - Schema parsing error for Oil Fades, Bulls Wake Up — SPY & NASDAQ Eye a Surge | NVDA, ORCL, MU, BTC: Expecting value: line 1 column 1049 (char 1048)
+2026-04-01 07:09:22,893 - INFO - ✅ Brief successfully generated for Big Tech Is Now Advising the White House — What Could Go Wrong? | Prof G Markets
+2026-04-01 07:09:22,893 - INFO - --- Phase 3: Category Synthesis (11 assets across categories) ---
+2026-04-01 07:09:22,894 - INFO - Analyzing 3 categories: Artificial Intelligence, General Financial Investing and Speculation, Precious Metals
+2026-04-01 07:09:22,894 - INFO - Processing Synthesis for sector: Artificial Intelligence (4 assets)...
+2026-04-01 07:09:22,923 - INFO - AFC is enabled with max remote calls: 10.
+2026-04-01 07:09:23,849 - INFO - AFC is enabled with max remote calls: 10.
+2026-04-01 07:09:24,633 - INFO - AFC is enabled with max remote calls: 10.
+2026-04-01 07:09:25,399 - INFO - ✅ Synthesis complete for Artificial Intelligence
+2026-04-01 07:09:25,399 - INFO - Processing Synthesis for sector: General Financial Investing and Speculation (6 assets)...
+2026-04-01 07:09:25,405 - INFO - AFC is enabled with max remote calls: 10.
+2026-04-01 07:09:26,290 - INFO - AFC is enabled with max remote calls: 10.
+2026-04-01 07:09:27,079 - INFO - AFC is enabled with max remote calls: 10.
+2026-04-01 07:09:27,886 - INFO - ✅ Synthesis complete for General Financial Investing and Speculation
+2026-04-01 07:09:27,886 - INFO - Processing Synthesis for sector: Precious Metals (1 assets)...
+2026-04-01 07:09:27,887 - INFO - AFC is enabled with max remote calls: 10.
+2026-04-01 07:09:28,685 - INFO - ✅ Synthesis complete for Precious Metals
+2026-04-01 07:09:28,701 - INFO - Summarization complete. 11 briefs written to briefs/2026-04-01.md (Time: 113.2s)
+2026-04-01 07:09:30,029 - INFO - Email digest sent successfully to kwilliamson.mail@gmail.com.
+2026-04-01 07:09:30,764 - INFO - Email digest sent successfully to kochava72@gmail.com.
+2026-04-01 07:09:30,796 - INFO - Queue cleared.
+2026-04-01 07:09:30,802 - INFO - ==================================================
+2026-04-01 07:09:30,802 - INFO - Pipeline Execution Complete
+2026-04-01 07:09:30,802 - INFO - ==================================================
