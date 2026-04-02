@@ -1,0 +1,756 @@
+{
+  "date": "2026-04-02",
+  "briefs": [
+    {
+      "episode_title": "BOUNCE OR BULL TRAP? \u203a\u203a S&P, Gold, and the Volume Tell You Can't Ignore",
+      "channel": "Verified Investing",
+      "duration_minutes": 29,
+      "podcast_date": "2026-04-02",
+      "processing_date": "2026-04-02",
+      "one_line_summary": "Market rally lacks volume conviction, indicating uncertainty despite oil pullback and indices gains.",
+      "core_claims": [
+        "The S&P 500 rose 0.75%, but low volume suggests uncertainty.",
+        "S&P 500 volume traded 40-50 million shares by 1 PM compared to 152 million the previous day.",
+        "Nasdaq 100 pierced resistance at 24,117 points but closed below at 24,019 points.",
+        "IWM tagged and pierced resistance at $250.25 but pulled back to close underneath it, ending the day up 0.63%.",
+        "SMH gained 2.24%, faces next hurdle to re-enter a parallel channel; level at $395.85.",
+        "Ten-year yield did not close under 4.3%, thus limiting the market upside.",
+        "Gold pushed up 1.98%, blowing through resistance, establishing a new support level at $4603.",
+        "Silver's resistance at $75.33 held strong, contrasting with gold's gains, suggesting a more bearish trend for silver.",
+        "US Oil traded under $100 at $99.33; a small head-and-shoulders pattern played out overnight.",
+        "Wingstop is oversold, presenting a potential buying opportunity with the bottom of its parallel channel at $141.90.",
+        "GE moved up 3.14%, facing resistance at the 50% area of the parallel channel at $296.60 and $312 overall.",
+        "Honeywell's bearish consolidation requires breaking above $229.50 to retest resistance."
+      ],
+      "signal_strength": 7,
+      "themes": [
+        "market analysis",
+        "volume analysis",
+        "technical indicators",
+        "resistance levels",
+        "support levels",
+        "oil prices",
+        "aerospace"
+      ],
+      "positioning_implication": "Maintain a cautious stance, closely monitoring volume and key resistance/support levels for potential shifts in market sentiment. Reduce exposure in sectors showing weak momentum.",
+      "time_horizon": "short",
+      "shelf_life": "Short",
+      "thumbnail": "https://i.ytimg.com/vi/eJSleaGXYY4/hqdefault.jpg",
+      "video_url": "https://www.youtube.com/watch?v=eJSleaGXYY4",
+      "cluster_id": 0,
+      "category": "General Financial Investing and Speculation"
+    },
+    {
+      "episode_title": "Why Gold Dropped During Iran War & What Happens Next (Most Investors Get This Wrong) | Adrian Day",
+      "channel": "Miles Franklin Media",
+      "duration_minutes": 54,
+      "podcast_date": "2026-04-02",
+      "processing_date": "2026-04-02",
+      "one_line_summary": "Gold's decline post-Iran war is typical due to pre-event price surge and rush to liquidity, influenced by the dollar and oil prices.",
+      "core_claims": [
+        "History suggests gold declines post-geopolitical events.",
+        "Gold moves up ahead of geopolitical events.",
+        "The dollar's strength impacts gold prices, acting as a safe-haven asset.",
+        "Oil price increases reduce gold demand from major buying nations.",
+        "Gold could reach $6,000 in 18 months.",
+        "The current high US national debt is unsustainable."
+      ],
+      "signal_strength": 7,
+      "themes": [
+        "gold",
+        "geopolitics",
+        "investment strategy",
+        "economic recession",
+        "liquidity",
+        "dollar"
+      ],
+      "positioning_implication": "Re-evaluate gold investment strategies based on geopolitical event cycles and currency strength. Consider diversified portfolios with global equities and resource assets.",
+      "time_horizon": "medium",
+      "shelf_life": "Medium",
+      "thumbnail": "https://i.ytimg.com/vi/SvQUpYTHFUg/hqdefault.jpg",
+      "video_url": "https://www.youtube.com/watch?v=SvQUpYTHFUg",
+      "cluster_id": 2,
+      "category": "Precious Metals"
+    },
+    {
+      "episode_title": "BREAKING: Silver Price On The RISE! Is the Bull Run Really Back? \ud83d\ude80 LISTEN CLOSE!",
+      "channel": "Wall Street Bullion",
+      "duration_minutes": 22,
+      "podcast_date": "2026-04-02",
+      "processing_date": "2024-04-29",
+      "one_line_summary": "Precious metals' recent volatility is driven by reactions to energy price-linked inflation fears and potential Fed rate hikes.",
+      "core_claims": [
+        "Gold's inflation hedge perception, sidelined last year by central bank buying, is reasserting influence, leading to market volatility.",
+        "Ongoing war in the Straits of Hormuz could sustain higher energy prices and subsequent inflationary pressures for months to years.",
+        "Nuclear energy, particularly uranium, is positioned to benefit from the push for energy independence, driven by geopolitical instability."
+      ],
+      "signal_strength": 8,
+      "themes": [
+        "precious metals",
+        "inflation",
+        "geopolitics",
+        "energy crisis",
+        "uranium",
+        "investment strategy"
+      ],
+      "positioning_implication": "Expect continued market fluctuation influenced by geopolitical events and adjust investment strategies to accommodate potential buying opportunities amidst downturns; energy independence investment thesis.",
+      "time_horizon": "medium",
+      "shelf_life": "Medium",
+      "thumbnail": "https://i.ytimg.com/vi/DdS17-LUThw/hqdefault.jpg",
+      "video_url": "https://www.youtube.com/watch?v=DdS17-LUThw",
+      "cluster_id": 1,
+      "category": "Precious Metals"
+    },
+    {
+      "episode_title": "Is The Bottom In For Gold? Silver? Bitcoin? | Lawrence Lepard",
+      "channel": "Adam Taggart | Thoughtful Money\u00ae",
+      "duration_minutes": 56,
+      "podcast_date": "2026-04-02",
+      "processing_date": "2026-04-02",
+      "one_line_summary": "Despite recent corrections, current sentiment and long-term debt dynamics suggest that if not at the lows, gold, silver, and Bitcoin are near them, presenting asymmetric upside.",
+      "core_claims": [
+        "Bitcoin sentiment is currently very negative despite its recent highs and retracements.",
+        "Gold prices, while having corrected, still maintain stability relative to silver and Bitcoin, reflecting a shorter correction period.",
+        "Long-term debt and deficits, reaching $39 trillion and exceeding $2 trillion annually, will necessitate further money printing to sustain the financial system.",
+        "Silver mining stocks have not proportionally reflected the 5x increase in profits from rising silver prices, indicating undervaluation.",
+        "An increased silver-to-gold ratio is predicted based on historical trends, potentially leading to significantly higher silver prices, targeting levels around $200.",
+        "The potential for a \"correlation of one\" event (like a major market seizure) remains a risk, which could temporarily drive down all asset prices regardless of their inherent value."
+      ],
+      "signal_strength": 7,
+      "themes": [
+        "precious metals",
+        "bitcoin",
+        "economic outlook",
+        "investment strategy",
+        "market analysis",
+        "monetary policy"
+      ],
+      "positioning_implication": "Consider strategic accumulation of gold, silver, and Bitcoin, particularly undervalued mining stocks, recognizing potential drawdowns amidst broader market volatility. Prioritize longer-term portfolio resilience over short-term gains.",
+      "time_horizon": "medium",
+      "shelf_life": "Medium",
+      "thumbnail": "https://i.ytimg.com/vi/nPA7yPUWDRQ/hqdefault.jpg",
+      "video_url": "https://www.youtube.com/watch?v=nPA7yPUWDRQ",
+      "cluster_id": 2,
+      "category": "General Financial Investing and Speculation"
+    },
+    {
+      "episode_title": "Gold, Silver, Copper in 'Really Good Shape' as 'Bullish Signals' Intensify",
+      "channel": "Commodity Culture",
+      "duration_minutes": 37,
+      "podcast_date": "2026-03-30",
+      "processing_date": "2026-04-02",
+      "one_line_summary": "Commodity market analysis suggests gold, silver, and copper have bullish long-term potential despite short-term fluctuations, with a focus on Sasquatch Resources' reclamation mining approach.",
+      "core_claims": [
+        "Gold is expected to reach $6,000 by 2026 despite short-term bearish factors.",
+        "Silver maintains strong potential due to industrial applications, supply/demand deficits, and is expected to rebound despite volatility.",
+        "Copper faces a significant, potentially imminent, supply/demand crisis that could cause prices to double quickly.",
+        "Sasquatch Resources is focused on mine reclamation to extract copper, gold, and silver from waste piles, operating with minimal infrastructure."
+      ],
+      "signal_strength": 8,
+      "themes": [
+        "commodities",
+        "gold",
+        "silver",
+        "copper",
+        "mining",
+        "reclamation",
+        "economic forecast",
+        "supply chain",
+        "permitting"
+      ],
+      "positioning_implication": "Assess long-term commodity investments, considering supply constraints and sustainability; explore junior mining companies with strong leadership in reclamation.",
+      "time_horizon": "long",
+      "shelf_life": "Medium",
+      "thumbnail": "https://i.ytimg.com/vi/fUw1tiUBGEg/hqdefault.jpg",
+      "video_url": "https://www.youtube.com/watch?v=fUw1tiUBGEg",
+      "cluster_id": 0,
+      "category": "Precious Metals"
+    },
+    {
+      "episode_title": "Claude Mythos Changes Everything. Your AI Stack Isn't Ready.",
+      "channel": "AI News & Strategy Daily | Nate B Jones",
+      "duration_minutes": 39,
+      "podcast_date": "2026-04-02",
+      "processing_date": "2024-05-02",
+      "one_line_summary": "Claude Mythos, trained on Nvidia's new GB300 chips, will redefine AI capabilities, especially in vulnerability detection, demanding a strategic reevaluation of AI systems.",
+      "core_claims": [
+        "Claude Mythos is the first known model trained on Nvidia's GB300 chips, making it potentially the 'biggest' and 'most powerful' model.",
+        "Security researchers report Claude Mythos can identify infrastructure vulnerabilities better than humans, including zero-day exploits in previously secure repositories.",
+        "Anthropic is allowing security researchers to test Mythos against popular utilities, to harden defenses in advance of its public release.",
+        "LLMs force system simplification, suggesting the need to remove complexity from systems and practices."
+      ],
+      "signal_strength": 9,
+      "themes": [
+        "ai models",
+        "cybersecurity",
+        "vulnerability detection",
+        "llms",
+        "strategic planning",
+        "innovation"
+      ],
+      "positioning_implication": "Prepare for a paradigm shift in AI capabilities. Prioritize system audits, simplify processes, and strategically invest in access to advanced AI models to maintain competitiveness.",
+      "time_horizon": "short",
+      "shelf_life": "Medium",
+      "thumbnail": "https://i.ytimg.com/vi/hV5_XSEBZNg/hqdefault.jpg",
+      "video_url": "https://www.youtube.com/watch?v=hV5_XSEBZNg",
+      "cluster_id": 0,
+      "category": "Artificial Intelligence"
+    },
+    {
+      "episode_title": "The Market Is Breaking in Two \u2014 Here's Which Side to Be On",
+      "channel": "Verified Investing",
+      "duration_minutes": 21,
+      "podcast_date": "2026-04-02",
+      "processing_date": "2024-04-29",
+      "one_line_summary": "Analyzed market setups reveal potential shorting opportunities in semiconductors and potential long positions in retail, alongside technical levels for various stocks.",
+      "core_claims": [
+        "SPY's shortable level is $656.76, with additional resistance at $661.42 if breached.",
+        "QQQ's rejection level is at $578.82, with next resistance near $595.",
+        "USO anticipates support at $121.43 but eyes further drop to $108.05 in the coming days.",
+        "NVDA's resistance is at $177.04, with short entry targeted at $178.68, and additional resistance at $180.24.",
+        "MU has short level at $363.96, with stop-out targeting $382.09 and secondary target at $395.53.",
+        "SMH faces resistance at $392.03, targeting shorts at $399.02.",
+        "LITE expects a rejection at $777.28, coinciding with a gap and midline resistance.",
+        "NKE targets long positions at $46.37, with support down to $45.30.",
+        "RH looks for longs at $106.57, but warns of $100 target if it closes below that level.",
+        "ORCL's shortable level is at $154.34; $136.48 if a market rollover occurs."
+      ],
+      "signal_strength": 8,
+      "themes": [
+        "technical analysis",
+        "shorting opportunities",
+        "market resistance",
+        "long positions",
+        "swing trades",
+        "semiconductors",
+        "retail"
+      ],
+      "positioning_implication": "Consider short positions in semiconductors and long positions in undervalued retail, monitoring key technical levels for entry and exit.",
+      "time_horizon": "short",
+      "shelf_life": "Short",
+      "thumbnail": "https://i.ytimg.com/vi/1of-UjCH3rQ/hqdefault.jpg",
+      "video_url": "https://www.youtube.com/watch?v=1of-UjCH3rQ",
+      "cluster_id": 0,
+      "category": "General Financial Investing and Speculation"
+    },
+    {
+      "episode_title": "Last Big Wealth Opportunity Before You Retire",
+      "channel": "Felix & Friends (Goat Academy)",
+      "duration_minutes": 33,
+      "podcast_date": "2026-04-02",
+      "processing_date": "2024-01-26",
+      "one_line_summary": "Forced selling in gold, oil shock, and institutional money absorption creates defining portfolio opportunities.",
+      "core_claims": [
+        "Turkey sold 58 tons of gold in two weeks, and Gulf sovereign wealth funds are dumping bullion, marking selling pressure unseen in 70 years.",
+        "Oil prices are predicted to stay around $100 for the foreseeable future.",
+        "VC funding for Biotech increased by 70% quarter over quarter, with $3 billion flowing in during one quarter."
+      ],
+      "signal_strength": 9,
+      "themes": [
+        "investment opportunities",
+        "biotech",
+        "gold",
+        "coal",
+        "oil prices",
+        "institutional investment",
+        "contrarian investing"
+      ],
+      "positioning_implication": "Shift portfolio allocation towards contrarian sectors with strong underlying fundamentals but currently facing temporary headwinds; prioritize sectors benefiting from geopolitical instability and technological innovation.",
+      "time_horizon": "medium",
+      "shelf_life": "Medium",
+      "thumbnail": "https://i.ytimg.com/vi/QB0-q6UVZIA/hqdefault.jpg",
+      "video_url": "https://www.youtube.com/watch?v=QB0-q6UVZIA",
+      "cluster_id": 3,
+      "category": "General Financial Investing and Speculation"
+    },
+    {
+      "episode_title": "Brutal Quarter Ends With a Rally \u2014 But Risks Are Rising | Prof G Markets",
+      "channel": "The Prof G Pod \u2013 Scott Galloway",
+      "duration_minutes": 30,
+      "podcast_date": "2026-04-02",
+      "processing_date": "2026-04-02",
+      "one_line_summary": "Market volatility continues amidst geopolitical tensions and fluctuating economic indicators, with AI's impact on software companies being debated.",
+      "core_claims": [
+        "New reality TV show premieres in America dropped 15% in the past year.",
+        "The S&P 500 was down as much as 9% from its January peak, marking its worst quarterly performance since 2022.",
+        "The Nasdaq was down as much as 13% from its peak, entering correction territory until a near 4% rally on Tuesday.",
+        "Nvidia is trading at a forward PE below the S&P 500 for the first time in 13 years.",
+        "Analysts have continued to get more optimistic on what EPS is going to look like for this year (tech sector).",
+        "Long lead time items for building clean rooms will continue supply/demand gap until the second half of next year."
+      ],
+      "signal_strength": 7,
+      "themes": [
+        "market volatility",
+        "geopolitics",
+        "economic indicators",
+        "ai impact",
+        "investment strategy",
+        "supply chain",
+        "oil prices"
+      ],
+      "positioning_implication": "Maintain a diversified portfolio, carefully assess risk tolerance, and reassess emotional risk tolerance given prevailing uncertainties. Be nimble in capital allocation, as macro conditions shift.",
+      "time_horizon": "medium",
+      "shelf_life": "Medium",
+      "thumbnail": "https://i.ytimg.com/vi/dJ876jQ5wjw/hqdefault.jpg",
+      "video_url": "https://www.youtube.com/watch?v=dJ876jQ5wjw",
+      "cluster_id": 1,
+      "category": "General Financial Investing and Speculation"
+    }
+  ],
+  "category_intelligence": {
+    "General Financial Investing and Speculation": {
+      "name": "General Financial Investing and Speculation",
+      "meta_summary": "",
+      "convergence_score": 0.0,
+      "percentile": 0.0,
+      "regime_state": "Neutral",
+      "clusters": [
+        {
+          "id": 0,
+          "name": "Market Uncertainty: Rally Stalling at Resistance",
+          "description": "Market rally's low volume and sector-specific setups suggest weakening conviction near resistance, creating potential shorting opportunities.",
+          "bias": "defensive",
+          "regime": "Accelerating",
+          "size": 2,
+          "strength": 1.4046430019796377,
+          "coherence": 0.7023215009898188,
+          "channels": [
+            "Verified Investing"
+          ],
+          "avg_signal": 7.5,
+          "briefs": [
+            {
+              "episode_title": "BOUNCE OR BULL TRAP? \u203a\u203a S&P, Gold, and the Volume Tell You Can't Ignore",
+              "channel": "Verified Investing",
+              "duration_minutes": 29,
+              "podcast_date": "2026-04-02",
+              "processing_date": "2026-04-02",
+              "one_line_summary": "Market rally lacks volume conviction, indicating uncertainty despite oil pullback and indices gains.",
+              "core_claims": [
+                "The S&P 500 rose 0.75%, but low volume suggests uncertainty.",
+                "S&P 500 volume traded 40-50 million shares by 1 PM compared to 152 million the previous day.",
+                "Nasdaq 100 pierced resistance at 24,117 points but closed below at 24,019 points.",
+                "IWM tagged and pierced resistance at $250.25 but pulled back to close underneath it, ending the day up 0.63%.",
+                "SMH gained 2.24%, faces next hurdle to re-enter a parallel channel; level at $395.85.",
+                "Ten-year yield did not close under 4.3%, thus limiting the market upside.",
+                "Gold pushed up 1.98%, blowing through resistance, establishing a new support level at $4603.",
+                "Silver's resistance at $75.33 held strong, contrasting with gold's gains, suggesting a more bearish trend for silver.",
+                "US Oil traded under $100 at $99.33; a small head-and-shoulders pattern played out overnight.",
+                "Wingstop is oversold, presenting a potential buying opportunity with the bottom of its parallel channel at $141.90.",
+                "GE moved up 3.14%, facing resistance at the 50% area of the parallel channel at $296.60 and $312 overall.",
+                "Honeywell's bearish consolidation requires breaking above $229.50 to retest resistance."
+              ],
+              "signal_strength": 7,
+              "themes": [
+                "market analysis",
+                "volume analysis",
+                "technical indicators",
+                "resistance levels",
+                "support levels",
+                "oil prices",
+                "aerospace"
+              ],
+              "positioning_implication": "Maintain a cautious stance, closely monitoring volume and key resistance/support levels for potential shifts in market sentiment. Reduce exposure in sectors showing weak momentum.",
+              "time_horizon": "short",
+              "shelf_life": "Short",
+              "thumbnail": "https://i.ytimg.com/vi/eJSleaGXYY4/hqdefault.jpg",
+              "video_url": "https://www.youtube.com/watch?v=eJSleaGXYY4",
+              "cluster_id": 0,
+              "category": "General Financial Investing and Speculation"
+            },
+            {
+              "episode_title": "The Market Is Breaking in Two \u2014 Here's Which Side to Be On",
+              "channel": "Verified Investing",
+              "duration_minutes": 21,
+              "podcast_date": "2026-04-02",
+              "processing_date": "2024-04-29",
+              "one_line_summary": "Analyzed market setups reveal potential shorting opportunities in semiconductors and potential long positions in retail, alongside technical levels for various stocks.",
+              "core_claims": [
+                "SPY's shortable level is $656.76, with additional resistance at $661.42 if breached.",
+                "QQQ's rejection level is at $578.82, with next resistance near $595.",
+                "USO anticipates support at $121.43 but eyes further drop to $108.05 in the coming days.",
+                "NVDA's resistance is at $177.04, with short entry targeted at $178.68, and additional resistance at $180.24.",
+                "MU has short level at $363.96, with stop-out targeting $382.09 and secondary target at $395.53.",
+                "SMH faces resistance at $392.03, targeting shorts at $399.02.",
+                "LITE expects a rejection at $777.28, coinciding with a gap and midline resistance.",
+                "NKE targets long positions at $46.37, with support down to $45.30.",
+                "RH looks for longs at $106.57, but warns of $100 target if it closes below that level.",
+                "ORCL's shortable level is at $154.34; $136.48 if a market rollover occurs."
+              ],
+              "signal_strength": 8,
+              "themes": [
+                "technical analysis",
+                "shorting opportunities",
+                "market resistance",
+                "long positions",
+                "swing trades",
+                "semiconductors",
+                "retail"
+              ],
+              "positioning_implication": "Consider short positions in semiconductors and long positions in undervalued retail, monitoring key technical levels for entry and exit.",
+              "time_horizon": "short",
+              "shelf_life": "Short",
+              "thumbnail": "https://i.ytimg.com/vi/1of-UjCH3rQ/hqdefault.jpg",
+              "video_url": "https://www.youtube.com/watch?v=1of-UjCH3rQ",
+              "cluster_id": 0,
+              "category": "General Financial Investing and Speculation"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "name": "Bitcoin, Gold: Asymmetric Upside Converging",
+          "description": "This narrative suggests that Bitcoin, gold, and silver are nearing price floors, offering substantial potential gains despite recent market volatility.",
+          "bias": "constructive",
+          "regime": "Emerging",
+          "size": 1,
+          "strength": 1.0,
+          "coherence": 1.0,
+          "channels": [
+            "Adam Taggart | Thoughtful Money\u00ae"
+          ],
+          "avg_signal": 7.0,
+          "briefs": [
+            {
+              "episode_title": "Is The Bottom In For Gold? Silver? Bitcoin? | Lawrence Lepard",
+              "channel": "Adam Taggart | Thoughtful Money\u00ae",
+              "duration_minutes": 56,
+              "podcast_date": "2026-04-02",
+              "processing_date": "2026-04-02",
+              "one_line_summary": "Despite recent corrections, current sentiment and long-term debt dynamics suggest that if not at the lows, gold, silver, and Bitcoin are near them, presenting asymmetric upside.",
+              "core_claims": [
+                "Bitcoin sentiment is currently very negative despite its recent highs and retracements.",
+                "Gold prices, while having corrected, still maintain stability relative to silver and Bitcoin, reflecting a shorter correction period.",
+                "Long-term debt and deficits, reaching $39 trillion and exceeding $2 trillion annually, will necessitate further money printing to sustain the financial system.",
+                "Silver mining stocks have not proportionally reflected the 5x increase in profits from rising silver prices, indicating undervaluation.",
+                "An increased silver-to-gold ratio is predicted based on historical trends, potentially leading to significantly higher silver prices, targeting levels around $200.",
+                "The potential for a \"correlation of one\" event (like a major market seizure) remains a risk, which could temporarily drive down all asset prices regardless of their inherent value."
+              ],
+              "signal_strength": 7,
+              "themes": [
+                "precious metals",
+                "bitcoin",
+                "economic outlook",
+                "investment strategy",
+                "market analysis",
+                "monetary policy"
+              ],
+              "positioning_implication": "Consider strategic accumulation of gold, silver, and Bitcoin, particularly undervalued mining stocks, recognizing potential drawdowns amidst broader market volatility. Prioritize longer-term portfolio resilience over short-term gains.",
+              "time_horizon": "medium",
+              "shelf_life": "Medium",
+              "thumbnail": "https://i.ytimg.com/vi/nPA7yPUWDRQ/hqdefault.jpg",
+              "video_url": "https://www.youtube.com/watch?v=nPA7yPUWDRQ",
+              "cluster_id": 2,
+              "category": "General Financial Investing and Speculation"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "name": "Institutional Absorption Intensifying Oil, Gold Opportunities",
+          "description": "Institutional capital absorption, coupled with forced selling in gold and oil shocks, is creating contrarian portfolio opportunities.",
+          "bias": "constructive",
+          "regime": "Emerging",
+          "size": 1,
+          "strength": 1.0,
+          "coherence": 1.0,
+          "channels": [
+            "Felix & Friends (Goat Academy)"
+          ],
+          "avg_signal": 9.0,
+          "briefs": [
+            {
+              "episode_title": "Last Big Wealth Opportunity Before You Retire",
+              "channel": "Felix & Friends (Goat Academy)",
+              "duration_minutes": 33,
+              "podcast_date": "2026-04-02",
+              "processing_date": "2024-01-26",
+              "one_line_summary": "Forced selling in gold, oil shock, and institutional money absorption creates defining portfolio opportunities.",
+              "core_claims": [
+                "Turkey sold 58 tons of gold in two weeks, and Gulf sovereign wealth funds are dumping bullion, marking selling pressure unseen in 70 years.",
+                "Oil prices are predicted to stay around $100 for the foreseeable future.",
+                "VC funding for Biotech increased by 70% quarter over quarter, with $3 billion flowing in during one quarter."
+              ],
+              "signal_strength": 9,
+              "themes": [
+                "investment opportunities",
+                "biotech",
+                "gold",
+                "coal",
+                "oil prices",
+                "institutional investment",
+                "contrarian investing"
+              ],
+              "positioning_implication": "Shift portfolio allocation towards contrarian sectors with strong underlying fundamentals but currently facing temporary headwinds; prioritize sectors benefiting from geopolitical instability and technological innovation.",
+              "time_horizon": "medium",
+              "shelf_life": "Medium",
+              "thumbnail": "https://i.ytimg.com/vi/QB0-q6UVZIA/hqdefault.jpg",
+              "video_url": "https://www.youtube.com/watch?v=QB0-q6UVZIA",
+              "cluster_id": 3,
+              "category": "General Financial Investing and Speculation"
+            }
+          ]
+        },
+        {
+          "id": 1,
+          "name": "Geopolitics Intensifying Market Volatility",
+          "description": "Geopolitical tensions are exacerbating market instability, influencing investment strategies amid fluctuating economic signals and AI's evolving role.",
+          "bias": "defensive",
+          "regime": "Emerging",
+          "size": 1,
+          "strength": 1.0,
+          "coherence": 1.0,
+          "channels": [
+            "The Prof G Pod \u2013 Scott Galloway"
+          ],
+          "avg_signal": 7.0,
+          "briefs": [
+            {
+              "episode_title": "Brutal Quarter Ends With a Rally \u2014 But Risks Are Rising | Prof G Markets",
+              "channel": "The Prof G Pod \u2013 Scott Galloway",
+              "duration_minutes": 30,
+              "podcast_date": "2026-04-02",
+              "processing_date": "2026-04-02",
+              "one_line_summary": "Market volatility continues amidst geopolitical tensions and fluctuating economic indicators, with AI's impact on software companies being debated.",
+              "core_claims": [
+                "New reality TV show premieres in America dropped 15% in the past year.",
+                "The S&P 500 was down as much as 9% from its January peak, marking its worst quarterly performance since 2022.",
+                "The Nasdaq was down as much as 13% from its peak, entering correction territory until a near 4% rally on Tuesday.",
+                "Nvidia is trading at a forward PE below the S&P 500 for the first time in 13 years.",
+                "Analysts have continued to get more optimistic on what EPS is going to look like for this year (tech sector).",
+                "Long lead time items for building clean rooms will continue supply/demand gap until the second half of next year."
+              ],
+              "signal_strength": 7,
+              "themes": [
+                "market volatility",
+                "geopolitics",
+                "economic indicators",
+                "ai impact",
+                "investment strategy",
+                "supply chain",
+                "oil prices"
+              ],
+              "positioning_implication": "Maintain a diversified portfolio, carefully assess risk tolerance, and reassess emotional risk tolerance given prevailing uncertainties. Be nimble in capital allocation, as macro conditions shift.",
+              "time_horizon": "medium",
+              "shelf_life": "Medium",
+              "thumbnail": "https://i.ytimg.com/vi/dJ876jQ5wjw/hqdefault.jpg",
+              "video_url": "https://www.youtube.com/watch?v=dJ876jQ5wjw",
+              "cluster_id": 1,
+              "category": "General Financial Investing and Speculation"
+            }
+          ]
+        }
+      ],
+      "should_generate": false
+    },
+    "Precious Metals": {
+      "name": "Precious Metals",
+      "meta_summary": "",
+      "convergence_score": 0.0,
+      "percentile": 0.0,
+      "regime_state": "Neutral",
+      "clusters": [
+        {
+          "id": 2,
+          "name": "Gold's Geopolitical Premium Eroding Post-Iran Tensions",
+          "description": "Gold's price surge driven by Iran war fears is unwinding as liquidity concerns and dollar strength take precedence, typical of pre-event speculation.",
+          "bias": "neutral",
+          "regime": "Emerging",
+          "size": 1,
+          "strength": 1.0,
+          "coherence": 1.0,
+          "channels": [
+            "Miles Franklin Media"
+          ],
+          "avg_signal": 7.0,
+          "briefs": [
+            {
+              "episode_title": "Why Gold Dropped During Iran War & What Happens Next (Most Investors Get This Wrong) | Adrian Day",
+              "channel": "Miles Franklin Media",
+              "duration_minutes": 54,
+              "podcast_date": "2026-04-02",
+              "processing_date": "2026-04-02",
+              "one_line_summary": "Gold's decline post-Iran war is typical due to pre-event price surge and rush to liquidity, influenced by the dollar and oil prices.",
+              "core_claims": [
+                "History suggests gold declines post-geopolitical events.",
+                "Gold moves up ahead of geopolitical events.",
+                "The dollar's strength impacts gold prices, acting as a safe-haven asset.",
+                "Oil price increases reduce gold demand from major buying nations.",
+                "Gold could reach $6,000 in 18 months.",
+                "The current high US national debt is unsustainable."
+              ],
+              "signal_strength": 7,
+              "themes": [
+                "gold",
+                "geopolitics",
+                "investment strategy",
+                "economic recession",
+                "liquidity",
+                "dollar"
+              ],
+              "positioning_implication": "Re-evaluate gold investment strategies based on geopolitical event cycles and currency strength. Consider diversified portfolios with global equities and resource assets.",
+              "time_horizon": "medium",
+              "shelf_life": "Medium",
+              "thumbnail": "https://i.ytimg.com/vi/SvQUpYTHFUg/hqdefault.jpg",
+              "video_url": "https://www.youtube.com/watch?v=SvQUpYTHFUg",
+              "cluster_id": 2,
+              "category": "Precious Metals"
+            }
+          ]
+        },
+        {
+          "id": 1,
+          "name": "Precious Metals: Inflation Fears Intensifying Volatility",
+          "description": "Precious metals' price swings are increasingly sensitive to inflation expectations and Fed policy signals.",
+          "bias": "neutral",
+          "regime": "Emerging",
+          "size": 1,
+          "strength": 1.0,
+          "coherence": 1.0,
+          "channels": [
+            "Wall Street Bullion"
+          ],
+          "avg_signal": 8.0,
+          "briefs": [
+            {
+              "episode_title": "BREAKING: Silver Price On The RISE! Is the Bull Run Really Back? \ud83d\ude80 LISTEN CLOSE!",
+              "channel": "Wall Street Bullion",
+              "duration_minutes": 22,
+              "podcast_date": "2026-04-02",
+              "processing_date": "2024-04-29",
+              "one_line_summary": "Precious metals' recent volatility is driven by reactions to energy price-linked inflation fears and potential Fed rate hikes.",
+              "core_claims": [
+                "Gold's inflation hedge perception, sidelined last year by central bank buying, is reasserting influence, leading to market volatility.",
+                "Ongoing war in the Straits of Hormuz could sustain higher energy prices and subsequent inflationary pressures for months to years.",
+                "Nuclear energy, particularly uranium, is positioned to benefit from the push for energy independence, driven by geopolitical instability."
+              ],
+              "signal_strength": 8,
+              "themes": [
+                "precious metals",
+                "inflation",
+                "geopolitics",
+                "energy crisis",
+                "uranium",
+                "investment strategy"
+              ],
+              "positioning_implication": "Expect continued market fluctuation influenced by geopolitical events and adjust investment strategies to accommodate potential buying opportunities amidst downturns; energy independence investment thesis.",
+              "time_horizon": "medium",
+              "shelf_life": "Medium",
+              "thumbnail": "https://i.ytimg.com/vi/DdS17-LUThw/hqdefault.jpg",
+              "video_url": "https://www.youtube.com/watch?v=DdS17-LUThw",
+              "cluster_id": 1,
+              "category": "Precious Metals"
+            }
+          ]
+        },
+        {
+          "id": 0,
+          "name": "Commodities: Bullish Outlook Intensifying",
+          "description": "Commodity market analysis, particularly for gold, silver, and copper, indicates a strengthening bullish outlook despite short-term volatility, driven by reclamation mining practices.",
+          "bias": "constructive",
+          "regime": "Emerging",
+          "size": 1,
+          "strength": 1.0,
+          "coherence": 1.0,
+          "channels": [
+            "Commodity Culture"
+          ],
+          "avg_signal": 8.0,
+          "briefs": [
+            {
+              "episode_title": "Gold, Silver, Copper in 'Really Good Shape' as 'Bullish Signals' Intensify",
+              "channel": "Commodity Culture",
+              "duration_minutes": 37,
+              "podcast_date": "2026-03-30",
+              "processing_date": "2026-04-02",
+              "one_line_summary": "Commodity market analysis suggests gold, silver, and copper have bullish long-term potential despite short-term fluctuations, with a focus on Sasquatch Resources' reclamation mining approach.",
+              "core_claims": [
+                "Gold is expected to reach $6,000 by 2026 despite short-term bearish factors.",
+                "Silver maintains strong potential due to industrial applications, supply/demand deficits, and is expected to rebound despite volatility.",
+                "Copper faces a significant, potentially imminent, supply/demand crisis that could cause prices to double quickly.",
+                "Sasquatch Resources is focused on mine reclamation to extract copper, gold, and silver from waste piles, operating with minimal infrastructure."
+              ],
+              "signal_strength": 8,
+              "themes": [
+                "commodities",
+                "gold",
+                "silver",
+                "copper",
+                "mining",
+                "reclamation",
+                "economic forecast",
+                "supply chain",
+                "permitting"
+              ],
+              "positioning_implication": "Assess long-term commodity investments, considering supply constraints and sustainability; explore junior mining companies with strong leadership in reclamation.",
+              "time_horizon": "long",
+              "shelf_life": "Medium",
+              "thumbnail": "https://i.ytimg.com/vi/fUw1tiUBGEg/hqdefault.jpg",
+              "video_url": "https://www.youtube.com/watch?v=fUw1tiUBGEg",
+              "cluster_id": 0,
+              "category": "Precious Metals"
+            }
+          ]
+        }
+      ],
+      "should_generate": false
+    },
+    "Artificial Intelligence": {
+      "name": "Artificial Intelligence",
+      "meta_summary": "",
+      "convergence_score": 0.0,
+      "percentile": 0.0,
+      "regime_state": "Neutral",
+      "clusters": [
+        {
+          "id": 0,
+          "name": "AI Vulnerability Detection Intensifying",
+          "description": "The emergence of advanced AI models like Claude, trained on cutting-edge hardware, is heightening the focus on AI-driven vulnerability detection and necessitating strategic adjustments to AI systems.",
+          "bias": "constructive",
+          "regime": "Emerging",
+          "size": 1,
+          "strength": 0.0,
+          "coherence": 1.0,
+          "channels": [
+            "AI News & Strategy Daily | Nate B Jones"
+          ],
+          "avg_signal": 9.0,
+          "briefs": [
+            {
+              "episode_title": "Claude Mythos Changes Everything. Your AI Stack Isn't Ready.",
+              "channel": "AI News & Strategy Daily | Nate B Jones",
+              "duration_minutes": 39,
+              "podcast_date": "2026-04-02",
+              "processing_date": "2024-05-02",
+              "one_line_summary": "Claude Mythos, trained on Nvidia's new GB300 chips, will redefine AI capabilities, especially in vulnerability detection, demanding a strategic reevaluation of AI systems.",
+              "core_claims": [
+                "Claude Mythos is the first known model trained on Nvidia's GB300 chips, making it potentially the 'biggest' and 'most powerful' model.",
+                "Security researchers report Claude Mythos can identify infrastructure vulnerabilities better than humans, including zero-day exploits in previously secure repositories.",
+                "Anthropic is allowing security researchers to test Mythos against popular utilities, to harden defenses in advance of its public release.",
+                "LLMs force system simplification, suggesting the need to remove complexity from systems and practices."
+              ],
+              "signal_strength": 9,
+              "themes": [
+                "ai models",
+                "cybersecurity",
+                "vulnerability detection",
+                "llms",
+                "strategic planning",
+                "innovation"
+              ],
+              "positioning_implication": "Prepare for a paradigm shift in AI capabilities. Prioritize system audits, simplify processes, and strategically invest in access to advanced AI models to maintain competitiveness.",
+              "time_horizon": "short",
+              "shelf_life": "Medium",
+              "thumbnail": "https://i.ytimg.com/vi/hV5_XSEBZNg/hqdefault.jpg",
+              "video_url": "https://www.youtube.com/watch?v=hV5_XSEBZNg",
+              "cluster_id": 0,
+              "category": "Artificial Intelligence"
+            }
+          ]
+        }
+      ],
+      "should_generate": false
+    }
+  },
+  "clusters": []
+}
