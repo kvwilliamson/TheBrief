@@ -3891,3 +3891,107 @@
 2026-04-03 06:51:47,138 - INFO - ==================================================
 2026-04-03 06:51:47,138 - INFO - Pipeline Execution Complete
 2026-04-03 06:51:47,138 - INFO - ==================================================
+2026-04-04 06:35:01,870 - INFO - ==================================================
+2026-04-04 06:35:01,870 - INFO - Starting TheBrief Daily Pipeline
+2026-04-04 06:35:01,870 - INFO - ==================================================
+2026-04-04 06:35:01,870 - INFO - 
+--- Phase 1: Discovery ---
+2026-04-04 06:35:01,875 - INFO - Discovering videos published after 2026-04-03T06:35:01.874996+00:00 (24h lookback)
+2026-04-04 06:35:02,213 - INFO - Found 3 new potential videos on GoldSilver .
+2026-04-04 06:35:02,299 - INFO - Found 1 new potential videos on Wall Street Bullion .
+2026-04-04 06:35:02,399 - INFO - Found 2 new potential videos on David Lin .
+2026-04-04 06:35:02,462 - INFO - Found 2 new potential videos on AI News & Strategy Daily | Nate B Jones.
+2026-04-04 06:35:02,737 - INFO - Found 1 new potential videos on TheTechnicalTraders.
+2026-04-04 06:35:02,862 - INFO - Found 1 new potential videos on Felix & Friends (Goat Academy).
+2026-04-04 06:35:03,071 - INFO - Found 1 new potential videos on CPM Group.
+2026-04-04 06:35:03,079 - INFO - Found 1 new potential videos on Commodity Culture.
+2026-04-04 06:35:03,208 - INFO - Found 2 new potential videos on Matthew Berman.
+2026-04-04 06:35:03,231 - INFO - Found 5 new potential videos on The Prof G Pod – Scott Galloway.
+2026-04-04 06:35:03,367 - INFO - Found 11 total long-form videos across all channels.
+2026-04-04 06:35:03,375 - INFO - Discovery complete. Added 11 new videos to queue.
+2026-04-04 06:35:03,376 - INFO - 
+--- Phase 2: Extraction ---
+2026-04-04 06:35:03,617 - INFO - yt-dlp version: 2026.03.17
+2026-04-04 06:35:03,963 - INFO - POT-related packages: bgutil-ytdlp-pot-provider 1.3.1
+2026-04-04 06:35:03,987 - INFO - bgutil HTTP server not available on port 4416 (will rely on cookies)
+2026-04-04 06:35:03,988 - INFO - Extracting audio for ‘Worst Outcomes’ Aren’t Priced In, Fund Manager Reveals What Breaks Next | Adrian Day (vIx041_xucQ)...
+2026-04-04 06:35:28,345 - INFO - Successfully extracted: audio/vIx041_xucQ.mp3
+2026-04-04 06:35:33,799 - INFO - Extracting audio for I was hacked... (_E4ZT1h7MZs)...
+2026-04-04 06:35:45,169 - INFO - Successfully extracted: audio/_E4ZT1h7MZs.mp3
+2026-04-04 06:35:52,347 - INFO - Extracting audio for SILVER ALERT: $300 Silver Price Coming Soon? (LISTEN CLOSE) (OFx7gi7JMhY)...
+2026-04-04 06:36:04,435 - INFO - Successfully extracted: audio/OFx7gi7JMhY.mp3
+2026-04-04 06:36:12,875 - INFO - Extracting audio for The Future Live | 04.03.26 | Guests from BEP, Ornn, and MOTS Podcast! (MKl4KVMDrqc)...
+2026-04-04 06:38:06,138 - INFO - Successfully extracted: audio/MKl4KVMDrqc.mp3
+2026-04-04 06:38:14,316 - INFO - Extracting audio for 'Horror Show’ In Housing: Market ‘Stagnates’, Is A Total Freeze Next? | Ron Butler (5G9SuQr_TRI)...
+2026-04-04 06:38:35,807 - INFO - Successfully extracted: audio/5G9SuQr_TRI.mp3
+2026-04-04 06:38:43,106 - INFO - Extracting audio for What to Do if AI Comes for Your Job, ft. LinkedIn’s Aneesh Raman | Office Hours (VNsfpsK1QTk)...
+2026-04-04 06:38:59,872 - INFO - Successfully extracted: audio/VNsfpsK1QTk.mp3
+2026-04-04 06:39:10,864 - INFO - Extracting audio for $100 SILVER Was 'Just a Taste' of Coming 'Generational Bull Market' (RsJeOPEvkXA)...
+2026-04-04 06:39:24,273 - INFO - Successfully extracted: audio/RsJeOPEvkXA.mp3
+2026-04-04 06:39:31,851 - INFO - Extracting audio for I Broke Down Anthropic's $2.5 Billion Leak. Your Agent Is Missing 12 Critical Pieces. (FtCdYhspm7w)...
+2026-04-04 06:39:48,379 - INFO - Successfully extracted: audio/FtCdYhspm7w.mp3
+2026-04-04 06:39:59,308 - INFO - Extracting audio for $200 Oil. The Stock Market is OBLITERATED (t8FJPHWO5fA)...
+2026-04-04 06:40:14,725 - INFO - Successfully extracted: audio/t8FJPHWO5fA.mp3
+2026-04-04 06:40:25,341 - INFO - Extracting audio for The Real Reason Silver Prices Fall After A Spike (cAtPWqAqVcw)...
+2026-04-04 06:40:38,418 - INFO - Successfully extracted: audio/cAtPWqAqVcw.mp3
+2026-04-04 06:40:44,266 - INFO - Extracting audio for Is Marriage a Bad Bet? A Divorce Lawyer Explains | Prof G Markets (R-3cEs8MNqY)...
+2026-04-04 06:41:19,079 - INFO - Successfully extracted: audio/R-3cEs8MNqY.mp3
+2026-04-04 06:41:19,080 - INFO - Extraction complete. 11/11 audio files ready. (Time: 375.1s)
+2026-04-04 06:41:19,080 - INFO - 
+--- Phase 3: Summarization (Direct Audio) ---
+2026-04-04 06:41:20,037 - INFO - Generating Brief for I was hacked... (_E4ZT1h7MZs)...
+2026-04-04 06:41:20,039 - INFO - AFC is enabled with max remote calls: 10.
+2026-04-04 06:41:20,604 - INFO - Generating Brief for ‘Worst Outcomes’ Aren’t Priced In, Fund Manager Reveals What Breaks Next | Adrian Day (vIx041_xucQ)...
+2026-04-04 06:41:20,605 - INFO - AFC is enabled with max remote calls: 10.
+2026-04-04 06:41:20,667 - INFO - Generating Brief for SILVER ALERT: $300 Silver Price Coming Soon? (LISTEN CLOSE) (OFx7gi7JMhY)...
+2026-04-04 06:41:20,668 - INFO - AFC is enabled with max remote calls: 10.
+2026-04-04 06:41:25,121 - INFO - ✅ Brief successfully generated for I was hacked...
+2026-04-04 06:41:26,295 - ERROR - Schema parsing error for SILVER ALERT: $300 Silver Price Coming Soon? (LISTEN CLOSE): Expecting value: line 1 column 1216 (char 1215)
+2026-04-04 06:41:27,596 - INFO - Generating Brief for The Future Live | 04.03.26 | Guests from BEP, Ornn, and MOTS Podcast! (MKl4KVMDrqc)...
+2026-04-04 06:41:27,598 - INFO - AFC is enabled with max remote calls: 10.
+2026-04-04 06:41:28,239 - INFO - Generating Brief for 'Horror Show’ In Housing: Market ‘Stagnates’, Is A Total Freeze Next? | Ron Butler (5G9SuQr_TRI)...
+2026-04-04 06:41:28,240 - INFO - AFC is enabled with max remote calls: 10.
+2026-04-04 06:41:36,076 - INFO - ✅ Brief successfully generated for ‘Worst Outcomes’ Aren’t Priced In, Fund Manager Reveals What Breaks Next | Adrian Day
+2026-04-04 06:41:36,886 - INFO - ✅ Brief successfully generated for 'Horror Show’ In Housing: Market ‘Stagnates’, Is A Total Freeze Next? | Ron Butler
+2026-04-04 06:41:37,317 - INFO - Generating Brief for What to Do if AI Comes for Your Job, ft. LinkedIn’s Aneesh Raman | Office Hours (VNsfpsK1QTk)...
+2026-04-04 06:41:37,318 - INFO - AFC is enabled with max remote calls: 10.
+2026-04-04 06:41:38,198 - INFO - Generating Brief for $100 SILVER Was 'Just a Taste' of Coming 'Generational Bull Market' (RsJeOPEvkXA)...
+2026-04-04 06:41:38,200 - INFO - AFC is enabled with max remote calls: 10.
+2026-04-04 06:41:44,154 - ERROR - Schema parsing error for $100 SILVER Was 'Just a Taste' of Coming 'Generational Bull Market': Expecting value: line 1 column 1224 (char 1223)
+2026-04-04 06:41:45,528 - INFO - ✅ Brief successfully generated for What to Do if AI Comes for Your Job, ft. LinkedIn’s Aneesh Raman | Office Hours
+2026-04-04 06:41:45,676 - INFO - Generating Brief for I Broke Down Anthropic's $2.5 Billion Leak. Your Agent Is Missing 12 Critical Pieces. (FtCdYhspm7w)...
+2026-04-04 06:41:45,677 - INFO - AFC is enabled with max remote calls: 10.
+2026-04-04 06:41:46,700 - INFO - Generating Brief for $200 Oil. The Stock Market is OBLITERATED (t8FJPHWO5fA)...
+2026-04-04 06:41:46,701 - INFO - AFC is enabled with max remote calls: 10.
+2026-04-04 06:41:52,273 - INFO - ✅ Brief successfully generated for I Broke Down Anthropic's $2.5 Billion Leak. Your Agent Is Missing 12 Critical Pieces.
+2026-04-04 06:41:53,120 - INFO - Generating Brief for The Real Reason Silver Prices Fall After A Spike (cAtPWqAqVcw)...
+2026-04-04 06:41:53,122 - INFO - AFC is enabled with max remote calls: 10.
+2026-04-04 06:41:53,255 - INFO - ✅ Brief successfully generated for $200 Oil. The Stock Market is OBLITERATED
+2026-04-04 06:41:54,962 - INFO - Generating Brief for Is Marriage a Bad Bet? A Divorce Lawyer Explains | Prof G Markets (R-3cEs8MNqY)...
+2026-04-04 06:41:54,963 - INFO - AFC is enabled with max remote calls: 10.
+2026-04-04 06:41:59,534 - INFO - ✅ Brief successfully generated for The Real Reason Silver Prices Fall After A Spike
+2026-04-04 06:42:14,741 - INFO - ✅ Brief successfully generated for Is Marriage a Bad Bet? A Divorce Lawyer Explains | Prof G Markets
+2026-04-04 06:42:23,476 - INFO - ✅ Brief successfully generated for The Future Live | 04.03.26 | Guests from BEP, Ornn, and MOTS Podcast!
+2026-04-04 06:42:23,477 - INFO - --- Phase 3: Category Synthesis (9 assets across categories) ---
+2026-04-04 06:42:23,477 - INFO - Analyzing 3 categories: Artificial Intelligence, General Financial Investing and Speculation, Precious Metals
+2026-04-04 06:42:23,477 - INFO - Processing Synthesis for sector: Artificial Intelligence (3 assets)...
+2026-04-04 06:42:23,506 - INFO - AFC is enabled with max remote calls: 10.
+2026-04-04 06:42:24,338 - INFO - AFC is enabled with max remote calls: 10.
+2026-04-04 06:42:25,075 - INFO - AFC is enabled with max remote calls: 10.
+2026-04-04 06:42:25,861 - INFO - ✅ Synthesis complete for Artificial Intelligence
+2026-04-04 06:42:25,861 - INFO - Processing Synthesis for sector: General Financial Investing and Speculation (5 assets)...
+2026-04-04 06:42:25,867 - INFO - AFC is enabled with max remote calls: 10.
+2026-04-04 06:42:26,597 - INFO - AFC is enabled with max remote calls: 10.
+2026-04-04 06:42:27,302 - INFO - AFC is enabled with max remote calls: 10.
+2026-04-04 06:42:28,104 - INFO - AFC is enabled with max remote calls: 10.
+2026-04-04 06:42:28,812 - INFO - ✅ Synthesis complete for General Financial Investing and Speculation
+2026-04-04 06:42:28,812 - INFO - Processing Synthesis for sector: Precious Metals (1 assets)...
+2026-04-04 06:42:28,813 - INFO - AFC is enabled with max remote calls: 10.
+2026-04-04 06:42:29,574 - INFO - ✅ Synthesis complete for Precious Metals
+2026-04-04 06:42:29,589 - INFO - Summarization complete. 9 briefs written to briefs/2026-04-04.md (Time: 70.4s)
+2026-04-04 06:42:33,247 - INFO - Email digest sent successfully to kwilliamson.mail@gmail.com.
+2026-04-04 06:42:34,455 - INFO - Email digest sent successfully to kochava72@gmail.com.
+2026-04-04 06:42:34,488 - INFO - Queue cleared.
+2026-04-04 06:42:34,494 - INFO - ==================================================
+2026-04-04 06:42:34,495 - INFO - Pipeline Execution Complete
+2026-04-04 06:42:34,495 - INFO - ==================================================

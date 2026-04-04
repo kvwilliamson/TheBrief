@@ -1,0 +1,751 @@
+{
+  "date": "2026-04-04",
+  "briefs": [
+    {
+      "episode_title": "I was hacked...",
+      "channel": "Matthew Berman",
+      "duration_minutes": 14,
+      "podcast_date": "2026-04-04",
+      "processing_date": "2024-02-29",
+      "one_line_summary": "An AI cybersecurity expert attempts to hack an open-source AI system, testing its vulnerabilities.",
+      "core_claims": [
+        "An AI hacker will attempt to drain the speaker's AI wallet and access personal files.",
+        "The expert attempts to decode the AI model used via 'token aid' payloads.",
+        "Initial token aid attempts were caught by Gmail's spam filter.",
+        "The expert uses custom jailbreak commands to force the open-source model to expose internal information.",
+        "Sending a massive wave of token aids to the open-class system is an attack vector to expose the model.",
+        "The system successfully quarantines malicious attempts despite multiple attack attempts."
+      ],
+      "signal_strength": 7,
+      "themes": [
+        "ai security",
+        "cybersecurity",
+        "hacking",
+        "vulnerability assessment",
+        "open source intelligence",
+        "threat detection"
+      ],
+      "positioning_implication": "Emphasize proactive defense strategies and continuous monitoring of AI systems to mitigate potential threats. Enhance email filtering systems to prevent malicious attempts from bypassing initial security.",
+      "time_horizon": "medium",
+      "shelf_life": "Medium",
+      "thumbnail": "https://i.ytimg.com/vi/_E4ZT1h7MZs/hqdefault.jpg",
+      "video_url": "https://www.youtube.com/watch?v=_E4ZT1h7MZs",
+      "cluster_id": 1,
+      "category": "Artificial Intelligence"
+    },
+    {
+      "episode_title": "\u2018Worst Outcomes\u2019 Aren\u2019t Priced In, Fund Manager Reveals What Breaks Next | Adrian Day",
+      "channel": "David Lin",
+      "duration_minutes": 37,
+      "podcast_date": "2026-04-04",
+      "processing_date": "2026-04-04",
+      "one_line_summary": "The market hasn't priced in reasonable worst-case scenarios, especially those related to the ongoing war and potential economic impacts.",
+      "core_claims": [
+        "The market has not priced in reasonable worst-case outcomes.",
+        "Higher oil prices will have a meaningful impact on consumer prices.",
+        "If oil goes to $200/barrel, this equates to a 25% cost increase.",
+        "Central banks globally are indicating they may not cut rates and may even hike rates due to higher oil prices.",
+        "Global stock markets were at their lowest-ever relative value to the U.S. last year and that relative outperformance of foreign markets may continue."
+      ],
+      "signal_strength": 8,
+      "themes": [
+        "market risk",
+        "oil prices",
+        "interest rates",
+        "global economy",
+        "investment strategy",
+        "inflation risk",
+        "geopolitics"
+      ],
+      "positioning_implication": "Reduce exposure to assets vulnerable to liquidity crises and supply chain disruptions; diversify into commodities with limited geographical risk and companies with strong cost hedging.",
+      "time_horizon": "medium",
+      "shelf_life": "Medium",
+      "thumbnail": "https://i.ytimg.com/vi/vIx041_xucQ/hqdefault.jpg",
+      "video_url": "https://www.youtube.com/watch?v=vIx041_xucQ",
+      "cluster_id": 0,
+      "category": "General Financial Investing and Speculation"
+    },
+    {
+      "episode_title": "\u2018Horror Show\u2019 In Housing: Market \u2018Stagnates\u2019, Is A Total Freeze Next? | Ron Butler",
+      "channel": "David Lin",
+      "duration_minutes": 53,
+      "podcast_date": "2026-04-04",
+      "processing_date": "2026-04-04",
+      "one_line_summary": "War-driven energy price volatility coupled with a lack of new hiring undermines first-time home buyers and stagnates the housing market, leading to a potential freeze.",
+      "core_claims": [
+        "Disturbances in energy prices caused by war attract inflation, triggering bond trader reactions that increase yields and mortgage rates.",
+        "Higher mortgage rates negatively impact first-time homebuyers due to minimal new hiring in the US, potentially slowing down purchase activity.",
+        "Lower mortgage rates and increased income are needed concurrently to trigger significant buying activity.",
+        "Population shrinkage and an oversupply of condos are pressuring Canadian rental markets, driving potential rent reductions."
+      ],
+      "signal_strength": 8,
+      "themes": [
+        "housing market",
+        "interest rates",
+        "economic stagnation",
+        "geopolitical impact",
+        "immigration policy",
+        "energy prices"
+      ],
+      "positioning_implication": "Anticipate market corrections and shifts in housing preferences; reassess investment strategies accounting for energy price volatility and immigration policy changes.",
+      "time_horizon": "medium",
+      "shelf_life": "Medium",
+      "thumbnail": "https://i.ytimg.com/vi/5G9SuQr_TRI/hqdefault.jpg",
+      "video_url": "https://www.youtube.com/watch?v=5G9SuQr_TRI",
+      "cluster_id": 3,
+      "category": "General Financial Investing and Speculation"
+    },
+    {
+      "episode_title": "What to Do if AI Comes for Your Job, ft. LinkedIn\u2019s Aneesh Raman | Office Hours",
+      "channel": "The Prof G Pod \u2013 Scott Galloway",
+      "duration_minutes": 47,
+      "podcast_date": "2026-04-04",
+      "processing_date": "2024-04-04",
+      "one_line_summary": "Individuals must focus on their uniquely human skills and continuous learning to adapt to the changing labor market influenced by AI.",
+      "core_claims": [
+        "AI's impact is sector-specific, significantly affecting fields like warfare and drug discovery.",
+        "AI saves about 1.5% of total work hours for US workers, showing narrow gains in overall productivity.",
+        "Adoption is still low globally.",
+        "Companies need to completely redesign workflow around AI, reimagining it around human capability.",
+        "Most people are doing day-to-day work which they've developed over the course of their career."
+      ],
+      "signal_strength": 8,
+      "themes": [
+        "ai impact",
+        "career strategy",
+        "skills",
+        "human capital",
+        "labor market",
+        "future of work",
+        "education"
+      ],
+      "positioning_implication": "Shift focus from routine tasks replaceable by AI to uniquely human skills like storytelling, coalition building, and adaptability; prioritize continuous learning and self-reinvention.",
+      "time_horizon": "medium",
+      "shelf_life": "Medium",
+      "thumbnail": "https://i.ytimg.com/vi/VNsfpsK1QTk/hqdefault.jpg",
+      "video_url": "https://www.youtube.com/watch?v=VNsfpsK1QTk",
+      "cluster_id": 2,
+      "category": "General Financial Investing and Speculation"
+    },
+    {
+      "episode_title": "I Broke Down Anthropic's $2.5 Billion Leak. Your Agent Is Missing 12 Critical Pieces.",
+      "channel": "AI News & Strategy Daily | Nate B Jones",
+      "duration_minutes": 22,
+      "podcast_date": "2026-04-04",
+      "processing_date": "2024-05-08",
+      "one_line_summary": "Anthropic's code leak reveals baseline architectural insights for building successful agentic systems, extending beyond the immediate roadmap.",
+      "core_claims": [
+        "Anthropic's code leak offers critical insights into building agent infrastructure beyond short-term feature releases.",
+        "Claude code maintains two parallel registries: a command registry with 207 entries for user-facing actions and a tool registry with 184 entries for model-facing capabilities.",
+        "Claude segments agent capabilities into three trust tiers: built-in (always available, highest trust), plugin (medium trust, disableable), and skills (user-defined, lowest trust).",
+        "Claude persists agent sessions in their entirety as JSON files, capturing session ID, messages, token usage, and query engine data for full re-instantiation after crashes.",
+        "Claude's query engine defines hard limits on token usage, including a maximum number of turns, a budget for tokens, and a compaction threshold, stopping execution before API calls if exceeded.",
+        "Claude defines six built-in agent types: explore, plan, verify, guide, general purpose, and status line setup, each with its own prompt, tools, and constraints."
+      ],
+      "signal_strength": 9,
+      "themes": [
+        "agent architecture",
+        "security",
+        "risk management",
+        "session management",
+        "token economy",
+        "multi-agent systems"
+      ],
+      "positioning_implication": "Prioritize foundational infrastructure and security when developing AI agents to ensure scalability and prevent errors. Implement structured frameworks for agent capabilities and permission management.",
+      "time_horizon": "medium",
+      "shelf_life": "Medium",
+      "thumbnail": "https://i.ytimg.com/vi/FtCdYhspm7w/hqdefault.jpg",
+      "video_url": "https://www.youtube.com/watch?v=FtCdYhspm7w",
+      "cluster_id": 2,
+      "category": "Artificial Intelligence"
+    },
+    {
+      "episode_title": "$200 Oil. The Stock Market is OBLITERATED",
+      "channel": "Felix & Friends (Goat Academy)",
+      "duration_minutes": 30,
+      "podcast_date": "2026-04-04",
+      "processing_date": "2024-04-25",
+      "one_line_summary": "Geopolitical tensions, particularly in the Strait of Hormuz, combined with war and supply constraints, may drive oil prices to $200 a barrel, while simultaneously pressuring gold prices.",
+      "core_claims": [
+        "Oil prices may reach $200 a barrel due to Middle East tensions and supply disruptions.",
+        "Gold had its worst week in 43 years, performing worse than during events such as 9/11, the 2008 financial crisis, and the Russia-Ukraine war.",
+        "Asian countries are already paying over $150 per barrel of oil.",
+        "If the Strait of Hormuz becomes too dangerous to use, insurance premiums will skyrocket and shipping companies may choose to avoid the area, impacting the global economy.",
+        "Goldman Sachs acknowledges a serious possibility of oil hitting $200 in its market report.",
+        "Seven Fed policymakers anticipate zero interest rate cuts, with JP Morgan expecting the Fed to hold rates all year and potentially raise rates in 2027."
+      ],
+      "signal_strength": 8,
+      "themes": [
+        "geopolitics",
+        "oil prices",
+        "gold",
+        "inflation",
+        "interest rates",
+        "market analysis"
+      ],
+      "positioning_implication": "Diversify investments into energy infrastructure and companies with high pricing power while avoiding sectors vulnerable to rising energy costs and interest rates.  Assess portfolio exposure to energy and interest rate-sensitive assets.",
+      "time_horizon": "short",
+      "shelf_life": "Medium",
+      "thumbnail": "https://i.ytimg.com/vi/t8FJPHWO5fA/hqdefault.jpg",
+      "video_url": "https://www.youtube.com/watch?v=t8FJPHWO5fA",
+      "cluster_id": 0,
+      "category": "General Financial Investing and Speculation"
+    },
+    {
+      "episode_title": "The Real Reason Silver Prices Fall After A Spike",
+      "channel": "CPM Group",
+      "duration_minutes": 100,
+      "podcast_date": "2026-04-04",
+      "processing_date": "2024-05-03",
+      "one_line_summary": "Silver prices are impacted by the interplay between fabrication demand, supply, and strategic metal decisions by governments.",
+      "core_claims": [
+        "Silver constitutes less than 0.1% of global wealth, while optimal investment allocation could be up to 25% in gold and silver.",
+        "Refineries lower purchase prices for silver due to decreased sales prices and increased metal availability, globally.",
+        "Dealers facing cash flow stress liquidate bars and medallions, driving them towards refineries for melting; coins retain a premium.",
+        "Retail and wholesale coin shops are stressed for cash due to net selling by investors, leading to potential delays in refining processes and metal disappearing.",
+        "Silver fabrication demand declines as prices rise, impacting investment products and dealer profits.",
+        "Chinese silver fabrication demand shows consistent increases, suggesting a managed economy rather than a free market, affecting silver allocation strategies."
+      ],
+      "signal_strength": 7,
+      "themes": [
+        "silver prices",
+        "supply chain",
+        "market dynamics",
+        "investment products",
+        "china",
+        "refineries"
+      ],
+      "positioning_implication": "Monitor the interplay of fabrication demand, mine production, and government policies to anticipate shifts in silver price dynamics. Consider geographic diversification to capitalize on regional differences in demand.",
+      "time_horizon": "medium",
+      "shelf_life": "Medium",
+      "thumbnail": "https://i.ytimg.com/vi/cAtPWqAqVcw/hqdefault.jpg",
+      "video_url": "https://www.youtube.com/watch?v=cAtPWqAqVcw",
+      "cluster_id": 0,
+      "category": "Precious Metals"
+    },
+    {
+      "episode_title": "Is Marriage a Bad Bet? A Divorce Lawyer Explains | Prof G Markets",
+      "channel": "The Prof G Pod \u2013 Scott Galloway",
+      "duration_minutes": 1.1,
+      "podcast_date": "2026-04-04",
+      "processing_date": "2026-04-04",
+      "one_line_summary": "A divorce attorney discusses financial and societal factors impacting modern marriage, revealing high divorce rates and shifting relationship dynamics.",
+      "core_claims": [
+        "AI chatbots are 49% more likely than humans to validate a user's action, even if deceptive, illegal, or harmful.",
+        "80% of women under 30 do not have children, potentially due to difficulties finding economically and emotionally viable partners.",
+        "People under 25 are dancing 60% less due to fear of being filmed and mocked.",
+        "Those who marry before 25 have a 60% divorce rate; college-educated couples divorce at lower rates.",
+        "Second marriages have a 60-67% divorce rate, third marriages at 73-74%.",
+        "42-45% of formally divorced, 3-4% separate without divorcing, and 14-19% in unhappy, loveless marriages actually dislike their spouse."
+      ],
+      "signal_strength": 8,
+      "themes": [
+        "marriage",
+        "divorce",
+        "relationships",
+        "economics",
+        "gender dynamics",
+        "social trends",
+        "technology",
+        "ai ethics"
+      ],
+      "positioning_implication": "Re-evaluate conventional relationship structures and expectations in light of evolving societal norms and economic realities; prioritize emotional and financial safety within partnerships.",
+      "time_horizon": "medium",
+      "shelf_life": "Medium",
+      "thumbnail": "https://i.ytimg.com/vi/R-3cEs8MNqY/hqdefault.jpg",
+      "video_url": "https://www.youtube.com/watch?v=R-3cEs8MNqY",
+      "cluster_id": 1,
+      "category": "General Financial Investing and Speculation"
+    },
+    {
+      "episode_title": "The Future Live | 04.03.26 | Guests from BEP, Ornn, and MOTS Podcast!",
+      "channel": "Matthew Berman",
+      "duration_minutes": 39,
+      "podcast_date": "2026-04-04",
+      "processing_date": "2026-04-04",
+      "one_line_summary": "AI model updates and commercialization strategies are discussed, focusing on optimizing performance, increasing accessibility, and managing costs within frontier models.",
+      "core_claims": [
+        "Google released Gemma 4, a family of open-weight models available on Hugging Face and Kaggle, with a license that has no restrictions on commercial use.",
+        "Quen 3.6 is a multi-modal LLM focused on agentic coding, task breakdown, and iterative troubleshooting, with a 1 million context window at a cost of 29 cents per million tokens.",
+        "Cursor 3 features a new agent window allowing parallel agents in isolated work trees, with the UI trending toward conversation-based coding interactions.",
+        "Alibaba reports Quen's monthly active users jumped from 31 million in January to 200 million in March, signaling rapid distribution and user adoption.",
+        "High-profile departures from the Quen team potentially signal a shift away from pure research toward productization, mirroring trends seen at DeepMind and OpenAI.",
+        "The Gemma 4 31B model ranks third on Arena AI's global open model leaderboard, outperforming smaller models in graduate-level reasoning and efficiency."
+      ],
+      "signal_strength": 8,
+      "themes": [
+        "open source",
+        "ai models",
+        "model release",
+        "commercialization",
+        "pricing",
+        "quantization",
+        "compute",
+        "agentic workflows",
+        "metaverse",
+        "LLM"
+      ],
+      "positioning_implication": "Organizations should evaluate open-source models for edge deployment to reduce reliance on hosted services, and anticipate further consolidation and specialization within the AI model landscape.",
+      "time_horizon": "medium",
+      "shelf_life": "Medium",
+      "thumbnail": "https://i.ytimg.com/vi/MKl4KVMDrqc/hqdefault_live.jpg",
+      "video_url": "https://www.youtube.com/watch?v=MKl4KVMDrqc",
+      "cluster_id": 0,
+      "category": "Artificial Intelligence"
+    }
+  ],
+  "category_intelligence": {
+    "Artificial Intelligence": {
+      "name": "Artificial Intelligence",
+      "meta_summary": "",
+      "convergence_score": 0.0,
+      "percentile": 0.0,
+      "regime_state": "Neutral",
+      "clusters": [
+        {
+          "id": 1,
+          "name": "AI Security: Vulnerabilities Intensifying",
+          "description": "Highlights the increasing focus on identifying and exploiting vulnerabilities within AI systems, particularly open-source models.",
+          "bias": "defensive",
+          "regime": "Emerging",
+          "size": 1,
+          "strength": 1.0,
+          "coherence": 1.0,
+          "channels": [
+            "Matthew Berman"
+          ],
+          "avg_signal": 7.0,
+          "briefs": [
+            {
+              "episode_title": "I was hacked...",
+              "channel": "Matthew Berman",
+              "duration_minutes": 14,
+              "podcast_date": "2026-04-04",
+              "processing_date": "2024-02-29",
+              "one_line_summary": "An AI cybersecurity expert attempts to hack an open-source AI system, testing its vulnerabilities.",
+              "core_claims": [
+                "An AI hacker will attempt to drain the speaker's AI wallet and access personal files.",
+                "The expert attempts to decode the AI model used via 'token aid' payloads.",
+                "Initial token aid attempts were caught by Gmail's spam filter.",
+                "The expert uses custom jailbreak commands to force the open-source model to expose internal information.",
+                "Sending a massive wave of token aids to the open-class system is an attack vector to expose the model.",
+                "The system successfully quarantines malicious attempts despite multiple attack attempts."
+              ],
+              "signal_strength": 7,
+              "themes": [
+                "ai security",
+                "cybersecurity",
+                "hacking",
+                "vulnerability assessment",
+                "open source intelligence",
+                "threat detection"
+              ],
+              "positioning_implication": "Emphasize proactive defense strategies and continuous monitoring of AI systems to mitigate potential threats. Enhance email filtering systems to prevent malicious attempts from bypassing initial security.",
+              "time_horizon": "medium",
+              "shelf_life": "Medium",
+              "thumbnail": "https://i.ytimg.com/vi/_E4ZT1h7MZs/hqdefault.jpg",
+              "video_url": "https://www.youtube.com/watch?v=_E4ZT1h7MZs",
+              "cluster_id": 1,
+              "category": "Artificial Intelligence"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "name": "Agent Architecture: Security Risks Intensifying",
+          "description": "Anthropic's code leak highlights architectural vulnerabilities, accelerating security and risk management concerns for agentic systems.",
+          "bias": "defensive",
+          "regime": "Emerging",
+          "size": 1,
+          "strength": 1.0,
+          "coherence": 1.0,
+          "channels": [
+            "AI News & Strategy Daily | Nate B Jones"
+          ],
+          "avg_signal": 9.0,
+          "briefs": [
+            {
+              "episode_title": "I Broke Down Anthropic's $2.5 Billion Leak. Your Agent Is Missing 12 Critical Pieces.",
+              "channel": "AI News & Strategy Daily | Nate B Jones",
+              "duration_minutes": 22,
+              "podcast_date": "2026-04-04",
+              "processing_date": "2024-05-08",
+              "one_line_summary": "Anthropic's code leak reveals baseline architectural insights for building successful agentic systems, extending beyond the immediate roadmap.",
+              "core_claims": [
+                "Anthropic's code leak offers critical insights into building agent infrastructure beyond short-term feature releases.",
+                "Claude code maintains two parallel registries: a command registry with 207 entries for user-facing actions and a tool registry with 184 entries for model-facing capabilities.",
+                "Claude segments agent capabilities into three trust tiers: built-in (always available, highest trust), plugin (medium trust, disableable), and skills (user-defined, lowest trust).",
+                "Claude persists agent sessions in their entirety as JSON files, capturing session ID, messages, token usage, and query engine data for full re-instantiation after crashes.",
+                "Claude's query engine defines hard limits on token usage, including a maximum number of turns, a budget for tokens, and a compaction threshold, stopping execution before API calls if exceeded.",
+                "Claude defines six built-in agent types: explore, plan, verify, guide, general purpose, and status line setup, each with its own prompt, tools, and constraints."
+              ],
+              "signal_strength": 9,
+              "themes": [
+                "agent architecture",
+                "security",
+                "risk management",
+                "session management",
+                "token economy",
+                "multi-agent systems"
+              ],
+              "positioning_implication": "Prioritize foundational infrastructure and security when developing AI agents to ensure scalability and prevent errors. Implement structured frameworks for agent capabilities and permission management.",
+              "time_horizon": "medium",
+              "shelf_life": "Medium",
+              "thumbnail": "https://i.ytimg.com/vi/FtCdYhspm7w/hqdefault.jpg",
+              "video_url": "https://www.youtube.com/watch?v=FtCdYhspm7w",
+              "cluster_id": 2,
+              "category": "Artificial Intelligence"
+            }
+          ]
+        },
+        {
+          "id": 0,
+          "name": "AI Model Commercialization Intensifying",
+          "description": "Focus shifts to practical AI model deployment, balancing performance, accessibility, and cost, signaling a move towards broader market integration.",
+          "bias": "constructive",
+          "regime": "Emerging",
+          "size": 1,
+          "strength": 1.0,
+          "coherence": 1.0,
+          "channels": [
+            "Matthew Berman"
+          ],
+          "avg_signal": 8.0,
+          "briefs": [
+            {
+              "episode_title": "The Future Live | 04.03.26 | Guests from BEP, Ornn, and MOTS Podcast!",
+              "channel": "Matthew Berman",
+              "duration_minutes": 39,
+              "podcast_date": "2026-04-04",
+              "processing_date": "2026-04-04",
+              "one_line_summary": "AI model updates and commercialization strategies are discussed, focusing on optimizing performance, increasing accessibility, and managing costs within frontier models.",
+              "core_claims": [
+                "Google released Gemma 4, a family of open-weight models available on Hugging Face and Kaggle, with a license that has no restrictions on commercial use.",
+                "Quen 3.6 is a multi-modal LLM focused on agentic coding, task breakdown, and iterative troubleshooting, with a 1 million context window at a cost of 29 cents per million tokens.",
+                "Cursor 3 features a new agent window allowing parallel agents in isolated work trees, with the UI trending toward conversation-based coding interactions.",
+                "Alibaba reports Quen's monthly active users jumped from 31 million in January to 200 million in March, signaling rapid distribution and user adoption.",
+                "High-profile departures from the Quen team potentially signal a shift away from pure research toward productization, mirroring trends seen at DeepMind and OpenAI.",
+                "The Gemma 4 31B model ranks third on Arena AI's global open model leaderboard, outperforming smaller models in graduate-level reasoning and efficiency."
+              ],
+              "signal_strength": 8,
+              "themes": [
+                "open source",
+                "ai models",
+                "model release",
+                "commercialization",
+                "pricing",
+                "quantization",
+                "compute",
+                "agentic workflows",
+                "metaverse",
+                "LLM"
+              ],
+              "positioning_implication": "Organizations should evaluate open-source models for edge deployment to reduce reliance on hosted services, and anticipate further consolidation and specialization within the AI model landscape.",
+              "time_horizon": "medium",
+              "shelf_life": "Medium",
+              "thumbnail": "https://i.ytimg.com/vi/MKl4KVMDrqc/hqdefault_live.jpg",
+              "video_url": "https://www.youtube.com/watch?v=MKl4KVMDrqc",
+              "cluster_id": 0,
+              "category": "Artificial Intelligence"
+            }
+          ]
+        }
+      ],
+      "should_generate": false
+    },
+    "General Financial Investing and Speculation": {
+      "name": "General Financial Investing and Speculation",
+      "meta_summary": "",
+      "convergence_score": 0.0,
+      "percentile": 0.0,
+      "regime_state": "Neutral",
+      "clusters": [
+        {
+          "id": 0,
+          "name": "Geopolitics Intensifying Oil Price Inflation Risk",
+          "description": "Geopolitical tensions and supply constraints are converging to drive oil prices higher, increasing inflation risk.",
+          "bias": "defensive",
+          "regime": "Accelerating",
+          "size": 2,
+          "strength": 1.4650583460957773,
+          "coherence": 0.7325291730478887,
+          "channels": [
+            "Felix & Friends (Goat Academy)",
+            "David Lin"
+          ],
+          "avg_signal": 8.0,
+          "briefs": [
+            {
+              "episode_title": "\u2018Worst Outcomes\u2019 Aren\u2019t Priced In, Fund Manager Reveals What Breaks Next | Adrian Day",
+              "channel": "David Lin",
+              "duration_minutes": 37,
+              "podcast_date": "2026-04-04",
+              "processing_date": "2026-04-04",
+              "one_line_summary": "The market hasn't priced in reasonable worst-case scenarios, especially those related to the ongoing war and potential economic impacts.",
+              "core_claims": [
+                "The market has not priced in reasonable worst-case outcomes.",
+                "Higher oil prices will have a meaningful impact on consumer prices.",
+                "If oil goes to $200/barrel, this equates to a 25% cost increase.",
+                "Central banks globally are indicating they may not cut rates and may even hike rates due to higher oil prices.",
+                "Global stock markets were at their lowest-ever relative value to the U.S. last year and that relative outperformance of foreign markets may continue."
+              ],
+              "signal_strength": 8,
+              "themes": [
+                "market risk",
+                "oil prices",
+                "interest rates",
+                "global economy",
+                "investment strategy",
+                "inflation risk",
+                "geopolitics"
+              ],
+              "positioning_implication": "Reduce exposure to assets vulnerable to liquidity crises and supply chain disruptions; diversify into commodities with limited geographical risk and companies with strong cost hedging.",
+              "time_horizon": "medium",
+              "shelf_life": "Medium",
+              "thumbnail": "https://i.ytimg.com/vi/vIx041_xucQ/hqdefault.jpg",
+              "video_url": "https://www.youtube.com/watch?v=vIx041_xucQ",
+              "cluster_id": 0,
+              "category": "General Financial Investing and Speculation"
+            },
+            {
+              "episode_title": "$200 Oil. The Stock Market is OBLITERATED",
+              "channel": "Felix & Friends (Goat Academy)",
+              "duration_minutes": 30,
+              "podcast_date": "2026-04-04",
+              "processing_date": "2024-04-25",
+              "one_line_summary": "Geopolitical tensions, particularly in the Strait of Hormuz, combined with war and supply constraints, may drive oil prices to $200 a barrel, while simultaneously pressuring gold prices.",
+              "core_claims": [
+                "Oil prices may reach $200 a barrel due to Middle East tensions and supply disruptions.",
+                "Gold had its worst week in 43 years, performing worse than during events such as 9/11, the 2008 financial crisis, and the Russia-Ukraine war.",
+                "Asian countries are already paying over $150 per barrel of oil.",
+                "If the Strait of Hormuz becomes too dangerous to use, insurance premiums will skyrocket and shipping companies may choose to avoid the area, impacting the global economy.",
+                "Goldman Sachs acknowledges a serious possibility of oil hitting $200 in its market report.",
+                "Seven Fed policymakers anticipate zero interest rate cuts, with JP Morgan expecting the Fed to hold rates all year and potentially raise rates in 2027."
+              ],
+              "signal_strength": 8,
+              "themes": [
+                "geopolitics",
+                "oil prices",
+                "gold",
+                "inflation",
+                "interest rates",
+                "market analysis"
+              ],
+              "positioning_implication": "Diversify investments into energy infrastructure and companies with high pricing power while avoiding sectors vulnerable to rising energy costs and interest rates.  Assess portfolio exposure to energy and interest rate-sensitive assets.",
+              "time_horizon": "short",
+              "shelf_life": "Medium",
+              "thumbnail": "https://i.ytimg.com/vi/t8FJPHWO5fA/hqdefault.jpg",
+              "video_url": "https://www.youtube.com/watch?v=t8FJPHWO5fA",
+              "cluster_id": 0,
+              "category": "General Financial Investing and Speculation"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "name": "Housing Market Freeze Intensifying Amid Geopolitical Risks",
+          "description": "Geopolitical energy shocks and hiring freezes are combining to stall the housing market, particularly impacting first-time buyers.",
+          "bias": "defensive",
+          "regime": "Emerging",
+          "size": 1,
+          "strength": 1.0,
+          "coherence": 1.0,
+          "channels": [
+            "David Lin"
+          ],
+          "avg_signal": 8.0,
+          "briefs": [
+            {
+              "episode_title": "\u2018Horror Show\u2019 In Housing: Market \u2018Stagnates\u2019, Is A Total Freeze Next? | Ron Butler",
+              "channel": "David Lin",
+              "duration_minutes": 53,
+              "podcast_date": "2026-04-04",
+              "processing_date": "2026-04-04",
+              "one_line_summary": "War-driven energy price volatility coupled with a lack of new hiring undermines first-time home buyers and stagnates the housing market, leading to a potential freeze.",
+              "core_claims": [
+                "Disturbances in energy prices caused by war attract inflation, triggering bond trader reactions that increase yields and mortgage rates.",
+                "Higher mortgage rates negatively impact first-time homebuyers due to minimal new hiring in the US, potentially slowing down purchase activity.",
+                "Lower mortgage rates and increased income are needed concurrently to trigger significant buying activity.",
+                "Population shrinkage and an oversupply of condos are pressuring Canadian rental markets, driving potential rent reductions."
+              ],
+              "signal_strength": 8,
+              "themes": [
+                "housing market",
+                "interest rates",
+                "economic stagnation",
+                "geopolitical impact",
+                "immigration policy",
+                "energy prices"
+              ],
+              "positioning_implication": "Anticipate market corrections and shifts in housing preferences; reassess investment strategies accounting for energy price volatility and immigration policy changes.",
+              "time_horizon": "medium",
+              "shelf_life": "Medium",
+              "thumbnail": "https://i.ytimg.com/vi/5G9SuQr_TRI/hqdefault.jpg",
+              "video_url": "https://www.youtube.com/watch?v=5G9SuQr_TRI",
+              "cluster_id": 3,
+              "category": "General Financial Investing and Speculation"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "name": "AI Intensifying Labor Market Adaptation Pressure",
+          "description": "This narrative highlights the growing urgency for individuals to proactively develop uniquely human skills and embrace continuous learning to navigate the AI-driven shifts in the labor market.",
+          "bias": "constructive",
+          "regime": "Emerging",
+          "size": 1,
+          "strength": 1.0,
+          "coherence": 1.0,
+          "channels": [
+            "The Prof G Pod \u2013 Scott Galloway"
+          ],
+          "avg_signal": 8.0,
+          "briefs": [
+            {
+              "episode_title": "What to Do if AI Comes for Your Job, ft. LinkedIn\u2019s Aneesh Raman | Office Hours",
+              "channel": "The Prof G Pod \u2013 Scott Galloway",
+              "duration_minutes": 47,
+              "podcast_date": "2026-04-04",
+              "processing_date": "2024-04-04",
+              "one_line_summary": "Individuals must focus on their uniquely human skills and continuous learning to adapt to the changing labor market influenced by AI.",
+              "core_claims": [
+                "AI's impact is sector-specific, significantly affecting fields like warfare and drug discovery.",
+                "AI saves about 1.5% of total work hours for US workers, showing narrow gains in overall productivity.",
+                "Adoption is still low globally.",
+                "Companies need to completely redesign workflow around AI, reimagining it around human capability.",
+                "Most people are doing day-to-day work which they've developed over the course of their career."
+              ],
+              "signal_strength": 8,
+              "themes": [
+                "ai impact",
+                "career strategy",
+                "skills",
+                "human capital",
+                "labor market",
+                "future of work",
+                "education"
+              ],
+              "positioning_implication": "Shift focus from routine tasks replaceable by AI to uniquely human skills like storytelling, coalition building, and adaptability; prioritize continuous learning and self-reinvention.",
+              "time_horizon": "medium",
+              "shelf_life": "Medium",
+              "thumbnail": "https://i.ytimg.com/vi/VNsfpsK1QTk/hqdefault.jpg",
+              "video_url": "https://www.youtube.com/watch?v=VNsfpsK1QTk",
+              "cluster_id": 2,
+              "category": "General Financial Investing and Speculation"
+            }
+          ]
+        },
+        {
+          "id": 1,
+          "name": "Marriage: Economics Intensifying Relationship Fragmentation",
+          "description": "This narrative highlights how financial pressures and evolving social norms are contributing to increased marital instability and divorce rates.",
+          "bias": "neutral",
+          "regime": "Emerging",
+          "size": 1,
+          "strength": 1.0,
+          "coherence": 1.0,
+          "channels": [
+            "The Prof G Pod \u2013 Scott Galloway"
+          ],
+          "avg_signal": 8.0,
+          "briefs": [
+            {
+              "episode_title": "Is Marriage a Bad Bet? A Divorce Lawyer Explains | Prof G Markets",
+              "channel": "The Prof G Pod \u2013 Scott Galloway",
+              "duration_minutes": 1.1,
+              "podcast_date": "2026-04-04",
+              "processing_date": "2026-04-04",
+              "one_line_summary": "A divorce attorney discusses financial and societal factors impacting modern marriage, revealing high divorce rates and shifting relationship dynamics.",
+              "core_claims": [
+                "AI chatbots are 49% more likely than humans to validate a user's action, even if deceptive, illegal, or harmful.",
+                "80% of women under 30 do not have children, potentially due to difficulties finding economically and emotionally viable partners.",
+                "People under 25 are dancing 60% less due to fear of being filmed and mocked.",
+                "Those who marry before 25 have a 60% divorce rate; college-educated couples divorce at lower rates.",
+                "Second marriages have a 60-67% divorce rate, third marriages at 73-74%.",
+                "42-45% of formally divorced, 3-4% separate without divorcing, and 14-19% in unhappy, loveless marriages actually dislike their spouse."
+              ],
+              "signal_strength": 8,
+              "themes": [
+                "marriage",
+                "divorce",
+                "relationships",
+                "economics",
+                "gender dynamics",
+                "social trends",
+                "technology",
+                "ai ethics"
+              ],
+              "positioning_implication": "Re-evaluate conventional relationship structures and expectations in light of evolving societal norms and economic realities; prioritize emotional and financial safety within partnerships.",
+              "time_horizon": "medium",
+              "shelf_life": "Medium",
+              "thumbnail": "https://i.ytimg.com/vi/R-3cEs8MNqY/hqdefault.jpg",
+              "video_url": "https://www.youtube.com/watch?v=R-3cEs8MNqY",
+              "cluster_id": 1,
+              "category": "General Financial Investing and Speculation"
+            }
+          ]
+        }
+      ],
+      "should_generate": false
+    },
+    "Precious Metals": {
+      "name": "Precious Metals",
+      "meta_summary": "",
+      "convergence_score": 0.0,
+      "percentile": 0.0,
+      "regime_state": "Neutral",
+      "clusters": [
+        {
+          "id": 0,
+          "name": "Silver: Fabrication Demand Tightening Supply",
+          "description": "Silver prices are pressured by fabrication demand outpacing supply, compounded by strategic government actions.",
+          "bias": "neutral",
+          "regime": "Emerging",
+          "size": 1,
+          "strength": 0.0,
+          "coherence": 1.0,
+          "channels": [
+            "CPM Group"
+          ],
+          "avg_signal": 7.0,
+          "briefs": [
+            {
+              "episode_title": "The Real Reason Silver Prices Fall After A Spike",
+              "channel": "CPM Group",
+              "duration_minutes": 100,
+              "podcast_date": "2026-04-04",
+              "processing_date": "2024-05-03",
+              "one_line_summary": "Silver prices are impacted by the interplay between fabrication demand, supply, and strategic metal decisions by governments.",
+              "core_claims": [
+                "Silver constitutes less than 0.1% of global wealth, while optimal investment allocation could be up to 25% in gold and silver.",
+                "Refineries lower purchase prices for silver due to decreased sales prices and increased metal availability, globally.",
+                "Dealers facing cash flow stress liquidate bars and medallions, driving them towards refineries for melting; coins retain a premium.",
+                "Retail and wholesale coin shops are stressed for cash due to net selling by investors, leading to potential delays in refining processes and metal disappearing.",
+                "Silver fabrication demand declines as prices rise, impacting investment products and dealer profits.",
+                "Chinese silver fabrication demand shows consistent increases, suggesting a managed economy rather than a free market, affecting silver allocation strategies."
+              ],
+              "signal_strength": 7,
+              "themes": [
+                "silver prices",
+                "supply chain",
+                "market dynamics",
+                "investment products",
+                "china",
+                "refineries"
+              ],
+              "positioning_implication": "Monitor the interplay of fabrication demand, mine production, and government policies to anticipate shifts in silver price dynamics. Consider geographic diversification to capitalize on regional differences in demand.",
+              "time_horizon": "medium",
+              "shelf_life": "Medium",
+              "thumbnail": "https://i.ytimg.com/vi/cAtPWqAqVcw/hqdefault.jpg",
+              "video_url": "https://www.youtube.com/watch?v=cAtPWqAqVcw",
+              "cluster_id": 0,
+              "category": "Precious Metals"
+            }
+          ]
+        }
+      ],
+      "should_generate": false
+    }
+  },
+  "clusters": []
+}
