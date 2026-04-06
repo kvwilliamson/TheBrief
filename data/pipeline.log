@@ -4080,3 +4080,66 @@
 2026-04-05 06:45:23,437 - INFO - ==================================================
 2026-04-05 06:45:23,437 - INFO - Pipeline Execution Complete
 2026-04-05 06:45:23,437 - INFO - ==================================================
+2026-04-06 06:54:13,670 - INFO - ==================================================
+2026-04-06 06:54:13,670 - INFO - Starting TheBrief Daily Pipeline
+2026-04-06 06:54:13,670 - INFO - ==================================================
+2026-04-06 06:54:13,670 - INFO - 
+--- Phase 1: Discovery ---
+2026-04-06 06:54:13,675 - INFO - Discovering videos published after 2026-04-05T06:54:13.675539+00:00 (24h lookback)
+2026-04-06 06:54:14,061 - INFO - Found 1 new potential videos on Bald Guy Money.
+2026-04-06 06:54:14,331 - INFO - Found 3 new potential videos on AI News & Strategy Daily | Nate B Jones.
+2026-04-06 06:54:14,506 - INFO - Found 1 new potential videos on David Lin .
+2026-04-06 06:54:14,925 - INFO - Found 1 new potential videos on Adam Taggart | Thoughtful Money®.
+2026-04-06 06:54:15,249 - INFO - Found 1 new potential videos on Matthew Berman.
+2026-04-06 06:54:15,398 - INFO - Found 1 new potential videos on The Prof G Pod – Scott Galloway.
+2026-04-06 06:54:15,607 - INFO - Found 5 total long-form videos across all channels.
+2026-04-06 06:54:15,612 - INFO - Discovery complete. Added 5 new videos to queue.
+2026-04-06 06:54:15,612 - INFO - 
+--- Phase 2: Extraction ---
+2026-04-06 06:54:15,836 - INFO - yt-dlp version: 2026.03.17
+2026-04-06 06:54:16,140 - INFO - POT-related packages: bgutil-ytdlp-pot-provider 1.3.1
+2026-04-06 06:54:16,164 - INFO - bgutil HTTP server not available on port 4416 (will rely on cookies)
+2026-04-06 06:54:16,164 - INFO - Extracting audio for Salesforce CEO on Microsoft Blocking OpenAI Investment, AI Scapegoating, OpenClaw, and Regulation (OzUqfN4mcrM)...
+2026-04-06 06:54:35,146 - INFO - Successfully extracted: audio/OzUqfN4mcrM.mp3
+2026-04-06 06:54:44,007 - INFO - Extracting audio for Bring Of Another Major Crash? What Everyone Gets Wrong About The Gold, Silver (RJ3Egpv_aGg)...
+2026-04-06 06:54:59,715 - INFO - Successfully extracted: audio/RJ3Egpv_aGg.mp3
+2026-04-06 06:55:09,550 - INFO - Extracting audio for Your Agent Produces at 100x. Your Org Reviews at 3x. That's the Problem. (kVPVmz0qJvY)...
+2026-04-06 06:55:24,104 - INFO - Successfully extracted: audio/kVPVmz0qJvY.mp3
+2026-04-06 06:55:34,282 - INFO - Extracting audio for Great Recession 2.0? | Michael Pento (-c3HgDDXDYQ)...
+2026-04-06 06:56:06,260 - INFO - Successfully extracted: audio/-c3HgDDXDYQ.mp3
+2026-04-06 06:56:17,486 - INFO - Extracting audio for Gold & Silver's Reverse Crash Will Happen Fast! The 2026 Metals Reversal (SDnmj-dglY8)...
+2026-04-06 06:56:42,906 - INFO - Successfully extracted: audio/SDnmj-dglY8.mp3
+2026-04-06 06:56:42,906 - INFO - Extraction complete. 5/5 audio files ready. (Time: 146.7s)
+2026-04-06 06:56:42,906 - INFO - 
+--- Phase 3: Summarization (Direct Audio) ---
+2026-04-06 06:56:44,653 - INFO - Generating Brief for Your Agent Produces at 100x. Your Org Reviews at 3x. That's the Problem. (kVPVmz0qJvY)...
+2026-04-06 06:56:44,655 - INFO - AFC is enabled with max remote calls: 10.
+2026-04-06 06:56:45,007 - INFO - Generating Brief for Bring Of Another Major Crash? What Everyone Gets Wrong About The Gold, Silver (RJ3Egpv_aGg)...
+2026-04-06 06:56:45,008 - INFO - AFC is enabled with max remote calls: 10.
+2026-04-06 06:56:45,064 - INFO - Generating Brief for Salesforce CEO on Microsoft Blocking OpenAI Investment, AI Scapegoating, OpenClaw, and Regulation (OzUqfN4mcrM)...
+2026-04-06 06:56:45,065 - INFO - AFC is enabled with max remote calls: 10.
+2026-04-06 06:56:50,910 - INFO - ✅ Brief successfully generated for Your Agent Produces at 100x. Your Org Reviews at 3x. That's the Problem.
+2026-04-06 06:56:51,524 - ERROR - Schema parsing error for Bring Of Another Major Crash? What Everyone Gets Wrong About The Gold, Silver: Expecting value: line 1 column 1228 (char 1227)
+2026-04-06 06:56:52,890 - INFO - Generating Brief for Great Recession 2.0? | Michael Pento (-c3HgDDXDYQ)...
+2026-04-06 06:56:52,891 - INFO - AFC is enabled with max remote calls: 10.
+2026-04-06 06:56:54,002 - INFO - Generating Brief for Gold & Silver's Reverse Crash Will Happen Fast! The 2026 Metals Reversal (SDnmj-dglY8)...
+2026-04-06 06:56:54,003 - INFO - AFC is enabled with max remote calls: 10.
+2026-04-06 06:56:55,684 - ERROR - Schema parsing error for Salesforce CEO on Microsoft Blocking OpenAI Investment, AI Scapegoating, OpenClaw, and Regulation: Expecting value: line 1 column 1087 (char 1086)
+2026-04-06 06:57:05,751 - INFO - ✅ Brief successfully generated for Gold & Silver's Reverse Crash Will Happen Fast! The 2026 Metals Reversal
+2026-04-06 06:57:21,136 - INFO - ✅ Brief successfully generated for Great Recession 2.0? | Michael Pento
+2026-04-06 06:57:21,137 - INFO - --- Phase 3: Category Synthesis (3 assets across categories) ---
+2026-04-06 06:57:21,137 - INFO - Analyzing 2 categories: Artificial Intelligence, General Financial Investing and Speculation
+2026-04-06 06:57:21,137 - INFO - Processing Synthesis for sector: Artificial Intelligence (1 assets)...
+2026-04-06 06:57:21,143 - INFO - AFC is enabled with max remote calls: 10.
+2026-04-06 06:57:22,063 - INFO - ✅ Synthesis complete for Artificial Intelligence
+2026-04-06 06:57:22,063 - INFO - Processing Synthesis for sector: General Financial Investing and Speculation (2 assets)...
+2026-04-06 06:57:22,084 - INFO - AFC is enabled with max remote calls: 10.
+2026-04-06 06:57:23,051 - INFO - AFC is enabled with max remote calls: 10.
+2026-04-06 06:57:23,986 - INFO - ✅ Synthesis complete for General Financial Investing and Speculation
+2026-04-06 06:57:23,992 - INFO - Summarization complete. 3 briefs written to briefs/2026-04-06.md (Time: 41.0s)
+2026-04-06 06:57:25,286 - INFO - Email digest sent successfully to kwilliamson.mail@gmail.com.
+2026-04-06 06:57:25,999 - INFO - Email digest sent successfully to kochava72@gmail.com.
+2026-04-06 06:57:26,024 - INFO - Queue cleared.
+2026-04-06 06:57:26,030 - INFO - ==================================================
+2026-04-06 06:57:26,030 - INFO - Pipeline Execution Complete
+2026-04-06 06:57:26,031 - INFO - ==================================================

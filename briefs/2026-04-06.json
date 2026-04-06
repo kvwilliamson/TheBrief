@@ -1,0 +1,272 @@
+{
+  "date": "2026-04-06",
+  "briefs": [
+    {
+      "episode_title": "Your Agent Produces at 100x. Your Org Reviews at 3x. That's the Problem.",
+      "channel": "AI News & Strategy Daily | Nate B Jones",
+      "duration_minutes": 24,
+      "podcast_date": "2026-04-06",
+      "processing_date": "2024-04-26",
+      "one_line_summary": "Agentic software's promise hinges on clear intent, data quality, and process design, not just speed, requiring org redesign for effective integration.",
+      "core_claims": [
+        "OpenClaw allows building a $320,000 SaaS replacement suite using APIs.",
+        "OpenClaw enables CRM replacement in days and ad creator scaling from 20 to 2000.",
+        "AI demands stack reinvention, not just an agent overlay, to address data issues.",
+        "OpenClaw is an open-source, self-hosted, model-agnostic AI agent framework.",
+        "Agile development without clear workflow intent results in generic, non-customized software solutions.",
+        "A voice agent built without defined schema and process creates a data mess.",
+        "The core problem of OpenClaw is that its potential is often diminished by unsafe deployment practices and lack of focus on evaluation over generation."
+      ],
+      "signal_strength": 8,
+      "themes": [
+        "agentic software",
+        "openclaw",
+        "crm",
+        "organizational design",
+        "data quality",
+        "workflow",
+        "security",
+        "skills vs process"
+      ],
+      "positioning_implication": "Prioritize workflow clarity and data integrity in agentic software adoption to leverage its true potential and avoid operational inefficiencies. Invest in org redesign for effective evaluation.",
+      "time_horizon": "medium",
+      "shelf_life": "Medium",
+      "thumbnail": "https://i.ytimg.com/vi/kVPVmz0qJvY/hqdefault.jpg",
+      "video_url": "https://www.youtube.com/watch?v=kVPVmz0qJvY",
+      "cluster_id": 0,
+      "category": "Artificial Intelligence"
+    },
+    {
+      "episode_title": "Gold & Silver's Reverse Crash Will Happen Fast! The 2026 Metals Reversal",
+      "channel": "Bald Guy Money",
+      "duration_minutes": 31,
+      "podcast_date": "2026-04-06",
+      "processing_date": "2024-05-08",
+      "one_line_summary": "Gold and silver's next major price correction will mirror 2008's dynamics, shifting from private banks to sovereign debt crises by 2026.",
+      "core_claims": [
+        "Turkey selling gold signals sovereign financial distress, not the end of central bank gold buying or the precious metals bull market.",
+        "In 2026, sovereign nations facing debt crises will sell assets like gold to prop up currencies, unlike 2008's private bank bailout model.",
+        "Turkey's US bond dumping, exceeding gold sales, poses a systemic risk to fiat currency stability.",
+        "Gold and silver retain upside potential comparable to their 2009-2011 boom.",
+        "Commodity markets turned bullish in late 2025.",
+        "Silver may reach $300-$500/oz, potentially by summer, as it catches up to gold's relative pricing, correcting historical underpricing."
+      ],
+      "signal_strength": 8,
+      "themes": [
+        "precious metals",
+        "financial crisis",
+        "sovereign debt",
+        "commodities",
+        "market analysis",
+        "central banks"
+      ],
+      "positioning_implication": "Favor miners over oil, particularly silver.",
+      "time_horizon": "medium",
+      "shelf_life": "Medium",
+      "thumbnail": "https://i.ytimg.com/vi/SDnmj-dglY8/hqdefault.jpg",
+      "video_url": "https://www.youtube.com/watch?v=SDnmj-dglY8",
+      "cluster_id": 1,
+      "category": "General Financial Investing and Speculation"
+    },
+    {
+      "episode_title": "Great Recession 2.0? | Michael Pento",
+      "channel": "Adam Taggart | Thoughtful Money\u00ae",
+      "duration_minutes": 69,
+      "podcast_date": "2026-04-06",
+      "processing_date": "2026-04-06",
+      "one_line_summary": "Markets face potential recession due to the meltdown of the 'triumvirate of bubbles' and an ended credit cycle.",
+      "core_claims": [
+        "A credit, real estate, and stock bubble 'triumvirate' threatens the economy.",
+        "Oil prices will mimic the pre-2008 financial crisis pattern, with consumer shutdowns leading to crashing prices despite superficial optimism.",
+        "Current sector allocation is a hybrid of defensive stance and stagflation hedges.",
+        "National home prices are forecast to fall by approximately 23% when the recession hits.",
+        "Private credit loan default rate is at 9.2%, similar to levels during the Global Financial Crisis."
+      ],
+      "signal_strength": 8,
+      "themes": [
+        "recession",
+        "stagflation",
+        "economic bubbles",
+        "credit cycle",
+        "investment strategy",
+        "real estate"
+      ],
+      "positioning_implication": "Shift portfolio to defensive positions with hedges against stagflation. Actively manage portfolio to adapt to rapid economic shifts.",
+      "time_horizon": "medium",
+      "shelf_life": "Medium",
+      "thumbnail": "https://i.ytimg.com/vi/-c3HgDDXDYQ/hqdefault.jpg",
+      "video_url": "https://www.youtube.com/watch?v=-c3HgDDXDYQ",
+      "cluster_id": 0,
+      "category": "General Financial Investing and Speculation"
+    }
+  ],
+  "category_intelligence": {
+    "Artificial Intelligence": {
+      "name": "Artificial Intelligence",
+      "meta_summary": "",
+      "convergence_score": 0.0,
+      "percentile": 0.0,
+      "regime_state": "Neutral",
+      "clusters": [
+        {
+          "id": 0,
+          "name": "Agentic Software Integration Intensifying Organizational Redesign",
+          "description": "Agentic software adoption pressures organizations to redesign workflows and data management for effective integration, shifting focus from speed to intent and quality.",
+          "bias": "neutral",
+          "regime": "Emerging",
+          "size": 1,
+          "strength": 0.0,
+          "coherence": 1.0,
+          "channels": [
+            "AI News & Strategy Daily | Nate B Jones"
+          ],
+          "avg_signal": 8.0,
+          "briefs": [
+            {
+              "episode_title": "Your Agent Produces at 100x. Your Org Reviews at 3x. That's the Problem.",
+              "channel": "AI News & Strategy Daily | Nate B Jones",
+              "duration_minutes": 24,
+              "podcast_date": "2026-04-06",
+              "processing_date": "2024-04-26",
+              "one_line_summary": "Agentic software's promise hinges on clear intent, data quality, and process design, not just speed, requiring org redesign for effective integration.",
+              "core_claims": [
+                "OpenClaw allows building a $320,000 SaaS replacement suite using APIs.",
+                "OpenClaw enables CRM replacement in days and ad creator scaling from 20 to 2000.",
+                "AI demands stack reinvention, not just an agent overlay, to address data issues.",
+                "OpenClaw is an open-source, self-hosted, model-agnostic AI agent framework.",
+                "Agile development without clear workflow intent results in generic, non-customized software solutions.",
+                "A voice agent built without defined schema and process creates a data mess.",
+                "The core problem of OpenClaw is that its potential is often diminished by unsafe deployment practices and lack of focus on evaluation over generation."
+              ],
+              "signal_strength": 8,
+              "themes": [
+                "agentic software",
+                "openclaw",
+                "crm",
+                "organizational design",
+                "data quality",
+                "workflow",
+                "security",
+                "skills vs process"
+              ],
+              "positioning_implication": "Prioritize workflow clarity and data integrity in agentic software adoption to leverage its true potential and avoid operational inefficiencies. Invest in org redesign for effective evaluation.",
+              "time_horizon": "medium",
+              "shelf_life": "Medium",
+              "thumbnail": "https://i.ytimg.com/vi/kVPVmz0qJvY/hqdefault.jpg",
+              "video_url": "https://www.youtube.com/watch?v=kVPVmz0qJvY",
+              "cluster_id": 0,
+              "category": "Artificial Intelligence"
+            }
+          ]
+        }
+      ],
+      "should_generate": false
+    },
+    "General Financial Investing and Speculation": {
+      "name": "General Financial Investing and Speculation",
+      "meta_summary": "",
+      "convergence_score": 0.0,
+      "percentile": 0.0,
+      "regime_state": "Neutral",
+      "clusters": [
+        {
+          "id": 1,
+          "name": "Sovereign Debt Crisis Intensifying Precious Metals Correction",
+          "description": "The narrative suggests a shift in the driver of precious metals price correction from private banks to sovereign debt crises by 2026, mirroring the 2008 financial crisis.",
+          "bias": "defensive",
+          "regime": "Emerging",
+          "size": 1,
+          "strength": 1.0,
+          "coherence": 1.0,
+          "channels": [
+            "Bald Guy Money"
+          ],
+          "avg_signal": 8.0,
+          "briefs": [
+            {
+              "episode_title": "Gold & Silver's Reverse Crash Will Happen Fast! The 2026 Metals Reversal",
+              "channel": "Bald Guy Money",
+              "duration_minutes": 31,
+              "podcast_date": "2026-04-06",
+              "processing_date": "2024-05-08",
+              "one_line_summary": "Gold and silver's next major price correction will mirror 2008's dynamics, shifting from private banks to sovereign debt crises by 2026.",
+              "core_claims": [
+                "Turkey selling gold signals sovereign financial distress, not the end of central bank gold buying or the precious metals bull market.",
+                "In 2026, sovereign nations facing debt crises will sell assets like gold to prop up currencies, unlike 2008's private bank bailout model.",
+                "Turkey's US bond dumping, exceeding gold sales, poses a systemic risk to fiat currency stability.",
+                "Gold and silver retain upside potential comparable to their 2009-2011 boom.",
+                "Commodity markets turned bullish in late 2025.",
+                "Silver may reach $300-$500/oz, potentially by summer, as it catches up to gold's relative pricing, correcting historical underpricing."
+              ],
+              "signal_strength": 8,
+              "themes": [
+                "precious metals",
+                "financial crisis",
+                "sovereign debt",
+                "commodities",
+                "market analysis",
+                "central banks"
+              ],
+              "positioning_implication": "Favor miners over oil, particularly silver.",
+              "time_horizon": "medium",
+              "shelf_life": "Medium",
+              "thumbnail": "https://i.ytimg.com/vi/SDnmj-dglY8/hqdefault.jpg",
+              "video_url": "https://www.youtube.com/watch?v=SDnmj-dglY8",
+              "cluster_id": 1,
+              "category": "General Financial Investing and Speculation"
+            }
+          ]
+        },
+        {
+          "id": 0,
+          "name": "Recession Pressure Intensifying on Markets",
+          "description": "Narrative suggests markets are increasingly vulnerable to recessionary forces as prior economic bubbles deflate and the credit cycle concludes.",
+          "bias": "defensive",
+          "regime": "Emerging",
+          "size": 1,
+          "strength": 1.0,
+          "coherence": 1.0,
+          "channels": [
+            "Adam Taggart | Thoughtful Money\u00ae"
+          ],
+          "avg_signal": 8.0,
+          "briefs": [
+            {
+              "episode_title": "Great Recession 2.0? | Michael Pento",
+              "channel": "Adam Taggart | Thoughtful Money\u00ae",
+              "duration_minutes": 69,
+              "podcast_date": "2026-04-06",
+              "processing_date": "2026-04-06",
+              "one_line_summary": "Markets face potential recession due to the meltdown of the 'triumvirate of bubbles' and an ended credit cycle.",
+              "core_claims": [
+                "A credit, real estate, and stock bubble 'triumvirate' threatens the economy.",
+                "Oil prices will mimic the pre-2008 financial crisis pattern, with consumer shutdowns leading to crashing prices despite superficial optimism.",
+                "Current sector allocation is a hybrid of defensive stance and stagflation hedges.",
+                "National home prices are forecast to fall by approximately 23% when the recession hits.",
+                "Private credit loan default rate is at 9.2%, similar to levels during the Global Financial Crisis."
+              ],
+              "signal_strength": 8,
+              "themes": [
+                "recession",
+                "stagflation",
+                "economic bubbles",
+                "credit cycle",
+                "investment strategy",
+                "real estate"
+              ],
+              "positioning_implication": "Shift portfolio to defensive positions with hedges against stagflation. Actively manage portfolio to adapt to rapid economic shifts.",
+              "time_horizon": "medium",
+              "shelf_life": "Medium",
+              "thumbnail": "https://i.ytimg.com/vi/-c3HgDDXDYQ/hqdefault.jpg",
+              "video_url": "https://www.youtube.com/watch?v=-c3HgDDXDYQ",
+              "cluster_id": 0,
+              "category": "General Financial Investing and Speculation"
+            }
+          ]
+        }
+      ],
+      "should_generate": false
+    }
+  },
+  "clusters": []
+}
