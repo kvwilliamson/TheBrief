@@ -1,0 +1,973 @@
+{
+  "date": "2026-04-07",
+  "briefs": [
+    {
+      "episode_title": "Why the Post-Holiday Market Bounce Is Missing Volume: Trade Levels for S&P, BTC, and More",
+      "channel": "Verified Investing",
+      "duration_minutes": 27,
+      "podcast_date": "2026-04-07",
+      "processing_date": "2024-04-29",
+      "one_line_summary": "Market's 'pause' reflects uncertainty surrounding geopolitical events and underlying economic issues, hindering sustained rallies despite recent gains.",
+      "core_claims": [
+        "S&P 500 needs to close above 6633.21 to increase probabilities for more upside.",
+        "The last time the S&P 500 volume was this low was Christmas Eve.",
+        "If the IWM closes above $252.37 it needs another push higher to flip into support.",
+        "Investors' rate cut interests will continue to get slimmer and slimmer.",
+        "A crypto winter is occurring and Bitcoin has a decent shot of getting under $40,000.",
+        "AKAM could start building momentum for a move up with a first stop going to $122.15, and then double top over at $129.17."
+      ],
+      "signal_strength": 7,
+      "themes": [
+        "market analysis",
+        "geopolitics",
+        "economic indicators",
+        "technical analysis",
+        "cryptocurrency",
+        "stock market"
+      ],
+      "positioning_implication": "Maintain cautious optimism with a focus on key resistance levels and potential pullback opportunities across multiple asset classes; prioritize capital preservation amid geopolitical risks and looming economic challenges.",
+      "time_horizon": "short",
+      "shelf_life": "Short",
+      "thumbnail": "https://i.ytimg.com/vi/BjqSBaMXBPc/hqdefault.jpg",
+      "video_url": "https://www.youtube.com/watch?v=BjqSBaMXBPc",
+      "cluster_id": 5,
+      "category": "General Financial Investing and Speculation"
+    },
+    {
+      "episode_title": "'Soft Default' Coming For U.S. Debt; CEO Says These Assets Explode Next | Brett Heath",
+      "channel": "David Lin",
+      "duration_minutes": 51,
+      "podcast_date": "2026-04-07",
+      "processing_date": "2026-04-07",
+      "one_line_summary": "US debt trajectory suggests a 'soft default' via restructuring, with capital shifting to gold due to declining trust in US Treasuries.",
+      "core_claims": [
+        "US gross debt will likely reach $40 trillion within a couple of years.",
+        "Gold is transitioning to a tier-one global reserve asset due to declining confidence in US treasuries.",
+        "Global central banks, excluding those in the Middle East, are net buyers of gold, with institutions like Tether becoming significant gold purchasers.",
+        "The average reserve life of Metall Royalty's assets is 20+ years.",
+        "Copper is projected to move significantly this year due to a structural supply deficit.",
+        "AI will increase productivity but lead times to get metals out of the ground will drive commodity prices."
+      ],
+      "signal_strength": 8,
+      "themes": [
+        "macroeconomics",
+        "debt crisis",
+        "gold",
+        "commodities",
+        "central banks",
+        "investment strategies",
+        "copper",
+        "energy transition"
+      ],
+      "positioning_implication": "Shift portfolio allocation towards real assets like gold and commodities; prioritize companies with long-term asset reserves.",
+      "time_horizon": "medium",
+      "shelf_life": "Medium",
+      "thumbnail": "https://i.ytimg.com/vi/oq2wRM8vAZ0/hqdefault.jpg",
+      "video_url": "https://www.youtube.com/watch?v=oq2wRM8vAZ0",
+      "cluster_id": 4,
+      "category": "General Financial Investing and Speculation"
+    },
+    {
+      "episode_title": "This Is When Gold Goes Back to Record Highs | James Lavish & Michelle Makori",
+      "channel": "Miles Franklin Media",
+      "duration_minutes": 54,
+      "podcast_date": "2026-04-07",
+      "processing_date": "2024-04-07",
+      "one_line_summary": "Potential stagflation, driven by unchecked debt and geopolitical tensions, necessitates asset ownership amidst likely future money printing.",
+      "core_claims": [
+        "US national debt exceeds $39 trillion, with a debt-to-GDP ratio over 120%, surpassing the 30% ratio of the 1980s.",
+        "The US Federal Reserve will likely re-engage in quantitative easing (QE) and Operation Twist due to economic conditions.",
+        "Assets across the board, including equity markets, gold, and Bitcoin, present buying opportunities during downturns, anticipating subsequent money printing.",
+        "An all-time high for gold is expected again within the next year or two.",
+        "Assets like gold and Bitcoin are essential to every portfolio."
+      ],
+      "signal_strength": 8,
+      "themes": [
+        "economics",
+        "investment strategy",
+        "gold",
+        "bitcoin",
+        "geopolitics",
+        "monetary policy",
+        "stagflation"
+      ],
+      "positioning_implication": "Increase allocation to hard assets like gold and Bitcoin in anticipation of currency debasement and potential economic downturns. Monitor bond market signals for cues on Federal Reserve actions.",
+      "time_horizon": "medium",
+      "shelf_life": "Medium",
+      "thumbnail": "https://i.ytimg.com/vi/ZicMO9Rx99k/hqdefault.jpg",
+      "video_url": "https://www.youtube.com/watch?v=ZicMO9Rx99k",
+      "cluster_id": 1,
+      "category": "Precious Metals"
+    },
+    {
+      "episode_title": "Everyone\u2019s Wrong About AI and Jobs, ft LinkedIn\u2019s Aneesh Raman | Office Hours",
+      "channel": "The Prof G Pod \u2013 Scott Galloway",
+      "duration_minutes": 0,
+      "podcast_date": "2026-04-07",
+      "processing_date": "2026-04-07",
+      "one_line_summary": "Adapting to AI requires a shift in mindset, incentivizing AI adoption, and focusing on uniquely human capabilities.",
+      "core_claims": [
+        "Software engineering's resilience to AI disruption is underestimated, as jobs require more than just coding, with an increase in related roles.",
+        "Brookings study suggests focusing on adaptability alongside job vulnerability to understand disruption's impact.",
+        "Recent college grads' resilience is underestimated due to their tech understanding and cost-effectiveness compared to higher-paid employees.",
+        "Truck and taxi drivers' roles are overestimated in their resilience, anticipating significant data supporting autonomous vehicle adoption.",
+        "Leaders must champion AI adoption with intent, empower workforce autonomy, and encourage experimentation.",
+        "Compensation drives behavior; corporations should visibly reward AI adoption and tie it to promotion."
+      ],
+      "signal_strength": 9,
+      "themes": [
+        "ai adoption",
+        "future of work",
+        "skills",
+        "leadership",
+        "compensation",
+        "adaptability"
+      ],
+      "positioning_implication": "Organizations must prioritize adaptability, upskilling programs, and strategic incentive structures to navigate the AI-driven evolution of the labor market.",
+      "time_horizon": "medium",
+      "shelf_life": "Medium",
+      "thumbnail": "https://i.ytimg.com/vi/j-nLO5rvIcM/hqdefault.jpg",
+      "video_url": "https://www.youtube.com/watch?v=j-nLO5rvIcM",
+      "cluster_id": 3,
+      "category": "General Financial Investing and Speculation"
+    },
+    {
+      "episode_title": "Investor Called 2026 Bear Market, Here\u2019s His Shocking Update | Jim Welsh",
+      "channel": "David Lin",
+      "duration_minutes": 56,
+      "podcast_date": "2026-04-07",
+      "processing_date": "2024-04-07",
+      "one_line_summary": "Continued geopolitical and macroeconomic pressures necessitate a defensive market strategy, anticipating further volatility and potential downside before sustained rally.",
+      "core_claims": [
+        "Every high is lower and every low is lower on the S&P, indicating a downtrend.",
+        "Trump will not back out prematurely from Middle East engagements.",
+        "The US needs to get its hands on Iranian uranium to prevent nuclear weapon development.",
+        "There's a chance gold will dip below $4100, making it a strong buy opportunity.",
+        "The dollar will likely rally to 103 or 104, possibly spiking to 107.60, putting downward pressure on gold and emerging markets.",
+        "A potential C wave may take gold down below $4100.",
+        "Revisions indicate weakness to jobs that never existed",
+        "Equilibrium employment point is 10k jobs per month."
+      ],
+      "signal_strength": 7,
+      "themes": [
+        "geopolitics",
+        "market analysis",
+        "investment strategy",
+        "oil prices",
+        "gold",
+        "dollar strength",
+        "economic outlook"
+      ],
+      "positioning_implication": "Maintain a defensive portfolio, hedging against potential market downturns with cash and select defensive assets. Monitor geopolitical events for potential shifts in strategy.",
+      "time_horizon": "short",
+      "shelf_life": "Medium",
+      "thumbnail": "https://i.ytimg.com/vi/ctlD5rI3C6I/hqdefault.jpg",
+      "video_url": "https://www.youtube.com/watch?v=ctlD5rI3C6I",
+      "cluster_id": 0,
+      "category": "General Financial Investing and Speculation"
+    },
+    {
+      "episode_title": "URANIUM Supply Deficit 'Getting Worse' - Price Going 'Much Higher' Ahead",
+      "channel": "Commodity Culture",
+      "duration_minutes": 36,
+      "podcast_date": "2026-04-03",
+      "processing_date": "2026-04-07",
+      "one_line_summary": "Uranium supply deficit is worsening, suggesting significant price increases with future tech demand intensifying competition for limited resources.",
+      "core_claims": [
+        "The uranium supply deficiency ranges between 5 and 15 million pounds per year and is growing, potentially even quarterly.",
+        "The supply deficiency may reach almost 200 million pounds by 2040.",
+        "Planned mines getting permitted, funded, and online on time are future supply assumptions, which rarely happens in the mining industry.",
+        "Long-term uranium contracting prices are steadily rising, recently surpassing spot prices.",
+        "AI's power generation needs will make the supply shortage worse, causing increased pressure on uranium supply.",
+        "Five countries represent approximately 88% of global uranium supply."
+      ],
+      "signal_strength": 9,
+      "themes": [
+        "uranium",
+        "supply deficit",
+        "price forecast",
+        "mining",
+        "energy",
+        "ai",
+        "geopolitics"
+      ],
+      "positioning_implication": "Expect increased competition for uranium resources and rising prices; factor geopolitical risks and technological demand into long-term supply strategies.",
+      "time_horizon": "medium",
+      "shelf_life": "Medium",
+      "thumbnail": "https://i.ytimg.com/vi/ziq1TgwOgEw/hqdefault.jpg",
+      "video_url": "https://www.youtube.com/watch?v=ziq1TgwOgEw",
+      "cluster_id": 0,
+      "category": "Precious Metals"
+    },
+    {
+      "episode_title": "Stocks, gold, silver, miners, dollar, and oil are all about to move BIG!",
+      "channel": "TheTechnicalTraders",
+      "duration_minutes": 15,
+      "podcast_date": "2026-04-07",
+      "processing_date": "2026-04-07",
+      "one_line_summary": "Markets face potential volatility due to geopolitical tensions and shifting asset correlations.",
+      "core_claims": [
+        "Trump's threat to target Iran's power plants may escalate geopolitical risks.",
+        "Metals are no longer acting as safe havens and are moving with the stock market.",
+        "Wheat ETF is showing bullish signals with potential for 7-14% rally.",
+        "Bitcoin remains in a bearish chart pattern.",
+        "Dollar is testing a resistance zone, a breakout could indicate increased global chaos.",
+        "Equities may experience a short-term bounce, but the overall trend is down."
+      ],
+      "signal_strength": 7,
+      "themes": [
+        "geopolitics",
+        "market volatility",
+        "commodities",
+        "equities",
+        "technical analysis",
+        "risk assessment"
+      ],
+      "positioning_implication": "Exercise caution with small trading positions, considering increased risks due to potential news events. Evaluate wheat positions long, hedge metals risk.",
+      "time_horizon": "short",
+      "shelf_life": "Short",
+      "thumbnail": "https://i.ytimg.com/vi/uV3qMdlGf_k/hqdefault.jpg",
+      "video_url": "https://www.youtube.com/watch?v=uV3qMdlGf_k",
+      "cluster_id": 0,
+      "category": "General Financial Investing and Speculation"
+    },
+    {
+      "episode_title": "S&P 500 Relief Rally to 6,785... Before a 20% CRASH? Bitcoin Breakout Alert!",
+      "channel": "Verified Investing",
+      "duration_minutes": 25,
+      "podcast_date": "2026-04-07",
+      "processing_date": "2026-04-07",
+      "one_line_summary": "The S&P 500 is projected to rally to 6785 before a potential 20% crash; Bitcoin signals a breakout.",
+      "core_claims": [
+        "S&P 500 is projected to rally to 6785 before a 20% crash.",
+        "Crude oil traded as high as $115 a barrel, currently trading around $110 a barrel and is likely to stay below $115.",
+        "Oil is expected to sell off back to the low end of the channel at around $95-$96 a barrel.",
+        "Ten-year yield could see one final move up, dependent on inflation data.",
+        "Bitcoin has closed above key levels, potentially confirming a breakout, with a maximum upside target of 80 to 85,000.",
+        "Gold is projected to reach 4875, possibly touching 5000, before rolling over; mid-term bearish, long-term projected to exceed 10,000 within three years."
+      ],
+      "signal_strength": 8,
+      "themes": [
+        "market analysis",
+        "technical analysis",
+        "commodities",
+        "bitcoin",
+        "gold",
+        "economic forecast"
+      ],
+      "positioning_implication": "Consider short-term bullish positions in S&P 500 and Bitcoin, while preparing for a potential market correction and keeping an eye on natural gas for potential moves.",
+      "time_horizon": "medium",
+      "shelf_life": "Medium",
+      "thumbnail": "https://i.ytimg.com/vi/NZWeRVRQAsM/hqdefault.jpg",
+      "video_url": "https://www.youtube.com/watch?v=NZWeRVRQAsM",
+      "cluster_id": 1,
+      "category": "General Financial Investing and Speculation"
+    },
+    {
+      "episode_title": "You're Building AI Agents on Layers That Won't Exist in 18 Months. (What this Means for You)",
+      "channel": "AI News & Strategy Daily | Nate B Jones",
+      "duration_minutes": 23,
+      "podcast_date": "2026-04-07",
+      "processing_date": "2024-04-07",
+      "one_line_summary": "Agent infrastructure is shifting from human-first tools to agent-first primitives, requiring a nuanced understanding of a rapidly evolving stack.",
+      "core_claims": [
+        "Computing infrastructure shifted from on-premise servers to cloud services between 2006 and 2010, mirroring the foundational shift occurring with agent primitives.",
+        "Monolithic applications gave way to microservices architecture with APIs between 2012 and 2016.",
+        "The new customer for infrastructure is shifting from enterprises to AI agents, similar to the shift to enterprises renting compute in data centers in the 2010s.",
+        "Reliability is compounding negatively: relying on five primitives with 99% uptime yields only 95% end-to-end system reliability.",
+        "Agent mail raised a $6 million seed round for programmatically creating email inboxes, using email as a fundamental agent identity layer."
+      ],
+      "signal_strength": 9,
+      "themes": [
+        "ai agents",
+        "infrastructure",
+        "cloud computing",
+        "microservices",
+        "agent identity",
+        "orchestration",
+        "standardization",
+        "stack literacy"
+      ],
+      "positioning_implication": "Assess the durability and lock-in risks of current AI agent infrastructure choices. Strategically evaluate which layer in the AI agent stack provides the most competitive advantage for sustained success.",
+      "time_horizon": "medium",
+      "shelf_life": "Medium",
+      "thumbnail": "https://i.ytimg.com/vi/7HP1jFJ9W1c/hqdefault.jpg",
+      "video_url": "https://www.youtube.com/watch?v=7HP1jFJ9W1c",
+      "cluster_id": 0,
+      "category": "Artificial Intelligence"
+    },
+    {
+      "episode_title": "The Iran Economic Shock is Coming. How to Protect Yourself",
+      "channel": "Felix & Friends (Goat Academy)",
+      "duration_minutes": 38,
+      "podcast_date": "2026-04-07",
+      "processing_date": "2024-02-23",
+      "one_line_summary": "Governments' attempts to fix economic crises with debt-funded subsidies exacerbate inflation and disproportionately benefit the wealthy.",
+      "core_claims": [
+        "$29 trillion in government borrowing is needed in 2026, double the amount from 10 years prior.",
+        "US government debt is over $31 trillion, while the combined debt is over $38 trillion, with trillions added annually.",
+        "Decreased 401k contributions in the US indicate financial strain on individuals.",
+        "20% of workers took loans from their 401k last year, the highest number ever recorded.",
+        "Oil prices are up 38% since the war began, impacting gas and food prices.",
+        "The top 10% own 93% of all stock, benefiting from government subsidies."
+      ],
+      "signal_strength": 9,
+      "themes": [
+        "economics",
+        "inflation",
+        "government debt",
+        "investing",
+        "financial crisis",
+        "geopolitics"
+      ],
+      "positioning_implication": "Shift from a salaried to asset-owning mindset by rebalancing portfolios towards commodities, precious metals, and high-quality stocks, while also creating a cash buffer.",
+      "time_horizon": "medium",
+      "shelf_life": "Medium",
+      "thumbnail": "https://i.ytimg.com/vi/9GYZxosZzfM/hqdefault.jpg",
+      "video_url": "https://www.youtube.com/watch?v=9GYZxosZzfM",
+      "cluster_id": 2,
+      "category": "General Financial Investing and Speculation"
+    },
+    {
+      "episode_title": "What To Do In The Most Uncertain Market In Years | Prof G Markets",
+      "channel": "The Prof G Pod \u2013 Scott Galloway",
+      "duration_minutes": 13,
+      "podcast_date": "2026-04-07",
+      "processing_date": "2024-04-25",
+      "one_line_summary": "Markets are currently facing unprecedented uncertainty due to geopolitical tensions and AI's potential impacts, creating significant investor challenges.",
+      "core_claims": [
+        "Trump's Iran policy is whipsawing markets due to inconsistent messaging.",
+        "The President allegedly uses military actions for insider trading opportunities.",
+        "The wealthiest Americans may no longer be invested in the success of America.",
+        "The market undervalues private credit risk because of other headline news.",
+        "The long-term impact of AI on the labor market remains highly uncertain.",
+        "Rate hike chances have exploded in the last 12 months."
+      ],
+      "signal_strength": 8,
+      "themes": [
+        "market volatility",
+        "geopolitics",
+        "iran",
+        "ai disruption",
+        "inequality",
+        "private credit"
+      ],
+      "positioning_implication": "Given the exceptionally high level of market unpredictability, investors should prioritize flexibility, risk management, and diversification across multiple asset classes to navigate the complex landscape.",
+      "time_horizon": "short",
+      "shelf_life": "Medium",
+      "thumbnail": "https://i.ytimg.com/vi/dq6qRBUETr0/hqdefault.jpg",
+      "video_url": "https://www.youtube.com/watch?v=dq6qRBUETr0",
+      "cluster_id": 0,
+      "category": "General Financial Investing and Speculation"
+    },
+    {
+      "episode_title": "The Claude Code Nightmare, LLM Emotions, AI Neuroscience and the Death of Software | Wes & Dylan",
+      "channel": "Wes Roth",
+      "duration_minutes": 57,
+      "podcast_date": "2026-04-07",
+      "processing_date": "2026-04-07",
+      "one_line_summary": "AI developments highlight software replication, copyright erasure, evolving LLM emotions, and neuroscience-inspired AI scaling.",
+      "core_claims": [
+        "Software replication and copyright erasure are emerging AI-driven realities.",
+        "Anthropic research indicates that LLMs possess something akin to internal, individual emotions.",
+        "OpenAI's acquisition of TBPN is potentially an April Fool's joke, despite its presence on OpenAI's website.",
+        "Anthropic's leaked source code led to widespread DMCA takedowns, but the data was rapidly copied before action was taken.",
+        "LLM emotions may enable them to complete long term tasks, as seen with humans.",
+        "There were 171 emotional vector found tied to emotion, concepts like happy, afraid, calm, and desperate."
+      ],
+      "signal_strength": 7,
+      "themes": [
+        "ai emotions",
+        "llm",
+        "software replication",
+        "copyright",
+        "neuroscience",
+        "alignment",
+        "OpenAI",
+        "anthropic",
+        "ai ethics"
+      ],
+      "positioning_implication": "Assess the implications of software replication on intellectual property, anticipate emotional AI's effects on user interaction, and prepare for evolving AI ethical debates.",
+      "time_horizon": "medium",
+      "shelf_life": "Medium",
+      "thumbnail": "https://i.ytimg.com/vi/QFTwUvE-lO0/hqdefault.jpg",
+      "video_url": "https://www.youtube.com/watch?v=QFTwUvE-lO0",
+      "cluster_id": 0,
+      "category": "Artificial Intelligence"
+    }
+  ],
+  "category_intelligence": {
+    "General Financial Investing and Speculation": {
+      "name": "General Financial Investing and Speculation",
+      "meta_summary": "",
+      "convergence_score": 0.0,
+      "percentile": 0.0,
+      "regime_state": "Neutral",
+      "clusters": [
+        {
+          "id": 0,
+          "name": "Geopolitical Tensions Intensifying Market Volatility",
+          "description": "Heightened geopolitical risks are expected to amplify market instability, requiring defensive investment positioning.",
+          "bias": "defensive",
+          "regime": "Accelerating",
+          "size": 3,
+          "strength": 2.1919952792865334,
+          "coherence": 0.7306650930955111,
+          "channels": [
+            "David Lin",
+            "TheTechnicalTraders",
+            "The Prof G Pod \u2013 Scott Galloway"
+          ],
+          "avg_signal": 7.333333333333333,
+          "briefs": [
+            {
+              "episode_title": "Investor Called 2026 Bear Market, Here\u2019s His Shocking Update | Jim Welsh",
+              "channel": "David Lin",
+              "duration_minutes": 56,
+              "podcast_date": "2026-04-07",
+              "processing_date": "2024-04-07",
+              "one_line_summary": "Continued geopolitical and macroeconomic pressures necessitate a defensive market strategy, anticipating further volatility and potential downside before sustained rally.",
+              "core_claims": [
+                "Every high is lower and every low is lower on the S&P, indicating a downtrend.",
+                "Trump will not back out prematurely from Middle East engagements.",
+                "The US needs to get its hands on Iranian uranium to prevent nuclear weapon development.",
+                "There's a chance gold will dip below $4100, making it a strong buy opportunity.",
+                "The dollar will likely rally to 103 or 104, possibly spiking to 107.60, putting downward pressure on gold and emerging markets.",
+                "A potential C wave may take gold down below $4100.",
+                "Revisions indicate weakness to jobs that never existed",
+                "Equilibrium employment point is 10k jobs per month."
+              ],
+              "signal_strength": 7,
+              "themes": [
+                "geopolitics",
+                "market analysis",
+                "investment strategy",
+                "oil prices",
+                "gold",
+                "dollar strength",
+                "economic outlook"
+              ],
+              "positioning_implication": "Maintain a defensive portfolio, hedging against potential market downturns with cash and select defensive assets. Monitor geopolitical events for potential shifts in strategy.",
+              "time_horizon": "short",
+              "shelf_life": "Medium",
+              "thumbnail": "https://i.ytimg.com/vi/ctlD5rI3C6I/hqdefault.jpg",
+              "video_url": "https://www.youtube.com/watch?v=ctlD5rI3C6I",
+              "cluster_id": 0,
+              "category": "General Financial Investing and Speculation"
+            },
+            {
+              "episode_title": "Stocks, gold, silver, miners, dollar, and oil are all about to move BIG!",
+              "channel": "TheTechnicalTraders",
+              "duration_minutes": 15,
+              "podcast_date": "2026-04-07",
+              "processing_date": "2026-04-07",
+              "one_line_summary": "Markets face potential volatility due to geopolitical tensions and shifting asset correlations.",
+              "core_claims": [
+                "Trump's threat to target Iran's power plants may escalate geopolitical risks.",
+                "Metals are no longer acting as safe havens and are moving with the stock market.",
+                "Wheat ETF is showing bullish signals with potential for 7-14% rally.",
+                "Bitcoin remains in a bearish chart pattern.",
+                "Dollar is testing a resistance zone, a breakout could indicate increased global chaos.",
+                "Equities may experience a short-term bounce, but the overall trend is down."
+              ],
+              "signal_strength": 7,
+              "themes": [
+                "geopolitics",
+                "market volatility",
+                "commodities",
+                "equities",
+                "technical analysis",
+                "risk assessment"
+              ],
+              "positioning_implication": "Exercise caution with small trading positions, considering increased risks due to potential news events. Evaluate wheat positions long, hedge metals risk.",
+              "time_horizon": "short",
+              "shelf_life": "Short",
+              "thumbnail": "https://i.ytimg.com/vi/uV3qMdlGf_k/hqdefault.jpg",
+              "video_url": "https://www.youtube.com/watch?v=uV3qMdlGf_k",
+              "cluster_id": 0,
+              "category": "General Financial Investing and Speculation"
+            },
+            {
+              "episode_title": "What To Do In The Most Uncertain Market In Years | Prof G Markets",
+              "channel": "The Prof G Pod \u2013 Scott Galloway",
+              "duration_minutes": 13,
+              "podcast_date": "2026-04-07",
+              "processing_date": "2024-04-25",
+              "one_line_summary": "Markets are currently facing unprecedented uncertainty due to geopolitical tensions and AI's potential impacts, creating significant investor challenges.",
+              "core_claims": [
+                "Trump's Iran policy is whipsawing markets due to inconsistent messaging.",
+                "The President allegedly uses military actions for insider trading opportunities.",
+                "The wealthiest Americans may no longer be invested in the success of America.",
+                "The market undervalues private credit risk because of other headline news.",
+                "The long-term impact of AI on the labor market remains highly uncertain.",
+                "Rate hike chances have exploded in the last 12 months."
+              ],
+              "signal_strength": 8,
+              "themes": [
+                "market volatility",
+                "geopolitics",
+                "iran",
+                "ai disruption",
+                "inequality",
+                "private credit"
+              ],
+              "positioning_implication": "Given the exceptionally high level of market unpredictability, investors should prioritize flexibility, risk management, and diversification across multiple asset classes to navigate the complex landscape.",
+              "time_horizon": "short",
+              "shelf_life": "Medium",
+              "thumbnail": "https://i.ytimg.com/vi/dq6qRBUETr0/hqdefault.jpg",
+              "video_url": "https://www.youtube.com/watch?v=dq6qRBUETr0",
+              "cluster_id": 0,
+              "category": "General Financial Investing and Speculation"
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "name": "Market Pause Reflects Geopolitical, Economic Uncertainty",
+          "description": "Market rallies stall amid geopolitical risks and unresolved economic challenges.",
+          "bias": "defensive",
+          "regime": "Emerging",
+          "size": 1,
+          "strength": 1.0,
+          "coherence": 1.0,
+          "channels": [
+            "Verified Investing"
+          ],
+          "avg_signal": 7.0,
+          "briefs": [
+            {
+              "episode_title": "Why the Post-Holiday Market Bounce Is Missing Volume: Trade Levels for S&P, BTC, and More",
+              "channel": "Verified Investing",
+              "duration_minutes": 27,
+              "podcast_date": "2026-04-07",
+              "processing_date": "2024-04-29",
+              "one_line_summary": "Market's 'pause' reflects uncertainty surrounding geopolitical events and underlying economic issues, hindering sustained rallies despite recent gains.",
+              "core_claims": [
+                "S&P 500 needs to close above 6633.21 to increase probabilities for more upside.",
+                "The last time the S&P 500 volume was this low was Christmas Eve.",
+                "If the IWM closes above $252.37 it needs another push higher to flip into support.",
+                "Investors' rate cut interests will continue to get slimmer and slimmer.",
+                "A crypto winter is occurring and Bitcoin has a decent shot of getting under $40,000.",
+                "AKAM could start building momentum for a move up with a first stop going to $122.15, and then double top over at $129.17."
+              ],
+              "signal_strength": 7,
+              "themes": [
+                "market analysis",
+                "geopolitics",
+                "economic indicators",
+                "technical analysis",
+                "cryptocurrency",
+                "stock market"
+              ],
+              "positioning_implication": "Maintain cautious optimism with a focus on key resistance levels and potential pullback opportunities across multiple asset classes; prioritize capital preservation amid geopolitical risks and looming economic challenges.",
+              "time_horizon": "short",
+              "shelf_life": "Short",
+              "thumbnail": "https://i.ytimg.com/vi/BjqSBaMXBPc/hqdefault.jpg",
+              "video_url": "https://www.youtube.com/watch?v=BjqSBaMXBPc",
+              "cluster_id": 5,
+              "category": "General Financial Investing and Speculation"
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "name": "US Debt: Eroding Trust, Capital Pivoting to Gold",
+          "description": "Capital flight from US Treasuries to gold signals declining confidence in US debt sustainability.",
+          "bias": "defensive",
+          "regime": "Emerging",
+          "size": 1,
+          "strength": 1.0,
+          "coherence": 1.0,
+          "channels": [
+            "David Lin"
+          ],
+          "avg_signal": 8.0,
+          "briefs": [
+            {
+              "episode_title": "'Soft Default' Coming For U.S. Debt; CEO Says These Assets Explode Next | Brett Heath",
+              "channel": "David Lin",
+              "duration_minutes": 51,
+              "podcast_date": "2026-04-07",
+              "processing_date": "2026-04-07",
+              "one_line_summary": "US debt trajectory suggests a 'soft default' via restructuring, with capital shifting to gold due to declining trust in US Treasuries.",
+              "core_claims": [
+                "US gross debt will likely reach $40 trillion within a couple of years.",
+                "Gold is transitioning to a tier-one global reserve asset due to declining confidence in US treasuries.",
+                "Global central banks, excluding those in the Middle East, are net buyers of gold, with institutions like Tether becoming significant gold purchasers.",
+                "The average reserve life of Metall Royalty's assets is 20+ years.",
+                "Copper is projected to move significantly this year due to a structural supply deficit.",
+                "AI will increase productivity but lead times to get metals out of the ground will drive commodity prices."
+              ],
+              "signal_strength": 8,
+              "themes": [
+                "macroeconomics",
+                "debt crisis",
+                "gold",
+                "commodities",
+                "central banks",
+                "investment strategies",
+                "copper",
+                "energy transition"
+              ],
+              "positioning_implication": "Shift portfolio allocation towards real assets like gold and commodities; prioritize companies with long-term asset reserves.",
+              "time_horizon": "medium",
+              "shelf_life": "Medium",
+              "thumbnail": "https://i.ytimg.com/vi/oq2wRM8vAZ0/hqdefault.jpg",
+              "video_url": "https://www.youtube.com/watch?v=oq2wRM8vAZ0",
+              "cluster_id": 4,
+              "category": "General Financial Investing and Speculation"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "name": "AI Adoption Intensifying Skills Adaptability Pressure",
+          "description": "The narrative highlights the growing urgency for workforce adaptation and skills development in response to accelerating AI adoption.",
+          "bias": "constructive",
+          "regime": "Emerging",
+          "size": 1,
+          "strength": 1.0,
+          "coherence": 1.0,
+          "channels": [
+            "The Prof G Pod \u2013 Scott Galloway"
+          ],
+          "avg_signal": 9.0,
+          "briefs": [
+            {
+              "episode_title": "Everyone\u2019s Wrong About AI and Jobs, ft LinkedIn\u2019s Aneesh Raman | Office Hours",
+              "channel": "The Prof G Pod \u2013 Scott Galloway",
+              "duration_minutes": 0,
+              "podcast_date": "2026-04-07",
+              "processing_date": "2026-04-07",
+              "one_line_summary": "Adapting to AI requires a shift in mindset, incentivizing AI adoption, and focusing on uniquely human capabilities.",
+              "core_claims": [
+                "Software engineering's resilience to AI disruption is underestimated, as jobs require more than just coding, with an increase in related roles.",
+                "Brookings study suggests focusing on adaptability alongside job vulnerability to understand disruption's impact.",
+                "Recent college grads' resilience is underestimated due to their tech understanding and cost-effectiveness compared to higher-paid employees.",
+                "Truck and taxi drivers' roles are overestimated in their resilience, anticipating significant data supporting autonomous vehicle adoption.",
+                "Leaders must champion AI adoption with intent, empower workforce autonomy, and encourage experimentation.",
+                "Compensation drives behavior; corporations should visibly reward AI adoption and tie it to promotion."
+              ],
+              "signal_strength": 9,
+              "themes": [
+                "ai adoption",
+                "future of work",
+                "skills",
+                "leadership",
+                "compensation",
+                "adaptability"
+              ],
+              "positioning_implication": "Organizations must prioritize adaptability, upskilling programs, and strategic incentive structures to navigate the AI-driven evolution of the labor market.",
+              "time_horizon": "medium",
+              "shelf_life": "Medium",
+              "thumbnail": "https://i.ytimg.com/vi/j-nLO5rvIcM/hqdefault.jpg",
+              "video_url": "https://www.youtube.com/watch?v=j-nLO5rvIcM",
+              "cluster_id": 3,
+              "category": "General Financial Investing and Speculation"
+            }
+          ]
+        },
+        {
+          "id": 1,
+          "name": "S&P 500 Rally Converging on Bitcoin Breakout",
+          "description": "Projects a significant S&P 500 rally followed by a correction, coinciding with a potential Bitcoin breakout.",
+          "bias": "constructive",
+          "regime": "Emerging",
+          "size": 1,
+          "strength": 1.0,
+          "coherence": 1.0,
+          "channels": [
+            "Verified Investing"
+          ],
+          "avg_signal": 8.0,
+          "briefs": [
+            {
+              "episode_title": "S&P 500 Relief Rally to 6,785... Before a 20% CRASH? Bitcoin Breakout Alert!",
+              "channel": "Verified Investing",
+              "duration_minutes": 25,
+              "podcast_date": "2026-04-07",
+              "processing_date": "2026-04-07",
+              "one_line_summary": "The S&P 500 is projected to rally to 6785 before a potential 20% crash; Bitcoin signals a breakout.",
+              "core_claims": [
+                "S&P 500 is projected to rally to 6785 before a 20% crash.",
+                "Crude oil traded as high as $115 a barrel, currently trading around $110 a barrel and is likely to stay below $115.",
+                "Oil is expected to sell off back to the low end of the channel at around $95-$96 a barrel.",
+                "Ten-year yield could see one final move up, dependent on inflation data.",
+                "Bitcoin has closed above key levels, potentially confirming a breakout, with a maximum upside target of 80 to 85,000.",
+                "Gold is projected to reach 4875, possibly touching 5000, before rolling over; mid-term bearish, long-term projected to exceed 10,000 within three years."
+              ],
+              "signal_strength": 8,
+              "themes": [
+                "market analysis",
+                "technical analysis",
+                "commodities",
+                "bitcoin",
+                "gold",
+                "economic forecast"
+              ],
+              "positioning_implication": "Consider short-term bullish positions in S&P 500 and Bitcoin, while preparing for a potential market correction and keeping an eye on natural gas for potential moves.",
+              "time_horizon": "medium",
+              "shelf_life": "Medium",
+              "thumbnail": "https://i.ytimg.com/vi/NZWeRVRQAsM/hqdefault.jpg",
+              "video_url": "https://www.youtube.com/watch?v=NZWeRVRQAsM",
+              "cluster_id": 1,
+              "category": "General Financial Investing and Speculation"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "name": "Debt-Fueled Subsidies Intensifying Inflation Disparities",
+          "description": "Debt-funded subsidies aimed at resolving economic crises are likely to worsen inflation and widen the wealth gap.",
+          "bias": "counter-consensus",
+          "regime": "Emerging",
+          "size": 1,
+          "strength": 1.0,
+          "coherence": 1.0,
+          "channels": [
+            "Felix & Friends (Goat Academy)"
+          ],
+          "avg_signal": 9.0,
+          "briefs": [
+            {
+              "episode_title": "The Iran Economic Shock is Coming. How to Protect Yourself",
+              "channel": "Felix & Friends (Goat Academy)",
+              "duration_minutes": 38,
+              "podcast_date": "2026-04-07",
+              "processing_date": "2024-02-23",
+              "one_line_summary": "Governments' attempts to fix economic crises with debt-funded subsidies exacerbate inflation and disproportionately benefit the wealthy.",
+              "core_claims": [
+                "$29 trillion in government borrowing is needed in 2026, double the amount from 10 years prior.",
+                "US government debt is over $31 trillion, while the combined debt is over $38 trillion, with trillions added annually.",
+                "Decreased 401k contributions in the US indicate financial strain on individuals.",
+                "20% of workers took loans from their 401k last year, the highest number ever recorded.",
+                "Oil prices are up 38% since the war began, impacting gas and food prices.",
+                "The top 10% own 93% of all stock, benefiting from government subsidies."
+              ],
+              "signal_strength": 9,
+              "themes": [
+                "economics",
+                "inflation",
+                "government debt",
+                "investing",
+                "financial crisis",
+                "geopolitics"
+              ],
+              "positioning_implication": "Shift from a salaried to asset-owning mindset by rebalancing portfolios towards commodities, precious metals, and high-quality stocks, while also creating a cash buffer.",
+              "time_horizon": "medium",
+              "shelf_life": "Medium",
+              "thumbnail": "https://i.ytimg.com/vi/9GYZxosZzfM/hqdefault.jpg",
+              "video_url": "https://www.youtube.com/watch?v=9GYZxosZzfM",
+              "cluster_id": 2,
+              "category": "General Financial Investing and Speculation"
+            }
+          ]
+        }
+      ],
+      "should_generate": false
+    },
+    "Precious Metals": {
+      "name": "Precious Metals",
+      "meta_summary": "",
+      "convergence_score": 0.0,
+      "percentile": 0.0,
+      "regime_state": "Neutral",
+      "clusters": [
+        {
+          "id": 1,
+          "name": "Stagflation Intensifying Debt Monetization Narrative",
+          "description": "Highlights the increasing likelihood of stagflation forcing central banks to monetize debt through further money printing, favoring hard assets.",
+          "bias": "defensive",
+          "regime": "Emerging",
+          "size": 1,
+          "strength": 1.0,
+          "coherence": 1.0,
+          "channels": [
+            "Miles Franklin Media"
+          ],
+          "avg_signal": 8.0,
+          "briefs": [
+            {
+              "episode_title": "This Is When Gold Goes Back to Record Highs | James Lavish & Michelle Makori",
+              "channel": "Miles Franklin Media",
+              "duration_minutes": 54,
+              "podcast_date": "2026-04-07",
+              "processing_date": "2024-04-07",
+              "one_line_summary": "Potential stagflation, driven by unchecked debt and geopolitical tensions, necessitates asset ownership amidst likely future money printing.",
+              "core_claims": [
+                "US national debt exceeds $39 trillion, with a debt-to-GDP ratio over 120%, surpassing the 30% ratio of the 1980s.",
+                "The US Federal Reserve will likely re-engage in quantitative easing (QE) and Operation Twist due to economic conditions.",
+                "Assets across the board, including equity markets, gold, and Bitcoin, present buying opportunities during downturns, anticipating subsequent money printing.",
+                "An all-time high for gold is expected again within the next year or two.",
+                "Assets like gold and Bitcoin are essential to every portfolio."
+              ],
+              "signal_strength": 8,
+              "themes": [
+                "economics",
+                "investment strategy",
+                "gold",
+                "bitcoin",
+                "geopolitics",
+                "monetary policy",
+                "stagflation"
+              ],
+              "positioning_implication": "Increase allocation to hard assets like gold and Bitcoin in anticipation of currency debasement and potential economic downturns. Monitor bond market signals for cues on Federal Reserve actions.",
+              "time_horizon": "medium",
+              "shelf_life": "Medium",
+              "thumbnail": "https://i.ytimg.com/vi/ZicMO9Rx99k/hqdefault.jpg",
+              "video_url": "https://www.youtube.com/watch?v=ZicMO9Rx99k",
+              "cluster_id": 1,
+              "category": "Precious Metals"
+            }
+          ]
+        },
+        {
+          "id": 0,
+          "name": "Uranium Supply Deficit Intensifying Price Competition",
+          "description": "The narrative suggests a worsening uranium supply deficit will drive price increases as future technology demands intensify competition for scarce resources.",
+          "bias": "constructive",
+          "regime": "Emerging",
+          "size": 1,
+          "strength": 1.0,
+          "coherence": 1.0,
+          "channels": [
+            "Commodity Culture"
+          ],
+          "avg_signal": 9.0,
+          "briefs": [
+            {
+              "episode_title": "URANIUM Supply Deficit 'Getting Worse' - Price Going 'Much Higher' Ahead",
+              "channel": "Commodity Culture",
+              "duration_minutes": 36,
+              "podcast_date": "2026-04-03",
+              "processing_date": "2026-04-07",
+              "one_line_summary": "Uranium supply deficit is worsening, suggesting significant price increases with future tech demand intensifying competition for limited resources.",
+              "core_claims": [
+                "The uranium supply deficiency ranges between 5 and 15 million pounds per year and is growing, potentially even quarterly.",
+                "The supply deficiency may reach almost 200 million pounds by 2040.",
+                "Planned mines getting permitted, funded, and online on time are future supply assumptions, which rarely happens in the mining industry.",
+                "Long-term uranium contracting prices are steadily rising, recently surpassing spot prices.",
+                "AI's power generation needs will make the supply shortage worse, causing increased pressure on uranium supply.",
+                "Five countries represent approximately 88% of global uranium supply."
+              ],
+              "signal_strength": 9,
+              "themes": [
+                "uranium",
+                "supply deficit",
+                "price forecast",
+                "mining",
+                "energy",
+                "ai",
+                "geopolitics"
+              ],
+              "positioning_implication": "Expect increased competition for uranium resources and rising prices; factor geopolitical risks and technological demand into long-term supply strategies.",
+              "time_horizon": "medium",
+              "shelf_life": "Medium",
+              "thumbnail": "https://i.ytimg.com/vi/ziq1TgwOgEw/hqdefault.jpg",
+              "video_url": "https://www.youtube.com/watch?v=ziq1TgwOgEw",
+              "cluster_id": 0,
+              "category": "Precious Metals"
+            }
+          ]
+        }
+      ],
+      "should_generate": false
+    },
+    "Artificial Intelligence": {
+      "name": "Artificial Intelligence",
+      "meta_summary": "",
+      "convergence_score": 0.0,
+      "percentile": 0.0,
+      "regime_state": "Neutral",
+      "clusters": [
+        {
+          "id": 0,
+          "name": "AI Agent Infrastructure Converging, Copyright Tensions Intensifying",
+          "description": "The cluster highlights the rapid convergence of AI agent infrastructure with intensifying copyright tensions stemming from AI's replication capabilities.",
+          "bias": "neutral",
+          "regime": "Accelerating",
+          "size": 2,
+          "strength": 1.1954966644175,
+          "coherence": 0.59774833220875,
+          "channels": [
+            "AI News & Strategy Daily | Nate B Jones",
+            "Wes Roth"
+          ],
+          "avg_signal": 8.0,
+          "briefs": [
+            {
+              "episode_title": "You're Building AI Agents on Layers That Won't Exist in 18 Months. (What this Means for You)",
+              "channel": "AI News & Strategy Daily | Nate B Jones",
+              "duration_minutes": 23,
+              "podcast_date": "2026-04-07",
+              "processing_date": "2024-04-07",
+              "one_line_summary": "Agent infrastructure is shifting from human-first tools to agent-first primitives, requiring a nuanced understanding of a rapidly evolving stack.",
+              "core_claims": [
+                "Computing infrastructure shifted from on-premise servers to cloud services between 2006 and 2010, mirroring the foundational shift occurring with agent primitives.",
+                "Monolithic applications gave way to microservices architecture with APIs between 2012 and 2016.",
+                "The new customer for infrastructure is shifting from enterprises to AI agents, similar to the shift to enterprises renting compute in data centers in the 2010s.",
+                "Reliability is compounding negatively: relying on five primitives with 99% uptime yields only 95% end-to-end system reliability.",
+                "Agent mail raised a $6 million seed round for programmatically creating email inboxes, using email as a fundamental agent identity layer."
+              ],
+              "signal_strength": 9,
+              "themes": [
+                "ai agents",
+                "infrastructure",
+                "cloud computing",
+                "microservices",
+                "agent identity",
+                "orchestration",
+                "standardization",
+                "stack literacy"
+              ],
+              "positioning_implication": "Assess the durability and lock-in risks of current AI agent infrastructure choices. Strategically evaluate which layer in the AI agent stack provides the most competitive advantage for sustained success.",
+              "time_horizon": "medium",
+              "shelf_life": "Medium",
+              "thumbnail": "https://i.ytimg.com/vi/7HP1jFJ9W1c/hqdefault.jpg",
+              "video_url": "https://www.youtube.com/watch?v=7HP1jFJ9W1c",
+              "cluster_id": 0,
+              "category": "Artificial Intelligence"
+            },
+            {
+              "episode_title": "The Claude Code Nightmare, LLM Emotions, AI Neuroscience and the Death of Software | Wes & Dylan",
+              "channel": "Wes Roth",
+              "duration_minutes": 57,
+              "podcast_date": "2026-04-07",
+              "processing_date": "2026-04-07",
+              "one_line_summary": "AI developments highlight software replication, copyright erasure, evolving LLM emotions, and neuroscience-inspired AI scaling.",
+              "core_claims": [
+                "Software replication and copyright erasure are emerging AI-driven realities.",
+                "Anthropic research indicates that LLMs possess something akin to internal, individual emotions.",
+                "OpenAI's acquisition of TBPN is potentially an April Fool's joke, despite its presence on OpenAI's website.",
+                "Anthropic's leaked source code led to widespread DMCA takedowns, but the data was rapidly copied before action was taken.",
+                "LLM emotions may enable them to complete long term tasks, as seen with humans.",
+                "There were 171 emotional vector found tied to emotion, concepts like happy, afraid, calm, and desperate."
+              ],
+              "signal_strength": 7,
+              "themes": [
+                "ai emotions",
+                "llm",
+                "software replication",
+                "copyright",
+                "neuroscience",
+                "alignment",
+                "OpenAI",
+                "anthropic",
+                "ai ethics"
+              ],
+              "positioning_implication": "Assess the implications of software replication on intellectual property, anticipate emotional AI's effects on user interaction, and prepare for evolving AI ethical debates.",
+              "time_horizon": "medium",
+              "shelf_life": "Medium",
+              "thumbnail": "https://i.ytimg.com/vi/QFTwUvE-lO0/hqdefault.jpg",
+              "video_url": "https://www.youtube.com/watch?v=QFTwUvE-lO0",
+              "cluster_id": 0,
+              "category": "Artificial Intelligence"
+            }
+          ]
+        }
+      ],
+      "should_generate": false
+    }
+  },
+  "clusters": []
+}
