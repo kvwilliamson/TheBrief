@@ -4276,3 +4276,155 @@
 2026-04-07 06:54:36,871 - INFO - ==================================================
 2026-04-07 06:54:36,871 - INFO - Pipeline Execution Complete
 2026-04-07 06:54:36,871 - INFO - ==================================================
+2026-04-08 06:48:02,212 - INFO - ==================================================
+2026-04-08 06:48:02,212 - INFO - Starting TheBrief Daily Pipeline
+2026-04-08 06:48:02,212 - INFO - ==================================================
+2026-04-08 06:48:02,213 - INFO - 
+--- Phase 1: Discovery ---
+2026-04-08 06:48:02,217 - INFO - Discovering videos published after 2026-04-07T06:48:02.217878+00:00 (24h lookback)
+2026-04-08 06:48:02,590 - INFO - Found 1 new potential videos on Wall Street Bullion .
+2026-04-08 06:48:02,793 - INFO - Found 1 new potential videos on GoldSilver .
+2026-04-08 06:48:02,856 - INFO - Found 2 new potential videos on AI News & Strategy Daily | Nate B Jones.
+2026-04-08 06:48:03,090 - INFO - Found 1 new potential videos on David Lin .
+2026-04-08 06:48:03,099 - INFO - Found 1 new potential videos on Kitco NEWS.
+2026-04-08 06:48:03,113 - INFO - Found 1 new potential videos on Clive Thompson.
+2026-04-08 06:48:03,289 - INFO - Found 2 new potential videos on TheTechnicalTraders.
+2026-04-08 06:48:03,368 - INFO - Found 1 new potential videos on Felix & Friends (Goat Academy).
+2026-04-08 06:48:03,537 - INFO - Found 2 new potential videos on Miles Franklin Media.
+2026-04-08 06:48:03,621 - INFO - Found 1 new potential videos on Adam Taggart | Thoughtful Money®.
+2026-04-08 06:48:03,649 - INFO - Found 5 new potential videos on Verified Investing.
+2026-04-08 06:48:03,671 - INFO - Found 1 new potential videos on CPM Group.
+2026-04-08 06:48:03,690 - INFO - Found 1 new potential videos on Commodity Culture.
+2026-04-08 06:48:03,820 - INFO - Found 3 new potential videos on Matthew Berman.
+2026-04-08 06:48:03,972 - INFO - Found 3 new potential videos on The Prof G Pod – Scott Galloway.
+2026-04-08 06:48:03,974 - INFO - Found 1 new potential videos on Wes Roth.
+2026-04-08 06:48:04,178 - INFO - Found 19 total long-form videos across all channels.
+2026-04-08 06:48:04,193 - INFO - Discovery complete. Added 19 new videos to queue.
+2026-04-08 06:48:04,193 - INFO - 
+--- Phase 2: Extraction ---
+2026-04-08 06:48:04,445 - INFO - yt-dlp version: 2026.03.17
+2026-04-08 06:48:04,789 - INFO - POT-related packages: bgutil-ytdlp-pot-provider 1.3.1
+2026-04-08 06:48:04,812 - INFO - bgutil HTTP server not available on port 4416 (will rely on cookies)
+2026-04-08 06:48:04,812 - INFO - Extracting audio for Claude just BROKE the ENTIRE INDUSTRY... (o-C4CLSthDo)...
+2026-04-08 06:48:19,440 - INFO - Successfully extracted: audio/o-C4CLSthDo.mp3
+2026-04-08 06:48:30,712 - INFO - Extracting audio for Anthropic banned OpenClaw... (a4hdPWSUzsE)...
+2026-04-08 06:48:42,320 - INFO - Successfully extracted: audio/a4hdPWSUzsE.mp3
+2026-04-08 06:48:48,141 - INFO - Extracting audio for This Could Be the Start of the Petroyuan (oGN9JnkW_ns)...
+2026-04-08 06:49:00,034 - INFO - Successfully extracted: audio/oGN9JnkW_ns.mp3
+2026-04-08 06:49:11,498 - INFO - Extracting audio for 'Violent' Move Coming As Iran Deadline Hits | Robert Gottlieb (TD5u7Ng_cWA)...
+2026-04-08 06:49:33,153 - INFO - Successfully extracted: audio/TD5u7Ng_cWA.mp3
+2026-04-08 06:49:40,874 - INFO - Extracting audio for FINAL WARNING! ⏳ Markets Freeze Before Tonight’s Geopolitical Deadline (I6kZphdWqxU)...
+2026-04-08 06:49:57,128 - INFO - Successfully extracted: audio/I6kZphdWqxU.mp3
+2026-04-08 06:50:09,061 - INFO - Extracting audio for How to Accurately Think About The Silver Market (Many Investors Don’t) (v1RBAy0CLpA)...
+2026-04-08 06:50:27,694 - INFO - Successfully extracted: audio/v1RBAy0CLpA.mp3
+2026-04-08 06:50:35,002 - INFO - Extracting audio for THIS IS BIG: Silver Prices To SKYROCKET AGAIN! (KY4w2WzBhBg)...
+2026-04-08 06:50:49,241 - INFO - Successfully extracted: audio/KY4w2WzBhBg.mp3
+2026-04-08 06:50:54,721 - INFO - Extracting audio for Oil Hits Resistance: Day Trade Setups in Apple, Tesla & Oracle (a-15VP9VGS4)...
+2026-04-08 06:51:04,749 - INFO - Successfully extracted: audio/a-15VP9VGS4.mp3
+2026-04-08 06:51:11,190 - INFO - Extracting audio for SILVER To New Highs 'In 2026' as 'Highway to Hyperinflation' Dead Ahead: Mark Thornton (7blADlOQCJ0)...
+2026-04-08 06:51:37,272 - INFO - Successfully extracted: audio/7blADlOQCJ0.mp3
+2026-04-08 06:51:46,477 - INFO - Extracting audio for Are Gold & Silver Prices Now Too Low? | Andy Schectman (fFEHleP_0eo)...
+2026-04-08 06:52:14,039 - INFO - Successfully extracted: audio/fFEHleP_0eo.mp3
+2026-04-08 06:52:19,983 - INFO - Extracting audio for The Oil Shock Is Just Beginning: Stagflation, S&P 500 Levels & Gold Targets, And Trades (RCPWS3K30ew)...
+2026-04-08 06:52:32,368 - INFO - Successfully extracted: audio/RCPWS3K30ew.mp3
+2026-04-08 06:52:43,146 - INFO - Extracting audio for The Real Cost of Trying to Time the Gold Market (frGkB62z8ac)...
+2026-04-08 06:52:53,365 - INFO - Successfully extracted: audio/frGkB62z8ac.mp3
+2026-04-08 06:53:03,684 - INFO - Extracting audio for A Polymarket Bot Made $438,000 In 30 Days. Your Industry Is Next. Here's What To Do About It. (BiqG3it0gY0)...
+2026-04-08 06:53:22,384 - INFO - Successfully extracted: audio/BiqG3it0gY0.mp3
+2026-04-08 06:53:31,438 - INFO - Extracting audio for This Is What Happens Next for Silver | Peter Krauth (i7bgp6xfUO8)...
+2026-04-08 06:54:06,486 - INFO - Successfully extracted: audio/i7bgp6xfUO8.mp3
+2026-04-08 06:54:12,258 - INFO - Extracting audio for They Crashed Gold on Purpose… Here’s The Real Plan (gUKbQ4iM-G4)...
+2026-04-08 06:54:28,863 - INFO - Successfully extracted: audio/gUKbQ4iM-G4.mp3
+2026-04-08 06:54:37,620 - INFO - Extracting audio for Gold and Silver Wait on the Sidelines: Are We Building a Giant Bull Flag? - Chris Vermeulen (pwD_x2JCtf8)...
+2026-04-08 06:54:48,590 - INFO - Successfully extracted: audio/pwD_x2JCtf8.mp3
+2026-04-08 06:54:55,329 - INFO - Extracting audio for What War Does to an Economy on Edge | Prof G Markets (j0vXeVS0fng)...
+2026-04-08 06:55:06,226 - INFO - Successfully extracted: audio/j0vXeVS0fng.mp3
+2026-04-08 06:55:14,896 - INFO - Extracting audio for Here are 10 stocks you need to know about before the bear market starts. (-aGSur800gk)...
+2026-04-08 06:55:37,313 - INFO - Successfully extracted: audio/-aGSur800gk.mp3
+2026-04-08 06:55:46,843 - INFO - Extracting audio for Is China Quietly Taking Control of the Iran Conflict? | China Decode (r6k7sQuNZfU)...
+2026-04-08 06:56:07,022 - INFO - Successfully extracted: audio/r6k7sQuNZfU.mp3
+2026-04-08 06:56:07,023 - INFO - Extraction complete. 19/19 audio files ready. (Time: 482.2s)
+2026-04-08 06:56:07,023 - INFO - 
+--- Phase 3: Summarization (Direct Audio) ---
+2026-04-08 06:56:08,985 - INFO - Generating Brief for This Could Be the Start of the Petroyuan (oGN9JnkW_ns)...
+2026-04-08 06:56:08,986 - INFO - AFC is enabled with max remote calls: 10.
+2026-04-08 06:56:09,084 - INFO - Generating Brief for Anthropic banned OpenClaw... (a4hdPWSUzsE)...
+2026-04-08 06:56:09,085 - INFO - AFC is enabled with max remote calls: 10.
+2026-04-08 06:56:09,249 - INFO - Generating Brief for Claude just BROKE the ENTIRE INDUSTRY... (o-C4CLSthDo)...
+2026-04-08 06:56:09,250 - INFO - AFC is enabled with max remote calls: 10.
+2026-04-08 06:56:14,278 - ERROR - Schema parsing error for Anthropic banned OpenClaw...: Expecting value: line 1 column 1222 (char 1221)
+2026-04-08 06:56:14,712 - INFO - ✅ Brief successfully generated for This Could Be the Start of the Petroyuan
+2026-04-08 06:56:16,414 - INFO - Generating Brief for FINAL WARNING! ⏳ Markets Freeze Before Tonight’s Geopolitical Deadline (I6kZphdWqxU)...
+2026-04-08 06:56:16,415 - INFO - AFC is enabled with max remote calls: 10.
+2026-04-08 06:56:16,504 - INFO - Generating Brief for 'Violent' Move Coming As Iran Deadline Hits | Robert Gottlieb (TD5u7Ng_cWA)...
+2026-04-08 06:56:16,507 - INFO - AFC is enabled with max remote calls: 10.
+2026-04-08 06:56:17,577 - ERROR - Schema parsing error for Claude just BROKE the ENTIRE INDUSTRY...: Expecting value: line 1 column 1452 (char 1451)
+2026-04-08 06:56:19,910 - INFO - Generating Brief for How to Accurately Think About The Silver Market (Many Investors Don’t) (v1RBAy0CLpA)...
+2026-04-08 06:56:19,911 - INFO - AFC is enabled with max remote calls: 10.
+2026-04-08 06:56:24,769 - ERROR - Schema parsing error for FINAL WARNING! ⏳ Markets Freeze Before Tonight’s Geopolitical Deadline: Expecting value: line 1 column 1363 (char 1362)
+2026-04-08 06:56:25,618 - INFO - ✅ Brief successfully generated for 'Violent' Move Coming As Iran Deadline Hits | Robert Gottlieb
+2026-04-08 06:56:26,680 - INFO - Generating Brief for THIS IS BIG: Silver Prices To SKYROCKET AGAIN! (KY4w2WzBhBg)...
+2026-04-08 06:56:26,681 - INFO - AFC is enabled with max remote calls: 10.
+2026-04-08 06:56:27,005 - INFO - Generating Brief for Oil Hits Resistance: Day Trade Setups in Apple, Tesla & Oracle (a-15VP9VGS4)...
+2026-04-08 06:56:27,009 - INFO - AFC is enabled with max remote calls: 10.
+2026-04-08 06:56:28,960 - INFO - ✅ Brief successfully generated for How to Accurately Think About The Silver Market (Many Investors Don’t)
+2026-04-08 06:56:30,684 - INFO - Generating Brief for SILVER To New Highs 'In 2026' as 'Highway to Hyperinflation' Dead Ahead: Mark Thornton (7blADlOQCJ0)...
+2026-04-08 06:56:30,685 - INFO - AFC is enabled with max remote calls: 10.
+2026-04-08 06:56:32,919 - ERROR - Schema parsing error for THIS IS BIG: Silver Prices To SKYROCKET AGAIN!: Expecting value: line 1 column 1208 (char 1207)
+2026-04-08 06:56:32,971 - INFO - ✅ Brief successfully generated for Oil Hits Resistance: Day Trade Setups in Apple, Tesla & Oracle
+2026-04-08 06:56:34,866 - INFO - Generating Brief for Are Gold & Silver Prices Now Too Low? | Andy Schectman (fFEHleP_0eo)...
+2026-04-08 06:56:34,867 - INFO - AFC is enabled with max remote calls: 10.
+2026-04-08 06:56:35,627 - INFO - Generating Brief for The Oil Shock Is Just Beginning: Stagflation, S&P 500 Levels & Gold Targets, And Trades (RCPWS3K30ew)...
+2026-04-08 06:56:35,628 - INFO - AFC is enabled with max remote calls: 10.
+2026-04-08 06:56:40,968 - INFO - ✅ Brief successfully generated for SILVER To New Highs 'In 2026' as 'Highway to Hyperinflation' Dead Ahead: Mark Thornton
+2026-04-08 06:56:42,054 - INFO - ✅ Brief successfully generated for The Oil Shock Is Just Beginning: Stagflation, S&P 500 Levels & Gold Targets, And Trades
+2026-04-08 06:56:42,344 - INFO - Generating Brief for The Real Cost of Trying to Time the Gold Market (frGkB62z8ac)...
+2026-04-08 06:56:42,345 - INFO - AFC is enabled with max remote calls: 10.
+2026-04-08 06:56:43,853 - INFO - Generating Brief for A Polymarket Bot Made $438,000 In 30 Days. Your Industry Is Next. Here's What To Do About It. (BiqG3it0gY0)...
+2026-04-08 06:56:43,854 - INFO - AFC is enabled with max remote calls: 10.
+2026-04-08 06:56:47,230 - INFO - ✅ Brief successfully generated for Are Gold & Silver Prices Now Too Low? | Andy Schectman
+2026-04-08 06:56:47,245 - ERROR - Schema parsing error for The Real Cost of Trying to Time the Gold Market: Expecting value: line 1 column 979 (char 978)
+2026-04-08 06:56:49,075 - INFO - Generating Brief for They Crashed Gold on Purpose… Here’s The Real Plan (gUKbQ4iM-G4)...
+2026-04-08 06:56:49,077 - INFO - AFC is enabled with max remote calls: 10.
+2026-04-08 06:56:49,342 - INFO - Generating Brief for This Is What Happens Next for Silver | Peter Krauth (i7bgp6xfUO8)...
+2026-04-08 06:56:49,343 - INFO - AFC is enabled with max remote calls: 10.
+2026-04-08 06:56:53,186 - INFO - ✅ Brief successfully generated for A Polymarket Bot Made $438,000 In 30 Days. Your Industry Is Next. Here's What To Do About It.
+2026-04-08 06:56:54,894 - INFO - Generating Brief for Gold and Silver Wait on the Sidelines: Are We Building a Giant Bull Flag? - Chris Vermeulen (pwD_x2JCtf8)...
+2026-04-08 06:56:54,896 - INFO - AFC is enabled with max remote calls: 10.
+2026-04-08 06:56:57,452 - INFO - ✅ Brief successfully generated for They Crashed Gold on Purpose… Here’s The Real Plan
+2026-04-08 06:56:58,814 - INFO - Generating Brief for What War Does to an Economy on Edge | Prof G Markets (j0vXeVS0fng)...
+2026-04-08 06:56:58,815 - INFO - AFC is enabled with max remote calls: 10.
+2026-04-08 06:57:00,996 - INFO - ✅ Brief successfully generated for Gold and Silver Wait on the Sidelines: Are We Building a Giant Bull Flag? - Chris Vermeulen
+2026-04-08 06:57:02,888 - INFO - Generating Brief for Here are 10 stocks you need to know about before the bear market starts. (-aGSur800gk)...
+2026-04-08 06:57:02,889 - INFO - AFC is enabled with max remote calls: 10.
+2026-04-08 06:57:04,405 - INFO - ✅ Brief successfully generated for What War Does to an Economy on Edge | Prof G Markets
+2026-04-08 06:57:06,282 - INFO - Generating Brief for Is China Quietly Taking Control of the Iran Conflict? | China Decode (r6k7sQuNZfU)...
+2026-04-08 06:57:06,283 - INFO - AFC is enabled with max remote calls: 10.
+2026-04-08 06:57:13,926 - INFO - ✅ Brief successfully generated for Is China Quietly Taking Control of the Iran Conflict? | China Decode
+2026-04-08 06:57:15,721 - INFO - ✅ Brief successfully generated for This Is What Happens Next for Silver | Peter Krauth
+2026-04-08 06:57:15,865 - ERROR - Schema parsing error for Here are 10 stocks you need to know about before the bear market starts.: Expecting value: line 1 column 1418 (char 1417)
+2026-04-08 06:57:16,238 - INFO - --- Phase 3: Category Synthesis (13 assets across categories) ---
+2026-04-08 06:57:16,238 - INFO - Analyzing 3 categories: Precious Metals, General Financial Investing and Speculation, Artificial Intelligence
+2026-04-08 06:57:16,238 - INFO - Processing Synthesis for sector: Precious Metals (4 assets)...
+2026-04-08 06:57:16,266 - INFO - AFC is enabled with max remote calls: 10.
+2026-04-08 06:57:17,192 - INFO - AFC is enabled with max remote calls: 10.
+2026-04-08 06:57:18,248 - INFO - AFC is enabled with max remote calls: 10.
+2026-04-08 06:57:19,287 - INFO - ✅ Synthesis complete for Precious Metals
+2026-04-08 06:57:19,287 - INFO - Processing Synthesis for sector: General Financial Investing and Speculation (8 assets)...
+2026-04-08 06:57:19,296 - INFO - AFC is enabled with max remote calls: 10.
+2026-04-08 06:57:20,183 - INFO - AFC is enabled with max remote calls: 10.
+2026-04-08 06:57:21,190 - INFO - AFC is enabled with max remote calls: 10.
+2026-04-08 06:57:22,120 - INFO - AFC is enabled with max remote calls: 10.
+2026-04-08 06:57:23,101 - INFO - AFC is enabled with max remote calls: 10.
+2026-04-08 06:57:24,006 - INFO - AFC is enabled with max remote calls: 10.
+2026-04-08 06:57:24,826 - INFO - ✅ Synthesis complete for General Financial Investing and Speculation
+2026-04-08 06:57:24,827 - INFO - Processing Synthesis for sector: Artificial Intelligence (1 assets)...
+2026-04-08 06:57:24,827 - INFO - AFC is enabled with max remote calls: 10.
+2026-04-08 06:57:25,620 - INFO - ✅ Synthesis complete for Artificial Intelligence
+2026-04-08 06:57:25,640 - INFO - Summarization complete. 13 briefs written to briefs/2026-04-08.md (Time: 78.6s)
+2026-04-08 06:57:27,020 - INFO - Email digest sent successfully to kwilliamson.mail@gmail.com.
+2026-04-08 06:57:27,744 - INFO - Email digest sent successfully to kochava72@gmail.com.
+2026-04-08 06:57:27,769 - INFO - Queue cleared.
+2026-04-08 06:57:27,776 - INFO - ==================================================
+2026-04-08 06:57:27,777 - INFO - Pipeline Execution Complete
+2026-04-08 06:57:27,777 - INFO - ==================================================
