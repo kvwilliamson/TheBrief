@@ -1,0 +1,929 @@
+{
+  "date": "2026-04-10",
+  "briefs": [
+    {
+      "episode_title": "Mythos is the BIGGEST RISK to financial markets\" THE FED",
+      "channel": "Wes Roth",
+      "duration_minutes": 26,
+      "podcast_date": "2026-04-10",
+      "processing_date": "2026-04-10",
+      "one_line_summary": "Anthropic's Mythos AI model is raising cybersecurity concerns in the financial industry due to its advanced vulnerability identification and exploitation capabilities.",
+      "core_claims": [
+        "Treasury Secretary and Fed Chair are concerned about Anthropic's Mythos model.",
+        "OpenAI allegedly has a similar model to Mythos that they will not release to the public.",
+        "Anthropic's Mythos and other new models are being trained on Amazon's Trainium chips.",
+        "Anthropic is also planning to design its own chips, leveraging AWS expertise.",
+        "Nicholas Carlini, a top cybersecurity researcher at Anthropic, has found more bugs in recent weeks than in his entire career, using Mythos.",
+        "An issue affected 8% of reinforcement learning episodes, relating to GUI computer use, office-related tasks, and STEM environments, possibly impacting opaque reasoning or secret-keeping abilities."
+      ],
+      "signal_strength": 8,
+      "themes": [
+        "cybersecurity",
+        "ai risk",
+        "financial markets",
+        "model alignment",
+        "hardware",
+        "anthropic",
+        "openai",
+        "autonomous agents",
+        "vulnerability exploitation",
+        "regulatory concerns"
+      ],
+      "positioning_implication": "Assess strategic risk from advanced AI exploitation capabilities; monitor AI model alignment and 'secret-keeping' behaviors.",
+      "time_horizon": "medium",
+      "shelf_life": "Medium",
+      "thumbnail": "https://i.ytimg.com/vi/r4JGNJfNQeA/hqdefault.jpg",
+      "video_url": "https://www.youtube.com/watch?v=r4JGNJfNQeA",
+      "cluster_id": 2,
+      "category": "Artificial Intelligence"
+    },
+    {
+      "episode_title": "Gold To $10,000 As The Western World Faces Biggest Threat Ever | Lior Gantz",
+      "channel": "David Lin",
+      "duration_minutes": 57,
+      "podcast_date": "2026-04-10",
+      "processing_date": "2024-01-26",
+      "one_line_summary": "Geopolitical tensions surrounding Iran and the US de-escalating while wealth transfers to benefit the consumer and housing sector shape investment strategy.",
+      "core_claims": [
+        "The importance of the Straits of Hormuz is diminishing rapidly.",
+        "The point of the ceasefire is to show flexibility to the American public to justify further military action.",
+        "Gold will rise above $10,000/ounce and silver could dramatically increase with re-monetization in countries like India.",
+        "Trump intends to improve the housing market in the leadup to the midterms.",
+        "Interest rate cuts will cause trillions to leave money market accounts and go into housing and the consumer sector."
+      ],
+      "signal_strength": 7,
+      "themes": [
+        "geopolitics",
+        "gold",
+        "silver",
+        "monetary policy",
+        "trump administration",
+        "investment strategy",
+        "housing market"
+      ],
+      "positioning_implication": "Realign portfolios to benefit from consumer spending, lower interest rates, and housing market reforms in the United States.",
+      "time_horizon": "short",
+      "shelf_life": "Medium",
+      "thumbnail": "https://i.ytimg.com/vi/k--4G9-tuGU/hqdefault.jpg",
+      "video_url": "https://www.youtube.com/watch?v=k--4G9-tuGU",
+      "cluster_id": 0,
+      "category": "General Financial Investing and Speculation"
+    },
+    {
+      "episode_title": "CHIP STOCK EXPLOSION! \ud83e\udd16 SMH New All-Time Highs, T-Bond Impact on BTC",
+      "channel": "Verified Investing",
+      "duration_minutes": 25,
+      "podcast_date": "2026-04-10",
+      "processing_date": "2024-05-09",
+      "one_line_summary": "Semiconductors reach new all-time highs on shaky volume, while software gets hit and transport averages approach measured moves.",
+      "core_claims": [
+        "Semiconductors (SMH) reached new all-time highs, but volume participation is half the 30-day average, suggesting weak institutional support.",
+        "The Dow Jones Transportation Average is nearing its inverse head and shoulders target of 20,505, where profit-taking is likely.",
+        "A declining trend line on the 10-year yield, currently at 4.285%, targets 4.17% for near-term support, aiding the IWM's upward trend.",
+        "Adobe is likely due for a technical bounce, potentially near $215.15, given a long-term trendline floor near $194.28 and oversold RSI.",
+        "Crowdstrike faces a double rejection from its upper parallel channel, with support anticipated near $375 followed by $328.65.",
+        "KLA Corporation is approaching overbought conditions on the daily RSI, suggesting potential consolidation despite new all-time highs."
+      ],
+      "signal_strength": 7,
+      "themes": [
+        "semiconductors",
+        "technical analysis",
+        "market indicators",
+        "cryptocurrency",
+        "oil prices",
+        "software stocks"
+      ],
+      "positioning_implication": "Exercise caution with semiconductor investments due to low volume, and prepare for potential profit-taking in transport stocks. Look for potential long opportunities in oversold software names, but be prepared for downside risk.",
+      "time_horizon": "short",
+      "shelf_life": "Short",
+      "thumbnail": "https://i.ytimg.com/vi/QqbQxXfGnSM/hqdefault.jpg",
+      "video_url": "https://www.youtube.com/watch?v=QqbQxXfGnSM",
+      "cluster_id": 4,
+      "category": "General Financial Investing and Speculation"
+    },
+    {
+      "episode_title": "DEBATE | Marc Faber vs Brent Johnson: What Comes Next After The Iran War?",
+      "channel": "Adam Taggart | Thoughtful Money\u00ae",
+      "duration_minutes": 0,
+      "podcast_date": "2026-04-10",
+      "processing_date": "2026-04-10",
+      "one_line_summary": "The Iran war exacerbates existing economic weaknesses and geopolitical fragmentation, potentially leading to heightened inflation and a shift in global power dynamics, though the degree to which the US may benefit remains uncertain.",
+      "core_claims": [
+        "The US economy is significantly weaker than official statistics suggest, due to reliance on debt and government spending.",
+        "Rising interest payments on US debt are becoming unsustainable, representing the largest government expenditure.",
+        "Western societies have lived beyond their means, making them susceptible to economic strain from geopolitical instability.",
+        "Governments are understating cost of living increases, leading to widespread financial struggles for the populace.",
+        "The Iran war, initiated without clear justification, will likely be prolonged and negatively impact the global economy through inflation and supply chain disruptions.",
+        "A potential Goldfinger strategy by the US in the Straight of Hormuz could disproportionately benefit North America if it can sustain this action."
+      ],
+      "signal_strength": 8,
+      "themes": [
+        "economic weakness",
+        "geopolitical risk",
+        "inflation",
+        "debt crisis",
+        "us hegemony",
+        "emerging markets",
+        "energy security",
+        "food security"
+      ],
+      "positioning_implication": "Diversify assets beyond US dollar-denominated holdings and consider exposure to emerging markets, energy, and precious metals to mitigate risks associated with a potential economic downturn and geopolitical instability.",
+      "time_horizon": "medium",
+      "shelf_life": "Medium",
+      "thumbnail": "https://i.ytimg.com/vi/7G-Q3lx-gBk/hqdefault.jpg",
+      "video_url": "https://www.youtube.com/watch?v=7G-Q3lx-gBk",
+      "cluster_id": 3,
+      "category": "General Financial Investing and Speculation"
+    },
+    {
+      "episode_title": "S&P 6,800 REJECTED! Major Trade Alerts And Forecast Update On Markets, Gold, Silver, Bitcoin",
+      "channel": "Verified Investing",
+      "duration_minutes": 27,
+      "podcast_date": "2026-04-10",
+      "processing_date": "2026-04-10",
+      "one_line_summary": "Markets are experiencing pullbacks due to rising oil prices and ongoing geopolitical uncertainties, with a long-term forecast anticipating lower oil prices and a potential market downturn.",
+      "core_claims": [
+        "Oil will likely stay within a $90-$100 range until the ceasefire deadline, potentially breaking to $75-$80 if a deal extends.",
+        "Countries may stockpile oil, leading to inherent long-term inflation.",
+        "The S&P is predicted to stall and pullback around 6800.",
+        "The forecast for oil into early 2027 is $50 a barrel, driven by recession-induced demand drops.",
+        "The speaker anticipates a major uptick in unemployment partially driven by slowing consumer spending and demand.",
+        "Silver is a good long term buy around $50."
+      ],
+      "signal_strength": 7,
+      "themes": [
+        "oil prices",
+        "market pullback",
+        "inflation",
+        "stock market",
+        "trading strategies",
+        "economic forecast"
+      ],
+      "positioning_implication": "Consider hedging strategies in anticipation of market corrections and potential economic downturns, especially in sectors sensitive to oil prices and consumer spending.",
+      "time_horizon": "long",
+      "shelf_life": "Medium",
+      "thumbnail": "https://i.ytimg.com/vi/YDilA2FdUO8/hqdefault.jpg",
+      "video_url": "https://www.youtube.com/watch?v=YDilA2FdUO8",
+      "cluster_id": 0,
+      "category": "General Financial Investing and Speculation"
+    },
+    {
+      "episode_title": "Why Most Protests Fail ft. Erica Chenoweth | Prof G Conversation",
+      "channel": "The Prof G Pod \u2013 Scott Galloway",
+      "duration_minutes": 50,
+      "podcast_date": "2026-04-10",
+      "processing_date": "2026-04-10",
+      "one_line_summary": "Successful movements require large diverse participation, leveraged defections, shifting protest methods, and sustained resilience.",
+      "core_claims": [
+        "Normal election years under normal circumstances predict similar outcomes in the 2026 midterms if 2017-2018 patterns persist.",
+        "Getting defections from opponent support pillars is the hardest challenge for movements.",
+        "Movements with advanced information about vulnerable support pillars succeed faster by focusing on them for early defections.",
+        "Mass mobilization is the least likely strategy to succeed; informed pillar strategy is the most successful.",
+        "The No King's protests show growth in numbers, diverse participation, and a high pace of mobilization; defections are varied.",
+        "The No Kings protests may be disproportionately older and whiter depending on the location of protests; diversity is key for effective action.",
+        "Increased participation in Black Lives Matter protests in 2020 correlated with presidential election results and shifts in public opinion.",
+        "Protests during the Tea Party movement were correlated with the 2010 midterm election results.",
+        "The 3.5% statistic for success in mass movements is a historical observation, not a prediction and can have exceptions.",
+        "Iranian protests coincided with US signaling, economic concerns, but potential external intervention created risk-taking.",
+        "Economic actions, like boycotts and strikes, pressure the business class to change interests during the apartheid movement.",
+        "More private, behind-the-scenes organizing is more effective than public adversarial approaches with a business community."
+      ],
+      "signal_strength": 8,
+      "themes": [
+        "social movements",
+        "political science",
+        "protest strategies",
+        "elections",
+        "non-violent resistance",
+        "political activism",
+        "economic pressure"
+      ],
+      "positioning_implication": "Assess movement strategies based on participation, defections, method adaptability, and resilience to identify potentially impactful interventions.  Target vulnerable pillars with informed strategies for efficiency.",
+      "time_horizon": "medium",
+      "shelf_life": "Medium",
+      "thumbnail": "https://i.ytimg.com/vi/iIhsdO0OJKo/hqdefault.jpg",
+      "video_url": "https://www.youtube.com/watch?v=iIhsdO0OJKo",
+      "cluster_id": 1,
+      "category": "General Financial Investing and Speculation"
+    },
+    {
+      "episode_title": "Intel Gaps Up 55%, LITE Topping Tail, & Oil Hits Resistance | Key Levels",
+      "channel": "Verified Investing",
+      "duration_minutes": 17,
+      "podcast_date": "2026-04-10",
+      "processing_date": "2024-04-18",
+      "one_line_summary": "Key levels for Intel, Seagate, LITE, Nvidia, SMH, US Oil, Marvel, Meta and CIEN are reviewed for day and swing trading.",
+      "core_claims": [
+        "Intel has moved 54-55% since the lows of March 30, 2026.",
+        "Intel short level today is $62.57; expect a pullback to $54.38.",
+        "STX potential upside is $520-$525.",
+        "Close below $915.08 could signal the completion of a topping tail for LITE.",
+        "If US Oil reaches $129.83, it would be good to short for a pullback.",
+        "Meta is targeting $638.18 for resistance today."
+      ],
+      "signal_strength": 7,
+      "themes": [
+        "technical analysis",
+        "day trading",
+        "swing trading",
+        "stock market",
+        "semiconductors",
+        "oil"
+      ],
+      "positioning_implication": "Monitor key levels for potential entries or exits in Intel, Seagate, LITE, Nvidia, SMH, US Oil, Marvel, Meta and CIEN.",
+      "time_horizon": "short",
+      "shelf_life": "Short",
+      "thumbnail": "https://i.ytimg.com/vi/i9O7BgtBvEY/hqdefault.jpg",
+      "video_url": "https://www.youtube.com/watch?v=i9O7BgtBvEY",
+      "cluster_id": 5,
+      "category": "General Financial Investing and Speculation"
+    },
+    {
+      "episode_title": "It's Not Just an Oil Story' - How Will Gold and Uranium React as Ceasefire BREAKS?",
+      "channel": "Commodity Culture",
+      "duration_minutes": 45,
+      "podcast_date": "2026-04-10",
+      "processing_date": "2026-04-10",
+      "one_line_summary": "Geopolitical tensions are driving unprecedented demand for uranium and safe haven assets like gold, while supply chain vulnerabilities present investment opportunities.",
+      "core_claims": [
+        "Long-term uranium contract prices are rising, indicating a healthy market structure.",
+        "The uranium market faces a structural deficit as demand outstrips mined supply.",
+        "Gold is behaving as a safe haven asset but its relationship with the dollar has become more complex.",
+        "Rare earth market projected to grow from $8B in 2026 to nearly $40B by mid-2030s.",
+        "China controls 70% of mined rare earth output, 85% of refining, and 90% of magnet manufacturing."
+      ],
+      "signal_strength": 9,
+      "themes": [
+        "commodities",
+        "uranium",
+        "gold",
+        "rare earths",
+        "supply chain",
+        "geopolitics",
+        "investment",
+        "energy transition"
+      ],
+      "positioning_implication": "Increase exposure to physical commodities and diversified portfolios across defensive and growth-oriented sectors to mitigate geopolitical risks and capitalize on emerging market dynamics.",
+      "time_horizon": "medium",
+      "shelf_life": "Medium",
+      "thumbnail": "https://i.ytimg.com/vi/mliiUdC4Shw/hqdefault.jpg",
+      "video_url": "https://www.youtube.com/watch?v=mliiUdC4Shw",
+      "cluster_id": 0,
+      "category": "Precious Metals"
+    },
+    {
+      "episode_title": "Nasdaq Quietly Changed Its Rules. Now Your 401(k) Pays for SpaceX's IPO.",
+      "channel": "AI News & Strategy Daily | Nate B Jones",
+      "duration_minutes": 0,
+      "podcast_date": "2026-04-10",
+      "processing_date": "2024-06-17",
+      "one_line_summary": "Upcoming IPOs from SpaceX, OpenAI, and Anthropic, collectively valued at $3 trillion, may rely on 401(k)s and retail investment accounts for liquidity via Nasdaq rule changes.",
+      "core_claims": [
+        "SpaceX, OpenAI, and Anthropic, with a combined valuation of $3 trillion, are expected to IPO in the latter half of 2026 or early 2027.",
+        "SpaceX is targeting a June IPO, Anthropic is rumored for October, and OpenAI is planning for early 2027.",
+        "SpaceX expects to raise between $50 and $75 billion in its IPO.",
+        "OpenAI and Anthropic are each projected to raise $60 billion or more in their respective IPOs.",
+        "Nasdaq has changed its rules to allow companies to be added to the Nasdaq 100 index after just 15 trading days.",
+        "OpenAI is projected to lose $14 billion in 2026 alone and doesn't expect to be profitable until at least 2030.",
+        "Anthropic may be counting certain cloud computing credits from Amazon and Google as revenue, potentially inflating its reported revenue by $6.4 billion in 2026."
+      ],
+      "signal_strength": 9,
+      "themes": [
+        "ipos",
+        "artificial intelligence",
+        "venture capital",
+        "financial markets",
+        "retirement funds",
+        "regulation"
+      ],
+      "positioning_implication": "Assess the potential impact of upcoming AI IPOs on investment portfolios and consider adjusting asset allocation strategies to mitigate risks associated with inflated valuations and market volatility.",
+      "time_horizon": "short",
+      "shelf_life": "Medium",
+      "thumbnail": "https://i.ytimg.com/vi/9N7qXkmntlU/hqdefault.jpg",
+      "video_url": "https://www.youtube.com/watch?v=9N7qXkmntlU",
+      "cluster_id": 1,
+      "category": "Artificial Intelligence"
+    },
+    {
+      "episode_title": "JPMorgan\u2019s Shocking Warning",
+      "channel": "Felix & Friends (Goat Academy)",
+      "duration_minutes": 20,
+      "podcast_date": "2026-04-10",
+      "processing_date": "2026-04-10",
+      "one_line_summary": "JPMorgan's market intelligence report indicates specific sectors and stocks to buy/sell based on the status of the Middle East ceasefire.",
+      "core_claims": [
+        "JPMorgan targets an S&P 500 hitting 7,200.",
+        "Tech is likely to have a huge rally due to expected earnings and overselling.",
+        "Hedge funds dropped their leverage down significantly from the last 12 months high.",
+        "Historically, when the market is positioned very bearish, the S&P 500 delivers an 8.2% return over the next three months.",
+        "European stocks are expected to rise 7.7% over the next three months.",
+        "Precious metals would likely see a strong rebound as the U.S. dollar pulls back."
+      ],
+      "signal_strength": 8,
+      "themes": [
+        "finance",
+        "investment",
+        "market analysis",
+        "geopolitics",
+        "tech sector",
+        "hedge funds",
+        "macroeconomics"
+      ],
+      "positioning_implication": "Be prepared to shift investment focus based on geopolitical events and hedge fund activity. Monitor tech sector performance and precious metal trends.",
+      "time_horizon": "short",
+      "shelf_life": "Medium",
+      "thumbnail": "https://i.ytimg.com/vi/vfTPHtcJKTY/hqdefault.jpg",
+      "video_url": "https://www.youtube.com/watch?v=vfTPHtcJKTY",
+      "cluster_id": 2,
+      "category": "General Financial Investing and Speculation"
+    },
+    {
+      "episode_title": "we have months left...",
+      "channel": "Wes Roth",
+      "duration_minutes": 20,
+      "podcast_date": "2026-04-10",
+      "processing_date": "2026-04-10",
+      "one_line_summary": "Anthropic's new Mythos model sparks security concerns, requiring a collective reassessment of digital defenses.",
+      "core_claims": [
+        "Early Mythos testers are reevaluating security protocols due to the model's capabilities.",
+        "Anthropic created Glasswing, a coalition of big tech companies testing Mythos on Google Cloud.",
+        "Open-source models are reportedly able to identify the same vulnerabilities as Mythos, challenging its uniqueness."
+      ],
+      "signal_strength": 7,
+      "themes": [
+        "ai security",
+        "vulnerability exploitation",
+        "cybersecurity",
+        "ai alignment",
+        "digital hygiene",
+        "open source models"
+      ],
+      "positioning_implication": "Prioritize continuous digital hygiene and reassess current security infrastructure considering AI-driven vulnerabilities and exploit generation. Consider multi-model defense strategies.",
+      "time_horizon": "short",
+      "shelf_life": "Medium",
+      "thumbnail": "https://i.ytimg.com/vi/WSl8Ci8-cGg/hqdefault.jpg",
+      "video_url": "https://www.youtube.com/watch?v=WSl8Ci8-cGg",
+      "cluster_id": 0,
+      "category": "Artificial Intelligence"
+    }
+  ],
+  "category_intelligence": {
+    "Artificial Intelligence": {
+      "name": "Artificial Intelligence",
+      "meta_summary": "",
+      "convergence_score": 0.0,
+      "percentile": 0.0,
+      "regime_state": "Neutral",
+      "clusters": [
+        {
+          "id": 2,
+          "name": "AI Cybersecurity Risks Intensifying for Financial Markets",
+          "description": "Anthropic's Mythos model sharpens focus on AI's dual-use potential, specifically its capacity to identify and exploit vulnerabilities within financial systems, raising regulatory alarms.",
+          "bias": "defensive",
+          "regime": "Emerging",
+          "size": 1,
+          "strength": 1.0,
+          "coherence": 1.0,
+          "channels": [
+            "Wes Roth"
+          ],
+          "avg_signal": 8.0,
+          "briefs": [
+            {
+              "episode_title": "Mythos is the BIGGEST RISK to financial markets\" THE FED",
+              "channel": "Wes Roth",
+              "duration_minutes": 26,
+              "podcast_date": "2026-04-10",
+              "processing_date": "2026-04-10",
+              "one_line_summary": "Anthropic's Mythos AI model is raising cybersecurity concerns in the financial industry due to its advanced vulnerability identification and exploitation capabilities.",
+              "core_claims": [
+                "Treasury Secretary and Fed Chair are concerned about Anthropic's Mythos model.",
+                "OpenAI allegedly has a similar model to Mythos that they will not release to the public.",
+                "Anthropic's Mythos and other new models are being trained on Amazon's Trainium chips.",
+                "Anthropic is also planning to design its own chips, leveraging AWS expertise.",
+                "Nicholas Carlini, a top cybersecurity researcher at Anthropic, has found more bugs in recent weeks than in his entire career, using Mythos.",
+                "An issue affected 8% of reinforcement learning episodes, relating to GUI computer use, office-related tasks, and STEM environments, possibly impacting opaque reasoning or secret-keeping abilities."
+              ],
+              "signal_strength": 8,
+              "themes": [
+                "cybersecurity",
+                "ai risk",
+                "financial markets",
+                "model alignment",
+                "hardware",
+                "anthropic",
+                "openai",
+                "autonomous agents",
+                "vulnerability exploitation",
+                "regulatory concerns"
+              ],
+              "positioning_implication": "Assess strategic risk from advanced AI exploitation capabilities; monitor AI model alignment and 'secret-keeping' behaviors.",
+              "time_horizon": "medium",
+              "shelf_life": "Medium",
+              "thumbnail": "https://i.ytimg.com/vi/r4JGNJfNQeA/hqdefault.jpg",
+              "video_url": "https://www.youtube.com/watch?v=r4JGNJfNQeA",
+              "cluster_id": 2,
+              "category": "Artificial Intelligence"
+            }
+          ]
+        },
+        {
+          "id": 1,
+          "name": "IPO Liquidity Squeeze Intensifying on Retirement Funds",
+          "description": "The narrative suggests upcoming mega-IPOs are increasingly dependent on retail and retirement funds for liquidity, potentially straining those investment vehicles.",
+          "bias": "defensive",
+          "regime": "Emerging",
+          "size": 1,
+          "strength": 1.0,
+          "coherence": 1.0,
+          "channels": [
+            "AI News & Strategy Daily | Nate B Jones"
+          ],
+          "avg_signal": 9.0,
+          "briefs": [
+            {
+              "episode_title": "Nasdaq Quietly Changed Its Rules. Now Your 401(k) Pays for SpaceX's IPO.",
+              "channel": "AI News & Strategy Daily | Nate B Jones",
+              "duration_minutes": 0,
+              "podcast_date": "2026-04-10",
+              "processing_date": "2024-06-17",
+              "one_line_summary": "Upcoming IPOs from SpaceX, OpenAI, and Anthropic, collectively valued at $3 trillion, may rely on 401(k)s and retail investment accounts for liquidity via Nasdaq rule changes.",
+              "core_claims": [
+                "SpaceX, OpenAI, and Anthropic, with a combined valuation of $3 trillion, are expected to IPO in the latter half of 2026 or early 2027.",
+                "SpaceX is targeting a June IPO, Anthropic is rumored for October, and OpenAI is planning for early 2027.",
+                "SpaceX expects to raise between $50 and $75 billion in its IPO.",
+                "OpenAI and Anthropic are each projected to raise $60 billion or more in their respective IPOs.",
+                "Nasdaq has changed its rules to allow companies to be added to the Nasdaq 100 index after just 15 trading days.",
+                "OpenAI is projected to lose $14 billion in 2026 alone and doesn't expect to be profitable until at least 2030.",
+                "Anthropic may be counting certain cloud computing credits from Amazon and Google as revenue, potentially inflating its reported revenue by $6.4 billion in 2026."
+              ],
+              "signal_strength": 9,
+              "themes": [
+                "ipos",
+                "artificial intelligence",
+                "venture capital",
+                "financial markets",
+                "retirement funds",
+                "regulation"
+              ],
+              "positioning_implication": "Assess the potential impact of upcoming AI IPOs on investment portfolios and consider adjusting asset allocation strategies to mitigate risks associated with inflated valuations and market volatility.",
+              "time_horizon": "short",
+              "shelf_life": "Medium",
+              "thumbnail": "https://i.ytimg.com/vi/9N7qXkmntlU/hqdefault.jpg",
+              "video_url": "https://www.youtube.com/watch?v=9N7qXkmntlU",
+              "cluster_id": 1,
+              "category": "Artificial Intelligence"
+            }
+          ]
+        },
+        {
+          "id": 0,
+          "name": "AI Security: Vulnerabilities Intensifying",
+          "description": "The emergence of advanced AI models like Mythos is accelerating the exploitation of digital vulnerabilities, demanding proactive cybersecurity measures.",
+          "bias": "defensive",
+          "regime": "Emerging",
+          "size": 1,
+          "strength": 1.0,
+          "coherence": 1.0,
+          "channels": [
+            "Wes Roth"
+          ],
+          "avg_signal": 7.0,
+          "briefs": [
+            {
+              "episode_title": "we have months left...",
+              "channel": "Wes Roth",
+              "duration_minutes": 20,
+              "podcast_date": "2026-04-10",
+              "processing_date": "2026-04-10",
+              "one_line_summary": "Anthropic's new Mythos model sparks security concerns, requiring a collective reassessment of digital defenses.",
+              "core_claims": [
+                "Early Mythos testers are reevaluating security protocols due to the model's capabilities.",
+                "Anthropic created Glasswing, a coalition of big tech companies testing Mythos on Google Cloud.",
+                "Open-source models are reportedly able to identify the same vulnerabilities as Mythos, challenging its uniqueness."
+              ],
+              "signal_strength": 7,
+              "themes": [
+                "ai security",
+                "vulnerability exploitation",
+                "cybersecurity",
+                "ai alignment",
+                "digital hygiene",
+                "open source models"
+              ],
+              "positioning_implication": "Prioritize continuous digital hygiene and reassess current security infrastructure considering AI-driven vulnerabilities and exploit generation. Consider multi-model defense strategies.",
+              "time_horizon": "short",
+              "shelf_life": "Medium",
+              "thumbnail": "https://i.ytimg.com/vi/WSl8Ci8-cGg/hqdefault.jpg",
+              "video_url": "https://www.youtube.com/watch?v=WSl8Ci8-cGg",
+              "cluster_id": 0,
+              "category": "Artificial Intelligence"
+            }
+          ]
+        }
+      ],
+      "should_generate": false
+    },
+    "General Financial Investing and Speculation": {
+      "name": "General Financial Investing and Speculation",
+      "meta_summary": "",
+      "convergence_score": 0.0,
+      "percentile": 0.0,
+      "regime_state": "Neutral",
+      "clusters": [
+        {
+          "id": 0,
+          "name": "Geopolitical De-escalation Pivoting Investment Strategy",
+          "description": "Easing Iran-US tensions and wealth redistribution are shifting investment focus towards consumer and housing sectors, despite oil price-driven market pullbacks.",
+          "bias": "constructive",
+          "regime": "Accelerating",
+          "size": 2,
+          "strength": 1.4439442378817204,
+          "coherence": 0.7219721189408602,
+          "channels": [
+            "David Lin",
+            "Verified Investing"
+          ],
+          "avg_signal": 7.0,
+          "briefs": [
+            {
+              "episode_title": "Gold To $10,000 As The Western World Faces Biggest Threat Ever | Lior Gantz",
+              "channel": "David Lin",
+              "duration_minutes": 57,
+              "podcast_date": "2026-04-10",
+              "processing_date": "2024-01-26",
+              "one_line_summary": "Geopolitical tensions surrounding Iran and the US de-escalating while wealth transfers to benefit the consumer and housing sector shape investment strategy.",
+              "core_claims": [
+                "The importance of the Straits of Hormuz is diminishing rapidly.",
+                "The point of the ceasefire is to show flexibility to the American public to justify further military action.",
+                "Gold will rise above $10,000/ounce and silver could dramatically increase with re-monetization in countries like India.",
+                "Trump intends to improve the housing market in the leadup to the midterms.",
+                "Interest rate cuts will cause trillions to leave money market accounts and go into housing and the consumer sector."
+              ],
+              "signal_strength": 7,
+              "themes": [
+                "geopolitics",
+                "gold",
+                "silver",
+                "monetary policy",
+                "trump administration",
+                "investment strategy",
+                "housing market"
+              ],
+              "positioning_implication": "Realign portfolios to benefit from consumer spending, lower interest rates, and housing market reforms in the United States.",
+              "time_horizon": "short",
+              "shelf_life": "Medium",
+              "thumbnail": "https://i.ytimg.com/vi/k--4G9-tuGU/hqdefault.jpg",
+              "video_url": "https://www.youtube.com/watch?v=k--4G9-tuGU",
+              "cluster_id": 0,
+              "category": "General Financial Investing and Speculation"
+            },
+            {
+              "episode_title": "S&P 6,800 REJECTED! Major Trade Alerts And Forecast Update On Markets, Gold, Silver, Bitcoin",
+              "channel": "Verified Investing",
+              "duration_minutes": 27,
+              "podcast_date": "2026-04-10",
+              "processing_date": "2026-04-10",
+              "one_line_summary": "Markets are experiencing pullbacks due to rising oil prices and ongoing geopolitical uncertainties, with a long-term forecast anticipating lower oil prices and a potential market downturn.",
+              "core_claims": [
+                "Oil will likely stay within a $90-$100 range until the ceasefire deadline, potentially breaking to $75-$80 if a deal extends.",
+                "Countries may stockpile oil, leading to inherent long-term inflation.",
+                "The S&P is predicted to stall and pullback around 6800.",
+                "The forecast for oil into early 2027 is $50 a barrel, driven by recession-induced demand drops.",
+                "The speaker anticipates a major uptick in unemployment partially driven by slowing consumer spending and demand.",
+                "Silver is a good long term buy around $50."
+              ],
+              "signal_strength": 7,
+              "themes": [
+                "oil prices",
+                "market pullback",
+                "inflation",
+                "stock market",
+                "trading strategies",
+                "economic forecast"
+              ],
+              "positioning_implication": "Consider hedging strategies in anticipation of market corrections and potential economic downturns, especially in sectors sensitive to oil prices and consumer spending.",
+              "time_horizon": "long",
+              "shelf_life": "Medium",
+              "thumbnail": "https://i.ytimg.com/vi/YDilA2FdUO8/hqdefault.jpg",
+              "video_url": "https://www.youtube.com/watch?v=YDilA2FdUO8",
+              "cluster_id": 0,
+              "category": "General Financial Investing and Speculation"
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "name": "Semiconductor Gains Stall Amid Software Weakness",
+          "description": "Semiconductor strength is potentially unsustainable given software sector headwinds and transport sector exhaustion.",
+          "bias": "defensive",
+          "regime": "Emerging",
+          "size": 1,
+          "strength": 1.0,
+          "coherence": 1.0,
+          "channels": [
+            "Verified Investing"
+          ],
+          "avg_signal": 7.0,
+          "briefs": [
+            {
+              "episode_title": "CHIP STOCK EXPLOSION! \ud83e\udd16 SMH New All-Time Highs, T-Bond Impact on BTC",
+              "channel": "Verified Investing",
+              "duration_minutes": 25,
+              "podcast_date": "2026-04-10",
+              "processing_date": "2024-05-09",
+              "one_line_summary": "Semiconductors reach new all-time highs on shaky volume, while software gets hit and transport averages approach measured moves.",
+              "core_claims": [
+                "Semiconductors (SMH) reached new all-time highs, but volume participation is half the 30-day average, suggesting weak institutional support.",
+                "The Dow Jones Transportation Average is nearing its inverse head and shoulders target of 20,505, where profit-taking is likely.",
+                "A declining trend line on the 10-year yield, currently at 4.285%, targets 4.17% for near-term support, aiding the IWM's upward trend.",
+                "Adobe is likely due for a technical bounce, potentially near $215.15, given a long-term trendline floor near $194.28 and oversold RSI.",
+                "Crowdstrike faces a double rejection from its upper parallel channel, with support anticipated near $375 followed by $328.65.",
+                "KLA Corporation is approaching overbought conditions on the daily RSI, suggesting potential consolidation despite new all-time highs."
+              ],
+              "signal_strength": 7,
+              "themes": [
+                "semiconductors",
+                "technical analysis",
+                "market indicators",
+                "cryptocurrency",
+                "oil prices",
+                "software stocks"
+              ],
+              "positioning_implication": "Exercise caution with semiconductor investments due to low volume, and prepare for potential profit-taking in transport stocks. Look for potential long opportunities in oversold software names, but be prepared for downside risk.",
+              "time_horizon": "short",
+              "shelf_life": "Short",
+              "thumbnail": "https://i.ytimg.com/vi/QqbQxXfGnSM/hqdefault.jpg",
+              "video_url": "https://www.youtube.com/watch?v=QqbQxXfGnSM",
+              "cluster_id": 4,
+              "category": "General Financial Investing and Speculation"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "name": "Geopolitical Fragmentation Intensifying Economic Weakness",
+          "description": "Iran war amplifies economic vulnerabilities and geopolitical divisions, fueling inflation and shifting global power, with uncertain US gains.",
+          "bias": "defensive",
+          "regime": "Emerging",
+          "size": 1,
+          "strength": 1.0,
+          "coherence": 1.0,
+          "channels": [
+            "Adam Taggart | Thoughtful Money\u00ae"
+          ],
+          "avg_signal": 8.0,
+          "briefs": [
+            {
+              "episode_title": "DEBATE | Marc Faber vs Brent Johnson: What Comes Next After The Iran War?",
+              "channel": "Adam Taggart | Thoughtful Money\u00ae",
+              "duration_minutes": 0,
+              "podcast_date": "2026-04-10",
+              "processing_date": "2026-04-10",
+              "one_line_summary": "The Iran war exacerbates existing economic weaknesses and geopolitical fragmentation, potentially leading to heightened inflation and a shift in global power dynamics, though the degree to which the US may benefit remains uncertain.",
+              "core_claims": [
+                "The US economy is significantly weaker than official statistics suggest, due to reliance on debt and government spending.",
+                "Rising interest payments on US debt are becoming unsustainable, representing the largest government expenditure.",
+                "Western societies have lived beyond their means, making them susceptible to economic strain from geopolitical instability.",
+                "Governments are understating cost of living increases, leading to widespread financial struggles for the populace.",
+                "The Iran war, initiated without clear justification, will likely be prolonged and negatively impact the global economy through inflation and supply chain disruptions.",
+                "A potential Goldfinger strategy by the US in the Straight of Hormuz could disproportionately benefit North America if it can sustain this action."
+              ],
+              "signal_strength": 8,
+              "themes": [
+                "economic weakness",
+                "geopolitical risk",
+                "inflation",
+                "debt crisis",
+                "us hegemony",
+                "emerging markets",
+                "energy security",
+                "food security"
+              ],
+              "positioning_implication": "Diversify assets beyond US dollar-denominated holdings and consider exposure to emerging markets, energy, and precious metals to mitigate risks associated with a potential economic downturn and geopolitical instability.",
+              "time_horizon": "medium",
+              "shelf_life": "Medium",
+              "thumbnail": "https://i.ytimg.com/vi/7G-Q3lx-gBk/hqdefault.jpg",
+              "video_url": "https://www.youtube.com/watch?v=7G-Q3lx-gBk",
+              "cluster_id": 3,
+              "category": "General Financial Investing and Speculation"
+            }
+          ]
+        },
+        {
+          "id": 1,
+          "name": "Social Movements Intensifying Economic Pressure",
+          "description": "This narrative highlights the increasing sophistication and economic impact of social movements through diverse participation and strategic pressure.",
+          "bias": "neutral",
+          "regime": "Emerging",
+          "size": 1,
+          "strength": 1.0,
+          "coherence": 1.0,
+          "channels": [
+            "The Prof G Pod \u2013 Scott Galloway"
+          ],
+          "avg_signal": 8.0,
+          "briefs": [
+            {
+              "episode_title": "Why Most Protests Fail ft. Erica Chenoweth | Prof G Conversation",
+              "channel": "The Prof G Pod \u2013 Scott Galloway",
+              "duration_minutes": 50,
+              "podcast_date": "2026-04-10",
+              "processing_date": "2026-04-10",
+              "one_line_summary": "Successful movements require large diverse participation, leveraged defections, shifting protest methods, and sustained resilience.",
+              "core_claims": [
+                "Normal election years under normal circumstances predict similar outcomes in the 2026 midterms if 2017-2018 patterns persist.",
+                "Getting defections from opponent support pillars is the hardest challenge for movements.",
+                "Movements with advanced information about vulnerable support pillars succeed faster by focusing on them for early defections.",
+                "Mass mobilization is the least likely strategy to succeed; informed pillar strategy is the most successful.",
+                "The No King's protests show growth in numbers, diverse participation, and a high pace of mobilization; defections are varied.",
+                "The No Kings protests may be disproportionately older and whiter depending on the location of protests; diversity is key for effective action.",
+                "Increased participation in Black Lives Matter protests in 2020 correlated with presidential election results and shifts in public opinion.",
+                "Protests during the Tea Party movement were correlated with the 2010 midterm election results.",
+                "The 3.5% statistic for success in mass movements is a historical observation, not a prediction and can have exceptions.",
+                "Iranian protests coincided with US signaling, economic concerns, but potential external intervention created risk-taking.",
+                "Economic actions, like boycotts and strikes, pressure the business class to change interests during the apartheid movement.",
+                "More private, behind-the-scenes organizing is more effective than public adversarial approaches with a business community."
+              ],
+              "signal_strength": 8,
+              "themes": [
+                "social movements",
+                "political science",
+                "protest strategies",
+                "elections",
+                "non-violent resistance",
+                "political activism",
+                "economic pressure"
+              ],
+              "positioning_implication": "Assess movement strategies based on participation, defections, method adaptability, and resilience to identify potentially impactful interventions.  Target vulnerable pillars with informed strategies for efficiency.",
+              "time_horizon": "medium",
+              "shelf_life": "Medium",
+              "thumbnail": "https://i.ytimg.com/vi/iIhsdO0OJKo/hqdefault.jpg",
+              "video_url": "https://www.youtube.com/watch?v=iIhsdO0OJKo",
+              "cluster_id": 1,
+              "category": "General Financial Investing and Speculation"
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "name": "Semiconductor Technicals: Key Levels Converging",
+          "description": "Technical levels across semiconductors and oil are reviewed, suggesting potential inflection points for day and swing traders.",
+          "bias": "neutral",
+          "regime": "Emerging",
+          "size": 1,
+          "strength": 1.0,
+          "coherence": 1.0,
+          "channels": [
+            "Verified Investing"
+          ],
+          "avg_signal": 7.0,
+          "briefs": [
+            {
+              "episode_title": "Intel Gaps Up 55%, LITE Topping Tail, & Oil Hits Resistance | Key Levels",
+              "channel": "Verified Investing",
+              "duration_minutes": 17,
+              "podcast_date": "2026-04-10",
+              "processing_date": "2024-04-18",
+              "one_line_summary": "Key levels for Intel, Seagate, LITE, Nvidia, SMH, US Oil, Marvel, Meta and CIEN are reviewed for day and swing trading.",
+              "core_claims": [
+                "Intel has moved 54-55% since the lows of March 30, 2026.",
+                "Intel short level today is $62.57; expect a pullback to $54.38.",
+                "STX potential upside is $520-$525.",
+                "Close below $915.08 could signal the completion of a topping tail for LITE.",
+                "If US Oil reaches $129.83, it would be good to short for a pullback.",
+                "Meta is targeting $638.18 for resistance today."
+              ],
+              "signal_strength": 7,
+              "themes": [
+                "technical analysis",
+                "day trading",
+                "swing trading",
+                "stock market",
+                "semiconductors",
+                "oil"
+              ],
+              "positioning_implication": "Monitor key levels for potential entries or exits in Intel, Seagate, LITE, Nvidia, SMH, US Oil, Marvel, Meta and CIEN.",
+              "time_horizon": "short",
+              "shelf_life": "Short",
+              "thumbnail": "https://i.ytimg.com/vi/i9O7BgtBvEY/hqdefault.jpg",
+              "video_url": "https://www.youtube.com/watch?v=i9O7BgtBvEY",
+              "cluster_id": 5,
+              "category": "General Financial Investing and Speculation"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "name": "Geopolitics Intensifying Tech Sector Investment Strategies",
+          "description": "Middle East ceasefire status is increasingly dictating buy/sell recommendations in specific tech stocks, according to JPMorgan.",
+          "bias": "neutral",
+          "regime": "Emerging",
+          "size": 1,
+          "strength": 1.0,
+          "coherence": 1.0,
+          "channels": [
+            "Felix & Friends (Goat Academy)"
+          ],
+          "avg_signal": 8.0,
+          "briefs": [
+            {
+              "episode_title": "JPMorgan\u2019s Shocking Warning",
+              "channel": "Felix & Friends (Goat Academy)",
+              "duration_minutes": 20,
+              "podcast_date": "2026-04-10",
+              "processing_date": "2026-04-10",
+              "one_line_summary": "JPMorgan's market intelligence report indicates specific sectors and stocks to buy/sell based on the status of the Middle East ceasefire.",
+              "core_claims": [
+                "JPMorgan targets an S&P 500 hitting 7,200.",
+                "Tech is likely to have a huge rally due to expected earnings and overselling.",
+                "Hedge funds dropped their leverage down significantly from the last 12 months high.",
+                "Historically, when the market is positioned very bearish, the S&P 500 delivers an 8.2% return over the next three months.",
+                "European stocks are expected to rise 7.7% over the next three months.",
+                "Precious metals would likely see a strong rebound as the U.S. dollar pulls back."
+              ],
+              "signal_strength": 8,
+              "themes": [
+                "finance",
+                "investment",
+                "market analysis",
+                "geopolitics",
+                "tech sector",
+                "hedge funds",
+                "macroeconomics"
+              ],
+              "positioning_implication": "Be prepared to shift investment focus based on geopolitical events and hedge fund activity. Monitor tech sector performance and precious metal trends.",
+              "time_horizon": "short",
+              "shelf_life": "Medium",
+              "thumbnail": "https://i.ytimg.com/vi/vfTPHtcJKTY/hqdefault.jpg",
+              "video_url": "https://www.youtube.com/watch?v=vfTPHtcJKTY",
+              "cluster_id": 2,
+              "category": "General Financial Investing and Speculation"
+            }
+          ]
+        }
+      ],
+      "should_generate": false
+    },
+    "Precious Metals": {
+      "name": "Precious Metals",
+      "meta_summary": "",
+      "convergence_score": 0.0,
+      "percentile": 0.0,
+      "regime_state": "Neutral",
+      "clusters": [
+        {
+          "id": 0,
+          "name": "Geopolitical Tensions Intensifying Commodity Demand",
+          "description": "Geopolitical instability is creating a surge in demand for strategic commodities and safe-haven assets, highlighting supply chain risks.",
+          "bias": "constructive",
+          "regime": "Emerging",
+          "size": 1,
+          "strength": 0.0,
+          "coherence": 1.0,
+          "channels": [
+            "Commodity Culture"
+          ],
+          "avg_signal": 9.0,
+          "briefs": [
+            {
+              "episode_title": "It's Not Just an Oil Story' - How Will Gold and Uranium React as Ceasefire BREAKS?",
+              "channel": "Commodity Culture",
+              "duration_minutes": 45,
+              "podcast_date": "2026-04-10",
+              "processing_date": "2026-04-10",
+              "one_line_summary": "Geopolitical tensions are driving unprecedented demand for uranium and safe haven assets like gold, while supply chain vulnerabilities present investment opportunities.",
+              "core_claims": [
+                "Long-term uranium contract prices are rising, indicating a healthy market structure.",
+                "The uranium market faces a structural deficit as demand outstrips mined supply.",
+                "Gold is behaving as a safe haven asset but its relationship with the dollar has become more complex.",
+                "Rare earth market projected to grow from $8B in 2026 to nearly $40B by mid-2030s.",
+                "China controls 70% of mined rare earth output, 85% of refining, and 90% of magnet manufacturing."
+              ],
+              "signal_strength": 9,
+              "themes": [
+                "commodities",
+                "uranium",
+                "gold",
+                "rare earths",
+                "supply chain",
+                "geopolitics",
+                "investment",
+                "energy transition"
+              ],
+              "positioning_implication": "Increase exposure to physical commodities and diversified portfolios across defensive and growth-oriented sectors to mitigate geopolitical risks and capitalize on emerging market dynamics.",
+              "time_horizon": "medium",
+              "shelf_life": "Medium",
+              "thumbnail": "https://i.ytimg.com/vi/mliiUdC4Shw/hqdefault.jpg",
+              "video_url": "https://www.youtube.com/watch?v=mliiUdC4Shw",
+              "cluster_id": 0,
+              "category": "Precious Metals"
+            }
+          ]
+        }
+      ],
+      "should_generate": false
+    }
+  },
+  "clusters": []
+}

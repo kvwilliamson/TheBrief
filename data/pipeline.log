@@ -4541,3 +4541,119 @@
 2026-04-09 07:18:01,781 - INFO - ==================================================
 2026-04-09 07:18:01,782 - INFO - Pipeline Execution Complete
 2026-04-09 07:18:01,782 - INFO - ==================================================
+2026-04-10 06:52:19,664 - INFO - ==================================================
+2026-04-10 06:52:19,664 - INFO - Starting TheBrief Daily Pipeline
+2026-04-10 06:52:19,664 - INFO - ==================================================
+2026-04-10 06:52:19,664 - INFO - 
+--- Phase 1: Discovery ---
+2026-04-10 06:52:19,668 - INFO - Discovering videos published after 2026-04-09T06:52:19.668344+00:00 (24h lookback)
+2026-04-10 06:52:20,033 - INFO - Found 1 new potential videos on Wall Street Bullion .
+2026-04-10 06:52:20,262 - INFO - Found 4 new potential videos on GoldSilver .
+2026-04-10 06:52:20,357 - INFO - Found 2 new potential videos on AI News & Strategy Daily | Nate B Jones.
+2026-04-10 06:52:20,523 - INFO - Found 1 new potential videos on David Lin .
+2026-04-10 06:52:20,896 - INFO - Found 1 new potential videos on Felix & Friends (Goat Academy).
+2026-04-10 06:52:20,949 - INFO - Found 1 new potential videos on Adam Taggart | Thoughtful Money®.
+2026-04-10 06:52:21,028 - INFO - Found 5 new potential videos on Verified Investing.
+2026-04-10 06:52:21,170 - INFO - Found 1 new potential videos on Commodity Culture.
+2026-04-10 06:52:21,281 - INFO - Found 2 new potential videos on Wes Roth.
+2026-04-10 06:52:21,425 - INFO - Found 3 new potential videos on The Prof G Pod – Scott Galloway.
+2026-04-10 06:52:21,642 - INFO - Found 13 total long-form videos across all channels.
+2026-04-10 06:52:21,661 - INFO - Discovery complete. Added 13 new videos to queue.
+2026-04-10 06:52:21,662 - INFO - 
+--- Phase 2: Extraction ---
+2026-04-10 06:52:21,905 - INFO - yt-dlp version: 2026.03.17
+2026-04-10 06:52:22,252 - INFO - POT-related packages: bgutil-ytdlp-pot-provider 1.3.1
+2026-04-10 06:52:22,277 - INFO - bgutil HTTP server not available on port 4416 (will rely on cookies)
+2026-04-10 06:52:22,277 - INFO - Extracting audio for "Mythos is the BIGGEST RISK to financial markets" THE FED (r4JGNJfNQeA)...
+2026-04-10 06:52:35,999 - INFO - Successfully extracted: audio/r4JGNJfNQeA.mp3
+2026-04-10 06:52:44,198 - INFO - Extracting audio for DEBATE | Marc Faber vs Brent Johnson: What Comes Next After The Iran War? (7G-Q3lx-gBk)...
+2026-04-10 06:53:27,346 - INFO - Successfully extracted: audio/7G-Q3lx-gBk.mp3
+2026-04-10 06:53:34,510 - INFO - Extracting audio for Gold To $10,000 As The Western World Faces Biggest Threat Ever | Lior Gantz (k--4G9-tuGU)...
+2026-04-10 06:53:53,614 - INFO - Successfully extracted: audio/k--4G9-tuGU.mp3
+2026-04-10 06:54:03,608 - INFO - Extracting audio for CHIP STOCK EXPLOSION! 🤖 SMH New All-Time Highs, T-Bond Impact on BTC (QqbQxXfGnSM)...
+2026-04-10 06:54:20,719 - INFO - Successfully extracted: audio/QqbQxXfGnSM.mp3
+2026-04-10 06:54:27,489 - INFO - Extracting audio for Why Most Protests Fail ft. Erica Chenoweth | Prof G Conversation (iIhsdO0OJKo)...
+2026-04-10 06:54:52,814 - INFO - Successfully extracted: audio/iIhsdO0OJKo.mp3
+2026-04-10 06:54:59,676 - INFO - Extracting audio for S&P 6,800 REJECTED! Major Trade Alerts And Forecast Update On Markets, Gold, Silver, Bitcoin (YDilA2FdUO8)...
+2026-04-10 06:55:14,419 - INFO - Successfully extracted: audio/YDilA2FdUO8.mp3
+2026-04-10 06:55:23,174 - INFO - Extracting audio for 🔥 SHOCKING SILVER PRICE SWING! 🦍💰: What You NEED to Know About Gold & Precious Metals! (p718PMWm5cc)...
+2026-04-10 06:55:38,970 - INFO - Successfully extracted: audio/p718PMWm5cc.mp3
+2026-04-10 06:55:48,607 - INFO - Extracting audio for Intel Gaps Up 55%, LITE Topping Tail, & Oil Hits Resistance | Key Levels (i9O7BgtBvEY)...
+2026-04-10 06:56:00,233 - INFO - Successfully extracted: audio/i9O7BgtBvEY.mp3
+2026-04-10 06:56:08,213 - INFO - Extracting audio for 'It's Not Just an Oil Story' - How Will Gold and Uranium React as Ceasefire BREAKS? (mliiUdC4Shw)...
+2026-04-10 06:56:27,491 - INFO - Successfully extracted: audio/mliiUdC4Shw.mp3
+2026-04-10 06:56:33,945 - INFO - Extracting audio for Nasdaq Quietly Changed Its Rules. Now Your 401(k) Pays for SpaceX's IPO. (9N7qXkmntlU)...
+2026-04-10 06:56:49,300 - INFO - Successfully extracted: audio/9N7qXkmntlU.mp3
+2026-04-10 06:56:58,393 - INFO - Extracting audio for JPMorgan’s Shocking Warning (vfTPHtcJKTY)...
+2026-04-10 06:57:10,776 - INFO - Successfully extracted: audio/vfTPHtcJKTY.mp3
+2026-04-10 06:57:19,726 - INFO - Extracting audio for The Ceasefire Is Cracking — What Markets Are Missing | Prof G Markets (7jewXuJLm78)...
+2026-04-10 06:57:29,583 - INFO - Successfully extracted: audio/7jewXuJLm78.mp3
+2026-04-10 06:57:36,061 - INFO - Extracting audio for we have months left... (WSl8Ci8-cGg)...
+2026-04-10 06:57:52,569 - INFO - Successfully extracted: audio/WSl8Ci8-cGg.mp3
+2026-04-10 06:57:52,569 - INFO - Extraction complete. 13/13 audio files ready. (Time: 330.3s)
+2026-04-10 06:57:52,569 - INFO - 
+--- Phase 3: Summarization (Direct Audio) ---
+2026-04-10 06:57:53,775 - INFO - Generating Brief for "Mythos is the BIGGEST RISK to financial markets" THE FED (r4JGNJfNQeA)...
+2026-04-10 06:57:53,776 - INFO - AFC is enabled with max remote calls: 10.
+2026-04-10 06:57:54,025 - INFO - Generating Brief for Gold To $10,000 As The Western World Faces Biggest Threat Ever | Lior Gantz (k--4G9-tuGU)...
+2026-04-10 06:57:54,026 - INFO - AFC is enabled with max remote calls: 10.
+2026-04-10 06:57:54,603 - INFO - Generating Brief for DEBATE | Marc Faber vs Brent Johnson: What Comes Next After The Iran War? (7G-Q3lx-gBk)...
+2026-04-10 06:57:54,604 - INFO - AFC is enabled with max remote calls: 10.
+2026-04-10 06:58:00,721 - INFO - ✅ Brief successfully generated for "Mythos is the BIGGEST RISK to financial markets" THE FED
+2026-04-10 06:58:01,728 - INFO - Generating Brief for CHIP STOCK EXPLOSION! 🤖 SMH New All-Time Highs, T-Bond Impact on BTC (QqbQxXfGnSM)...
+2026-04-10 06:58:01,729 - INFO - AFC is enabled with max remote calls: 10.
+2026-04-10 06:58:02,451 - INFO - ✅ Brief successfully generated for Gold To $10,000 As The Western World Faces Biggest Threat Ever | Lior Gantz
+2026-04-10 06:58:03,638 - INFO - Generating Brief for Why Most Protests Fail ft. Erica Chenoweth | Prof G Conversation (iIhsdO0OJKo)...
+2026-04-10 06:58:03,639 - INFO - AFC is enabled with max remote calls: 10.
+2026-04-10 06:58:08,496 - INFO - ✅ Brief successfully generated for CHIP STOCK EXPLOSION! 🤖 SMH New All-Time Highs, T-Bond Impact on BTC
+2026-04-10 06:58:09,541 - INFO - Generating Brief for S&P 6,800 REJECTED! Major Trade Alerts And Forecast Update On Markets, Gold, Silver, Bitcoin (YDilA2FdUO8)...
+2026-04-10 06:58:09,542 - INFO - AFC is enabled with max remote calls: 10.
+2026-04-10 06:58:13,933 - INFO - ✅ Brief successfully generated for DEBATE | Marc Faber vs Brent Johnson: What Comes Next After The Iran War?
+2026-04-10 06:58:14,930 - INFO - Generating Brief for 🔥 SHOCKING SILVER PRICE SWING! 🦍💰: What You NEED to Know About Gold & Precious Metals! (p718PMWm5cc)...
+2026-04-10 06:58:14,931 - INFO - AFC is enabled with max remote calls: 10.
+2026-04-10 06:58:15,712 - INFO - ✅ Brief successfully generated for S&P 6,800 REJECTED! Major Trade Alerts And Forecast Update On Markets, Gold, Silver, Bitcoin
+2026-04-10 06:58:15,863 - INFO - ✅ Brief successfully generated for Why Most Protests Fail ft. Erica Chenoweth | Prof G Conversation
+2026-04-10 06:58:16,832 - INFO - Generating Brief for Intel Gaps Up 55%, LITE Topping Tail, & Oil Hits Resistance | Key Levels (i9O7BgtBvEY)...
+2026-04-10 06:58:16,833 - INFO - AFC is enabled with max remote calls: 10.
+2026-04-10 06:58:16,930 - INFO - Generating Brief for 'It's Not Just an Oil Story' - How Will Gold and Uranium React as Ceasefire BREAKS? (mliiUdC4Shw)...
+2026-04-10 06:58:16,931 - INFO - AFC is enabled with max remote calls: 10.
+2026-04-10 06:58:22,832 - INFO - ✅ Brief successfully generated for Intel Gaps Up 55%, LITE Topping Tail, & Oil Hits Resistance | Key Levels
+2026-04-10 06:58:23,728 - INFO - Generating Brief for Nasdaq Quietly Changed Its Rules. Now Your 401(k) Pays for SpaceX's IPO. (9N7qXkmntlU)...
+2026-04-10 06:58:23,729 - INFO - AFC is enabled with max remote calls: 10.
+2026-04-10 06:58:25,371 - ERROR - Schema parsing error for 🔥 SHOCKING SILVER PRICE SWING! 🦍💰: What You NEED to Know About Gold & Precious Metals!: Expecting value: line 1 column 1283 (char 1282)
+2026-04-10 06:58:26,555 - INFO - Generating Brief for JPMorgan’s Shocking Warning (vfTPHtcJKTY)...
+2026-04-10 06:58:26,556 - INFO - AFC is enabled with max remote calls: 10.
+2026-04-10 06:58:26,786 - INFO - ✅ Brief successfully generated for 'It's Not Just an Oil Story' - How Will Gold and Uranium React as Ceasefire BREAKS?
+2026-04-10 06:58:27,738 - INFO - Generating Brief for The Ceasefire Is Cracking — What Markets Are Missing | Prof G Markets (7jewXuJLm78)...
+2026-04-10 06:58:27,739 - INFO - AFC is enabled with max remote calls: 10.
+2026-04-10 06:58:30,773 - INFO - ✅ Brief successfully generated for Nasdaq Quietly Changed Its Rules. Now Your 401(k) Pays for SpaceX's IPO.
+2026-04-10 06:58:31,741 - INFO - Generating Brief for we have months left... (WSl8Ci8-cGg)...
+2026-04-10 06:58:31,742 - INFO - AFC is enabled with max remote calls: 10.
+2026-04-10 06:58:32,028 - INFO - ✅ Brief successfully generated for JPMorgan’s Shocking Warning
+2026-04-10 06:58:32,511 - ERROR - Schema parsing error for The Ceasefire Is Cracking — What Markets Are Missing | Prof G Markets: Expecting value: line 1 column 929 (char 928)
+2026-04-10 06:58:38,327 - INFO - ✅ Brief successfully generated for we have months left...
+2026-04-10 06:58:38,328 - INFO - --- Phase 3: Category Synthesis (11 assets across categories) ---
+2026-04-10 06:58:38,328 - INFO - Analyzing 3 categories: Artificial Intelligence, General Financial Investing and Speculation, Precious Metals
+2026-04-10 06:58:38,328 - INFO - Processing Synthesis for sector: Artificial Intelligence (3 assets)...
+2026-04-10 06:58:38,356 - INFO - AFC is enabled with max remote calls: 10.
+2026-04-10 06:58:39,305 - INFO - AFC is enabled with max remote calls: 10.
+2026-04-10 06:58:40,203 - INFO - AFC is enabled with max remote calls: 10.
+2026-04-10 06:58:40,983 - INFO - ✅ Synthesis complete for Artificial Intelligence
+2026-04-10 06:58:40,983 - INFO - Processing Synthesis for sector: General Financial Investing and Speculation (7 assets)...
+2026-04-10 06:58:40,993 - INFO - AFC is enabled with max remote calls: 10.
+2026-04-10 06:58:41,770 - INFO - AFC is enabled with max remote calls: 10.
+2026-04-10 06:58:42,590 - INFO - AFC is enabled with max remote calls: 10.
+2026-04-10 06:58:43,375 - INFO - AFC is enabled with max remote calls: 10.
+2026-04-10 06:58:44,084 - INFO - AFC is enabled with max remote calls: 10.
+2026-04-10 06:58:44,854 - INFO - AFC is enabled with max remote calls: 10.
+2026-04-10 06:58:45,682 - INFO - ✅ Synthesis complete for General Financial Investing and Speculation
+2026-04-10 06:58:45,682 - INFO - Processing Synthesis for sector: Precious Metals (1 assets)...
+2026-04-10 06:58:45,683 - INFO - AFC is enabled with max remote calls: 10.
+2026-04-10 06:58:46,539 - INFO - ✅ Synthesis complete for Precious Metals
+2026-04-10 06:58:46,557 - INFO - Summarization complete. 11 briefs written to briefs/2026-04-10.md (Time: 53.9s)
+2026-04-10 06:58:47,779 - INFO - Email digest sent successfully to kwilliamson.mail@gmail.com.
+2026-04-10 06:58:48,801 - INFO - Email digest sent successfully to kochava72@gmail.com.
+2026-04-10 06:58:48,834 - INFO - Queue cleared.
+2026-04-10 06:58:48,840 - INFO - ==================================================
+2026-04-10 06:58:48,840 - INFO - Pipeline Execution Complete
+2026-04-10 06:58:48,840 - INFO - ==================================================
