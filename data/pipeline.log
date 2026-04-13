@@ -4848,3 +4848,76 @@
 2026-04-12 06:51:02,210 - INFO - ==================================================
 2026-04-12 06:51:02,210 - INFO - Pipeline Execution Complete
 2026-04-12 06:51:02,210 - INFO - ==================================================
+2026-04-13 07:03:01,642 - INFO - ==================================================
+2026-04-13 07:03:01,642 - INFO - Starting TheBrief Daily Pipeline
+2026-04-13 07:03:01,642 - INFO - ==================================================
+2026-04-13 07:03:01,642 - INFO - 
+--- Phase 1: Discovery ---
+2026-04-13 07:03:01,646 - INFO - Discovering videos published after 2026-04-12T07:03:01.646323+00:00 (24h lookback)
+2026-04-13 07:03:02,020 - INFO - Found 1 new potential videos on Bald Guy Money.
+2026-04-13 07:03:02,116 - INFO - Found 1 new potential videos on Wall Street Bullion .
+2026-04-13 07:03:02,136 - INFO - Found 1 new potential videos on Yankee Stacking.
+2026-04-13 07:03:02,395 - INFO - Found 3 new potential videos on AI News & Strategy Daily | Nate B Jones.
+2026-04-13 07:03:02,412 - INFO - Found 1 new potential videos on David Lin .
+2026-04-13 07:03:02,780 - INFO - Found 1 new potential videos on TheTechnicalTraders.
+2026-04-13 07:03:02,862 - INFO - Found 1 new potential videos on Adam Taggart | Thoughtful Money®.
+2026-04-13 07:03:03,317 - INFO - Found 6 total long-form videos across all channels.
+2026-04-13 07:03:03,329 - INFO - Discovery complete. Added 6 new videos to queue.
+2026-04-13 07:03:03,329 - INFO - 
+--- Phase 2: Extraction ---
+2026-04-13 07:03:03,570 - INFO - yt-dlp version: 2026.03.17
+2026-04-13 07:03:03,909 - INFO - POT-related packages: bgutil-ytdlp-pot-provider 1.3.1
+2026-04-13 07:03:03,933 - INFO - bgutil HTTP server not available on port 4416 (will rely on cookies)
+2026-04-13 07:03:03,933 - INFO - Extracting audio for ‘Nowhere Near’ Real Bear Market: This Asset Collapses Next | David Cervantes (LK6YKTvuHbY)...
+2026-04-13 07:03:21,527 - INFO - Successfully extracted: audio/LK6YKTvuHbY.mp3
+2026-04-13 07:03:30,312 - INFO - Extracting audio for BULLION DEALER REACTS TO RECENT GOLD REPATRIATION DEMAND!  WARNS: THIS IS JUST THE START! (RyamUgNxlCw)...
+2026-04-13 07:03:43,378 - INFO - Successfully extracted: audio/RyamUgNxlCw.mp3
+2026-04-13 07:03:55,083 - INFO - Extracting audio for HUGE Silver Price Warning: Is This the Game-Changer We All Anticipated? (PzZqgl5ikwc)...
+2026-04-13 07:04:09,390 - INFO - Successfully extracted: audio/PzZqgl5ikwc.mp3
+2026-04-13 07:04:20,720 - INFO - Extracting audio for I Watched 3 Companies Lay Off Their Managers. All 3 Hit the Same Wall. (zhXgkQ3nYeE)...
+2026-04-13 07:04:41,714 - INFO - Successfully extracted: audio/zhXgkQ3nYeE.mp3
+2026-04-13 07:04:49,780 - INFO - Extracting audio for Van Eck's Q2 2026 Market Outlook: Time To Bargain Hunt | Jan van Eck (b_YaHQjkfr8)...
+2026-04-13 07:05:39,964 - INFO - Successfully extracted: audio/b_YaHQjkfr8.mp3
+2026-04-13 07:05:48,497 - INFO - Extracting audio for New Data Shows Gold & Silver About To Experience "2008-Style" Moment (4k5p6alO5QY)...
+2026-04-13 07:06:01,691 - INFO - Successfully extracted: audio/4k5p6alO5QY.mp3
+2026-04-13 07:06:01,691 - INFO - Extraction complete. 6/6 audio files ready. (Time: 177.8s)
+2026-04-13 07:06:01,692 - INFO - 
+--- Phase 3: Summarization (Direct Audio) ---
+2026-04-13 07:06:03,003 - INFO - Generating Brief for BULLION DEALER REACTS TO RECENT GOLD REPATRIATION DEMAND!  WARNS: THIS IS JUST THE START! (RyamUgNxlCw)...
+2026-04-13 07:06:03,004 - INFO - AFC is enabled with max remote calls: 10.
+2026-04-13 07:06:03,051 - INFO - Generating Brief for HUGE Silver Price Warning: Is This the Game-Changer We All Anticipated? (PzZqgl5ikwc)...
+2026-04-13 07:06:03,052 - INFO - AFC is enabled with max remote calls: 10.
+2026-04-13 07:06:03,275 - INFO - Generating Brief for ‘Nowhere Near’ Real Bear Market: This Asset Collapses Next | David Cervantes (LK6YKTvuHbY)...
+2026-04-13 07:06:03,276 - INFO - AFC is enabled with max remote calls: 10.
+2026-04-13 07:06:10,418 - ERROR - Schema parsing error for BULLION DEALER REACTS TO RECENT GOLD REPATRIATION DEMAND!  WARNS: THIS IS JUST THE START!: Expecting value: line 1 column 1217 (char 1216)
+2026-04-13 07:06:11,714 - INFO - ✅ Brief successfully generated for HUGE Silver Price Warning: Is This the Game-Changer We All Anticipated?
+2026-04-13 07:06:12,974 - INFO - Generating Brief for I Watched 3 Companies Lay Off Their Managers. All 3 Hit the Same Wall. (zhXgkQ3nYeE)...
+2026-04-13 07:06:12,975 - INFO - AFC is enabled with max remote calls: 10.
+2026-04-13 07:06:13,250 - INFO - Generating Brief for Van Eck's Q2 2026 Market Outlook: Time To Bargain Hunt | Jan van Eck (b_YaHQjkfr8)...
+2026-04-13 07:06:13,251 - INFO - AFC is enabled with max remote calls: 10.
+2026-04-13 07:06:15,290 - INFO - ✅ Brief successfully generated for ‘Nowhere Near’ Real Bear Market: This Asset Collapses Next | David Cervantes
+2026-04-13 07:06:16,558 - INFO - Generating Brief for New Data Shows Gold & Silver About To Experience "2008-Style" Moment (4k5p6alO5QY)...
+2026-04-13 07:06:16,559 - INFO - AFC is enabled with max remote calls: 10.
+2026-04-13 07:06:23,416 - INFO - ✅ Brief successfully generated for New Data Shows Gold & Silver About To Experience "2008-Style" Moment
+2026-04-13 07:06:25,878 - INFO - ✅ Brief successfully generated for I Watched 3 Companies Lay Off Their Managers. All 3 Hit the Same Wall.
+2026-04-13 07:06:51,692 - INFO - ✅ Brief successfully generated for Van Eck's Q2 2026 Market Outlook: Time To Bargain Hunt | Jan van Eck
+2026-04-13 07:06:51,693 - INFO - --- Phase 3: Category Synthesis (5 assets across categories) ---
+2026-04-13 07:06:51,693 - INFO - Analyzing 3 categories: Precious Metals, General Financial Investing and Speculation, Artificial Intelligence
+2026-04-13 07:06:51,693 - INFO - Processing Synthesis for sector: Precious Metals (1 assets)...
+2026-04-13 07:06:51,699 - INFO - AFC is enabled with max remote calls: 10.
+2026-04-13 07:06:52,597 - INFO - ✅ Synthesis complete for Precious Metals
+2026-04-13 07:06:52,597 - INFO - Processing Synthesis for sector: General Financial Investing and Speculation (3 assets)...
+2026-04-13 07:06:52,621 - INFO - AFC is enabled with max remote calls: 10.
+2026-04-13 07:06:53,471 - INFO - AFC is enabled with max remote calls: 10.
+2026-04-13 07:06:54,345 - INFO - AFC is enabled with max remote calls: 10.
+2026-04-13 07:06:55,322 - INFO - ✅ Synthesis complete for General Financial Investing and Speculation
+2026-04-13 07:06:55,322 - INFO - Processing Synthesis for sector: Artificial Intelligence (1 assets)...
+2026-04-13 07:06:55,323 - INFO - AFC is enabled with max remote calls: 10.
+2026-04-13 07:06:56,170 - INFO - ✅ Synthesis complete for Artificial Intelligence
+2026-04-13 07:06:56,181 - INFO - Summarization complete. 5 briefs written to briefs/2026-04-13.md (Time: 54.4s)
+2026-04-13 07:06:57,096 - INFO - Email digest sent successfully to kwilliamson.mail@gmail.com.
+2026-04-13 07:06:57,595 - INFO - Email digest sent successfully to kochava72@gmail.com.
+2026-04-13 07:06:57,608 - INFO - Queue cleared.
+2026-04-13 07:06:57,613 - INFO - ==================================================
+2026-04-13 07:06:57,614 - INFO - Pipeline Execution Complete
+2026-04-13 07:06:57,614 - INFO - ==================================================
