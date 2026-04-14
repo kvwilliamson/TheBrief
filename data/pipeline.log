@@ -4921,3 +4921,113 @@
 2026-04-13 07:06:57,613 - INFO - ==================================================
 2026-04-13 07:06:57,614 - INFO - Pipeline Execution Complete
 2026-04-13 07:06:57,614 - INFO - ==================================================
+2026-04-14 06:52:34,905 - INFO - ==================================================
+2026-04-14 06:52:34,905 - INFO - Starting TheBrief Daily Pipeline
+2026-04-14 06:52:34,905 - INFO - ==================================================
+2026-04-14 06:52:34,905 - INFO - 
+--- Phase 1: Discovery ---
+2026-04-14 06:52:34,909 - INFO - Discovering videos published after 2026-04-13T06:52:34.909419+00:00 (24h lookback)
+2026-04-14 06:52:35,605 - INFO - Found 1 new potential videos on Wall Street Bullion .
+2026-04-14 06:52:35,612 - INFO - Found 1 new potential videos on Kitco NEWS.
+2026-04-14 06:52:35,924 - INFO - Found 2 new potential videos on AI News & Strategy Daily | Nate B Jones.
+2026-04-14 06:52:35,931 - INFO - Found 2 new potential videos on David Lin .
+2026-04-14 06:52:36,102 - INFO - Found 2 new potential videos on TheTechnicalTraders.
+2026-04-14 06:52:36,272 - INFO - Found 1 new potential videos on Felix & Friends (Goat Academy).
+2026-04-14 06:52:36,336 - INFO - Found 1 new potential videos on Adam Taggart | Thoughtful Money®.
+2026-04-14 06:52:36,420 - INFO - Found 4 new potential videos on Verified Investing.
+2026-04-14 06:52:36,635 - INFO - Found 1 new potential videos on Matthew Berman.
+2026-04-14 06:52:36,710 - INFO - Found 1 new potential videos on Wes Roth.
+2026-04-14 06:52:36,788 - INFO - Found 3 new potential videos on The Prof G Pod – Scott Galloway.
+2026-04-14 06:52:36,994 - INFO - Found 13 total long-form videos across all channels.
+2026-04-14 06:52:37,014 - INFO - Discovery complete. Added 13 new videos to queue.
+2026-04-14 06:52:37,015 - INFO - 
+--- Phase 2: Extraction ---
+2026-04-14 06:52:37,278 - INFO - yt-dlp version: 2026.03.17
+2026-04-14 06:52:37,629 - INFO - POT-related packages: bgutil-ytdlp-pot-provider 1.3.1
+2026-04-14 06:52:37,654 - INFO - bgutil HTTP server not available on port 4416 (will rely on cookies)
+2026-04-14 06:52:37,654 - INFO - Extracting audio for This Should Be A Market Collapse… Why Isn’t It? | Ed Yardeni (0rNLXroJmC4)...
+2026-04-14 06:52:58,076 - INFO - Successfully extracted: audio/0rNLXroJmC4.mp3
+2026-04-14 06:53:05,177 - INFO - Extracting audio for TRADE THE TECH ROTATION SHIFT! 🚀 SMH Hits Channel Ceiling, Oil Under $100 (3YPI8-YA1_M)...
+2026-04-14 06:53:19,471 - INFO - Successfully extracted: audio/3YPI8-YA1_M.mp3
+2026-04-14 06:53:26,697 - INFO - Extracting audio for The AI Bubble Is About to Burst — Why The Silver PRICE Will Skyrocket! (o_GahTEnBOA)...
+2026-04-14 06:53:38,956 - INFO - Successfully extracted: audio/o_GahTEnBOA.mp3
+2026-04-14 06:53:44,242 - INFO - Extracting audio for ‘Permanent’ Damage: Why The Economy Changed Forever | Justin Wolfers (dbnf9Z4-rRI)...
+2026-04-14 06:54:08,959 - INFO - Successfully extracted: audio/dbnf9Z4-rRI.mp3
+2026-04-14 06:54:18,111 - INFO - Extracting audio for Bitcoin’s "Artificial" Supports: Why the Capitulation May Not Be Over (QWS0opYtS8g)...
+2026-04-14 06:54:29,174 - INFO - Successfully extracted: audio/QWS0opYtS8g.mp3
+2026-04-14 06:54:36,183 - INFO - Extracting audio for "But OpenClaw is expensive..." (nt7dWOEFUB4)...
+2026-04-14 06:54:52,382 - INFO - Successfully extracted: audio/nt7dWOEFUB4.mp3
+2026-04-14 06:55:02,604 - INFO - Extracting audio for Tech Stocks Selloff: How to Trade the Bounce on NVDA, IGV, and SPX (FC2tD_dBrTI)...
+2026-04-14 06:55:17,218 - INFO - Successfully extracted: audio/FC2tD_dBrTI.mp3
+2026-04-14 06:55:23,609 - INFO - Extracting audio for Scott Answers: Can Talarico Actually Flip Texas? | Office Hours (Sovm7rjPFW4)...
+2026-04-14 06:55:38,351 - INFO - Successfully extracted: audio/Sovm7rjPFW4.mp3
+2026-04-14 06:55:46,781 - INFO - Extracting audio for I Looked At Amazon After They Fired 16,000 Engineers. Their AI Broke Everything. (E1idsrv79tI)...
+2026-04-14 06:56:01,912 - INFO - Successfully extracted: audio/E1idsrv79tI.mp3
+2026-04-14 06:56:10,938 - INFO - Extracting audio for A week of pause and pullback for stocks, and metals (5nAeBcWj_1I)...
+2026-04-14 06:56:19,485 - INFO - Successfully extracted: audio/5nAeBcWj_1I.mp3
+2026-04-14 06:56:28,504 - INFO - Extracting audio for URGENT: US/Iran Talks Fail! Why The Stock Market ISN'T Crashing (Yet) As Oil Surges (00s1hL4zyHg)...
+2026-04-14 06:56:42,056 - INFO - Successfully extracted: audio/00s1hL4zyHg.mp3
+2026-04-14 06:56:48,186 - INFO - Extracting audio for If You Don't Understand Gold, You Don't Understand Money (YE1hxjLFxy0)...
+2026-04-14 06:57:08,405 - INFO - Successfully extracted: audio/YE1hxjLFxy0.mp3
+2026-04-14 06:57:17,261 - INFO - Extracting audio for This Chaotic Market Is Creating Opportunity | Prof G Markets (OW5HB_Uh4Mw)...
+2026-04-14 06:57:28,565 - INFO - Successfully extracted: audio/OW5HB_Uh4Mw.mp3
+2026-04-14 06:57:28,566 - INFO - Extraction complete. 13/13 audio files ready. (Time: 290.9s)
+2026-04-14 06:57:28,566 - INFO - 
+--- Phase 3: Summarization (Direct Audio) ---
+2026-04-14 06:57:29,912 - INFO - Generating Brief for TRADE THE TECH ROTATION SHIFT! 🚀 SMH Hits Channel Ceiling, Oil Under $100 (3YPI8-YA1_M)...
+2026-04-14 06:57:29,914 - INFO - AFC is enabled with max remote calls: 10.
+2026-04-14 06:57:30,166 - INFO - Generating Brief for This Should Be A Market Collapse… Why Isn’t It? | Ed Yardeni (0rNLXroJmC4)...
+2026-04-14 06:57:30,167 - INFO - AFC is enabled with max remote calls: 10.
+2026-04-14 06:57:30,300 - INFO - Generating Brief for The AI Bubble Is About to Burst — Why The Silver PRICE Will Skyrocket! (o_GahTEnBOA)...
+2026-04-14 06:57:30,301 - INFO - AFC is enabled with max remote calls: 10.
+2026-04-14 06:57:36,754 - ERROR - Schema parsing error for The AI Bubble Is About to Burst — Why The Silver PRICE Will Skyrocket!: Expecting value: line 1 column 1253 (char 1252)
+2026-04-14 06:57:38,649 - INFO - ✅ Brief successfully generated for TRADE THE TECH ROTATION SHIFT! 🚀 SMH Hits Channel Ceiling, Oil Under $100
+2026-04-14 06:57:39,380 - INFO - Generating Brief for ‘Permanent’ Damage: Why The Economy Changed Forever | Justin Wolfers (dbnf9Z4-rRI)...
+2026-04-14 06:57:39,381 - INFO - AFC is enabled with max remote calls: 10.
+2026-04-14 06:57:39,792 - INFO - ✅ Brief successfully generated for This Should Be A Market Collapse… Why Isn’t It? | Ed Yardeni
+2026-04-14 06:57:39,833 - INFO - Generating Brief for Bitcoin’s "Artificial" Supports: Why the Capitulation May Not Be Over (QWS0opYtS8g)...
+2026-04-14 06:57:39,834 - INFO - AFC is enabled with max remote calls: 10.
+2026-04-14 06:57:41,341 - INFO - Generating Brief for "But OpenClaw is expensive..." (nt7dWOEFUB4)...
+2026-04-14 06:57:41,342 - INFO - AFC is enabled with max remote calls: 10.
+2026-04-14 06:57:46,040 - ERROR - Schema parsing error for Bitcoin’s "Artificial" Supports: Why the Capitulation May Not Be Over: Expecting value: line 1 column 1226 (char 1225)
+2026-04-14 06:57:47,348 - INFO - ✅ Brief successfully generated for "But OpenClaw is expensive..."
+2026-04-14 06:57:47,567 - INFO - Generating Brief for Tech Stocks Selloff: How to Trade the Bounce on NVDA, IGV, and SPX (FC2tD_dBrTI)...
+2026-04-14 06:57:47,569 - INFO - AFC is enabled with max remote calls: 10.
+2026-04-14 06:57:48,990 - INFO - Generating Brief for Scott Answers: Can Talarico Actually Flip Texas? | Office Hours (Sovm7rjPFW4)...
+2026-04-14 06:57:48,991 - INFO - AFC is enabled with max remote calls: 10.
+2026-04-14 06:57:54,548 - INFO - ✅ Brief successfully generated for ‘Permanent’ Damage: Why The Economy Changed Forever | Justin Wolfers
+2026-04-14 06:57:54,651 - INFO - ✅ Brief successfully generated for Tech Stocks Selloff: How to Trade the Bounce on NVDA, IGV, and SPX
+2026-04-14 06:57:55,415 - INFO - ✅ Brief successfully generated for Scott Answers: Can Talarico Actually Flip Texas? | Office Hours
+2026-04-14 06:57:55,868 - INFO - Generating Brief for A week of pause and pullback for stocks, and metals (5nAeBcWj_1I)...
+2026-04-14 06:57:55,869 - INFO - AFC is enabled with max remote calls: 10.
+2026-04-14 06:57:55,907 - INFO - Generating Brief for I Looked At Amazon After They Fired 16,000 Engineers. Their AI Broke Everything. (E1idsrv79tI)...
+2026-04-14 06:57:55,908 - INFO - AFC is enabled with max remote calls: 10.
+2026-04-14 06:57:56,866 - INFO - Generating Brief for URGENT: US/Iran Talks Fail! Why The Stock Market ISN'T Crashing (Yet) As Oil Surges (00s1hL4zyHg)...
+2026-04-14 06:57:56,867 - INFO - AFC is enabled with max remote calls: 10.
+2026-04-14 06:57:59,909 - ERROR - Schema parsing error for A week of pause and pullback for stocks, and metals: Expecting value: line 1 column 1168 (char 1167)
+2026-04-14 06:58:01,869 - INFO - Generating Brief for If You Don't Understand Gold, You Don't Understand Money (YE1hxjLFxy0)...
+2026-04-14 06:58:01,871 - INFO - AFC is enabled with max remote calls: 10.
+2026-04-14 06:58:02,130 - ERROR - Schema parsing error for URGENT: US/Iran Talks Fail! Why The Stock Market ISN'T Crashing (Yet) As Oil Surges: Expecting value: line 1 column 1206 (char 1205)
+2026-04-14 06:58:02,818 - INFO - ✅ Brief successfully generated for I Looked At Amazon After They Fired 16,000 Engineers. Their AI Broke Everything.
+2026-04-14 06:58:04,110 - INFO - Generating Brief for This Chaotic Market Is Creating Opportunity | Prof G Markets (OW5HB_Uh4Mw)...
+2026-04-14 06:58:04,111 - INFO - AFC is enabled with max remote calls: 10.
+2026-04-14 06:58:08,768 - ERROR - Schema parsing error for This Chaotic Market Is Creating Opportunity | Prof G Markets: Expecting value: line 1 column 860 (char 859)
+2026-04-14 06:58:11,475 - INFO - ✅ Brief successfully generated for If You Don't Understand Gold, You Don't Understand Money
+2026-04-14 06:58:11,475 - INFO - --- Phase 3: Category Synthesis (8 assets across categories) ---
+2026-04-14 06:58:11,476 - INFO - Analyzing 2 categories: General Financial Investing and Speculation, Artificial Intelligence
+2026-04-14 06:58:11,476 - INFO - Processing Synthesis for sector: General Financial Investing and Speculation (6 assets)...
+2026-04-14 06:58:11,506 - INFO - AFC is enabled with max remote calls: 10.
+2026-04-14 06:58:12,376 - INFO - AFC is enabled with max remote calls: 10.
+2026-04-14 06:58:13,133 - INFO - AFC is enabled with max remote calls: 10.
+2026-04-14 06:58:14,210 - INFO - AFC is enabled with max remote calls: 10.
+2026-04-14 06:58:15,005 - INFO - ✅ Synthesis complete for General Financial Investing and Speculation
+2026-04-14 06:58:15,005 - INFO - Processing Synthesis for sector: Artificial Intelligence (2 assets)...
+2026-04-14 06:58:15,009 - INFO - AFC is enabled with max remote calls: 10.
+2026-04-14 06:58:15,891 - INFO - ✅ Synthesis complete for Artificial Intelligence
+2026-04-14 06:58:15,907 - INFO - Summarization complete. 8 briefs written to briefs/2026-04-14.md (Time: 47.3s)
+2026-04-14 06:58:17,833 - INFO - Email digest sent successfully to kwilliamson.mail@gmail.com.
+2026-04-14 06:58:18,850 - INFO - Email digest sent successfully to kochava72@gmail.com.
+2026-04-14 06:58:18,890 - INFO - Queue cleared.
+2026-04-14 06:58:18,896 - INFO - ==================================================
+2026-04-14 06:58:18,896 - INFO - Pipeline Execution Complete
+2026-04-14 06:58:18,897 - INFO - ==================================================
