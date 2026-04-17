@@ -5260,3 +5260,126 @@
 2026-04-16 07:01:05,578 - INFO - ==================================================
 2026-04-16 07:01:05,579 - INFO - Pipeline Execution Complete
 2026-04-16 07:01:05,579 - INFO - ==================================================
+2026-04-17 06:54:02,690 - INFO - ==================================================
+2026-04-17 06:54:02,691 - INFO - Starting TheBrief Daily Pipeline
+2026-04-17 06:54:02,691 - INFO - ==================================================
+2026-04-17 06:54:02,691 - INFO - 
+--- Phase 1: Discovery ---
+2026-04-17 06:54:02,695 - INFO - Discovering videos published after 2026-04-16T06:54:02.695838+00:00 (24h lookback)
+2026-04-17 06:54:03,115 - INFO - Found 1 new potential videos on Kitco NEWS.
+2026-04-17 06:54:03,137 - INFO - Found 1 new potential videos on GoldSilver .
+2026-04-17 06:54:03,277 - INFO - Found 1 new potential videos on Wall Street Bullion .
+2026-04-17 06:54:03,433 - INFO - Found 2 new potential videos on AI News & Strategy Daily | Nate B Jones.
+2026-04-17 06:54:03,562 - INFO - Found 2 new potential videos on David Lin .
+2026-04-17 06:54:03,604 - INFO - Found 1 new potential videos on Clive Thompson.
+2026-04-17 06:54:03,616 - INFO - Found 1 new potential videos on TheTechnicalTraders.
+2026-04-17 06:54:03,679 - INFO - Found 5 new potential videos on Verified Investing.
+2026-04-17 06:54:03,979 - INFO - Found 1 new potential videos on Commodity Culture.
+2026-04-17 06:54:04,086 - INFO - Found 1 new potential videos on Adam Taggart | Thoughtful Money®.
+2026-04-17 06:54:04,135 - INFO - Found 1 new potential videos on Matthew Berman.
+2026-04-17 06:54:04,145 - INFO - Found 1 new potential videos on Wes Roth.
+2026-04-17 06:54:04,396 - INFO - Found 4 new potential videos on The Prof G Pod – Scott Galloway.
+2026-04-17 06:54:04,573 - INFO - Found 15 total long-form videos across all channels.
+2026-04-17 06:54:04,597 - INFO - Discovery complete. Added 15 new videos to queue.
+2026-04-17 06:54:04,597 - INFO - 
+--- Phase 2: Extraction ---
+2026-04-17 06:54:04,852 - INFO - yt-dlp version: 2026.03.17
+2026-04-17 06:54:05,205 - INFO - POT-related packages: bgutil-ytdlp-pot-provider 1.3.1
+2026-04-17 06:54:05,229 - INFO - bgutil HTTP server not available on port 4416 (will rely on cookies)
+2026-04-17 06:54:05,230 - INFO - Extracting audio for Claude just forced them to reveal THE TRUTH... (ZVAGTidLVyc)...
+2026-04-17 06:54:20,863 - INFO - Successfully extracted: audio/ZVAGTidLVyc.mp3
+2026-04-17 06:54:29,718 - INFO - Extracting audio for Opus 4.7 just dropped... and I'm confused. (N4ZWCc_Fr3U)...
+2026-04-17 06:54:42,772 - INFO - Successfully extracted: audio/N4ZWCc_Fr3U.mp3
+2026-04-17 06:54:54,236 - INFO - Extracting audio for Bitcoin To $0 Warning: Quantum Can Break Encryption In Minutes Warns Nobel Physicist | Chris Tam (klgPAKwxq8A)...
+2026-04-17 06:55:15,349 - INFO - Successfully extracted: audio/klgPAKwxq8A.mp3
+2026-04-17 06:55:25,232 - INFO - Extracting audio for Gold Crash Explained: Should you Buy the Dip? Discussion with Nicholas Ward (lzvVQjerCfc)...
+2026-04-17 06:55:51,289 - INFO - Successfully extracted: audio/lzvVQjerCfc.mp3
+2026-04-17 06:56:03,250 - INFO - Extracting audio for NEW ATH! 🚀 But Is the Market Running Out of Gas? (9GxwGRfkfaE)...
+2026-04-17 06:56:18,641 - INFO - Successfully extracted: audio/9GxwGRfkfaE.mp3
+2026-04-17 06:56:28,425 - INFO - Extracting audio for Kara Swisher: Tech Bros, Body Hacking, and the Wellness Industrial Complex | Prof G Conversations (F0ikV5zmeME)...
+2026-04-17 06:56:58,667 - INFO - Successfully extracted: audio/F0ikV5zmeME.mp3
+2026-04-17 06:57:04,636 - INFO - Extracting audio for THIS IS IT: Silver Price to Hit $300 Next Year! (This is How) (DhISEisk1vM)...
+2026-04-17 06:57:16,090 - INFO - Successfully extracted: audio/DhISEisk1vM.mp3
+2026-04-17 06:57:28,023 - INFO - Extracting audio for Stocks Soar Triple-Digits On AI Mania, Is This The Market Top? | Jason Shapiro (bQOuVXlcrBA)...
+2026-04-17 06:57:50,892 - INFO - Successfully extracted: audio/bQOuVXlcrBA.mp3
+2026-04-17 06:57:58,098 - INFO - Extracting audio for 'Never Been More Bullish' - 'Unbelievably CHEAP' Gold & Silver Stocks Set to Rip (VuY94WYHv7U)...
+2026-04-17 06:58:22,795 - INFO - Successfully extracted: audio/VuY94WYHv7U.mp3
+2026-04-17 06:58:30,307 - INFO - Extracting audio for SPX Pullback Ahead? Short Setups in Nvidia, Tesla & Quantum Stocks (S8PkwILXfsY)...
+2026-04-17 06:58:45,470 - INFO - Successfully extracted: audio/S8PkwILXfsY.mp3
+2026-04-17 06:58:50,748 - INFO - Extracting audio for Nuclear Power Is About To Change Forever | Matt Lozak, Aalo Atomics (IFOT0Hx7kOY)...
+2026-04-17 06:59:20,064 - INFO - Successfully extracted: audio/IFOT0Hx7kOY.mp3
+2026-04-17 06:59:31,131 - INFO - Extracting audio for Your AI Is 50x Faster. You're Getting 2x. You're Fixing the Wrong Thing. (XlfumXPPrLY)...
+2026-04-17 06:59:44,926 - INFO - Successfully extracted: audio/XlfumXPPrLY.mp3
+2026-04-17 06:59:51,130 - INFO - Extracting audio for S&P Nears Mega-Resistance Parallel! Epic Rally Upside Target, Semi's Fall In Market Warning Sign (ZAs5o-ExE1A)...
+2026-04-17 07:00:03,064 - INFO - Successfully extracted: audio/ZAs5o-ExE1A.mp3
+2026-04-17 07:00:08,796 - INFO - Extracting audio for Watch This, Not Price: Silver’s Real Signal (919MF_XMkJk)...
+2026-04-17 07:00:18,767 - INFO - Successfully extracted: audio/919MF_XMkJk.mp3
+2026-04-17 07:00:26,217 - INFO - Extracting audio for A Volatility Boom Is Fueling Wall Street | Prof G Markets (8VPpKIpZ4BA)...
+2026-04-17 07:00:36,276 - INFO - Successfully extracted: audio/8VPpKIpZ4BA.mp3
+2026-04-17 07:00:36,277 - INFO - Extraction complete. 15/15 audio files ready. (Time: 391.0s)
+2026-04-17 07:00:36,277 - INFO - 
+--- Phase 3: Summarization (Direct Audio) ---
+2026-04-17 07:00:37,536 - INFO - Generating Brief for Claude just forced them to reveal THE TRUTH... (ZVAGTidLVyc)...
+2026-04-17 07:00:37,538 - INFO - AFC is enabled with max remote calls: 10.
+2026-04-17 07:00:37,856 - INFO - Generating Brief for Bitcoin To $0 Warning: Quantum Can Break Encryption In Minutes Warns Nobel Physicist | Chris Tam (klgPAKwxq8A)...
+2026-04-17 07:00:37,859 - INFO - AFC is enabled with max remote calls: 10.
+2026-04-17 07:00:38,059 - INFO - Generating Brief for Opus 4.7 just dropped... and I'm confused. (N4ZWCc_Fr3U)...
+2026-04-17 07:00:38,060 - INFO - AFC is enabled with max remote calls: 10.
+2026-04-17 07:00:45,111 - INFO - ✅ Brief successfully generated for Opus 4.7 just dropped... and I'm confused.
+2026-04-17 07:00:46,184 - INFO - Generating Brief for Gold Crash Explained: Should you Buy the Dip? Discussion with Nicholas Ward (lzvVQjerCfc)...
+2026-04-17 07:00:46,185 - INFO - AFC is enabled with max remote calls: 10.
+2026-04-17 07:00:46,909 - ERROR - Schema parsing error for Bitcoin To $0 Warning: Quantum Can Break Encryption In Minutes Warns Nobel Physicist | Chris Tam: Expecting value: line 1 column 1079 (char 1078)
+2026-04-17 07:00:47,045 - INFO - ✅ Brief successfully generated for Claude just forced them to reveal THE TRUTH...
+2026-04-17 07:00:48,644 - INFO - Generating Brief for NEW ATH! 🚀 But Is the Market Running Out of Gas? (9GxwGRfkfaE)...
+2026-04-17 07:00:48,645 - INFO - AFC is enabled with max remote calls: 10.
+2026-04-17 07:00:49,407 - INFO - Generating Brief for Kara Swisher: Tech Bros, Body Hacking, and the Wellness Industrial Complex | Prof G Conversations (F0ikV5zmeME)...
+2026-04-17 07:00:49,409 - INFO - AFC is enabled with max remote calls: 10.
+2026-04-17 07:00:54,559 - ERROR - Schema parsing error for NEW ATH! 🚀 But Is the Market Running Out of Gas?: Expecting value: line 1 column 1720 (char 1719)
+2026-04-17 07:00:55,900 - INFO - Generating Brief for THIS IS IT: Silver Price to Hit $300 Next Year! (This is How) (DhISEisk1vM)...
+2026-04-17 07:00:55,903 - INFO - AFC is enabled with max remote calls: 10.
+2026-04-17 07:01:02,111 - INFO - ✅ Brief successfully generated for Kara Swisher: Tech Bros, Body Hacking, and the Wellness Industrial Complex | Prof G Conversations
+2026-04-17 07:01:02,242 - ERROR - Schema parsing error for THIS IS IT: Silver Price to Hit $300 Next Year! (This is How): Expecting value: line 1 column 1172 (char 1171)
+2026-04-17 07:01:03,943 - INFO - Generating Brief for 'Never Been More Bullish' - 'Unbelievably CHEAP' Gold & Silver Stocks Set to Rip (VuY94WYHv7U)...
+2026-04-17 07:01:03,944 - INFO - AFC is enabled with max remote calls: 10.
+2026-04-17 07:01:04,088 - INFO - ✅ Brief successfully generated for Gold Crash Explained: Should you Buy the Dip? Discussion with Nicholas Ward
+2026-04-17 07:01:04,093 - INFO - Generating Brief for Stocks Soar Triple-Digits On AI Mania, Is This The Market Top? | Jason Shapiro (bQOuVXlcrBA)...
+2026-04-17 07:01:04,094 - INFO - AFC is enabled with max remote calls: 10.
+2026-04-17 07:01:05,141 - INFO - Generating Brief for SPX Pullback Ahead? Short Setups in Nvidia, Tesla & Quantum Stocks (S8PkwILXfsY)...
+2026-04-17 07:01:05,142 - INFO - AFC is enabled with max remote calls: 10.
+2026-04-17 07:01:12,946 - INFO - ✅ Brief successfully generated for SPX Pullback Ahead? Short Setups in Nvidia, Tesla & Quantum Stocks
+2026-04-17 07:01:13,556 - INFO - ✅ Brief successfully generated for Stocks Soar Triple-Digits On AI Mania, Is This The Market Top? | Jason Shapiro
+2026-04-17 07:01:14,447 - INFO - Generating Brief for Nuclear Power Is About To Change Forever | Matt Lozak, Aalo Atomics (IFOT0Hx7kOY)...
+2026-04-17 07:01:14,448 - INFO - AFC is enabled with max remote calls: 10.
+2026-04-17 07:01:14,630 - INFO - Generating Brief for Your AI Is 50x Faster. You're Getting 2x. You're Fixing the Wrong Thing. (XlfumXPPrLY)...
+2026-04-17 07:01:14,631 - INFO - AFC is enabled with max remote calls: 10.
+2026-04-17 07:01:15,299 - ERROR - Schema parsing error for 'Never Been More Bullish' - 'Unbelievably CHEAP' Gold & Silver Stocks Set to Rip: Expecting value: line 1 column 992 (char 991)
+2026-04-17 07:01:16,834 - INFO - Generating Brief for S&P Nears Mega-Resistance Parallel! Epic Rally Upside Target, Semi's Fall In Market Warning Sign (ZAs5o-ExE1A)...
+2026-04-17 07:01:16,835 - INFO - AFC is enabled with max remote calls: 10.
+2026-04-17 07:01:20,933 - INFO - ✅ Brief successfully generated for Your AI Is 50x Faster. You're Getting 2x. You're Fixing the Wrong Thing.
+2026-04-17 07:01:21,774 - INFO - Generating Brief for Watch This, Not Price: Silver’s Real Signal (919MF_XMkJk)...
+2026-04-17 07:01:21,775 - INFO - AFC is enabled with max remote calls: 10.
+2026-04-17 07:01:22,640 - INFO - ✅ Brief successfully generated for S&P Nears Mega-Resistance Parallel! Epic Rally Upside Target, Semi's Fall In Market Warning Sign
+2026-04-17 07:01:23,647 - INFO - Generating Brief for A Volatility Boom Is Fueling Wall Street | Prof G Markets (8VPpKIpZ4BA)...
+2026-04-17 07:01:23,648 - INFO - AFC is enabled with max remote calls: 10.
+2026-04-17 07:01:26,017 - ERROR - Schema parsing error for Watch This, Not Price: Silver’s Real Signal: Invalid \escape: line 1 column 439 (char 438)
+2026-04-17 07:01:28,911 - INFO - ✅ Brief successfully generated for A Volatility Boom Is Fueling Wall Street | Prof G Markets
+2026-04-17 07:01:30,738 - ERROR - Schema parsing error for Nuclear Power Is About To Change Forever | Matt Lozak, Aalo Atomics: Expecting value: line 1 column 1205 (char 1204)
+2026-04-17 07:01:31,284 - INFO - --- Phase 3: Category Synthesis (9 assets across categories) ---
+2026-04-17 07:01:31,284 - INFO - Analyzing 2 categories: Artificial Intelligence, General Financial Investing and Speculation
+2026-04-17 07:01:31,284 - INFO - Processing Synthesis for sector: Artificial Intelligence (3 assets)...
+2026-04-17 07:01:31,313 - INFO - AFC is enabled with max remote calls: 10.
+2026-04-17 07:01:32,102 - INFO - AFC is enabled with max remote calls: 10.
+2026-04-17 07:01:32,840 - INFO - ✅ Synthesis complete for Artificial Intelligence
+2026-04-17 07:01:32,841 - INFO - Processing Synthesis for sector: General Financial Investing and Speculation (6 assets)...
+2026-04-17 07:01:32,847 - INFO - AFC is enabled with max remote calls: 10.
+2026-04-17 07:01:33,784 - INFO - AFC is enabled with max remote calls: 10.
+2026-04-17 07:01:34,593 - INFO - AFC is enabled with max remote calls: 10.
+2026-04-17 07:01:35,511 - INFO - AFC is enabled with max remote calls: 10.
+2026-04-17 07:01:36,319 - INFO - ✅ Synthesis complete for General Financial Investing and Speculation
+2026-04-17 07:01:36,336 - INFO - Summarization complete. 9 briefs written to briefs/2026-04-17.md (Time: 60.0s)
+2026-04-17 07:01:37,878 - INFO - Email digest sent successfully to kwilliamson.mail@gmail.com.
+2026-04-17 07:01:38,783 - INFO - Email digest sent successfully to kochava72@gmail.com.
+2026-04-17 07:01:38,817 - INFO - Queue cleared.
+2026-04-17 07:01:38,822 - INFO - ==================================================
+2026-04-17 07:01:38,822 - INFO - Pipeline Execution Complete
+2026-04-17 07:01:38,823 - INFO - ==================================================
