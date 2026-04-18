@@ -1,0 +1,924 @@
+{
+  "date": "2026-04-18",
+  "briefs": [
+    {
+      "episode_title": "Rally Of The Century Slams Parallel Channel, Extreme Bullish Sentiment A Warning",
+      "channel": "Verified Investing",
+      "duration_minutes": 18,
+      "podcast_date": "2026-04-18",
+      "processing_date": "2024-02-24",
+      "one_line_summary": "Equity markets have reached max upside targets; potential for pullback, caution advised on tech earnings, and oil price stability shifts market focus to economic data.",
+      "core_claims": [
+        "The Nasdaq has experienced 13 straight up days, while the S&P had 12 up days out of 13, marking unprecedented vertical rallies.",
+        "The S&P 500 has hit a major trendline resistance, potentially triggering a pullback early next week.",
+        "Oil prices collapsed over 10% following the reopening of the Strait of Hormuz.",
+        "Oil to remain sticky between $75-80 due to countries replenishing strategic reserves.",
+        "Every major tech stock that has reported earnings, besides Netflix, has experienced drops despite good results.",
+        "The Nasdaq has rallied 18% off the midpoint of a channel going back to the bull market high of 2021."
+      ],
+      "signal_strength": 8,
+      "themes": [
+        "market analysis",
+        "technical analysis",
+        "economic indicators",
+        "oil prices",
+        "earnings reports",
+        "pullback warning"
+      ],
+      "positioning_implication": "Reduce exposure in overbought equities and shift focus to economic indicators.  Monitor tech earnings closely for potential negative surprises, and prepare for a possible pullback in equity markets.",
+      "time_horizon": "short",
+      "shelf_life": "Short",
+      "thumbnail": "https://i.ytimg.com/vi/wWAQZL1a7CI/hqdefault.jpg",
+      "video_url": "https://www.youtube.com/watch?v=wWAQZL1a7CI",
+      "cluster_id": 1,
+      "category": "General Financial Investing and Speculation"
+    },
+    {
+      "episode_title": "Markets Are Too Optimistic: They\u2019re Ignoring the Risks That Matter | Chris Irons & Michelle Makori",
+      "channel": "Miles Franklin Media",
+      "duration_minutes": 50,
+      "podcast_date": "2026-04-18",
+      "processing_date": "2026-04-18",
+      "one_line_summary": "Markets are building on a weak foundation and are ignoring key risks like private credit, consumer spending, and the potential for deleveraging.",
+      "core_claims": [
+        "The market is priced as if the war is over and global relations are stable, but this is unlikely to be the case in the coming months.",
+        "The economic underbelly supporting the market is not healthy; credit delinquencies are rising, and this will eventually affect passive bidding.",
+        "Private credit is a 'deranged horrific sewer' of sociopaths all looking out for themselves, and psychology in private credit has already broken.",
+        "The market is not in the same state as it has been for the last 120 years due to changing market forces, increased debt, and limited liquidity.",
+        "Companies are carrying 'nuclear dog shit' on their balance sheets that is marked the complete wrong way.",
+        "Allocating a portfolio between gold and Bitcoin, a 90/10 split is more appropriate, gold being the larger share."
+      ],
+      "signal_strength": 8,
+      "themes": [
+        "market analysis",
+        "private credit",
+        "economic risks",
+        "investment strategy",
+        "gold",
+        "bitcoin",
+        "financial inequality"
+      ],
+      "positioning_implication": "Reduce exposure to private credit and speculative assets. Increase allocation to hard assets and defensive sectors with asymmetric upside.",
+      "time_horizon": "medium",
+      "shelf_life": "Medium",
+      "thumbnail": "https://i.ytimg.com/vi/vYWOt4rYHn0/hqdefault.jpg",
+      "video_url": "https://www.youtube.com/watch?v=vYWOt4rYHn0",
+      "cluster_id": 0,
+      "category": "Precious Metals"
+    },
+    {
+      "episode_title": "Economist Steve Hanke: This Will Bankrupt U.S.; Massive Inflation Next",
+      "channel": "David Lin",
+      "duration_minutes": 59,
+      "podcast_date": "2026-04-18",
+      "processing_date": "2024-05-01",
+      "one_line_summary": "US fiscal policy is imbalanced, leading to insolvency and deferred tax burdens amidst escalating war costs and supply constraints.",
+      "core_claims": [
+        "The US Treasury's financial statements reveal insolvency, with $6.1 trillion in assets against $136.2 trillion in liabilities.",
+        "Harvard projects the Iran war will cost upwards of $1 trillion, exacerbating US insolvency.",
+        "Fact-checkers' claims of ignorance regarding financial statements mask the fact that governmental liabilities have consistently exceeded assets.",
+        "The Trump administration's fiscal irresponsibility, leading to deficit spending, will force future generations to pay higher taxes.",
+        "Money supply increases, measured by M2, accelerate, leading to changes in inflation despite potential war and energy market volatility.",
+        "Current AI stock market hype is likely overdone, and the two corporations mentioned represent prime short opportunities."
+      ],
+      "signal_strength": 8,
+      "themes": [
+        "inflation",
+        "fiscal policy",
+        "national debt",
+        "geopolitics",
+        "economic forecasting",
+        "ai hype"
+      ],
+      "positioning_implication": "Anticipate increased market volatility due to geopolitical tensions and fiscal imbalances; reassess investments in companies benefiting solely from AI hype.",
+      "time_horizon": "medium",
+      "shelf_life": "Medium",
+      "thumbnail": "https://i.ytimg.com/vi/OhpPYvBqP88/hqdefault.jpg",
+      "video_url": "https://www.youtube.com/watch?v=OhpPYvBqP88",
+      "cluster_id": 0,
+      "category": "General Financial Investing and Speculation"
+    },
+    {
+      "episode_title": "I messed up...",
+      "channel": "Matthew Berman",
+      "duration_minutes": 20,
+      "podcast_date": "2026-04-18",
+      "processing_date": "2024-02-22",
+      "one_line_summary": "AI-driven coding practices can lead to unexpected costs and a decreased understanding of underlying code, necessitating a return to foundational knowledge.",
+      "core_claims": [
+        "Vercel defaulted to the highest cost machine and settings, leading to an $800 bill in two weeks.",
+        "Switching from the default 'turbo build machine' to 'elastic' reduced per-minute build costs from 12.5 cents to 0.3 cents.",
+        "Disabling 'on-demand concurrent builds' and switching to sequential builds significantly lowered expenses.",
+        "Build times were reduced from over 3 minutes to approximately 1 minute by optimizing build settings.",
+        "Anthropics' Claude team and founder of OpenClaw now ship code without reading it.",
+        "Anthropics shipped 13 features in two weeks, nearly one per day, exceeding other AI developers speed.",
+        "New versions of Cursor and Codex deemphasize code viewing, prioritizing chat interfaces and final product views."
+      ],
+      "signal_strength": 8,
+      "themes": [
+        "ai coding",
+        "cost optimization",
+        "software development",
+        "platform risk",
+        "abstraction",
+        "generative ai"
+      ],
+      "positioning_implication": "Re-evaluate default configurations and costs associated with AI-assisted development platforms, as well as the platform dependencies to mitigate potential risks and ensure cost efficiency.  Prioritize understanding fundamental coding principles despite AI assistance to maintain control and avoid unexpected outcomes.",
+      "time_horizon": "medium",
+      "shelf_life": "Medium",
+      "thumbnail": "https://i.ytimg.com/vi/XG3ksRWsUJ8/hqdefault.jpg",
+      "video_url": "https://www.youtube.com/watch?v=XG3ksRWsUJ8",
+      "cluster_id": 0,
+      "category": "Artificial Intelligence"
+    },
+    {
+      "episode_title": "Worst Consumer Sentiment In History: Why Now Is Worse Than 2008 | Joanne Hsu",
+      "channel": "David Lin",
+      "duration_minutes": 42,
+      "podcast_date": "2026-04-18",
+      "processing_date": "2026-04-18",
+      "one_line_summary": "Consumer sentiment is at a historic low due to persistent high prices and geopolitical instability, despite stock market rebounds.",
+      "core_claims": [
+        "The April preliminary consumer sentiment index is at 47.6, the lowest in the survey's 74-year history.",
+        "Consumers identify persistent high prices as the number one factor weighing on them.",
+        "Labor markets are not as dynamic or robust as in the immediate post-pandemic period; consumers are paying more attention to kitchen table issues.",
+        "Over two-thirds of consumers expect unemployment to rise in the next year, compared to half that at the beginning of 2025.",
+        "Even people who generally feel stronger about the economy felt worse about it after the start of the Middle East conflict."
+      ],
+      "signal_strength": 9,
+      "themes": [
+        "consumer sentiment",
+        "inflation",
+        "economic outlook",
+        "geopolitical risk",
+        "labor market",
+        "monetary policy"
+      ],
+      "positioning_implication": "Assess exposure to consumer-dependent sectors and potential impacts of geopolitical instability. Monitor supply chain vulnerabilities.",
+      "time_horizon": "medium",
+      "shelf_life": "Medium",
+      "thumbnail": "https://i.ytimg.com/vi/ZvhV7GzTZcc/hqdefault.jpg",
+      "video_url": "https://www.youtube.com/watch?v=ZvhV7GzTZcc",
+      "cluster_id": 2,
+      "category": "General Financial Investing and Speculation"
+    },
+    {
+      "episode_title": "The Real Downside of GLP-1 Drugs (And Why Scott's Still Bullish) | Office Hours",
+      "channel": "The Prof G Pod \u2013 Scott Galloway",
+      "duration_minutes": 27,
+      "podcast_date": "2026-04-18",
+      "processing_date": "2024-04-18",
+      "one_line_summary": "GLP-1 drugs are potentially revolutionary despite muscle loss risks, and prioritizing career acceleration in the late 30s is often optimal despite childcare tradeoffs.",
+      "core_claims": [
+        "25-39% of total weight loss on GLP-1s comes from lean mass, but this is similar to weight loss from regular calorie restriction.",
+        "An estimated 10 million Americans will be on GLP-1 treatment in 2025, up from 6 million in 2024 and 5 million in 2023, with projections reaching 25 million by 2030.",
+        "GLP-1s have registered meaningful reductions in cardiovascular events, fatty liver disease, sleep apnea, kidney disease, and addiction.",
+        "GLP-1 agonists might delay early-onset dementia.",
+        "If obesity rates were lowered from 70% to 30%, it could potentially reduce between one-third and one-half of the budget deficit.",
+        "Money lubricates a lot about raising children: tutors, athletics, healthcare."
+      ],
+      "signal_strength": 8,
+      "themes": [
+        "glp-1 drugs",
+        "weight loss",
+        "muscle mass",
+        "obesity",
+        "career",
+        "parenting",
+        "financial planning"
+      ],
+      "positioning_implication": "Acknowledge both the benefits and potential downsides of GLP-1 drugs, focusing on strategies for managing muscle loss. Prioritize career advancement in the late 30s to build financial security.",
+      "time_horizon": "medium",
+      "shelf_life": "Medium",
+      "thumbnail": "https://i.ytimg.com/vi/AeArFZbGIuE/hqdefault.jpg",
+      "video_url": "https://www.youtube.com/watch?v=AeArFZbGIuE",
+      "cluster_id": 3,
+      "category": "General Financial Investing and Speculation"
+    },
+    {
+      "episode_title": "Stock are on fire, and we have positive new today - Expect a Sell Off!",
+      "channel": "TheTechnicalTraders",
+      "duration_minutes": 14,
+      "podcast_date": "2026-04-18",
+      "processing_date": "2024-02-08",
+      "one_line_summary": "Equities are up sharply on positive news but a market pullback is expected as it is typically 'buy the rumor, sell the news'.",
+      "core_claims": [
+        "The Strait of Hormuz is completely open for commercial ships.",
+        "A significant cluster of intermediate cycle lows has turned into a bounce into a rally.",
+        "Potential for a 9% move to the first NASDAQ target based on Fibonacci extensions.",
+        "Potential for a 23% upside move for NASDAQ based on the next Fibonacci level.",
+        "Micro-caps and small caps are up about 1.5%, breaking out to all-time highs.",
+        "Good news piles people into the stock market creating FOMO even with some selling pressure."
+      ],
+      "signal_strength": 7,
+      "themes": [
+        "equities",
+        "market analysis",
+        "fibonacci",
+        "nasdaq",
+        "commodities",
+        "precious metals",
+        "market psychology"
+      ],
+      "positioning_implication": "Reduce exposure to equities in the short-term. Shift focus to potential pullback and reloading opportunities, particularly in metals if significant declines occur.",
+      "time_horizon": "short",
+      "shelf_life": "Short",
+      "thumbnail": "https://i.ytimg.com/vi/1TRlYrn0kAk/hqdefault.jpg",
+      "video_url": "https://www.youtube.com/watch?v=1TRlYrn0kAk",
+      "cluster_id": 1,
+      "category": "General Financial Investing and Speculation"
+    },
+    {
+      "episode_title": "Seeing if Opus 4.7 sucks [LIVE]",
+      "channel": "Matthew Berman",
+      "duration_minutes": 65,
+      "podcast_date": "2026-04-18",
+      "processing_date": "2026-04-18",
+      "one_line_summary": "Opus 4.7 impressions and agent-oriented internet service deployment.",
+      "core_claims": [
+        "Anthropic strategically limits cyber security code generation capabilities in their models.",
+        "Open source models like Gemma4 have surpassed commercial models in specific use cases.",
+        "Anthropic is excelling at marketing by rapidly releasing features and engaging with social media, affecting competitor stock prices.",
+        "The internet is evolving towards an agent-first paradigm, requiring services to be built for AI agent accessibility."
+      ],
+      "signal_strength": 7,
+      "themes": [
+        "ai agents",
+        "frontier models",
+        "marketing strategy",
+        "cybersecurity",
+        "open source",
+        "SaaS",
+        "product development",
+        "internet evolution"
+      ],
+      "positioning_implication": "Re-evaluate service offerings to accommodate agent-based integration; prioritize API-driven functionality and anticipate significant competitive shifts in the AI tool landscape.",
+      "time_horizon": "medium",
+      "shelf_life": "Medium",
+      "thumbnail": "https://i.ytimg.com/vi/JyvKwKMS6SU/hqdefault.jpg",
+      "video_url": "https://www.youtube.com/watch?v=JyvKwKMS6SU",
+      "cluster_id": 0,
+      "category": "Artificial Intelligence"
+    },
+    {
+      "episode_title": "THESE Mining Stocks to Profit in Coming Crisis 'Worse Than Great Recession': Mining Stock Monkey",
+      "channel": "Commodity Culture",
+      "duration_minutes": 50,
+      "podcast_date": "2026-04-18",
+      "processing_date": "2026-04-18",
+      "one_line_summary": "Multiple indicators suggest a recession is likely, impacting investment strategy and asset allocation.",
+      "core_claims": [
+        "Record levels of credit card debt in the US, with the bottom 60% struggling, delinquencies and defaults increasing.",
+        "Buy Now Pay Later plans are nearing a trillion dollar mark and are increasingly used for necessities, potentially increasing delinquency rates.",
+        "Subprime auto loan delinquencies are at a 30-year high, worse than COVID and the Great Recession, driven by negative equity and bundling practices.",
+        "Consumer sentiment is at record lows, worse than COVID and the Great Recession, preceding decreased spending.",
+        "Student loan delinquency rates have jumped from 1% to 16%, with average payments expected to rise significantly, impacting prime borrowers and overall spending.",
+        "Royal Gold is likely to be the same size as Franco Nevada in 6 years, based on assets they already own."
+      ],
+      "signal_strength": 8,
+      "themes": [
+        "recession",
+        "credit markets",
+        "gold",
+        "mining stocks",
+        "consumer debt",
+        "auto loans",
+        "student loans",
+        "economic indicators"
+      ],
+      "positioning_implication": "Shift investment strategies to prioritize downside protection and consider royalty and streaming companies over producers as recession risks increase.",
+      "time_horizon": "short",
+      "shelf_life": "Medium",
+      "thumbnail": "https://i.ytimg.com/vi/f3B-1ZpV--8/hqdefault.jpg",
+      "video_url": "https://www.youtube.com/watch?v=f3B-1ZpV--8",
+      "cluster_id": 0,
+      "category": "Precious Metals"
+    },
+    {
+      "episode_title": "Anthropic And OpenAI Are Fighting Over Your Memory. You're Going To Lose.",
+      "channel": "AI News & Strategy Daily | Nate B Jones",
+      "duration_minutes": 24,
+      "podcast_date": "2026-04-18",
+      "processing_date": "2024-05-03",
+      "one_line_summary": "AI memory systems are creating vendor lock-in via context accumulation, hindering user mobility and optionality.",
+      "core_claims": [
+        "Enterprise workers will require \"bring your own context\" (BYOC) AI systems by 2026.",
+        "Consumer AI products benefit workers by retaining context from previous work, but this also makes them difficult to leave.",
+        "There are four layers to AI context: domain encoding, workflow calibration, behavioral relationship, and artifact/demonstrated capability."
+      ],
+      "signal_strength": 9,
+      "themes": [
+        "ai",
+        "memory",
+        "context",
+        "professional development",
+        "vendor lock-in",
+        "byoc"
+      ],
+      "positioning_implication": "Develop strategies to extract and port AI context to maintain optionality and prevent vendor lock-in.",
+      "time_horizon": "medium",
+      "shelf_life": "Medium",
+      "thumbnail": "https://i.ytimg.com/vi/4KAF72BTyCE/hqdefault.jpg",
+      "video_url": "https://www.youtube.com/watch?v=4KAF72BTyCE",
+      "cluster_id": 1,
+      "category": "Artificial Intelligence"
+    },
+    {
+      "episode_title": "The End of the Petrodollar \u2013 Most Aren't Ready",
+      "channel": "Felix & Friends (Goat Academy)",
+      "duration_minutes": 27,
+      "podcast_date": "2026-04-18",
+      "processing_date": "2024-05-03",
+      "one_line_summary": "The petrodollar system is ending, creating a three-phase wealth transfer involving resource reshuffling and potential opportunities in Cuba's mineral wealth.",
+      "core_claims": [
+        "The end of the petrodollar system will impact the value of the US dollar and stock values.",
+        "The US is shifting towards \"friend-shoring,\" regionalizing supply chains, and increasing energy independence.",
+        "Cuba holds significant mineral wealth, including cobalt and nickel, essential for future technologies, making it a strategic target for the US.",
+        "Currency shifts create the biggest wealth transfers in history.",
+        "US is now the largest oil exporter in the world, surpassing Saudi Arabia."
+      ],
+      "signal_strength": 9,
+      "themes": [
+        "geopolitics",
+        "economics",
+        "investment strategies",
+        "resource allocation",
+        "energy independence",
+        "cuban economy"
+      ],
+      "positioning_implication": "Shift investments to hard assets and industries benefiting from the new resource reshuffling, particularly those with exposure to Caribbean mineral wealth and infrastructure development.",
+      "time_horizon": "medium",
+      "shelf_life": "Medium",
+      "thumbnail": "https://i.ytimg.com/vi/4NuzBZRk4v8/hqdefault.jpg",
+      "video_url": "https://www.youtube.com/watch?v=4NuzBZRk4v8",
+      "cluster_id": 0,
+      "category": "General Financial Investing and Speculation"
+    },
+    {
+      "episode_title": "Recession Watch: Why The Labor Market Is The Breaking Point | Prof G Markets",
+      "channel": "The Prof G Pod \u2013 Scott Galloway",
+      "duration_minutes": 37,
+      "podcast_date": "2026-04-18",
+      "processing_date": "2024-04-18",
+      "one_line_summary": "Slowing labor market mobility, compounded by factors like AI and restrictive immigration policies, raises concerns about a potential recession.",
+      "core_claims": [
+        "AI is increasingly cited as a reason for planned layoffs.",
+        "Tightening immigration policies are impacting US labor market growth.",
+        "Consumer prices rose 3.3% year-over-year in March, the largest increase since 2024.",
+        "The labor market demonstrates a slowing of worker mobility and movement between jobs.",
+        "Health and education are the only sectors showing consistent strength in the job market.",
+        "Total jobs in the US economy have plateaued, a historically unprecedented event."
+      ],
+      "signal_strength": 8,
+      "themes": [
+        "labor market",
+        "recession",
+        "ai",
+        "immigration",
+        "inflation",
+        "economic policy"
+      ],
+      "positioning_implication": "Exercise caution and diversify risk exposure, given the increasing vulnerability of the labor market and the potential for a rapid economic downturn.",
+      "time_horizon": "medium",
+      "shelf_life": "Medium",
+      "thumbnail": "https://i.ytimg.com/vi/3PUQlFDyGXY/hqdefault.jpg",
+      "video_url": "https://www.youtube.com/watch?v=3PUQlFDyGXY",
+      "cluster_id": 2,
+      "category": "General Financial Investing and Speculation"
+    }
+  ],
+  "category_intelligence": {
+    "General Financial Investing and Speculation": {
+      "name": "General Financial Investing and Speculation",
+      "meta_summary": "",
+      "convergence_score": 0.0,
+      "percentile": 0.0,
+      "regime_state": "Neutral",
+      "clusters": [
+        {
+          "id": 1,
+          "name": "Equities: Pullback Pressure Intensifying",
+          "description": "The narrative suggests equity markets are nearing a correction as positive news is already priced in, increasing downside risk.",
+          "bias": "defensive",
+          "regime": "Accelerating",
+          "size": 2,
+          "strength": 1.4803706981945386,
+          "coherence": 0.7401853490972693,
+          "channels": [
+            "Verified Investing",
+            "TheTechnicalTraders"
+          ],
+          "avg_signal": 7.5,
+          "briefs": [
+            {
+              "episode_title": "Rally Of The Century Slams Parallel Channel, Extreme Bullish Sentiment A Warning",
+              "channel": "Verified Investing",
+              "duration_minutes": 18,
+              "podcast_date": "2026-04-18",
+              "processing_date": "2024-02-24",
+              "one_line_summary": "Equity markets have reached max upside targets; potential for pullback, caution advised on tech earnings, and oil price stability shifts market focus to economic data.",
+              "core_claims": [
+                "The Nasdaq has experienced 13 straight up days, while the S&P had 12 up days out of 13, marking unprecedented vertical rallies.",
+                "The S&P 500 has hit a major trendline resistance, potentially triggering a pullback early next week.",
+                "Oil prices collapsed over 10% following the reopening of the Strait of Hormuz.",
+                "Oil to remain sticky between $75-80 due to countries replenishing strategic reserves.",
+                "Every major tech stock that has reported earnings, besides Netflix, has experienced drops despite good results.",
+                "The Nasdaq has rallied 18% off the midpoint of a channel going back to the bull market high of 2021."
+              ],
+              "signal_strength": 8,
+              "themes": [
+                "market analysis",
+                "technical analysis",
+                "economic indicators",
+                "oil prices",
+                "earnings reports",
+                "pullback warning"
+              ],
+              "positioning_implication": "Reduce exposure in overbought equities and shift focus to economic indicators.  Monitor tech earnings closely for potential negative surprises, and prepare for a possible pullback in equity markets.",
+              "time_horizon": "short",
+              "shelf_life": "Short",
+              "thumbnail": "https://i.ytimg.com/vi/wWAQZL1a7CI/hqdefault.jpg",
+              "video_url": "https://www.youtube.com/watch?v=wWAQZL1a7CI",
+              "cluster_id": 1,
+              "category": "General Financial Investing and Speculation"
+            },
+            {
+              "episode_title": "Stock are on fire, and we have positive new today - Expect a Sell Off!",
+              "channel": "TheTechnicalTraders",
+              "duration_minutes": 14,
+              "podcast_date": "2026-04-18",
+              "processing_date": "2024-02-08",
+              "one_line_summary": "Equities are up sharply on positive news but a market pullback is expected as it is typically 'buy the rumor, sell the news'.",
+              "core_claims": [
+                "The Strait of Hormuz is completely open for commercial ships.",
+                "A significant cluster of intermediate cycle lows has turned into a bounce into a rally.",
+                "Potential for a 9% move to the first NASDAQ target based on Fibonacci extensions.",
+                "Potential for a 23% upside move for NASDAQ based on the next Fibonacci level.",
+                "Micro-caps and small caps are up about 1.5%, breaking out to all-time highs.",
+                "Good news piles people into the stock market creating FOMO even with some selling pressure."
+              ],
+              "signal_strength": 7,
+              "themes": [
+                "equities",
+                "market analysis",
+                "fibonacci",
+                "nasdaq",
+                "commodities",
+                "precious metals",
+                "market psychology"
+              ],
+              "positioning_implication": "Reduce exposure to equities in the short-term. Shift focus to potential pullback and reloading opportunities, particularly in metals if significant declines occur.",
+              "time_horizon": "short",
+              "shelf_life": "Short",
+              "thumbnail": "https://i.ytimg.com/vi/1TRlYrn0kAk/hqdefault.jpg",
+              "video_url": "https://www.youtube.com/watch?v=1TRlYrn0kAk",
+              "cluster_id": 1,
+              "category": "General Financial Investing and Speculation"
+            }
+          ]
+        },
+        {
+          "id": 0,
+          "name": "Fiscal Imbalance Eroding Petrodollar Stability",
+          "description": "US fiscal strain and geopolitical shifts threaten the petrodollar system, prompting resource reallocation and investment opportunities.",
+          "bias": "defensive",
+          "regime": "Accelerating",
+          "size": 2,
+          "strength": 1.2641267288386424,
+          "coherence": 0.6320633644193212,
+          "channels": [
+            "Felix & Friends (Goat Academy)",
+            "David Lin"
+          ],
+          "avg_signal": 8.5,
+          "briefs": [
+            {
+              "episode_title": "Economist Steve Hanke: This Will Bankrupt U.S.; Massive Inflation Next",
+              "channel": "David Lin",
+              "duration_minutes": 59,
+              "podcast_date": "2026-04-18",
+              "processing_date": "2024-05-01",
+              "one_line_summary": "US fiscal policy is imbalanced, leading to insolvency and deferred tax burdens amidst escalating war costs and supply constraints.",
+              "core_claims": [
+                "The US Treasury's financial statements reveal insolvency, with $6.1 trillion in assets against $136.2 trillion in liabilities.",
+                "Harvard projects the Iran war will cost upwards of $1 trillion, exacerbating US insolvency.",
+                "Fact-checkers' claims of ignorance regarding financial statements mask the fact that governmental liabilities have consistently exceeded assets.",
+                "The Trump administration's fiscal irresponsibility, leading to deficit spending, will force future generations to pay higher taxes.",
+                "Money supply increases, measured by M2, accelerate, leading to changes in inflation despite potential war and energy market volatility.",
+                "Current AI stock market hype is likely overdone, and the two corporations mentioned represent prime short opportunities."
+              ],
+              "signal_strength": 8,
+              "themes": [
+                "inflation",
+                "fiscal policy",
+                "national debt",
+                "geopolitics",
+                "economic forecasting",
+                "ai hype"
+              ],
+              "positioning_implication": "Anticipate increased market volatility due to geopolitical tensions and fiscal imbalances; reassess investments in companies benefiting solely from AI hype.",
+              "time_horizon": "medium",
+              "shelf_life": "Medium",
+              "thumbnail": "https://i.ytimg.com/vi/OhpPYvBqP88/hqdefault.jpg",
+              "video_url": "https://www.youtube.com/watch?v=OhpPYvBqP88",
+              "cluster_id": 0,
+              "category": "General Financial Investing and Speculation"
+            },
+            {
+              "episode_title": "The End of the Petrodollar \u2013 Most Aren't Ready",
+              "channel": "Felix & Friends (Goat Academy)",
+              "duration_minutes": 27,
+              "podcast_date": "2026-04-18",
+              "processing_date": "2024-05-03",
+              "one_line_summary": "The petrodollar system is ending, creating a three-phase wealth transfer involving resource reshuffling and potential opportunities in Cuba's mineral wealth.",
+              "core_claims": [
+                "The end of the petrodollar system will impact the value of the US dollar and stock values.",
+                "The US is shifting towards \"friend-shoring,\" regionalizing supply chains, and increasing energy independence.",
+                "Cuba holds significant mineral wealth, including cobalt and nickel, essential for future technologies, making it a strategic target for the US.",
+                "Currency shifts create the biggest wealth transfers in history.",
+                "US is now the largest oil exporter in the world, surpassing Saudi Arabia."
+              ],
+              "signal_strength": 9,
+              "themes": [
+                "geopolitics",
+                "economics",
+                "investment strategies",
+                "resource allocation",
+                "energy independence",
+                "cuban economy"
+              ],
+              "positioning_implication": "Shift investments to hard assets and industries benefiting from the new resource reshuffling, particularly those with exposure to Caribbean mineral wealth and infrastructure development.",
+              "time_horizon": "medium",
+              "shelf_life": "Medium",
+              "thumbnail": "https://i.ytimg.com/vi/4NuzBZRk4v8/hqdefault.jpg",
+              "video_url": "https://www.youtube.com/watch?v=4NuzBZRk4v8",
+              "cluster_id": 0,
+              "category": "General Financial Investing and Speculation"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "name": "Consumer Sentiment Intensifying Recession Risk",
+          "description": "Weakening consumer sentiment, exacerbated by labor market rigidities, increases downside risks to the economic outlook.",
+          "bias": "defensive",
+          "regime": "Accelerating",
+          "size": 2,
+          "strength": 1.379419797651316,
+          "coherence": 0.689709898825658,
+          "channels": [
+            "The Prof G Pod \u2013 Scott Galloway",
+            "David Lin"
+          ],
+          "avg_signal": 8.5,
+          "briefs": [
+            {
+              "episode_title": "Worst Consumer Sentiment In History: Why Now Is Worse Than 2008 | Joanne Hsu",
+              "channel": "David Lin",
+              "duration_minutes": 42,
+              "podcast_date": "2026-04-18",
+              "processing_date": "2026-04-18",
+              "one_line_summary": "Consumer sentiment is at a historic low due to persistent high prices and geopolitical instability, despite stock market rebounds.",
+              "core_claims": [
+                "The April preliminary consumer sentiment index is at 47.6, the lowest in the survey's 74-year history.",
+                "Consumers identify persistent high prices as the number one factor weighing on them.",
+                "Labor markets are not as dynamic or robust as in the immediate post-pandemic period; consumers are paying more attention to kitchen table issues.",
+                "Over two-thirds of consumers expect unemployment to rise in the next year, compared to half that at the beginning of 2025.",
+                "Even people who generally feel stronger about the economy felt worse about it after the start of the Middle East conflict."
+              ],
+              "signal_strength": 9,
+              "themes": [
+                "consumer sentiment",
+                "inflation",
+                "economic outlook",
+                "geopolitical risk",
+                "labor market",
+                "monetary policy"
+              ],
+              "positioning_implication": "Assess exposure to consumer-dependent sectors and potential impacts of geopolitical instability. Monitor supply chain vulnerabilities.",
+              "time_horizon": "medium",
+              "shelf_life": "Medium",
+              "thumbnail": "https://i.ytimg.com/vi/ZvhV7GzTZcc/hqdefault.jpg",
+              "video_url": "https://www.youtube.com/watch?v=ZvhV7GzTZcc",
+              "cluster_id": 2,
+              "category": "General Financial Investing and Speculation"
+            },
+            {
+              "episode_title": "Recession Watch: Why The Labor Market Is The Breaking Point | Prof G Markets",
+              "channel": "The Prof G Pod \u2013 Scott Galloway",
+              "duration_minutes": 37,
+              "podcast_date": "2026-04-18",
+              "processing_date": "2024-04-18",
+              "one_line_summary": "Slowing labor market mobility, compounded by factors like AI and restrictive immigration policies, raises concerns about a potential recession.",
+              "core_claims": [
+                "AI is increasingly cited as a reason for planned layoffs.",
+                "Tightening immigration policies are impacting US labor market growth.",
+                "Consumer prices rose 3.3% year-over-year in March, the largest increase since 2024.",
+                "The labor market demonstrates a slowing of worker mobility and movement between jobs.",
+                "Health and education are the only sectors showing consistent strength in the job market.",
+                "Total jobs in the US economy have plateaued, a historically unprecedented event."
+              ],
+              "signal_strength": 8,
+              "themes": [
+                "labor market",
+                "recession",
+                "ai",
+                "immigration",
+                "inflation",
+                "economic policy"
+              ],
+              "positioning_implication": "Exercise caution and diversify risk exposure, given the increasing vulnerability of the labor market and the potential for a rapid economic downturn.",
+              "time_horizon": "medium",
+              "shelf_life": "Medium",
+              "thumbnail": "https://i.ytimg.com/vi/3PUQlFDyGXY/hqdefault.jpg",
+              "video_url": "https://www.youtube.com/watch?v=3PUQlFDyGXY",
+              "cluster_id": 2,
+              "category": "General Financial Investing and Speculation"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "name": "Career Acceleration Intensifying Despite Family Tradeoffs",
+          "description": "This narrative highlights the intensifying pressure to prioritize career advancement, even with potential sacrifices in family life, alongside the transformative potential of GLP-1 drugs despite associated risks.",
+          "bias": "neutral",
+          "regime": "Emerging",
+          "size": 1,
+          "strength": 1.0,
+          "coherence": 1.0,
+          "channels": [
+            "The Prof G Pod \u2013 Scott Galloway"
+          ],
+          "avg_signal": 8.0,
+          "briefs": [
+            {
+              "episode_title": "The Real Downside of GLP-1 Drugs (And Why Scott's Still Bullish) | Office Hours",
+              "channel": "The Prof G Pod \u2013 Scott Galloway",
+              "duration_minutes": 27,
+              "podcast_date": "2026-04-18",
+              "processing_date": "2024-04-18",
+              "one_line_summary": "GLP-1 drugs are potentially revolutionary despite muscle loss risks, and prioritizing career acceleration in the late 30s is often optimal despite childcare tradeoffs.",
+              "core_claims": [
+                "25-39% of total weight loss on GLP-1s comes from lean mass, but this is similar to weight loss from regular calorie restriction.",
+                "An estimated 10 million Americans will be on GLP-1 treatment in 2025, up from 6 million in 2024 and 5 million in 2023, with projections reaching 25 million by 2030.",
+                "GLP-1s have registered meaningful reductions in cardiovascular events, fatty liver disease, sleep apnea, kidney disease, and addiction.",
+                "GLP-1 agonists might delay early-onset dementia.",
+                "If obesity rates were lowered from 70% to 30%, it could potentially reduce between one-third and one-half of the budget deficit.",
+                "Money lubricates a lot about raising children: tutors, athletics, healthcare."
+              ],
+              "signal_strength": 8,
+              "themes": [
+                "glp-1 drugs",
+                "weight loss",
+                "muscle mass",
+                "obesity",
+                "career",
+                "parenting",
+                "financial planning"
+              ],
+              "positioning_implication": "Acknowledge both the benefits and potential downsides of GLP-1 drugs, focusing on strategies for managing muscle loss. Prioritize career advancement in the late 30s to build financial security.",
+              "time_horizon": "medium",
+              "shelf_life": "Medium",
+              "thumbnail": "https://i.ytimg.com/vi/AeArFZbGIuE/hqdefault.jpg",
+              "video_url": "https://www.youtube.com/watch?v=AeArFZbGIuE",
+              "cluster_id": 3,
+              "category": "General Financial Investing and Speculation"
+            }
+          ]
+        }
+      ],
+      "should_generate": false
+    },
+    "Precious Metals": {
+      "name": "Precious Metals",
+      "meta_summary": "",
+      "convergence_score": 0.0,
+      "percentile": 0.0,
+      "regime_state": "Neutral",
+      "clusters": [
+        {
+          "id": 0,
+          "name": "Recession Risks Intensifying Market Fragility",
+          "description": "Markets are increasingly vulnerable as recession signals converge and underlying economic risks are ignored, creating a precarious investment landscape.",
+          "bias": "defensive",
+          "regime": "Accelerating",
+          "size": 2,
+          "strength": 1.4115093976446775,
+          "coherence": 0.7057546988223388,
+          "channels": [
+            "Commodity Culture",
+            "Miles Franklin Media"
+          ],
+          "avg_signal": 8.0,
+          "briefs": [
+            {
+              "episode_title": "Markets Are Too Optimistic: They\u2019re Ignoring the Risks That Matter | Chris Irons & Michelle Makori",
+              "channel": "Miles Franklin Media",
+              "duration_minutes": 50,
+              "podcast_date": "2026-04-18",
+              "processing_date": "2026-04-18",
+              "one_line_summary": "Markets are building on a weak foundation and are ignoring key risks like private credit, consumer spending, and the potential for deleveraging.",
+              "core_claims": [
+                "The market is priced as if the war is over and global relations are stable, but this is unlikely to be the case in the coming months.",
+                "The economic underbelly supporting the market is not healthy; credit delinquencies are rising, and this will eventually affect passive bidding.",
+                "Private credit is a 'deranged horrific sewer' of sociopaths all looking out for themselves, and psychology in private credit has already broken.",
+                "The market is not in the same state as it has been for the last 120 years due to changing market forces, increased debt, and limited liquidity.",
+                "Companies are carrying 'nuclear dog shit' on their balance sheets that is marked the complete wrong way.",
+                "Allocating a portfolio between gold and Bitcoin, a 90/10 split is more appropriate, gold being the larger share."
+              ],
+              "signal_strength": 8,
+              "themes": [
+                "market analysis",
+                "private credit",
+                "economic risks",
+                "investment strategy",
+                "gold",
+                "bitcoin",
+                "financial inequality"
+              ],
+              "positioning_implication": "Reduce exposure to private credit and speculative assets. Increase allocation to hard assets and defensive sectors with asymmetric upside.",
+              "time_horizon": "medium",
+              "shelf_life": "Medium",
+              "thumbnail": "https://i.ytimg.com/vi/vYWOt4rYHn0/hqdefault.jpg",
+              "video_url": "https://www.youtube.com/watch?v=vYWOt4rYHn0",
+              "cluster_id": 0,
+              "category": "Precious Metals"
+            },
+            {
+              "episode_title": "THESE Mining Stocks to Profit in Coming Crisis 'Worse Than Great Recession': Mining Stock Monkey",
+              "channel": "Commodity Culture",
+              "duration_minutes": 50,
+              "podcast_date": "2026-04-18",
+              "processing_date": "2026-04-18",
+              "one_line_summary": "Multiple indicators suggest a recession is likely, impacting investment strategy and asset allocation.",
+              "core_claims": [
+                "Record levels of credit card debt in the US, with the bottom 60% struggling, delinquencies and defaults increasing.",
+                "Buy Now Pay Later plans are nearing a trillion dollar mark and are increasingly used for necessities, potentially increasing delinquency rates.",
+                "Subprime auto loan delinquencies are at a 30-year high, worse than COVID and the Great Recession, driven by negative equity and bundling practices.",
+                "Consumer sentiment is at record lows, worse than COVID and the Great Recession, preceding decreased spending.",
+                "Student loan delinquency rates have jumped from 1% to 16%, with average payments expected to rise significantly, impacting prime borrowers and overall spending.",
+                "Royal Gold is likely to be the same size as Franco Nevada in 6 years, based on assets they already own."
+              ],
+              "signal_strength": 8,
+              "themes": [
+                "recession",
+                "credit markets",
+                "gold",
+                "mining stocks",
+                "consumer debt",
+                "auto loans",
+                "student loans",
+                "economic indicators"
+              ],
+              "positioning_implication": "Shift investment strategies to prioritize downside protection and consider royalty and streaming companies over producers as recession risks increase.",
+              "time_horizon": "short",
+              "shelf_life": "Medium",
+              "thumbnail": "https://i.ytimg.com/vi/f3B-1ZpV--8/hqdefault.jpg",
+              "video_url": "https://www.youtube.com/watch?v=f3B-1ZpV--8",
+              "cluster_id": 0,
+              "category": "Precious Metals"
+            }
+          ]
+        }
+      ],
+      "should_generate": false
+    },
+    "Artificial Intelligence": {
+      "name": "Artificial Intelligence",
+      "meta_summary": "",
+      "convergence_score": 0.0,
+      "percentile": 0.0,
+      "regime_state": "Neutral",
+      "clusters": [
+        {
+          "id": 0,
+          "name": "AI Coding: Abstraction Eroding Foundational Knowledge",
+          "description": "Highlights the tension between AI-driven coding practices and the need for developers to maintain a strong understanding of underlying code, suggesting potential risks associated with over-reliance on AI abstraction.",
+          "bias": "defensive",
+          "regime": "Accelerating",
+          "size": 2,
+          "strength": 1.3275742519484124,
+          "coherence": 0.6637871259742062,
+          "channels": [
+            "Matthew Berman"
+          ],
+          "avg_signal": 7.5,
+          "briefs": [
+            {
+              "episode_title": "I messed up...",
+              "channel": "Matthew Berman",
+              "duration_minutes": 20,
+              "podcast_date": "2026-04-18",
+              "processing_date": "2024-02-22",
+              "one_line_summary": "AI-driven coding practices can lead to unexpected costs and a decreased understanding of underlying code, necessitating a return to foundational knowledge.",
+              "core_claims": [
+                "Vercel defaulted to the highest cost machine and settings, leading to an $800 bill in two weeks.",
+                "Switching from the default 'turbo build machine' to 'elastic' reduced per-minute build costs from 12.5 cents to 0.3 cents.",
+                "Disabling 'on-demand concurrent builds' and switching to sequential builds significantly lowered expenses.",
+                "Build times were reduced from over 3 minutes to approximately 1 minute by optimizing build settings.",
+                "Anthropics' Claude team and founder of OpenClaw now ship code without reading it.",
+                "Anthropics shipped 13 features in two weeks, nearly one per day, exceeding other AI developers speed.",
+                "New versions of Cursor and Codex deemphasize code viewing, prioritizing chat interfaces and final product views."
+              ],
+              "signal_strength": 8,
+              "themes": [
+                "ai coding",
+                "cost optimization",
+                "software development",
+                "platform risk",
+                "abstraction",
+                "generative ai"
+              ],
+              "positioning_implication": "Re-evaluate default configurations and costs associated with AI-assisted development platforms, as well as the platform dependencies to mitigate potential risks and ensure cost efficiency.  Prioritize understanding fundamental coding principles despite AI assistance to maintain control and avoid unexpected outcomes.",
+              "time_horizon": "medium",
+              "shelf_life": "Medium",
+              "thumbnail": "https://i.ytimg.com/vi/XG3ksRWsUJ8/hqdefault.jpg",
+              "video_url": "https://www.youtube.com/watch?v=XG3ksRWsUJ8",
+              "cluster_id": 0,
+              "category": "Artificial Intelligence"
+            },
+            {
+              "episode_title": "Seeing if Opus 4.7 sucks [LIVE]",
+              "channel": "Matthew Berman",
+              "duration_minutes": 65,
+              "podcast_date": "2026-04-18",
+              "processing_date": "2026-04-18",
+              "one_line_summary": "Opus 4.7 impressions and agent-oriented internet service deployment.",
+              "core_claims": [
+                "Anthropic strategically limits cyber security code generation capabilities in their models.",
+                "Open source models like Gemma4 have surpassed commercial models in specific use cases.",
+                "Anthropic is excelling at marketing by rapidly releasing features and engaging with social media, affecting competitor stock prices.",
+                "The internet is evolving towards an agent-first paradigm, requiring services to be built for AI agent accessibility."
+              ],
+              "signal_strength": 7,
+              "themes": [
+                "ai agents",
+                "frontier models",
+                "marketing strategy",
+                "cybersecurity",
+                "open source",
+                "SaaS",
+                "product development",
+                "internet evolution"
+              ],
+              "positioning_implication": "Re-evaluate service offerings to accommodate agent-based integration; prioritize API-driven functionality and anticipate significant competitive shifts in the AI tool landscape.",
+              "time_horizon": "medium",
+              "shelf_life": "Medium",
+              "thumbnail": "https://i.ytimg.com/vi/JyvKwKMS6SU/hqdefault.jpg",
+              "video_url": "https://www.youtube.com/watch?v=JyvKwKMS6SU",
+              "cluster_id": 0,
+              "category": "Artificial Intelligence"
+            }
+          ]
+        },
+        {
+          "id": 1,
+          "name": "AI Memory Vendor Lock-in Intensifying",
+          "description": "AI memory systems are creating vendor lock-in via context accumulation, hindering user mobility and optionality.",
+          "bias": "defensive",
+          "regime": "Emerging",
+          "size": 1,
+          "strength": 1.0,
+          "coherence": 1.0,
+          "channels": [
+            "AI News & Strategy Daily | Nate B Jones"
+          ],
+          "avg_signal": 9.0,
+          "briefs": [
+            {
+              "episode_title": "Anthropic And OpenAI Are Fighting Over Your Memory. You're Going To Lose.",
+              "channel": "AI News & Strategy Daily | Nate B Jones",
+              "duration_minutes": 24,
+              "podcast_date": "2026-04-18",
+              "processing_date": "2024-05-03",
+              "one_line_summary": "AI memory systems are creating vendor lock-in via context accumulation, hindering user mobility and optionality.",
+              "core_claims": [
+                "Enterprise workers will require \"bring your own context\" (BYOC) AI systems by 2026.",
+                "Consumer AI products benefit workers by retaining context from previous work, but this also makes them difficult to leave.",
+                "There are four layers to AI context: domain encoding, workflow calibration, behavioral relationship, and artifact/demonstrated capability."
+              ],
+              "signal_strength": 9,
+              "themes": [
+                "ai",
+                "memory",
+                "context",
+                "professional development",
+                "vendor lock-in",
+                "byoc"
+              ],
+              "positioning_implication": "Develop strategies to extract and port AI context to maintain optionality and prevent vendor lock-in.",
+              "time_horizon": "medium",
+              "shelf_life": "Medium",
+              "thumbnail": "https://i.ytimg.com/vi/4KAF72BTyCE/hqdefault.jpg",
+              "video_url": "https://www.youtube.com/watch?v=4KAF72BTyCE",
+              "cluster_id": 1,
+              "category": "Artificial Intelligence"
+            }
+          ]
+        }
+      ],
+      "should_generate": false
+    }
+  },
+  "clusters": []
+}
