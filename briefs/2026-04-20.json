@@ -1,0 +1,241 @@
+{
+  "date": "2026-04-20",
+  "briefs": [
+    {
+      "episode_title": "This Is What \"ALWAYS\" Happens Before Gold Explodes",
+      "channel": "Felix & Friends (Goat Academy)",
+      "duration_minutes": 35,
+      "podcast_date": "2026-04-20",
+      "processing_date": "2024-10-26",
+      "one_line_summary": "Four signals consistently precede significant gold price increases, and they are currently all flashing.",
+      "core_claims": [
+        "Gold's three biggest moves in the last century were preceded by the same four signals.",
+        "The first signal is government debt reaching a point where repayment is mathematically impossible.",
+        "The second signal is governments changing the rules, such as confiscating gold or forcing stablecoins to buy US debt.",
+        "The third signal is savings accounts losing money due to negative real interest rates.",
+        "The fourth signal is central banks buying gold.",
+        "US national debt is approaching $40 trillion, close to $300,000 per household, six times the average household income.",
+        "After Nixon ended the gold standard, the US dollar dropped 30% over the next decade, while gold went from $35 to $850.",
+        "After the 2008 .com bust, US debt doubled, and gold went from $250 to $1900."
+      ],
+      "signal_strength": 9,
+      "themes": [
+        "gold",
+        "economics",
+        "government debt",
+        "central banks",
+        "investment",
+        "financial crisis"
+      ],
+      "positioning_implication": "Consider diversifying into gold or gold mining stocks to hedge against potential currency devaluation and economic instability, understanding the inherent volatility.",
+      "time_horizon": "medium",
+      "shelf_life": "Medium",
+      "thumbnail": "https://i.ytimg.com/vi/1BFSr7mRb80/hqdefault.jpg",
+      "video_url": "https://www.youtube.com/watch?v=1BFSr7mRb80",
+      "cluster_id": 0,
+      "category": "General Financial Investing and Speculation"
+    },
+    {
+      "episode_title": "30% Of Canadians Can't Pay Bills As Crisis Hits, Population Shrinks | Darrell Bricker",
+      "channel": "David Lin",
+      "duration_minutes": 58,
+      "podcast_date": "2026-04-20",
+      "processing_date": "2026-04-20",
+      "one_line_summary": "Canadians face mounting financial pressures, with economic anxiety impacting optimism and national identity.",
+      "core_claims": [
+        "43% of Canadians report being within $200 of not being able to meet monthly financial obligations.",
+        "30% of Albertans say that they would vote for Alberta to become its own country in North America.",
+        "Four in ten Canadians aged 18-34 would vote to be American if asset conversion to USD was guaranteed.",
+        "Canadian view of the United States shifted from uncomfortable neighbor to perceiving them as a threat."
+      ],
+      "signal_strength": 8,
+      "themes": [
+        "economic anxiety",
+        "canadian identity",
+        "us relations",
+        "political polarization",
+        "cost of living"
+      ],
+      "positioning_implication": "Assess geopolitical and economic exposures in the Canadian market; re-evaluate partnership dependencies based on evolving national sentiment and potential market shifts.",
+      "time_horizon": "medium",
+      "shelf_life": "Medium",
+      "thumbnail": "https://i.ytimg.com/vi/1_Vc71TPA3w/hqdefault.jpg",
+      "video_url": "https://www.youtube.com/watch?v=1_Vc71TPA3w",
+      "cluster_id": 0,
+      "category": "General Financial Investing and Speculation"
+    },
+    {
+      "episode_title": "Miracle Turnaround? The US Industrial Economy Is Now Booming DESPITE High Oil Prices | Craig Fuller",
+      "channel": "Adam Taggart | Thoughtful Money\u00ae",
+      "duration_minutes": 53,
+      "podcast_date": "2026-04-20",
+      "processing_date": "2026-04-20",
+      "one_line_summary": "The US industrial economy is experiencing a renaissance, driven by domestic factors and tax incentives, despite high oil prices and geopolitical uncertainties.",
+      "core_claims": [
+        "Domestic freight market strength signals an industrial renaissance, with real volumes increasing in the freight industry.",
+        "Railroads report strong volumes, with shipments up 4.5% year-over-year, indicating a stable increase beyond just trucking data.",
+        "Car loads excluding coal are at their strongest level since March 2008, with chemical shipments at record highs, suggesting broad industrial activity.",
+        "American manufacturing is on track to enjoy its best markets in years, supported by data from multiple freight and supply chain sources.",
+        "Data centers are a primary contributor to the industrial surge, benefiting from tax benefits for companies investing in American-made goods.",
+        "Heavy-duty truck demand (Ford, General Motors) is at record levels, adding shifts and foregoing typical seasonal shutdowns, driven by bonus depreciation incentives."
+      ],
+      "signal_strength": 9,
+      "themes": [
+        "industrial renaissance",
+        "freight market",
+        "economic recovery",
+        "tax incentives",
+        "supply chain",
+        "energy sector"
+      ],
+      "positioning_implication": "Shift investment focus towards domestic industrial and manufacturing sectors, capitalizing on growth driven by policy and energy independence.  Monitor geopolitical events for potential disruptions but prioritize internal economic indicators.",
+      "time_horizon": "medium",
+      "shelf_life": "Medium",
+      "thumbnail": "https://i.ytimg.com/vi/Hbyj1M_XIW0/hqdefault.jpg",
+      "video_url": "https://www.youtube.com/watch?v=Hbyj1M_XIW0",
+      "cluster_id": 1,
+      "category": "General Financial Investing and Speculation"
+    }
+  ],
+  "category_intelligence": {
+    "General Financial Investing and Speculation": {
+      "name": "General Financial Investing and Speculation",
+      "meta_summary": "",
+      "convergence_score": 0.0,
+      "percentile": 0.0,
+      "regime_state": "Neutral",
+      "clusters": [
+        {
+          "id": 0,
+          "name": "Economic Anxiety Intensifying Gold's Appeal",
+          "description": "Mounting financial pressures and economic anxiety are converging with signals suggesting a potential surge in gold prices, driven by concerns about government debt and financial instability.",
+          "bias": "constructive",
+          "regime": "Accelerating",
+          "size": 2,
+          "strength": 1.1673351555483442,
+          "coherence": 0.5836675777741721,
+          "channels": [
+            "David Lin",
+            "Felix & Friends (Goat Academy)"
+          ],
+          "avg_signal": 8.5,
+          "briefs": [
+            {
+              "episode_title": "This Is What \"ALWAYS\" Happens Before Gold Explodes",
+              "channel": "Felix & Friends (Goat Academy)",
+              "duration_minutes": 35,
+              "podcast_date": "2026-04-20",
+              "processing_date": "2024-10-26",
+              "one_line_summary": "Four signals consistently precede significant gold price increases, and they are currently all flashing.",
+              "core_claims": [
+                "Gold's three biggest moves in the last century were preceded by the same four signals.",
+                "The first signal is government debt reaching a point where repayment is mathematically impossible.",
+                "The second signal is governments changing the rules, such as confiscating gold or forcing stablecoins to buy US debt.",
+                "The third signal is savings accounts losing money due to negative real interest rates.",
+                "The fourth signal is central banks buying gold.",
+                "US national debt is approaching $40 trillion, close to $300,000 per household, six times the average household income.",
+                "After Nixon ended the gold standard, the US dollar dropped 30% over the next decade, while gold went from $35 to $850.",
+                "After the 2008 .com bust, US debt doubled, and gold went from $250 to $1900."
+              ],
+              "signal_strength": 9,
+              "themes": [
+                "gold",
+                "economics",
+                "government debt",
+                "central banks",
+                "investment",
+                "financial crisis"
+              ],
+              "positioning_implication": "Consider diversifying into gold or gold mining stocks to hedge against potential currency devaluation and economic instability, understanding the inherent volatility.",
+              "time_horizon": "medium",
+              "shelf_life": "Medium",
+              "thumbnail": "https://i.ytimg.com/vi/1BFSr7mRb80/hqdefault.jpg",
+              "video_url": "https://www.youtube.com/watch?v=1BFSr7mRb80",
+              "cluster_id": 0,
+              "category": "General Financial Investing and Speculation"
+            },
+            {
+              "episode_title": "30% Of Canadians Can't Pay Bills As Crisis Hits, Population Shrinks | Darrell Bricker",
+              "channel": "David Lin",
+              "duration_minutes": 58,
+              "podcast_date": "2026-04-20",
+              "processing_date": "2026-04-20",
+              "one_line_summary": "Canadians face mounting financial pressures, with economic anxiety impacting optimism and national identity.",
+              "core_claims": [
+                "43% of Canadians report being within $200 of not being able to meet monthly financial obligations.",
+                "30% of Albertans say that they would vote for Alberta to become its own country in North America.",
+                "Four in ten Canadians aged 18-34 would vote to be American if asset conversion to USD was guaranteed.",
+                "Canadian view of the United States shifted from uncomfortable neighbor to perceiving them as a threat."
+              ],
+              "signal_strength": 8,
+              "themes": [
+                "economic anxiety",
+                "canadian identity",
+                "us relations",
+                "political polarization",
+                "cost of living"
+              ],
+              "positioning_implication": "Assess geopolitical and economic exposures in the Canadian market; re-evaluate partnership dependencies based on evolving national sentiment and potential market shifts.",
+              "time_horizon": "medium",
+              "shelf_life": "Medium",
+              "thumbnail": "https://i.ytimg.com/vi/1_Vc71TPA3w/hqdefault.jpg",
+              "video_url": "https://www.youtube.com/watch?v=1_Vc71TPA3w",
+              "cluster_id": 0,
+              "category": "General Financial Investing and Speculation"
+            }
+          ]
+        },
+        {
+          "id": 1,
+          "name": "Industrial Renaissance Accelerating Despite Headwinds",
+          "description": "The US industrial sector's growth is outpacing challenges from energy costs and global instability, fueled by internal investment and policy.",
+          "bias": "constructive",
+          "regime": "Emerging",
+          "size": 1,
+          "strength": 1.0,
+          "coherence": 1.0,
+          "channels": [
+            "Adam Taggart | Thoughtful Money\u00ae"
+          ],
+          "avg_signal": 9.0,
+          "briefs": [
+            {
+              "episode_title": "Miracle Turnaround? The US Industrial Economy Is Now Booming DESPITE High Oil Prices | Craig Fuller",
+              "channel": "Adam Taggart | Thoughtful Money\u00ae",
+              "duration_minutes": 53,
+              "podcast_date": "2026-04-20",
+              "processing_date": "2026-04-20",
+              "one_line_summary": "The US industrial economy is experiencing a renaissance, driven by domestic factors and tax incentives, despite high oil prices and geopolitical uncertainties.",
+              "core_claims": [
+                "Domestic freight market strength signals an industrial renaissance, with real volumes increasing in the freight industry.",
+                "Railroads report strong volumes, with shipments up 4.5% year-over-year, indicating a stable increase beyond just trucking data.",
+                "Car loads excluding coal are at their strongest level since March 2008, with chemical shipments at record highs, suggesting broad industrial activity.",
+                "American manufacturing is on track to enjoy its best markets in years, supported by data from multiple freight and supply chain sources.",
+                "Data centers are a primary contributor to the industrial surge, benefiting from tax benefits for companies investing in American-made goods.",
+                "Heavy-duty truck demand (Ford, General Motors) is at record levels, adding shifts and foregoing typical seasonal shutdowns, driven by bonus depreciation incentives."
+              ],
+              "signal_strength": 9,
+              "themes": [
+                "industrial renaissance",
+                "freight market",
+                "economic recovery",
+                "tax incentives",
+                "supply chain",
+                "energy sector"
+              ],
+              "positioning_implication": "Shift investment focus towards domestic industrial and manufacturing sectors, capitalizing on growth driven by policy and energy independence.  Monitor geopolitical events for potential disruptions but prioritize internal economic indicators.",
+              "time_horizon": "medium",
+              "shelf_life": "Medium",
+              "thumbnail": "https://i.ytimg.com/vi/Hbyj1M_XIW0/hqdefault.jpg",
+              "video_url": "https://www.youtube.com/watch?v=Hbyj1M_XIW0",
+              "cluster_id": 1,
+              "category": "General Financial Investing and Speculation"
+            }
+          ]
+        }
+      ],
+      "should_generate": false
+    }
+  },
+  "clusters": []
+}

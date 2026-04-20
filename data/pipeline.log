@@ -5579,3 +5579,69 @@
 2026-04-19 06:51:41,802 - INFO - ==================================================
 2026-04-19 06:51:41,802 - INFO - Pipeline Execution Complete
 2026-04-19 06:51:41,803 - INFO - ==================================================
+2026-04-20 07:04:38,903 - INFO - ==================================================
+2026-04-20 07:04:38,903 - INFO - Starting TheBrief Daily Pipeline
+2026-04-20 07:04:38,903 - INFO - ==================================================
+2026-04-20 07:04:38,903 - INFO - 
+--- Phase 1: Discovery ---
+2026-04-20 07:04:38,908 - INFO - Discovering videos published after 2026-04-19T07:04:38.908123+00:00 (24h lookback)
+2026-04-20 07:04:39,291 - INFO - Found 1 new potential videos on Bald Guy Money.
+2026-04-20 07:04:39,707 - INFO - Found 2 new potential videos on AI News & Strategy Daily | Nate B Jones.
+2026-04-20 07:04:39,721 - INFO - Found 1 new potential videos on TheTechnicalTraders.
+2026-04-20 07:04:39,771 - INFO - Found 1 new potential videos on David Lin .
+2026-04-20 07:04:39,977 - INFO - Found 1 new potential videos on Felix & Friends (Goat Academy).
+2026-04-20 07:04:40,139 - INFO - Found 1 new potential videos on Adam Taggart | Thoughtful Money®.
+2026-04-20 07:04:40,472 - INFO - Found 5 total long-form videos across all channels.
+2026-04-20 07:04:40,486 - INFO - Discovery complete. Added 5 new videos to queue.
+2026-04-20 07:04:40,486 - INFO - 
+--- Phase 2: Extraction ---
+2026-04-20 07:04:40,743 - INFO - yt-dlp version: 2026.03.17
+2026-04-20 07:04:41,111 - INFO - POT-related packages: bgutil-ytdlp-pot-provider 1.3.1
+2026-04-20 07:04:41,134 - INFO - bgutil HTTP server not available on port 4416 (will rely on cookies)
+2026-04-20 07:04:41,134 - INFO - Extracting audio for 30% Of Canadians Can't Pay Bills As Crisis Hits, Population Shrinks | Darrell Bricker (1_Vc71TPA3w)...
+2026-04-20 07:05:06,020 - INFO - Successfully extracted: audio/1_Vc71TPA3w.mp3
+2026-04-20 07:05:14,847 - INFO - Extracting audio for Block Laid Off Half Its Company for AI. AI Can't Do the Job. (fm6mYqFAM5c)...
+2026-04-20 07:05:29,666 - INFO - Successfully extracted: audio/fm6mYqFAM5c.mp3
+2026-04-20 07:05:41,191 - INFO - Extracting audio for Miracle Turnaround? The US Industrial Economy Is Now Booming DESPITE High Oil Prices | Craig Fuller (Hbyj1M_XIW0)...
+2026-04-20 07:06:20,281 - INFO - Successfully extracted: audio/Hbyj1M_XIW0.mp3
+2026-04-20 07:06:31,093 - INFO - Extracting audio for This Indicator Is Saying Gold & Silver Are Headed Up Soon! (fIvJpfZY1G8)...
+2026-04-20 07:06:44,067 - INFO - Successfully extracted: audio/fIvJpfZY1G8.mp3
+2026-04-20 07:06:51,827 - INFO - Extracting audio for This Is What "ALWAYS" Happens Before Gold Explodes (1BFSr7mRb80)...
+2026-04-20 07:07:05,343 - INFO - Successfully extracted: audio/1BFSr7mRb80.mp3
+2026-04-20 07:07:05,344 - INFO - Extraction complete. 5/5 audio files ready. (Time: 144.2s)
+2026-04-20 07:07:05,344 - INFO - 
+--- Phase 3: Summarization (Direct Audio) ---
+2026-04-20 07:07:06,661 - INFO - Generating Brief for Block Laid Off Half Its Company for AI. AI Can't Do the Job. (fm6mYqFAM5c)...
+2026-04-20 07:07:06,663 - INFO - AFC is enabled with max remote calls: 10.
+2026-04-20 07:07:06,876 - INFO - Generating Brief for 30% Of Canadians Can't Pay Bills As Crisis Hits, Population Shrinks | Darrell Bricker (1_Vc71TPA3w)...
+2026-04-20 07:07:06,877 - INFO - AFC is enabled with max remote calls: 10.
+2026-04-20 07:07:07,020 - INFO - Generating Brief for Miracle Turnaround? The US Industrial Economy Is Now Booming DESPITE High Oil Prices | Craig Fuller (Hbyj1M_XIW0)...
+2026-04-20 07:07:07,021 - INFO - AFC is enabled with max remote calls: 10.
+2026-04-20 07:07:07,308 - ERROR - Error summarising audio Block Laid Off Half Its Company for AI. AI Can't Do the Job.: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more details.', 'status': 'RESOURCE_EXHAUSTED'}}
+2026-04-20 07:07:08,671 - INFO - Generating Brief for This Indicator Is Saying Gold & Silver Are Headed Up Soon! (fIvJpfZY1G8)...
+2026-04-20 07:07:08,672 - INFO - AFC is enabled with max remote calls: 10.
+2026-04-20 07:07:09,965 - ERROR - Error summarising audio This Indicator Is Saying Gold & Silver Are Headed Up Soon!: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more details.', 'status': 'RESOURCE_EXHAUSTED'}}
+2026-04-20 07:07:11,650 - INFO - Generating Brief for This Is What "ALWAYS" Happens Before Gold Explodes (1BFSr7mRb80)...
+2026-04-20 07:07:11,651 - INFO - AFC is enabled with max remote calls: 10.
+2026-04-20 07:07:18,673 - INFO - ✅ Brief successfully generated for This Is What "ALWAYS" Happens Before Gold Explodes
+2026-04-20 07:07:26,999 - INFO - ✅ Brief successfully generated for 30% Of Canadians Can't Pay Bills As Crisis Hits, Population Shrinks | Darrell Bricker
+2026-04-20 07:07:35,303 - INFO - ✅ Brief successfully generated for Miracle Turnaround? The US Industrial Economy Is Now Booming DESPITE High Oil Prices | Craig Fuller
+2026-04-20 07:07:35,304 - INFO - --- Phase 3: Category Synthesis (3 assets across categories) ---
+2026-04-20 07:07:35,304 - INFO - Analyzing 1 categories: General Financial Investing and Speculation
+2026-04-20 07:07:35,304 - INFO - Processing Synthesis for sector: General Financial Investing and Speculation (3 assets)...
+2026-04-20 07:07:35,332 - INFO - AFC is enabled with max remote calls: 10.
+2026-04-20 07:07:35,500 - INFO - Retrying google.genai._api_client.BaseApiClient._request_once in 1.78 seconds as it raised ClientError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more details.', 'status': 'RESOURCE_EXHAUSTED'}}.
+2026-04-20 07:07:37,414 - INFO - Retrying google.genai._api_client.BaseApiClient._request_once in 2.23 seconds as it raised ClientError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more details.', 'status': 'RESOURCE_EXHAUSTED'}}.
+2026-04-20 07:07:39,789 - INFO - Retrying google.genai._api_client.BaseApiClient._request_once in 4.76 seconds as it raised ClientError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more details.', 'status': 'RESOURCE_EXHAUSTED'}}.
+2026-04-20 07:07:44,683 - INFO - Retrying google.genai._api_client.BaseApiClient._request_once in 8.06 seconds as it raised ClientError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more details.', 'status': 'RESOURCE_EXHAUSTED'}}.
+2026-04-20 07:07:52,869 - INFO - Retrying google.genai._api_client.BaseApiClient._request_once in 16.5 seconds as it raised ClientError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more details.', 'status': 'RESOURCE_EXHAUSTED'}}.
+2026-04-20 07:08:10,217 - INFO - AFC is enabled with max remote calls: 10.
+2026-04-20 07:08:10,466 - INFO - Retrying google.genai._api_client.BaseApiClient._request_once in 1.98 seconds as it raised ClientError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more details.', 'status': 'RESOURCE_EXHAUSTED'}}.
+2026-04-20 07:08:13,262 - INFO - ✅ Synthesis complete for General Financial Investing and Speculation
+2026-04-20 07:08:13,270 - INFO - Summarization complete. 3 briefs written to briefs/2026-04-20.md (Time: 67.9s)
+2026-04-20 07:08:14,100 - INFO - Email digest sent successfully to kwilliamson.mail@gmail.com.
+2026-04-20 07:08:14,535 - INFO - Email digest sent successfully to kochava72@gmail.com.
+2026-04-20 07:08:14,546 - INFO - Queue cleared.
+2026-04-20 07:08:14,546 - INFO - ==================================================
+2026-04-20 07:08:14,546 - INFO - Pipeline Execution Complete
+2026-04-20 07:08:14,546 - INFO - ==================================================
