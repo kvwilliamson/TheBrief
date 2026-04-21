@@ -5645,3 +5645,87 @@
 2026-04-20 07:08:14,546 - INFO - ==================================================
 2026-04-20 07:08:14,546 - INFO - Pipeline Execution Complete
 2026-04-20 07:08:14,546 - INFO - ==================================================
+2026-04-21 06:54:42,621 - INFO - ==================================================
+2026-04-21 06:54:42,621 - INFO - Starting TheBrief Daily Pipeline
+2026-04-21 06:54:42,621 - INFO - ==================================================
+2026-04-21 06:54:42,621 - INFO - 
+--- Phase 1: Discovery ---
+2026-04-21 06:54:42,625 - INFO - Discovering videos published after 2026-04-20T06:54:42.625556+00:00 (24h lookback)
+2026-04-21 06:54:43,045 - INFO - Found 1 new potential videos on Wall Street Bullion .
+2026-04-21 06:54:43,063 - INFO - Found 1 new potential videos on Kitco NEWS.
+2026-04-21 06:54:43,485 - INFO - Found 1 new potential videos on David Lin .
+2026-04-21 06:54:43,608 - INFO - Found 2 new potential videos on AI News & Strategy Daily | Nate B Jones.
+2026-04-21 06:54:43,825 - INFO - Found 1 new potential videos on Felix & Friends (Goat Academy).
+2026-04-21 06:54:43,994 - INFO - Found 1 new potential videos on Miles Franklin Media.
+2026-04-21 06:54:44,087 - INFO - Found 5 new potential videos on Verified Investing.
+2026-04-21 06:54:44,287 - INFO - Found 1 new potential videos on Wes Roth.
+2026-04-21 06:54:44,396 - INFO - Found 3 new potential videos on The Prof G Pod – Scott Galloway.
+2026-04-21 06:54:44,587 - INFO - Found 11 total long-form videos across all channels.
+2026-04-21 06:54:44,606 - INFO - Discovery complete. Added 11 new videos to queue.
+2026-04-21 06:54:44,607 - INFO - 
+--- Phase 2: Extraction ---
+2026-04-21 06:54:44,845 - INFO - yt-dlp version: 2026.03.17
+2026-04-21 06:54:45,186 - INFO - POT-related packages: bgutil-ytdlp-pot-provider 1.3.1
+2026-04-21 06:54:45,209 - INFO - bgutil HTTP server not available on port 4416 (will rely on cookies)
+2026-04-21 06:54:45,209 - INFO - Extracting audio for OpenAI's GPT 5.5 is wild... (hrIY-clbdg8)...
+2026-04-21 06:55:00,946 - INFO - Successfully extracted: audio/hrIY-clbdg8.mp3
+2026-04-21 06:55:10,767 - INFO - Extracting audio for While the World Focuses on War… the Future of Your Money Is Being Decided (1BaWlkszPUs)...
+2026-04-21 06:55:19,573 - INFO - Successfully extracted: audio/1BaWlkszPUs.mp3
+2026-04-21 06:55:28,125 - INFO - Extracting audio for HARDWARE OVER SOFTWARE: Leading Indicator Nears Channel Top (PemNDEuu5yA)...
+2026-04-21 06:55:42,409 - INFO - Successfully extracted: audio/PemNDEuu5yA.mp3
+2026-04-21 06:55:49,186 - INFO - Extracting audio for $300 Silver Price IS COMING! SILVER SQUEEZE IS BACK (ToqhgoLFoGs)...
+2026-04-21 06:56:00,591 - INFO - Successfully extracted: audio/ToqhgoLFoGs.mp3
+2026-04-21 06:56:09,423 - INFO - Extracting audio for Will Gold's Rally Hold Or Crash Next? Trader Reveals New Targets | Gary Wagner (j4LJ6O1Tdfg)...
+2026-04-21 06:56:29,189 - INFO - Successfully extracted: audio/j4LJ6O1Tdfg.mp3
+2026-04-21 06:56:40,463 - INFO - Extracting audio for SPX Pullback & Oil Surge: Trade Opportunities on Technology Stocks (pSYrL_51Jrk)...
+2026-04-21 06:56:55,601 - INFO - Successfully extracted: audio/pSYrL_51Jrk.mp3
+2026-04-21 06:57:05,130 - INFO - Extracting audio for Why the SpaceX IPO Doesn't Add Up | Office Hours (yAx8Kj9TR7Y)...
+2026-04-21 06:57:20,658 - INFO - Successfully extracted: audio/yAx8Kj9TR7Y.mp3
+2026-04-21 06:57:30,556 - INFO - Extracting audio for Nobody Knows What You're Worth Anymore | The AI Job Market Reality (-dJ9WrTG6zQ)...
+2026-04-21 06:57:44,857 - INFO - Successfully extracted: audio/-dJ9WrTG6zQ.mp3
+2026-04-21 06:57:55,544 - INFO - Extracting audio for 🚨 S&P 500 Hits 6-Year Resistance Amid Strait of Hormuz Chaos! (Semi Top Warning + BTC $80K) (o38YpwXmFXA)...
+2026-04-21 06:58:10,825 - INFO - Successfully extracted: audio/o38YpwXmFXA.mp3
+2026-04-21 06:58:17,957 - INFO - Extracting audio for The UNTHINKABLE is about to happen to STOCKS (& Why the War is the Trigger) (-mXH8a9DEAQ)...
+2026-04-21 06:58:35,730 - INFO - Successfully extracted: audio/-mXH8a9DEAQ.mp3
+2026-04-21 06:58:45,115 - INFO - Extracting audio for S&P and Nasdaq Hit Record Highs as Investors Look Past War | Prof G Markets (R7XOpYuToNI)...
+2026-04-21 06:58:57,370 - INFO - Successfully extracted: audio/R7XOpYuToNI.mp3
+2026-04-21 06:58:57,371 - INFO - Extraction complete. 11/11 audio files ready. (Time: 252.2s)
+2026-04-21 06:58:57,371 - INFO - 
+--- Phase 3: Summarization (Direct Audio) ---
+2026-04-21 06:58:58,733 - INFO - Generating Brief for HARDWARE OVER SOFTWARE: Leading Indicator Nears Channel Top (PemNDEuu5yA)...
+2026-04-21 06:58:58,735 - INFO - AFC is enabled with max remote calls: 10.
+2026-04-21 06:58:59,238 - INFO - Generating Brief for OpenAI's GPT 5.5 is wild... (hrIY-clbdg8)...
+2026-04-21 06:58:59,239 - INFO - AFC is enabled with max remote calls: 10.
+2026-04-21 06:58:59,241 - INFO - Generating Brief for While the World Focuses on War… the Future of Your Money Is Being Decided (1BaWlkszPUs)...
+2026-04-21 06:58:59,242 - INFO - AFC is enabled with max remote calls: 10.
+2026-04-21 06:58:59,867 - ERROR - Error summarising audio While the World Focuses on War… the Future of Your Money Is Being Decided: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more details.', 'status': 'RESOURCE_EXHAUSTED'}}
+2026-04-21 06:59:00,067 - ERROR - Error summarising audio HARDWARE OVER SOFTWARE: Leading Indicator Nears Channel Top: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more details.', 'status': 'RESOURCE_EXHAUSTED'}}
+2026-04-21 06:59:00,182 - ERROR - Error summarising audio OpenAI's GPT 5.5 is wild...: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more details.', 'status': 'RESOURCE_EXHAUSTED'}}
+2026-04-21 06:59:01,498 - INFO - Generating Brief for $300 Silver Price IS COMING! SILVER SQUEEZE IS BACK (ToqhgoLFoGs)...
+2026-04-21 06:59:01,499 - INFO - AFC is enabled with max remote calls: 10.
+2026-04-21 06:59:02,000 - INFO - Generating Brief for SPX Pullback & Oil Surge: Trade Opportunities on Technology Stocks (pSYrL_51Jrk)...
+2026-04-21 06:59:02,001 - INFO - AFC is enabled with max remote calls: 10.
+2026-04-21 06:59:02,240 - ERROR - Error summarising audio $300 Silver Price IS COMING! SILVER SQUEEZE IS BACK: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more details.', 'status': 'RESOURCE_EXHAUSTED'}}
+2026-04-21 06:59:02,253 - INFO - Generating Brief for Will Gold's Rally Hold Or Crash Next? Trader Reveals New Targets | Gary Wagner (j4LJ6O1Tdfg)...
+2026-04-21 06:59:02,254 - INFO - AFC is enabled with max remote calls: 10.
+2026-04-21 06:59:02,749 - ERROR - Error summarising audio SPX Pullback & Oil Surge: Trade Opportunities on Technology Stocks: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more details.', 'status': 'RESOURCE_EXHAUSTED'}}
+2026-04-21 06:59:03,791 - INFO - Generating Brief for Why the SpaceX IPO Doesn't Add Up | Office Hours (yAx8Kj9TR7Y)...
+2026-04-21 06:59:03,792 - INFO - AFC is enabled with max remote calls: 10.
+2026-04-21 06:59:04,493 - ERROR - Error summarising audio Why the SpaceX IPO Doesn't Add Up | Office Hours: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more details.', 'status': 'RESOURCE_EXHAUSTED'}}
+2026-04-21 06:59:04,615 - INFO - Generating Brief for Nobody Knows What You're Worth Anymore | The AI Job Market Reality (-dJ9WrTG6zQ)...
+2026-04-21 06:59:04,616 - INFO - AFC is enabled with max remote calls: 10.
+2026-04-21 06:59:05,504 - ERROR - Error summarising audio Nobody Knows What You're Worth Anymore | The AI Job Market Reality: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more details.', 'status': 'RESOURCE_EXHAUSTED'}}
+2026-04-21 06:59:06,619 - INFO - Generating Brief for 🚨 S&P 500 Hits 6-Year Resistance Amid Strait of Hormuz Chaos! (Semi Top Warning + BTC $80K) (o38YpwXmFXA)...
+2026-04-21 06:59:06,620 - INFO - AFC is enabled with max remote calls: 10.
+2026-04-21 06:59:07,449 - ERROR - Error summarising audio 🚨 S&P 500 Hits 6-Year Resistance Amid Strait of Hormuz Chaos! (Semi Top Warning + BTC $80K): 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more details.', 'status': 'RESOURCE_EXHAUSTED'}}
+2026-04-21 06:59:07,981 - INFO - Generating Brief for The UNTHINKABLE is about to happen to STOCKS (& Why the War is the Trigger) (-mXH8a9DEAQ)...
+2026-04-21 06:59:07,982 - INFO - AFC is enabled with max remote calls: 10.
+2026-04-21 06:59:08,909 - ERROR - Error summarising audio The UNTHINKABLE is about to happen to STOCKS (& Why the War is the Trigger): 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more details.', 'status': 'RESOURCE_EXHAUSTED'}}
+2026-04-21 06:59:09,259 - INFO - Generating Brief for S&P and Nasdaq Hit Record Highs as Investors Look Past War | Prof G Markets (R7XOpYuToNI)...
+2026-04-21 06:59:09,260 - INFO - AFC is enabled with max remote calls: 10.
+2026-04-21 06:59:09,999 - ERROR - Error summarising audio S&P and Nasdaq Hit Record Highs as Investors Look Past War | Prof G Markets: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more details.', 'status': 'RESOURCE_EXHAUSTED'}}
+2026-04-21 06:59:12,526 - ERROR - Schema parsing error for Will Gold's Rally Hold Or Crash Next? Trader Reveals New Targets | Gary Wagner: Expecting value: line 1 column 887 (char 886)
+2026-04-21 06:59:12,917 - WARNING - No briefs were successfully generated.
+2026-04-21 06:59:12,917 - INFO - ==================================================
+2026-04-21 06:59:12,918 - INFO - Pipeline Execution Complete
+2026-04-21 06:59:12,918 - INFO - ==================================================
