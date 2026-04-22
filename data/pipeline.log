@@ -5729,3 +5729,158 @@
 2026-04-21 06:59:12,917 - INFO - ==================================================
 2026-04-21 06:59:12,918 - INFO - Pipeline Execution Complete
 2026-04-21 06:59:12,918 - INFO - ==================================================
+2026-04-22 06:54:09,498 - INFO - ==================================================
+2026-04-22 06:54:09,498 - INFO - Starting TheBrief Daily Pipeline
+2026-04-22 06:54:09,498 - INFO - ==================================================
+2026-04-22 06:54:09,498 - INFO - 
+--- Phase 1: Discovery ---
+2026-04-22 06:54:09,502 - INFO - Discovering videos published after 2026-04-21T06:54:09.502266+00:00 (24h lookback)
+2026-04-22 06:54:10,141 - INFO - Found 1 new potential videos on Wall Street Bullion .
+2026-04-22 06:54:10,283 - INFO - Found 2 new potential videos on AI News & Strategy Daily | Nate B Jones.
+2026-04-22 06:54:10,350 - INFO - Found 2 new potential videos on GoldSilver .
+2026-04-22 06:54:10,376 - INFO - Found 2 new potential videos on David Lin .
+2026-04-22 06:54:10,467 - INFO - Found 1 new potential videos on Clive Thompson.
+2026-04-22 06:54:10,662 - INFO - Found 1 new potential videos on TheTechnicalTraders.
+2026-04-22 06:54:10,971 - INFO - Found 4 new potential videos on Verified Investing.
+2026-04-22 06:54:10,977 - INFO - Found 2 new potential videos on Adam Taggart | Thoughtful Money®.
+2026-04-22 06:54:11,127 - INFO - Found 1 new potential videos on CPM Group.
+2026-04-22 06:54:11,263 - INFO - Found 2 new potential videos on Matthew Berman.
+2026-04-22 06:54:11,331 - INFO - Found 2 new potential videos on Wes Roth.
+2026-04-22 06:54:11,394 - INFO - Found 2 new potential videos on The Prof G Pod – Scott Galloway.
+2026-04-22 06:54:11,577 - INFO - Found 17 total long-form videos across all channels.
+2026-04-22 06:54:11,601 - INFO - Discovery complete. Added 17 new videos to queue.
+2026-04-22 06:54:11,601 - INFO - 
+--- Phase 2: Extraction ---
+2026-04-22 06:54:11,822 - INFO - yt-dlp version: 2026.03.17
+2026-04-22 06:54:12,130 - INFO - POT-related packages: bgutil-ytdlp-pot-provider 1.3.1
+2026-04-22 06:54:12,153 - INFO - bgutil HTTP server not available on port 4416 (will rely on cookies)
+2026-04-22 06:54:12,154 - INFO - Extracting audio for OpenAI's new Image 2 model is just the beginning... (ITT9xWeicWM)...
+2026-04-22 06:54:28,695 - INFO - Successfully extracted: audio/ITT9xWeicWM.mp3
+2026-04-22 06:54:36,802 - INFO - Extracting audio for ChatGPT Image 2 just dropped... (WOAH) (uvdRGC4cFhY)...
+2026-04-22 06:54:49,442 - INFO - Successfully extracted: audio/uvdRGC4cFhY.mp3
+2026-04-22 06:55:00,981 - INFO - Extracting audio for MARKET EXHAUSTION: Indices Grind Lower as Geopolitics Heat Up (fdfp_ZNIS1o)...
+2026-04-22 06:55:17,908 - INFO - Successfully extracted: audio/fdfp_ZNIS1o.mp3
+2026-04-22 06:55:28,043 - INFO - Extracting audio for Fed’s Next Move Revealed: When Is Rate Cut Coming? | Axel Merk (qKPAP3rV89s)...
+2026-04-22 06:55:51,588 - INFO - Successfully extracted: audio/qKPAP3rV89s.mp3
+2026-04-22 06:56:01,895 - INFO - Extracting audio for Introducing ChatGPT Images 2.0 (i6WQdQsE0kc)...
+2026-04-22 06:56:42,696 - INFO - Successfully extracted: audio/i6WQdQsE0kc.mp3
+2026-04-22 06:56:52,092 - INFO - Extracting audio for GPT Image 2, AI Psychosis, and more (0yTL0LBjj-g)...
+2026-04-22 06:58:15,941 - INFO - Successfully extracted: audio/0yTL0LBjj-g.mp3
+2026-04-22 06:58:24,046 - INFO - Extracting audio for Gold and Silver Price Consolidate: Setup for the Next Surge? (tkyaX3nnfJc)...
+2026-04-22 06:58:38,672 - INFO - Successfully extracted: audio/tkyaX3nnfJc.mp3
+2026-04-22 06:58:44,980 - INFO - Extracting audio for What Finally Breaks The Dollar? Currencies Don't Last Forever Warns Economist | Barry Eichengreen (xdzHrtRqQCA)...
+2026-04-22 06:59:07,057 - INFO - Successfully extracted: audio/xdzHrtRqQCA.mp3
+2026-04-22 06:59:18,659 - INFO - Extracting audio for 🔥 $300 Silver Price IS COMING! Here’s the SHOCKING Reason Why! (QJM7NYVRa2U)...
+2026-04-22 06:59:30,293 - INFO - Successfully extracted: audio/QJM7NYVRa2U.mp3
+2026-04-22 06:59:36,295 - INFO - Extracting audio for MARKET OVEREXTENDED: Why I’m Shorting These 3 Stocks Right Now (9gZkMjJ1wnE)...
+2026-04-22 06:59:49,599 - INFO - Successfully extracted: audio/9gZkMjJ1wnE.mp3
+2026-04-22 06:59:56,142 - INFO - Extracting audio for Why Gold Could Beat Stocks From Here (WGuWs95MGX8)...
+2026-04-22 07:00:06,394 - INFO - Successfully extracted: audio/WGuWs95MGX8.mp3
+2026-04-22 07:00:14,634 - INFO - Extracting audio for Stagflation Dead Ahead! | Chance Finucane, @OxbowAdvisors (gmS95ky6RK4)...
+2026-04-22 07:00:50,743 - INFO - Successfully extracted: audio/gmS95ky6RK4.mp3
+2026-04-22 07:00:59,218 - INFO - Extracting audio for Your Prompts Didn't Change. Opus 4.7 Did. (tJB_8mfRgCo)...
+2026-04-22 07:01:27,702 - INFO - Successfully extracted: audio/tJB_8mfRgCo.mp3
+2026-04-22 07:01:34,495 - INFO - Extracting audio for Market Update: Long stocks here till they top. Metals at resisatnce, dollar at support. (q9QVRllyb08)...
+2026-04-22 07:01:44,728 - INFO - Successfully extracted: audio/q9QVRllyb08.mp3
+2026-04-22 07:01:52,778 - INFO - Extracting audio for WARNING: Extreme Market FOMO While Fundamentals Crumble! Investors Sitting Ducks (uNYWP6MfL8A)...
+2026-04-22 07:02:06,357 - INFO - Successfully extracted: audio/uNYWP6MfL8A.mp3
+2026-04-22 07:02:13,197 - INFO - Extracting audio for Tuesday, April 21 Financial Update. The case for silver, a compelling asset in your portfolio. (gC7CS79SWk0)...
+2026-04-22 07:02:35,179 - INFO - Successfully extracted: audio/gC7CS79SWk0.mp3
+2026-04-22 07:02:42,703 - INFO - Extracting audio for The Hidden Engine of China’s AI Boom | China Decode (uTo0q4NBPQc)...
+2026-04-22 07:03:07,587 - INFO - Successfully extracted: audio/uTo0q4NBPQc.mp3
+2026-04-22 07:03:07,588 - INFO - Extraction complete. 17/17 audio files ready. (Time: 535.4s)
+2026-04-22 07:03:07,588 - INFO - 
+--- Phase 3: Summarization (Direct Audio) ---
+2026-04-22 07:03:09,071 - INFO - Generating Brief for OpenAI's new Image 2 model is just the beginning... (ITT9xWeicWM)...
+2026-04-22 07:03:09,072 - INFO - AFC is enabled with max remote calls: 10.
+2026-04-22 07:03:09,248 - INFO - Generating Brief for ChatGPT Image 2 just dropped... (WOAH) (uvdRGC4cFhY)...
+2026-04-22 07:03:09,249 - INFO - AFC is enabled with max remote calls: 10.
+2026-04-22 07:03:09,275 - INFO - Generating Brief for MARKET EXHAUSTION: Indices Grind Lower as Geopolitics Heat Up (fdfp_ZNIS1o)...
+2026-04-22 07:03:09,275 - INFO - AFC is enabled with max remote calls: 10.
+2026-04-22 07:03:16,480 - INFO - ✅ Brief successfully generated for ChatGPT Image 2 just dropped... (WOAH)
+2026-04-22 07:03:17,551 - INFO - ✅ Brief successfully generated for OpenAI's new Image 2 model is just the beginning...
+2026-04-22 07:03:18,092 - INFO - Generating Brief for Fed’s Next Move Revealed: When Is Rate Cut Coming? | Axel Merk (qKPAP3rV89s)...
+2026-04-22 07:03:18,093 - INFO - AFC is enabled with max remote calls: 10.
+2026-04-22 07:03:19,278 - INFO - Generating Brief for Introducing ChatGPT Images 2.0 (i6WQdQsE0kc)...
+2026-04-22 07:03:19,279 - INFO - AFC is enabled with max remote calls: 10.
+2026-04-22 07:03:23,071 - INFO - ✅ Brief successfully generated for MARKET EXHAUSTION: Indices Grind Lower as Geopolitics Heat Up
+2026-04-22 07:03:25,917 - INFO - Generating Brief for GPT Image 2, AI Psychosis, and more (0yTL0LBjj-g)...
+2026-04-22 07:03:25,918 - INFO - AFC is enabled with max remote calls: 10.
+2026-04-22 07:03:28,708 - ERROR - Error summarising audio GPT Image 2, AI Psychosis, and more: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more details.', 'status': 'RESOURCE_EXHAUSTED'}}
+2026-04-22 07:03:30,428 - INFO - Generating Brief for Gold and Silver Price Consolidate: Setup for the Next Surge? (tkyaX3nnfJc)...
+2026-04-22 07:03:30,429 - INFO - AFC is enabled with max remote calls: 10.
+2026-04-22 07:03:34,302 - INFO - ✅ Brief successfully generated for Fed’s Next Move Revealed: When Is Rate Cut Coming? | Axel Merk
+2026-04-22 07:03:36,150 - INFO - Generating Brief for What Finally Breaks The Dollar? Currencies Don't Last Forever Warns Economist | Barry Eichengreen (xdzHrtRqQCA)...
+2026-04-22 07:03:36,151 - INFO - AFC is enabled with max remote calls: 10.
+2026-04-22 07:03:38,886 - INFO - ✅ Brief successfully generated for Gold and Silver Price Consolidate: Setup for the Next Surge?
+2026-04-22 07:03:40,351 - INFO - Generating Brief for 🔥 $300 Silver Price IS COMING! Here’s the SHOCKING Reason Why! (QJM7NYVRa2U)...
+2026-04-22 07:03:40,352 - INFO - AFC is enabled with max remote calls: 10.
+2026-04-22 07:03:46,467 - ERROR - Schema parsing error for 🔥 $300 Silver Price IS COMING! Here’s the SHOCKING Reason Why!: Expecting value: line 1 column 1039 (char 1038)
+2026-04-22 07:03:48,055 - ERROR - Error summarising audio What Finally Breaks The Dollar? Currencies Don't Last Forever Warns Economist | Barry Eichengreen: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more details.', 'status': 'RESOURCE_EXHAUSTED'}}
+2026-04-22 07:03:48,244 - INFO - Generating Brief for MARKET OVEREXTENDED: Why I’m Shorting These 3 Stocks Right Now (9gZkMjJ1wnE)...
+2026-04-22 07:03:48,245 - INFO - AFC is enabled with max remote calls: 10.
+2026-04-22 07:03:49,920 - INFO - Generating Brief for Why Gold Could Beat Stocks From Here (WGuWs95MGX8)...
+2026-04-22 07:03:49,921 - INFO - AFC is enabled with max remote calls: 10.
+2026-04-22 07:03:50,977 - INFO - ✅ Brief successfully generated for Introducing ChatGPT Images 2.0
+2026-04-22 07:03:53,001 - INFO - Generating Brief for Stagflation Dead Ahead! | Chance Finucane, @OxbowAdvisors (gmS95ky6RK4)...
+2026-04-22 07:03:53,002 - INFO - AFC is enabled with max remote calls: 10.
+2026-04-22 07:03:54,508 - ERROR - Error summarising audio Stagflation Dead Ahead! | Chance Finucane, @OxbowAdvisors: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more details.', 'status': 'RESOURCE_EXHAUSTED'}}
+2026-04-22 07:03:55,660 - INFO - ✅ Brief successfully generated for Why Gold Could Beat Stocks From Here
+2026-04-22 07:03:56,886 - INFO - Generating Brief for Your Prompts Didn't Change. Opus 4.7 Did. (tJB_8mfRgCo)...
+2026-04-22 07:03:56,887 - INFO - AFC is enabled with max remote calls: 10.
+2026-04-22 07:03:57,055 - INFO - ✅ Brief successfully generated for MARKET OVEREXTENDED: Why I’m Shorting These 3 Stocks Right Now
+2026-04-22 07:03:57,108 - INFO - Generating Brief for Market Update: Long stocks here till they top. Metals at resisatnce, dollar at support. (q9QVRllyb08)...
+2026-04-22 07:03:57,109 - INFO - AFC is enabled with max remote calls: 10.
+2026-04-22 07:03:58,345 - ERROR - Error summarising audio Your Prompts Didn't Change. Opus 4.7 Did.: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more details.', 'status': 'RESOURCE_EXHAUSTED'}}
+2026-04-22 07:03:58,486 - INFO - Generating Brief for WARNING: Extreme Market FOMO While Fundamentals Crumble! Investors Sitting Ducks (uNYWP6MfL8A)...
+2026-04-22 07:03:58,487 - INFO - AFC is enabled with max remote calls: 10.
+2026-04-22 07:04:00,661 - INFO - Generating Brief for Tuesday, April 21 Financial Update. The case for silver, a compelling asset in your portfolio. (gC7CS79SWk0)...
+2026-04-22 07:04:00,662 - INFO - AFC is enabled with max remote calls: 10.
+2026-04-22 07:04:01,938 - ERROR - Error summarising audio Tuesday, April 21 Financial Update. The case for silver, a compelling asset in your portfolio.: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more details.', 'status': 'RESOURCE_EXHAUSTED'}}
+2026-04-22 07:04:03,467 - INFO - ✅ Brief successfully generated for Market Update: Long stocks here till they top. Metals at resisatnce, dollar at support.
+2026-04-22 07:04:04,186 - INFO - Generating Brief for The Hidden Engine of China’s AI Boom | China Decode (uTo0q4NBPQc)...
+2026-04-22 07:04:04,187 - INFO - AFC is enabled with max remote calls: 10.
+2026-04-22 07:04:05,067 - INFO - ✅ Brief successfully generated for WARNING: Extreme Market FOMO While Fundamentals Crumble! Investors Sitting Ducks
+2026-04-22 07:04:05,517 - ERROR - Error summarising audio The Hidden Engine of China’s AI Boom | China Decode: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more details.', 'status': 'RESOURCE_EXHAUSTED'}}
+2026-04-22 07:04:06,221 - INFO - --- Phase 3: Category Synthesis (10 assets across categories) ---
+2026-04-22 07:04:06,221 - INFO - Analyzing 3 categories: Artificial Intelligence, General Financial Investing and Speculation, Precious Metals
+2026-04-22 07:04:06,221 - INFO - Processing Synthesis for sector: Artificial Intelligence (3 assets)...
+2026-04-22 07:04:06,246 - INFO - AFC is enabled with max remote calls: 10.
+2026-04-22 07:04:06,639 - INFO - Retrying google.genai._api_client.BaseApiClient._request_once in 1.04 seconds as it raised ClientError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more details.', 'status': 'RESOURCE_EXHAUSTED'}}.
+2026-04-22 07:04:08,034 - INFO - Retrying google.genai._api_client.BaseApiClient._request_once in 2.47 seconds as it raised ClientError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more details.', 'status': 'RESOURCE_EXHAUSTED'}}.
+2026-04-22 07:04:10,850 - INFO - Retrying google.genai._api_client.BaseApiClient._request_once in 4.41 seconds as it raised ClientError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more details.', 'status': 'RESOURCE_EXHAUSTED'}}.
+2026-04-22 07:04:15,600 - INFO - Retrying google.genai._api_client.BaseApiClient._request_once in 8.33 seconds as it raised ClientError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more details.', 'status': 'RESOURCE_EXHAUSTED'}}.
+2026-04-22 07:04:24,289 - INFO - Retrying google.genai._api_client.BaseApiClient._request_once in 16.2 seconds as it raised ClientError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more details.', 'status': 'RESOURCE_EXHAUSTED'}}.
+2026-04-22 07:04:40,844 - ERROR - Error generating cluster label: Error calling model 'gemini-2.0-flash' (RESOURCE_EXHAUSTED): 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more details.', 'status': 'RESOURCE_EXHAUSTED'}}
+2026-04-22 07:04:40,845 - INFO - AFC is enabled with max remote calls: 10.
+2026-04-22 07:04:41,897 - INFO - ✅ Synthesis complete for Artificial Intelligence
+2026-04-22 07:04:41,897 - INFO - Processing Synthesis for sector: General Financial Investing and Speculation (5 assets)...
+2026-04-22 07:04:41,903 - INFO - AFC is enabled with max remote calls: 10.
+2026-04-22 07:04:42,951 - INFO - AFC is enabled with max remote calls: 10.
+2026-04-22 07:04:43,319 - INFO - Retrying google.genai._api_client.BaseApiClient._request_once in 1.02 seconds as it raised ClientError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more details.', 'status': 'RESOURCE_EXHAUSTED'}}.
+2026-04-22 07:04:44,717 - INFO - Retrying google.genai._api_client.BaseApiClient._request_once in 2.6 seconds as it raised ClientError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more details.', 'status': 'RESOURCE_EXHAUSTED'}}.
+2026-04-22 07:04:47,757 - INFO - Retrying google.genai._api_client.BaseApiClient._request_once in 4.36 seconds as it raised ClientError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more details.', 'status': 'RESOURCE_EXHAUSTED'}}.
+2026-04-22 07:04:52,540 - INFO - Retrying google.genai._api_client.BaseApiClient._request_once in 8.87 seconds as it raised ClientError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more details.', 'status': 'RESOURCE_EXHAUSTED'}}.
+2026-04-22 07:05:03,862 - INFO - AFC is enabled with max remote calls: 10.
+2026-04-22 07:05:04,235 - INFO - Retrying google.genai._api_client.BaseApiClient._request_once in 1.87 seconds as it raised ClientError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more details.', 'status': 'RESOURCE_EXHAUSTED'}}.
+2026-04-22 07:05:06,462 - INFO - Retrying google.genai._api_client.BaseApiClient._request_once in 2.2 seconds as it raised ClientError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more details.', 'status': 'RESOURCE_EXHAUSTED'}}.
+2026-04-22 07:05:09,019 - INFO - Retrying google.genai._api_client.BaseApiClient._request_once in 4.59 seconds as it raised ClientError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more details.', 'status': 'RESOURCE_EXHAUSTED'}}.
+2026-04-22 07:05:14,016 - INFO - Retrying google.genai._api_client.BaseApiClient._request_once in 8.41 seconds as it raised ClientError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more details.', 'status': 'RESOURCE_EXHAUSTED'}}.
+2026-04-22 07:05:22,814 - INFO - Retrying google.genai._api_client.BaseApiClient._request_once in 16.7 seconds as it raised ClientError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more details.', 'status': 'RESOURCE_EXHAUSTED'}}.
+2026-04-22 07:05:39,868 - ERROR - Error generating cluster label: Error calling model 'gemini-2.0-flash' (RESOURCE_EXHAUSTED): 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more details.', 'status': 'RESOURCE_EXHAUSTED'}}
+2026-04-22 07:05:39,869 - INFO - AFC is enabled with max remote calls: 10.
+2026-04-22 07:05:40,864 - INFO - ✅ Synthesis complete for General Financial Investing and Speculation
+2026-04-22 07:05:40,864 - INFO - Processing Synthesis for sector: Precious Metals (2 assets)...
+2026-04-22 07:05:40,868 - INFO - AFC is enabled with max remote calls: 10.
+2026-04-22 07:05:41,834 - INFO - AFC is enabled with max remote calls: 10.
+2026-04-22 07:05:42,202 - INFO - Retrying google.genai._api_client.BaseApiClient._request_once in 1.91 seconds as it raised ClientError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more details.', 'status': 'RESOURCE_EXHAUSTED'}}.
+2026-04-22 07:05:44,471 - INFO - Retrying google.genai._api_client.BaseApiClient._request_once in 2.99 seconds as it raised ClientError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more details.', 'status': 'RESOURCE_EXHAUSTED'}}.
+2026-04-22 07:05:47,807 - INFO - Retrying google.genai._api_client.BaseApiClient._request_once in 4.28 seconds as it raised ClientError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more details.', 'status': 'RESOURCE_EXHAUSTED'}}.
+2026-04-22 07:05:54,600 - INFO - ✅ Synthesis complete for Precious Metals
+2026-04-22 07:05:54,617 - INFO - Summarization complete. 10 briefs written to briefs/2026-04-22.md (Time: 167.0s)
+2026-04-22 07:05:55,831 - INFO - Email digest sent successfully to kwilliamson.mail@gmail.com.
+2026-04-22 07:05:56,441 - INFO - Email digest sent successfully to kochava72@gmail.com.
+2026-04-22 07:05:56,455 - INFO - Queue cleared.
+2026-04-22 07:05:56,460 - INFO - ==================================================
+2026-04-22 07:05:56,461 - INFO - Pipeline Execution Complete
+2026-04-22 07:05:56,461 - INFO - ==================================================
