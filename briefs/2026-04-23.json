@@ -1,0 +1,243 @@
+{
+  "date": "2026-04-23",
+  "briefs": [
+    {
+      "episode_title": "Memory Stocks Hit Record Highs! \ud83d\udd25 Strong Earnings Lift Tech",
+      "channel": "Verified Investing",
+      "duration_minutes": 35,
+      "podcast_date": "2026-04-23",
+      "processing_date": "2026-04-23",
+      "one_line_summary": "Memory stocks surged to all-time highs, driven by AI tech plays and strong earnings reports, while other sectors showed mixed performance.",
+      "core_claims": [
+        "Micron, SNDK, and WDC all hit new all-time highs.",
+        "The Nasdaq is showing a three-bar surge on the weekly timeframe, potentially leading to exhaustion.",
+        "IWM has double resistance on price action currently indicating overbought market needing to retest support at 268.44.",
+        "SMH has surpassed the trend line, confirming support at $465.09 and is pushing into the upper range of the parallel at $481.22.",
+        "Dow Jones Transportation faced a reversal due to the CAR short squeeze.",
+        "Tesla and Texas Instruments earnings are pushing markets higher.",
+        "Silver is remaining a little stronger than gold, maintaining very well above 75.33."
+      ],
+      "signal_strength": 8,
+      "themes": [
+        "stock market",
+        "memory stocks",
+        "semiconductors",
+        "technical analysis",
+        "earnings reports",
+        "market trends"
+      ],
+      "positioning_implication": "Consider a cautious approach to memory tech investments due to overbought conditions, while monitoring Dow Jones Transportation for potential corrections.",
+      "time_horizon": "short",
+      "shelf_life": "Short",
+      "thumbnail": "https://i.ytimg.com/vi/9yCUnUtUV8Q/hqdefault.jpg",
+      "video_url": "https://www.youtube.com/watch?v=9yCUnUtUV8Q",
+      "cluster_id": 0,
+      "category": "General Financial Investing and Speculation"
+    },
+    {
+      "episode_title": "Everything Set To Open Higher: Broad Market Rally Underway...",
+      "channel": "TheTechnicalTraders",
+      "duration_minutes": 14,
+      "podcast_date": "2026-04-23",
+      "processing_date": "2026-04-23",
+      "one_line_summary": "Markets are primed for a potential rally, with specific targets and potential upside identified across multiple indices.",
+      "core_claims": [
+        "The S&P 500 could rally approximately 5.6% from yesterday's close.",
+        "The next target for market movement is the 618 level, representing a potential 3.3% move.",
+        "The market sentiment shifted from bearish to bullish, indicating strong money flows moving in.",
+        "Utilities have decreased to a support level reaching the recent lows.",
+        "Gold and silver miners experienced a 6% decrease alongside a high volume of sales."
+      ],
+      "signal_strength": 8,
+      "themes": [
+        "market analysis",
+        "technical analysis",
+        "momentum",
+        "potential rally",
+        "sentiment analysis"
+      ],
+      "positioning_implication": "Consider a bullish bias in the short term, focusing on sectors with high momentum and potential for upward movement, while being aware of potential pullbacks and corrections.",
+      "time_horizon": "short",
+      "shelf_life": "Short",
+      "thumbnail": "https://i.ytimg.com/vi/6bioB1SoNq8/hqdefault.jpg",
+      "video_url": "https://www.youtube.com/watch?v=6bioB1SoNq8",
+      "cluster_id": 0,
+      "category": "General Financial Investing and Speculation"
+    },
+    {
+      "episode_title": "The Global Rush For Physical Gold & Silver Is Going Into Overdrive | Andy Schectman",
+      "channel": "Adam Taggart | Thoughtful Money\u00ae",
+      "duration_minutes": 58,
+      "podcast_date": "2026-04-23",
+      "processing_date": "2026-04-23",
+      "one_line_summary": "Countries and central banks are increasingly prioritizing physical possession of gold and silver over convenience, indicating a growing lack of trust in current financial systems.",
+      "core_claims": [
+        "The gold that is believed to exist within Fort Knox and the New York Federal Reserve is coin melt, which is not global standard purity.",
+        "France sold gold to the Federal Reserve and then bought it back in the open market to take it home, due to the coin melt gold not meeting global standards.",
+        "Countries are increasingly foregoing convenience to prioritize physical possession of gold and silver, indicating a rising distrust in counterparties and the system.",
+        "Central banks now own nearly 20% of all gold in the world, holding more gold than US Treasuries in their foreign reserves, signaling a move out of paper assets.",
+        "Wells Fargo sees a potential for gold to move to $8,000 by 2027, while UBS, JP Morgan Chase, Deutsche Bank, and the Bank of America are targeting $6,000 plus in the next 12 months.",
+        "China imported the most silver ever for two months in a row, with imports up to 1,626 tons year-to-date, the highest on record."
+      ],
+      "signal_strength": 9,
+      "themes": [
+        "gold",
+        "silver",
+        "central banks",
+        "financial system",
+        "trust",
+        "dedollarization",
+        "physical assets"
+      ],
+      "positioning_implication": "Reduce reliance on centralized financial institutions and increase allocation to tangible assets like gold and silver for long-term value preservation.",
+      "time_horizon": "long",
+      "shelf_life": "Medium",
+      "thumbnail": "https://i.ytimg.com/vi/PPnt_Cs1NuY/hqdefault.jpg",
+      "video_url": "https://www.youtube.com/watch?v=PPnt_Cs1NuY",
+      "cluster_id": 1,
+      "category": "General Financial Investing and Speculation"
+    }
+  ],
+  "category_intelligence": {
+    "General Financial Investing and Speculation": {
+      "name": "General Financial Investing and Speculation",
+      "meta_summary": "",
+      "convergence_score": 0.0,
+      "percentile": 0.0,
+      "regime_state": "Neutral",
+      "clusters": [
+        {
+          "id": 0,
+          "name": "Memory Stocks Rally Intensifying",
+          "description": "Memory stocks' outperformance, fueled by AI and earnings, suggests a concentrated market rally with defined upside targets.",
+          "bias": "constructive",
+          "regime": "Accelerating",
+          "size": 2,
+          "strength": 1.3451492484919865,
+          "coherence": 0.6725746242459932,
+          "channels": [
+            "Verified Investing",
+            "TheTechnicalTraders"
+          ],
+          "avg_signal": 8.0,
+          "briefs": [
+            {
+              "episode_title": "Memory Stocks Hit Record Highs! \ud83d\udd25 Strong Earnings Lift Tech",
+              "channel": "Verified Investing",
+              "duration_minutes": 35,
+              "podcast_date": "2026-04-23",
+              "processing_date": "2026-04-23",
+              "one_line_summary": "Memory stocks surged to all-time highs, driven by AI tech plays and strong earnings reports, while other sectors showed mixed performance.",
+              "core_claims": [
+                "Micron, SNDK, and WDC all hit new all-time highs.",
+                "The Nasdaq is showing a three-bar surge on the weekly timeframe, potentially leading to exhaustion.",
+                "IWM has double resistance on price action currently indicating overbought market needing to retest support at 268.44.",
+                "SMH has surpassed the trend line, confirming support at $465.09 and is pushing into the upper range of the parallel at $481.22.",
+                "Dow Jones Transportation faced a reversal due to the CAR short squeeze.",
+                "Tesla and Texas Instruments earnings are pushing markets higher.",
+                "Silver is remaining a little stronger than gold, maintaining very well above 75.33."
+              ],
+              "signal_strength": 8,
+              "themes": [
+                "stock market",
+                "memory stocks",
+                "semiconductors",
+                "technical analysis",
+                "earnings reports",
+                "market trends"
+              ],
+              "positioning_implication": "Consider a cautious approach to memory tech investments due to overbought conditions, while monitoring Dow Jones Transportation for potential corrections.",
+              "time_horizon": "short",
+              "shelf_life": "Short",
+              "thumbnail": "https://i.ytimg.com/vi/9yCUnUtUV8Q/hqdefault.jpg",
+              "video_url": "https://www.youtube.com/watch?v=9yCUnUtUV8Q",
+              "cluster_id": 0,
+              "category": "General Financial Investing and Speculation"
+            },
+            {
+              "episode_title": "Everything Set To Open Higher: Broad Market Rally Underway...",
+              "channel": "TheTechnicalTraders",
+              "duration_minutes": 14,
+              "podcast_date": "2026-04-23",
+              "processing_date": "2026-04-23",
+              "one_line_summary": "Markets are primed for a potential rally, with specific targets and potential upside identified across multiple indices.",
+              "core_claims": [
+                "The S&P 500 could rally approximately 5.6% from yesterday's close.",
+                "The next target for market movement is the 618 level, representing a potential 3.3% move.",
+                "The market sentiment shifted from bearish to bullish, indicating strong money flows moving in.",
+                "Utilities have decreased to a support level reaching the recent lows.",
+                "Gold and silver miners experienced a 6% decrease alongside a high volume of sales."
+              ],
+              "signal_strength": 8,
+              "themes": [
+                "market analysis",
+                "technical analysis",
+                "momentum",
+                "potential rally",
+                "sentiment analysis"
+              ],
+              "positioning_implication": "Consider a bullish bias in the short term, focusing on sectors with high momentum and potential for upward movement, while being aware of potential pullbacks and corrections.",
+              "time_horizon": "short",
+              "shelf_life": "Short",
+              "thumbnail": "https://i.ytimg.com/vi/6bioB1SoNq8/hqdefault.jpg",
+              "video_url": "https://www.youtube.com/watch?v=6bioB1SoNq8",
+              "cluster_id": 0,
+              "category": "General Financial Investing and Speculation"
+            }
+          ]
+        },
+        {
+          "id": 1,
+          "name": "Central Banks' Distrust Intensifying: Physical Gold Preference",
+          "description": "Central banks' increasing preference for physical gold and silver signals a growing distrust in the stability of the current financial system.",
+          "bias": "defensive",
+          "regime": "Emerging",
+          "size": 1,
+          "strength": 1.0,
+          "coherence": 1.0,
+          "channels": [
+            "Adam Taggart | Thoughtful Money\u00ae"
+          ],
+          "avg_signal": 9.0,
+          "briefs": [
+            {
+              "episode_title": "The Global Rush For Physical Gold & Silver Is Going Into Overdrive | Andy Schectman",
+              "channel": "Adam Taggart | Thoughtful Money\u00ae",
+              "duration_minutes": 58,
+              "podcast_date": "2026-04-23",
+              "processing_date": "2026-04-23",
+              "one_line_summary": "Countries and central banks are increasingly prioritizing physical possession of gold and silver over convenience, indicating a growing lack of trust in current financial systems.",
+              "core_claims": [
+                "The gold that is believed to exist within Fort Knox and the New York Federal Reserve is coin melt, which is not global standard purity.",
+                "France sold gold to the Federal Reserve and then bought it back in the open market to take it home, due to the coin melt gold not meeting global standards.",
+                "Countries are increasingly foregoing convenience to prioritize physical possession of gold and silver, indicating a rising distrust in counterparties and the system.",
+                "Central banks now own nearly 20% of all gold in the world, holding more gold than US Treasuries in their foreign reserves, signaling a move out of paper assets.",
+                "Wells Fargo sees a potential for gold to move to $8,000 by 2027, while UBS, JP Morgan Chase, Deutsche Bank, and the Bank of America are targeting $6,000 plus in the next 12 months.",
+                "China imported the most silver ever for two months in a row, with imports up to 1,626 tons year-to-date, the highest on record."
+              ],
+              "signal_strength": 9,
+              "themes": [
+                "gold",
+                "silver",
+                "central banks",
+                "financial system",
+                "trust",
+                "dedollarization",
+                "physical assets"
+              ],
+              "positioning_implication": "Reduce reliance on centralized financial institutions and increase allocation to tangible assets like gold and silver for long-term value preservation.",
+              "time_horizon": "long",
+              "shelf_life": "Medium",
+              "thumbnail": "https://i.ytimg.com/vi/PPnt_Cs1NuY/hqdefault.jpg",
+              "video_url": "https://www.youtube.com/watch?v=PPnt_Cs1NuY",
+              "cluster_id": 1,
+              "category": "General Financial Investing and Speculation"
+            }
+          ]
+        }
+      ],
+      "should_generate": false
+    }
+  },
+  "clusters": []
+}

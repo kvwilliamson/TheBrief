@@ -5884,3 +5884,103 @@
 2026-04-22 07:05:56,460 - INFO - ==================================================
 2026-04-22 07:05:56,461 - INFO - Pipeline Execution Complete
 2026-04-22 07:05:56,461 - INFO - ==================================================
+2026-04-23 06:54:55,154 - INFO - ==================================================
+2026-04-23 06:54:55,154 - INFO - Starting TheBrief Daily Pipeline
+2026-04-23 06:54:55,154 - INFO - ==================================================
+2026-04-23 06:54:55,154 - INFO - 
+--- Phase 1: Discovery ---
+2026-04-23 06:54:55,159 - INFO - Discovering videos published after 2026-04-22T06:54:55.159311+00:00 (24h lookback)
+2026-04-23 06:54:55,512 - INFO - Found 1 new potential videos on GoldSilver .
+2026-04-23 06:54:55,531 - INFO - Found 1 new potential videos on Wall Street Bullion .
+2026-04-23 06:54:55,559 - INFO - Found 1 new potential videos on Bald Guy Money.
+2026-04-23 06:54:55,935 - INFO - Found 1 new potential videos on David Lin .
+2026-04-23 06:54:55,983 - INFO - Found 2 new potential videos on AI News & Strategy Daily | Nate B Jones.
+2026-04-23 06:54:56,211 - INFO - Found 1 new potential videos on TheTechnicalTraders.
+2026-04-23 06:54:56,301 - INFO - Found 5 new potential videos on Verified Investing.
+2026-04-23 06:54:56,428 - INFO - Found 1 new potential videos on Adam Taggart | Thoughtful Money®.
+2026-04-23 06:54:56,644 - INFO - Found 1 new potential videos on Felix & Friends (Goat Academy).
+2026-04-23 06:54:56,717 - INFO - Found 2 new potential videos on Matthew Berman.
+2026-04-23 06:54:57,019 - INFO - Found 1 new potential videos on The Prof G Pod – Scott Galloway.
+2026-04-23 06:54:57,195 - INFO - Found 12 total long-form videos across all channels.
+2026-04-23 06:54:57,215 - INFO - Discovery complete. Added 12 new videos to queue.
+2026-04-23 06:54:57,215 - INFO - 
+--- Phase 2: Extraction ---
+2026-04-23 06:54:57,462 - INFO - yt-dlp version: 2026.03.17
+2026-04-23 06:54:57,810 - INFO - POT-related packages: bgutil-ytdlp-pot-provider 1.3.1
+2026-04-23 06:54:57,834 - INFO - bgutil HTTP server not available on port 4416 (will rely on cookies)
+2026-04-23 06:54:57,834 - INFO - Extracting audio for WTF is Anthropic doing??? (aO5k3haUz9Q)...
+2026-04-23 06:55:24,756 - INFO - Successfully extracted: audio/aO5k3haUz9Q.mp3
+2026-04-23 06:55:32,651 - INFO - Extracting audio for 'U.S. Empire Is Collapsing': Famed Investor Reveals Crisis Investing Assets To Surge | Doug Casey (XIHEMyR1bsw)...
+2026-04-23 06:55:57,897 - INFO - Successfully extracted: audio/XIHEMyR1bsw.mp3
+2026-04-23 06:56:05,384 - INFO - Extracting audio for Memory Stocks Hit Record Highs! 🔥 Strong Earnings Lift Tech (9yCUnUtUV8Q)...
+2026-04-23 06:56:22,704 - INFO - Successfully extracted: audio/9yCUnUtUV8Q.mp3
+2026-04-23 06:56:29,570 - INFO - Extracting audio for Wtf Anthropic (ZenJ0VCbYNI)...
+2026-04-23 06:57:16,923 - INFO - Successfully extracted: audio/ZenJ0VCbYNI.mp3
+2026-04-23 06:57:26,573 - INFO - Extracting audio for Silver Price Can Go This High! Secret Buyers & Market Rotation (iMLX7GABT_8)...
+2026-04-23 06:57:43,114 - INFO - Successfully extracted: audio/iMLX7GABT_8.mp3
+2026-04-23 06:57:50,032 - INFO - Extracting audio for Silver Price ALERT: Will It Plunge to $20? 🚨 Unveiling What's NEXT! (KERFSBtW5Nw)...
+2026-04-23 06:58:01,459 - INFO - Successfully extracted: audio/KERFSBtW5Nw.mp3
+2026-04-23 06:58:08,269 - INFO - Extracting audio for SPX & Oil Rip Higher: Where I'm Shorting the Stretched Tech Stocks (2isOXL5YPNQ)...
+2026-04-23 06:58:20,702 - INFO - Successfully extracted: audio/2isOXL5YPNQ.mp3
+2026-04-23 06:58:26,584 - INFO - Extracting audio for The Global Rush For Physical Gold & Silver Is Going Into Overdrive | Andy Schectman (PPnt_Cs1NuY)...
+2026-04-23 06:59:01,752 - INFO - Successfully extracted: audio/PPnt_Cs1NuY.mp3
+2026-04-23 06:59:07,139 - INFO - Extracting audio for Karpathy's Wiki vs. Open Brain. One Fails When You Need It Most. (dxq7WtWxi44)...
+2026-04-23 06:59:30,359 - INFO - Successfully extracted: audio/dxq7WtWxi44.mp3
+2026-04-23 06:59:41,439 - INFO - Extracting audio for Markets IGNORE Iran Attacks?! S&P 500 Channel, SOXX Warning & Key Earnings (3qaGdy2ktL0)...
+2026-04-23 06:59:55,312 - INFO - Successfully extracted: audio/3qaGdy2ktL0.mp3
+2026-04-23 07:00:06,891 - INFO - Extracting audio for Everything Set To Open Higher: Broad Market Rally Underway... (6bioB1SoNq8)...
+2026-04-23 07:00:16,168 - INFO - Successfully extracted: audio/6bioB1SoNq8.mp3
+2026-04-23 07:00:24,892 - INFO - Extracting audio for Silver: The Quiet Rule Change That Changes Everything (xziUSXN-cVw)...
+2026-04-23 07:00:41,489 - INFO - Successfully extracted: audio/xziUSXN-cVw.mp3
+2026-04-23 07:00:41,489 - INFO - Extraction complete. 12/12 audio files ready. (Time: 343.7s)
+2026-04-23 07:00:41,489 - INFO - 
+--- Phase 3: Summarization (Direct Audio) ---
+2026-04-23 07:00:42,813 - INFO - Generating Brief for Memory Stocks Hit Record Highs! 🔥 Strong Earnings Lift Tech (9yCUnUtUV8Q)...
+2026-04-23 07:00:42,815 - INFO - AFC is enabled with max remote calls: 10.
+2026-04-23 07:00:43,210 - INFO - Generating Brief for 'U.S. Empire Is Collapsing': Famed Investor Reveals Crisis Investing Assets To Surge | Doug Casey (XIHEMyR1bsw)...
+2026-04-23 07:00:43,212 - INFO - AFC is enabled with max remote calls: 10.
+2026-04-23 07:00:43,362 - INFO - Generating Brief for WTF is Anthropic doing??? (aO5k3haUz9Q)...
+2026-04-23 07:00:43,363 - INFO - AFC is enabled with max remote calls: 10.
+2026-04-23 07:00:44,350 - ERROR - Error summarising audio WTF is Anthropic doing???: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more details.', 'status': 'RESOURCE_EXHAUSTED'}}
+2026-04-23 07:00:44,599 - ERROR - Error summarising audio 'U.S. Empire Is Collapsing': Famed Investor Reveals Crisis Investing Assets To Surge | Doug Casey: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more details.', 'status': 'RESOURCE_EXHAUSTED'}}
+2026-04-23 07:00:46,186 - INFO - Generating Brief for Silver Price Can Go This High! Secret Buyers & Market Rotation (iMLX7GABT_8)...
+2026-04-23 07:00:46,187 - INFO - AFC is enabled with max remote calls: 10.
+2026-04-23 07:00:46,839 - INFO - Generating Brief for Wtf Anthropic (ZenJ0VCbYNI)...
+2026-04-23 07:00:46,840 - INFO - AFC is enabled with max remote calls: 10.
+2026-04-23 07:00:47,082 - ERROR - Error summarising audio Silver Price Can Go This High! Secret Buyers & Market Rotation: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more details.', 'status': 'RESOURCE_EXHAUSTED'}}
+2026-04-23 07:00:48,305 - ERROR - Error summarising audio Wtf Anthropic: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more details.', 'status': 'RESOURCE_EXHAUSTED'}}
+2026-04-23 07:00:48,993 - INFO - Generating Brief for Silver Price ALERT: Will It Plunge to $20? 🚨 Unveiling What's NEXT! (KERFSBtW5Nw)...
+2026-04-23 07:00:48,995 - INFO - AFC is enabled with max remote calls: 10.
+2026-04-23 07:00:50,577 - INFO - Generating Brief for SPX & Oil Rip Higher: Where I'm Shorting the Stretched Tech Stocks (2isOXL5YPNQ)...
+2026-04-23 07:00:50,578 - INFO - AFC is enabled with max remote calls: 10.
+2026-04-23 07:00:54,029 - ERROR - Schema parsing error for Silver Price ALERT: Will It Plunge to $20? 🚨 Unveiling What's NEXT!: Expecting value: line 1 column 937 (char 936)
+2026-04-23 07:00:56,189 - ERROR - Schema parsing error for SPX & Oil Rip Higher: Where I'm Shorting the Stretched Tech Stocks: Expecting value: line 1 column 1082 (char 1081)
+2026-04-23 07:00:56,359 - INFO - Generating Brief for The Global Rush For Physical Gold & Silver Is Going Into Overdrive | Andy Schectman (PPnt_Cs1NuY)...
+2026-04-23 07:00:56,360 - INFO - AFC is enabled with max remote calls: 10.
+2026-04-23 07:00:56,912 - INFO - ✅ Brief successfully generated for Memory Stocks Hit Record Highs! 🔥 Strong Earnings Lift Tech
+2026-04-23 07:00:58,330 - INFO - Generating Brief for Markets IGNORE Iran Attacks?! S&P 500 Channel, SOXX Warning & Key Earnings (3qaGdy2ktL0)...
+2026-04-23 07:00:58,331 - INFO - AFC is enabled with max remote calls: 10.
+2026-04-23 07:00:59,049 - INFO - Generating Brief for Karpathy's Wiki vs. Open Brain. One Fails When You Need It Most. (dxq7WtWxi44)...
+2026-04-23 07:00:59,050 - INFO - AFC is enabled with max remote calls: 10.
+2026-04-23 07:01:00,264 - ERROR - Error summarising audio Karpathy's Wiki vs. Open Brain. One Fails When You Need It Most.: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more details.', 'status': 'RESOURCE_EXHAUSTED'}}
+2026-04-23 07:01:02,111 - INFO - Generating Brief for Everything Set To Open Higher: Broad Market Rally Underway... (6bioB1SoNq8)...
+2026-04-23 07:01:02,112 - INFO - AFC is enabled with max remote calls: 10.
+2026-04-23 07:01:05,887 - ERROR - Schema parsing error for Markets IGNORE Iran Attacks?! S&P 500 Channel, SOXX Warning & Key Earnings: Expecting value: line 1 column 1251 (char 1250)
+2026-04-23 07:01:07,643 - INFO - ✅ Brief successfully generated for Everything Set To Open Higher: Broad Market Rally Underway...
+2026-04-23 07:01:07,972 - INFO - Generating Brief for Silver: The Quiet Rule Change That Changes Everything (xziUSXN-cVw)...
+2026-04-23 07:01:07,973 - INFO - AFC is enabled with max remote calls: 10.
+2026-04-23 07:01:08,777 - ERROR - Error summarising audio Silver: The Quiet Rule Change That Changes Everything: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more details.', 'status': 'RESOURCE_EXHAUSTED'}}
+2026-04-23 07:01:17,910 - INFO - ✅ Brief successfully generated for The Global Rush For Physical Gold & Silver Is Going Into Overdrive | Andy Schectman
+2026-04-23 07:01:17,910 - INFO - --- Phase 3: Category Synthesis (3 assets across categories) ---
+2026-04-23 07:01:17,911 - INFO - Analyzing 1 categories: General Financial Investing and Speculation
+2026-04-23 07:01:17,911 - INFO - Processing Synthesis for sector: General Financial Investing and Speculation (3 assets)...
+2026-04-23 07:01:17,940 - INFO - AFC is enabled with max remote calls: 10.
+2026-04-23 07:01:18,882 - INFO - AFC is enabled with max remote calls: 10.
+2026-04-23 07:01:19,709 - INFO - ✅ Synthesis complete for General Financial Investing and Speculation
+2026-04-23 07:01:19,717 - INFO - Summarization complete. 3 briefs written to briefs/2026-04-23.md (Time: 38.2s)
+2026-04-23 07:01:21,287 - INFO - Email digest sent successfully to kwilliamson.mail@gmail.com.
+2026-04-23 07:01:22,119 - INFO - Email digest sent successfully to kochava72@gmail.com.
+2026-04-23 07:01:22,162 - INFO - Queue cleared.
+2026-04-23 07:01:22,167 - INFO - ==================================================
+2026-04-23 07:01:22,168 - INFO - Pipeline Execution Complete
+2026-04-23 07:01:22,168 - INFO - ==================================================
