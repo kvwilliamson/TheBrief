@@ -1,0 +1,667 @@
+{
+  "date": "2026-04-25",
+  "briefs": [
+    {
+      "episode_title": "'Biggest Money Printing In Human Existence'; These Assets Blow Up Next | Jay Singh",
+      "channel": "David Lin",
+      "duration_minutes": 63,
+      "podcast_date": "2026-04-25",
+      "processing_date": "2026-04-25",
+      "one_line_summary": "The market rally's resilience is attributed to strong earnings juxtaposed with pivotal geopolitical risks, private credit concerns, and software valuation uncertainties.",
+      "core_claims": [
+        "Analyst expects the 'biggest money printing in the history of human existence', equating to 'the biggest market rally in human existence'.",
+        "S&P 500 operating margins are over 14%, defying expectations due to the performance of Big Tech.",
+        "20% of S&P 500 companies have reported with 87% exceeding earnings expectations across five sectors.",
+        "Analyst estimates indicate a 4% rise in earnings from January to April, with annual earnings projected to increase by 15%.",
+        "The Iran war poses a pivotal geopolitical risk, potentially impacting 20% of the world's oil, 20% of the world's LNG, and a third of world's agricultural fertilizers.",
+        "There's a $900 billion maturity wall across US and Europe approaching in 2028 within the $4 trillion leverage capital market.",
+        "Private credit is at risk due to 25% being in software where terminal values are under question due to AI."
+      ],
+      "signal_strength": 8,
+      "themes": [
+        "geopolitics",
+        "market analysis",
+        "earnings",
+        "private credit",
+        "risk assessment",
+        "macroeconomics",
+        "inflation"
+      ],
+      "positioning_implication": "Reduce exposure to private credit, especially software-related; evaluate positions in energy sector and geopolitical sensitivities.",
+      "time_horizon": "medium",
+      "shelf_life": "Medium",
+      "thumbnail": "https://i.ytimg.com/vi/kz3H3Sxt-8w/hqdefault.jpg",
+      "video_url": "https://www.youtube.com/watch?v=kz3H3Sxt-8w",
+      "cluster_id": 0,
+      "category": "General Financial Investing and Speculation"
+    },
+    {
+      "episode_title": "Semiconductors Ripping: NVDA, AMD & AVGO Trade Setups for the Week",
+      "channel": "Verified Investing",
+      "duration_minutes": 24,
+      "podcast_date": "2026-04-25",
+      "processing_date": "2026-04-25",
+      "one_line_summary": "Semiconductor sector analysis identifies near-term trade setups for NVDA, AMD, and AVGO, considering potential pullbacks and resistance levels.",
+      "core_claims": [
+        "Nvidia's pierce target is $210 with an add level at a double top of $212, expecting a short play if breaking below a 15-minute closing basis.",
+        "SPY expected to reach $718.56 to open shorting opportunities with resistance from a trendline originating from 2022 highs, conservative entry at pierce of $720.",
+        "AMD finally pierced the $350 level, an overextended move indicates an expected pullback to approximately $285, with a max upside of $400 before a potential substantial pullback.",
+        "AVGO shows signs of a potential sell-off from $291.26 after a 47% move, aiming to recapture the gap at $406.37 with potential down targets at $387.20 and $380.",
+        "Charter (CHTR) may present a long play opportunity at $180.02, with a stop-out if closing below this level on a 15-minute basis; potential range down to $131.70 if breaking below $180."
+      ],
+      "signal_strength": 7,
+      "themes": [
+        "semiconductors",
+        "technical analysis",
+        "trade setups",
+        "market pullbacks",
+        "resistance levels"
+      ],
+      "positioning_implication": "Consider strategic short positions in overextended semiconductor stocks and identify key levels for potential reversals or pullbacks; be cautious in adding to long positions at high volume due to momentum.",
+      "time_horizon": "short",
+      "shelf_life": "Medium",
+      "thumbnail": "https://i.ytimg.com/vi/b5xyyFneReI/hqdefault.jpg",
+      "video_url": "https://www.youtube.com/watch?v=b5xyyFneReI",
+      "cluster_id": 3,
+      "category": "General Financial Investing and Speculation"
+    },
+    {
+      "episode_title": "Google Cloud CEO: Anthropic, TPUs, Mythos, NVIDIA and more",
+      "channel": "Matthew Berman",
+      "duration_minutes": 57,
+      "podcast_date": "2026-04-25",
+      "processing_date": "2026-04-25",
+      "one_line_summary": "Google balances AI compute allocation across sales, partnerships, and internal model development while mitigating risks around data center costs, security vulnerabilities, and potential job displacement.",
+      "core_claims": [
+        "Google's 8th generation TPU will be announced at an upcoming event.",
+        "Google's token count has jumped from 10 billion a minute to 16 billion a minute, while enterprise users have jumped by 40% sequentially.",
+        "Rapid Storage, a new ultra-low latency inference storage system, will provide 15 terabytes per second throughput, enabling fast data fetching for inference.",
+        "Google's managed Lustre solution will improve to 10 terabytes per second throughput, designed for large-scale training with large data sets.",
+        "Google has developed tools to detect, repair, and continuously red-team code using agents to manage cybersecurity vulnerabilities, including a new Whiz capability.",
+        "Virgo, a new networking form, will provide ultra-low connectivity speed across a giant cluster.",
+        "The next bottleneck will be largely around VMs being activated and deactivated whenever a task is done."
+      ],
+      "signal_strength": 9,
+      "themes": [
+        "ai",
+        "compute",
+        "infrastructure",
+        "cybersecurity",
+        "silicon",
+        "planning",
+        "market analysis"
+      ],
+      "positioning_implication": "Diversify compute monetization strategies to mitigate risks and capitalize on evolving market demands; prioritize cybersecurity solutions and community engagement in AI infrastructure deployment.",
+      "time_horizon": "medium",
+      "shelf_life": "Medium",
+      "thumbnail": "https://i.ytimg.com/vi/bNdiBwXbLNw/hqdefault.jpg",
+      "video_url": "https://www.youtube.com/watch?v=bNdiBwXbLNw",
+      "cluster_id": 1,
+      "category": "Artificial Intelligence"
+    },
+    {
+      "episode_title": "The Case for Making Up With China | Office Hours",
+      "channel": "The Prof G Pod \u2013 Scott Galloway",
+      "duration_minutes": 43,
+      "podcast_date": "2026-04-25",
+      "processing_date": "2026-04-25",
+      "one_line_summary": "The US and China could mutually benefit from thawing relations, as China has the world's greatest supply chain and manufacturing capabilities, while the US has IP, innovation, and capital formation.",
+      "core_claims": [
+        "Working together, the US and China could reduce global consumer costs by 3-10%.",
+        "China is no longer asking the world to believe in its potential; it is asking the world to adjust to its current reality as a superpower.",
+        "China ranks 10th in the 2025 Global Innovation Index, ahead of Germany, Japan, and France.",
+        "China can match frontier AI at a fraction of the US training costs, and chip export controls will not stall them.",
+        "China dominates EVs, batteries, solar, wind, and robotics.",
+        "China leads in EVs, solar panel production, and has brought online more nuclear power plant capacity in the last 10 years than the US.",
+        "China now files more generative AI patents annually than all other economies combined and accounts for 41% of the world's industrial robots."
+      ],
+      "signal_strength": 8,
+      "themes": [
+        "geopolitics",
+        "economics",
+        "china",
+        "us relations",
+        "trade policy",
+        "innovation",
+        "evs"
+      ],
+      "positioning_implication": "Re-evaluate assumptions about global economic power dynamics and the potential for mutually beneficial collaborations, particularly between the US and China.",
+      "time_horizon": "medium",
+      "shelf_life": "Medium",
+      "thumbnail": "https://i.ytimg.com/vi/4iy8_nWGNuA/hqdefault.jpg",
+      "video_url": "https://www.youtube.com/watch?v=4iy8_nWGNuA",
+      "cluster_id": 1,
+      "category": "General Financial Investing and Speculation"
+    },
+    {
+      "episode_title": "The Ultimate Tech Blow-Off Top?! Intel Surges 25% in Dot-Com Style Bubble!",
+      "channel": "Verified Investing",
+      "duration_minutes": 27,
+      "podcast_date": "2026-04-25",
+      "processing_date": "2026-04-25",
+      "one_line_summary": "Semiconductor surge resembles a dot-com bubble's final phase, with potential peaking signals emerging.",
+      "core_claims": [
+        "Intel surged 25% on an earnings beat, exhibiting bubble-like behavior with an unknown end.",
+        "The SOXX semiconductor ETF is up 50% and testing the last vertical trendline resistance.",
+        "Middle East investment pullback from the data center and chip sectors signals potential demand peak.",
+        "The Nasdaq approaching 25,000, potentially mirroring a 5x increase from the dot-com bubble peak, hints at a long-term top.",
+        "The internet psychology scan shows extreme greed (99%) signaling possible market reversal.",
+        "Oil price inversely correlates with market futures; exceeding $90 triggers an inverse relationship."
+      ],
+      "signal_strength": 8,
+      "themes": [
+        "market cycles",
+        "tech bubble",
+        "semiconductors",
+        "economic indicators",
+        "trend analysis",
+        "risk management"
+      ],
+      "positioning_implication": "Reduce exposure to overextended tech stocks and consider shorting opportunities in specific semiconductors if clear reversal patterns emerge. Monitor macroeconomic and geopolitical catalysts carefully.",
+      "time_horizon": "short",
+      "shelf_life": "Short",
+      "thumbnail": "https://i.ytimg.com/vi/3HMC0xl57xA/hqdefault.jpg",
+      "video_url": "https://www.youtube.com/watch?v=3HMC0xl57xA",
+      "cluster_id": 0,
+      "category": "General Financial Investing and Speculation"
+    },
+    {
+      "episode_title": "Claude Design Does In 30 Minutes What Your Team Does In A Sprint",
+      "channel": "AI News & Strategy Daily | Nate B Jones",
+      "duration_minutes": 31,
+      "podcast_date": "2026-04-25",
+      "processing_date": "2024-05-01",
+      "one_line_summary": "Anthropic's Claude Design threatens to replace the traditional mock-up to production workflow with an integrated, code-based design process.",
+      "core_claims": [
+        "Claude Design allows pitch decks with live embedded AI, including live chatbots, replacing traditional static presentations.",
+        "Claude Design creates animated product explainer videos rendered in code, enabling real-time modifications without restarting.",
+        "Claude Design generates design systems from existing codebases, automatically applying it to subsequent projects, compressing multi-week engagements into minutes.",
+        "Claude Design web capture and reskin tool grab competitor's landing pages to render it in your own design patterns."
+      ],
+      "signal_strength": 9,
+      "themes": [
+        "ai design",
+        "no-code",
+        "workflow automation",
+        "product development",
+        "llm",
+        "competitive strategy"
+      ],
+      "positioning_implication": "Evaluate current team structures and workflows to identify redundancies made obsolete by LLM-driven design and code generation tools.",
+      "time_horizon": "medium",
+      "shelf_life": "Medium",
+      "thumbnail": "https://i.ytimg.com/vi/KlPxWaY91rE/hqdefault.jpg",
+      "video_url": "https://www.youtube.com/watch?v=KlPxWaY91rE",
+      "cluster_id": 0,
+      "category": "Artificial Intelligence"
+    },
+    {
+      "episode_title": "The AI Job Crisis Andrew Yang Saw Coming | Prof G Markets",
+      "channel": "The Prof G Pod \u2013 Scott Galloway",
+      "duration_minutes": 22,
+      "podcast_date": "2026-04-25",
+      "processing_date": "2024-04-25",
+      "one_line_summary": "AI-driven automation displaces workers, necessitating strategic economic adaptations, like reinvestment in data centers, signaling compute infrastructure's ascendance over human capital.",
+      "core_claims": [
+        "Companies attributed roughly 55,000 layoffs to AI last year.",
+        "Unemployment for recent college grads rose to 5.6%, the highest level outside the pandemic in over a decade.",
+        "Placement rates have collapsed for computer science grads, reversing previously high rates at high salaries.",
+        "The amount of money spent on building data centers just surpassed the amount of money spent on office buildings for the first time."
+      ],
+      "signal_strength": 8,
+      "themes": [
+        "ai",
+        "automation",
+        "job displacement",
+        "labor market",
+        "economic impact",
+        "future of work",
+        "data centers",
+        "technological unemployment"
+      ],
+      "positioning_implication": "Re-evaluate capital allocation strategies to prioritize investments in computational infrastructure over traditional labor models; anticipate shifts in skill demand and potential social unrest due to technological displacement.",
+      "time_horizon": "medium",
+      "shelf_life": "Medium",
+      "thumbnail": "https://i.ytimg.com/vi/_nSSlpbqEX8/hqdefault.jpg",
+      "video_url": "https://www.youtube.com/watch?v=_nSSlpbqEX8",
+      "cluster_id": 2,
+      "category": "General Financial Investing and Speculation"
+    },
+    {
+      "episode_title": "China Importing RECORD Levels of SILVER, $300+ 'Very Likely' in 2026: Alasdair Macleod",
+      "channel": "Commodity Culture",
+      "duration_minutes": 50,
+      "podcast_date": "2026-04-25",
+      "processing_date": "2024-04-25",
+      "one_line_summary": "China's silver import surge and export cessation signal a potential silver squeeze and fiat currency collapse.",
+      "core_claims": [
+        "China imported record levels of silver in March 2026 and ceased silver exports in 2025.",
+        "Alistair believes silver prices could easily reach $300 per ounce or higher in 2026.",
+        "Russia and China will inevitably implement a gold standard while fiat currencies plummet to zero.",
+        "China's silver exports in 2024 were 4,200 tons, or 137 million ounces, and imports were approximately 330 tons.",
+        "Silver premiums in Shanghai are around 12-14%, partly due to VAT on imported silver.",
+        "UBS forecasts a 300 million ounce silver deficit in the current year."
+      ],
+      "signal_strength": 9,
+      "themes": [
+        "commodities",
+        "silver",
+        "china",
+        "gold",
+        "currency reset",
+        "geopolitics"
+      ],
+      "positioning_implication": "Shift portfolio allocation towards precious metals, particularly silver, anticipating currency devaluation and geopolitical shifts.",
+      "time_horizon": "medium",
+      "shelf_life": "Medium",
+      "thumbnail": "https://i.ytimg.com/vi/8eV-06tTJB8/hqdefault.jpg",
+      "video_url": "https://www.youtube.com/watch?v=8eV-06tTJB8",
+      "cluster_id": 0,
+      "category": "Precious Metals"
+    }
+  ],
+  "category_intelligence": {
+    "General Financial Investing and Speculation": {
+      "name": "General Financial Investing and Speculation",
+      "meta_summary": "",
+      "convergence_score": 0.0,
+      "percentile": 0.0,
+      "regime_state": "Neutral",
+      "clusters": [
+        {
+          "id": 0,
+          "name": "Semiconductor Surge Intensifying Market Geopolitical Risks",
+          "description": "The narrative highlights the confluence of semiconductor exuberance, reminiscent of a tech bubble, with persistent geopolitical and macroeconomic vulnerabilities, suggesting heightened market fragility.",
+          "bias": "defensive",
+          "regime": "Accelerating",
+          "size": 2,
+          "strength": 1.3195197765020128,
+          "coherence": 0.6597598882510064,
+          "channels": [
+            "Verified Investing",
+            "David Lin"
+          ],
+          "avg_signal": 8.0,
+          "briefs": [
+            {
+              "episode_title": "'Biggest Money Printing In Human Existence'; These Assets Blow Up Next | Jay Singh",
+              "channel": "David Lin",
+              "duration_minutes": 63,
+              "podcast_date": "2026-04-25",
+              "processing_date": "2026-04-25",
+              "one_line_summary": "The market rally's resilience is attributed to strong earnings juxtaposed with pivotal geopolitical risks, private credit concerns, and software valuation uncertainties.",
+              "core_claims": [
+                "Analyst expects the 'biggest money printing in the history of human existence', equating to 'the biggest market rally in human existence'.",
+                "S&P 500 operating margins are over 14%, defying expectations due to the performance of Big Tech.",
+                "20% of S&P 500 companies have reported with 87% exceeding earnings expectations across five sectors.",
+                "Analyst estimates indicate a 4% rise in earnings from January to April, with annual earnings projected to increase by 15%.",
+                "The Iran war poses a pivotal geopolitical risk, potentially impacting 20% of the world's oil, 20% of the world's LNG, and a third of world's agricultural fertilizers.",
+                "There's a $900 billion maturity wall across US and Europe approaching in 2028 within the $4 trillion leverage capital market.",
+                "Private credit is at risk due to 25% being in software where terminal values are under question due to AI."
+              ],
+              "signal_strength": 8,
+              "themes": [
+                "geopolitics",
+                "market analysis",
+                "earnings",
+                "private credit",
+                "risk assessment",
+                "macroeconomics",
+                "inflation"
+              ],
+              "positioning_implication": "Reduce exposure to private credit, especially software-related; evaluate positions in energy sector and geopolitical sensitivities.",
+              "time_horizon": "medium",
+              "shelf_life": "Medium",
+              "thumbnail": "https://i.ytimg.com/vi/kz3H3Sxt-8w/hqdefault.jpg",
+              "video_url": "https://www.youtube.com/watch?v=kz3H3Sxt-8w",
+              "cluster_id": 0,
+              "category": "General Financial Investing and Speculation"
+            },
+            {
+              "episode_title": "The Ultimate Tech Blow-Off Top?! Intel Surges 25% in Dot-Com Style Bubble!",
+              "channel": "Verified Investing",
+              "duration_minutes": 27,
+              "podcast_date": "2026-04-25",
+              "processing_date": "2026-04-25",
+              "one_line_summary": "Semiconductor surge resembles a dot-com bubble's final phase, with potential peaking signals emerging.",
+              "core_claims": [
+                "Intel surged 25% on an earnings beat, exhibiting bubble-like behavior with an unknown end.",
+                "The SOXX semiconductor ETF is up 50% and testing the last vertical trendline resistance.",
+                "Middle East investment pullback from the data center and chip sectors signals potential demand peak.",
+                "The Nasdaq approaching 25,000, potentially mirroring a 5x increase from the dot-com bubble peak, hints at a long-term top.",
+                "The internet psychology scan shows extreme greed (99%) signaling possible market reversal.",
+                "Oil price inversely correlates with market futures; exceeding $90 triggers an inverse relationship."
+              ],
+              "signal_strength": 8,
+              "themes": [
+                "market cycles",
+                "tech bubble",
+                "semiconductors",
+                "economic indicators",
+                "trend analysis",
+                "risk management"
+              ],
+              "positioning_implication": "Reduce exposure to overextended tech stocks and consider shorting opportunities in specific semiconductors if clear reversal patterns emerge. Monitor macroeconomic and geopolitical catalysts carefully.",
+              "time_horizon": "short",
+              "shelf_life": "Short",
+              "thumbnail": "https://i.ytimg.com/vi/3HMC0xl57xA/hqdefault.jpg",
+              "video_url": "https://www.youtube.com/watch?v=3HMC0xl57xA",
+              "cluster_id": 0,
+              "category": "General Financial Investing and Speculation"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "name": "Unnamed Cluster",
+          "description": "Dynamic grouping of related narratives.",
+          "bias": "neutral",
+          "regime": "Emerging",
+          "size": 1,
+          "strength": 1.0,
+          "coherence": 1.0,
+          "channels": [
+            "Verified Investing"
+          ],
+          "avg_signal": 7.0,
+          "briefs": [
+            {
+              "episode_title": "Semiconductors Ripping: NVDA, AMD & AVGO Trade Setups for the Week",
+              "channel": "Verified Investing",
+              "duration_minutes": 24,
+              "podcast_date": "2026-04-25",
+              "processing_date": "2026-04-25",
+              "one_line_summary": "Semiconductor sector analysis identifies near-term trade setups for NVDA, AMD, and AVGO, considering potential pullbacks and resistance levels.",
+              "core_claims": [
+                "Nvidia's pierce target is $210 with an add level at a double top of $212, expecting a short play if breaking below a 15-minute closing basis.",
+                "SPY expected to reach $718.56 to open shorting opportunities with resistance from a trendline originating from 2022 highs, conservative entry at pierce of $720.",
+                "AMD finally pierced the $350 level, an overextended move indicates an expected pullback to approximately $285, with a max upside of $400 before a potential substantial pullback.",
+                "AVGO shows signs of a potential sell-off from $291.26 after a 47% move, aiming to recapture the gap at $406.37 with potential down targets at $387.20 and $380.",
+                "Charter (CHTR) may present a long play opportunity at $180.02, with a stop-out if closing below this level on a 15-minute basis; potential range down to $131.70 if breaking below $180."
+              ],
+              "signal_strength": 7,
+              "themes": [
+                "semiconductors",
+                "technical analysis",
+                "trade setups",
+                "market pullbacks",
+                "resistance levels"
+              ],
+              "positioning_implication": "Consider strategic short positions in overextended semiconductor stocks and identify key levels for potential reversals or pullbacks; be cautious in adding to long positions at high volume due to momentum.",
+              "time_horizon": "short",
+              "shelf_life": "Medium",
+              "thumbnail": "https://i.ytimg.com/vi/b5xyyFneReI/hqdefault.jpg",
+              "video_url": "https://www.youtube.com/watch?v=b5xyyFneReI",
+              "cluster_id": 3,
+              "category": "General Financial Investing and Speculation"
+            }
+          ]
+        },
+        {
+          "id": 1,
+          "name": "US-China Relations: Thawing",
+          "description": "US-China relations could improve due to mutual economic benefits from trade and innovation.",
+          "bias": "constructive",
+          "regime": "Emerging",
+          "size": 1,
+          "strength": 1.0,
+          "coherence": 1.0,
+          "channels": [
+            "The Prof G Pod \u2013 Scott Galloway"
+          ],
+          "avg_signal": 8.0,
+          "briefs": [
+            {
+              "episode_title": "The Case for Making Up With China | Office Hours",
+              "channel": "The Prof G Pod \u2013 Scott Galloway",
+              "duration_minutes": 43,
+              "podcast_date": "2026-04-25",
+              "processing_date": "2026-04-25",
+              "one_line_summary": "The US and China could mutually benefit from thawing relations, as China has the world's greatest supply chain and manufacturing capabilities, while the US has IP, innovation, and capital formation.",
+              "core_claims": [
+                "Working together, the US and China could reduce global consumer costs by 3-10%.",
+                "China is no longer asking the world to believe in its potential; it is asking the world to adjust to its current reality as a superpower.",
+                "China ranks 10th in the 2025 Global Innovation Index, ahead of Germany, Japan, and France.",
+                "China can match frontier AI at a fraction of the US training costs, and chip export controls will not stall them.",
+                "China dominates EVs, batteries, solar, wind, and robotics.",
+                "China leads in EVs, solar panel production, and has brought online more nuclear power plant capacity in the last 10 years than the US.",
+                "China now files more generative AI patents annually than all other economies combined and accounts for 41% of the world's industrial robots."
+              ],
+              "signal_strength": 8,
+              "themes": [
+                "geopolitics",
+                "economics",
+                "china",
+                "us relations",
+                "trade policy",
+                "innovation",
+                "evs"
+              ],
+              "positioning_implication": "Re-evaluate assumptions about global economic power dynamics and the potential for mutually beneficial collaborations, particularly between the US and China.",
+              "time_horizon": "medium",
+              "shelf_life": "Medium",
+              "thumbnail": "https://i.ytimg.com/vi/4iy8_nWGNuA/hqdefault.jpg",
+              "video_url": "https://www.youtube.com/watch?v=4iy8_nWGNuA",
+              "cluster_id": 1,
+              "category": "General Financial Investing and Speculation"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "name": "AI Automation: Job Displacement Intensifying",
+          "description": "The narrative highlights AI automation's accelerating displacement of workers, requiring economic shifts towards compute infrastructure investments.",
+          "bias": "defensive",
+          "regime": "Emerging",
+          "size": 1,
+          "strength": 1.0,
+          "coherence": 1.0,
+          "channels": [
+            "The Prof G Pod \u2013 Scott Galloway"
+          ],
+          "avg_signal": 8.0,
+          "briefs": [
+            {
+              "episode_title": "The AI Job Crisis Andrew Yang Saw Coming | Prof G Markets",
+              "channel": "The Prof G Pod \u2013 Scott Galloway",
+              "duration_minutes": 22,
+              "podcast_date": "2026-04-25",
+              "processing_date": "2024-04-25",
+              "one_line_summary": "AI-driven automation displaces workers, necessitating strategic economic adaptations, like reinvestment in data centers, signaling compute infrastructure's ascendance over human capital.",
+              "core_claims": [
+                "Companies attributed roughly 55,000 layoffs to AI last year.",
+                "Unemployment for recent college grads rose to 5.6%, the highest level outside the pandemic in over a decade.",
+                "Placement rates have collapsed for computer science grads, reversing previously high rates at high salaries.",
+                "The amount of money spent on building data centers just surpassed the amount of money spent on office buildings for the first time."
+              ],
+              "signal_strength": 8,
+              "themes": [
+                "ai",
+                "automation",
+                "job displacement",
+                "labor market",
+                "economic impact",
+                "future of work",
+                "data centers",
+                "technological unemployment"
+              ],
+              "positioning_implication": "Re-evaluate capital allocation strategies to prioritize investments in computational infrastructure over traditional labor models; anticipate shifts in skill demand and potential social unrest due to technological displacement.",
+              "time_horizon": "medium",
+              "shelf_life": "Medium",
+              "thumbnail": "https://i.ytimg.com/vi/_nSSlpbqEX8/hqdefault.jpg",
+              "video_url": "https://www.youtube.com/watch?v=_nSSlpbqEX8",
+              "cluster_id": 2,
+              "category": "General Financial Investing and Speculation"
+            }
+          ]
+        }
+      ],
+      "should_generate": false
+    },
+    "Artificial Intelligence": {
+      "name": "Artificial Intelligence",
+      "meta_summary": "",
+      "convergence_score": 0.0,
+      "percentile": 0.0,
+      "regime_state": "Neutral",
+      "clusters": [
+        {
+          "id": 1,
+          "name": "AI Compute Allocation Tightening",
+          "description": "Google's AI compute strategy balances market demands with infrastructure risks and internal development needs, creating tension around resource allocation.",
+          "bias": "neutral",
+          "regime": "Emerging",
+          "size": 1,
+          "strength": 1.0,
+          "coherence": 1.0,
+          "channels": [
+            "Matthew Berman"
+          ],
+          "avg_signal": 9.0,
+          "briefs": [
+            {
+              "episode_title": "Google Cloud CEO: Anthropic, TPUs, Mythos, NVIDIA and more",
+              "channel": "Matthew Berman",
+              "duration_minutes": 57,
+              "podcast_date": "2026-04-25",
+              "processing_date": "2026-04-25",
+              "one_line_summary": "Google balances AI compute allocation across sales, partnerships, and internal model development while mitigating risks around data center costs, security vulnerabilities, and potential job displacement.",
+              "core_claims": [
+                "Google's 8th generation TPU will be announced at an upcoming event.",
+                "Google's token count has jumped from 10 billion a minute to 16 billion a minute, while enterprise users have jumped by 40% sequentially.",
+                "Rapid Storage, a new ultra-low latency inference storage system, will provide 15 terabytes per second throughput, enabling fast data fetching for inference.",
+                "Google's managed Lustre solution will improve to 10 terabytes per second throughput, designed for large-scale training with large data sets.",
+                "Google has developed tools to detect, repair, and continuously red-team code using agents to manage cybersecurity vulnerabilities, including a new Whiz capability.",
+                "Virgo, a new networking form, will provide ultra-low connectivity speed across a giant cluster.",
+                "The next bottleneck will be largely around VMs being activated and deactivated whenever a task is done."
+              ],
+              "signal_strength": 9,
+              "themes": [
+                "ai",
+                "compute",
+                "infrastructure",
+                "cybersecurity",
+                "silicon",
+                "planning",
+                "market analysis"
+              ],
+              "positioning_implication": "Diversify compute monetization strategies to mitigate risks and capitalize on evolving market demands; prioritize cybersecurity solutions and community engagement in AI infrastructure deployment.",
+              "time_horizon": "medium",
+              "shelf_life": "Medium",
+              "thumbnail": "https://i.ytimg.com/vi/bNdiBwXbLNw/hqdefault.jpg",
+              "video_url": "https://www.youtube.com/watch?v=bNdiBwXbLNw",
+              "cluster_id": 1,
+              "category": "Artificial Intelligence"
+            }
+          ]
+        },
+        {
+          "id": 0,
+          "name": "Claude Design: Workflow Automation Intensifying",
+          "description": "Anthropic's Claude Design accelerates the shift towards code-based design, potentially disrupting traditional product development workflows.",
+          "bias": "constructive",
+          "regime": "Emerging",
+          "size": 1,
+          "strength": 1.0,
+          "coherence": 1.0,
+          "channels": [
+            "AI News & Strategy Daily | Nate B Jones"
+          ],
+          "avg_signal": 9.0,
+          "briefs": [
+            {
+              "episode_title": "Claude Design Does In 30 Minutes What Your Team Does In A Sprint",
+              "channel": "AI News & Strategy Daily | Nate B Jones",
+              "duration_minutes": 31,
+              "podcast_date": "2026-04-25",
+              "processing_date": "2024-05-01",
+              "one_line_summary": "Anthropic's Claude Design threatens to replace the traditional mock-up to production workflow with an integrated, code-based design process.",
+              "core_claims": [
+                "Claude Design allows pitch decks with live embedded AI, including live chatbots, replacing traditional static presentations.",
+                "Claude Design creates animated product explainer videos rendered in code, enabling real-time modifications without restarting.",
+                "Claude Design generates design systems from existing codebases, automatically applying it to subsequent projects, compressing multi-week engagements into minutes.",
+                "Claude Design web capture and reskin tool grab competitor's landing pages to render it in your own design patterns."
+              ],
+              "signal_strength": 9,
+              "themes": [
+                "ai design",
+                "no-code",
+                "workflow automation",
+                "product development",
+                "llm",
+                "competitive strategy"
+              ],
+              "positioning_implication": "Evaluate current team structures and workflows to identify redundancies made obsolete by LLM-driven design and code generation tools.",
+              "time_horizon": "medium",
+              "shelf_life": "Medium",
+              "thumbnail": "https://i.ytimg.com/vi/KlPxWaY91rE/hqdefault.jpg",
+              "video_url": "https://www.youtube.com/watch?v=KlPxWaY91rE",
+              "cluster_id": 0,
+              "category": "Artificial Intelligence"
+            }
+          ]
+        }
+      ],
+      "should_generate": false
+    },
+    "Precious Metals": {
+      "name": "Precious Metals",
+      "meta_summary": "",
+      "convergence_score": 0.0,
+      "percentile": 0.0,
+      "regime_state": "Neutral",
+      "clusters": [
+        {
+          "id": 0,
+          "name": "Unnamed Cluster",
+          "description": "Dynamic grouping of related narratives.",
+          "bias": "neutral",
+          "regime": "Emerging",
+          "size": 1,
+          "strength": 0.0,
+          "coherence": 1.0,
+          "channels": [
+            "Commodity Culture"
+          ],
+          "avg_signal": 9.0,
+          "briefs": [
+            {
+              "episode_title": "China Importing RECORD Levels of SILVER, $300+ 'Very Likely' in 2026: Alasdair Macleod",
+              "channel": "Commodity Culture",
+              "duration_minutes": 50,
+              "podcast_date": "2026-04-25",
+              "processing_date": "2024-04-25",
+              "one_line_summary": "China's silver import surge and export cessation signal a potential silver squeeze and fiat currency collapse.",
+              "core_claims": [
+                "China imported record levels of silver in March 2026 and ceased silver exports in 2025.",
+                "Alistair believes silver prices could easily reach $300 per ounce or higher in 2026.",
+                "Russia and China will inevitably implement a gold standard while fiat currencies plummet to zero.",
+                "China's silver exports in 2024 were 4,200 tons, or 137 million ounces, and imports were approximately 330 tons.",
+                "Silver premiums in Shanghai are around 12-14%, partly due to VAT on imported silver.",
+                "UBS forecasts a 300 million ounce silver deficit in the current year."
+              ],
+              "signal_strength": 9,
+              "themes": [
+                "commodities",
+                "silver",
+                "china",
+                "gold",
+                "currency reset",
+                "geopolitics"
+              ],
+              "positioning_implication": "Shift portfolio allocation towards precious metals, particularly silver, anticipating currency devaluation and geopolitical shifts.",
+              "time_horizon": "medium",
+              "shelf_life": "Medium",
+              "thumbnail": "https://i.ytimg.com/vi/8eV-06tTJB8/hqdefault.jpg",
+              "video_url": "https://www.youtube.com/watch?v=8eV-06tTJB8",
+              "cluster_id": 0,
+              "category": "Precious Metals"
+            }
+          ]
+        }
+      ],
+      "should_generate": false
+    }
+  },
+  "clusters": []
+}
