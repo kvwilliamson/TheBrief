@@ -1,0 +1,96 @@
+{
+  "date": "2026-04-27",
+  "briefs": [
+    {
+      "episode_title": "How To Compound Your Investment Wealth | Peter Slegers",
+      "channel": "Adam Taggart | Thoughtful Money\u00ae",
+      "duration_minutes": 59,
+      "podcast_date": "2026-04-27",
+      "processing_date": "2024-01-26",
+      "one_line_summary": "Quality investing emphasizes buying great companies at fair prices using specific criteria to outperform markets long-term.",
+      "core_claims": [
+        "OpenAI offered 17.5% guaranteed return to private equity firms, signaling a potential red flag similar to past Ponzi schemes.",
+        "Francois Rochon notes Nvidia and Oracle's high valuations are manageable, but linked revenues create dangers.",
+        "Bill Ackman's fund is down 20%, Chuck Akre's is down 20%, and Chris Hohn is down 15%, suggesting fundamentally-based strategies struggle amid market trends.",
+        "Warren Buffett underperformed by 40% in 1999, emphasizing that all investment strategies have periods of underperformance."
+      ],
+      "signal_strength": 7,
+      "themes": [
+        "investment strategies",
+        "quality investing",
+        "market analysis",
+        "risk assessment",
+        "behavioral economics",
+        "financial analysis",
+        "valuation"
+      ],
+      "positioning_implication": "Consider diversification and a checklist-based, lower-emotion approach to minimize market volatility's impact on portfolio performance.",
+      "time_horizon": "medium",
+      "shelf_life": "Medium",
+      "thumbnail": "https://i.ytimg.com/vi/rrl1LFHTsyI/hqdefault.jpg",
+      "video_url": "https://www.youtube.com/watch?v=rrl1LFHTsyI",
+      "cluster_id": 0,
+      "category": "General Financial Investing and Speculation"
+    }
+  ],
+  "category_intelligence": {
+    "General Financial Investing and Speculation": {
+      "name": "General Financial Investing and Speculation",
+      "meta_summary": "",
+      "convergence_score": 0.0,
+      "percentile": 0.0,
+      "regime_state": "Neutral",
+      "clusters": [
+        {
+          "id": 0,
+          "name": "Quality Investing Outperformance Converging",
+          "description": "The narrative suggests that quality investing strategies are increasingly seen as a path to market outperformance.",
+          "bias": "constructive",
+          "regime": "Emerging",
+          "size": 1,
+          "strength": 0.0,
+          "coherence": 1.0,
+          "channels": [
+            "Adam Taggart | Thoughtful Money\u00ae"
+          ],
+          "avg_signal": 7.0,
+          "briefs": [
+            {
+              "episode_title": "How To Compound Your Investment Wealth | Peter Slegers",
+              "channel": "Adam Taggart | Thoughtful Money\u00ae",
+              "duration_minutes": 59,
+              "podcast_date": "2026-04-27",
+              "processing_date": "2024-01-26",
+              "one_line_summary": "Quality investing emphasizes buying great companies at fair prices using specific criteria to outperform markets long-term.",
+              "core_claims": [
+                "OpenAI offered 17.5% guaranteed return to private equity firms, signaling a potential red flag similar to past Ponzi schemes.",
+                "Francois Rochon notes Nvidia and Oracle's high valuations are manageable, but linked revenues create dangers.",
+                "Bill Ackman's fund is down 20%, Chuck Akre's is down 20%, and Chris Hohn is down 15%, suggesting fundamentally-based strategies struggle amid market trends.",
+                "Warren Buffett underperformed by 40% in 1999, emphasizing that all investment strategies have periods of underperformance."
+              ],
+              "signal_strength": 7,
+              "themes": [
+                "investment strategies",
+                "quality investing",
+                "market analysis",
+                "risk assessment",
+                "behavioral economics",
+                "financial analysis",
+                "valuation"
+              ],
+              "positioning_implication": "Consider diversification and a checklist-based, lower-emotion approach to minimize market volatility's impact on portfolio performance.",
+              "time_horizon": "medium",
+              "shelf_life": "Medium",
+              "thumbnail": "https://i.ytimg.com/vi/rrl1LFHTsyI/hqdefault.jpg",
+              "video_url": "https://www.youtube.com/watch?v=rrl1LFHTsyI",
+              "cluster_id": 0,
+              "category": "General Financial Investing and Speculation"
+            }
+          ]
+        }
+      ],
+      "should_generate": false
+    }
+  },
+  "clusters": []
+}
