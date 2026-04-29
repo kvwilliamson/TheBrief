@@ -6433,3 +6433,105 @@
 2026-04-28 07:18:58,880 - INFO - ==================================================
 2026-04-28 07:18:58,880 - INFO - Pipeline Execution Complete
 2026-04-28 07:18:58,880 - INFO - ==================================================
+2026-04-29 07:06:36,986 - INFO - ==================================================
+2026-04-29 07:06:36,987 - INFO - Starting TheBrief Daily Pipeline
+2026-04-29 07:06:36,987 - INFO - ==================================================
+2026-04-29 07:06:36,987 - INFO - 
+--- Phase 1: Discovery ---
+2026-04-29 07:06:36,991 - INFO - Discovering videos published after 2026-04-28T07:06:36.991028+00:00 (24h lookback)
+2026-04-29 07:06:37,438 - INFO - Found 1 new potential videos on GoldSilver .
+2026-04-29 07:06:37,671 - INFO - Found 3 new potential videos on Wall Street Bullion .
+2026-04-29 07:06:38,042 - INFO - Found 1 new potential videos on AI News & Strategy Daily | Nate B Jones.
+2026-04-29 07:06:38,099 - INFO - Found 2 new potential videos on David Lin .
+2026-04-29 07:06:38,236 - INFO - Found 1 new potential videos on Clive Thompson.
+2026-04-29 07:06:38,248 - INFO - Found 2 new potential videos on TheTechnicalTraders.
+2026-04-29 07:06:38,268 - INFO - Found 4 new potential videos on Verified Investing.
+2026-04-29 07:06:38,660 - INFO - Found 1 new potential videos on Commodity Culture.
+2026-04-29 07:06:38,751 - INFO - Found 1 new potential videos on Matthew Berman.
+2026-04-29 07:06:38,756 - INFO - Found 1 new potential videos on Adam Taggart | Thoughtful Money®.
+2026-04-29 07:06:38,808 - INFO - Found 1 new potential videos on CPM Group.
+2026-04-29 07:06:39,111 - INFO - Found 2 new potential videos on The Prof G Pod – Scott Galloway.
+2026-04-29 07:06:39,344 - INFO - Found 14 total long-form videos across all channels.
+2026-04-29 07:06:39,371 - INFO - Discovery complete. Added 14 new videos to queue.
+2026-04-29 07:06:39,371 - INFO - 
+--- Phase 2: Extraction ---
+2026-04-29 07:06:39,647 - INFO - yt-dlp version: 2026.03.17
+2026-04-29 07:06:40,023 - INFO - POT-related packages: bgutil-ytdlp-pot-provider 1.3.1
+2026-04-29 07:06:40,045 - INFO - bgutil HTTP server not available on port 4416 (will rely on cookies)
+2026-04-29 07:06:40,046 - INFO - Extracting audio for 9% Inflation For 10 Years, Bond Crisis; The Assets That Win Or Break Revealed | Clem Chambers (cCaYHkzsiL8)...
+2026-04-29 07:07:00,641 - INFO - Successfully extracted: audio/cCaYHkzsiL8.mp3
+2026-04-29 07:07:09,263 - INFO - Extracting audio for Templeton suggested 10 to 12 stocks.  How about 100?   Best strategies for entry and exit of stocks. (3ts1LXEwZzs)...
+2026-04-29 07:07:24,279 - INFO - Successfully extracted: audio/3ts1LXEwZzs.mp3
+2026-04-29 07:07:33,796 - INFO - Extracting audio for Mass Layoffs Starting? Why Universal High Income Is Next | Aleksandra Przegalinska (7GJSccigOq0)...
+2026-04-29 07:07:51,647 - INFO - Successfully extracted: audio/7GJSccigOq0.mp3
+2026-04-29 07:08:00,747 - INFO - Extracting audio for AI SHAKEOUT! WSJ vs OpenAI Trading Implications (eLN5qcGQlBY)...
+2026-04-29 07:08:14,633 - INFO - Successfully extracted: audio/eLN5qcGQlBY.mp3
+2026-04-29 07:08:24,238 - INFO - Extracting audio for Gold Drops Sharply: Is This the Start of Something Bigger? (x3zb1pIi2Qw)...
+2026-04-29 07:08:39,899 - INFO - Successfully extracted: audio/x3zb1pIi2Qw.mp3
+2026-04-29 07:08:48,595 - INFO - Extracting audio for Silver Price EMERGENCY: The Economic Collapse Has Already Started – Are You Prepared? (0Q3ZUciNRxM)...
+2026-04-29 07:08:59,682 - INFO - Successfully extracted: audio/0Q3ZUciNRxM.mp3
+2026-04-29 07:09:08,790 - INFO - Extracting audio for S&P 500 Sell-Off & Oil Surge: Key Levels for AMD, NVDA, and Semiconductors (sTbYowhAsso)...
+2026-04-29 07:09:23,807 - INFO - Successfully extracted: audio/sTbYowhAsso.mp3
+2026-04-29 07:09:35,134 - INFO - Extracting audio for Reddit is leaking again (H1OsV7FnhZc)...
+2026-04-29 07:09:52,222 - INFO - Successfully extracted: audio/H1OsV7FnhZc.mp3
+2026-04-29 07:09:58,193 - INFO - Extracting audio for The Bad Times Happen When Market Valuations Are Too Rich...Like Now | New Harbor Financial (1HQWKTj7Itg)...
+2026-04-29 07:10:29,836 - INFO - Successfully extracted: audio/1HQWKTj7Itg.mp3
+2026-04-29 07:10:40,811 - INFO - Extracting audio for GPT-5.5 vs Claude vs Gemini: The Real Difference Nobody's Talking About (9aIYhjeYxzM)...
+2026-04-29 07:11:04,277 - INFO - Successfully extracted: audio/9aIYhjeYxzM.mp3
+2026-04-29 07:11:14,087 - INFO - Extracting audio for GOLD Miners PRINTING Record Cash But They're DOWN? 'MAJOR Buying Opportunity' (3pZthK9HbPQ)...
+2026-04-29 07:11:35,651 - INFO - Successfully extracted: audio/3pZthK9HbPQ.mp3
+2026-04-29 07:11:41,515 - INFO - Extracting audio for Big moves in stocks, gold, and energy on Middle East and OpenAI News! (Ffaf4OERIiE)...
+2026-04-29 07:11:54,398 - INFO - Successfully extracted: audio/Ffaf4OERIiE.mp3
+2026-04-29 07:12:00,854 - INFO - Extracting audio for 🚨 DOT-COM BUBBLE 2.0? AI Stocks CRASH As Oil Spikes To $100! 🚨 (LiAxn467sH4)...
+2026-04-29 07:12:18,012 - INFO - Successfully extracted: audio/LiAxn467sH4.mp3
+2026-04-29 07:12:28,163 - INFO - Extracting audio for The U.S. vs China AI Battle Is Getting Ugly | China Decode (AH8cxx_WaT0)...
+2026-04-29 07:12:52,036 - INFO - Successfully extracted: audio/AH8cxx_WaT0.mp3
+2026-04-29 07:12:52,036 - INFO - Extraction complete. 14/14 audio files ready. (Time: 372.0s)
+2026-04-29 07:12:52,037 - INFO - 
+--- Phase 3: Summarization (Direct Audio) ---
+2026-04-29 07:12:53,485 - INFO - Generating Brief for 9% Inflation For 10 Years, Bond Crisis; The Assets That Win Or Break Revealed | Clem Chambers (cCaYHkzsiL8)...
+2026-04-29 07:12:53,487 - INFO - AFC is enabled with max remote calls: 10.
+2026-04-29 07:12:53,557 - INFO - Generating Brief for Mass Layoffs Starting? Why Universal High Income Is Next | Aleksandra Przegalinska (7GJSccigOq0)...
+2026-04-29 07:12:53,558 - INFO - AFC is enabled with max remote calls: 10.
+2026-04-29 07:12:53,775 - INFO - Generating Brief for Templeton suggested 10 to 12 stocks.  How about 100?   Best strategies for entry and exit of stocks. (3ts1LXEwZzs)...
+2026-04-29 07:12:53,776 - INFO - AFC is enabled with max remote calls: 10.
+2026-04-29 07:12:54,560 - ERROR - Error summarising audio 9% Inflation For 10 Years, Bond Crisis; The Assets That Win Or Break Revealed | Clem Chambers: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more details.', 'status': 'RESOURCE_EXHAUSTED'}}
+2026-04-29 07:12:54,607 - ERROR - Error summarising audio Templeton suggested 10 to 12 stocks.  How about 100?   Best strategies for entry and exit of stocks.: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more details.', 'status': 'RESOURCE_EXHAUSTED'}}
+2026-04-29 07:12:54,717 - ERROR - Error summarising audio Mass Layoffs Starting? Why Universal High Income Is Next | Aleksandra Przegalinska: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more details.', 'status': 'RESOURCE_EXHAUSTED'}}
+2026-04-29 07:12:56,142 - INFO - Generating Brief for AI SHAKEOUT! WSJ vs OpenAI Trading Implications (eLN5qcGQlBY)...
+2026-04-29 07:12:56,143 - INFO - AFC is enabled with max remote calls: 10.
+2026-04-29 07:12:56,246 - INFO - Generating Brief for Silver Price EMERGENCY: The Economic Collapse Has Already Started – Are You Prepared? (0Q3ZUciNRxM)...
+2026-04-29 07:12:56,247 - INFO - AFC is enabled with max remote calls: 10.
+2026-04-29 07:12:56,535 - INFO - Generating Brief for Gold Drops Sharply: Is This the Start of Something Bigger? (x3zb1pIi2Qw)...
+2026-04-29 07:12:56,536 - INFO - AFC is enabled with max remote calls: 10.
+2026-04-29 07:12:56,843 - ERROR - Error summarising audio Silver Price EMERGENCY: The Economic Collapse Has Already Started – Are You Prepared?: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more details.', 'status': 'RESOURCE_EXHAUSTED'}}
+2026-04-29 07:12:56,870 - ERROR - Error summarising audio AI SHAKEOUT! WSJ vs OpenAI Trading Implications: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more details.', 'status': 'RESOURCE_EXHAUSTED'}}
+2026-04-29 07:12:57,169 - ERROR - Error summarising audio Gold Drops Sharply: Is This the Start of Something Bigger?: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more details.', 'status': 'RESOURCE_EXHAUSTED'}}
+2026-04-29 07:12:58,253 - INFO - Generating Brief for S&P 500 Sell-Off & Oil Surge: Key Levels for AMD, NVDA, and Semiconductors (sTbYowhAsso)...
+2026-04-29 07:12:58,254 - INFO - AFC is enabled with max remote calls: 10.
+2026-04-29 07:12:58,283 - INFO - Generating Brief for Reddit is leaking again (H1OsV7FnhZc)...
+2026-04-29 07:12:58,284 - INFO - AFC is enabled with max remote calls: 10.
+2026-04-29 07:12:58,861 - ERROR - Error summarising audio S&P 500 Sell-Off & Oil Surge: Key Levels for AMD, NVDA, and Semiconductors: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more details.', 'status': 'RESOURCE_EXHAUSTED'}}
+2026-04-29 07:12:58,947 - ERROR - Error summarising audio Reddit is leaking again: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more details.', 'status': 'RESOURCE_EXHAUSTED'}}
+2026-04-29 07:12:59,369 - INFO - Generating Brief for The Bad Times Happen When Market Valuations Are Too Rich...Like Now | New Harbor Financial (1HQWKTj7Itg)...
+2026-04-29 07:12:59,370 - INFO - AFC is enabled with max remote calls: 10.
+2026-04-29 07:13:00,463 - INFO - Generating Brief for GOLD Miners PRINTING Record Cash But They're DOWN? 'MAJOR Buying Opportunity' (3pZthK9HbPQ)...
+2026-04-29 07:13:00,464 - INFO - AFC is enabled with max remote calls: 10.
+2026-04-29 07:13:00,535 - INFO - Generating Brief for GPT-5.5 vs Claude vs Gemini: The Real Difference Nobody's Talking About (9aIYhjeYxzM)...
+2026-04-29 07:13:00,536 - INFO - AFC is enabled with max remote calls: 10.
+2026-04-29 07:13:00,763 - ERROR - Error summarising audio The Bad Times Happen When Market Valuations Are Too Rich...Like Now | New Harbor Financial: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more details.', 'status': 'RESOURCE_EXHAUSTED'}}
+2026-04-29 07:13:01,195 - ERROR - Error summarising audio GOLD Miners PRINTING Record Cash But They're DOWN? 'MAJOR Buying Opportunity': 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more details.', 'status': 'RESOURCE_EXHAUSTED'}}
+2026-04-29 07:13:01,350 - ERROR - Error summarising audio GPT-5.5 vs Claude vs Gemini: The Real Difference Nobody's Talking About: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more details.', 'status': 'RESOURCE_EXHAUSTED'}}
+2026-04-29 07:13:02,418 - INFO - Generating Brief for Big moves in stocks, gold, and energy on Middle East and OpenAI News! (Ffaf4OERIiE)...
+2026-04-29 07:13:02,419 - INFO - AFC is enabled with max remote calls: 10.
+2026-04-29 07:13:02,680 - INFO - Generating Brief for 🚨 DOT-COM BUBBLE 2.0? AI Stocks CRASH As Oil Spikes To $100! 🚨 (LiAxn467sH4)...
+2026-04-29 07:13:02,681 - INFO - AFC is enabled with max remote calls: 10.
+2026-04-29 07:13:03,019 - ERROR - Error summarising audio Big moves in stocks, gold, and energy on Middle East and OpenAI News!: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more details.', 'status': 'RESOURCE_EXHAUSTED'}}
+2026-04-29 07:13:03,037 - INFO - Generating Brief for The U.S. vs China AI Battle Is Getting Ugly | China Decode (AH8cxx_WaT0)...
+2026-04-29 07:13:03,038 - INFO - AFC is enabled with max remote calls: 10.
+2026-04-29 07:13:03,255 - ERROR - Error summarising audio 🚨 DOT-COM BUBBLE 2.0? AI Stocks CRASH As Oil Spikes To $100! 🚨: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more details.', 'status': 'RESOURCE_EXHAUSTED'}}
+2026-04-29 07:13:03,855 - ERROR - Error summarising audio The U.S. vs China AI Battle Is Getting Ugly | China Decode: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more details.', 'status': 'RESOURCE_EXHAUSTED'}}
+2026-04-29 07:13:04,235 - WARNING - No briefs were successfully generated.
+2026-04-29 07:13:04,235 - INFO - ==================================================
+2026-04-29 07:13:04,235 - INFO - Pipeline Execution Complete
+2026-04-29 07:13:04,235 - INFO - ==================================================
