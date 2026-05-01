@@ -1,0 +1,430 @@
+{
+  "date": "2026-05-01",
+  "briefs": [
+    {
+      "episode_title": "SPY RECORD HIGH! Trading the GOOGL Surge vs. META Slump",
+      "channel": "Verified Investing",
+      "duration_minutes": 41,
+      "podcast_date": "2026-05-01",
+      "processing_date": "2026-05-01",
+      "one_line_summary": "Market analysis covers potential resistance and support levels for major indices and stocks post-earnings, focusing on overbought conditions and key trendlines.",
+      "core_claims": [
+        "SPX made new all-time highs, closing above 7200 points but is currently overbought and consolidating.",
+        "Near-term IWM upside hinges on breaking resistance at current closing levels, with potential for a 'nose poke' above, but remains overbought.",
+        "SMH didn't hit new highs but rebounded, using the parallel channel as support around $487.98; consolidation is likely before further upside.",
+        "Gold is back above minor support at $4588, while silver saw a recovery but faces resistance at $75.33; physical silver may become attractive below $60.",
+        "US oil saw overnight spikes to $110.93 but reversed, indicating resistance at the parallel, and remains under $107.48.",
+        "The analyst projects a Qualcomm retest, after hitting and reversing from a key trendline, dependent on closing above $181.07."
+      ],
+      "signal_strength": 7,
+      "themes": [
+        "technical analysis",
+        "market trends",
+        "earnings reports",
+        "support and resistance",
+        "overbought conditions",
+        "trading strategies"
+      ],
+      "positioning_implication": "Adopt a cautious approach to buying in overextended markets; prioritize consolidation and pullback entry points.",
+      "time_horizon": "short",
+      "shelf_life": "Medium",
+      "thumbnail": "https://i.ytimg.com/vi/F41j15qs0FQ/hqdefault.jpg",
+      "video_url": "https://www.youtube.com/watch?v=F41j15qs0FQ",
+      "cluster_id": 2,
+      "category": "General Financial Investing and Speculation"
+    },
+    {
+      "episode_title": "Central Banks Are COLLAPSING \u2013 Silver Is About To EXPLODE \ud83d\udea8 (This Is HUGE)",
+      "channel": "Wall Street Bullion",
+      "duration_minutes": 31,
+      "podcast_date": "2026-05-01",
+      "processing_date": "2024-01-26",
+      "one_line_summary": "Markets overreact to global money supply growth due to geopolitical uncertainty and currency devaluation.",
+      "core_claims": [
+        "Global money supply growth is steeply increasing.",
+        "Money velocity, investment, and credit demand are declining.",
+        "The official CPI calculation is a debatable measure of real inflation because it uses an averaged basket of goods and services and doesn't adequately represent the inflation rate for low-income individuals.",
+        "The US dollar and oil prices are moving in tandem because the US is now the largest net exporter of oil.",
+        "Central banks that acquired a lot of gold have reduced their holdings to stabilize their currency.",
+        "The 60/40 portfolio is gone; investors need a mix of equities and precious metals, with equities in sectors less exposed to the economic cycle."
+      ],
+      "signal_strength": 8,
+      "themes": [
+        "inflation",
+        "monetary policy",
+        "geopolitics",
+        "precious metals",
+        "economic indicators",
+        "sovereign debt"
+      ],
+      "positioning_implication": "Diversify portfolios with precious metals and equities in sectors resilient to economic cycles. De-emphasize reliance on traditional sovereign debt.",
+      "time_horizon": "medium",
+      "shelf_life": "Medium",
+      "thumbnail": "https://i.ytimg.com/vi/X3r3OFuJU2g/hqdefault.jpg",
+      "video_url": "https://www.youtube.com/watch?v=X3r3OFuJU2g",
+      "cluster_id": 0,
+      "category": "Precious Metals"
+    },
+    {
+      "episode_title": "Microsoft Is Testing Claude Against Its Own Copilot. Here's Why.",
+      "channel": "AI News & Strategy Daily | Nate B Jones",
+      "duration_minutes": 31,
+      "podcast_date": "2026-05-01",
+      "processing_date": "2026-05-01",
+      "one_line_summary": "AI tool selection should be data-driven, focusing on specific job performance rather than defaulting to a single, potentially ill-suited, corporate-wide solution.",
+      "core_claims": [
+        "Companies expect frontier AI results from default tool performance, leading to widespread frustration among individual contributors.",
+        "Reframing the AI tool ask as a measurement problem can circumvent perceived disloyalty and facilitate productive dialogue.",
+        "Measuring the time and rework saved by specialist AI tools compared to corporate defaults allows for a quantifiable case for investment.",
+        "AI-native companies operate with lower decision gates, empowering ICs to acquire the tools they need, indicating a strategic advantage.",
+        "AI tooling decisions are now directly influencing talent retention, highlighting the need for permissive procurement practices."
+      ],
+      "signal_strength": 9,
+      "themes": [
+        "ai tooling",
+        "procurement",
+        "talent retention",
+        "productivity",
+        "measurement",
+        "organizational change"
+      ],
+      "positioning_implication": "Organizations must prioritize data-driven AI tool procurement that optimizes for specific job performance to enhance productivity and retain talent. Leaders should empower individual contributors to experiment and measure the efficacy of AI solutions.",
+      "time_horizon": "medium",
+      "shelf_life": "Medium",
+      "thumbnail": "https://i.ytimg.com/vi/JvCtGjrn_N0/hqdefault.jpg",
+      "video_url": "https://www.youtube.com/watch?v=JvCtGjrn_N0",
+      "cluster_id": 0,
+      "category": "Artificial Intelligence"
+    },
+    {
+      "episode_title": "NASDAQ 25,000, Oil Drops Off Resistance! Mega Cap Earnings & Trade Levels",
+      "channel": "Verified Investing",
+      "duration_minutes": 16,
+      "podcast_date": "2026-05-01",
+      "processing_date": "2024-02-22",
+      "one_line_summary": "Market sentiment fluctuates with oil prices and megacap earnings, influencing near-term trading strategies and future market moves.",
+      "core_claims": [
+        "The Fed's decision solidifies market independence, influencing interest rate decisions.",
+        "Mega cap earnings were generally positive with Alphabet/Google pushing higher.",
+        "Increased spending by mega caps aligns with product costs, indicating stable demand.",
+        "Oil's rejection at $111 resistance suggests a potential bearish reversal pattern.",
+        "NASDAQ is predicted to pierce 25,000, potentially driven by Apple earnings.",
+        "Alphabet/Google at $380 presents a good swing trade level."
+      ],
+      "signal_strength": 7,
+      "themes": [
+        "technical analysis",
+        "market trends",
+        "earnings analysis",
+        "oil prices",
+        "fed policy",
+        "trading levels"
+      ],
+      "positioning_implication": "Monitor oil resistance levels and NASDAQ's approach to 25,000 to anticipate short-term market shifts. Adjust portfolio allocations based on megacap earnings trends and potential swing trade opportunities.",
+      "time_horizon": "short",
+      "shelf_life": "Short",
+      "thumbnail": "https://i.ytimg.com/vi/XdEuq-52ZrE/hqdefault.jpg",
+      "video_url": "https://www.youtube.com/watch?v=XdEuq-52ZrE",
+      "cluster_id": 1,
+      "category": "General Financial Investing and Speculation"
+    },
+    {
+      "episode_title": "OPEC Just Broke the Petrodollar \u2014 And Gold Knows It",
+      "channel": "Felix & Friends (Goat Academy)",
+      "duration_minutes": 23,
+      "podcast_date": "2026-05-01",
+      "processing_date": "2026-05-01",
+      "one_line_summary": "The petrodollar system is fracturing as key players move away from dollar-denominated oil trade, impacting the dollar's global reserve currency status.",
+      "core_claims": [
+        "The UAE left OPEC, seeking freedom from production quotas and potentially shifting to RMB for oil sales.",
+        "Central banks globally are accumulating gold at a rate unseen in modern history, triggered by the freezing of Russia's foreign currency reserves.",
+        "China's holdings of US debt have fallen by 50%, signaling a move away from recycling petrodollars into American debt."
+      ],
+      "signal_strength": 9,
+      "themes": [
+        "geopolitics",
+        "economics",
+        "petrodollar",
+        "gold",
+        "de-dollarization",
+        "central banks"
+      ],
+      "positioning_implication": "Reduce exposure to USD denominated assets and increase allocation to gold as a hedge against dollar decline and geopolitical uncertainty. Monitor central bank and sovereign wealth fund allocations.",
+      "time_horizon": "medium",
+      "shelf_life": "Medium",
+      "thumbnail": "https://i.ytimg.com/vi/0Pz5BVbtemQ/hqdefault.jpg",
+      "video_url": "https://www.youtube.com/watch?v=0Pz5BVbtemQ",
+      "cluster_id": 0,
+      "category": "General Financial Investing and Speculation"
+    }
+  ],
+  "category_intelligence": {
+    "General Financial Investing and Speculation": {
+      "name": "General Financial Investing and Speculation",
+      "meta_summary": "",
+      "convergence_score": 0.0,
+      "percentile": 0.0,
+      "regime_state": "Neutral",
+      "clusters": [
+        {
+          "id": 2,
+          "name": "Overbought Conditions Stall Market Momentum",
+          "description": "Technical resistance and overbought conditions are combining to potentially limit further upside for major indices and stocks after earnings releases.",
+          "bias": "defensive",
+          "regime": "Emerging",
+          "size": 1,
+          "strength": 1.0,
+          "coherence": 1.0,
+          "channels": [
+            "Verified Investing"
+          ],
+          "avg_signal": 7.0,
+          "briefs": [
+            {
+              "episode_title": "SPY RECORD HIGH! Trading the GOOGL Surge vs. META Slump",
+              "channel": "Verified Investing",
+              "duration_minutes": 41,
+              "podcast_date": "2026-05-01",
+              "processing_date": "2026-05-01",
+              "one_line_summary": "Market analysis covers potential resistance and support levels for major indices and stocks post-earnings, focusing on overbought conditions and key trendlines.",
+              "core_claims": [
+                "SPX made new all-time highs, closing above 7200 points but is currently overbought and consolidating.",
+                "Near-term IWM upside hinges on breaking resistance at current closing levels, with potential for a 'nose poke' above, but remains overbought.",
+                "SMH didn't hit new highs but rebounded, using the parallel channel as support around $487.98; consolidation is likely before further upside.",
+                "Gold is back above minor support at $4588, while silver saw a recovery but faces resistance at $75.33; physical silver may become attractive below $60.",
+                "US oil saw overnight spikes to $110.93 but reversed, indicating resistance at the parallel, and remains under $107.48.",
+                "The analyst projects a Qualcomm retest, after hitting and reversing from a key trendline, dependent on closing above $181.07."
+              ],
+              "signal_strength": 7,
+              "themes": [
+                "technical analysis",
+                "market trends",
+                "earnings reports",
+                "support and resistance",
+                "overbought conditions",
+                "trading strategies"
+              ],
+              "positioning_implication": "Adopt a cautious approach to buying in overextended markets; prioritize consolidation and pullback entry points.",
+              "time_horizon": "short",
+              "shelf_life": "Medium",
+              "thumbnail": "https://i.ytimg.com/vi/F41j15qs0FQ/hqdefault.jpg",
+              "video_url": "https://www.youtube.com/watch?v=F41j15qs0FQ",
+              "cluster_id": 2,
+              "category": "General Financial Investing and Speculation"
+            }
+          ]
+        },
+        {
+          "id": 1,
+          "name": "Oil, Earnings Pivot Market Sentiment",
+          "description": "Market sentiment is pivoting on oil prices and megacap earnings, impacting trading strategies and future market direction.",
+          "bias": "neutral",
+          "regime": "Emerging",
+          "size": 1,
+          "strength": 1.0,
+          "coherence": 1.0,
+          "channels": [
+            "Verified Investing"
+          ],
+          "avg_signal": 7.0,
+          "briefs": [
+            {
+              "episode_title": "NASDAQ 25,000, Oil Drops Off Resistance! Mega Cap Earnings & Trade Levels",
+              "channel": "Verified Investing",
+              "duration_minutes": 16,
+              "podcast_date": "2026-05-01",
+              "processing_date": "2024-02-22",
+              "one_line_summary": "Market sentiment fluctuates with oil prices and megacap earnings, influencing near-term trading strategies and future market moves.",
+              "core_claims": [
+                "The Fed's decision solidifies market independence, influencing interest rate decisions.",
+                "Mega cap earnings were generally positive with Alphabet/Google pushing higher.",
+                "Increased spending by mega caps aligns with product costs, indicating stable demand.",
+                "Oil's rejection at $111 resistance suggests a potential bearish reversal pattern.",
+                "NASDAQ is predicted to pierce 25,000, potentially driven by Apple earnings.",
+                "Alphabet/Google at $380 presents a good swing trade level."
+              ],
+              "signal_strength": 7,
+              "themes": [
+                "technical analysis",
+                "market trends",
+                "earnings analysis",
+                "oil prices",
+                "fed policy",
+                "trading levels"
+              ],
+              "positioning_implication": "Monitor oil resistance levels and NASDAQ's approach to 25,000 to anticipate short-term market shifts. Adjust portfolio allocations based on megacap earnings trends and potential swing trade opportunities.",
+              "time_horizon": "short",
+              "shelf_life": "Short",
+              "thumbnail": "https://i.ytimg.com/vi/XdEuq-52ZrE/hqdefault.jpg",
+              "video_url": "https://www.youtube.com/watch?v=XdEuq-52ZrE",
+              "cluster_id": 1,
+              "category": "General Financial Investing and Speculation"
+            }
+          ]
+        },
+        {
+          "id": 0,
+          "name": "Petrodollar System Fracturing",
+          "description": "The petrodollar system's erosion signals a shift away from dollar dominance in global oil trade.",
+          "bias": "counter-consensus",
+          "regime": "Emerging",
+          "size": 1,
+          "strength": 1.0,
+          "coherence": 1.0,
+          "channels": [
+            "Felix & Friends (Goat Academy)"
+          ],
+          "avg_signal": 9.0,
+          "briefs": [
+            {
+              "episode_title": "OPEC Just Broke the Petrodollar \u2014 And Gold Knows It",
+              "channel": "Felix & Friends (Goat Academy)",
+              "duration_minutes": 23,
+              "podcast_date": "2026-05-01",
+              "processing_date": "2026-05-01",
+              "one_line_summary": "The petrodollar system is fracturing as key players move away from dollar-denominated oil trade, impacting the dollar's global reserve currency status.",
+              "core_claims": [
+                "The UAE left OPEC, seeking freedom from production quotas and potentially shifting to RMB for oil sales.",
+                "Central banks globally are accumulating gold at a rate unseen in modern history, triggered by the freezing of Russia's foreign currency reserves.",
+                "China's holdings of US debt have fallen by 50%, signaling a move away from recycling petrodollars into American debt."
+              ],
+              "signal_strength": 9,
+              "themes": [
+                "geopolitics",
+                "economics",
+                "petrodollar",
+                "gold",
+                "de-dollarization",
+                "central banks"
+              ],
+              "positioning_implication": "Reduce exposure to USD denominated assets and increase allocation to gold as a hedge against dollar decline and geopolitical uncertainty. Monitor central bank and sovereign wealth fund allocations.",
+              "time_horizon": "medium",
+              "shelf_life": "Medium",
+              "thumbnail": "https://i.ytimg.com/vi/0Pz5BVbtemQ/hqdefault.jpg",
+              "video_url": "https://www.youtube.com/watch?v=0Pz5BVbtemQ",
+              "cluster_id": 0,
+              "category": "General Financial Investing and Speculation"
+            }
+          ]
+        }
+      ],
+      "should_generate": false
+    },
+    "Precious Metals": {
+      "name": "Precious Metals",
+      "meta_summary": "",
+      "convergence_score": 0.0,
+      "percentile": 0.0,
+      "regime_state": "Neutral",
+      "clusters": [
+        {
+          "id": 0,
+          "name": "Geopolitics Intensifying Money Supply Overreaction",
+          "description": "Geopolitical uncertainty amplifies market sensitivity to global money supply, exacerbating devaluation fears and precious metal demand.",
+          "bias": "defensive",
+          "regime": "Emerging",
+          "size": 1,
+          "strength": 0.0,
+          "coherence": 1.0,
+          "channels": [
+            "Wall Street Bullion"
+          ],
+          "avg_signal": 8.0,
+          "briefs": [
+            {
+              "episode_title": "Central Banks Are COLLAPSING \u2013 Silver Is About To EXPLODE \ud83d\udea8 (This Is HUGE)",
+              "channel": "Wall Street Bullion",
+              "duration_minutes": 31,
+              "podcast_date": "2026-05-01",
+              "processing_date": "2024-01-26",
+              "one_line_summary": "Markets overreact to global money supply growth due to geopolitical uncertainty and currency devaluation.",
+              "core_claims": [
+                "Global money supply growth is steeply increasing.",
+                "Money velocity, investment, and credit demand are declining.",
+                "The official CPI calculation is a debatable measure of real inflation because it uses an averaged basket of goods and services and doesn't adequately represent the inflation rate for low-income individuals.",
+                "The US dollar and oil prices are moving in tandem because the US is now the largest net exporter of oil.",
+                "Central banks that acquired a lot of gold have reduced their holdings to stabilize their currency.",
+                "The 60/40 portfolio is gone; investors need a mix of equities and precious metals, with equities in sectors less exposed to the economic cycle."
+              ],
+              "signal_strength": 8,
+              "themes": [
+                "inflation",
+                "monetary policy",
+                "geopolitics",
+                "precious metals",
+                "economic indicators",
+                "sovereign debt"
+              ],
+              "positioning_implication": "Diversify portfolios with precious metals and equities in sectors resilient to economic cycles. De-emphasize reliance on traditional sovereign debt.",
+              "time_horizon": "medium",
+              "shelf_life": "Medium",
+              "thumbnail": "https://i.ytimg.com/vi/X3r3OFuJU2g/hqdefault.jpg",
+              "video_url": "https://www.youtube.com/watch?v=X3r3OFuJU2g",
+              "cluster_id": 0,
+              "category": "Precious Metals"
+            }
+          ]
+        }
+      ],
+      "should_generate": false
+    },
+    "Artificial Intelligence": {
+      "name": "Artificial Intelligence",
+      "meta_summary": "",
+      "convergence_score": 0.0,
+      "percentile": 0.0,
+      "regime_state": "Neutral",
+      "clusters": [
+        {
+          "id": 0,
+          "name": "Data-Driven AI Tooling Intensifying Talent Retention",
+          "description": "Focusing AI tool selection on data-driven performance metrics is presented as a key factor in improving talent retention.",
+          "bias": "constructive",
+          "regime": "Emerging",
+          "size": 1,
+          "strength": 0.0,
+          "coherence": 1.0,
+          "channels": [
+            "AI News & Strategy Daily | Nate B Jones"
+          ],
+          "avg_signal": 9.0,
+          "briefs": [
+            {
+              "episode_title": "Microsoft Is Testing Claude Against Its Own Copilot. Here's Why.",
+              "channel": "AI News & Strategy Daily | Nate B Jones",
+              "duration_minutes": 31,
+              "podcast_date": "2026-05-01",
+              "processing_date": "2026-05-01",
+              "one_line_summary": "AI tool selection should be data-driven, focusing on specific job performance rather than defaulting to a single, potentially ill-suited, corporate-wide solution.",
+              "core_claims": [
+                "Companies expect frontier AI results from default tool performance, leading to widespread frustration among individual contributors.",
+                "Reframing the AI tool ask as a measurement problem can circumvent perceived disloyalty and facilitate productive dialogue.",
+                "Measuring the time and rework saved by specialist AI tools compared to corporate defaults allows for a quantifiable case for investment.",
+                "AI-native companies operate with lower decision gates, empowering ICs to acquire the tools they need, indicating a strategic advantage.",
+                "AI tooling decisions are now directly influencing talent retention, highlighting the need for permissive procurement practices."
+              ],
+              "signal_strength": 9,
+              "themes": [
+                "ai tooling",
+                "procurement",
+                "talent retention",
+                "productivity",
+                "measurement",
+                "organizational change"
+              ],
+              "positioning_implication": "Organizations must prioritize data-driven AI tool procurement that optimizes for specific job performance to enhance productivity and retain talent. Leaders should empower individual contributors to experiment and measure the efficacy of AI solutions.",
+              "time_horizon": "medium",
+              "shelf_life": "Medium",
+              "thumbnail": "https://i.ytimg.com/vi/JvCtGjrn_N0/hqdefault.jpg",
+              "video_url": "https://www.youtube.com/watch?v=JvCtGjrn_N0",
+              "cluster_id": 0,
+              "category": "Artificial Intelligence"
+            }
+          ]
+        }
+      ],
+      "should_generate": false
+    }
+  },
+  "clusters": []
+}
