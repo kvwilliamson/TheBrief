@@ -6783,3 +6783,125 @@
 2026-05-01 07:17:35,477 - INFO - ==================================================
 2026-05-01 07:17:35,477 - INFO - Pipeline Execution Complete
 2026-05-01 07:17:35,478 - INFO - ==================================================
+2026-05-02 06:54:27,895 - INFO - ==================================================
+2026-05-02 06:54:27,895 - INFO - Starting TheBrief Daily Pipeline
+2026-05-02 06:54:27,895 - INFO - ==================================================
+2026-05-02 06:54:27,896 - INFO - 
+--- Phase 1: Discovery ---
+2026-05-02 06:54:27,899 - INFO - Discovering videos published after 2026-05-01T06:54:27.899576+00:00 (24h lookback)
+2026-05-02 06:54:28,279 - INFO - Found 1 new potential videos on GoldSilver .
+2026-05-02 06:54:28,542 - INFO - Found 1 new potential videos on Wall Street Bullion .
+2026-05-02 06:54:28,784 - INFO - Found 3 new potential videos on AI News & Strategy Daily | Nate B Jones.
+2026-05-02 06:54:29,108 - INFO - Found 1 new potential videos on Kitco NEWS.
+2026-05-02 06:54:29,119 - INFO - Found 1 new potential videos on David Lin .
+2026-05-02 06:54:29,179 - INFO - Found 5 new potential videos on Verified Investing.
+2026-05-02 06:54:29,203 - INFO - Found 1 new potential videos on TheTechnicalTraders.
+2026-05-02 06:54:29,585 - INFO - Found 1 new potential videos on CPM Group.
+2026-05-02 06:54:29,590 - INFO - Found 1 new potential videos on Commodity Culture.
+2026-05-02 06:54:29,706 - INFO - Found 1 new potential videos on Adam Taggart | Thoughtful Money®.
+2026-05-02 06:54:29,895 - INFO - Found 1 new potential videos on Wes Roth.
+2026-05-02 06:54:30,001 - INFO - Found 2 new potential videos on Matthew Berman.
+2026-05-02 06:54:30,107 - INFO - Found 3 new potential videos on The Prof G Pod – Scott Galloway.
+2026-05-02 06:54:30,289 - INFO - Found 14 total long-form videos across all channels.
+2026-05-02 06:54:30,314 - INFO - Discovery complete. Added 14 new videos to queue.
+2026-05-02 06:54:30,314 - INFO - 
+--- Phase 2: Extraction ---
+2026-05-02 06:54:30,556 - INFO - yt-dlp version: 2026.03.17
+2026-05-02 06:54:30,912 - INFO - POT-related packages: bgutil-ytdlp-pot-provider 1.3.1
+2026-05-02 06:54:30,935 - INFO - bgutil HTTP server not available on port 4416 (will rely on cookies)
+2026-05-02 06:54:30,935 - INFO - Extracting audio for AI just killed Crypto... (LMJb-_uL6lQ)...
+2026-05-02 06:54:48,522 - INFO - Successfully extracted: audio/LMJb-_uL6lQ.mp3
+2026-05-02 06:54:53,831 - INFO - Extracting audio for NASDAQ Surges Over 25,000, Bull Market In Full Force? Major Levels & Trades (B4HF4H9tH40)...
+2026-05-02 06:55:05,262 - INFO - Successfully extracted: audio/B4HF4H9tH40.mp3
+2026-05-02 06:55:13,527 - INFO - Extracting audio for Reacting to "Why AI is so smart but also so dumb?" (pngC-TH8M0U)...
+2026-05-02 06:55:36,022 - INFO - Successfully extracted: audio/pngC-TH8M0U.mp3
+2026-05-02 06:55:42,385 - INFO - Extracting audio for Baiting AI [LIVE] (IX9Qd8xb8xY)...
+2026-05-02 06:56:33,485 - INFO - Successfully extracted: audio/IX9Qd8xb8xY.mp3
+2026-05-02 06:56:38,535 - INFO - Extracting audio for CRITICAL SHIFT: Why Gold And Silver Could Drop Before the Next Rally (UVD_ZTygzjI)...
+2026-05-02 06:56:53,575 - INFO - Successfully extracted: audio/UVD_ZTygzjI.mp3
+2026-05-02 06:57:02,615 - INFO - Extracting audio for ‘Write-Downs To Zero’: The $1.8 Trillion Private Credit Warning - Danielle DiMartino Booth (YMr9HrzUIOU)...
+2026-05-02 06:57:20,097 - INFO - Successfully extracted: audio/YMr9HrzUIOU.mp3
+2026-05-02 06:57:28,109 - INFO - Extracting audio for Silver Price Is About To Hit a Level Not Seen in YEARS (This Is HUGE) (3Dw_3OWxloE)...
+2026-05-02 06:57:40,497 - INFO - Successfully extracted: audio/3Dw_3OWxloE.mp3
+2026-05-02 06:57:48,197 - INFO - Extracting audio for Economy Is ‘Treading Water’; Economist Reveals Next Asset Explosion | Steve Hanke (cb_V0JeS4Y4)...
+2026-05-02 06:58:09,820 - INFO - Successfully extracted: audio/cb_V0JeS4Y4.mp3
+2026-05-02 06:58:17,203 - INFO - Extracting audio for Hidden Trend Lines & Short Targets Across Stocks, Crypto, Commodities (5SnOdHxFVMk)...
+2026-05-02 06:58:31,680 - INFO - Successfully extracted: audio/5SnOdHxFVMk.mp3
+2026-05-02 06:58:37,661 - INFO - Extracting audio for Can AI Actually Help You Start a Company? | Office Hours (1OP1rUpsvHw)...
+2026-05-02 06:58:53,215 - INFO - Successfully extracted: audio/1OP1rUpsvHw.mp3
+2026-05-02 06:59:03,183 - INFO - Extracting audio for RTX 5090, Mac Studio, or DGX Spark? I tried all three. (iUSdS-6uwr4)...
+2026-05-02 06:59:24,564 - INFO - Successfully extracted: audio/iUSdS-6uwr4.mp3
+2026-05-02 06:59:30,732 - INFO - Extracting audio for NASDAQ 25,000 BREAKOUT or FAKEOUT?! Iran Sends A New Proposal, AAPL Earnings And Top Trades (RR5GWFLip3g)...
+2026-05-02 06:59:45,390 - INFO - Successfully extracted: audio/RR5GWFLip3g.mp3
+2026-05-02 06:59:55,662 - INFO - Extracting audio for GOLD 'Absolutely' Headed to All-Time Highs This Year - We're in a New Paradigm (WUz6YQHfasM)...
+2026-05-02 07:00:11,864 - INFO - Successfully extracted: audio/WUz6YQHfasM.mp3
+2026-05-02 07:00:18,659 - INFO - Extracting audio for Reid Hoffman: The AI Optimist Makes His Case | Prof G Markets (aLg61shvU-w)...
+2026-05-02 07:00:30,911 - INFO - Successfully extracted: audio/aLg61shvU-w.mp3
+2026-05-02 07:00:30,912 - INFO - Extraction complete. 14/14 audio files ready. (Time: 360.0s)
+2026-05-02 07:00:30,912 - INFO - 
+--- Phase 3: Summarization (Direct Audio) ---
+2026-05-02 07:00:32,322 - INFO - Generating Brief for NASDAQ Surges Over 25,000, Bull Market In Full Force? Major Levels & Trades (B4HF4H9tH40)...
+2026-05-02 07:00:32,324 - INFO - AFC is enabled with max remote calls: 10.
+2026-05-02 07:00:32,667 - INFO - Generating Brief for Reacting to "Why AI is so smart but also so dumb?" (pngC-TH8M0U)...
+2026-05-02 07:00:32,668 - INFO - AFC is enabled with max remote calls: 10.
+2026-05-02 07:00:32,788 - INFO - Generating Brief for AI just killed Crypto... (LMJb-_uL6lQ)...
+2026-05-02 07:00:32,789 - INFO - AFC is enabled with max remote calls: 10.
+2026-05-02 07:00:37,599 - INFO - ✅ Brief successfully generated for NASDAQ Surges Over 25,000, Bull Market In Full Force? Major Levels & Trades
+2026-05-02 07:00:40,642 - INFO - Generating Brief for Baiting AI [LIVE] (IX9Qd8xb8xY)...
+2026-05-02 07:00:40,643 - INFO - AFC is enabled with max remote calls: 10.
+2026-05-02 07:00:42,004 - INFO - ✅ Brief successfully generated for AI just killed Crypto...
+2026-05-02 07:00:42,749 - INFO - ✅ Brief successfully generated for Reacting to "Why AI is so smart but also so dumb?"
+2026-05-02 07:00:43,846 - INFO - Generating Brief for CRITICAL SHIFT: Why Gold And Silver Could Drop Before the Next Rally (UVD_ZTygzjI)...
+2026-05-02 07:00:43,848 - INFO - AFC is enabled with max remote calls: 10.
+2026-05-02 07:00:44,030 - INFO - Generating Brief for ‘Write-Downs To Zero’: The $1.8 Trillion Private Credit Warning - Danielle DiMartino Booth (YMr9HrzUIOU)...
+2026-05-02 07:00:44,031 - INFO - AFC is enabled with max remote calls: 10.
+2026-05-02 07:00:50,257 - INFO - ✅ Brief successfully generated for ‘Write-Downs To Zero’: The $1.8 Trillion Private Credit Warning - Danielle DiMartino Booth
+2026-05-02 07:00:50,835 - INFO - ✅ Brief successfully generated for CRITICAL SHIFT: Why Gold And Silver Could Drop Before the Next Rally
+2026-05-02 07:00:51,576 - INFO - Generating Brief for Silver Price Is About To Hit a Level Not Seen in YEARS (This Is HUGE) (3Dw_3OWxloE)...
+2026-05-02 07:00:51,577 - INFO - AFC is enabled with max remote calls: 10.
+2026-05-02 07:00:52,647 - INFO - Generating Brief for Economy Is ‘Treading Water’; Economist Reveals Next Asset Explosion | Steve Hanke (cb_V0JeS4Y4)...
+2026-05-02 07:00:52,648 - INFO - AFC is enabled with max remote calls: 10.
+2026-05-02 07:00:57,097 - ERROR - Schema parsing error for Silver Price Is About To Hit a Level Not Seen in YEARS (This Is HUGE): Expecting value: line 1 column 1127 (char 1126)
+2026-05-02 07:00:58,717 - INFO - Generating Brief for Hidden Trend Lines & Short Targets Across Stocks, Crypto, Commodities (5SnOdHxFVMk)...
+2026-05-02 07:00:58,718 - INFO - AFC is enabled with max remote calls: 10.
+2026-05-02 07:01:00,973 - ERROR - Schema parsing error for Economy Is ‘Treading Water’; Economist Reveals Next Asset Explosion | Steve Hanke: Expecting value: line 1 column 1104 (char 1103)
+2026-05-02 07:01:01,614 - INFO - ✅ Brief successfully generated for Baiting AI [LIVE]
+2026-05-02 07:01:03,506 - INFO - Generating Brief for Can AI Actually Help You Start a Company? | Office Hours (1OP1rUpsvHw)...
+2026-05-02 07:01:03,507 - INFO - AFC is enabled with max remote calls: 10.
+2026-05-02 07:01:03,818 - INFO - Generating Brief for RTX 5090, Mac Studio, or DGX Spark? I tried all three. (iUSdS-6uwr4)...
+2026-05-02 07:01:03,819 - INFO - AFC is enabled with max remote calls: 10.
+2026-05-02 07:01:04,919 - ERROR - Error summarising audio RTX 5090, Mac Studio, or DGX Spark? I tried all three.: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more details.', 'status': 'RESOURCE_EXHAUSTED'}}
+2026-05-02 07:01:06,068 - INFO - ✅ Brief successfully generated for Hidden Trend Lines & Short Targets Across Stocks, Crypto, Commodities
+2026-05-02 07:01:07,250 - INFO - Generating Brief for NASDAQ 25,000 BREAKOUT or FAKEOUT?! Iran Sends A New Proposal, AAPL Earnings And Top Trades (RR5GWFLip3g)...
+2026-05-02 07:01:07,251 - INFO - AFC is enabled with max remote calls: 10.
+2026-05-02 07:01:08,075 - INFO - Generating Brief for GOLD 'Absolutely' Headed to All-Time Highs This Year - We're in a New Paradigm (WUz6YQHfasM)...
+2026-05-02 07:01:08,076 - INFO - AFC is enabled with max remote calls: 10.
+2026-05-02 07:01:09,219 - INFO - ✅ Brief successfully generated for Can AI Actually Help You Start a Company? | Office Hours
+2026-05-02 07:01:10,473 - INFO - Generating Brief for Reid Hoffman: The AI Optimist Makes His Case | Prof G Markets (aLg61shvU-w)...
+2026-05-02 07:01:10,474 - INFO - AFC is enabled with max remote calls: 10.
+2026-05-02 07:01:14,498 - INFO - ✅ Brief successfully generated for NASDAQ 25,000 BREAKOUT or FAKEOUT?! Iran Sends A New Proposal, AAPL Earnings And Top Trades
+2026-05-02 07:01:15,432 - ERROR - Schema parsing error for Reid Hoffman: The AI Optimist Makes His Case | Prof G Markets: Expecting value: line 1 column 1211 (char 1210)
+2026-05-02 07:01:16,009 - ERROR - Schema parsing error for GOLD 'Absolutely' Headed to All-Time Highs This Year - We're in a New Paradigm: Expecting value: line 1 column 1372 (char 1371)
+2026-05-02 07:01:16,587 - INFO - --- Phase 3: Category Synthesis (9 assets across categories) ---
+2026-05-02 07:01:16,587 - INFO - Analyzing 3 categories: General Financial Investing and Speculation, Artificial Intelligence, Precious Metals
+2026-05-02 07:01:16,587 - INFO - Processing Synthesis for sector: General Financial Investing and Speculation (5 assets)...
+2026-05-02 07:01:16,617 - INFO - AFC is enabled with max remote calls: 10.
+2026-05-02 07:01:17,643 - INFO - AFC is enabled with max remote calls: 10.
+2026-05-02 07:01:18,520 - INFO - AFC is enabled with max remote calls: 10.
+2026-05-02 07:01:19,302 - INFO - AFC is enabled with max remote calls: 10.
+2026-05-02 07:01:20,221 - INFO - ✅ Synthesis complete for General Financial Investing and Speculation
+2026-05-02 07:01:20,221 - INFO - Processing Synthesis for sector: Artificial Intelligence (3 assets)...
+2026-05-02 07:01:20,226 - INFO - AFC is enabled with max remote calls: 10.
+2026-05-02 07:01:21,051 - INFO - AFC is enabled with max remote calls: 10.
+2026-05-02 07:01:22,065 - INFO - AFC is enabled with max remote calls: 10.
+2026-05-02 07:01:22,968 - INFO - ✅ Synthesis complete for Artificial Intelligence
+2026-05-02 07:01:22,969 - INFO - Processing Synthesis for sector: Precious Metals (1 assets)...
+2026-05-02 07:01:22,969 - INFO - AFC is enabled with max remote calls: 10.
+2026-05-02 07:01:23,788 - INFO - ✅ Synthesis complete for Precious Metals
+2026-05-02 07:01:23,806 - INFO - Summarization complete. 9 briefs written to briefs/2026-05-02.md (Time: 52.8s)
+2026-05-02 07:01:25,271 - INFO - Email digest sent successfully to kwilliamson.mail@gmail.com.
+2026-05-02 07:01:26,314 - INFO - Email digest sent successfully to kochava72@gmail.com.
+2026-05-02 07:01:26,351 - INFO - Queue cleared.
+2026-05-02 07:01:26,356 - INFO - ==================================================
+2026-05-02 07:01:26,356 - INFO - Pipeline Execution Complete
+2026-05-02 07:01:26,356 - INFO - ==================================================

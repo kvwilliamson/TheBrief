@@ -1,0 +1,746 @@
+{
+  "date": "2026-05-02",
+  "briefs": [
+    {
+      "episode_title": "NASDAQ Surges Over 25,000, Bull Market In Full Force? Major Levels & Trades",
+      "channel": "Verified Investing",
+      "duration_minutes": 14,
+      "podcast_date": "2026-05-02",
+      "processing_date": "2024-02-23",
+      "one_line_summary": "Despite NASDAQ surpassing 25,000, signals suggest potential near-term bearish reversals and continued scrutiny of S&P 500 channel adherence.",
+      "core_claims": [
+        "NASDAQ pierced 25,000, drawing in remaining bearish sentiment.",
+        "S&P 500 showed a daily topping tail, indicating a potential bearish reversal.",
+        "S&P 500 needs to stay above its parallel channel for a week to confirm a true breakout.",
+        "Mega-caps lagged the NASDAQ's surge; Microsoft performed best, with others flat or negative.",
+        "Bitcoin showing relative weakness compared to NASDAQ and S&P, lacking strength to break recent highs.",
+        "Natural gas needs to break out above 2.90 to potentially move over 3, presenting a 10-15% opportunity."
+      ],
+      "signal_strength": 7,
+      "themes": [
+        "market analysis",
+        "technical indicators",
+        "cryptocurrency",
+        "energy sector",
+        "semiconductors",
+        "economic indicators"
+      ],
+      "positioning_implication": "Exercise caution on semiconductor optimism, closely monitor S&P 500 channel performance; consider potential long positions in natural gas if resistance is broken.",
+      "time_horizon": "short",
+      "shelf_life": "Short",
+      "thumbnail": "https://i.ytimg.com/vi/B4HF4H9tH40/hqdefault.jpg",
+      "video_url": "https://www.youtube.com/watch?v=B4HF4H9tH40",
+      "cluster_id": 0,
+      "category": "General Financial Investing and Speculation"
+    },
+    {
+      "episode_title": "AI just killed Crypto...",
+      "channel": "Wes Roth",
+      "duration_minutes": 34,
+      "podcast_date": "2026-05-02",
+      "processing_date": "2026-05-02",
+      "one_line_summary": "Quantum computing advancements, accelerated by AI, pose a significant threat to current encryption standards, particularly impacting governments, financial systems, and cryptocurrencies by 2029, demanding a shift to post-quantum cryptography.",
+      "core_claims": [
+        "Fault-tolerant quantum computers could break current crypto systems by 2029.",
+        "Google is targeting 2029 for post-quantum cryptography migration due to accelerated progress in quantum computing.",
+        "AI algorithms like Alpha Cubit are playing a significant role in correcting errors in quantum calculations.",
+        "Governments and intelligence targets are highly exposed to quantum computing threats due to archived encrypted traffic.",
+        "Blockchain and cryptocurrencies, relying on vulnerable encryption methods, face significant risk.",
+        "Quantum computers do not 'pick' locks, they simplify the math behind the encryption, rendering it easily breakable."
+      ],
+      "signal_strength": 9,
+      "themes": [
+        "quantum computing",
+        "cryptography",
+        "ai",
+        "cybersecurity",
+        "blockchain",
+        "risk management"
+      ],
+      "positioning_implication": "Organizations should accelerate the adoption of post-quantum cryptographic solutions to mitigate potential vulnerabilities in data security and infrastructure. Actively monitor and adapt to advancements in quantum computing and its impact on encryption.",
+      "time_horizon": "medium",
+      "shelf_life": "Medium",
+      "thumbnail": "https://i.ytimg.com/vi/LMJb-_uL6lQ/hqdefault.jpg",
+      "video_url": "https://www.youtube.com/watch?v=LMJb-_uL6lQ",
+      "cluster_id": 1,
+      "category": "Artificial Intelligence"
+    },
+    {
+      "episode_title": "Reacting to \"Why AI is so smart but also so dumb?\"",
+      "channel": "Matthew Berman",
+      "duration_minutes": 0,
+      "podcast_date": "2026-05-02",
+      "processing_date": "2026-05-02",
+      "one_line_summary": "AI's uneven skill distribution stems from verifiability bias in training data, creating domain-specific peaks in capability.",
+      "core_claims": [
+        "AI model improvement dramatically accelerated around December of last year, enabling end-to-end application development.",
+        "AI's uneven performance is due to a 'verifiability' bias: models excel in areas where outputs are easily verifiable, like code and math.",
+        "AI labs prioritize training models in economically valuable, easily verifiable domains, leading to capability gaps.",
+        "Agentic engineering focuses on coordinating multiple fallible agents to maintain quality and speed in software development.",
+        "The entire internet needs to be rebuilt with agents in mind.",
+        "One can outsource thinking, but not understanding, underscoring the need for fundamental comprehension."
+      ],
+      "signal_strength": 9,
+      "themes": [
+        "ai",
+        "llm",
+        "agentic engineering",
+        "verifiability",
+        "automation",
+        "future of work"
+      ],
+      "positioning_implication": "Prioritize strategies that leverage AI in verifiable domains while maintaining human oversight for areas requiring judgment. Invest in developing skills for agentic engineering to maximize productivity without sacrificing quality.",
+      "time_horizon": "medium",
+      "shelf_life": "Medium",
+      "thumbnail": "https://i.ytimg.com/vi/pngC-TH8M0U/hqdefault.jpg",
+      "video_url": "https://www.youtube.com/watch?v=pngC-TH8M0U",
+      "cluster_id": 2,
+      "category": "Artificial Intelligence"
+    },
+    {
+      "episode_title": "\u2018Write-Downs To Zero\u2019: The $1.8 Trillion Private Credit Warning - Danielle DiMartino Booth",
+      "channel": "Kitco NEWS",
+      "duration_minutes": 30,
+      "podcast_date": "2026-05-02",
+      "processing_date": "2026-05-02",
+      "one_line_summary": "Stagnant real economic growth reveals the diminishing effectiveness of monetary policy and the potential for significant credit market corrections.",
+      "core_claims": [
+        "The Fed's 8-4 vote split signals challenges for future chair Kevin Warsh in corralling consensus.",
+        "Third quarter 2025 saw the loss of 53,000 jobs on average, following Q2's trend of monthly job destruction.",
+        "Commercial Real Estate is facing 90% discounts on office properties and office distress sales are at a decade high.",
+        "Private credit firms face major write-downs due to low due diligence in lending and the expectation of zero interest rate policy.",
+        "The Financial Stability Board examines risks from retail investors piling into the $1.8 trillion private credit market.",
+        "American's Summer vacations are being canceled by families due to economic pressures."
+      ],
+      "signal_strength": 9,
+      "themes": [
+        "federal reserve",
+        "monetary policy",
+        "commercial real estate",
+        "private credit",
+        "consumer spending",
+        "job market"
+      ],
+      "positioning_implication": "Reduce exposure to private credit markets and prepare for increased economic volatility. Reassess risk models to account for unconventional monetary policy impacts.",
+      "time_horizon": "medium",
+      "shelf_life": "Medium",
+      "thumbnail": "https://i.ytimg.com/vi/YMr9HrzUIOU/hqdefault.jpg",
+      "video_url": "https://www.youtube.com/watch?v=YMr9HrzUIOU",
+      "cluster_id": 2,
+      "category": "General Financial Investing and Speculation"
+    },
+    {
+      "episode_title": "CRITICAL SHIFT: Why Gold And Silver Could Drop Before the Next Rally",
+      "channel": "CPM Group",
+      "duration_minutes": 19,
+      "podcast_date": "2026-05-01",
+      "processing_date": "2026-05-02",
+      "one_line_summary": "Markets exhibit short-term sanguinity despite long-term economic and political risks, suggesting potential price consolidation in precious metals.",
+      "core_claims": [
+        "Short-term relaxation of anxiety exists regarding economic and political risks, despite long-term risks remaining high.",
+        "Increased sales of gold and silver investment products are occurring by investors in the US, Europe, and Japan.",
+        "Gold prices could consolidate with a downward bias for May, June, and July despite long-term bullishness.",
+        "China shows increasing investor demand for gold and silver, with decreased fabrication demand.",
+        "India shows a reluctance to sell existing gold and silver holdings, anticipating future price increases.",
+        "Disposable personal income was flat in February, while expenditures rose sharply; this trend worsened in March."
+      ],
+      "signal_strength": 7,
+      "themes": [
+        "precious metals",
+        "economic outlook",
+        "investor behavior",
+        "market timing",
+        "global markets",
+        "economic indicators"
+      ],
+      "positioning_implication": "Adjust portfolio allocations to account for potential short-term price declines in gold and silver while maintaining a long-term bullish outlook, diversifying based on regional investment trends.",
+      "time_horizon": "medium",
+      "shelf_life": "Medium",
+      "thumbnail": "https://i.ytimg.com/vi/UVD_ZTygzjI/hqdefault.jpg",
+      "video_url": "https://www.youtube.com/watch?v=UVD_ZTygzjI",
+      "cluster_id": 0,
+      "category": "Precious Metals"
+    },
+    {
+      "episode_title": "Baiting AI [LIVE]",
+      "channel": "Matthew Berman",
+      "duration_minutes": 94,
+      "podcast_date": "2026-05-02",
+      "processing_date": "2024-05-02",
+      "one_line_summary": "The stream addresses mic issues, user engagement, AI scams targeting the uninformed, and discusses the jagged nature of AI intelligence, prompting debate on future models and ethical considerations.",
+      "core_claims": [
+        "A recent incident highlights how even tech-savvy users can be tricked into paying for fake AI products that mimic legit ones to exploit confusion.",
+        "The Apple App Store's search results are intentionally designed to confuse users, pushing scam AI apps over genuine ones like ChatGPT.",
+        "The speaker had to manually adjust settings to fix a mic issue, illustrating the difficulty of new setup and audio configurations.",
+        "Despite the success with a 'Prompt Engineer' directive fixing one AI misunderstanding, the speaker predicts that 'prompt engineering' will eventually be automated out of the process.",
+        "Anthropic's restrictive practices and anti-open source stance contrasts with the value of open source as the current AI market currently develops.",
+        "Tracking employee's computer usage to train AI models may improve model performance, but that poses privacy and ethical concerns.",
+        "X's inflated view counts and repost mechanics skew perceptions and may not accurately reflect genuine engagement or value for sponsors."
+      ],
+      "signal_strength": 7,
+      "themes": [
+        "audio quality",
+        "ai scams",
+        "ai ethics",
+        "user experience",
+        "open source",
+        "data privacy",
+        "metrics",
+        "AI safety"
+      ],
+      "positioning_implication": "Re-evaluate assumptions about AI performance and market incentives.  Assess the impact of proprietary versus open source models on long-term strategic goals.",
+      "time_horizon": "medium",
+      "shelf_life": "Medium",
+      "thumbnail": "https://i.ytimg.com/vi/IX9Qd8xb8xY/hqdefault.jpg",
+      "video_url": "https://www.youtube.com/watch?v=IX9Qd8xb8xY",
+      "cluster_id": 0,
+      "category": "Artificial Intelligence"
+    },
+    {
+      "episode_title": "Hidden Trend Lines & Short Targets Across Stocks, Crypto, Commodities",
+      "channel": "Verified Investing",
+      "duration_minutes": 23,
+      "podcast_date": "2026-05-02",
+      "processing_date": "2026-05-02",
+      "one_line_summary": "Analysis highlights potential shorting opportunities across various assets like S&P 500, USO, Google, and Bitcoin, while identifying key resistance and support levels for trading strategies.",
+      "core_claims": [
+        "S&P 500 has an up-sloping trend line and a shortable level at $730.08, potentially offering a 1% move from current levels.",
+        "USO's shortable level after a gap in the charts is $147.09, with a dollar-cost averaging strategy up to $151.26, exiting the trade if it closes above that level on a 15-minute basis.",
+        "Google's hidden trendline suggests an entry for day or swing trades at a retest near $388.36 to $390, potentially shifting from support to resistance.",
+        "TEAM has a shortable level at $92.93 and a potential entry on TEA at a pierce of $75, with buyers expected to step in around this level.",
+        "Nvidia's support zone lies between $194.37 and $195.56, offering a potential entry point if further sell-off occurs.",
+        "Bitcoin may be shorted at $80,556, anticipating a pullback, with support to go long at a $74,951 level. "
+      ],
+      "signal_strength": 7,
+      "themes": [
+        "technical analysis",
+        "short targets",
+        "resistance levels",
+        "support levels",
+        "trend lines",
+        "day trading",
+        "swing trading"
+      ],
+      "positioning_implication": "Consider short positions in specified assets at identified resistance levels, while monitoring key support levels for potential long entries or exit points. Risk management strategies, including stop-loss orders and averaging, are recommended to mitigate potential losses.",
+      "time_horizon": "short",
+      "shelf_life": "Short",
+      "thumbnail": "https://i.ytimg.com/vi/5SnOdHxFVMk/hqdefault.jpg",
+      "video_url": "https://www.youtube.com/watch?v=5SnOdHxFVMk",
+      "cluster_id": 3,
+      "category": "General Financial Investing and Speculation"
+    },
+    {
+      "episode_title": "Can AI Actually Help You Start a Company? | Office Hours",
+      "channel": "The Prof G Pod \u2013 Scott Galloway",
+      "duration_minutes": 32,
+      "podcast_date": "2026-05-02",
+      "processing_date": "2024-01-26",
+      "one_line_summary": "AI's utility in business extends beyond productivity to emotional support, but its value lies in data analysis rather than creative insight.",
+      "core_claims": [
+        "One in five top AI apps are for companionship, indicating a significant shift in AI usage towards emotional support.",
+        "Between 2022 and mid-2025, AI companion app surged by 700%.",
+        "The top AI apps aren't productivity tools, but companions.",
+        "AI is 'all chip, no salsa,' effective for data analysis and market estimation, but lacking in unique business insight or creativity."
+      ],
+      "signal_strength": 7,
+      "themes": [
+        "ai companions",
+        "business strategy",
+        "emotional support",
+        "data analysis",
+        "regulation",
+        "international career"
+      ],
+      "positioning_implication": "Focus AI investments on structured data enhancement and operational efficiencies, while maintaining human oversight for innovative strategic direction. Prioritize relationships over AI in social regulation discussion.",
+      "time_horizon": "medium",
+      "shelf_life": "Medium",
+      "thumbnail": "https://i.ytimg.com/vi/1OP1rUpsvHw/hqdefault.jpg",
+      "video_url": "https://www.youtube.com/watch?v=1OP1rUpsvHw",
+      "cluster_id": 1,
+      "category": "General Financial Investing and Speculation"
+    },
+    {
+      "episode_title": "NASDAQ 25,000 BREAKOUT or FAKEOUT?! Iran Sends A New Proposal, AAPL Earnings And Top Trades",
+      "channel": "Verified Investing",
+      "duration_minutes": 25,
+      "podcast_date": "2026-05-02",
+      "processing_date": "2026-05-02",
+      "one_line_summary": "S&P 500 and NASDAQ analysis hinges on parallel resistance levels with semiconductors and software plays exhibiting divergent earnings reactions.",
+      "core_claims": [
+        "S&P must maintain above the key parallel resistance level in the coming week to confirm a breakout for further upside.",
+        "NASDAQ needs to pierce 25,000, historically important for confirming trend continuations.",
+        "SanDisk and WDC are falling on earnings, suggesting a potential pullback to 315-310 area for WDC.",
+        "Roblox experienced a 25% drop due to weak guidance, eyeing a potential day trade around 39.50.",
+        "Natural gas may rise above $3 if it passes the 2.90 resistance; tightly watch directionality.",
+        "Bitcoin faces resistance at 80,000-85,000, with strength dependent on breaking this level."
+      ],
+      "signal_strength": 7,
+      "themes": [
+        "technical analysis",
+        "market breakout",
+        "semiconductors",
+        "earnings analysis",
+        "risk management",
+        "economic negotiations"
+      ],
+      "positioning_implication": "Evaluate short-term breakout potential in equities against resistance levels; consider hedging strategies anticipating sector-specific corrections.",
+      "time_horizon": "short",
+      "shelf_life": "Short",
+      "thumbnail": "https://i.ytimg.com/vi/RR5GWFLip3g/hqdefault.jpg",
+      "video_url": "https://www.youtube.com/watch?v=RR5GWFLip3g",
+      "cluster_id": 0,
+      "category": "General Financial Investing and Speculation"
+    }
+  ],
+  "category_intelligence": {
+    "General Financial Investing and Speculation": {
+      "name": "General Financial Investing and Speculation",
+      "meta_summary": "",
+      "convergence_score": 0.0,
+      "percentile": 0.0,
+      "regime_state": "Neutral",
+      "clusters": [
+        {
+          "id": 0,
+          "name": "Semiconductor Divergence Intensifying S&P 500 Resistance",
+          "description": "Semiconductor earnings reactions are diverging, placing increased pressure on S&P 500 resistance levels despite NASDAQ's gains, signaling potential bearish reversals.",
+          "bias": "defensive",
+          "regime": "Accelerating",
+          "size": 2,
+          "strength": 1.6834051959372638,
+          "coherence": 0.8417025979686319,
+          "channels": [
+            "Verified Investing"
+          ],
+          "avg_signal": 7.0,
+          "briefs": [
+            {
+              "episode_title": "NASDAQ Surges Over 25,000, Bull Market In Full Force? Major Levels & Trades",
+              "channel": "Verified Investing",
+              "duration_minutes": 14,
+              "podcast_date": "2026-05-02",
+              "processing_date": "2024-02-23",
+              "one_line_summary": "Despite NASDAQ surpassing 25,000, signals suggest potential near-term bearish reversals and continued scrutiny of S&P 500 channel adherence.",
+              "core_claims": [
+                "NASDAQ pierced 25,000, drawing in remaining bearish sentiment.",
+                "S&P 500 showed a daily topping tail, indicating a potential bearish reversal.",
+                "S&P 500 needs to stay above its parallel channel for a week to confirm a true breakout.",
+                "Mega-caps lagged the NASDAQ's surge; Microsoft performed best, with others flat or negative.",
+                "Bitcoin showing relative weakness compared to NASDAQ and S&P, lacking strength to break recent highs.",
+                "Natural gas needs to break out above 2.90 to potentially move over 3, presenting a 10-15% opportunity."
+              ],
+              "signal_strength": 7,
+              "themes": [
+                "market analysis",
+                "technical indicators",
+                "cryptocurrency",
+                "energy sector",
+                "semiconductors",
+                "economic indicators"
+              ],
+              "positioning_implication": "Exercise caution on semiconductor optimism, closely monitor S&P 500 channel performance; consider potential long positions in natural gas if resistance is broken.",
+              "time_horizon": "short",
+              "shelf_life": "Short",
+              "thumbnail": "https://i.ytimg.com/vi/B4HF4H9tH40/hqdefault.jpg",
+              "video_url": "https://www.youtube.com/watch?v=B4HF4H9tH40",
+              "cluster_id": 0,
+              "category": "General Financial Investing and Speculation"
+            },
+            {
+              "episode_title": "NASDAQ 25,000 BREAKOUT or FAKEOUT?! Iran Sends A New Proposal, AAPL Earnings And Top Trades",
+              "channel": "Verified Investing",
+              "duration_minutes": 25,
+              "podcast_date": "2026-05-02",
+              "processing_date": "2026-05-02",
+              "one_line_summary": "S&P 500 and NASDAQ analysis hinges on parallel resistance levels with semiconductors and software plays exhibiting divergent earnings reactions.",
+              "core_claims": [
+                "S&P must maintain above the key parallel resistance level in the coming week to confirm a breakout for further upside.",
+                "NASDAQ needs to pierce 25,000, historically important for confirming trend continuations.",
+                "SanDisk and WDC are falling on earnings, suggesting a potential pullback to 315-310 area for WDC.",
+                "Roblox experienced a 25% drop due to weak guidance, eyeing a potential day trade around 39.50.",
+                "Natural gas may rise above $3 if it passes the 2.90 resistance; tightly watch directionality.",
+                "Bitcoin faces resistance at 80,000-85,000, with strength dependent on breaking this level."
+              ],
+              "signal_strength": 7,
+              "themes": [
+                "technical analysis",
+                "market breakout",
+                "semiconductors",
+                "earnings analysis",
+                "risk management",
+                "economic negotiations"
+              ],
+              "positioning_implication": "Evaluate short-term breakout potential in equities against resistance levels; consider hedging strategies anticipating sector-specific corrections.",
+              "time_horizon": "short",
+              "shelf_life": "Short",
+              "thumbnail": "https://i.ytimg.com/vi/RR5GWFLip3g/hqdefault.jpg",
+              "video_url": "https://www.youtube.com/watch?v=RR5GWFLip3g",
+              "cluster_id": 0,
+              "category": "General Financial Investing and Speculation"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "name": "Monetary Policy Effectiveness Eroding",
+          "description": "Monetary policy's weakening impact on growth raises credit correction risks.",
+          "bias": "defensive",
+          "regime": "Emerging",
+          "size": 1,
+          "strength": 1.0,
+          "coherence": 1.0,
+          "channels": [
+            "Kitco NEWS"
+          ],
+          "avg_signal": 9.0,
+          "briefs": [
+            {
+              "episode_title": "\u2018Write-Downs To Zero\u2019: The $1.8 Trillion Private Credit Warning - Danielle DiMartino Booth",
+              "channel": "Kitco NEWS",
+              "duration_minutes": 30,
+              "podcast_date": "2026-05-02",
+              "processing_date": "2026-05-02",
+              "one_line_summary": "Stagnant real economic growth reveals the diminishing effectiveness of monetary policy and the potential for significant credit market corrections.",
+              "core_claims": [
+                "The Fed's 8-4 vote split signals challenges for future chair Kevin Warsh in corralling consensus.",
+                "Third quarter 2025 saw the loss of 53,000 jobs on average, following Q2's trend of monthly job destruction.",
+                "Commercial Real Estate is facing 90% discounts on office properties and office distress sales are at a decade high.",
+                "Private credit firms face major write-downs due to low due diligence in lending and the expectation of zero interest rate policy.",
+                "The Financial Stability Board examines risks from retail investors piling into the $1.8 trillion private credit market.",
+                "American's Summer vacations are being canceled by families due to economic pressures."
+              ],
+              "signal_strength": 9,
+              "themes": [
+                "federal reserve",
+                "monetary policy",
+                "commercial real estate",
+                "private credit",
+                "consumer spending",
+                "job market"
+              ],
+              "positioning_implication": "Reduce exposure to private credit markets and prepare for increased economic volatility. Reassess risk models to account for unconventional monetary policy impacts.",
+              "time_horizon": "medium",
+              "shelf_life": "Medium",
+              "thumbnail": "https://i.ytimg.com/vi/YMr9HrzUIOU/hqdefault.jpg",
+              "video_url": "https://www.youtube.com/watch?v=YMr9HrzUIOU",
+              "cluster_id": 2,
+              "category": "General Financial Investing and Speculation"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "name": "Short Targets Intensifying Across Assets",
+          "description": "Identifies potential shorting opportunities based on technical analysis, highlighting key resistance and support levels for S&P 500, USO, Google, and Bitcoin.",
+          "bias": "defensive",
+          "regime": "Emerging",
+          "size": 1,
+          "strength": 1.0,
+          "coherence": 1.0,
+          "channels": [
+            "Verified Investing"
+          ],
+          "avg_signal": 7.0,
+          "briefs": [
+            {
+              "episode_title": "Hidden Trend Lines & Short Targets Across Stocks, Crypto, Commodities",
+              "channel": "Verified Investing",
+              "duration_minutes": 23,
+              "podcast_date": "2026-05-02",
+              "processing_date": "2026-05-02",
+              "one_line_summary": "Analysis highlights potential shorting opportunities across various assets like S&P 500, USO, Google, and Bitcoin, while identifying key resistance and support levels for trading strategies.",
+              "core_claims": [
+                "S&P 500 has an up-sloping trend line and a shortable level at $730.08, potentially offering a 1% move from current levels.",
+                "USO's shortable level after a gap in the charts is $147.09, with a dollar-cost averaging strategy up to $151.26, exiting the trade if it closes above that level on a 15-minute basis.",
+                "Google's hidden trendline suggests an entry for day or swing trades at a retest near $388.36 to $390, potentially shifting from support to resistance.",
+                "TEAM has a shortable level at $92.93 and a potential entry on TEA at a pierce of $75, with buyers expected to step in around this level.",
+                "Nvidia's support zone lies between $194.37 and $195.56, offering a potential entry point if further sell-off occurs.",
+                "Bitcoin may be shorted at $80,556, anticipating a pullback, with support to go long at a $74,951 level. "
+              ],
+              "signal_strength": 7,
+              "themes": [
+                "technical analysis",
+                "short targets",
+                "resistance levels",
+                "support levels",
+                "trend lines",
+                "day trading",
+                "swing trading"
+              ],
+              "positioning_implication": "Consider short positions in specified assets at identified resistance levels, while monitoring key support levels for potential long entries or exit points. Risk management strategies, including stop-loss orders and averaging, are recommended to mitigate potential losses.",
+              "time_horizon": "short",
+              "shelf_life": "Short",
+              "thumbnail": "https://i.ytimg.com/vi/5SnOdHxFVMk/hqdefault.jpg",
+              "video_url": "https://www.youtube.com/watch?v=5SnOdHxFVMk",
+              "cluster_id": 3,
+              "category": "General Financial Investing and Speculation"
+            }
+          ]
+        },
+        {
+          "id": 1,
+          "name": "AI Emotional Support: Data Utility Converging",
+          "description": "The narrative highlights AI's expanding role in business, particularly in emotional support, while emphasizing that its core value remains rooted in data analysis capabilities.",
+          "bias": "neutral",
+          "regime": "Emerging",
+          "size": 1,
+          "strength": 1.0,
+          "coherence": 1.0,
+          "channels": [
+            "The Prof G Pod \u2013 Scott Galloway"
+          ],
+          "avg_signal": 7.0,
+          "briefs": [
+            {
+              "episode_title": "Can AI Actually Help You Start a Company? | Office Hours",
+              "channel": "The Prof G Pod \u2013 Scott Galloway",
+              "duration_minutes": 32,
+              "podcast_date": "2026-05-02",
+              "processing_date": "2024-01-26",
+              "one_line_summary": "AI's utility in business extends beyond productivity to emotional support, but its value lies in data analysis rather than creative insight.",
+              "core_claims": [
+                "One in five top AI apps are for companionship, indicating a significant shift in AI usage towards emotional support.",
+                "Between 2022 and mid-2025, AI companion app surged by 700%.",
+                "The top AI apps aren't productivity tools, but companions.",
+                "AI is 'all chip, no salsa,' effective for data analysis and market estimation, but lacking in unique business insight or creativity."
+              ],
+              "signal_strength": 7,
+              "themes": [
+                "ai companions",
+                "business strategy",
+                "emotional support",
+                "data analysis",
+                "regulation",
+                "international career"
+              ],
+              "positioning_implication": "Focus AI investments on structured data enhancement and operational efficiencies, while maintaining human oversight for innovative strategic direction. Prioritize relationships over AI in social regulation discussion.",
+              "time_horizon": "medium",
+              "shelf_life": "Medium",
+              "thumbnail": "https://i.ytimg.com/vi/1OP1rUpsvHw/hqdefault.jpg",
+              "video_url": "https://www.youtube.com/watch?v=1OP1rUpsvHw",
+              "cluster_id": 1,
+              "category": "General Financial Investing and Speculation"
+            }
+          ]
+        }
+      ],
+      "should_generate": false
+    },
+    "Artificial Intelligence": {
+      "name": "Artificial Intelligence",
+      "meta_summary": "",
+      "convergence_score": 0.0,
+      "percentile": 0.0,
+      "regime_state": "Neutral",
+      "clusters": [
+        {
+          "id": 1,
+          "name": "Quantum Computing Accelerating Cryptographic Risk",
+          "description": "Quantum computing, amplified by AI, intensifies pressure on existing encryption, necessitating post-quantum cryptography adoption.",
+          "bias": "defensive",
+          "regime": "Emerging",
+          "size": 1,
+          "strength": 1.0,
+          "coherence": 1.0,
+          "channels": [
+            "Wes Roth"
+          ],
+          "avg_signal": 9.0,
+          "briefs": [
+            {
+              "episode_title": "AI just killed Crypto...",
+              "channel": "Wes Roth",
+              "duration_minutes": 34,
+              "podcast_date": "2026-05-02",
+              "processing_date": "2026-05-02",
+              "one_line_summary": "Quantum computing advancements, accelerated by AI, pose a significant threat to current encryption standards, particularly impacting governments, financial systems, and cryptocurrencies by 2029, demanding a shift to post-quantum cryptography.",
+              "core_claims": [
+                "Fault-tolerant quantum computers could break current crypto systems by 2029.",
+                "Google is targeting 2029 for post-quantum cryptography migration due to accelerated progress in quantum computing.",
+                "AI algorithms like Alpha Cubit are playing a significant role in correcting errors in quantum calculations.",
+                "Governments and intelligence targets are highly exposed to quantum computing threats due to archived encrypted traffic.",
+                "Blockchain and cryptocurrencies, relying on vulnerable encryption methods, face significant risk.",
+                "Quantum computers do not 'pick' locks, they simplify the math behind the encryption, rendering it easily breakable."
+              ],
+              "signal_strength": 9,
+              "themes": [
+                "quantum computing",
+                "cryptography",
+                "ai",
+                "cybersecurity",
+                "blockchain",
+                "risk management"
+              ],
+              "positioning_implication": "Organizations should accelerate the adoption of post-quantum cryptographic solutions to mitigate potential vulnerabilities in data security and infrastructure. Actively monitor and adapt to advancements in quantum computing and its impact on encryption.",
+              "time_horizon": "medium",
+              "shelf_life": "Medium",
+              "thumbnail": "https://i.ytimg.com/vi/LMJb-_uL6lQ/hqdefault.jpg",
+              "video_url": "https://www.youtube.com/watch?v=LMJb-_uL6lQ",
+              "cluster_id": 1,
+              "category": "Artificial Intelligence"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "name": "AI Verifiability Bias Intensifying Capability Peaks",
+          "description": "AI's uneven skill distribution, caused by verifiability bias in training data, creates domain-specific capability peaks, limiting generalizability and potentially exacerbating existing inequalities in automation.",
+          "bias": "neutral",
+          "regime": "Emerging",
+          "size": 1,
+          "strength": 1.0,
+          "coherence": 1.0,
+          "channels": [
+            "Matthew Berman"
+          ],
+          "avg_signal": 9.0,
+          "briefs": [
+            {
+              "episode_title": "Reacting to \"Why AI is so smart but also so dumb?\"",
+              "channel": "Matthew Berman",
+              "duration_minutes": 0,
+              "podcast_date": "2026-05-02",
+              "processing_date": "2026-05-02",
+              "one_line_summary": "AI's uneven skill distribution stems from verifiability bias in training data, creating domain-specific peaks in capability.",
+              "core_claims": [
+                "AI model improvement dramatically accelerated around December of last year, enabling end-to-end application development.",
+                "AI's uneven performance is due to a 'verifiability' bias: models excel in areas where outputs are easily verifiable, like code and math.",
+                "AI labs prioritize training models in economically valuable, easily verifiable domains, leading to capability gaps.",
+                "Agentic engineering focuses on coordinating multiple fallible agents to maintain quality and speed in software development.",
+                "The entire internet needs to be rebuilt with agents in mind.",
+                "One can outsource thinking, but not understanding, underscoring the need for fundamental comprehension."
+              ],
+              "signal_strength": 9,
+              "themes": [
+                "ai",
+                "llm",
+                "agentic engineering",
+                "verifiability",
+                "automation",
+                "future of work"
+              ],
+              "positioning_implication": "Prioritize strategies that leverage AI in verifiable domains while maintaining human oversight for areas requiring judgment. Invest in developing skills for agentic engineering to maximize productivity without sacrificing quality.",
+              "time_horizon": "medium",
+              "shelf_life": "Medium",
+              "thumbnail": "https://i.ytimg.com/vi/pngC-TH8M0U/hqdefault.jpg",
+              "video_url": "https://www.youtube.com/watch?v=pngC-TH8M0U",
+              "cluster_id": 2,
+              "category": "Artificial Intelligence"
+            }
+          ]
+        },
+        {
+          "id": 0,
+          "name": "AI Ethics: Scams Intensifying User Distrust",
+          "description": "The narrative highlights the increasing prevalence of AI scams and their detrimental impact on user trust, alongside ongoing debates about AI safety and ethical development.",
+          "bias": "defensive",
+          "regime": "Emerging",
+          "size": 1,
+          "strength": 1.0,
+          "coherence": 1.0,
+          "channels": [
+            "Matthew Berman"
+          ],
+          "avg_signal": 7.0,
+          "briefs": [
+            {
+              "episode_title": "Baiting AI [LIVE]",
+              "channel": "Matthew Berman",
+              "duration_minutes": 94,
+              "podcast_date": "2026-05-02",
+              "processing_date": "2024-05-02",
+              "one_line_summary": "The stream addresses mic issues, user engagement, AI scams targeting the uninformed, and discusses the jagged nature of AI intelligence, prompting debate on future models and ethical considerations.",
+              "core_claims": [
+                "A recent incident highlights how even tech-savvy users can be tricked into paying for fake AI products that mimic legit ones to exploit confusion.",
+                "The Apple App Store's search results are intentionally designed to confuse users, pushing scam AI apps over genuine ones like ChatGPT.",
+                "The speaker had to manually adjust settings to fix a mic issue, illustrating the difficulty of new setup and audio configurations.",
+                "Despite the success with a 'Prompt Engineer' directive fixing one AI misunderstanding, the speaker predicts that 'prompt engineering' will eventually be automated out of the process.",
+                "Anthropic's restrictive practices and anti-open source stance contrasts with the value of open source as the current AI market currently develops.",
+                "Tracking employee's computer usage to train AI models may improve model performance, but that poses privacy and ethical concerns.",
+                "X's inflated view counts and repost mechanics skew perceptions and may not accurately reflect genuine engagement or value for sponsors."
+              ],
+              "signal_strength": 7,
+              "themes": [
+                "audio quality",
+                "ai scams",
+                "ai ethics",
+                "user experience",
+                "open source",
+                "data privacy",
+                "metrics",
+                "AI safety"
+              ],
+              "positioning_implication": "Re-evaluate assumptions about AI performance and market incentives.  Assess the impact of proprietary versus open source models on long-term strategic goals.",
+              "time_horizon": "medium",
+              "shelf_life": "Medium",
+              "thumbnail": "https://i.ytimg.com/vi/IX9Qd8xb8xY/hqdefault.jpg",
+              "video_url": "https://www.youtube.com/watch?v=IX9Qd8xb8xY",
+              "cluster_id": 0,
+              "category": "Artificial Intelligence"
+            }
+          ]
+        }
+      ],
+      "should_generate": false
+    },
+    "Precious Metals": {
+      "name": "Precious Metals",
+      "meta_summary": "",
+      "convergence_score": 0.0,
+      "percentile": 0.0,
+      "regime_state": "Neutral",
+      "clusters": [
+        {
+          "id": 0,
+          "name": "Precious Metals: Sanguinity Eroding Economic Risk Premiums",
+          "description": "Short-term market optimism may compress risk premiums in precious metals despite underlying economic and political vulnerabilities.",
+          "bias": "defensive",
+          "regime": "Emerging",
+          "size": 1,
+          "strength": 0.0,
+          "coherence": 1.0,
+          "channels": [
+            "CPM Group"
+          ],
+          "avg_signal": 7.0,
+          "briefs": [
+            {
+              "episode_title": "CRITICAL SHIFT: Why Gold And Silver Could Drop Before the Next Rally",
+              "channel": "CPM Group",
+              "duration_minutes": 19,
+              "podcast_date": "2026-05-01",
+              "processing_date": "2026-05-02",
+              "one_line_summary": "Markets exhibit short-term sanguinity despite long-term economic and political risks, suggesting potential price consolidation in precious metals.",
+              "core_claims": [
+                "Short-term relaxation of anxiety exists regarding economic and political risks, despite long-term risks remaining high.",
+                "Increased sales of gold and silver investment products are occurring by investors in the US, Europe, and Japan.",
+                "Gold prices could consolidate with a downward bias for May, June, and July despite long-term bullishness.",
+                "China shows increasing investor demand for gold and silver, with decreased fabrication demand.",
+                "India shows a reluctance to sell existing gold and silver holdings, anticipating future price increases.",
+                "Disposable personal income was flat in February, while expenditures rose sharply; this trend worsened in March."
+              ],
+              "signal_strength": 7,
+              "themes": [
+                "precious metals",
+                "economic outlook",
+                "investor behavior",
+                "market timing",
+                "global markets",
+                "economic indicators"
+              ],
+              "positioning_implication": "Adjust portfolio allocations to account for potential short-term price declines in gold and silver while maintaining a long-term bullish outlook, diversifying based on regional investment trends.",
+              "time_horizon": "medium",
+              "shelf_life": "Medium",
+              "thumbnail": "https://i.ytimg.com/vi/UVD_ZTygzjI/hqdefault.jpg",
+              "video_url": "https://www.youtube.com/watch?v=UVD_ZTygzjI",
+              "cluster_id": 0,
+              "category": "Precious Metals"
+            }
+          ]
+        }
+      ],
+      "should_generate": false
+    }
+  },
+  "clusters": []
+}
