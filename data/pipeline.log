@@ -6905,3 +6905,94 @@
 2026-05-02 07:01:26,356 - INFO - ==================================================
 2026-05-02 07:01:26,356 - INFO - Pipeline Execution Complete
 2026-05-02 07:01:26,356 - INFO - ==================================================
+2026-05-03 07:05:44,985 - INFO - ==================================================
+2026-05-03 07:05:44,985 - INFO - Starting TheBrief Daily Pipeline
+2026-05-03 07:05:44,985 - INFO - ==================================================
+2026-05-03 07:05:44,985 - INFO - 
+--- Phase 1: Discovery ---
+2026-05-03 07:05:44,989 - INFO - Discovering videos published after 2026-05-02T07:05:44.989496+00:00 (24h lookback)
+2026-05-03 07:05:45,328 - INFO - Found 1 new potential videos on Yankee Stacking.
+2026-05-03 07:05:45,381 - INFO - Found 1 new potential videos on GoldSilver .
+2026-05-03 07:05:45,492 - INFO - Found 1 new potential videos on Wall Street Bullion .
+2026-05-03 07:05:45,502 - INFO - Found 1 new potential videos on Kitco NEWS.
+2026-05-03 07:05:45,741 - INFO - Found 3 new potential videos on AI News & Strategy Daily | Nate B Jones.
+2026-05-03 07:05:45,774 - INFO - Found 1 new potential videos on David Lin .
+2026-05-03 07:05:45,846 - INFO - Found 1 new potential videos on TheTechnicalTraders.
+2026-05-03 07:05:46,189 - INFO - Found 1 new potential videos on Adam Taggart | Thoughtful Money®.
+2026-05-03 07:05:46,292 - INFO - Found 1 new potential videos on Miles Franklin Media.
+2026-05-03 07:05:46,502 - INFO - Found 1 new potential videos on Matthew Berman.
+2026-05-03 07:05:46,621 - INFO - Found 1 new potential videos on Commodity Culture.
+2026-05-03 07:05:46,650 - INFO - Found 1 new potential videos on Felix & Friends (Goat Academy).
+2026-05-03 07:05:46,849 - INFO - Found 9 total long-form videos across all channels.
+2026-05-03 07:05:46,869 - INFO - Discovery complete. Added 9 new videos to queue.
+2026-05-03 07:05:46,869 - INFO - 
+--- Phase 2: Extraction ---
+2026-05-03 07:05:47,106 - INFO - yt-dlp version: 2026.03.17
+2026-05-03 07:05:47,459 - INFO - POT-related packages: bgutil-ytdlp-pot-provider 1.3.1
+2026-05-03 07:05:47,482 - INFO - bgutil HTTP server not available on port 4416 (will rely on cookies)
+2026-05-03 07:05:47,482 - INFO - Extracting audio for 'Late Stage Bull Market'; Trader Reveals Next Asset To Fall 40% | Gareth Soloway (I2eSzFrnN7g)...
+2026-05-03 07:06:14,258 - INFO - Successfully extracted: audio/I2eSzFrnN7g.mp3
+2026-05-03 07:06:20,726 - INFO - Extracting audio for BULLION DEALER WARNS OF COLLAPSE!  IS HE *RIGHT* ABOUT THE US DOLLAR?? (yBRAKHZnX9I)...
+2026-05-03 07:06:35,150 - INFO - Successfully extracted: audio/yBRAKHZnX9I.mp3
+2026-05-03 07:06:46,912 - INFO - Extracting audio for SILVER PRICE Did Something NOBODY Expected 🚨 Every Gold & Silver Investor NEEDS to Watch This (XX_2NBpQvbE)...
+2026-05-03 07:07:02,811 - INFO - Successfully extracted: audio/XX_2NBpQvbE.mp3
+2026-05-03 07:07:14,095 - INFO - Extracting audio for The New Gold Monetary System Is Already in Place (Most People Missed It) | Stephen Leeb (QwaSoB2rfVk)...
+2026-05-03 07:07:47,267 - INFO - Successfully extracted: audio/QwaSoB2rfVk.mp3
+2026-05-03 07:07:53,115 - INFO - Extracting audio for Anthropic Might Buy Atlassian For $40B. Here's Why It Makes Sense. (FDkvRl1RlT0)...
+2026-05-03 07:08:12,653 - INFO - Successfully extracted: audio/FDkvRl1RlT0.mp3
+2026-05-03 07:08:22,389 - INFO - Extracting audio for The 91-Year Debasement Trade: Why $4,600 Gold is Just the Beginning - James Grant (6-E9bTSuj0o)...
+2026-05-03 07:08:50,888 - INFO - Successfully extracted: audio/6-E9bTSuj0o.mp3
+2026-05-03 07:09:01,984 - INFO - Extracting audio for Very Overbought Stock Market Ripe For A Pullback | Lance Roberts (QkLps6zelyk)...
+2026-05-03 07:09:57,779 - INFO - Successfully extracted: audio/QkLps6zelyk.mp3
+2026-05-03 07:10:07,598 - INFO - Extracting audio for SILVER Price 'HAS to Rise a LOT' - Previous Highs 'Will Be Surpassed': Clive Thompson (_LkL3ShpwXY)...
+2026-05-03 07:10:33,816 - INFO - Successfully extracted: audio/_LkL3ShpwXY.mp3
+2026-05-03 07:10:42,091 - INFO - Extracting audio for The Global Monetary Reset Is Here; EVERYTHING You Need To Know (WHAOB5oB79k)...
+2026-05-03 07:11:48,195 - INFO - Successfully extracted: audio/WHAOB5oB79k.mp3
+2026-05-03 07:11:48,196 - INFO - Extraction complete. 9/9 audio files ready. (Time: 360.7s)
+2026-05-03 07:11:48,196 - INFO - 
+--- Phase 3: Summarization (Direct Audio) ---
+2026-05-03 07:11:49,316 - INFO - Generating Brief for SILVER PRICE Did Something NOBODY Expected 🚨 Every Gold & Silver Investor NEEDS to Watch This (XX_2NBpQvbE)...
+2026-05-03 07:11:49,317 - INFO - AFC is enabled with max remote calls: 10.
+2026-05-03 07:11:49,831 - INFO - Generating Brief for 'Late Stage Bull Market'; Trader Reveals Next Asset To Fall 40% | Gareth Soloway (I2eSzFrnN7g)...
+2026-05-03 07:11:49,832 - INFO - AFC is enabled with max remote calls: 10.
+2026-05-03 07:11:49,917 - INFO - Generating Brief for BULLION DEALER WARNS OF COLLAPSE!  IS HE *RIGHT* ABOUT THE US DOLLAR?? (yBRAKHZnX9I)...
+2026-05-03 07:11:49,918 - INFO - AFC is enabled with max remote calls: 10.
+2026-05-03 07:11:54,922 - ERROR - Schema parsing error for BULLION DEALER WARNS OF COLLAPSE!  IS HE *RIGHT* ABOUT THE US DOLLAR??: Expecting value: line 1 column 1124 (char 1123)
+2026-05-03 07:11:55,870 - ERROR - Schema parsing error for SILVER PRICE Did Something NOBODY Expected 🚨 Every Gold & Silver Investor NEEDS to Watch This: Expecting value: line 1 column 1248 (char 1247)
+2026-05-03 07:11:56,811 - INFO - Generating Brief for The New Gold Monetary System Is Already in Place (Most People Missed It) | Stephen Leeb (QwaSoB2rfVk)...
+2026-05-03 07:11:56,812 - INFO - AFC is enabled with max remote calls: 10.
+2026-05-03 07:11:57,354 - INFO - Generating Brief for Anthropic Might Buy Atlassian For $40B. Here's Why It Makes Sense. (FDkvRl1RlT0)...
+2026-05-03 07:11:57,355 - INFO - AFC is enabled with max remote calls: 10.
+2026-05-03 07:11:58,267 - ERROR - Error summarising audio Anthropic Might Buy Atlassian For $40B. Here's Why It Makes Sense.: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more details.', 'status': 'RESOURCE_EXHAUSTED'}}
+2026-05-03 07:12:00,268 - INFO - Generating Brief for The 91-Year Debasement Trade: Why $4,600 Gold is Just the Beginning - James Grant (6-E9bTSuj0o)...
+2026-05-03 07:12:00,269 - INFO - AFC is enabled with max remote calls: 10.
+2026-05-03 07:12:04,158 - INFO - ✅ Brief successfully generated for 'Late Stage Bull Market'; Trader Reveals Next Asset To Fall 40% | Gareth Soloway
+2026-05-03 07:12:05,756 - INFO - Generating Brief for Very Overbought Stock Market Ripe For A Pullback | Lance Roberts (QkLps6zelyk)...
+2026-05-03 07:12:05,759 - INFO - AFC is enabled with max remote calls: 10.
+2026-05-03 07:12:11,123 - INFO - ✅ Brief successfully generated for The New Gold Monetary System Is Already in Place (Most People Missed It) | Stephen Leeb
+2026-05-03 07:12:13,102 - INFO - Generating Brief for SILVER Price 'HAS to Rise a LOT' - Previous Highs 'Will Be Surpassed': Clive Thompson (_LkL3ShpwXY)...
+2026-05-03 07:12:13,103 - INFO - AFC is enabled with max remote calls: 10.
+2026-05-03 07:12:16,906 - INFO - ✅ Brief successfully generated for The 91-Year Debasement Trade: Why $4,600 Gold is Just the Beginning - James Grant
+2026-05-03 07:12:18,992 - INFO - Generating Brief for The Global Monetary Reset Is Here; EVERYTHING You Need To Know (WHAOB5oB79k)...
+2026-05-03 07:12:18,994 - INFO - AFC is enabled with max remote calls: 10.
+2026-05-03 07:12:21,952 - INFO - ✅ Brief successfully generated for SILVER Price 'HAS to Rise a LOT' - Previous Highs 'Will Be Surpassed': Clive Thompson
+2026-05-03 07:12:49,484 - INFO - ✅ Brief successfully generated for Very Overbought Stock Market Ripe For A Pullback | Lance Roberts
+2026-05-03 07:13:31,943 - INFO - ✅ Brief successfully generated for The Global Monetary Reset Is Here; EVERYTHING You Need To Know
+2026-05-03 07:13:31,944 - INFO - --- Phase 3: Category Synthesis (6 assets across categories) ---
+2026-05-03 07:13:31,944 - INFO - Analyzing 2 categories: General Financial Investing and Speculation, Precious Metals
+2026-05-03 07:13:31,944 - INFO - Processing Synthesis for sector: General Financial Investing and Speculation (4 assets)...
+2026-05-03 07:13:31,973 - INFO - AFC is enabled with max remote calls: 10.
+2026-05-03 07:13:32,782 - INFO - AFC is enabled with max remote calls: 10.
+2026-05-03 07:13:33,580 - INFO - AFC is enabled with max remote calls: 10.
+2026-05-03 07:13:34,336 - INFO - ✅ Synthesis complete for General Financial Investing and Speculation
+2026-05-03 07:13:34,336 - INFO - Processing Synthesis for sector: Precious Metals (2 assets)...
+2026-05-03 07:13:34,340 - INFO - AFC is enabled with max remote calls: 10.
+2026-05-03 07:13:35,189 - INFO - AFC is enabled with max remote calls: 10.
+2026-05-03 07:13:36,043 - INFO - ✅ Synthesis complete for Precious Metals
+2026-05-03 07:13:36,057 - INFO - Summarization complete. 6 briefs written to briefs/2026-05-03.md (Time: 107.8s)
+2026-05-03 07:13:36,937 - INFO - Email digest sent successfully to kwilliamson.mail@gmail.com.
+2026-05-03 07:13:37,453 - INFO - Email digest sent successfully to kochava72@gmail.com.
+2026-05-03 07:13:37,467 - INFO - Queue cleared.
+2026-05-03 07:13:37,472 - INFO - ==================================================
+2026-05-03 07:13:37,472 - INFO - Pipeline Execution Complete
+2026-05-03 07:13:37,472 - INFO - ==================================================
