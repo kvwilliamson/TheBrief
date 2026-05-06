@@ -7152,3 +7152,133 @@
 2026-05-05 07:09:39,381 - INFO - ==================================================
 2026-05-05 07:09:39,382 - INFO - Pipeline Execution Complete
 2026-05-05 07:09:39,382 - INFO - ==================================================
+2026-05-06 07:18:01,950 - INFO - ==================================================
+2026-05-06 07:18:01,950 - INFO - Starting TheBrief Daily Pipeline
+2026-05-06 07:18:01,950 - INFO - ==================================================
+2026-05-06 07:18:01,950 - INFO - 
+--- Phase 1: Discovery ---
+2026-05-06 07:18:01,953 - INFO - Discovering videos published after 2026-05-05T07:18:01.953812+00:00 (24h lookback)
+2026-05-06 07:18:02,387 - INFO - Found 1 new potential videos on Wall Street Bullion .
+2026-05-06 07:18:02,414 - INFO - Found 1 new potential videos on GoldSilver .
+2026-05-06 07:18:02,667 - INFO - Found 1 new potential videos on David Lin .
+2026-05-06 07:18:02,742 - INFO - Found 2 new potential videos on TheTechnicalTraders.
+2026-05-06 07:18:02,753 - INFO - Found 2 new potential videos on AI News & Strategy Daily | Nate B Jones.
+2026-05-06 07:18:02,780 - INFO - Found 1 new potential videos on Kitco NEWS.
+2026-05-06 07:18:02,889 - INFO - Found 1 new potential videos on Clive Thompson.
+2026-05-06 07:18:03,053 - INFO - Found 1 new potential videos on Felix & Friends (Goat Academy).
+2026-05-06 07:18:03,172 - INFO - Found 1 new potential videos on CPM Group.
+2026-05-06 07:18:03,186 - INFO - Found 1 new potential videos on Adam Taggart | Thoughtful Money®.
+2026-05-06 07:18:03,199 - INFO - Found 1 new potential videos on Miles Franklin Media.
+2026-05-06 07:18:03,303 - INFO - Found 4 new potential videos on Verified Investing.
+2026-05-06 07:18:03,384 - INFO - Found 1 new potential videos on Commodity Culture.
+2026-05-06 07:18:03,444 - INFO - Found 1 new potential videos on Wes Roth.
+2026-05-06 07:18:03,460 - INFO - Found 3 new potential videos on The Prof G Pod – Scott Galloway.
+2026-05-06 07:18:03,657 - INFO - Found 15 total long-form videos across all channels.
+2026-05-06 07:18:03,676 - INFO - Discovery complete. Added 15 new videos to queue.
+2026-05-06 07:18:03,676 - INFO - 
+--- Phase 2: Extraction ---
+2026-05-06 07:18:03,916 - INFO - yt-dlp version: 2026.03.17
+2026-05-06 07:18:04,268 - INFO - POT-related packages: bgutil-ytdlp-pot-provider 1.3.1
+2026-05-06 07:18:04,291 - INFO - bgutil HTTP server not available on port 4416 (will rely on cookies)
+2026-05-06 07:18:04,291 - INFO - Extracting audio for Weds May 6, 2026.  Stocks are surging.  Intel +13%, Sandisk +12%, Micron +11%, Qualcom +11%. Bubble? (PGOadLIAy0A)...
+2026-05-06 07:18:14,552 - INFO - Successfully extracted: audio/PGOadLIAy0A.mp3
+2026-05-06 07:18:22,174 - INFO - Extracting audio for Claude BROKE Wall Street Overnight... (rzVhPTSNWnE)...
+2026-05-06 07:18:38,405 - INFO - Successfully extracted: audio/rzVhPTSNWnE.mp3
+2026-05-06 07:18:44,841 - INFO - Extracting audio for The Man Who Managed 2008 Financial Crisis Warns: ‘Break-the-Glass’ Emergency Ahead (wRRHPis2uZ0)...
+2026-05-06 07:18:54,756 - INFO - Successfully extracted: audio/wRRHPis2uZ0.mp3
+2026-05-06 07:18:59,955 - INFO - Extracting audio for Semiconductors & Nasdaq Hit All-Time Highs: Key Levels to Trade (dXGIQyZ0hs4)...
+2026-05-06 07:19:14,562 - INFO - Successfully extracted: audio/dXGIQyZ0hs4.mp3
+2026-05-06 07:19:26,458 - INFO - Extracting audio for China's 17 Month Gold Spree: Why Central Banks Bought 244 Tonnes In Q1 | Dominic Frisby (a0gLms02Vgw)...
+2026-05-06 07:19:53,781 - INFO - Successfully extracted: audio/a0gLms02Vgw.mp3
+2026-05-06 07:20:03,589 - INFO - Extracting audio for Gold and Silver Prices Are Falling: Why The Bull Market Isn’t Over Yet (FsedVb25-Io)...
+2026-05-06 07:20:22,480 - INFO - Successfully extracted: audio/FsedVb25-Io.mp3
+2026-05-06 07:20:33,507 - INFO - Extracting audio for Silver Price SHOCK 2026: I Predicted the Crash and Now I'm Warning You This Date Is REAL (GcpkmYPX280)...
+2026-05-06 07:20:45,080 - INFO - Successfully extracted: audio/GcpkmYPX280.mp3
+2026-05-06 07:20:50,469 - INFO - Extracting audio for 'This Is A Crisis': Fund Manager's Explosive Forecast For This Critical Sector | Tomasz Nadrowski (YGpaTspHOcA)...
+2026-05-06 07:21:15,152 - INFO - Successfully extracted: audio/YGpaTspHOcA.mp3
+2026-05-06 07:21:22,791 - INFO - Extracting audio for Tech Surge & Earnings After the Bell: Where to Short the S&P 500 (x06tgbp3w7Q)...
+2026-05-06 07:21:35,692 - INFO - Successfully extracted: audio/x06tgbp3w7Q.mp3
+2026-05-06 07:21:47,112 - INFO - Extracting audio for Stocks To Crash By 50%+, Silver To Surge Above $300oz? | Michael Oliver (6vvJyyww0bw)...
+2026-05-06 07:22:20,156 - INFO - Successfully extracted: audio/6vvJyyww0bw.mp3
+2026-05-06 07:22:27,388 - INFO - Extracting audio for China's Grand Strategy To DESTROY US Sanctions With GOLD - 'They Can't Back Down': Eric Yeung (U1ZJvBrgg5k)...
+2026-05-06 07:22:47,166 - INFO - Successfully extracted: audio/U1ZJvBrgg5k.mp3
+2026-05-06 07:22:56,795 - INFO - Extracting audio for Consumer AI Has a Problem Nobody's Naming. (Z0HizICooiw)...
+2026-05-06 07:23:14,460 - INFO - Successfully extracted: audio/Z0HizICooiw.mp3
+2026-05-06 07:23:19,778 - INFO - Extracting audio for Tech SURGES as Oil Cools: Is the Bull Market Unstoppable? Key Levels To Trade, Stocks, Bitcoin, Gold (1HCfkiztOS4)...
+2026-05-06 07:23:32,599 - INFO - Successfully extracted: audio/1HCfkiztOS4.mp3
+2026-05-06 07:23:43,042 - INFO - Extracting audio for If You Missed Palantir or Nvidia. This is Even Bigger. (4Gve7ELGIbI)...
+2026-05-06 07:24:00,252 - INFO - Successfully extracted: audio/4Gve7ELGIbI.mp3
+2026-05-06 07:24:07,643 - INFO - Extracting audio for China Is BEATING the U.S. in Space?! | China Decode (Yk3HmN2C_ZY)...
+2026-05-06 07:24:31,909 - INFO - Successfully extracted: audio/Yk3HmN2C_ZY.mp3
+2026-05-06 07:24:31,909 - INFO - Extraction complete. 15/15 audio files ready. (Time: 387.6s)
+2026-05-06 07:24:31,910 - INFO - 
+--- Phase 3: Summarization (Direct Audio) ---
+2026-05-06 07:24:32,965 - INFO - Generating Brief for Weds May 6, 2026.  Stocks are surging.  Intel +13%, Sandisk +12%, Micron +11%, Qualcom +11%. Bubble? (PGOadLIAy0A)...
+2026-05-06 07:24:32,967 - INFO - AFC is enabled with max remote calls: 10.
+2026-05-06 07:24:32,969 - INFO - Generating Brief for The Man Who Managed 2008 Financial Crisis Warns: ‘Break-the-Glass’ Emergency Ahead (wRRHPis2uZ0)...
+2026-05-06 07:24:32,969 - INFO - AFC is enabled with max remote calls: 10.
+2026-05-06 07:24:33,145 - INFO - Generating Brief for Claude BROKE Wall Street Overnight... (rzVhPTSNWnE)...
+2026-05-06 07:24:33,146 - INFO - AFC is enabled with max remote calls: 10.
+2026-05-06 07:24:38,062 - ERROR - Schema parsing error for The Man Who Managed 2008 Financial Crisis Warns: ‘Break-the-Glass’ Emergency Ahead: Expecting value: line 1 column 1074 (char 1073)
+2026-05-06 07:24:38,227 - ERROR - Schema parsing error for Weds May 6, 2026.  Stocks are surging.  Intel +13%, Sandisk +12%, Micron +11%, Qualcom +11%. Bubble?: Expecting value: line 1 column 876 (char 875)
+2026-05-06 07:24:39,782 - INFO - Generating Brief for Semiconductors & Nasdaq Hit All-Time Highs: Key Levels to Trade (dXGIQyZ0hs4)...
+2026-05-06 07:24:39,784 - INFO - AFC is enabled with max remote calls: 10.
+2026-05-06 07:24:40,263 - INFO - Generating Brief for China's 17 Month Gold Spree: Why Central Banks Bought 244 Tonnes In Q1 | Dominic Frisby (a0gLms02Vgw)...
+2026-05-06 07:24:40,264 - INFO - AFC is enabled with max remote calls: 10.
+2026-05-06 07:24:40,895 - INFO - ✅ Brief successfully generated for Claude BROKE Wall Street Overnight...
+2026-05-06 07:24:42,189 - INFO - Generating Brief for Gold and Silver Prices Are Falling: Why The Bull Market Isn’t Over Yet (FsedVb25-Io)...
+2026-05-06 07:24:42,190 - INFO - AFC is enabled with max remote calls: 10.
+2026-05-06 07:24:46,720 - ERROR - Schema parsing error for Semiconductors & Nasdaq Hit All-Time Highs: Key Levels to Trade: Expecting value: line 1 column 1169 (char 1168)
+2026-05-06 07:24:49,019 - INFO - Generating Brief for Silver Price SHOCK 2026: I Predicted the Crash and Now I'm Warning You This Date Is REAL (GcpkmYPX280)...
+2026-05-06 07:24:49,022 - INFO - AFC is enabled with max remote calls: 10.
+2026-05-06 07:24:51,638 - INFO - ✅ Brief successfully generated for China's 17 Month Gold Spree: Why Central Banks Bought 244 Tonnes In Q1 | Dominic Frisby
+2026-05-06 07:24:52,573 - INFO - ✅ Brief successfully generated for Gold and Silver Prices Are Falling: Why The Bull Market Isn’t Over Yet
+2026-05-06 07:24:53,101 - INFO - Generating Brief for 'This Is A Crisis': Fund Manager's Explosive Forecast For This Critical Sector | Tomasz Nadrowski (YGpaTspHOcA)...
+2026-05-06 07:24:53,102 - INFO - AFC is enabled with max remote calls: 10.
+2026-05-06 07:24:53,941 - INFO - Generating Brief for Tech Surge & Earnings After the Bell: Where to Short the S&P 500 (x06tgbp3w7Q)...
+2026-05-06 07:24:53,942 - INFO - AFC is enabled with max remote calls: 10.
+2026-05-06 07:24:55,877 - INFO - ✅ Brief successfully generated for Silver Price SHOCK 2026: I Predicted the Crash and Now I'm Warning You This Date Is REAL
+2026-05-06 07:24:57,704 - INFO - Generating Brief for Stocks To Crash By 50%+, Silver To Surge Above $300oz? | Michael Oliver (6vvJyyww0bw)...
+2026-05-06 07:24:57,705 - INFO - AFC is enabled with max remote calls: 10.
+2026-05-06 07:25:02,362 - INFO - ✅ Brief successfully generated for Tech Surge & Earnings After the Bell: Where to Short the S&P 500
+2026-05-06 07:25:04,167 - INFO - Generating Brief for China's Grand Strategy To DESTROY US Sanctions With GOLD - 'They Can't Back Down': Eric Yeung (U1ZJvBrgg5k)...
+2026-05-06 07:25:04,168 - INFO - AFC is enabled with max remote calls: 10.
+2026-05-06 07:25:04,931 - INFO - ✅ Brief successfully generated for 'This Is A Crisis': Fund Manager's Explosive Forecast For This Critical Sector | Tomasz Nadrowski
+2026-05-06 07:25:06,578 - INFO - Generating Brief for Consumer AI Has a Problem Nobody's Naming. (Z0HizICooiw)...
+2026-05-06 07:25:06,579 - INFO - AFC is enabled with max remote calls: 10.
+2026-05-06 07:25:14,028 - INFO - ✅ Brief successfully generated for China's Grand Strategy To DESTROY US Sanctions With GOLD - 'They Can't Back Down': Eric Yeung
+2026-05-06 07:25:15,751 - INFO - Generating Brief for Tech SURGES as Oil Cools: Is the Bull Market Unstoppable? Key Levels To Trade, Stocks, Bitcoin, Gold (1HCfkiztOS4)...
+2026-05-06 07:25:15,752 - INFO - AFC is enabled with max remote calls: 10.
+2026-05-06 07:25:18,309 - INFO - ✅ Brief successfully generated for Consumer AI Has a Problem Nobody's Naming.
+2026-05-06 07:25:19,852 - INFO - Generating Brief for If You Missed Palantir or Nvidia. This is Even Bigger. (4Gve7ELGIbI)...
+2026-05-06 07:25:19,853 - INFO - AFC is enabled with max remote calls: 10.
+2026-05-06 07:25:21,811 - INFO - ✅ Brief successfully generated for Stocks To Crash By 50%+, Silver To Surge Above $300oz? | Michael Oliver
+2026-05-06 07:25:22,522 - ERROR - Schema parsing error for Tech SURGES as Oil Cools: Is the Bull Market Unstoppable? Key Levels To Trade, Stocks, Bitcoin, Gold: Expecting value: line 1 column 1153 (char 1152)
+2026-05-06 07:25:23,733 - INFO - Generating Brief for China Is BEATING the U.S. in Space?! | China Decode (Yk3HmN2C_ZY)...
+2026-05-06 07:25:23,734 - INFO - AFC is enabled with max remote calls: 10.
+2026-05-06 07:25:25,091 - ERROR - Error summarising audio China Is BEATING the U.S. in Space?! | China Decode: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more details.', 'status': 'RESOURCE_EXHAUSTED'}}
+2026-05-06 07:25:27,809 - INFO - ✅ Brief successfully generated for If You Missed Palantir or Nvidia. This is Even Bigger.
+2026-05-06 07:25:27,809 - INFO - --- Phase 3: Category Synthesis (10 assets across categories) ---
+2026-05-06 07:25:27,809 - INFO - Analyzing 3 categories: Artificial Intelligence, General Financial Investing and Speculation, Precious Metals
+2026-05-06 07:25:27,809 - INFO - Processing Synthesis for sector: Artificial Intelligence (2 assets)...
+2026-05-06 07:25:27,838 - INFO - AFC is enabled with max remote calls: 10.
+2026-05-06 07:25:28,776 - INFO - AFC is enabled with max remote calls: 10.
+2026-05-06 07:25:29,634 - INFO - ✅ Synthesis complete for Artificial Intelligence
+2026-05-06 07:25:29,634 - INFO - Processing Synthesis for sector: General Financial Investing and Speculation (5 assets)...
+2026-05-06 07:25:29,640 - INFO - AFC is enabled with max remote calls: 10.
+2026-05-06 07:25:30,551 - INFO - AFC is enabled with max remote calls: 10.
+2026-05-06 07:25:31,550 - INFO - AFC is enabled with max remote calls: 10.
+2026-05-06 07:25:32,391 - INFO - AFC is enabled with max remote calls: 10.
+2026-05-06 07:25:33,224 - INFO - ✅ Synthesis complete for General Financial Investing and Speculation
+2026-05-06 07:25:33,224 - INFO - Processing Synthesis for sector: Precious Metals (3 assets)...
+2026-05-06 07:25:33,228 - INFO - AFC is enabled with max remote calls: 10.
+2026-05-06 07:25:34,140 - INFO - AFC is enabled with max remote calls: 10.
+2026-05-06 07:25:35,014 - INFO - AFC is enabled with max remote calls: 10.
+2026-05-06 07:25:36,231 - INFO - ✅ Synthesis complete for Precious Metals
+2026-05-06 07:25:36,252 - INFO - Summarization complete. 10 briefs written to briefs/2026-05-06.md (Time: 64.3s)
+2026-05-06 07:25:37,171 - INFO - Email digest sent successfully to kwilliamson.mail@gmail.com.
+2026-05-06 07:25:37,731 - INFO - Email digest sent successfully to kochava72@gmail.com.
+2026-05-06 07:25:37,742 - INFO - Queue cleared.
+2026-05-06 07:25:37,747 - INFO - ==================================================
+2026-05-06 07:25:37,748 - INFO - Pipeline Execution Complete
+2026-05-06 07:25:37,748 - INFO - ==================================================
