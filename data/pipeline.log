@@ -7404,3 +7404,118 @@
 2026-05-07 07:26:42,119 - INFO - ==================================================
 2026-05-07 07:26:42,119 - INFO - Pipeline Execution Complete
 2026-05-07 07:26:42,119 - INFO - ==================================================
+2026-05-08 06:53:50,237 - INFO - ==================================================
+2026-05-08 06:53:50,237 - INFO - Starting TheBrief Daily Pipeline
+2026-05-08 06:53:50,237 - INFO - ==================================================
+2026-05-08 06:53:50,237 - INFO - 
+--- Phase 1: Discovery ---
+2026-05-08 06:53:50,241 - INFO - Discovering videos published after 2026-05-07T06:53:50.241247+00:00 (24h lookback)
+2026-05-08 06:53:50,757 - INFO - Found 1 new potential videos on GoldSilver .
+2026-05-08 06:53:51,111 - INFO - Found 2 new potential videos on AI News & Strategy Daily | Nate B Jones.
+2026-05-08 06:53:51,143 - INFO - Found 1 new potential videos on Clive Thompson.
+2026-05-08 06:53:51,218 - INFO - Found 1 new potential videos on David Lin .
+2026-05-08 06:53:51,328 - INFO - Found 1 new potential videos on Kitco NEWS.
+2026-05-08 06:53:51,396 - INFO - Found 1 new potential videos on Felix & Friends (Goat Academy).
+2026-05-08 06:53:51,504 - INFO - Found 2 new potential videos on Adam Taggart | Thoughtful Money®.
+2026-05-08 06:53:51,671 - INFO - Found 4 new potential videos on Verified Investing.
+2026-05-08 06:53:51,721 - INFO - Found 1 new potential videos on Miles Franklin Media.
+2026-05-08 06:53:51,772 - INFO - Found 4 new potential videos on Matthew Berman.
+2026-05-08 06:53:51,933 - INFO - Found 1 new potential videos on Wes Roth.
+2026-05-08 06:53:51,997 - INFO - Found 2 new potential videos on The Prof G Pod – Scott Galloway.
+2026-05-08 06:53:52,135 - INFO - Found 13 total long-form videos across all channels.
+2026-05-08 06:53:52,153 - INFO - Discovery complete. Added 13 new videos to queue.
+2026-05-08 06:53:52,153 - INFO - 
+--- Phase 2: Extraction ---
+2026-05-08 06:53:52,413 - INFO - yt-dlp version: 2026.03.17
+2026-05-08 06:53:52,784 - INFO - POT-related packages: bgutil-ytdlp-pot-provider 1.3.1
+2026-05-08 06:53:52,806 - INFO - bgutil HTTP server not available on port 4416 (will rely on cookies)
+2026-05-08 06:53:52,807 - INFO - Extracting audio for Friday May 8. Ceasefire "continues", despite USA and Iran attacking each other. Stocks near records. (cuUxiJwlyvM)...
+2026-05-08 06:54:07,235 - INFO - Successfully extracted: audio/cuUxiJwlyvM.mp3
+2026-05-08 06:54:12,683 - INFO - Extracting audio for World Banks JUST got scared... (fabe7nYQa1Q)...
+2026-05-08 06:54:24,909 - INFO - Successfully extracted: audio/fabe7nYQa1Q.mp3
+2026-05-08 06:54:30,672 - INFO - Extracting audio for DEBATE | Michael Pento vs Adam Parker: What Comes Next After The Iran War Ends? (_Buj22c_V0I)...
+2026-05-08 06:55:30,775 - INFO - Successfully extracted: audio/_Buj22c_V0I.mp3
+2026-05-08 06:55:42,278 - INFO - Extracting audio for THE CLOUD IS BACK: DDOG & FTNT Lift Software Sector (Efnd6S64zfU)...
+2026-05-08 06:55:58,734 - INFO - Successfully extracted: audio/Efnd6S64zfU.mp3
+2026-05-08 06:56:09,568 - INFO - Extracting audio for Gary Stevenson: “Your Kids Will Be Poorer Than You” | Prof G Conversations (LHEEwZS_uuM)...
+2026-05-08 06:56:43,898 - INFO - Successfully extracted: audio/LHEEwZS_uuM.mp3
+2026-05-08 06:56:53,960 - INFO - Extracting audio for GPT-Realtime-2, Directionally Bad and Agent Memory (g31LEVJyGQI)...
+2026-05-08 06:57:34,304 - INFO - Successfully extracted: audio/g31LEVJyGQI.mp3
+2026-05-08 06:57:44,359 - INFO - Extracting audio for What Breaks The Gold Bull Market? WGC Reveals The ‘Warning Sign’ Hidden In The Data (D7AyZsD1i5M)...
+2026-05-08 06:58:00,566 - INFO - Successfully extracted: audio/D7AyZsD1i5M.mp3
+2026-05-08 06:58:07,976 - INFO - Extracting audio for The Anthropic Situation is INSANE (Gtt-xnzoIDc)...
+2026-05-08 06:58:26,881 - INFO - Successfully extracted: audio/Gtt-xnzoIDc.mp3
+2026-05-08 06:58:34,539 - INFO - Extracting audio for 'Much Like The ‘90s': Trader Warns Of 40-60% Market Crash | Todd Horwitz (0bOmymWxIhM)...
+2026-05-08 06:58:52,826 - INFO - Successfully extracted: audio/0bOmymWxIhM.mp3
+2026-05-08 06:58:58,851 - INFO - Extracting audio for Mixed Earnings Day: Best Long & Short Setups Across Tech, Food & More (GNqj2vQwUVU)...
+2026-05-08 06:59:10,357 - INFO - Successfully extracted: audio/GNqj2vQwUVU.mp3
+2026-05-08 06:59:15,931 - INFO - Extracting audio for The Biggest Investment Opportunity of Your Life (4UKHDjJt6bk)...
+2026-05-08 06:59:48,365 - INFO - Successfully extracted: audio/4UKHDjJt6bk.mp3
+2026-05-08 06:59:53,923 - INFO - Extracting audio for Your AI Agent Is Locked To One Model. OpenClaw Just Killed That. (85Q9htV2CBE)...
+2026-05-08 07:00:12,893 - INFO - Successfully extracted: audio/85Q9htV2CBE.mp3
+2026-05-08 07:00:23,377 - INFO - Extracting audio for ALL-TIME HIGHS! Why Stocks Are Skyrocketing While the Consumer Collapses? 📈📉 (bWQfkDF9VZo)...
+2026-05-08 07:00:36,143 - INFO - Successfully extracted: audio/bWQfkDF9VZo.mp3
+2026-05-08 07:00:36,144 - INFO - Extraction complete. 13/13 audio files ready. (Time: 403.3s)
+2026-05-08 07:00:36,144 - INFO - 
+--- Phase 3: Summarization (Direct Audio) ---
+2026-05-08 07:00:37,480 - INFO - Generating Brief for Friday May 8. Ceasefire "continues", despite USA and Iran attacking each other. Stocks near records. (cuUxiJwlyvM)...
+2026-05-08 07:00:37,482 - INFO - AFC is enabled with max remote calls: 10.
+2026-05-08 07:00:37,595 - INFO - Generating Brief for World Banks JUST got scared... (fabe7nYQa1Q)...
+2026-05-08 07:00:37,596 - INFO - AFC is enabled with max remote calls: 10.
+2026-05-08 07:00:38,179 - INFO - Generating Brief for DEBATE | Michael Pento vs Adam Parker: What Comes Next After The Iran War Ends? (_Buj22c_V0I)...
+2026-05-08 07:00:38,180 - INFO - AFC is enabled with max remote calls: 10.
+2026-05-08 07:00:47,569 - INFO - ✅ Brief successfully generated for Friday May 8. Ceasefire "continues", despite USA and Iran attacking each other. Stocks near records.
+2026-05-08 07:00:48,730 - INFO - Generating Brief for THE CLOUD IS BACK: DDOG & FTNT Lift Software Sector (Efnd6S64zfU)...
+2026-05-08 07:00:48,731 - INFO - AFC is enabled with max remote calls: 10.
+2026-05-08 07:01:00,131 - INFO - ✅ Brief successfully generated for World Banks JUST got scared...
+2026-05-08 07:01:01,674 - INFO - Generating Brief for Gary Stevenson: “Your Kids Will Be Poorer Than You” | Prof G Conversations (LHEEwZS_uuM)...
+2026-05-08 07:01:01,675 - INFO - AFC is enabled with max remote calls: 10.
+2026-05-08 07:01:11,848 - INFO - ✅ Brief successfully generated for THE CLOUD IS BACK: DDOG & FTNT Lift Software Sector
+2026-05-08 07:01:13,509 - INFO - Generating Brief for GPT-Realtime-2, Directionally Bad and Agent Memory (g31LEVJyGQI)...
+2026-05-08 07:01:13,510 - INFO - AFC is enabled with max remote calls: 10.
+2026-05-08 07:01:15,073 - ERROR - Error summarising audio GPT-Realtime-2, Directionally Bad and Agent Memory: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more details.', 'status': 'RESOURCE_EXHAUSTED'}}
+2026-05-08 07:01:16,622 - INFO - Generating Brief for What Breaks The Gold Bull Market? WGC Reveals The ‘Warning Sign’ Hidden In The Data (D7AyZsD1i5M)...
+2026-05-08 07:01:16,623 - INFO - AFC is enabled with max remote calls: 10.
+2026-05-08 07:01:30,961 - INFO - ✅ Brief successfully generated for What Breaks The Gold Bull Market? WGC Reveals The ‘Warning Sign’ Hidden In The Data
+2026-05-08 07:01:31,462 - INFO - ✅ Brief successfully generated for Gary Stevenson: “Your Kids Will Be Poorer Than You” | Prof G Conversations
+2026-05-08 07:01:32,152 - INFO - Generating Brief for The Anthropic Situation is INSANE (Gtt-xnzoIDc)...
+2026-05-08 07:01:32,153 - INFO - AFC is enabled with max remote calls: 10.
+2026-05-08 07:01:32,545 - INFO - Generating Brief for 'Much Like The ‘90s': Trader Warns Of 40-60% Market Crash | Todd Horwitz (0bOmymWxIhM)...
+2026-05-08 07:01:32,546 - INFO - AFC is enabled with max remote calls: 10.
+2026-05-08 07:01:43,498 - INFO - ✅ Brief successfully generated for The Anthropic Situation is INSANE
+2026-05-08 07:01:43,577 - INFO - ✅ Brief successfully generated for DEBATE | Michael Pento vs Adam Parker: What Comes Next After The Iran War Ends?
+2026-05-08 07:01:44,306 - INFO - Generating Brief for Mixed Earnings Day: Best Long & Short Setups Across Tech, Food & More (GNqj2vQwUVU)...
+2026-05-08 07:01:44,307 - INFO - AFC is enabled with max remote calls: 10.
+2026-05-08 07:01:45,049 - INFO - ✅ Brief successfully generated for 'Much Like The ‘90s': Trader Warns Of 40-60% Market Crash | Todd Horwitz
+2026-05-08 07:01:45,262 - INFO - Generating Brief for The Biggest Investment Opportunity of Your Life (4UKHDjJt6bk)...
+2026-05-08 07:01:45,263 - INFO - AFC is enabled with max remote calls: 10.
+2026-05-08 07:01:46,850 - INFO - Generating Brief for Your AI Agent Is Locked To One Model. OpenClaw Just Killed That. (85Q9htV2CBE)...
+2026-05-08 07:01:46,851 - INFO - AFC is enabled with max remote calls: 10.
+2026-05-08 07:01:50,726 - INFO - ✅ Brief successfully generated for Mixed Earnings Day: Best Long & Short Setups Across Tech, Food & More
+2026-05-08 07:01:51,759 - INFO - Generating Brief for ALL-TIME HIGHS! Why Stocks Are Skyrocketing While the Consumer Collapses? 📈📉 (bWQfkDF9VZo)...
+2026-05-08 07:01:51,760 - INFO - AFC is enabled with max remote calls: 10.
+2026-05-08 07:01:59,367 - INFO - ✅ Brief successfully generated for ALL-TIME HIGHS! Why Stocks Are Skyrocketing While the Consumer Collapses? 📈📉
+2026-05-08 07:02:02,024 - INFO - ✅ Brief successfully generated for Your AI Agent Is Locked To One Model. OpenClaw Just Killed That.
+2026-05-08 07:02:19,457 - INFO - ✅ Brief successfully generated for The Biggest Investment Opportunity of Your Life
+2026-05-08 07:02:19,457 - INFO - --- Phase 3: Category Synthesis (12 assets across categories) ---
+2026-05-08 07:02:19,458 - INFO - Analyzing 2 categories: General Financial Investing and Speculation, Artificial Intelligence
+2026-05-08 07:02:19,458 - INFO - Processing Synthesis for sector: General Financial Investing and Speculation (9 assets)...
+2026-05-08 07:02:19,494 - INFO - AFC is enabled with max remote calls: 10.
+2026-05-08 07:02:20,678 - INFO - AFC is enabled with max remote calls: 10.
+2026-05-08 07:02:21,767 - INFO - AFC is enabled with max remote calls: 10.
+2026-05-08 07:02:22,654 - INFO - AFC is enabled with max remote calls: 10.
+2026-05-08 07:02:23,432 - INFO - AFC is enabled with max remote calls: 10.
+2026-05-08 07:02:24,382 - INFO - AFC is enabled with max remote calls: 10.
+2026-05-08 07:02:25,138 - INFO - AFC is enabled with max remote calls: 10.
+2026-05-08 07:02:25,993 - INFO - ✅ Synthesis complete for General Financial Investing and Speculation
+2026-05-08 07:02:25,993 - INFO - Processing Synthesis for sector: Artificial Intelligence (3 assets)...
+2026-05-08 07:02:25,998 - INFO - AFC is enabled with max remote calls: 10.
+2026-05-08 07:02:26,999 - INFO - AFC is enabled with max remote calls: 10.
+2026-05-08 07:02:27,950 - INFO - ✅ Synthesis complete for Artificial Intelligence
+2026-05-08 07:02:27,976 - INFO - Summarization complete. 12 briefs written to briefs/2026-05-08.md (Time: 111.8s)
+2026-05-08 07:02:29,341 - INFO - Email digest sent successfully to kwilliamson.mail@gmail.com.
+2026-05-08 07:02:30,235 - INFO - Email digest sent successfully to kochava72@gmail.com.
+2026-05-08 07:02:30,245 - INFO - Queue cleared.
+2026-05-08 07:02:30,251 - INFO - ==================================================
+2026-05-08 07:02:30,251 - INFO - Pipeline Execution Complete
+2026-05-08 07:02:30,251 - INFO - ==================================================

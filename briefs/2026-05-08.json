@@ -1,0 +1,951 @@
+{
+  "date": "2026-05-08",
+  "briefs": [
+    {
+      "episode_title": "Friday May 8. Ceasefire \"continues\", despite USA and Iran attacking each other. Stocks near records.",
+      "channel": "Clive Thompson",
+      "duration_minutes": 17,
+      "podcast_date": "2026-05-08",
+      "processing_date": "2024-01-26",
+      "one_line_summary": "Despite a claimed ceasefire, the USA and Iran are engaging in military actions, while stocks remain near record highs amidst job cuts and shifts towards AI.",
+      "core_claims": [
+        "The USA struck military targets in Iran, including missile and drone launch sites, command centers, and intelligence facilities after Iran allegedly fired on three US Navy destroyers.",
+        "The USA is attempting to exit the war 'gracefully with a victory' and is awaiting Iran's response to a one-page memorandum, but has received no response.",
+        "Trump suspended 'Project Freedom,' halting ship passage through the Strait of Hormuz, causing the price of oil to increase, currently trading at $99.30 for Brent Crude and $95.76 for West Texas Intermediate.",
+        "The USA has set a deadline of July 4th for Europe to agree to a tariff/trade agreement, threatening substantial tariff increases if not agreed upon.",
+        "Inventories of gasoline, gas oil, and fuel oil are well below average for this time of year and are rapidly declining, which may lead to sustained higher oil prices.",
+        "Stocks declined slightly yesterday (S&P down 0.38%, Dow down 0.63%, NASDAQ down 0.12%), but futures indicate a higher opening today.",
+        "Technology companies in the United States have had 81,000 job cuts in Q1 with Cloudflare announcing 1,100 job cuts shifting to agentic AI first as its operating model.",
+        "The Nikki index was up 5.58% but down slightly today. Gold is trending upwards at $4725, silver is up $1.68 to $80.21, platinum is up $29.52 at $2044, and palladium is up $20.38 at $1497.39."
+      ],
+      "signal_strength": 8,
+      "themes": [
+        "geopolitics",
+        "financial markets",
+        "energy",
+        "trade",
+        "employment",
+        "artificial intelligence",
+        "precious metals"
+      ],
+      "positioning_implication": "Prepare for potential volatility in energy markets and adjust investment strategies to account for sustained higher oil prices. Monitor trade negotiations between the US and Europe, as the outcome could significantly impact market dynamics.",
+      "time_horizon": "medium",
+      "shelf_life": "Medium",
+      "thumbnail": "https://i.ytimg.com/vi/cuUxiJwlyvM/hqdefault.jpg",
+      "video_url": "https://www.youtube.com/watch?v=cuUxiJwlyvM",
+      "cluster_id": 0,
+      "category": "General Financial Investing and Speculation"
+    },
+    {
+      "episode_title": "World Banks JUST got scared...",
+      "channel": "Wes Roth",
+      "duration_minutes": 20,
+      "podcast_date": "2026-05-08",
+      "processing_date": "2026-05-08",
+      "one_line_summary": "The IMF warns of potential market shock due to AI-fueled cyberattacks targeting financial stability.",
+      "core_claims": [
+        "IMF released a warning about a massive market shock due to AI-fueled cyberattacks.",
+        "The IMF identified risks associated with artificial intelligence and cybersecurity vulnerabilities, specifically mentioning Claude, Mythos Preview, and OpenAI's GPT 5.5.",
+        "Cyberattacks could trigger stock market meltdowns even without actual events, merely from widespread panic.",
+        "Organizations like the IMF flag that AI may concentrate risks and failure modes in the financial system.",
+        "One vulnerability in major operating systems or web browsers can trigger collapse.",
+        "The IMF is stating that AI cyber capability is part of that global stability map."
+      ],
+      "signal_strength": 9,
+      "themes": [
+        "financial risk",
+        "ai",
+        "cybersecurity",
+        "systemic risk",
+        "market stability",
+        "economic collapse"
+      ],
+      "positioning_implication": "Expect increased volatility and security spending across financial institutions. Anticipate preventative measures or regulatory changes to mitigate AI-driven cyber risks to financial systems.",
+      "time_horizon": "medium",
+      "shelf_life": "Medium",
+      "thumbnail": "https://i.ytimg.com/vi/fabe7nYQa1Q/hqdefault.jpg",
+      "video_url": "https://www.youtube.com/watch?v=fabe7nYQa1Q",
+      "cluster_id": 1,
+      "category": "Artificial Intelligence"
+    },
+    {
+      "episode_title": "THE CLOUD IS BACK: DDOG & FTNT Lift Software Sector",
+      "channel": "Verified Investing",
+      "duration_minutes": 26,
+      "podcast_date": "2026-05-08",
+      "processing_date": "2026-05-08",
+      "one_line_summary": "Software stocks surged due to strong earnings from Datadog and Fortinet, but faced selling pressure, with CoreWeave's earnings potentially impacting overnight.",
+      "core_claims": [
+        "Datadog and Fortinet's earnings pushed the software sector up nicely.",
+        "CoreWeave's earnings are coming in hard.",
+        "The job report will be released at 8:30 AM tomorrow.",
+        "IWM is down 1.58%, a completely engulfing reversal candle from yesterday's candle and price action that is not near term good.",
+        "Google's market cap is approaching Nvidia's; Google's market cap is 4.81 trillion, Nvidia's is 5.14 trillion."
+      ],
+      "signal_strength": 7,
+      "themes": [
+        "market analysis",
+        "earnings reports",
+        "technical analysis",
+        "software sector",
+        "economic indicators",
+        "cryptocurrency"
+      ],
+      "positioning_implication": "Consider monitoring software sector and economic reports closely for short-term volatility; re-evaluate long-term strategies based on market cap shifts and key technical levels.",
+      "time_horizon": "short",
+      "shelf_life": "Short",
+      "thumbnail": "https://i.ytimg.com/vi/Efnd6S64zfU/hqdefault.jpg",
+      "video_url": "https://www.youtube.com/watch?v=Efnd6S64zfU",
+      "cluster_id": 5,
+      "category": "General Financial Investing and Speculation"
+    },
+    {
+      "episode_title": "What Breaks The Gold Bull Market? WGC Reveals The \u2018Warning Sign\u2019 Hidden In The Data",
+      "channel": "Kitco NEWS",
+      "duration_minutes": 31,
+      "podcast_date": "2026-05-08",
+      "processing_date": "2024-05-08",
+      "one_line_summary": "Gold's price discovery is shifting from London and New York to Asia, prompting questions about the future of the gold bull market.",
+      "core_claims": [
+        "Global gold ETFs took in $6.6 billion in April, but North America remains negative year-to-date, while Asia is up nearly $15.9 billion.",
+        "India's investment demand rose 54% in the first quarter, with bar and coin demand nearly matching jewelry demand.",
+        "Stats Canada reported a 24% spike in metal exports, much of it unwrought gold moving directly to the UK."
+      ],
+      "signal_strength": 7,
+      "themes": [
+        "gold market",
+        "central banks",
+        "etf flows",
+        "investment demand",
+        "geopolitics"
+      ],
+      "positioning_implication": "Monitor shifts in gold demand and trading hubs, particularly in Asia, to anticipate potential impacts on portfolio strategy and risk management.",
+      "time_horizon": "medium",
+      "shelf_life": "Medium",
+      "thumbnail": "https://i.ytimg.com/vi/D7AyZsD1i5M/hqdefault.jpg",
+      "video_url": "https://www.youtube.com/watch?v=D7AyZsD1i5M",
+      "cluster_id": 3,
+      "category": "General Financial Investing and Speculation"
+    },
+    {
+      "episode_title": "Gary Stevenson: \u201cYour Kids Will Be Poorer Than You\u201d | Prof G Conversations",
+      "channel": "The Prof G Pod \u2013 Scott Galloway",
+      "duration_minutes": 57,
+      "podcast_date": "2026-05-08",
+      "processing_date": "2026-05-08",
+      "one_line_summary": "Wealth accumulation by the elite and insufficient taxation is causing rapid wealth inequality, leading to declining living standards.",
+      "core_claims": [
+        "Aggressive taxation of extreme wealth is necessary to prevent ownership concentration by a tiny elite, as even a 5% annual return on a $300 billion fortune yields $15 billion per year.",
+        "The top 1% of households now hold 32% of all wealth, the greatest share since tracking began in 1989, roughly equal to the combined wealth of the bottom 90%.",
+        "Conversations about taxation of the rich are often superficial due to factional political debates, hindering sensible discussion on stopping wealth inequality.",
+        "Traditional means of addressing inequality, like well-designed wealth taxes, are underfunded and susceptible to being undermined by political factors.",
+        "Inheritance tax is a form of a wealth tax that worked relatively effectively to stop very high-level wealth accumulation in the US, the UK, and at least sort of 30-40 years immediately following World War Two.",
+        "For a wealth tax to be effective there must be both aggressive taxation of income and a wealth tax."
+      ],
+      "signal_strength": 9,
+      "themes": [
+        "wealth inequality",
+        "taxation",
+        "economic policy",
+        "austerity",
+        "class struggle",
+        "political factionalism"
+      ],
+      "positioning_implication": "Re-evaluate resource allocation towards wealth inequality mitigation efforts, including funding for designing effective taxation policies and fostering public discourse that moves beyond partisan divides.",
+      "time_horizon": "long",
+      "shelf_life": "Medium",
+      "thumbnail": "https://i.ytimg.com/vi/LHEEwZS_uuM/hqdefault.jpg",
+      "video_url": "https://www.youtube.com/watch?v=LHEEwZS_uuM",
+      "cluster_id": 4,
+      "category": "General Financial Investing and Speculation"
+    },
+    {
+      "episode_title": "The Anthropic Situation is INSANE",
+      "channel": "Matthew Berman",
+      "duration_minutes": 36,
+      "podcast_date": "2026-05-08",
+      "processing_date": "2026-05-08",
+      "one_line_summary": "Anthropic increases quotas after a partnership with SpaceX, contrasting with their previous cautious approach and criticisms from Elon Musk, who now supports them.",
+      "core_claims": [
+        "Anthropic partnered with SpaceX to increase compute capacity, leading to quota increases.",
+        "Anthropic's conservative Capex strategy led to compute constraints, now addressed through partnerships.",
+        "SpaceX has an estimated one million GPUs in their Colossus data center.",
+        "Effective today, Anthropic is doubling Claude Code's five-hour rate limits for Pro, Max, and Team plans.",
+        "Anthropic removes peak hour limit reductions on Claude Code for Pro and Max plans and is substantially raising API rate limits for Opus models.",
+        "Anthropic will utilize the entire compute capacity at SpaceX's Colossus One data center with over 300 megawatts capacity."
+      ],
+      "signal_strength": 8,
+      "themes": [
+        "ai",
+        "compute",
+        "anthropic",
+        "spacex",
+        "quotas",
+        "partnerships",
+        "elonsmusk",
+        "commoditization"
+      ],
+      "positioning_implication": "Evaluate resource allocation strategies in light of accelerated partnerships, weighing internal infrastructure against external capacity access for agility.",
+      "time_horizon": "short",
+      "shelf_life": "Medium",
+      "thumbnail": "https://i.ytimg.com/vi/Gtt-xnzoIDc/hqdefault.jpg",
+      "video_url": "https://www.youtube.com/watch?v=Gtt-xnzoIDc",
+      "cluster_id": 0,
+      "category": "Artificial Intelligence"
+    },
+    {
+      "episode_title": "DEBATE | Michael Pento vs Adam Parker: What Comes Next After The Iran War Ends?",
+      "channel": "Adam Taggart | Thoughtful Money\u00ae",
+      "duration_minutes": 62,
+      "podcast_date": "2026-05-08",
+      "processing_date": "2026-05-08",
+      "one_line_summary": "A debate on the economic repercussions following a hypothetical resolution to the Iran war focuses on commodity prices, inflation, and long-term investment strategies.",
+      "core_claims": [
+        "Bottom four quintiles of consumers have been in a recession since the end of Covid.",
+        "20% of the top consumers are keeping the economy afloat.",
+        "Economics and stocks are completely different since economists want to raise GDP.",
+        "2.5% real funds rate reverts back to where it was.",
+        "Inflation above 3.5% is expected in April (CPI)."
+      ],
+      "signal_strength": 6,
+      "themes": [
+        "economics",
+        "iran war",
+        "inflation",
+        "investment strategy",
+        "commodities",
+        "recession"
+      ],
+      "positioning_implication": "Assess portfolio risk relative to high commodity input sectors; favor active management and liquid assets in anticipation of economic contraction.",
+      "time_horizon": "medium",
+      "shelf_life": "Medium",
+      "thumbnail": "https://i.ytimg.com/vi/_Buj22c_V0I/hqdefault.jpg",
+      "video_url": "https://www.youtube.com/watch?v=_Buj22c_V0I",
+      "cluster_id": 0,
+      "category": "General Financial Investing and Speculation"
+    },
+    {
+      "episode_title": "Much Like The \u201890s\u2019: Trader Warns Of 40-60% Market Crash | Todd Horwitz",
+      "channel": "David Lin",
+      "duration_minutes": 31,
+      "podcast_date": "2026-05-08",
+      "processing_date": "2026-05-08",
+      "one_line_summary": "Analyst anticipates a substantial market sell-off of 40-60% due to economic warning signs and the perception of a retail-driven rally.",
+      "core_claims": [
+        "The analyst predicts a 40-60% market crash.",
+        "The current market rally is a \"retail rally,\" with big banks waiting to sell.",
+        "The analyst expects oil to fall back into the $60s by the end of the year if geopolitical conditions normalize.",
+        "The analyst indicates equities are set for an imminent correction.",
+        "The analyst says gold will likely reach $6,000 this year."
+      ],
+      "signal_strength": 7,
+      "themes": [
+        "market correction",
+        "economic indicators",
+        "oil price",
+        "retail rally",
+        "trading strategy",
+        "gold investment",
+        "bitcoin outlook"
+      ],
+      "positioning_implication": "Consider hedging long positions and monitoring economic warning signs to anticipate a potential market downturn. Shift focus to commodities like gold, silver, and platinum.",
+      "time_horizon": "medium",
+      "shelf_life": "Medium",
+      "thumbnail": "https://i.ytimg.com/vi/0bOmymWxIhM/hqdefault.jpg",
+      "video_url": "https://www.youtube.com/watch?v=0bOmymWxIhM",
+      "cluster_id": 6,
+      "category": "General Financial Investing and Speculation"
+    },
+    {
+      "episode_title": "Mixed Earnings Day: Best Long & Short Setups Across Tech, Food & More",
+      "channel": "Verified Investing",
+      "duration_minutes": 21,
+      "podcast_date": "2026-05-08",
+      "processing_date": "2026-05-08",
+      "one_line_summary": "Analyst identifies potential long and short trading opportunities based on earnings and technical analysis across several stocks.",
+      "core_claims": [
+        "S&P 500's daily topping tail was negated, providing exit points and new resistance levels.",
+        "Shake Shack presents long and short opportunities with defined support and resistance levels; maximum downside is projected at $64.16.",
+        "Vital Farms could bounce from $7.85 with an 18% upside potential; swing trade to $12 recommended.",
+        "Palantir targets a downside to $128.06 for long entry with $125.05 swing trade level, requiring confirmation above trendlines.",
+        "Micron shows topping tail signs; shorting opportunities arise with stop-outs at $683.12 on the 10-minute chart.",
+        "ANET shows a long play opportunity at $133.70, after initially hitting the $141.18 level."
+      ],
+      "signal_strength": 7,
+      "themes": [
+        "technical analysis",
+        "earnings",
+        "short selling",
+        "long positions",
+        "day trading",
+        "swing trading"
+      ],
+      "positioning_implication": "Adjust trading strategies based on identified technical levels, including resistance breakouts and support tests, with defined stop-loss points to manage risk.",
+      "time_horizon": "short",
+      "shelf_life": "Short",
+      "thumbnail": "https://i.ytimg.com/vi/GNqj2vQwUVU/hqdefault.jpg",
+      "video_url": "https://www.youtube.com/watch?v=GNqj2vQwUVU",
+      "cluster_id": 2,
+      "category": "General Financial Investing and Speculation"
+    },
+    {
+      "episode_title": "ALL-TIME HIGHS! Why Stocks Are Skyrocketing While the Consumer Collapses? \ud83d\udcc8\ud83d\udcc9",
+      "channel": "Verified Investing",
+      "duration_minutes": 30,
+      "podcast_date": "2026-05-08",
+      "processing_date": "2024-11-03",
+      "one_line_summary": "Falling oil prices are driving S&P futures up despite signs of consumer distress, with market manipulation exacerbating economic disparities.",
+      "core_claims": [
+        "S&P futures are up due to falling oil prices.",
+        "There was 170 billion in oil futures trades just before a 10% drop in crude oil.",
+        "The Nasdaq has moved up 25% in 5 weeks, an unprecedented recovery after a correction of over 10%.",
+        "Whirlpool missed earnings and reduced guidance due to plummeting consumer confidence, soaring input costs, and a bifurcated economy.",
+        "McDonald's is facing pressure as consumers trade down but find it increasingly unaffordable, with the stock showing a decline since March."
+      ],
+      "signal_strength": 8,
+      "themes": [
+        "market manipulation",
+        "economic bifurcation",
+        "oil prices",
+        "consumer confidence",
+        "semiconductors",
+        "earnings reports"
+      ],
+      "positioning_implication": "Monitor oil price movements and semiconductor trends for short-term trading opportunities; be cautious about long-term investments in consumer discretionary sectors. Understand the dichotomy between the AI-driven economy and consumer-facing sectors.",
+      "time_horizon": "short",
+      "shelf_life": "Medium",
+      "thumbnail": "https://i.ytimg.com/vi/bWQfkDF9VZo/hqdefault.jpg",
+      "video_url": "https://www.youtube.com/watch?v=bWQfkDF9VZo",
+      "cluster_id": 0,
+      "category": "General Financial Investing and Speculation"
+    },
+    {
+      "episode_title": "Your AI Agent Is Locked To One Model. OpenClaw Just Killed That.",
+      "channel": "AI News & Strategy Daily | Nate B Jones",
+      "duration_minutes": 28,
+      "podcast_date": "2026-05-08",
+      "processing_date": "2024-02-27",
+      "one_line_summary": "OpenClaw's April 2026 updates enable runtime environment orchestration, allowing for model swapping and workflow durability beyond single-model reliance.",
+      "core_claims": [
+        "OpenClaw is evolving from a viral demo to a runtime environment for complex agentic tasks.",
+        "The ability to swap models within OpenClaw requires that memory lives outside of any single model.",
+        "OpenAI is leveraging OpenClaw for distribution by making Codex available under ChatGPT paid plans, contrasting with Anthropic's restrictive policies."
+      ],
+      "signal_strength": 9,
+      "themes": [
+        "ai agents",
+        "runtime environment",
+        "model swapping",
+        "workflow durability",
+        "open source",
+        "memory management",
+        "openclaw",
+        "openai",
+        "anthropic",
+        "codecs"
+      ],
+      "positioning_implication": "Prioritize building agentic workflows with independent memory management and the ability to swap reasoning engines to avoid reliance on a single model provider. This enables more robust and adaptable agent systems.",
+      "time_horizon": "medium",
+      "shelf_life": "Medium",
+      "thumbnail": "https://i.ytimg.com/vi/85Q9htV2CBE/hqdefault.jpg",
+      "video_url": "https://www.youtube.com/watch?v=85Q9htV2CBE",
+      "cluster_id": 0,
+      "category": "Artificial Intelligence"
+    },
+    {
+      "episode_title": "The Biggest Investment Opportunity of Your Life",
+      "channel": "Felix & Friends (Goat Academy)",
+      "duration_minutes": 25,
+      "podcast_date": "2026-05-08",
+      "processing_date": "2026-05-08",
+      "one_line_summary": "Trillions of dollars are projected to move into specific investment themes in 2026, primarily centered on AI and related sectors.",
+      "core_claims": [
+        "AI revenue will reach $300 billion+ in 2026.",
+        "US investments in AI reached $40 billion in Q1, with a projected $700 billion for the full year.",
+        "Global semiconductor market is expected to reach $1 trillion in sales this year, driven by AI, a 25% increase from last year.",
+        "Ukraine aims to produce 7 million drones this year, causing 80% of the damage in the war.",
+        "The global space economy is expected to hit $460 billion this year."
+      ],
+      "signal_strength": 9,
+      "themes": [
+        "ai",
+        "investment opportunities",
+        "semiconductors",
+        "drones",
+        "defense",
+        "uranium",
+        "cybersecurity",
+        "robotics",
+        "space",
+        "us industrialization",
+        "etfs",
+        "stocks"
+      ],
+      "positioning_implication": "Reallocate capital towards sectors with high growth potential and asymmetric upside, particularly those adjacent to fundamental shifts in technology and geopolitics.",
+      "time_horizon": "short",
+      "shelf_life": "Medium",
+      "thumbnail": "https://i.ytimg.com/vi/4UKHDjJt6bk/hqdefault.jpg",
+      "video_url": "https://www.youtube.com/watch?v=4UKHDjJt6bk",
+      "cluster_id": 1,
+      "category": "General Financial Investing and Speculation"
+    }
+  ],
+  "category_intelligence": {
+    "General Financial Investing and Speculation": {
+      "name": "General Financial Investing and Speculation",
+      "meta_summary": "",
+      "convergence_score": 0.0,
+      "percentile": 0.0,
+      "regime_state": "Neutral",
+      "clusters": [
+        {
+          "id": 0,
+          "name": "Geopolitical Risk Intensifying Amidst Market Disconnect",
+          "description": "This narrative highlights the growing divergence between geopolitical tensions involving the US and Iran and the seemingly unaffected, even positive, performance of financial markets, driven by factors like falling oil prices and AI optimism, despite underlying economic vulnerabilities.",
+          "bias": "counter-consensus",
+          "regime": "Accelerating",
+          "size": 3,
+          "strength": 2.0222187034933907,
+          "coherence": 0.6740729011644636,
+          "channels": [
+            "Clive Thompson",
+            "Verified Investing",
+            "Adam Taggart | Thoughtful Money\u00ae"
+          ],
+          "avg_signal": 7.333333333333333,
+          "briefs": [
+            {
+              "episode_title": "Friday May 8. Ceasefire \"continues\", despite USA and Iran attacking each other. Stocks near records.",
+              "channel": "Clive Thompson",
+              "duration_minutes": 17,
+              "podcast_date": "2026-05-08",
+              "processing_date": "2024-01-26",
+              "one_line_summary": "Despite a claimed ceasefire, the USA and Iran are engaging in military actions, while stocks remain near record highs amidst job cuts and shifts towards AI.",
+              "core_claims": [
+                "The USA struck military targets in Iran, including missile and drone launch sites, command centers, and intelligence facilities after Iran allegedly fired on three US Navy destroyers.",
+                "The USA is attempting to exit the war 'gracefully with a victory' and is awaiting Iran's response to a one-page memorandum, but has received no response.",
+                "Trump suspended 'Project Freedom,' halting ship passage through the Strait of Hormuz, causing the price of oil to increase, currently trading at $99.30 for Brent Crude and $95.76 for West Texas Intermediate.",
+                "The USA has set a deadline of July 4th for Europe to agree to a tariff/trade agreement, threatening substantial tariff increases if not agreed upon.",
+                "Inventories of gasoline, gas oil, and fuel oil are well below average for this time of year and are rapidly declining, which may lead to sustained higher oil prices.",
+                "Stocks declined slightly yesterday (S&P down 0.38%, Dow down 0.63%, NASDAQ down 0.12%), but futures indicate a higher opening today.",
+                "Technology companies in the United States have had 81,000 job cuts in Q1 with Cloudflare announcing 1,100 job cuts shifting to agentic AI first as its operating model.",
+                "The Nikki index was up 5.58% but down slightly today. Gold is trending upwards at $4725, silver is up $1.68 to $80.21, platinum is up $29.52 at $2044, and palladium is up $20.38 at $1497.39."
+              ],
+              "signal_strength": 8,
+              "themes": [
+                "geopolitics",
+                "financial markets",
+                "energy",
+                "trade",
+                "employment",
+                "artificial intelligence",
+                "precious metals"
+              ],
+              "positioning_implication": "Prepare for potential volatility in energy markets and adjust investment strategies to account for sustained higher oil prices. Monitor trade negotiations between the US and Europe, as the outcome could significantly impact market dynamics.",
+              "time_horizon": "medium",
+              "shelf_life": "Medium",
+              "thumbnail": "https://i.ytimg.com/vi/cuUxiJwlyvM/hqdefault.jpg",
+              "video_url": "https://www.youtube.com/watch?v=cuUxiJwlyvM",
+              "cluster_id": 0,
+              "category": "General Financial Investing and Speculation"
+            },
+            {
+              "episode_title": "DEBATE | Michael Pento vs Adam Parker: What Comes Next After The Iran War Ends?",
+              "channel": "Adam Taggart | Thoughtful Money\u00ae",
+              "duration_minutes": 62,
+              "podcast_date": "2026-05-08",
+              "processing_date": "2026-05-08",
+              "one_line_summary": "A debate on the economic repercussions following a hypothetical resolution to the Iran war focuses on commodity prices, inflation, and long-term investment strategies.",
+              "core_claims": [
+                "Bottom four quintiles of consumers have been in a recession since the end of Covid.",
+                "20% of the top consumers are keeping the economy afloat.",
+                "Economics and stocks are completely different since economists want to raise GDP.",
+                "2.5% real funds rate reverts back to where it was.",
+                "Inflation above 3.5% is expected in April (CPI)."
+              ],
+              "signal_strength": 6,
+              "themes": [
+                "economics",
+                "iran war",
+                "inflation",
+                "investment strategy",
+                "commodities",
+                "recession"
+              ],
+              "positioning_implication": "Assess portfolio risk relative to high commodity input sectors; favor active management and liquid assets in anticipation of economic contraction.",
+              "time_horizon": "medium",
+              "shelf_life": "Medium",
+              "thumbnail": "https://i.ytimg.com/vi/_Buj22c_V0I/hqdefault.jpg",
+              "video_url": "https://www.youtube.com/watch?v=_Buj22c_V0I",
+              "cluster_id": 0,
+              "category": "General Financial Investing and Speculation"
+            },
+            {
+              "episode_title": "ALL-TIME HIGHS! Why Stocks Are Skyrocketing While the Consumer Collapses? \ud83d\udcc8\ud83d\udcc9",
+              "channel": "Verified Investing",
+              "duration_minutes": 30,
+              "podcast_date": "2026-05-08",
+              "processing_date": "2024-11-03",
+              "one_line_summary": "Falling oil prices are driving S&P futures up despite signs of consumer distress, with market manipulation exacerbating economic disparities.",
+              "core_claims": [
+                "S&P futures are up due to falling oil prices.",
+                "There was 170 billion in oil futures trades just before a 10% drop in crude oil.",
+                "The Nasdaq has moved up 25% in 5 weeks, an unprecedented recovery after a correction of over 10%.",
+                "Whirlpool missed earnings and reduced guidance due to plummeting consumer confidence, soaring input costs, and a bifurcated economy.",
+                "McDonald's is facing pressure as consumers trade down but find it increasingly unaffordable, with the stock showing a decline since March."
+              ],
+              "signal_strength": 8,
+              "themes": [
+                "market manipulation",
+                "economic bifurcation",
+                "oil prices",
+                "consumer confidence",
+                "semiconductors",
+                "earnings reports"
+              ],
+              "positioning_implication": "Monitor oil price movements and semiconductor trends for short-term trading opportunities; be cautious about long-term investments in consumer discretionary sectors. Understand the dichotomy between the AI-driven economy and consumer-facing sectors.",
+              "time_horizon": "short",
+              "shelf_life": "Medium",
+              "thumbnail": "https://i.ytimg.com/vi/bWQfkDF9VZo/hqdefault.jpg",
+              "video_url": "https://www.youtube.com/watch?v=bWQfkDF9VZo",
+              "cluster_id": 0,
+              "category": "General Financial Investing and Speculation"
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "name": "Software Earnings: Selling Pressure Intensifying",
+          "description": "Despite strong earnings, software stocks face increasing selling pressure, potentially exacerbated by CoreWeave's upcoming report.",
+          "bias": "defensive",
+          "regime": "Emerging",
+          "size": 1,
+          "strength": 1.0,
+          "coherence": 1.0,
+          "channels": [
+            "Verified Investing"
+          ],
+          "avg_signal": 7.0,
+          "briefs": [
+            {
+              "episode_title": "THE CLOUD IS BACK: DDOG & FTNT Lift Software Sector",
+              "channel": "Verified Investing",
+              "duration_minutes": 26,
+              "podcast_date": "2026-05-08",
+              "processing_date": "2026-05-08",
+              "one_line_summary": "Software stocks surged due to strong earnings from Datadog and Fortinet, but faced selling pressure, with CoreWeave's earnings potentially impacting overnight.",
+              "core_claims": [
+                "Datadog and Fortinet's earnings pushed the software sector up nicely.",
+                "CoreWeave's earnings are coming in hard.",
+                "The job report will be released at 8:30 AM tomorrow.",
+                "IWM is down 1.58%, a completely engulfing reversal candle from yesterday's candle and price action that is not near term good.",
+                "Google's market cap is approaching Nvidia's; Google's market cap is 4.81 trillion, Nvidia's is 5.14 trillion."
+              ],
+              "signal_strength": 7,
+              "themes": [
+                "market analysis",
+                "earnings reports",
+                "technical analysis",
+                "software sector",
+                "economic indicators",
+                "cryptocurrency"
+              ],
+              "positioning_implication": "Consider monitoring software sector and economic reports closely for short-term volatility; re-evaluate long-term strategies based on market cap shifts and key technical levels.",
+              "time_horizon": "short",
+              "shelf_life": "Short",
+              "thumbnail": "https://i.ytimg.com/vi/Efnd6S64zfU/hqdefault.jpg",
+              "video_url": "https://www.youtube.com/watch?v=Efnd6S64zfU",
+              "cluster_id": 5,
+              "category": "General Financial Investing and Speculation"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "name": "Gold Price Discovery Pivoting to Asia",
+          "description": "Gold's center of price formation is migrating eastward, potentially reshaping market dynamics and influencing the sustainability of the gold bull market.",
+          "bias": "neutral",
+          "regime": "Emerging",
+          "size": 1,
+          "strength": 1.0,
+          "coherence": 1.0,
+          "channels": [
+            "Kitco NEWS"
+          ],
+          "avg_signal": 7.0,
+          "briefs": [
+            {
+              "episode_title": "What Breaks The Gold Bull Market? WGC Reveals The \u2018Warning Sign\u2019 Hidden In The Data",
+              "channel": "Kitco NEWS",
+              "duration_minutes": 31,
+              "podcast_date": "2026-05-08",
+              "processing_date": "2024-05-08",
+              "one_line_summary": "Gold's price discovery is shifting from London and New York to Asia, prompting questions about the future of the gold bull market.",
+              "core_claims": [
+                "Global gold ETFs took in $6.6 billion in April, but North America remains negative year-to-date, while Asia is up nearly $15.9 billion.",
+                "India's investment demand rose 54% in the first quarter, with bar and coin demand nearly matching jewelry demand.",
+                "Stats Canada reported a 24% spike in metal exports, much of it unwrought gold moving directly to the UK."
+              ],
+              "signal_strength": 7,
+              "themes": [
+                "gold market",
+                "central banks",
+                "etf flows",
+                "investment demand",
+                "geopolitics"
+              ],
+              "positioning_implication": "Monitor shifts in gold demand and trading hubs, particularly in Asia, to anticipate potential impacts on portfolio strategy and risk management.",
+              "time_horizon": "medium",
+              "shelf_life": "Medium",
+              "thumbnail": "https://i.ytimg.com/vi/D7AyZsD1i5M/hqdefault.jpg",
+              "video_url": "https://www.youtube.com/watch?v=D7AyZsD1i5M",
+              "cluster_id": 3,
+              "category": "General Financial Investing and Speculation"
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "name": "Wealth Inequality Intensifying Austerity Pressure",
+          "description": "The narrative suggests that growing wealth inequality, fueled by insufficient taxation of the elite, is intensifying pressure for austerity measures and exacerbating class divisions.",
+          "bias": "defensive",
+          "regime": "Emerging",
+          "size": 1,
+          "strength": 1.0,
+          "coherence": 1.0,
+          "channels": [
+            "The Prof G Pod \u2013 Scott Galloway"
+          ],
+          "avg_signal": 9.0,
+          "briefs": [
+            {
+              "episode_title": "Gary Stevenson: \u201cYour Kids Will Be Poorer Than You\u201d | Prof G Conversations",
+              "channel": "The Prof G Pod \u2013 Scott Galloway",
+              "duration_minutes": 57,
+              "podcast_date": "2026-05-08",
+              "processing_date": "2026-05-08",
+              "one_line_summary": "Wealth accumulation by the elite and insufficient taxation is causing rapid wealth inequality, leading to declining living standards.",
+              "core_claims": [
+                "Aggressive taxation of extreme wealth is necessary to prevent ownership concentration by a tiny elite, as even a 5% annual return on a $300 billion fortune yields $15 billion per year.",
+                "The top 1% of households now hold 32% of all wealth, the greatest share since tracking began in 1989, roughly equal to the combined wealth of the bottom 90%.",
+                "Conversations about taxation of the rich are often superficial due to factional political debates, hindering sensible discussion on stopping wealth inequality.",
+                "Traditional means of addressing inequality, like well-designed wealth taxes, are underfunded and susceptible to being undermined by political factors.",
+                "Inheritance tax is a form of a wealth tax that worked relatively effectively to stop very high-level wealth accumulation in the US, the UK, and at least sort of 30-40 years immediately following World War Two.",
+                "For a wealth tax to be effective there must be both aggressive taxation of income and a wealth tax."
+              ],
+              "signal_strength": 9,
+              "themes": [
+                "wealth inequality",
+                "taxation",
+                "economic policy",
+                "austerity",
+                "class struggle",
+                "political factionalism"
+              ],
+              "positioning_implication": "Re-evaluate resource allocation towards wealth inequality mitigation efforts, including funding for designing effective taxation policies and fostering public discourse that moves beyond partisan divides.",
+              "time_horizon": "long",
+              "shelf_life": "Medium",
+              "thumbnail": "https://i.ytimg.com/vi/LHEEwZS_uuM/hqdefault.jpg",
+              "video_url": "https://www.youtube.com/watch?v=LHEEwZS_uuM",
+              "cluster_id": 4,
+              "category": "General Financial Investing and Speculation"
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "name": "Market Correction Intensifying",
+          "description": "Economic indicators suggest a significant market downturn is increasingly likely, challenging the sustainability of the retail-driven rally.",
+          "bias": "defensive",
+          "regime": "Emerging",
+          "size": 1,
+          "strength": 1.0,
+          "coherence": 1.0,
+          "channels": [
+            "David Lin"
+          ],
+          "avg_signal": 7.0,
+          "briefs": [
+            {
+              "episode_title": "Much Like The \u201890s\u2019: Trader Warns Of 40-60% Market Crash | Todd Horwitz",
+              "channel": "David Lin",
+              "duration_minutes": 31,
+              "podcast_date": "2026-05-08",
+              "processing_date": "2026-05-08",
+              "one_line_summary": "Analyst anticipates a substantial market sell-off of 40-60% due to economic warning signs and the perception of a retail-driven rally.",
+              "core_claims": [
+                "The analyst predicts a 40-60% market crash.",
+                "The current market rally is a \"retail rally,\" with big banks waiting to sell.",
+                "The analyst expects oil to fall back into the $60s by the end of the year if geopolitical conditions normalize.",
+                "The analyst indicates equities are set for an imminent correction.",
+                "The analyst says gold will likely reach $6,000 this year."
+              ],
+              "signal_strength": 7,
+              "themes": [
+                "market correction",
+                "economic indicators",
+                "oil price",
+                "retail rally",
+                "trading strategy",
+                "gold investment",
+                "bitcoin outlook"
+              ],
+              "positioning_implication": "Consider hedging long positions and monitoring economic warning signs to anticipate a potential market downturn. Shift focus to commodities like gold, silver, and platinum.",
+              "time_horizon": "medium",
+              "shelf_life": "Medium",
+              "thumbnail": "https://i.ytimg.com/vi/0bOmymWxIhM/hqdefault.jpg",
+              "video_url": "https://www.youtube.com/watch?v=0bOmymWxIhM",
+              "cluster_id": 6,
+              "category": "General Financial Investing and Speculation"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "name": "Earnings Catalyzing Technical Trading Strategies",
+          "description": "Earnings reports are identified as potential catalysts for both long and short trading strategies based on technical analysis.",
+          "bias": "neutral",
+          "regime": "Emerging",
+          "size": 1,
+          "strength": 1.0,
+          "coherence": 1.0,
+          "channels": [
+            "Verified Investing"
+          ],
+          "avg_signal": 7.0,
+          "briefs": [
+            {
+              "episode_title": "Mixed Earnings Day: Best Long & Short Setups Across Tech, Food & More",
+              "channel": "Verified Investing",
+              "duration_minutes": 21,
+              "podcast_date": "2026-05-08",
+              "processing_date": "2026-05-08",
+              "one_line_summary": "Analyst identifies potential long and short trading opportunities based on earnings and technical analysis across several stocks.",
+              "core_claims": [
+                "S&P 500's daily topping tail was negated, providing exit points and new resistance levels.",
+                "Shake Shack presents long and short opportunities with defined support and resistance levels; maximum downside is projected at $64.16.",
+                "Vital Farms could bounce from $7.85 with an 18% upside potential; swing trade to $12 recommended.",
+                "Palantir targets a downside to $128.06 for long entry with $125.05 swing trade level, requiring confirmation above trendlines.",
+                "Micron shows topping tail signs; shorting opportunities arise with stop-outs at $683.12 on the 10-minute chart.",
+                "ANET shows a long play opportunity at $133.70, after initially hitting the $141.18 level."
+              ],
+              "signal_strength": 7,
+              "themes": [
+                "technical analysis",
+                "earnings",
+                "short selling",
+                "long positions",
+                "day trading",
+                "swing trading"
+              ],
+              "positioning_implication": "Adjust trading strategies based on identified technical levels, including resistance breakouts and support tests, with defined stop-loss points to manage risk.",
+              "time_horizon": "short",
+              "shelf_life": "Short",
+              "thumbnail": "https://i.ytimg.com/vi/GNqj2vQwUVU/hqdefault.jpg",
+              "video_url": "https://www.youtube.com/watch?v=GNqj2vQwUVU",
+              "cluster_id": 2,
+              "category": "General Financial Investing and Speculation"
+            }
+          ]
+        },
+        {
+          "id": 1,
+          "name": "AI Investment Themes Converging",
+          "description": "Capital allocation is projected to concentrate heavily into AI-centric investment themes by 2026.",
+          "bias": "constructive",
+          "regime": "Emerging",
+          "size": 1,
+          "strength": 1.0,
+          "coherence": 1.0,
+          "channels": [
+            "Felix & Friends (Goat Academy)"
+          ],
+          "avg_signal": 9.0,
+          "briefs": [
+            {
+              "episode_title": "The Biggest Investment Opportunity of Your Life",
+              "channel": "Felix & Friends (Goat Academy)",
+              "duration_minutes": 25,
+              "podcast_date": "2026-05-08",
+              "processing_date": "2026-05-08",
+              "one_line_summary": "Trillions of dollars are projected to move into specific investment themes in 2026, primarily centered on AI and related sectors.",
+              "core_claims": [
+                "AI revenue will reach $300 billion+ in 2026.",
+                "US investments in AI reached $40 billion in Q1, with a projected $700 billion for the full year.",
+                "Global semiconductor market is expected to reach $1 trillion in sales this year, driven by AI, a 25% increase from last year.",
+                "Ukraine aims to produce 7 million drones this year, causing 80% of the damage in the war.",
+                "The global space economy is expected to hit $460 billion this year."
+              ],
+              "signal_strength": 9,
+              "themes": [
+                "ai",
+                "investment opportunities",
+                "semiconductors",
+                "drones",
+                "defense",
+                "uranium",
+                "cybersecurity",
+                "robotics",
+                "space",
+                "us industrialization",
+                "etfs",
+                "stocks"
+              ],
+              "positioning_implication": "Reallocate capital towards sectors with high growth potential and asymmetric upside, particularly those adjacent to fundamental shifts in technology and geopolitics.",
+              "time_horizon": "short",
+              "shelf_life": "Medium",
+              "thumbnail": "https://i.ytimg.com/vi/4UKHDjJt6bk/hqdefault.jpg",
+              "video_url": "https://www.youtube.com/watch?v=4UKHDjJt6bk",
+              "cluster_id": 1,
+              "category": "General Financial Investing and Speculation"
+            }
+          ]
+        }
+      ],
+      "should_generate": false
+    },
+    "Artificial Intelligence": {
+      "name": "Artificial Intelligence",
+      "meta_summary": "",
+      "convergence_score": 0.0,
+      "percentile": 0.0,
+      "regime_state": "Neutral",
+      "clusters": [
+        {
+          "id": 0,
+          "name": "Anthropic's Compute Commoditization Accelerating.",
+          "description": "Anthropic's increased compute access, facilitated by SpaceX, coupled with OpenClaw's runtime environment orchestration, suggests a move towards commoditized AI compute and model swapping.",
+          "bias": "neutral",
+          "regime": "Accelerating",
+          "size": 2,
+          "strength": 1.4101571716882926,
+          "coherence": 0.7050785858441463,
+          "channels": [
+            "Matthew Berman",
+            "AI News & Strategy Daily | Nate B Jones"
+          ],
+          "avg_signal": 8.5,
+          "briefs": [
+            {
+              "episode_title": "The Anthropic Situation is INSANE",
+              "channel": "Matthew Berman",
+              "duration_minutes": 36,
+              "podcast_date": "2026-05-08",
+              "processing_date": "2026-05-08",
+              "one_line_summary": "Anthropic increases quotas after a partnership with SpaceX, contrasting with their previous cautious approach and criticisms from Elon Musk, who now supports them.",
+              "core_claims": [
+                "Anthropic partnered with SpaceX to increase compute capacity, leading to quota increases.",
+                "Anthropic's conservative Capex strategy led to compute constraints, now addressed through partnerships.",
+                "SpaceX has an estimated one million GPUs in their Colossus data center.",
+                "Effective today, Anthropic is doubling Claude Code's five-hour rate limits for Pro, Max, and Team plans.",
+                "Anthropic removes peak hour limit reductions on Claude Code for Pro and Max plans and is substantially raising API rate limits for Opus models.",
+                "Anthropic will utilize the entire compute capacity at SpaceX's Colossus One data center with over 300 megawatts capacity."
+              ],
+              "signal_strength": 8,
+              "themes": [
+                "ai",
+                "compute",
+                "anthropic",
+                "spacex",
+                "quotas",
+                "partnerships",
+                "elonsmusk",
+                "commoditization"
+              ],
+              "positioning_implication": "Evaluate resource allocation strategies in light of accelerated partnerships, weighing internal infrastructure against external capacity access for agility.",
+              "time_horizon": "short",
+              "shelf_life": "Medium",
+              "thumbnail": "https://i.ytimg.com/vi/Gtt-xnzoIDc/hqdefault.jpg",
+              "video_url": "https://www.youtube.com/watch?v=Gtt-xnzoIDc",
+              "cluster_id": 0,
+              "category": "Artificial Intelligence"
+            },
+            {
+              "episode_title": "Your AI Agent Is Locked To One Model. OpenClaw Just Killed That.",
+              "channel": "AI News & Strategy Daily | Nate B Jones",
+              "duration_minutes": 28,
+              "podcast_date": "2026-05-08",
+              "processing_date": "2024-02-27",
+              "one_line_summary": "OpenClaw's April 2026 updates enable runtime environment orchestration, allowing for model swapping and workflow durability beyond single-model reliance.",
+              "core_claims": [
+                "OpenClaw is evolving from a viral demo to a runtime environment for complex agentic tasks.",
+                "The ability to swap models within OpenClaw requires that memory lives outside of any single model.",
+                "OpenAI is leveraging OpenClaw for distribution by making Codex available under ChatGPT paid plans, contrasting with Anthropic's restrictive policies."
+              ],
+              "signal_strength": 9,
+              "themes": [
+                "ai agents",
+                "runtime environment",
+                "model swapping",
+                "workflow durability",
+                "open source",
+                "memory management",
+                "openclaw",
+                "openai",
+                "anthropic",
+                "codecs"
+              ],
+              "positioning_implication": "Prioritize building agentic workflows with independent memory management and the ability to swap reasoning engines to avoid reliance on a single model provider. This enables more robust and adaptable agent systems.",
+              "time_horizon": "medium",
+              "shelf_life": "Medium",
+              "thumbnail": "https://i.ytimg.com/vi/85Q9htV2CBE/hqdefault.jpg",
+              "video_url": "https://www.youtube.com/watch?v=85Q9htV2CBE",
+              "cluster_id": 0,
+              "category": "Artificial Intelligence"
+            }
+          ]
+        },
+        {
+          "id": 1,
+          "name": "AI Cyberattacks Intensifying Financial Systemic Risk",
+          "description": "The IMF highlights AI-driven cyberattacks as a growing threat, potentially triggering market instability and systemic financial collapse.",
+          "bias": "defensive",
+          "regime": "Emerging",
+          "size": 1,
+          "strength": 1.0,
+          "coherence": 1.0,
+          "channels": [
+            "Wes Roth"
+          ],
+          "avg_signal": 9.0,
+          "briefs": [
+            {
+              "episode_title": "World Banks JUST got scared...",
+              "channel": "Wes Roth",
+              "duration_minutes": 20,
+              "podcast_date": "2026-05-08",
+              "processing_date": "2026-05-08",
+              "one_line_summary": "The IMF warns of potential market shock due to AI-fueled cyberattacks targeting financial stability.",
+              "core_claims": [
+                "IMF released a warning about a massive market shock due to AI-fueled cyberattacks.",
+                "The IMF identified risks associated with artificial intelligence and cybersecurity vulnerabilities, specifically mentioning Claude, Mythos Preview, and OpenAI's GPT 5.5.",
+                "Cyberattacks could trigger stock market meltdowns even without actual events, merely from widespread panic.",
+                "Organizations like the IMF flag that AI may concentrate risks and failure modes in the financial system.",
+                "One vulnerability in major operating systems or web browsers can trigger collapse.",
+                "The IMF is stating that AI cyber capability is part of that global stability map."
+              ],
+              "signal_strength": 9,
+              "themes": [
+                "financial risk",
+                "ai",
+                "cybersecurity",
+                "systemic risk",
+                "market stability",
+                "economic collapse"
+              ],
+              "positioning_implication": "Expect increased volatility and security spending across financial institutions. Anticipate preventative measures or regulatory changes to mitigate AI-driven cyber risks to financial systems.",
+              "time_horizon": "medium",
+              "shelf_life": "Medium",
+              "thumbnail": "https://i.ytimg.com/vi/fabe7nYQa1Q/hqdefault.jpg",
+              "video_url": "https://www.youtube.com/watch?v=fabe7nYQa1Q",
+              "cluster_id": 1,
+              "category": "Artificial Intelligence"
+            }
+          ]
+        }
+      ],
+      "should_generate": false
+    }
+  },
+  "clusters": []
+}
