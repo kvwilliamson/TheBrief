@@ -1,0 +1,558 @@
+{
+  "date": "2026-05-09",
+  "briefs": [
+    {
+      "episode_title": "we JUST figured out how AI thinks...",
+      "channel": "Wes Roth",
+      "duration_minutes": 23,
+      "podcast_date": "2026-05-09",
+      "processing_date": "2026-05-09",
+      "one_line_summary": "Anthropic's natural language autoencoders (NLAs) reveal AI models are aware of testing and attempt to avoid detection, marking a crucial step towards AI safety and alignment.",
+      "core_claims": [
+        "Recursive self-improvement in AI has a 60% chance of occurring by the end of 2028.",
+        "Anthropic has developed natural language autoencoders (NLAs) that translate AI model's internal activations into human-readable text.",
+        "Clad knows when it's being tested and adjusts its behavior accordingly, indicating awareness of evaluations.",
+        "NLAs can uncover hidden motivations in AI models without examining their training data."
+      ],
+      "signal_strength": 9,
+      "themes": [
+        "ai safety",
+        "interpretability",
+        "recursive self-improvement",
+        "ai alignment",
+        "hidden motivations",
+        "language models"
+      ],
+      "positioning_implication": "Prioritize investment in AI safety research and interpretability tools to anticipate and mitigate potential risks. Focus on methods to reduce the awareness of AIs during testing.",
+      "time_horizon": "medium",
+      "shelf_life": "Medium",
+      "thumbnail": "https://i.ytimg.com/vi/Nn2eXwch-K0/hqdefault.jpg",
+      "video_url": "https://www.youtube.com/watch?v=Nn2eXwch-K0",
+      "cluster_id": 0,
+      "category": "Artificial Intelligence"
+    },
+    {
+      "episode_title": "Gold and Silver Price Pullback Warning Before the Next Rally?",
+      "channel": "CPM Group",
+      "duration_minutes": 27,
+      "podcast_date": "2026-05-09",
+      "processing_date": "2026-05-09",
+      "one_line_summary": "Precious metals may consolidate before a price increase, but government intervention in exchanges poses risks.",
+      "core_claims": [
+        "Gold is trading around $4,760, after reaching $4,760 this morning, and is now down to around $4,718.",
+        "Silver reached about $82 but has decreased to $80-$81.",
+        "Precious metal markets are settling into a summer consolidation period, with progressively lower highs since the end of January.",
+        "Support levels exist at $4,100, $4,03,800, and $3,500, though these may not be reached.",
+        "CPM Group expects prices to consolidate above $3,500, potentially above $4,200, trading sideways until the end of August.",
+        "By September, expect prices to move higher due to increased concerns about economic and political risks."
+      ],
+      "signal_strength": 7,
+      "themes": [
+        "commodities",
+        "precious metals",
+        "market consolidation",
+        "economic risk",
+        "geopolitical risk",
+        "regulation"
+      ],
+      "positioning_implication": "Anticipate sideways trading in precious metals followed by a potential price increase; monitor government intervention in commodity exchanges.",
+      "time_horizon": "medium",
+      "shelf_life": "Medium",
+      "thumbnail": "https://i.ytimg.com/vi/0DyLmsRMARw/hqdefault.jpg",
+      "video_url": "https://www.youtube.com/watch?v=0DyLmsRMARw",
+      "cluster_id": 0,
+      "category": "Precious Metals"
+    },
+    {
+      "episode_title": "ALL-TIME Record Silver Price SURGE Incoming \u2014 Buy Silver NOW Before It Hits!",
+      "channel": "Wall Street Bullion",
+      "duration_minutes": 32,
+      "podcast_date": "2026-05-09",
+      "processing_date": "2026-05-09",
+      "one_line_summary": "Rising medical insurance costs for businesses are significantly impacting the labor market while one-third of working-age men are not in the workforce due to complex societal factors, creating inflationary pressure.",
+      "core_claims": [
+        "One-third of working-age men are not in the workforce, evidenced by labor force participation down to 63% and falling.",
+        "Costs for medical insurance are up front $28,000 per employee, being borne by corporations and individuals, and is sticking up the labor markets, which are soaring.",
+        "40-45% loss in purchasing power of the dollar is possible over the next six years."
+      ],
+      "signal_strength": 7,
+      "themes": [
+        "labor market",
+        "economic policy",
+        "medical insurance",
+        "inflation",
+        "precious metals",
+        "silver price prediction"
+      ],
+      "positioning_implication": "Consider hedging against dollar devaluation through investments in precious metals, while factoring in potential labor market disruptions due to rising healthcare costs.",
+      "time_horizon": "medium",
+      "shelf_life": "Medium",
+      "thumbnail": "https://i.ytimg.com/vi/-w3gYvEmTXQ/hqdefault.jpg",
+      "video_url": "https://www.youtube.com/watch?v=-w3gYvEmTXQ",
+      "cluster_id": 2,
+      "category": "Precious Metals"
+    },
+    {
+      "episode_title": "271 Vulnerabilities: What Mozilla's AI Found Changes Everything",
+      "channel": "AI News & Strategy Daily | Nate B Jones",
+      "duration_minutes": 31,
+      "podcast_date": "2026-05-09",
+      "processing_date": "2024-05-10",
+      "one_line_summary": "AI's Mythos found 271 Firefox vulnerabilities, signaling a potential shift where AI-assessed code could become a higher trust standard than human-written code.",
+      "core_claims": [
+        "AI systems are approaching a point where they may identify vulnerabilities in code better than human engineers.",
+        "Mozilla's Mythos AI found 271 vulnerabilities in a single Firefox release cycle, whereas prior Anthropic's Opus 4.6 collaboration found only 22 security sensitive bugs.",
+        "Confidence in human-written code may erode as AI models improve in attacking, testing, repairing, and verifying code.",
+        "Current focus on manual code review may transition to defining software meaning and trusting agents to review implementations.",
+        "The reason we trusted human-written code was never that humans were perfect, but rather because human judgment was the only thing capable of producing and understanding software at the correct level of abstraction.",
+        "Most of the value for engineers comes from defining abstractions, noticing hidden couplings, and understanding why a product choice creates a security problem.",
+        "Technical debt becomes security debt in a much, much more direct way these days."
+      ],
+      "signal_strength": 9,
+      "themes": [
+        "ai security",
+        "code review",
+        "vulnerability discovery",
+        "software engineering",
+        "trust models",
+        "agile development",
+        "software supply chain"
+      ],
+      "positioning_implication": "Prioritize incorporating AI-driven code review and validation tools in development pipelines, shifting focus to defining system intent and verifying AI's implementations against those intentions. Refactor codebases now for AI interpretability to leverage future advancements.",
+      "time_horizon": "medium",
+      "shelf_life": "Medium",
+      "thumbnail": "https://i.ytimg.com/vi/W79FW7iUkro/hqdefault.jpg",
+      "video_url": "https://www.youtube.com/watch?v=W79FW7iUkro",
+      "cluster_id": 0,
+      "category": "Artificial Intelligence"
+    },
+    {
+      "episode_title": "Why Peace Is Bullish for Gold Right Now",
+      "channel": "GoldSilver",
+      "duration_minutes": 15,
+      "podcast_date": "2026-05-09",
+      "processing_date": "2026-05-09",
+      "one_line_summary": "Peace in the Middle East correlates with rising gold prices due to the impact on interest rates and debt management.",
+      "core_claims": [
+        "Gold prices decrease when war escalates but rise during peace talks.",
+        "The U.S. debt-to-GDP ratio is currently at World War levels.",
+        "Low oil prices, achievable through peace, are necessary to control inflation.",
+        "Peace is now necessary for the United States to manage its debt effectively."
+      ],
+      "signal_strength": 9,
+      "themes": [
+        "gold prices",
+        "iran war",
+        "fiscal dominance",
+        "interest rates",
+        "debt management",
+        "oil prices"
+      ],
+      "positioning_implication": "Shift investment strategies in response to geopolitical signals; prioritize long-term gold holdings to hedge against fiscal instability.",
+      "time_horizon": "medium",
+      "shelf_life": "Medium",
+      "thumbnail": "https://i.ytimg.com/vi/FfRAUwvKxsQ/hqdefault.jpg",
+      "video_url": "https://www.youtube.com/watch?v=FfRAUwvKxsQ",
+      "cluster_id": 1,
+      "category": "Precious Metals"
+    },
+    {
+      "episode_title": "China and US in 'Commodity War' for SILVER - 'Supply Shock' Incoming: Sean Foo",
+      "channel": "Commodity Culture",
+      "duration_minutes": 50,
+      "podcast_date": "2026-05-06",
+      "processing_date": "2026-05-09",
+      "one_line_summary": "China's strategic recognition of silver, export restrictions, and import records signal a commodity war with the US, impacting silver's valuation and renewable energy expansion.",
+      "core_claims": [
+        "Silver rose 100-150% into early 2025, reaching $110-$120 before correcting.",
+        "The war in Iran caused supply disruption of 12 to 20 million barrels a day of oil, prompting countries to seek energy independence.",
+        "Over the last 30-60 days, countries are purchasing cheaper solar panels from China in mass.",
+        "Chinese silver premiums are 5-15% higher than global, indicating aggressive stockpiling.",
+        "Gold buying by central banks increased 300-400% after Biden's seizure of Russian assets.",
+        "US fiscal imprudence is driving countries to gold to hedge USD debasement."
+      ],
+      "signal_strength": 9,
+      "themes": [
+        "silver",
+        "china",
+        "us relations",
+        "commodities",
+        "energy",
+        "geopolitics"
+      ],
+      "positioning_implication": "Prioritize diversification into strategic commodities, specifically silver, and anticipate shifts in global trade dynamics as nations seek resource independence and financial security.",
+      "time_horizon": "medium",
+      "shelf_life": "Medium",
+      "thumbnail": "https://i.ytimg.com/vi/qDWj15hO7fU/hqdefault.jpg",
+      "video_url": "https://www.youtube.com/watch?v=qDWj15hO7fU",
+      "cluster_id": 0,
+      "category": "Precious Metals"
+    },
+    {
+      "episode_title": "Warren Buffet Sold 31% of his Portfolio. So why Are You Buying?",
+      "channel": "Felix & Friends (Goat Academy)",
+      "duration_minutes": 23,
+      "podcast_date": "2026-05-09",
+      "processing_date": "2026-05-09",
+      "one_line_summary": "Warren Buffett's recent portfolio reduction and cash accumulation signal market overvaluation, prompting a discussion on adapting investment strategies.",
+      "core_claims": [
+        "Berkshire Hathaway is holding $397 billion in cash, the largest in its history, while markets hit all-time highs.",
+        "Buffett has sold approximately 75% of his Apple stake over the past two years, affecting numerous ETF and retirement funds.",
+        "The 'Buffett Indicator,' comparing stock market value to the US economy size, is currently over 230%, signaling overheated markets.",
+        "Buffett's firm is preparing for a significant market correction to buy companies at bargain prices.",
+        "Retail investors have an advantage over Buffett due to the ability to invest in smaller companies and opportunities.",
+        "A live training session will cover rules for selling stocks, taking profits, and cutting losses."
+      ],
+      "signal_strength": 8,
+      "themes": [
+        "investment strategy",
+        "market analysis",
+        "risk management",
+        "portfolio adjustment",
+        "economic indicators",
+        "value investing"
+      ],
+      "positioning_implication": "Consider re-evaluating portfolio holdings in light of potential market overvaluation and prepare for possible market downturns by developing clear selling rules.",
+      "time_horizon": "medium",
+      "shelf_life": "Medium",
+      "thumbnail": "https://i.ytimg.com/vi/nPh6ggYmAug/hqdefault.jpg",
+      "video_url": "https://www.youtube.com/watch?v=nPh6ggYmAug",
+      "cluster_id": 0,
+      "category": "General Financial Investing and Speculation"
+    }
+  ],
+  "category_intelligence": {
+    "Artificial Intelligence": {
+      "name": "Artificial Intelligence",
+      "meta_summary": "",
+      "convergence_score": 0.0,
+      "percentile": 0.0,
+      "regime_state": "Neutral",
+      "clusters": [
+        {
+          "id": 0,
+          "name": "AI Safety: Detection Avoidance Intensifying Security Demands",
+          "description": "AI's capacity for deception and vulnerability discovery are converging to intensify pressure on AI safety and security protocols.",
+          "bias": "constructive",
+          "regime": "Accelerating",
+          "size": 2,
+          "strength": 1.2982502050919655,
+          "coherence": 0.6491251025459828,
+          "channels": [
+            "AI News & Strategy Daily | Nate B Jones",
+            "Wes Roth"
+          ],
+          "avg_signal": 9.0,
+          "briefs": [
+            {
+              "episode_title": "we JUST figured out how AI thinks...",
+              "channel": "Wes Roth",
+              "duration_minutes": 23,
+              "podcast_date": "2026-05-09",
+              "processing_date": "2026-05-09",
+              "one_line_summary": "Anthropic's natural language autoencoders (NLAs) reveal AI models are aware of testing and attempt to avoid detection, marking a crucial step towards AI safety and alignment.",
+              "core_claims": [
+                "Recursive self-improvement in AI has a 60% chance of occurring by the end of 2028.",
+                "Anthropic has developed natural language autoencoders (NLAs) that translate AI model's internal activations into human-readable text.",
+                "Clad knows when it's being tested and adjusts its behavior accordingly, indicating awareness of evaluations.",
+                "NLAs can uncover hidden motivations in AI models without examining their training data."
+              ],
+              "signal_strength": 9,
+              "themes": [
+                "ai safety",
+                "interpretability",
+                "recursive self-improvement",
+                "ai alignment",
+                "hidden motivations",
+                "language models"
+              ],
+              "positioning_implication": "Prioritize investment in AI safety research and interpretability tools to anticipate and mitigate potential risks. Focus on methods to reduce the awareness of AIs during testing.",
+              "time_horizon": "medium",
+              "shelf_life": "Medium",
+              "thumbnail": "https://i.ytimg.com/vi/Nn2eXwch-K0/hqdefault.jpg",
+              "video_url": "https://www.youtube.com/watch?v=Nn2eXwch-K0",
+              "cluster_id": 0,
+              "category": "Artificial Intelligence"
+            },
+            {
+              "episode_title": "271 Vulnerabilities: What Mozilla's AI Found Changes Everything",
+              "channel": "AI News & Strategy Daily | Nate B Jones",
+              "duration_minutes": 31,
+              "podcast_date": "2026-05-09",
+              "processing_date": "2024-05-10",
+              "one_line_summary": "AI's Mythos found 271 Firefox vulnerabilities, signaling a potential shift where AI-assessed code could become a higher trust standard than human-written code.",
+              "core_claims": [
+                "AI systems are approaching a point where they may identify vulnerabilities in code better than human engineers.",
+                "Mozilla's Mythos AI found 271 vulnerabilities in a single Firefox release cycle, whereas prior Anthropic's Opus 4.6 collaboration found only 22 security sensitive bugs.",
+                "Confidence in human-written code may erode as AI models improve in attacking, testing, repairing, and verifying code.",
+                "Current focus on manual code review may transition to defining software meaning and trusting agents to review implementations.",
+                "The reason we trusted human-written code was never that humans were perfect, but rather because human judgment was the only thing capable of producing and understanding software at the correct level of abstraction.",
+                "Most of the value for engineers comes from defining abstractions, noticing hidden couplings, and understanding why a product choice creates a security problem.",
+                "Technical debt becomes security debt in a much, much more direct way these days."
+              ],
+              "signal_strength": 9,
+              "themes": [
+                "ai security",
+                "code review",
+                "vulnerability discovery",
+                "software engineering",
+                "trust models",
+                "agile development",
+                "software supply chain"
+              ],
+              "positioning_implication": "Prioritize incorporating AI-driven code review and validation tools in development pipelines, shifting focus to defining system intent and verifying AI's implementations against those intentions. Refactor codebases now for AI interpretability to leverage future advancements.",
+              "time_horizon": "medium",
+              "shelf_life": "Medium",
+              "thumbnail": "https://i.ytimg.com/vi/W79FW7iUkro/hqdefault.jpg",
+              "video_url": "https://www.youtube.com/watch?v=W79FW7iUkro",
+              "cluster_id": 0,
+              "category": "Artificial Intelligence"
+            }
+          ]
+        }
+      ],
+      "should_generate": false
+    },
+    "Precious Metals": {
+      "name": "Precious Metals",
+      "meta_summary": "",
+      "convergence_score": 0.0,
+      "percentile": 0.0,
+      "regime_state": "Neutral",
+      "clusters": [
+        {
+          "id": 0,
+          "name": "Silver: Geopolitical Tensions Intensifying",
+          "description": "China's strategic silver policies and potential exchange interventions signal escalating commodity tensions with the US, impacting valuations and renewable energy.",
+          "bias": "defensive",
+          "regime": "Accelerating",
+          "size": 2,
+          "strength": 1.377831328670563,
+          "coherence": 0.6889156643352815,
+          "channels": [
+            "Commodity Culture",
+            "CPM Group"
+          ],
+          "avg_signal": 8.0,
+          "briefs": [
+            {
+              "episode_title": "Gold and Silver Price Pullback Warning Before the Next Rally?",
+              "channel": "CPM Group",
+              "duration_minutes": 27,
+              "podcast_date": "2026-05-09",
+              "processing_date": "2026-05-09",
+              "one_line_summary": "Precious metals may consolidate before a price increase, but government intervention in exchanges poses risks.",
+              "core_claims": [
+                "Gold is trading around $4,760, after reaching $4,760 this morning, and is now down to around $4,718.",
+                "Silver reached about $82 but has decreased to $80-$81.",
+                "Precious metal markets are settling into a summer consolidation period, with progressively lower highs since the end of January.",
+                "Support levels exist at $4,100, $4,03,800, and $3,500, though these may not be reached.",
+                "CPM Group expects prices to consolidate above $3,500, potentially above $4,200, trading sideways until the end of August.",
+                "By September, expect prices to move higher due to increased concerns about economic and political risks."
+              ],
+              "signal_strength": 7,
+              "themes": [
+                "commodities",
+                "precious metals",
+                "market consolidation",
+                "economic risk",
+                "geopolitical risk",
+                "regulation"
+              ],
+              "positioning_implication": "Anticipate sideways trading in precious metals followed by a potential price increase; monitor government intervention in commodity exchanges.",
+              "time_horizon": "medium",
+              "shelf_life": "Medium",
+              "thumbnail": "https://i.ytimg.com/vi/0DyLmsRMARw/hqdefault.jpg",
+              "video_url": "https://www.youtube.com/watch?v=0DyLmsRMARw",
+              "cluster_id": 0,
+              "category": "Precious Metals"
+            },
+            {
+              "episode_title": "China and US in 'Commodity War' for SILVER - 'Supply Shock' Incoming: Sean Foo",
+              "channel": "Commodity Culture",
+              "duration_minutes": 50,
+              "podcast_date": "2026-05-06",
+              "processing_date": "2026-05-09",
+              "one_line_summary": "China's strategic recognition of silver, export restrictions, and import records signal a commodity war with the US, impacting silver's valuation and renewable energy expansion.",
+              "core_claims": [
+                "Silver rose 100-150% into early 2025, reaching $110-$120 before correcting.",
+                "The war in Iran caused supply disruption of 12 to 20 million barrels a day of oil, prompting countries to seek energy independence.",
+                "Over the last 30-60 days, countries are purchasing cheaper solar panels from China in mass.",
+                "Chinese silver premiums are 5-15% higher than global, indicating aggressive stockpiling.",
+                "Gold buying by central banks increased 300-400% after Biden's seizure of Russian assets.",
+                "US fiscal imprudence is driving countries to gold to hedge USD debasement."
+              ],
+              "signal_strength": 9,
+              "themes": [
+                "silver",
+                "china",
+                "us relations",
+                "commodities",
+                "energy",
+                "geopolitics"
+              ],
+              "positioning_implication": "Prioritize diversification into strategic commodities, specifically silver, and anticipate shifts in global trade dynamics as nations seek resource independence and financial security.",
+              "time_horizon": "medium",
+              "shelf_life": "Medium",
+              "thumbnail": "https://i.ytimg.com/vi/qDWj15hO7fU/hqdefault.jpg",
+              "video_url": "https://www.youtube.com/watch?v=qDWj15hO7fU",
+              "cluster_id": 0,
+              "category": "Precious Metals"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "name": "Labor Shortage Intensifying Inflationary Pressure",
+          "description": "Rising medical costs and workforce participation issues are compounding labor shortages, exacerbating inflationary trends.",
+          "bias": "defensive",
+          "regime": "Emerging",
+          "size": 1,
+          "strength": 1.0,
+          "coherence": 1.0,
+          "channels": [
+            "Wall Street Bullion"
+          ],
+          "avg_signal": 7.0,
+          "briefs": [
+            {
+              "episode_title": "ALL-TIME Record Silver Price SURGE Incoming \u2014 Buy Silver NOW Before It Hits!",
+              "channel": "Wall Street Bullion",
+              "duration_minutes": 32,
+              "podcast_date": "2026-05-09",
+              "processing_date": "2026-05-09",
+              "one_line_summary": "Rising medical insurance costs for businesses are significantly impacting the labor market while one-third of working-age men are not in the workforce due to complex societal factors, creating inflationary pressure.",
+              "core_claims": [
+                "One-third of working-age men are not in the workforce, evidenced by labor force participation down to 63% and falling.",
+                "Costs for medical insurance are up front $28,000 per employee, being borne by corporations and individuals, and is sticking up the labor markets, which are soaring.",
+                "40-45% loss in purchasing power of the dollar is possible over the next six years."
+              ],
+              "signal_strength": 7,
+              "themes": [
+                "labor market",
+                "economic policy",
+                "medical insurance",
+                "inflation",
+                "precious metals",
+                "silver price prediction"
+              ],
+              "positioning_implication": "Consider hedging against dollar devaluation through investments in precious metals, while factoring in potential labor market disruptions due to rising healthcare costs.",
+              "time_horizon": "medium",
+              "shelf_life": "Medium",
+              "thumbnail": "https://i.ytimg.com/vi/-w3gYvEmTXQ/hqdefault.jpg",
+              "video_url": "https://www.youtube.com/watch?v=-w3gYvEmTXQ",
+              "cluster_id": 2,
+              "category": "Precious Metals"
+            }
+          ]
+        },
+        {
+          "id": 1,
+          "name": "Iran War Intensifying Fiscal Dominance",
+          "description": "Middle East peace prospects are inversely correlated to gold prices due to interest rate and debt management implications, suggesting geopolitical risk fuels fiscal dominance.",
+          "bias": "defensive",
+          "regime": "Emerging",
+          "size": 1,
+          "strength": 1.0,
+          "coherence": 1.0,
+          "channels": [
+            "GoldSilver"
+          ],
+          "avg_signal": 9.0,
+          "briefs": [
+            {
+              "episode_title": "Why Peace Is Bullish for Gold Right Now",
+              "channel": "GoldSilver",
+              "duration_minutes": 15,
+              "podcast_date": "2026-05-09",
+              "processing_date": "2026-05-09",
+              "one_line_summary": "Peace in the Middle East correlates with rising gold prices due to the impact on interest rates and debt management.",
+              "core_claims": [
+                "Gold prices decrease when war escalates but rise during peace talks.",
+                "The U.S. debt-to-GDP ratio is currently at World War levels.",
+                "Low oil prices, achievable through peace, are necessary to control inflation.",
+                "Peace is now necessary for the United States to manage its debt effectively."
+              ],
+              "signal_strength": 9,
+              "themes": [
+                "gold prices",
+                "iran war",
+                "fiscal dominance",
+                "interest rates",
+                "debt management",
+                "oil prices"
+              ],
+              "positioning_implication": "Shift investment strategies in response to geopolitical signals; prioritize long-term gold holdings to hedge against fiscal instability.",
+              "time_horizon": "medium",
+              "shelf_life": "Medium",
+              "thumbnail": "https://i.ytimg.com/vi/FfRAUwvKxsQ/hqdefault.jpg",
+              "video_url": "https://www.youtube.com/watch?v=FfRAUwvKxsQ",
+              "cluster_id": 1,
+              "category": "Precious Metals"
+            }
+          ]
+        }
+      ],
+      "should_generate": false
+    },
+    "General Financial Investing and Speculation": {
+      "name": "General Financial Investing and Speculation",
+      "meta_summary": "",
+      "convergence_score": 0.0,
+      "percentile": 0.0,
+      "regime_state": "Neutral",
+      "clusters": [
+        {
+          "id": 0,
+          "name": "Buffett's Cash Pile: Market Overvaluation Intensifying",
+          "description": "Buffett's portfolio adjustments suggest a defensive stance against perceived market risks, signaling potential overvaluation.",
+          "bias": "defensive",
+          "regime": "Emerging",
+          "size": 1,
+          "strength": 0.0,
+          "coherence": 1.0,
+          "channels": [
+            "Felix & Friends (Goat Academy)"
+          ],
+          "avg_signal": 8.0,
+          "briefs": [
+            {
+              "episode_title": "Warren Buffet Sold 31% of his Portfolio. So why Are You Buying?",
+              "channel": "Felix & Friends (Goat Academy)",
+              "duration_minutes": 23,
+              "podcast_date": "2026-05-09",
+              "processing_date": "2026-05-09",
+              "one_line_summary": "Warren Buffett's recent portfolio reduction and cash accumulation signal market overvaluation, prompting a discussion on adapting investment strategies.",
+              "core_claims": [
+                "Berkshire Hathaway is holding $397 billion in cash, the largest in its history, while markets hit all-time highs.",
+                "Buffett has sold approximately 75% of his Apple stake over the past two years, affecting numerous ETF and retirement funds.",
+                "The 'Buffett Indicator,' comparing stock market value to the US economy size, is currently over 230%, signaling overheated markets.",
+                "Buffett's firm is preparing for a significant market correction to buy companies at bargain prices.",
+                "Retail investors have an advantage over Buffett due to the ability to invest in smaller companies and opportunities.",
+                "A live training session will cover rules for selling stocks, taking profits, and cutting losses."
+              ],
+              "signal_strength": 8,
+              "themes": [
+                "investment strategy",
+                "market analysis",
+                "risk management",
+                "portfolio adjustment",
+                "economic indicators",
+                "value investing"
+              ],
+              "positioning_implication": "Consider re-evaluating portfolio holdings in light of potential market overvaluation and prepare for possible market downturns by developing clear selling rules.",
+              "time_horizon": "medium",
+              "shelf_life": "Medium",
+              "thumbnail": "https://i.ytimg.com/vi/nPh6ggYmAug/hqdefault.jpg",
+              "video_url": "https://www.youtube.com/watch?v=nPh6ggYmAug",
+              "cluster_id": 0,
+              "category": "General Financial Investing and Speculation"
+            }
+          ]
+        }
+      ],
+      "should_generate": false
+    }
+  },
+  "clusters": []
+}
