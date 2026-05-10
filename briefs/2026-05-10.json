@@ -1,0 +1,180 @@
+{
+  "date": "2026-05-10",
+  "briefs": [
+    {
+      "episode_title": "You're Wasting 40% Of Your AI Time On Something Fixable",
+      "channel": "AI News & Strategy Daily | Nate B Jones",
+      "duration_minutes": 23,
+      "podcast_date": "2026-05-10",
+      "processing_date": "2026-05-10",
+      "one_line_summary": "Effective AI agent utilization necessitates understanding and structuring workflows via prompts, skills, plugins, MCPs, and scripts to avoid inefficient prompt-centric approaches.",
+      "core_claims": [
+        "Most AI users waste significant time due to over-reliance on complex prompts, instead of leveraging skills and plugins.",
+        "AI agent effectiveness depends on building a 'scaffolding' comprising various components like skills, MCPs, and scripts.",
+        "Skills are clear, reusable markdown documents that define a specific process, allowing consistent application across an organization.",
+        "Plugins package entire workflows with app integrations, MCP servers, and hooks to enable easy installation and sharing.",
+        "Hooks and scripts ensure deterministic actions within workflows, preventing reliance on a model's memory or judgment.",
+        "Marketplaces are becoming the primary mechanism for distributing AI agent components, including plugins."
+      ],
+      "signal_strength": 9,
+      "themes": [
+        "ai agents",
+        "workflows",
+        "prompt engineering",
+        "skills",
+        "plugins",
+        "automation",
+        "deterministic processes"
+      ],
+      "positioning_implication": "Organizations should shift from ad-hoc prompting to structured workflows using skills and plugins, creating repeatable, scalable AI applications and improve development practices.",
+      "time_horizon": "medium",
+      "shelf_life": "Medium",
+      "thumbnail": "https://i.ytimg.com/vi/647pSnX5H_Y/hqdefault.jpg",
+      "video_url": "https://www.youtube.com/watch?v=647pSnX5H_Y",
+      "cluster_id": 0,
+      "category": "Artificial Intelligence"
+    },
+    {
+      "episode_title": "Current \"Massive Deviation\" Suggest Stocks Will Pullback By Up To 15% Soon | Lance Roberts",
+      "channel": "Adam Taggart | Thoughtful Money\u00ae",
+      "duration_minutes": 0,
+      "podcast_date": "2026-05-10",
+      "processing_date": "2026-05-10",
+      "one_line_summary": "Stocks may experience a 10-15% pullback due to their deviation from moving averages, with semiconductors overvalued relative to earnings.",
+      "core_claims": [
+        "Markets are significantly deviated above 50, 100, and 200-day moving averages, suggesting a correction is due.",
+        "A 10-15% market pullback would not be unusual.",
+        "Corrective action to 6850-6900 S&P is within reason."
+      ],
+      "signal_strength": 7,
+      "themes": [
+        "market correction",
+        "moving averages",
+        "semiconductors",
+        "market deviation"
+      ],
+      "positioning_implication": "Reduce exposure to overvalued sectors; rebalance portfolios towards defensive assets to mitigate potential losses from an impending market correction.",
+      "time_horizon": "short",
+      "shelf_life": "Short",
+      "thumbnail": "https://i.ytimg.com/vi/dPYcIq0N2iY/hqdefault.jpg",
+      "video_url": "https://www.youtube.com/watch?v=dPYcIq0N2iY",
+      "cluster_id": 0,
+      "category": "General Financial Investing and Speculation"
+    }
+  ],
+  "category_intelligence": {
+    "Artificial Intelligence": {
+      "name": "Artificial Intelligence",
+      "meta_summary": "",
+      "convergence_score": 0.0,
+      "percentile": 0.0,
+      "regime_state": "Neutral",
+      "clusters": [
+        {
+          "id": 0,
+          "name": "AI Agent Workflows Intensifying",
+          "description": "Focus shifts from prompt engineering to structured workflows for effective AI agent utilization.",
+          "bias": "constructive",
+          "regime": "Emerging",
+          "size": 1,
+          "strength": 0.0,
+          "coherence": 1.0,
+          "channels": [
+            "AI News & Strategy Daily | Nate B Jones"
+          ],
+          "avg_signal": 9.0,
+          "briefs": [
+            {
+              "episode_title": "You're Wasting 40% Of Your AI Time On Something Fixable",
+              "channel": "AI News & Strategy Daily | Nate B Jones",
+              "duration_minutes": 23,
+              "podcast_date": "2026-05-10",
+              "processing_date": "2026-05-10",
+              "one_line_summary": "Effective AI agent utilization necessitates understanding and structuring workflows via prompts, skills, plugins, MCPs, and scripts to avoid inefficient prompt-centric approaches.",
+              "core_claims": [
+                "Most AI users waste significant time due to over-reliance on complex prompts, instead of leveraging skills and plugins.",
+                "AI agent effectiveness depends on building a 'scaffolding' comprising various components like skills, MCPs, and scripts.",
+                "Skills are clear, reusable markdown documents that define a specific process, allowing consistent application across an organization.",
+                "Plugins package entire workflows with app integrations, MCP servers, and hooks to enable easy installation and sharing.",
+                "Hooks and scripts ensure deterministic actions within workflows, preventing reliance on a model's memory or judgment.",
+                "Marketplaces are becoming the primary mechanism for distributing AI agent components, including plugins."
+              ],
+              "signal_strength": 9,
+              "themes": [
+                "ai agents",
+                "workflows",
+                "prompt engineering",
+                "skills",
+                "plugins",
+                "automation",
+                "deterministic processes"
+              ],
+              "positioning_implication": "Organizations should shift from ad-hoc prompting to structured workflows using skills and plugins, creating repeatable, scalable AI applications and improve development practices.",
+              "time_horizon": "medium",
+              "shelf_life": "Medium",
+              "thumbnail": "https://i.ytimg.com/vi/647pSnX5H_Y/hqdefault.jpg",
+              "video_url": "https://www.youtube.com/watch?v=647pSnX5H_Y",
+              "cluster_id": 0,
+              "category": "Artificial Intelligence"
+            }
+          ]
+        }
+      ],
+      "should_generate": false
+    },
+    "General Financial Investing and Speculation": {
+      "name": "General Financial Investing and Speculation",
+      "meta_summary": "",
+      "convergence_score": 0.0,
+      "percentile": 0.0,
+      "regime_state": "Neutral",
+      "clusters": [
+        {
+          "id": 0,
+          "name": "Semiconductor Overvaluation Intensifying Market Correction",
+          "description": "Stocks, particularly semiconductors, face a potential correction as valuations diverge from moving averages and earnings.",
+          "bias": "defensive",
+          "regime": "Emerging",
+          "size": 1,
+          "strength": 0.0,
+          "coherence": 1.0,
+          "channels": [
+            "Adam Taggart | Thoughtful Money\u00ae"
+          ],
+          "avg_signal": 7.0,
+          "briefs": [
+            {
+              "episode_title": "Current \"Massive Deviation\" Suggest Stocks Will Pullback By Up To 15% Soon | Lance Roberts",
+              "channel": "Adam Taggart | Thoughtful Money\u00ae",
+              "duration_minutes": 0,
+              "podcast_date": "2026-05-10",
+              "processing_date": "2026-05-10",
+              "one_line_summary": "Stocks may experience a 10-15% pullback due to their deviation from moving averages, with semiconductors overvalued relative to earnings.",
+              "core_claims": [
+                "Markets are significantly deviated above 50, 100, and 200-day moving averages, suggesting a correction is due.",
+                "A 10-15% market pullback would not be unusual.",
+                "Corrective action to 6850-6900 S&P is within reason."
+              ],
+              "signal_strength": 7,
+              "themes": [
+                "market correction",
+                "moving averages",
+                "semiconductors",
+                "market deviation"
+              ],
+              "positioning_implication": "Reduce exposure to overvalued sectors; rebalance portfolios towards defensive assets to mitigate potential losses from an impending market correction.",
+              "time_horizon": "short",
+              "shelf_life": "Short",
+              "thumbnail": "https://i.ytimg.com/vi/dPYcIq0N2iY/hqdefault.jpg",
+              "video_url": "https://www.youtube.com/watch?v=dPYcIq0N2iY",
+              "cluster_id": 0,
+              "category": "General Financial Investing and Speculation"
+            }
+          ]
+        }
+      ],
+      "should_generate": false
+    }
+  },
+  "clusters": []
+}
