@@ -7894,3 +7894,122 @@
 2026-05-12 07:24:49,574 - INFO - ==================================================
 2026-05-12 07:24:49,574 - INFO - Pipeline Execution Complete
 2026-05-12 07:24:49,574 - INFO - ==================================================
+2026-05-13 07:31:21,607 - INFO - ==================================================
+2026-05-13 07:31:21,607 - INFO - Starting TheBrief Daily Pipeline
+2026-05-13 07:31:21,607 - INFO - ==================================================
+2026-05-13 07:31:21,607 - INFO - 
+--- Phase 1: Discovery ---
+2026-05-13 07:31:21,611 - INFO - Discovering videos published after 2026-05-12T07:31:21.611286+00:00 (24h lookback)
+2026-05-13 07:31:22,202 - INFO - Found 1 new potential videos on GoldSilver .
+2026-05-13 07:31:22,229 - INFO - Found 1 new potential videos on Wall Street Bullion .
+2026-05-13 07:31:22,248 - INFO - Found 1 new potential videos on Kitco NEWS.
+2026-05-13 07:31:22,532 - INFO - Found 2 new potential videos on David Lin .
+2026-05-13 07:31:22,573 - INFO - Found 3 new potential videos on AI News & Strategy Daily | Nate B Jones.
+2026-05-13 07:31:22,741 - INFO - Found 1 new potential videos on Clive Thompson.
+2026-05-13 07:31:22,854 - INFO - Found 4 new potential videos on Verified Investing.
+2026-05-13 07:31:23,156 - INFO - Found 2 new potential videos on Matthew Berman.
+2026-05-13 07:31:23,223 - INFO - Found 2 new potential videos on Adam Taggart | Thoughtful Money®.
+2026-05-13 07:31:23,251 - INFO - Found 1 new potential videos on CPM Group.
+2026-05-13 07:31:23,494 - INFO - Found 2 new potential videos on The Prof G Pod – Scott Galloway.
+2026-05-13 07:31:23,635 - INFO - Found 14 total long-form videos across all channels.
+2026-05-13 07:31:23,656 - INFO - Discovery complete. Added 14 new videos to queue.
+2026-05-13 07:31:23,657 - INFO - 
+--- Phase 2: Extraction ---
+2026-05-13 07:31:23,921 - INFO - yt-dlp version: 2026.03.17
+2026-05-13 07:31:24,293 - INFO - POT-related packages: bgutil-ytdlp-pot-provider 1.3.1
+2026-05-13 07:31:24,316 - INFO - bgutil HTTP server not available on port 4416 (will rely on cookies)
+2026-05-13 07:31:24,316 - INFO - Extracting audio for The ‘Biggest Misallocation Of Capital’ Ever Threatens Your Portfolio | George Noble (mitZmJdSFzI)...
+2026-05-13 07:31:54,382 - INFO - Successfully extracted: audio/mitZmJdSFzI.mp3
+2026-05-13 07:32:00,299 - INFO - Extracting audio for MARKET COOLED! 🧊 Why CPI & Oil Threw Water on the Hot Rally (way0liw49sU)...
+2026-05-13 07:32:15,875 - INFO - Successfully extracted: audio/way0liw49sU.mp3
+2026-05-13 07:32:26,057 - INFO - Extracting audio for India Just Warned Citizens to STOP Buying Gold: This Is Why (hk3kpcMhsEY)...
+2026-05-13 07:32:38,668 - INFO - Successfully extracted: audio/hk3kpcMhsEY.mp3
+2026-05-13 07:32:48,909 - INFO - Extracting audio for this is really bad... (5H3LGJSyaHM)...
+2026-05-13 07:33:33,412 - INFO - Successfully extracted: audio/5H3LGJSyaHM.mp3
+2026-05-13 07:33:42,751 - INFO - Extracting audio for Has The Fed Lost Control: Matthew Piepenburg on 5% Yields and the Debt Trap (lvSybXcF8w8)...
+2026-05-13 07:34:13,732 - INFO - Successfully extracted: audio/lvSybXcF8w8.mp3
+2026-05-13 07:34:24,496 - INFO - Extracting audio for What happened to Anthropic? (q4rDAu9ggKU)...
+2026-05-13 07:34:37,896 - INFO - Successfully extracted: audio/q4rDAu9ggKU.mp3
+2026-05-13 07:34:45,476 - INFO - Extracting audio for URGENT: Silver Price Forecast Just Changed – This Is Going To Be HUGE (V7G7UoU86DY)...
+2026-05-13 07:34:59,061 - INFO - Successfully extracted: audio/V7G7UoU86DY.mp3
+2026-05-13 07:35:08,024 - INFO - Extracting audio for Eric Trump: This Will Decide America’s Future; Everything Investors Need To Know (Gz5HXQbj9GM)...
+2026-05-13 07:35:19,740 - INFO - Successfully extracted: audio/Gz5HXQbj9GM.mp3
+2026-05-13 07:35:26,643 - INFO - Extracting audio for Markets Roll Over: Short Setups & Oil's Quiet Breakout (39uBr6WjLw4)...
+2026-05-13 07:35:37,160 - INFO - Successfully extracted: audio/39uBr6WjLw4.mp3
+2026-05-13 07:35:46,993 - INFO - Extracting audio for When The Bond Market Breaks, The Fed Will Be Powerless To Stop It | Bill Fleckenstein (s5P8DXNefhY)...
+2026-05-13 07:36:19,098 - INFO - Successfully extracted: audio/s5P8DXNefhY.mp3
+2026-05-13 07:36:27,091 - INFO - Extracting audio for ChatGPT Has 900M Weekly Users. Almost None Can Buy In It. (j5_wcDifNko)...
+2026-05-13 07:36:41,657 - INFO - Successfully extracted: audio/j5_wcDifNko.mp3
+2026-05-13 07:36:48,508 - INFO - Extracting audio for The Narrative Signals Institutions Have Dumped: Hot CPI, $100 Oil & The Tech Trap (pAmPkor53E4)...
+2026-05-13 07:37:03,580 - INFO - Successfully extracted: audio/pAmPkor53E4.mp3
+2026-05-13 07:37:14,377 - INFO - Extracting audio for Tuesday May 12, 2026. Gold miners rise. Five warnings and 7 actions to take.  Don't get caught out! (FF4iuq1N_MI)...
+2026-05-13 07:37:39,846 - INFO - Successfully extracted: audio/FF4iuq1N_MI.mp3
+2026-05-13 07:37:51,628 - INFO - Extracting audio for The HIGH-STAKES Trump-Xi Summit Preview | China Decode (X_sY02r6J6k)...
+2026-05-13 07:38:16,357 - INFO - Successfully extracted: audio/X_sY02r6J6k.mp3
+2026-05-13 07:38:16,358 - INFO - Extraction complete. 14/14 audio files ready. (Time: 412.0s)
+2026-05-13 07:38:16,358 - INFO - 
+--- Phase 3: Summarization (Direct Audio) ---
+2026-05-13 07:38:17,957 - INFO - Generating Brief for MARKET COOLED! 🧊 Why CPI & Oil Threw Water on the Hot Rally (way0liw49sU)...
+2026-05-13 07:38:17,959 - INFO - Generating Brief for India Just Warned Citizens to STOP Buying Gold: This Is Why (hk3kpcMhsEY)...
+2026-05-13 07:38:17,960 - INFO - AFC is enabled with max remote calls: 10.
+2026-05-13 07:38:17,961 - INFO - AFC is enabled with max remote calls: 10.
+2026-05-13 07:38:18,084 - INFO - Generating Brief for The ‘Biggest Misallocation Of Capital’ Ever Threatens Your Portfolio | George Noble (mitZmJdSFzI)...
+2026-05-13 07:38:18,085 - INFO - AFC is enabled with max remote calls: 10.
+2026-05-13 07:38:24,638 - INFO - ✅ Brief successfully generated for India Just Warned Citizens to STOP Buying Gold: This Is Why
+2026-05-13 07:38:26,448 - INFO - Generating Brief for this is really bad... (5H3LGJSyaHM)...
+2026-05-13 07:38:26,449 - INFO - AFC is enabled with max remote calls: 10.
+2026-05-13 07:38:27,070 - INFO - ✅ Brief successfully generated for MARKET COOLED! 🧊 Why CPI & Oil Threw Water on the Hot Rally
+2026-05-13 07:38:28,189 - ERROR - Error summarising audio this is really bad...: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more details.', 'status': 'RESOURCE_EXHAUSTED'}}
+2026-05-13 07:38:28,457 - INFO - Generating Brief for Has The Fed Lost Control: Matthew Piepenburg on 5% Yields and the Debt Trap (lvSybXcF8w8)...
+2026-05-13 07:38:28,458 - INFO - AFC is enabled with max remote calls: 10.
+2026-05-13 07:38:29,925 - INFO - Generating Brief for What happened to Anthropic? (q4rDAu9ggKU)...
+2026-05-13 07:38:29,926 - INFO - AFC is enabled with max remote calls: 10.
+2026-05-13 07:38:30,172 - ERROR - Error summarising audio Has The Fed Lost Control: Matthew Piepenburg on 5% Yields and the Debt Trap: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more details.', 'status': 'RESOURCE_EXHAUSTED'}}
+2026-05-13 07:38:31,497 - INFO - Generating Brief for URGENT: Silver Price Forecast Just Changed – This Is Going To Be HUGE (V7G7UoU86DY)...
+2026-05-13 07:38:31,498 - INFO - AFC is enabled with max remote calls: 10.
+2026-05-13 07:38:35,899 - INFO - ✅ Brief successfully generated for What happened to Anthropic?
+2026-05-13 07:38:37,094 - INFO - Generating Brief for Eric Trump: This Will Decide America’s Future; Everything Investors Need To Know (Gz5HXQbj9GM)...
+2026-05-13 07:38:37,095 - INFO - AFC is enabled with max remote calls: 10.
+2026-05-13 07:38:39,068 - INFO - ✅ Brief successfully generated for The ‘Biggest Misallocation Of Capital’ Ever Threatens Your Portfolio | George Noble
+2026-05-13 07:38:39,969 - INFO - ✅ Brief successfully generated for URGENT: Silver Price Forecast Just Changed – This Is Going To Be HUGE
+2026-05-13 07:38:40,391 - INFO - Generating Brief for Markets Roll Over: Short Setups & Oil's Quiet Breakout (39uBr6WjLw4)...
+2026-05-13 07:38:40,392 - INFO - AFC is enabled with max remote calls: 10.
+2026-05-13 07:38:41,230 - INFO - Generating Brief for When The Bond Market Breaks, The Fed Will Be Powerless To Stop It | Bill Fleckenstein (s5P8DXNefhY)...
+2026-05-13 07:38:41,231 - INFO - AFC is enabled with max remote calls: 10.
+2026-05-13 07:38:42,376 - ERROR - Error summarising audio When The Bond Market Breaks, The Fed Will Be Powerless To Stop It | Bill Fleckenstein: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more details.', 'status': 'RESOURCE_EXHAUSTED'}}
+2026-05-13 07:38:43,727 - INFO - Generating Brief for ChatGPT Has 900M Weekly Users. Almost None Can Buy In It. (j5_wcDifNko)...
+2026-05-13 07:38:43,729 - INFO - AFC is enabled with max remote calls: 10.
+2026-05-13 07:38:43,905 - INFO - ✅ Brief successfully generated for Eric Trump: This Will Decide America’s Future; Everything Investors Need To Know
+2026-05-13 07:38:45,012 - INFO - Generating Brief for The Narrative Signals Institutions Have Dumped: Hot CPI, $100 Oil & The Tech Trap (pAmPkor53E4)...
+2026-05-13 07:38:45,013 - INFO - AFC is enabled with max remote calls: 10.
+2026-05-13 07:38:48,544 - INFO - ✅ Brief successfully generated for Markets Roll Over: Short Setups & Oil's Quiet Breakout
+2026-05-13 07:38:49,882 - INFO - Generating Brief for Tuesday May 12, 2026. Gold miners rise. Five warnings and 7 actions to take.  Don't get caught out! (FF4iuq1N_MI)...
+2026-05-13 07:38:49,883 - INFO - AFC is enabled with max remote calls: 10.
+2026-05-13 07:38:51,066 - ERROR - Error summarising audio Tuesday May 12, 2026. Gold miners rise. Five warnings and 7 actions to take.  Don't get caught out!: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more details.', 'status': 'RESOURCE_EXHAUSTED'}}
+2026-05-13 07:38:52,500 - INFO - ✅ Brief successfully generated for The Narrative Signals Institutions Have Dumped: Hot CPI, $100 Oil & The Tech Trap
+2026-05-13 07:38:52,835 - INFO - ✅ Brief successfully generated for ChatGPT Has 900M Weekly Users. Almost None Can Buy In It.
+2026-05-13 07:38:53,043 - INFO - Generating Brief for The HIGH-STAKES Trump-Xi Summit Preview | China Decode (X_sY02r6J6k)...
+2026-05-13 07:38:53,044 - INFO - AFC is enabled with max remote calls: 10.
+2026-05-13 07:38:54,054 - ERROR - Error summarising audio The HIGH-STAKES Trump-Xi Summit Preview | China Decode: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more details.', 'status': 'RESOURCE_EXHAUSTED'}}
+2026-05-13 07:38:54,991 - INFO - --- Phase 3: Category Synthesis (9 assets across categories) ---
+2026-05-13 07:38:54,992 - INFO - Analyzing 3 categories: Precious Metals, General Financial Investing and Speculation, Artificial Intelligence
+2026-05-13 07:38:54,992 - INFO - Processing Synthesis for sector: Precious Metals (2 assets)...
+2026-05-13 07:38:55,022 - INFO - AFC is enabled with max remote calls: 10.
+2026-05-13 07:38:56,059 - INFO - ✅ Synthesis complete for Precious Metals
+2026-05-13 07:38:56,059 - INFO - Processing Synthesis for sector: General Financial Investing and Speculation (5 assets)...
+2026-05-13 07:38:56,065 - INFO - AFC is enabled with max remote calls: 10.
+2026-05-13 07:38:57,085 - INFO - AFC is enabled with max remote calls: 10.
+2026-05-13 07:38:58,287 - INFO - AFC is enabled with max remote calls: 10.
+2026-05-13 07:38:59,343 - INFO - AFC is enabled with max remote calls: 10.
+2026-05-13 07:39:00,305 - INFO - ✅ Synthesis complete for General Financial Investing and Speculation
+2026-05-13 07:39:00,305 - INFO - Processing Synthesis for sector: Artificial Intelligence (2 assets)...
+2026-05-13 07:39:00,309 - INFO - AFC is enabled with max remote calls: 10.
+2026-05-13 07:39:01,402 - INFO - AFC is enabled with max remote calls: 10.
+2026-05-13 07:39:02,460 - INFO - ✅ Synthesis complete for Artificial Intelligence
+2026-05-13 07:39:02,478 - INFO - Summarization complete. 9 briefs written to briefs/2026-05-13.md (Time: 46.1s)
+2026-05-13 07:39:03,427 - INFO - Email digest sent successfully to kwilliamson.mail@gmail.com.
+2026-05-13 07:39:03,914 - INFO - Email digest sent successfully to kochava72@gmail.com.
+2026-05-13 07:39:03,925 - INFO - Queue cleared.
+2026-05-13 07:39:03,930 - INFO - ==================================================
+2026-05-13 07:39:03,930 - INFO - Pipeline Execution Complete
+2026-05-13 07:39:03,930 - INFO - ==================================================
