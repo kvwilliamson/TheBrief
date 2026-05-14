@@ -1,0 +1,431 @@
+{
+  "date": "2026-05-14",
+  "briefs": [
+    {
+      "episode_title": "Stocks Are 'Terrifying,' Investor Reveals The Next Rocketship Asset | Scott Melker",
+      "channel": "David Lin",
+      "duration_minutes": 24,
+      "podcast_date": "2026-05-14",
+      "processing_date": "2024-11-08",
+      "one_line_summary": "Bitcoin is the preferred asset due to overvalued stocks, terrifying debt to GDP ratios, and instability of traditional hedges like gold and silver.",
+      "core_claims": [
+        "Stocks are overvalued and pose a significant risk due to the terrifying debt-to-GDP and stock market value-to-GDP ratios.",
+        "Volatility in gold and silver diminishes confidence in them as hedges compared to Bitcoin.",
+        "Altcoin seasons will return but evolve significantly from past patterns.",
+        "Doubling gold's value is exponentially more likely than Bitcoin dropping to $10,000.",
+        "New, large IPOs may lead to a tech sell-off as investors reallocate capital.",
+        "Retail investors have been discouraged by the performance of Altcoins in the recent cycles."
+      ],
+      "signal_strength": 7,
+      "themes": [
+        "bitcoin",
+        "market analysis",
+        "economic indicators",
+        "crypto sentiment",
+        "altcoins",
+        "ipo"
+      ],
+      "positioning_implication": "Shift investment focus from overvalued stock markets and volatile precious metals to Bitcoin, anticipating future regulatory clarity and institutional adoption. Consider how tech valuations will be impacted by new large IPOs.",
+      "time_horizon": "medium",
+      "shelf_life": "Medium",
+      "thumbnail": "https://i.ytimg.com/vi/1EvjBiKls5o/hqdefault.jpg",
+      "video_url": "https://www.youtube.com/watch?v=1EvjBiKls5o",
+      "cluster_id": 0,
+      "category": "General Financial Investing and Speculation"
+    },
+    {
+      "episode_title": "Trend Lines Holding: How to Play the Market Rally",
+      "channel": "Verified Investing",
+      "duration_minutes": 18,
+      "podcast_date": "2026-05-14",
+      "processing_date": "2024-02-01",
+      "one_line_summary": "Trend lines continue to dictate potential short and long entry points for S&P 500, QQQ, USO, Intel, STX, Sandisk, CAG, Palantir, APP, and Celsius.",
+      "core_claims": [
+        "Short S&P 500 at $741-$742 range, as the upward trend line remains a support until closing below it.",
+        "Consider a short for QQQ at $713.29, with additional resistance around $716, but only for a day trade.",
+        "Look to short US Oil at $147.61, with prior gap resistance at $151.26.",
+        "Consider shorting Intel at $129.44, but consider going long at $113.01, with additional support at $109.62; a 25-30% correction is anticipated if the trend line holds.",
+        "Sandisk shortable level today is $1547.56, while aiming for a long trade at $1339.",
+        "CAG is good for a long swing trade with the next level of resistance around $324.36 to $325; Palantir offers day trade opportunities at $128.06 and a swing trade entry at $125.05.",
+        "If APP starts closing below at around $438.50, buying pressure is weakening.",
+        "Celsius is positioned to move to $28.20, with price consolidation, but I'll look to dollar cost average down to $25.05."
+      ],
+      "signal_strength": 7,
+      "themes": [
+        "technical analysis",
+        "trend lines",
+        "shortable levels",
+        "support levels",
+        "day trading",
+        "swing trading",
+        "market rally"
+      ],
+      "positioning_implication": "Shift focus to identifying and capitalizing on trend line-driven opportunities, with a plan for dollar cost averaging if the market moves against initial positions.",
+      "time_horizon": "short",
+      "shelf_life": "Short",
+      "thumbnail": "https://i.ytimg.com/vi/uLhRAyNDgAI/hqdefault.jpg",
+      "video_url": "https://www.youtube.com/watch?v=uLhRAyNDgAI",
+      "cluster_id": 2,
+      "category": "General Financial Investing and Speculation"
+    },
+    {
+      "episode_title": "Scott Answers: Is AI Making Markets Crash-Proof? | Office Hours",
+      "channel": "The Prof G Pod \u2013 Scott Galloway",
+      "duration_minutes": 23,
+      "podcast_date": "2026-05-14",
+      "processing_date": "2026-05-14",
+      "one_line_summary": "Algorithmic trading's dominance and passive investing's rise potentially modulate emotional market reactions, but sudden liquidity gaps and algorithmic feedback loops still pose risks.",
+      "core_claims": [
+        "The S&P 500 is effectively a fund betting on big tech, with the top 10 companies comprising 40% of the index.",
+        "Algorithmic trading accounts for 60-75% of total trading volume in the US equity market.",
+        "Algorithmic trading reduces volatility by dampening investor sentiment and herd behavior, preventing market stampedes.",
+        "In stable periods, algorithmic trading provides liquidity and tight prices; severe stress can cause sudden liquidity gaps.",
+        "Index funds now account for 57% of equity funds by assets, up from 36% in 2016.",
+        "Institutional investors account for 61% of the algorithmic trading market, with retail expanding from a smaller base."
+      ],
+      "signal_strength": 7,
+      "themes": [
+        "algorithmic trading",
+        "market volatility",
+        "passive investing",
+        "index funds",
+        "big tech",
+        "market structure"
+      ],
+      "positioning_implication": "Diversify investments across asset classes and regions due to the evolving market landscape. Acknowledge algorithmic trading's dominance and its potential impact on market reactions.",
+      "time_horizon": "medium",
+      "shelf_life": "Medium",
+      "thumbnail": "https://i.ytimg.com/vi/pnesBRgLb6A/hqdefault.jpg",
+      "video_url": "https://www.youtube.com/watch?v=pnesBRgLb6A",
+      "cluster_id": 0,
+      "category": "General Financial Investing and Speculation"
+    },
+    {
+      "episode_title": "Pinecone Just Demoted Vector Search. Here's the Knowledge Layer.",
+      "channel": "AI News & Strategy Daily | Nate B Jones",
+      "duration_minutes": 23,
+      "podcast_date": "2026-05-14",
+      "processing_date": "2024-11-07",
+      "one_line_summary": "Vector search's limitations necessitate a 'knowledge layer' approach for agents, focusing on structured, contextual data bundles, as demonstrated by industry moves.",
+      "core_claims": [
+        "Pinecone acknowledges vector search alone is insufficient for agent functionality.",
+        "SAP invested over a billion euros in AI infrastructure, but none on chatbot or language model builds.",
+        "Pinecone's Nexus with NoQL aims for retrieval that carries intent, filters, and access policy.",
+        "Page Index contends that documents should not be chunked, as structure carries critical meaning lost in vectorization.",
+        "SAP's Dreamio and Prior Labs acquisitions aim to create governed access to business data across systems and to reason over tables as tables, not as text.",
+        "Teams should pick the primitives that deliver their data \"bundle\" to the agent."
+      ],
+      "signal_strength": 9,
+      "themes": [
+        "vector search",
+        "knowledge layer",
+        "agents",
+        "retrieval augmented generation",
+        "memory",
+        "data structure",
+        "knowledge graph",
+        "database"
+      ],
+      "positioning_implication": "Shift focus from raw vector search towards solutions integrating structured data and contextual awareness; prioritize understanding agent's data needs before database selection.",
+      "time_horizon": "medium",
+      "shelf_life": "Medium",
+      "thumbnail": "https://i.ytimg.com/vi/lqiwQiDglGk/hqdefault.jpg",
+      "video_url": "https://www.youtube.com/watch?v=lqiwQiDglGk",
+      "cluster_id": 0,
+      "category": "Artificial Intelligence"
+    },
+    {
+      "episode_title": "Weds May 13, Stock Market News, Iran, Oil, Fed, CPI, Gold, Silver, Golden Dome for America, Starmer",
+      "channel": "Clive Thompson",
+      "duration_minutes": 35,
+      "podcast_date": "2026-05-14",
+      "processing_date": "2024-02-13",
+      "one_line_summary": "Geopolitical tensions and inflation data influence market volatility amidst political uncertainty in the UK.",
+      "core_claims": [
+        "Middle East ceasefire is fragile with a potential for renewed conflict; Iran could enrich uranium to weapons-grade if attacked.",
+        "Oil remains above $100 due to geopolitical tensions.",
+        "Kevin Walsh confirmed as chairman candidate for the Federal Reserve; Jerome Powell may stay on until 2028 pending investigation.",
+        "US CPI came in higher than expected at 3.8%, signaling increasing inflation pressure.",
+        "Probability of a rate cut is decreasing, with markets pricing in a higher than 30% chance of an interest rate hike before year-end.",
+        "The \"Golden Dome for America\" missile defense shield is projected to cost $1.2 trillion.",
+        "UK Labour Party leader faces political crisis after election losses, with many calling for his resignation.",
+        "Japanese government bond yields have risen significantly, with traders expecting short-term rate increases."
+      ],
+      "signal_strength": 8,
+      "themes": [
+        "geopolitics",
+        "inflation",
+        "monetary policy",
+        "market volatility",
+        "political instability",
+        "defense spending",
+        "gold",
+        "silver"
+      ],
+      "positioning_implication": "Monitor inflation data and geopolitical developments for potential market shifts; hedge against inflation with gold and silver.",
+      "time_horizon": "short",
+      "shelf_life": "Medium",
+      "thumbnail": "https://i.ytimg.com/vi/zCslCO52SEk/hqdefault.jpg",
+      "video_url": "https://www.youtube.com/watch?v=zCslCO52SEk",
+      "cluster_id": 1,
+      "category": "General Financial Investing and Speculation"
+    }
+  ],
+  "category_intelligence": {
+    "General Financial Investing and Speculation": {
+      "name": "General Financial Investing and Speculation",
+      "meta_summary": "",
+      "convergence_score": 0.0,
+      "percentile": 0.0,
+      "regime_state": "Neutral",
+      "clusters": [
+        {
+          "id": 0,
+          "name": "Bitcoin Intensifying as Safe Haven Alternative",
+          "description": "Bitcoin's appeal as a safe haven intensifies amid concerns about traditional asset valuations and economic instability, potentially shifting capital flows.",
+          "bias": "constructive",
+          "regime": "Accelerating",
+          "size": 2,
+          "strength": 1.2931616644061232,
+          "coherence": 0.6465808322030616,
+          "channels": [
+            "David Lin",
+            "The Prof G Pod \u2013 Scott Galloway"
+          ],
+          "avg_signal": 7.0,
+          "briefs": [
+            {
+              "episode_title": "Stocks Are 'Terrifying,' Investor Reveals The Next Rocketship Asset | Scott Melker",
+              "channel": "David Lin",
+              "duration_minutes": 24,
+              "podcast_date": "2026-05-14",
+              "processing_date": "2024-11-08",
+              "one_line_summary": "Bitcoin is the preferred asset due to overvalued stocks, terrifying debt to GDP ratios, and instability of traditional hedges like gold and silver.",
+              "core_claims": [
+                "Stocks are overvalued and pose a significant risk due to the terrifying debt-to-GDP and stock market value-to-GDP ratios.",
+                "Volatility in gold and silver diminishes confidence in them as hedges compared to Bitcoin.",
+                "Altcoin seasons will return but evolve significantly from past patterns.",
+                "Doubling gold's value is exponentially more likely than Bitcoin dropping to $10,000.",
+                "New, large IPOs may lead to a tech sell-off as investors reallocate capital.",
+                "Retail investors have been discouraged by the performance of Altcoins in the recent cycles."
+              ],
+              "signal_strength": 7,
+              "themes": [
+                "bitcoin",
+                "market analysis",
+                "economic indicators",
+                "crypto sentiment",
+                "altcoins",
+                "ipo"
+              ],
+              "positioning_implication": "Shift investment focus from overvalued stock markets and volatile precious metals to Bitcoin, anticipating future regulatory clarity and institutional adoption. Consider how tech valuations will be impacted by new large IPOs.",
+              "time_horizon": "medium",
+              "shelf_life": "Medium",
+              "thumbnail": "https://i.ytimg.com/vi/1EvjBiKls5o/hqdefault.jpg",
+              "video_url": "https://www.youtube.com/watch?v=1EvjBiKls5o",
+              "cluster_id": 0,
+              "category": "General Financial Investing and Speculation"
+            },
+            {
+              "episode_title": "Scott Answers: Is AI Making Markets Crash-Proof? | Office Hours",
+              "channel": "The Prof G Pod \u2013 Scott Galloway",
+              "duration_minutes": 23,
+              "podcast_date": "2026-05-14",
+              "processing_date": "2026-05-14",
+              "one_line_summary": "Algorithmic trading's dominance and passive investing's rise potentially modulate emotional market reactions, but sudden liquidity gaps and algorithmic feedback loops still pose risks.",
+              "core_claims": [
+                "The S&P 500 is effectively a fund betting on big tech, with the top 10 companies comprising 40% of the index.",
+                "Algorithmic trading accounts for 60-75% of total trading volume in the US equity market.",
+                "Algorithmic trading reduces volatility by dampening investor sentiment and herd behavior, preventing market stampedes.",
+                "In stable periods, algorithmic trading provides liquidity and tight prices; severe stress can cause sudden liquidity gaps.",
+                "Index funds now account for 57% of equity funds by assets, up from 36% in 2016.",
+                "Institutional investors account for 61% of the algorithmic trading market, with retail expanding from a smaller base."
+              ],
+              "signal_strength": 7,
+              "themes": [
+                "algorithmic trading",
+                "market volatility",
+                "passive investing",
+                "index funds",
+                "big tech",
+                "market structure"
+              ],
+              "positioning_implication": "Diversify investments across asset classes and regions due to the evolving market landscape. Acknowledge algorithmic trading's dominance and its potential impact on market reactions.",
+              "time_horizon": "medium",
+              "shelf_life": "Medium",
+              "thumbnail": "https://i.ytimg.com/vi/pnesBRgLb6A/hqdefault.jpg",
+              "video_url": "https://www.youtube.com/watch?v=pnesBRgLb6A",
+              "cluster_id": 0,
+              "category": "General Financial Investing and Speculation"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "name": "Technical Trend Lines Dictating Entry Points",
+          "description": "Technical trend lines are defining potential short and long entry points across multiple asset classes, suggesting a focus on tactical trading opportunities.",
+          "bias": "neutral",
+          "regime": "Emerging",
+          "size": 1,
+          "strength": 1.0,
+          "coherence": 1.0,
+          "channels": [
+            "Verified Investing"
+          ],
+          "avg_signal": 7.0,
+          "briefs": [
+            {
+              "episode_title": "Trend Lines Holding: How to Play the Market Rally",
+              "channel": "Verified Investing",
+              "duration_minutes": 18,
+              "podcast_date": "2026-05-14",
+              "processing_date": "2024-02-01",
+              "one_line_summary": "Trend lines continue to dictate potential short and long entry points for S&P 500, QQQ, USO, Intel, STX, Sandisk, CAG, Palantir, APP, and Celsius.",
+              "core_claims": [
+                "Short S&P 500 at $741-$742 range, as the upward trend line remains a support until closing below it.",
+                "Consider a short for QQQ at $713.29, with additional resistance around $716, but only for a day trade.",
+                "Look to short US Oil at $147.61, with prior gap resistance at $151.26.",
+                "Consider shorting Intel at $129.44, but consider going long at $113.01, with additional support at $109.62; a 25-30% correction is anticipated if the trend line holds.",
+                "Sandisk shortable level today is $1547.56, while aiming for a long trade at $1339.",
+                "CAG is good for a long swing trade with the next level of resistance around $324.36 to $325; Palantir offers day trade opportunities at $128.06 and a swing trade entry at $125.05.",
+                "If APP starts closing below at around $438.50, buying pressure is weakening.",
+                "Celsius is positioned to move to $28.20, with price consolidation, but I'll look to dollar cost average down to $25.05."
+              ],
+              "signal_strength": 7,
+              "themes": [
+                "technical analysis",
+                "trend lines",
+                "shortable levels",
+                "support levels",
+                "day trading",
+                "swing trading",
+                "market rally"
+              ],
+              "positioning_implication": "Shift focus to identifying and capitalizing on trend line-driven opportunities, with a plan for dollar cost averaging if the market moves against initial positions.",
+              "time_horizon": "short",
+              "shelf_life": "Short",
+              "thumbnail": "https://i.ytimg.com/vi/uLhRAyNDgAI/hqdefault.jpg",
+              "video_url": "https://www.youtube.com/watch?v=uLhRAyNDgAI",
+              "cluster_id": 2,
+              "category": "General Financial Investing and Speculation"
+            }
+          ]
+        },
+        {
+          "id": 1,
+          "name": "Geopolitics Intensifying Market Volatility",
+          "description": "Geopolitical tensions and inflation data are combining to amplify market volatility, exacerbated by UK political instability.",
+          "bias": "defensive",
+          "regime": "Emerging",
+          "size": 1,
+          "strength": 1.0,
+          "coherence": 1.0,
+          "channels": [
+            "Clive Thompson"
+          ],
+          "avg_signal": 8.0,
+          "briefs": [
+            {
+              "episode_title": "Weds May 13, Stock Market News, Iran, Oil, Fed, CPI, Gold, Silver, Golden Dome for America, Starmer",
+              "channel": "Clive Thompson",
+              "duration_minutes": 35,
+              "podcast_date": "2026-05-14",
+              "processing_date": "2024-02-13",
+              "one_line_summary": "Geopolitical tensions and inflation data influence market volatility amidst political uncertainty in the UK.",
+              "core_claims": [
+                "Middle East ceasefire is fragile with a potential for renewed conflict; Iran could enrich uranium to weapons-grade if attacked.",
+                "Oil remains above $100 due to geopolitical tensions.",
+                "Kevin Walsh confirmed as chairman candidate for the Federal Reserve; Jerome Powell may stay on until 2028 pending investigation.",
+                "US CPI came in higher than expected at 3.8%, signaling increasing inflation pressure.",
+                "Probability of a rate cut is decreasing, with markets pricing in a higher than 30% chance of an interest rate hike before year-end.",
+                "The \"Golden Dome for America\" missile defense shield is projected to cost $1.2 trillion.",
+                "UK Labour Party leader faces political crisis after election losses, with many calling for his resignation.",
+                "Japanese government bond yields have risen significantly, with traders expecting short-term rate increases."
+              ],
+              "signal_strength": 8,
+              "themes": [
+                "geopolitics",
+                "inflation",
+                "monetary policy",
+                "market volatility",
+                "political instability",
+                "defense spending",
+                "gold",
+                "silver"
+              ],
+              "positioning_implication": "Monitor inflation data and geopolitical developments for potential market shifts; hedge against inflation with gold and silver.",
+              "time_horizon": "short",
+              "shelf_life": "Medium",
+              "thumbnail": "https://i.ytimg.com/vi/zCslCO52SEk/hqdefault.jpg",
+              "video_url": "https://www.youtube.com/watch?v=zCslCO52SEk",
+              "cluster_id": 1,
+              "category": "General Financial Investing and Speculation"
+            }
+          ]
+        }
+      ],
+      "should_generate": false
+    },
+    "Artificial Intelligence": {
+      "name": "Artificial Intelligence",
+      "meta_summary": "",
+      "convergence_score": 0.0,
+      "percentile": 0.0,
+      "regime_state": "Neutral",
+      "clusters": [
+        {
+          "id": 0,
+          "name": "Knowledge Layer Intensifying Vector Search Limits",
+          "description": "The narrative highlights the growing inadequacy of pure vector search for advanced AI agents, pushing the industry towards more structured knowledge representation.",
+          "bias": "constructive",
+          "regime": "Emerging",
+          "size": 1,
+          "strength": 0.0,
+          "coherence": 1.0,
+          "channels": [
+            "AI News & Strategy Daily | Nate B Jones"
+          ],
+          "avg_signal": 9.0,
+          "briefs": [
+            {
+              "episode_title": "Pinecone Just Demoted Vector Search. Here's the Knowledge Layer.",
+              "channel": "AI News & Strategy Daily | Nate B Jones",
+              "duration_minutes": 23,
+              "podcast_date": "2026-05-14",
+              "processing_date": "2024-11-07",
+              "one_line_summary": "Vector search's limitations necessitate a 'knowledge layer' approach for agents, focusing on structured, contextual data bundles, as demonstrated by industry moves.",
+              "core_claims": [
+                "Pinecone acknowledges vector search alone is insufficient for agent functionality.",
+                "SAP invested over a billion euros in AI infrastructure, but none on chatbot or language model builds.",
+                "Pinecone's Nexus with NoQL aims for retrieval that carries intent, filters, and access policy.",
+                "Page Index contends that documents should not be chunked, as structure carries critical meaning lost in vectorization.",
+                "SAP's Dreamio and Prior Labs acquisitions aim to create governed access to business data across systems and to reason over tables as tables, not as text.",
+                "Teams should pick the primitives that deliver their data \"bundle\" to the agent."
+              ],
+              "signal_strength": 9,
+              "themes": [
+                "vector search",
+                "knowledge layer",
+                "agents",
+                "retrieval augmented generation",
+                "memory",
+                "data structure",
+                "knowledge graph",
+                "database"
+              ],
+              "positioning_implication": "Shift focus from raw vector search towards solutions integrating structured data and contextual awareness; prioritize understanding agent's data needs before database selection.",
+              "time_horizon": "medium",
+              "shelf_life": "Medium",
+              "thumbnail": "https://i.ytimg.com/vi/lqiwQiDglGk/hqdefault.jpg",
+              "video_url": "https://www.youtube.com/watch?v=lqiwQiDglGk",
+              "cluster_id": 0,
+              "category": "Artificial Intelligence"
+            }
+          ]
+        }
+      ],
+      "should_generate": false
+    }
+  },
+  "clusters": []
+}

@@ -8013,3 +8013,114 @@
 2026-05-13 07:39:03,930 - INFO - ==================================================
 2026-05-13 07:39:03,930 - INFO - Pipeline Execution Complete
 2026-05-13 07:39:03,930 - INFO - ==================================================
+2026-05-14 07:19:57,935 - INFO - ==================================================
+2026-05-14 07:19:57,935 - INFO - Starting TheBrief Daily Pipeline
+2026-05-14 07:19:57,935 - INFO - ==================================================
+2026-05-14 07:19:57,935 - INFO - 
+--- Phase 1: Discovery ---
+2026-05-14 07:19:57,938 - INFO - Discovering videos published after 2026-05-13T07:19:57.938487+00:00 (24h lookback)
+2026-05-14 07:19:58,483 - INFO - Found 1 new potential videos on GoldSilver .
+2026-05-14 07:19:58,490 - INFO - Found 1 new potential videos on Wall Street Bullion .
+2026-05-14 07:19:58,497 - INFO - Found 1 new potential videos on Kitco NEWS.
+2026-05-14 07:19:58,824 - INFO - Found 2 new potential videos on AI News & Strategy Daily | Nate B Jones.
+2026-05-14 07:19:58,852 - INFO - Found 1 new potential videos on David Lin .
+2026-05-14 07:19:58,941 - INFO - Found 1 new potential videos on Clive Thompson.
+2026-05-14 07:19:59,028 - INFO - Found 4 new potential videos on Verified Investing.
+2026-05-14 07:19:59,061 - INFO - Found 1 new potential videos on TheTechnicalTraders.
+2026-05-14 07:19:59,213 - INFO - Found 1 new potential videos on Felix & Friends (Goat Academy).
+2026-05-14 07:19:59,434 - INFO - Found 1 new potential videos on Adam Taggart | Thoughtful Money®.
+2026-05-14 07:19:59,481 - INFO - Found 2 new potential videos on Matthew Berman.
+2026-05-14 07:19:59,489 - INFO - Found 1 new potential videos on CPM Group.
+2026-05-14 07:19:59,877 - INFO - Found 2 new potential videos on The Prof G Pod – Scott Galloway.
+2026-05-14 07:20:00,066 - INFO - Found 13 total long-form videos across all channels.
+2026-05-14 07:20:00,081 - INFO - Discovery complete. Added 13 new videos to queue.
+2026-05-14 07:20:00,082 - INFO - 
+--- Phase 2: Extraction ---
+2026-05-14 07:20:00,306 - INFO - yt-dlp version: 2026.03.17
+2026-05-14 07:20:00,591 - INFO - POT-related packages: bgutil-ytdlp-pot-provider 1.3.1
+2026-05-14 07:20:00,609 - INFO - bgutil HTTP server not available on port 4416 (will rely on cookies)
+2026-05-14 07:20:00,609 - INFO - Extracting audio for THE BEIJING BOUNCE: Why Xi & The CEO Delegation Trump Hot PPI (PE-wEY8mgYs)...
+2026-05-14 07:20:14,817 - INFO - Successfully extracted: audio/PE-wEY8mgYs.mp3
+2026-05-14 07:20:22,151 - INFO - Extracting audio for Everyone's getting hacked (hAzhVloGkOw)...
+2026-05-14 07:20:42,516 - INFO - Successfully extracted: audio/hAzhVloGkOw.mp3
+2026-05-14 07:20:47,952 - INFO - Extracting audio for The Hormuz Illusion: Why Hal Kempfer Predicts an 'Abundance of Oil' (I_ryEa4jXDs)...
+2026-05-14 07:21:08,241 - INFO - Successfully extracted: audio/I_ryEa4jXDs.mp3
+2026-05-14 07:21:16,732 - INFO - Extracting audio for Stocks Are 'Terrifying,' Investor Reveals The Next Rocketship Asset | Scott Melker (1EvjBiKls5o)...
+2026-05-14 07:21:28,452 - INFO - Successfully extracted: audio/1EvjBiKls5o.mp3
+2026-05-14 07:21:40,336 - INFO - Extracting audio for WARNING! Silver Price About To EXPLODE – UNDENIABLE PROOF INSIDE (R0AXnStXUXA)...
+2026-05-14 07:21:51,020 - INFO - Successfully extracted: audio/R0AXnStXUXA.mp3
+2026-05-14 07:21:56,979 - INFO - Extracting audio for Trend Lines Holding: How to Play the Market Rally (uLhRAyNDgAI)...
+2026-05-14 07:22:05,576 - INFO - Successfully extracted: audio/uLhRAyNDgAI.mp3
+2026-05-14 07:22:11,109 - INFO - Extracting audio for Scott Answers: Is AI Making Markets Crash-Proof? | Office Hours (pnesBRgLb6A)...
+2026-05-14 07:22:22,364 - INFO - Successfully extracted: audio/pnesBRgLb6A.mp3
+2026-05-14 07:22:28,803 - INFO - Extracting audio for The Inevitable Decline of the Dollar | Former Fed Governor Tom Hoenig (fMZj-QZNpxc)...
+2026-05-14 07:22:51,859 - INFO - Successfully extracted: audio/fMZj-QZNpxc.mp3
+2026-05-14 07:23:00,820 - INFO - Extracting audio for Pinecone Just Demoted Vector Search. Here's the Knowledge Layer. (lqiwQiDglGk)...
+2026-05-14 07:23:11,861 - INFO - Successfully extracted: audio/lqiwQiDglGk.mp3
+2026-05-14 07:23:18,563 - INFO - Extracting audio for Stock rally in tech may be slowing, and where to go next. (p3jcax2d0o4)...
+2026-05-14 07:23:26,926 - INFO - Successfully extracted: audio/p3jcax2d0o4.mp3
+2026-05-14 07:23:36,201 - INFO - Extracting audio for SHOCKING PPI SURGE! 🚨 Inflation Explodes as Insiders Rig System (ivxCDyaESwA)...
+2026-05-14 07:23:48,557 - INFO - Successfully extracted: audio/ivxCDyaESwA.mp3
+2026-05-14 07:23:58,023 - INFO - Extracting audio for The UNTHINKABLE is about to happen to Stocks (KgzthZdu8Rk)...
+2026-05-14 07:24:12,123 - INFO - Successfully extracted: audio/KgzthZdu8Rk.mp3
+2026-05-14 07:24:20,415 - INFO - Extracting audio for Weds May 13, Stock Market News, Iran, Oil, Fed, CPI, Gold, Silver, Golden Dome for America, Starmer (zCslCO52SEk)...
+2026-05-14 07:24:35,753 - INFO - Successfully extracted: audio/zCslCO52SEk.mp3
+2026-05-14 07:24:35,753 - INFO - Extraction complete. 13/13 audio files ready. (Time: 275.1s)
+2026-05-14 07:24:35,753 - INFO - 
+--- Phase 3: Summarization (Direct Audio) ---
+2026-05-14 07:24:37,496 - INFO - Generating Brief for The Hormuz Illusion: Why Hal Kempfer Predicts an 'Abundance of Oil' (I_ryEa4jXDs)...
+2026-05-14 07:24:37,497 - INFO - AFC is enabled with max remote calls: 10.
+2026-05-14 07:24:37,630 - INFO - Generating Brief for THE BEIJING BOUNCE: Why Xi & The CEO Delegation Trump Hot PPI (PE-wEY8mgYs)...
+2026-05-14 07:24:37,631 - INFO - AFC is enabled with max remote calls: 10.
+2026-05-14 07:24:37,766 - INFO - Generating Brief for Everyone's getting hacked (hAzhVloGkOw)...
+2026-05-14 07:24:37,767 - INFO - AFC is enabled with max remote calls: 10.
+2026-05-14 07:24:39,251 - ERROR - Error summarising audio Everyone's getting hacked: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more details.', 'status': 'RESOURCE_EXHAUSTED'}}
+2026-05-14 07:24:41,091 - INFO - Generating Brief for Stocks Are 'Terrifying,' Investor Reveals The Next Rocketship Asset | Scott Melker (1EvjBiKls5o)...
+2026-05-14 07:24:41,092 - INFO - AFC is enabled with max remote calls: 10.
+2026-05-14 07:24:41,241 - ERROR - Error summarising audio THE BEIJING BOUNCE: Why Xi & The CEO Delegation Trump Hot PPI: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more details.', 'status': 'RESOURCE_EXHAUSTED'}}
+2026-05-14 07:24:43,214 - INFO - Generating Brief for WARNING! Silver Price About To EXPLODE – UNDENIABLE PROOF INSIDE (R0AXnStXUXA)...
+2026-05-14 07:24:43,214 - INFO - AFC is enabled with max remote calls: 10.
+2026-05-14 07:24:46,756 - INFO - ✅ Brief successfully generated for Stocks Are 'Terrifying,' Investor Reveals The Next Rocketship Asset | Scott Melker
+2026-05-14 07:24:47,316 - ERROR - Error summarising audio The Hormuz Illusion: Why Hal Kempfer Predicts an 'Abundance of Oil': 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more details.', 'status': 'RESOURCE_EXHAUSTED'}}
+2026-05-14 07:24:47,792 - INFO - Generating Brief for Trend Lines Holding: How to Play the Market Rally (uLhRAyNDgAI)...
+2026-05-14 07:24:47,792 - INFO - AFC is enabled with max remote calls: 10.
+2026-05-14 07:24:49,090 - INFO - Generating Brief for Scott Answers: Is AI Making Markets Crash-Proof? | Office Hours (pnesBRgLb6A)...
+2026-05-14 07:24:49,091 - INFO - AFC is enabled with max remote calls: 10.
+2026-05-14 07:24:55,375 - INFO - ✅ Brief successfully generated for Trend Lines Holding: How to Play the Market Rally
+2026-05-14 07:24:56,221 - INFO - ✅ Brief successfully generated for Scott Answers: Is AI Making Markets Crash-Proof? | Office Hours
+2026-05-14 07:24:57,394 - INFO - Generating Brief for The Inevitable Decline of the Dollar | Former Fed Governor Tom Hoenig (fMZj-QZNpxc)...
+2026-05-14 07:24:57,395 - INFO - AFC is enabled with max remote calls: 10.
+2026-05-14 07:24:57,658 - INFO - Generating Brief for Pinecone Just Demoted Vector Search. Here's the Knowledge Layer. (lqiwQiDglGk)...
+2026-05-14 07:24:57,659 - INFO - AFC is enabled with max remote calls: 10.
+2026-05-14 07:24:57,661 - ERROR - Error summarising audio WARNING! Silver Price About To EXPLODE – UNDENIABLE PROOF INSIDE: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more details.', 'status': 'RESOURCE_EXHAUSTED'}}
+2026-05-14 07:24:59,207 - ERROR - Error summarising audio The Inevitable Decline of the Dollar | Former Fed Governor Tom Hoenig: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more details.', 'status': 'RESOURCE_EXHAUSTED'}}
+2026-05-14 07:24:59,369 - INFO - Generating Brief for Stock rally in tech may be slowing, and where to go next. (p3jcax2d0o4)...
+2026-05-14 07:24:59,370 - INFO - AFC is enabled with max remote calls: 10.
+2026-05-14 07:25:01,241 - INFO - Generating Brief for SHOCKING PPI SURGE! 🚨 Inflation Explodes as Insiders Rig System (ivxCDyaESwA)...
+2026-05-14 07:25:01,242 - INFO - AFC is enabled with max remote calls: 10.
+2026-05-14 07:25:02,997 - ERROR - Schema parsing error for Stock rally in tech may be slowing, and where to go next.: Expecting value: line 1 column 956 (char 955)
+2026-05-14 07:25:04,815 - INFO - Generating Brief for The UNTHINKABLE is about to happen to Stocks (KgzthZdu8Rk)...
+2026-05-14 07:25:04,816 - INFO - AFC is enabled with max remote calls: 10.
+2026-05-14 07:25:05,866 - ERROR - Error summarising audio The UNTHINKABLE is about to happen to Stocks: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more details.', 'status': 'RESOURCE_EXHAUSTED'}}
+2026-05-14 07:25:06,299 - INFO - ✅ Brief successfully generated for Pinecone Just Demoted Vector Search. Here's the Knowledge Layer.
+2026-05-14 07:25:08,067 - INFO - Generating Brief for Weds May 13, Stock Market News, Iran, Oil, Fed, CPI, Gold, Silver, Golden Dome for America, Starmer (zCslCO52SEk)...
+2026-05-14 07:25:08,068 - INFO - AFC is enabled with max remote calls: 10.
+2026-05-14 07:25:15,249 - ERROR - Error summarising audio SHOCKING PPI SURGE! 🚨 Inflation Explodes as Insiders Rig System: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more details.', 'status': 'RESOURCE_EXHAUSTED'}}
+2026-05-14 07:25:16,504 - INFO - ✅ Brief successfully generated for Weds May 13, Stock Market News, Iran, Oil, Fed, CPI, Gold, Silver, Golden Dome for America, Starmer
+2026-05-14 07:25:16,505 - INFO - --- Phase 3: Category Synthesis (5 assets across categories) ---
+2026-05-14 07:25:16,505 - INFO - Analyzing 2 categories: General Financial Investing and Speculation, Artificial Intelligence
+2026-05-14 07:25:16,505 - INFO - Processing Synthesis for sector: General Financial Investing and Speculation (4 assets)...
+2026-05-14 07:25:16,528 - INFO - AFC is enabled with max remote calls: 10.
+2026-05-14 07:25:17,582 - INFO - AFC is enabled with max remote calls: 10.
+2026-05-14 07:25:18,604 - INFO - AFC is enabled with max remote calls: 10.
+2026-05-14 07:25:19,394 - INFO - ✅ Synthesis complete for General Financial Investing and Speculation
+2026-05-14 07:25:19,394 - INFO - Processing Synthesis for sector: Artificial Intelligence (1 assets)...
+2026-05-14 07:25:19,395 - INFO - AFC is enabled with max remote calls: 10.
+2026-05-14 07:25:20,326 - INFO - ✅ Synthesis complete for Artificial Intelligence
+2026-05-14 07:25:20,340 - INFO - Summarization complete. 5 briefs written to briefs/2026-05-14.md (Time: 44.5s)
+2026-05-14 07:25:21,565 - INFO - Email digest sent successfully to kwilliamson.mail@gmail.com.
+2026-05-14 07:25:22,220 - INFO - Email digest sent successfully to kochava72@gmail.com.
+2026-05-14 07:25:22,245 - INFO - Queue cleared.
+2026-05-14 07:25:22,251 - INFO - ==================================================
+2026-05-14 07:25:22,251 - INFO - Pipeline Execution Complete
+2026-05-14 07:25:22,251 - INFO - ==================================================
