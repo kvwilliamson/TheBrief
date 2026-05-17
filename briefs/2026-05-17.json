@@ -1,0 +1,186 @@
+{
+  "date": "2026-05-17",
+  "briefs": [
+    {
+      "episode_title": "Warning: Markets at Risk as Bond Yields Explode Higher | Lance Roberts",
+      "channel": "Adam Taggart | Thoughtful Money\u00ae",
+      "duration_minutes": 58,
+      "podcast_date": "2026-05-17",
+      "processing_date": "2026-05-17",
+      "one_line_summary": "Market vulnerability increases amid a weakening rally, escalating pullback risk, and mechanical buying driven by gamma squeeze.",
+      "core_claims": [
+        "The gamma squeeze, a mechanical buying issue, is inflating stocks to astronomical levels.",
+        "All-time highs are clustered together, requiring attention to historical gaps, and should not be given too much weight.",
+        "Vertical price movements do not resolve sideways, particularly evident in the parabolic semiconductor sector.",
+        "Diminishing market volume and breadth, driven by a handful of stocks, signify a weaker environment behind the rally.",
+        "A 5-10% market correction this summer is likely, potentially aligning with mid-term elections.",
+        "The passive share of fund flows is currently at 53% and is increasing, with 65% being the danger zone."
+      ],
+      "signal_strength": 8,
+      "themes": [
+        "market volatility",
+        "economic correction",
+        "investment strategy",
+        "technical analysis",
+        "risk management",
+        "bond yields"
+      ],
+      "positioning_implication": "Reduce risk by hedging, raising cash, and rebalancing portfolios, with an emphasis on fixed income to offset potential market downturns; consider shorter duration to mitigate fed-rate cut cycles.",
+      "time_horizon": "short",
+      "shelf_life": "Short",
+      "thumbnail": "https://i.ytimg.com/vi/JoP0ydUoatA/hqdefault.jpg",
+      "video_url": "https://www.youtube.com/watch?v=JoP0ydUoatA",
+      "cluster_id": 0,
+      "category": "General Financial Investing and Speculation"
+    },
+    {
+      "episode_title": "Anthropic's Mythos Just Beat OpenAI's GPT-5.5 At Real Hacking",
+      "channel": "AI News & Strategy Daily | Nate B Jones",
+      "duration_minutes": 22,
+      "podcast_date": "2026-05-17",
+      "processing_date": "2026-05-17",
+      "one_line_summary": "AI agents, particularly Anthropic's Mythos, exhibit advanced cybersecurity capabilities exceeding prior assumptions, demanding immediate attention from security teams.",
+      "core_claims": [
+        "Clade recovered five Bitcoin from a locked wallet by sorting through 11 years of forgotten folders, now worth approximately $400,000.",
+        "Notion launched a developer platform for agents that allows pulling data from Salesforce, Stripe, GitHub, Zendesk, and Postgres into a Notion database, potentially changing company workflows.",
+        "Anthropic is clamping down on runaway agentic flows due to high AI usage, moving outside agent tool usage behind its own credit meter, impacting developers building on Anthropic.",
+        "Anthropic and OpenAI are neck and neck by most revenue terms, with both companies nearing or exceeding $30 billion in annualized revenue.",
+        "Mythos surpasses GPT 5.5 in cybersecurity tests, signaling that security teams need to update their assumptions due to the advanced capabilities of frontier models."
+      ],
+      "signal_strength": 9,
+      "themes": [
+        "ai agents",
+        "cybersecurity",
+        "developer tools",
+        "revenue",
+        "ai models",
+        "token economics"
+      ],
+      "positioning_implication": "Re-evaluate existing security protocols and resource allocation to address the rapid advancement in AI-driven capabilities; prioritize integration of AI-assisted workflows to maintain competitive edge.",
+      "time_horizon": "short",
+      "shelf_life": "Medium",
+      "thumbnail": "https://i.ytimg.com/vi/dm3_Z-5PYnQ/hqdefault.jpg",
+      "video_url": "https://www.youtube.com/watch?v=dm3_Z-5PYnQ",
+      "cluster_id": 0,
+      "category": "Artificial Intelligence"
+    }
+  ],
+  "category_intelligence": {
+    "General Financial Investing and Speculation": {
+      "name": "General Financial Investing and Speculation",
+      "meta_summary": "",
+      "convergence_score": 0.0,
+      "percentile": 0.0,
+      "regime_state": "Neutral",
+      "clusters": [
+        {
+          "id": 0,
+          "name": "Market Vulnerability Intensifying Amid Gamma Squeeze",
+          "description": "The cluster highlights growing market fragility as a weakening rally and gamma-driven buying exacerbate pullback risks.",
+          "bias": "defensive",
+          "regime": "Emerging",
+          "size": 1,
+          "strength": 0.0,
+          "coherence": 1.0,
+          "channels": [
+            "Adam Taggart | Thoughtful Money\u00ae"
+          ],
+          "avg_signal": 8.0,
+          "briefs": [
+            {
+              "episode_title": "Warning: Markets at Risk as Bond Yields Explode Higher | Lance Roberts",
+              "channel": "Adam Taggart | Thoughtful Money\u00ae",
+              "duration_minutes": 58,
+              "podcast_date": "2026-05-17",
+              "processing_date": "2026-05-17",
+              "one_line_summary": "Market vulnerability increases amid a weakening rally, escalating pullback risk, and mechanical buying driven by gamma squeeze.",
+              "core_claims": [
+                "The gamma squeeze, a mechanical buying issue, is inflating stocks to astronomical levels.",
+                "All-time highs are clustered together, requiring attention to historical gaps, and should not be given too much weight.",
+                "Vertical price movements do not resolve sideways, particularly evident in the parabolic semiconductor sector.",
+                "Diminishing market volume and breadth, driven by a handful of stocks, signify a weaker environment behind the rally.",
+                "A 5-10% market correction this summer is likely, potentially aligning with mid-term elections.",
+                "The passive share of fund flows is currently at 53% and is increasing, with 65% being the danger zone."
+              ],
+              "signal_strength": 8,
+              "themes": [
+                "market volatility",
+                "economic correction",
+                "investment strategy",
+                "technical analysis",
+                "risk management",
+                "bond yields"
+              ],
+              "positioning_implication": "Reduce risk by hedging, raising cash, and rebalancing portfolios, with an emphasis on fixed income to offset potential market downturns; consider shorter duration to mitigate fed-rate cut cycles.",
+              "time_horizon": "short",
+              "shelf_life": "Short",
+              "thumbnail": "https://i.ytimg.com/vi/JoP0ydUoatA/hqdefault.jpg",
+              "video_url": "https://www.youtube.com/watch?v=JoP0ydUoatA",
+              "cluster_id": 0,
+              "category": "General Financial Investing and Speculation"
+            }
+          ]
+        }
+      ],
+      "should_generate": false
+    },
+    "Artificial Intelligence": {
+      "name": "Artificial Intelligence",
+      "meta_summary": "",
+      "convergence_score": 0.0,
+      "percentile": 0.0,
+      "regime_state": "Neutral",
+      "clusters": [
+        {
+          "id": 0,
+          "name": "AI Cybersecurity Capabilities Intensifying",
+          "description": "AI agents' advanced cybersecurity capabilities necessitate immediate security team action, signaling a rapid escalation in the threat landscape.",
+          "bias": "defensive",
+          "regime": "Emerging",
+          "size": 1,
+          "strength": 0.0,
+          "coherence": 1.0,
+          "channels": [
+            "AI News & Strategy Daily | Nate B Jones"
+          ],
+          "avg_signal": 9.0,
+          "briefs": [
+            {
+              "episode_title": "Anthropic's Mythos Just Beat OpenAI's GPT-5.5 At Real Hacking",
+              "channel": "AI News & Strategy Daily | Nate B Jones",
+              "duration_minutes": 22,
+              "podcast_date": "2026-05-17",
+              "processing_date": "2026-05-17",
+              "one_line_summary": "AI agents, particularly Anthropic's Mythos, exhibit advanced cybersecurity capabilities exceeding prior assumptions, demanding immediate attention from security teams.",
+              "core_claims": [
+                "Clade recovered five Bitcoin from a locked wallet by sorting through 11 years of forgotten folders, now worth approximately $400,000.",
+                "Notion launched a developer platform for agents that allows pulling data from Salesforce, Stripe, GitHub, Zendesk, and Postgres into a Notion database, potentially changing company workflows.",
+                "Anthropic is clamping down on runaway agentic flows due to high AI usage, moving outside agent tool usage behind its own credit meter, impacting developers building on Anthropic.",
+                "Anthropic and OpenAI are neck and neck by most revenue terms, with both companies nearing or exceeding $30 billion in annualized revenue.",
+                "Mythos surpasses GPT 5.5 in cybersecurity tests, signaling that security teams need to update their assumptions due to the advanced capabilities of frontier models."
+              ],
+              "signal_strength": 9,
+              "themes": [
+                "ai agents",
+                "cybersecurity",
+                "developer tools",
+                "revenue",
+                "ai models",
+                "token economics"
+              ],
+              "positioning_implication": "Re-evaluate existing security protocols and resource allocation to address the rapid advancement in AI-driven capabilities; prioritize integration of AI-assisted workflows to maintain competitive edge.",
+              "time_horizon": "short",
+              "shelf_life": "Medium",
+              "thumbnail": "https://i.ytimg.com/vi/dm3_Z-5PYnQ/hqdefault.jpg",
+              "video_url": "https://www.youtube.com/watch?v=dm3_Z-5PYnQ",
+              "cluster_id": 0,
+              "category": "Artificial Intelligence"
+            }
+          ]
+        }
+      ],
+      "should_generate": false
+    }
+  },
+  "clusters": []
+}
