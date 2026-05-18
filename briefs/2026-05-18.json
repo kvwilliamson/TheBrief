@@ -1,0 +1,270 @@
+{
+  "date": "2026-05-18",
+  "briefs": [
+    {
+      "episode_title": "Copper? Platinum? Palladium?  Which is the best buy?  How can you get exposure.",
+      "channel": "Clive Thompson",
+      "duration_minutes": 19,
+      "podcast_date": "2026-05-18",
+      "processing_date": "2024-02-22",
+      "one_line_summary": "Copper is favored for its broad electric applications and forecasted deficit, followed by platinum due to internal combustion engine and hydrogen tech, while palladium is least favored due to dependence on catalytic converters.",
+      "core_claims": [
+        "Copper demand is growing alongside supply, but demand should increase faster, leading to a deficit in 2026 compared to a surplus in 2025.",
+        "Platinum demand remains high for catalytic converters in internal combustion engines, which are declining slower than expected, and hydrogen technologies could significantly boost platinum prices.",
+        "Palladium is overly reliant on catalytic converters in internal combustion engines, lacking alternative uses if that industry declines."
+      ],
+      "signal_strength": 8,
+      "themes": [
+        "metals",
+        "investment",
+        "copper",
+        "platinum",
+        "palladium",
+        "supply chain",
+        "automotive",
+        "energy",
+        "mining"
+      ],
+      "positioning_implication": "Prioritize investments in copper and platinum over palladium, focusing on companies with diversified metal portfolios and stable geopolitical environments.",
+      "time_horizon": "medium",
+      "shelf_life": "Medium",
+      "thumbnail": "https://i.ytimg.com/vi/nCOlg4rcnpA/hqdefault.jpg",
+      "video_url": "https://www.youtube.com/watch?v=nCOlg4rcnpA",
+      "cluster_id": 1,
+      "category": "General Financial Investing and Speculation"
+    },
+    {
+      "episode_title": "2 Important Things Just Happened For Gold & Silver! What It Means For Price",
+      "channel": "Bald Guy Money",
+      "duration_minutes": 24,
+      "podcast_date": "2026-05-18",
+      "processing_date": "2026-05-18",
+      "one_line_summary": "Gold and silver face near-term consolidation from Indian import tax changes, but remain poised for longer-term gains due to broader economic factors.",
+      "core_claims": [
+        "India's increased gold and silver import fees from 6% to 15% will soften demand in the short term.",
+        "Gold prices are expected to consolidate longer, potentially until the end of 2026 due to the Indian tax changes.",
+        "Silver is expected to be less affected by the Indian tax changes, potentially impacting global silver demand by 5-7%.",
+        "The Federal Reserve is printing money to purchase US debt at a rate of nearly $200 billion since December 2025 with $30 billion printed in the last two weeks.",
+        "Wells Fargo expects two rate cuts in 2026, which is not currently priced into the market.",
+        "The narrator expects new highs on gold as late as July, and for silver, October of this year."
+      ],
+      "signal_strength": 7,
+      "themes": [
+        "precious metals",
+        "gold",
+        "silver",
+        "india",
+        "inflation",
+        "federal reserve",
+        "interest rates",
+        "market analysis"
+      ],
+      "positioning_implication": "Adjust portfolio expectations for precious metals to account for potential near-term consolidation, but maintain a long-term bullish outlook. Monitor US Dollar/Rupee exchange rates and oil prices for further signals.",
+      "time_horizon": "medium",
+      "shelf_life": "Medium",
+      "thumbnail": "https://i.ytimg.com/vi/3oJbi9POP-c/hqdefault.jpg",
+      "video_url": "https://www.youtube.com/watch?v=3oJbi9POP-c",
+      "cluster_id": 0,
+      "category": "General Financial Investing and Speculation"
+    },
+    {
+      "episode_title": "5 Levers That Separate Winning AI Investments from Disasters",
+      "channel": "AI News & Strategy Daily | Nate B Jones",
+      "duration_minutes": 25,
+      "podcast_date": "2026-05-18",
+      "processing_date": "2024-05-18",
+      "one_line_summary": "Strategically sound AI investment decisions hinge on workflow analysis and focused resource allocation, not solely on technological prowess.",
+      "core_claims": [
+        "Over 40% of generative AI projects will fail by the end of 2027 due to cost, unclear business value, and inadequate risk controls.",
+        "AI investment strategy should focus on adequately investing in project parts that drive value, rather than levers that lead to disappointment.",
+        "AI investment is not an 'AI question' but a question about the shape of work and how it accomplishes value; successful teams resist vendor-driven short cuts of this process.",
+        "The fundamental workflow perspective includes data inputs, system actions, outputs, checks and escalation procedures, with the AI model itself being only a small part.",
+        "AI investments should align with high-priority workflows, assessed through metrics like repetition frequency, cost of errors, judgment needs, and market solutions availability."
+      ],
+      "signal_strength": 9,
+      "themes": [
+        "ai investment",
+        "workflow analysis",
+        "risk mitigation",
+        "strategic planning",
+        "generative ai",
+        "resource allocation"
+      ],
+      "positioning_implication": "Shift investment focus from generic AI solutions to workflow-specific enhancements, prioritizing understanding of current processes before adopting new technology. Re-evaluate existing AI projects to ensure alignment with core business functions and measurable value creation.",
+      "time_horizon": "medium",
+      "shelf_life": "Medium",
+      "thumbnail": "https://i.ytimg.com/vi/LIkYVsxMpS8/hqdefault.jpg",
+      "video_url": "https://www.youtube.com/watch?v=LIkYVsxMpS8",
+      "cluster_id": 0,
+      "category": "Artificial Intelligence"
+    }
+  ],
+  "category_intelligence": {
+    "General Financial Investing and Speculation": {
+      "name": "General Financial Investing and Speculation",
+      "meta_summary": "",
+      "convergence_score": 0.0,
+      "percentile": 0.0,
+      "regime_state": "Neutral",
+      "clusters": [
+        {
+          "id": 1,
+          "name": "Metals: Diverging Fortunes",
+          "description": "Copper and platinum investment appeal intensifies as palladium's automotive reliance erodes.",
+          "bias": "neutral",
+          "regime": "Emerging",
+          "size": 1,
+          "strength": 1.0,
+          "coherence": 1.0,
+          "channels": [
+            "Clive Thompson"
+          ],
+          "avg_signal": 8.0,
+          "briefs": [
+            {
+              "episode_title": "Copper? Platinum? Palladium?  Which is the best buy?  How can you get exposure.",
+              "channel": "Clive Thompson",
+              "duration_minutes": 19,
+              "podcast_date": "2026-05-18",
+              "processing_date": "2024-02-22",
+              "one_line_summary": "Copper is favored for its broad electric applications and forecasted deficit, followed by platinum due to internal combustion engine and hydrogen tech, while palladium is least favored due to dependence on catalytic converters.",
+              "core_claims": [
+                "Copper demand is growing alongside supply, but demand should increase faster, leading to a deficit in 2026 compared to a surplus in 2025.",
+                "Platinum demand remains high for catalytic converters in internal combustion engines, which are declining slower than expected, and hydrogen technologies could significantly boost platinum prices.",
+                "Palladium is overly reliant on catalytic converters in internal combustion engines, lacking alternative uses if that industry declines."
+              ],
+              "signal_strength": 8,
+              "themes": [
+                "metals",
+                "investment",
+                "copper",
+                "platinum",
+                "palladium",
+                "supply chain",
+                "automotive",
+                "energy",
+                "mining"
+              ],
+              "positioning_implication": "Prioritize investments in copper and platinum over palladium, focusing on companies with diversified metal portfolios and stable geopolitical environments.",
+              "time_horizon": "medium",
+              "shelf_life": "Medium",
+              "thumbnail": "https://i.ytimg.com/vi/nCOlg4rcnpA/hqdefault.jpg",
+              "video_url": "https://www.youtube.com/watch?v=nCOlg4rcnpA",
+              "cluster_id": 1,
+              "category": "General Financial Investing and Speculation"
+            }
+          ]
+        },
+        {
+          "id": 0,
+          "name": "Gold: Stalling Near-Term, Intensifying Long-Term",
+          "description": "Near-term headwinds from Indian import taxes are expected to give way to broader economic factors driving longer-term gains in gold and silver.",
+          "bias": "constructive",
+          "regime": "Emerging",
+          "size": 1,
+          "strength": 1.0,
+          "coherence": 1.0,
+          "channels": [
+            "Bald Guy Money"
+          ],
+          "avg_signal": 7.0,
+          "briefs": [
+            {
+              "episode_title": "2 Important Things Just Happened For Gold & Silver! What It Means For Price",
+              "channel": "Bald Guy Money",
+              "duration_minutes": 24,
+              "podcast_date": "2026-05-18",
+              "processing_date": "2026-05-18",
+              "one_line_summary": "Gold and silver face near-term consolidation from Indian import tax changes, but remain poised for longer-term gains due to broader economic factors.",
+              "core_claims": [
+                "India's increased gold and silver import fees from 6% to 15% will soften demand in the short term.",
+                "Gold prices are expected to consolidate longer, potentially until the end of 2026 due to the Indian tax changes.",
+                "Silver is expected to be less affected by the Indian tax changes, potentially impacting global silver demand by 5-7%.",
+                "The Federal Reserve is printing money to purchase US debt at a rate of nearly $200 billion since December 2025 with $30 billion printed in the last two weeks.",
+                "Wells Fargo expects two rate cuts in 2026, which is not currently priced into the market.",
+                "The narrator expects new highs on gold as late as July, and for silver, October of this year."
+              ],
+              "signal_strength": 7,
+              "themes": [
+                "precious metals",
+                "gold",
+                "silver",
+                "india",
+                "inflation",
+                "federal reserve",
+                "interest rates",
+                "market analysis"
+              ],
+              "positioning_implication": "Adjust portfolio expectations for precious metals to account for potential near-term consolidation, but maintain a long-term bullish outlook. Monitor US Dollar/Rupee exchange rates and oil prices for further signals.",
+              "time_horizon": "medium",
+              "shelf_life": "Medium",
+              "thumbnail": "https://i.ytimg.com/vi/3oJbi9POP-c/hqdefault.jpg",
+              "video_url": "https://www.youtube.com/watch?v=3oJbi9POP-c",
+              "cluster_id": 0,
+              "category": "General Financial Investing and Speculation"
+            }
+          ]
+        }
+      ],
+      "should_generate": false
+    },
+    "Artificial Intelligence": {
+      "name": "Artificial Intelligence",
+      "meta_summary": "",
+      "convergence_score": 0.0,
+      "percentile": 0.0,
+      "regime_state": "Neutral",
+      "clusters": [
+        {
+          "id": 0,
+          "name": "AI Investment: Workflow Focus Intensifying",
+          "description": "The narrative emphasizes workflow analysis and resource allocation as critical for successful AI investment, suggesting a shift beyond pure technological focus.",
+          "bias": "constructive",
+          "regime": "Emerging",
+          "size": 1,
+          "strength": 0.0,
+          "coherence": 1.0,
+          "channels": [
+            "AI News & Strategy Daily | Nate B Jones"
+          ],
+          "avg_signal": 9.0,
+          "briefs": [
+            {
+              "episode_title": "5 Levers That Separate Winning AI Investments from Disasters",
+              "channel": "AI News & Strategy Daily | Nate B Jones",
+              "duration_minutes": 25,
+              "podcast_date": "2026-05-18",
+              "processing_date": "2024-05-18",
+              "one_line_summary": "Strategically sound AI investment decisions hinge on workflow analysis and focused resource allocation, not solely on technological prowess.",
+              "core_claims": [
+                "Over 40% of generative AI projects will fail by the end of 2027 due to cost, unclear business value, and inadequate risk controls.",
+                "AI investment strategy should focus on adequately investing in project parts that drive value, rather than levers that lead to disappointment.",
+                "AI investment is not an 'AI question' but a question about the shape of work and how it accomplishes value; successful teams resist vendor-driven short cuts of this process.",
+                "The fundamental workflow perspective includes data inputs, system actions, outputs, checks and escalation procedures, with the AI model itself being only a small part.",
+                "AI investments should align with high-priority workflows, assessed through metrics like repetition frequency, cost of errors, judgment needs, and market solutions availability."
+              ],
+              "signal_strength": 9,
+              "themes": [
+                "ai investment",
+                "workflow analysis",
+                "risk mitigation",
+                "strategic planning",
+                "generative ai",
+                "resource allocation"
+              ],
+              "positioning_implication": "Shift investment focus from generic AI solutions to workflow-specific enhancements, prioritizing understanding of current processes before adopting new technology. Re-evaluate existing AI projects to ensure alignment with core business functions and measurable value creation.",
+              "time_horizon": "medium",
+              "shelf_life": "Medium",
+              "thumbnail": "https://i.ytimg.com/vi/LIkYVsxMpS8/hqdefault.jpg",
+              "video_url": "https://www.youtube.com/watch?v=LIkYVsxMpS8",
+              "cluster_id": 0,
+              "category": "Artificial Intelligence"
+            }
+          ]
+        }
+      ],
+      "should_generate": false
+    }
+  },
+  "clusters": []
+}
