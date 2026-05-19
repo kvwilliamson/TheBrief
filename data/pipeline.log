@@ -8529,3 +8529,104 @@
 2026-05-18 07:50:08,747 - INFO - ==================================================
 2026-05-18 07:50:08,747 - INFO - Pipeline Execution Complete
 2026-05-18 07:50:08,747 - INFO - ==================================================
+2026-05-19 07:32:34,770 - INFO - ==================================================
+2026-05-19 07:32:34,770 - INFO - Starting TheBrief Daily Pipeline
+2026-05-19 07:32:34,770 - INFO - ==================================================
+2026-05-19 07:32:34,770 - INFO - 
+--- Phase 1: Discovery ---
+2026-05-19 07:32:34,774 - INFO - Discovering videos published after 2026-05-18T07:32:34.774051+00:00 (24h lookback)
+2026-05-19 07:32:35,260 - INFO - Found 1 new potential videos on GoldSilver .
+2026-05-19 07:32:35,269 - INFO - Found 1 new potential videos on Wall Street Bullion .
+2026-05-19 07:32:35,302 - INFO - Found 1 new potential videos on Yankee Stacking.
+2026-05-19 07:32:35,590 - INFO - Found 3 new potential videos on AI News & Strategy Daily | Nate B Jones.
+2026-05-19 07:32:35,676 - INFO - Found 2 new potential videos on David Lin .
+2026-05-19 07:32:35,697 - INFO - Found 4 new potential videos on Verified Investing.
+2026-05-19 07:32:35,838 - INFO - Found 1 new potential videos on Felix & Friends (Goat Academy).
+2026-05-19 07:32:36,060 - INFO - Found 1 new potential videos on Matthew Berman.
+2026-05-19 07:32:36,139 - INFO - Found 1 new potential videos on Miles Franklin Media.
+2026-05-19 07:32:36,202 - INFO - Found 1 new potential videos on Adam Taggart | Thoughtful Money®.
+2026-05-19 07:32:36,279 - INFO - Found 1 new potential videos on Wes Roth.
+2026-05-19 07:32:36,354 - INFO - Found 2 new potential videos on The Prof G Pod – Scott Galloway.
+2026-05-19 07:32:36,497 - INFO - Found 11 total long-form videos across all channels.
+2026-05-19 07:32:36,514 - INFO - Discovery complete. Added 11 new videos to queue.
+2026-05-19 07:32:36,514 - INFO - 
+--- Phase 2: Extraction ---
+2026-05-19 07:32:36,774 - INFO - yt-dlp version: 2026.03.17
+2026-05-19 07:32:37,134 - INFO - POT-related packages: bgutil-ytdlp-pot-provider 1.3.1
+2026-05-19 07:32:37,156 - INFO - bgutil HTTP server not available on port 4416 (will rely on cookies)
+2026-05-19 07:32:37,156 - INFO - Extracting audio for ‘America Is Past The Point Of No Return’: Why Peter Grandich Will Short Stocks (aRxUKUnhODY)...
+2026-05-19 07:33:02,569 - INFO - Successfully extracted: audio/aRxUKUnhODY.mp3
+2026-05-19 07:33:08,154 - INFO - Extracting audio for SILVER DEALER REVEALS WHAT HE DISCOVERED!  "They Can't Keep This Charade Up!" (uMzTnuH_TEo)...
+2026-05-19 07:33:22,533 - INFO - Successfully extracted: audio/uMzTnuH_TEo.mp3
+2026-05-19 07:33:34,250 - INFO - Extracting audio for 10-Year Spikes 4.63%! NVDA, TSLA, IWM Sink (7MEre4udNcA)...
+2026-05-19 07:33:50,135 - INFO - Successfully extracted: audio/7MEre4udNcA.mp3
+2026-05-19 07:34:00,817 - INFO - Extracting audio for SpaceX just BLEW UP... (j-FWwcnDC9k)...
+2026-05-19 07:34:15,041 - INFO - Successfully extracted: audio/j-FWwcnDC9k.mp3
+2026-05-19 07:34:22,694 - INFO - Extracting audio for Silver Price About to EXPLODE! Do THIS Immediately (o-R0G6mYe7c)...
+2026-05-19 07:34:33,896 - INFO - Successfully extracted: audio/o-R0G6mYe7c.mp3
+2026-05-19 07:34:42,769 - INFO - Extracting audio for Fuel Crisis Or Economic Boom? Fund Manager’s Shocking Forecast | Josh Young (vnZOIkfQvGY)...
+2026-05-19 07:35:01,526 - INFO - Successfully extracted: audio/vnZOIkfQvGY.mp3
+2026-05-19 07:35:11,252 - INFO - Extracting audio for How to Resist the Attention Economy — with Bill Burnett and Dave Evans | Office Hours (pnVYa0dDDm0)...
+2026-05-19 07:35:28,184 - INFO - Successfully extracted: audio/pnVYa0dDDm0.mp3
+2026-05-19 07:35:36,827 - INFO - Extracting audio for Trendlines BROKEN: S&P, QQQ, and Semis Confirming the Flush (rD1foM_tvcw)...
+2026-05-19 07:35:48,528 - INFO - Successfully extracted: audio/rD1foM_tvcw.mp3
+2026-05-19 07:35:55,521 - INFO - Extracting audio for The Prove-It Economy is Here | And Most Marketers Aren't Ready (725QE_LNXT4)...
+2026-05-19 07:36:09,518 - INFO - Successfully extracted: audio/725QE_LNXT4.mp3
+2026-05-19 07:36:19,529 - INFO - Extracting audio for $105 Oil, Rising Yields & Why The Market Suddenly Looks Vulnerable (AOD1rsYQfQE)...
+2026-05-19 07:36:30,340 - INFO - Successfully extracted: audio/AOD1rsYQfQE.mp3
+2026-05-19 07:36:36,453 - INFO - Extracting audio for Bank of America's Just Gave a Dire Warning (Most Aren't Ready) (C3Fj2o9mBHI)...
+2026-05-19 07:36:53,762 - INFO - Successfully extracted: audio/C3Fj2o9mBHI.mp3
+2026-05-19 07:36:53,763 - INFO - Extraction complete. 11/11 audio files ready. (Time: 256.6s)
+2026-05-19 07:36:53,763 - INFO - 
+--- Phase 3: Summarization (Direct Audio) ---
+2026-05-19 07:36:55,061 - INFO - Generating Brief for SILVER DEALER REVEALS WHAT HE DISCOVERED!  "They Can't Keep This Charade Up!" (uMzTnuH_TEo)...
+2026-05-19 07:36:55,065 - INFO - AFC is enabled with max remote calls: 10.
+2026-05-19 07:36:55,092 - INFO - Generating Brief for 10-Year Spikes 4.63%! NVDA, TSLA, IWM Sink (7MEre4udNcA)...
+2026-05-19 07:36:55,093 - INFO - AFC is enabled with max remote calls: 10.
+2026-05-19 07:36:55,705 - INFO - Generating Brief for ‘America Is Past The Point Of No Return’: Why Peter Grandich Will Short Stocks (aRxUKUnhODY)...
+2026-05-19 07:36:55,706 - INFO - AFC is enabled with max remote calls: 10.
+2026-05-19 07:36:57,021 - ERROR - Error summarising audio ‘America Is Past The Point Of No Return’: Why Peter Grandich Will Short Stocks: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more details.', 'status': 'RESOURCE_EXHAUSTED'}}
+2026-05-19 07:36:58,660 - INFO - Generating Brief for SpaceX just BLEW UP... (j-FWwcnDC9k)...
+2026-05-19 07:36:58,661 - INFO - AFC is enabled with max remote calls: 10.
+2026-05-19 07:37:05,359 - ERROR - Schema parsing error for 10-Year Spikes 4.63%! NVDA, TSLA, IWM Sink: Expecting value: line 1 column 1301 (char 1300)
+2026-05-19 07:37:05,646 - INFO - ✅ Brief successfully generated for SpaceX just BLEW UP...
+2026-05-19 07:37:07,038 - INFO - Generating Brief for Silver Price About to EXPLODE! Do THIS Immediately (o-R0G6mYe7c)...
+2026-05-19 07:37:07,039 - INFO - AFC is enabled with max remote calls: 10.
+2026-05-19 07:37:07,309 - INFO - ✅ Brief successfully generated for SILVER DEALER REVEALS WHAT HE DISCOVERED!  "They Can't Keep This Charade Up!"
+2026-05-19 07:37:07,798 - INFO - Generating Brief for Fuel Crisis Or Economic Boom? Fund Manager’s Shocking Forecast | Josh Young (vnZOIkfQvGY)...
+2026-05-19 07:37:07,799 - INFO - AFC is enabled with max remote calls: 10.
+2026-05-19 07:37:08,522 - INFO - Generating Brief for How to Resist the Attention Economy — with Bill Burnett and Dave Evans | Office Hours (pnVYa0dDDm0)...
+2026-05-19 07:37:08,523 - INFO - AFC is enabled with max remote calls: 10.
+2026-05-19 07:37:08,775 - ERROR - Error summarising audio Fuel Crisis Or Economic Boom? Fund Manager’s Shocking Forecast | Josh Young: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more details.', 'status': 'RESOURCE_EXHAUSTED'}}
+2026-05-19 07:37:09,451 - ERROR - Error summarising audio How to Resist the Attention Economy — with Bill Burnett and Dave Evans | Office Hours: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more details.', 'status': 'RESOURCE_EXHAUSTED'}}
+2026-05-19 07:37:10,084 - INFO - Generating Brief for Trendlines BROKEN: S&P, QQQ, and Semis Confirming the Flush (rD1foM_tvcw)...
+2026-05-19 07:37:10,085 - INFO - AFC is enabled with max remote calls: 10.
+2026-05-19 07:37:11,119 - INFO - Generating Brief for The Prove-It Economy is Here | And Most Marketers Aren't Ready (725QE_LNXT4)...
+2026-05-19 07:37:11,121 - INFO - AFC is enabled with max remote calls: 10.
+2026-05-19 07:37:11,868 - ERROR - Error summarising audio The Prove-It Economy is Here | And Most Marketers Aren't Ready: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more details.', 'status': 'RESOURCE_EXHAUSTED'}}
+2026-05-19 07:37:11,988 - ERROR - Schema parsing error for Silver Price About to EXPLODE! Do THIS Immediately: Invalid \escape: line 1 column 579 (char 578)
+2026-05-19 07:37:12,974 - INFO - Generating Brief for $105 Oil, Rising Yields & Why The Market Suddenly Looks Vulnerable (AOD1rsYQfQE)...
+2026-05-19 07:37:12,975 - INFO - AFC is enabled with max remote calls: 10.
+2026-05-19 07:37:13,570 - INFO - Generating Brief for Bank of America's Just Gave a Dire Warning (Most Aren't Ready) (C3Fj2o9mBHI)...
+2026-05-19 07:37:13,571 - INFO - AFC is enabled with max remote calls: 10.
+2026-05-19 07:37:14,512 - ERROR - Error summarising audio Bank of America's Just Gave a Dire Warning (Most Aren't Ready): 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more details.', 'status': 'RESOURCE_EXHAUSTED'}}
+2026-05-19 07:37:15,690 - ERROR - Schema parsing error for Trendlines BROKEN: S&P, QQQ, and Semis Confirming the Flush: Expecting value: line 1 column 1081 (char 1080)
+2026-05-19 07:37:20,681 - INFO - ✅ Brief successfully generated for $105 Oil, Rising Yields & Why The Market Suddenly Looks Vulnerable
+2026-05-19 07:37:20,681 - INFO - --- Phase 3: Category Synthesis (3 assets across categories) ---
+2026-05-19 07:37:20,681 - INFO - Analyzing 3 categories: Artificial Intelligence, Precious Metals, General Financial Investing and Speculation
+2026-05-19 07:37:20,681 - INFO - Processing Synthesis for sector: Artificial Intelligence (1 assets)...
+2026-05-19 07:37:20,687 - INFO - AFC is enabled with max remote calls: 10.
+2026-05-19 07:37:21,561 - INFO - ✅ Synthesis complete for Artificial Intelligence
+2026-05-19 07:37:21,561 - INFO - Processing Synthesis for sector: Precious Metals (1 assets)...
+2026-05-19 07:37:21,562 - INFO - AFC is enabled with max remote calls: 10.
+2026-05-19 07:37:22,700 - INFO - ✅ Synthesis complete for Precious Metals
+2026-05-19 07:37:22,700 - INFO - Processing Synthesis for sector: General Financial Investing and Speculation (1 assets)...
+2026-05-19 07:37:22,701 - INFO - AFC is enabled with max remote calls: 10.
+2026-05-19 07:37:23,542 - INFO - ✅ Synthesis complete for General Financial Investing and Speculation
+2026-05-19 07:37:23,552 - INFO - Summarization complete. 3 briefs written to briefs/2026-05-19.md (Time: 29.7s)
+2026-05-19 07:37:24,520 - INFO - Email digest sent successfully to kwilliamson.mail@gmail.com.
+2026-05-19 07:37:24,957 - INFO - Email digest sent successfully to kochava72@gmail.com.
+2026-05-19 07:37:24,967 - INFO - Queue cleared.
+2026-05-19 07:37:24,967 - INFO - ==================================================
+2026-05-19 07:37:24,967 - INFO - Pipeline Execution Complete
+2026-05-19 07:37:24,967 - INFO - ==================================================
