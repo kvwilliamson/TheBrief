@@ -1,0 +1,426 @@
+{
+  "date": "2026-05-20",
+  "briefs": [
+    {
+      "episode_title": "$5B Deal Can't Save GOOGL Today \ud83d\udcc9",
+      "channel": "Verified Investing",
+      "duration_minutes": 25,
+      "podcast_date": "2026-05-20",
+      "processing_date": "2024-02-22",
+      "one_line_summary": "Markets show a slight character change with attention needed for 10-year yield and sleeper hold patterns signaling a potential downturn.",
+      "core_claims": [
+        "The S&P 500 chart shows another down day, only about 2% down from the top, suggesting a potential correction.",
+        "The 10-year yield is ripping off the charts, applying pressure in the markets.",
+        "Two sleeper holds are present on two critical indices, indicating bearish patterns, particularly on the weekly time frame, which is more dominant than the daily.",
+        "The presenter sees support for the IWM at the 50% area of a parallel channel at $268.90.",
+        "The 10-year yield hit resistance at the bottom of a parallel channel at 4.687%, indicating that stocks and equities will remain under pressure if it maintains this level.",
+        "Nvidia's earnings on Wednesday could buck current trends, impacting SMH; potential support is at $503.45."
+      ],
+      "signal_strength": 7,
+      "themes": [
+        "market analysis",
+        "technical indicators",
+        "sleeper holds",
+        "yield curve",
+        "risk assessment",
+        "trading patterns"
+      ],
+      "positioning_implication": "Reduce exposure to equities and tech stocks, closely monitoring the 10-year yield and market patterns for potential shorting opportunities. Hedge portfolios against a market downturn.",
+      "time_horizon": "medium",
+      "shelf_life": "Medium",
+      "thumbnail": "https://i.ytimg.com/vi/QD64aDt1A2M/hqdefault.jpg",
+      "video_url": "https://www.youtube.com/watch?v=QD64aDt1A2M",
+      "cluster_id": 2,
+      "category": "General Financial Investing and Speculation"
+    },
+    {
+      "episode_title": "Economy To Enter Most Dangerous Decade; What's Next For Jobs, Global Wars | George Friedman",
+      "channel": "David Lin",
+      "duration_minutes": 56,
+      "podcast_date": "2026-05-20",
+      "processing_date": "2024-05-22",
+      "one_line_summary": "The global geopolitical system is shifting from military to economic power, impacting the relationship between the US and China.",
+      "core_claims": [
+        "China's economic dependence on exports to the US is critical for its wealth development.",
+        "China is no longer a communist power in any meaningful sense; it's an authoritarian country emphasizing its private sector.",
+        "A new world order is emerging, pivoting on economic competition rather than the threat of war.",
+        "Free trade, once a principle emerging post-World War II, may not be viable or in the best interest of each country in the new age."
+      ],
+      "signal_strength": 8,
+      "themes": [
+        "geopolitics",
+        "economic order",
+        "china-us relations",
+        "economic power",
+        "trade",
+        "military decline"
+      ],
+      "positioning_implication": "Reassess global risk models to account for the rising importance of economic interdependence as a deterrent to military conflict. Prioritize investment in sectors that benefit from non-military competition between major powers.",
+      "time_horizon": "long",
+      "shelf_life": "Medium",
+      "thumbnail": "https://i.ytimg.com/vi/oWkRr_KJho8/hqdefault.jpg",
+      "video_url": "https://www.youtube.com/watch?v=oWkRr_KJho8",
+      "cluster_id": 1,
+      "category": "General Financial Investing and Speculation"
+    },
+    {
+      "episode_title": "Early Days' in 'Unprecedented' URANIUM Bull Cycle - 'You Haven't Missed the Opportunity'",
+      "channel": "Commodity Culture",
+      "duration_minutes": 31,
+      "podcast_date": "2026-04-18",
+      "processing_date": "2026-05-20",
+      "one_line_summary": "The uranium market exhibits early-stage bull market characteristics despite perceived sentiment dips, presenting ongoing opportunities.",
+      "core_claims": [
+        "Uranium prices have stabilized in the mid-to-high $80s per pound.",
+        "The uranium market is consolidating, positioning itself for the next leg up in 2026.",
+        "Long-term investors haven't fully entered the uranium market, signaling early-stage opportunity.",
+        "Cameco's production guidance cut and flooding incidents highlight uranium supply vulnerabilities.",
+        "The uranium market's supply currently cannot keep up with demand, and any setbacks add up quickly.",
+        "Energy security concerns in light of Middle East events are a potential catalyst for the next uranium bull cycle leg."
+      ],
+      "signal_strength": 8,
+      "themes": [
+        "uranium",
+        "commodities",
+        "supply chain",
+        "mining",
+        "investment",
+        "market analysis"
+      ],
+      "positioning_implication": "Maintain or establish exposure to uranium, recognizing the inherent volatility and early-stage characteristics. Prioritize entities positioned to benefit from increased long-term demand driven by energy security concerns.",
+      "time_horizon": "medium",
+      "shelf_life": "Medium",
+      "thumbnail": "https://i.ytimg.com/vi/9Qrlu6MalJE/hqdefault.jpg",
+      "video_url": "https://www.youtube.com/watch?v=9Qrlu6MalJE",
+      "cluster_id": 0,
+      "category": "Precious Metals"
+    },
+    {
+      "episode_title": "Google Spent a Year Stitching MCP, A2A, AG-UI Together. I/O Today.",
+      "channel": "AI News & Strategy Daily | Nate B Jones",
+      "duration_minutes": 24,
+      "podcast_date": "2026-05-20",
+      "processing_date": "2026-05-20",
+      "one_line_summary": "Six agent protocols launched in the last year are shaping agentic systems, impacting customer experience.",
+      "core_claims": [
+        "MCP standardizes tool access but introduces security risks needing scopes, approval flows, and audit trails.",
+        "A2A enables agent coordination across product/company boundaries, adding latency, failure, and permission complexity.",
+        "AG-UI is critical for building trust in agentic workflows by providing a human control layer, not just driving the user interface."
+      ],
+      "signal_strength": 8,
+      "themes": [
+        "agentic protocols",
+        "security",
+        "ai workflows",
+        "interoperability",
+        "user experience",
+        "payments"
+      ],
+      "positioning_implication": "Prioritize security protocols and human-in-the-loop validation for agentic systems. Design agent workflows considering delegated expertise outside primary agents.",
+      "time_horizon": "medium",
+      "shelf_life": "Medium",
+      "thumbnail": "https://i.ytimg.com/vi/zP6TnEiueEc/hqdefault.jpg",
+      "video_url": "https://www.youtube.com/watch?v=zP6TnEiueEc",
+      "cluster_id": 0,
+      "category": "Artificial Intelligence"
+    },
+    {
+      "episode_title": "Trading The Markets: Oil & Yields Trigger Fear, Investors Bullish",
+      "channel": "Verified Investing",
+      "duration_minutes": 22,
+      "podcast_date": "2026-05-20",
+      "processing_date": "2026-05-20",
+      "one_line_summary": "Market behavior hinges on oil and 10-year yield trends, influencing stock market direction.",
+      "core_claims": [
+        "A daily close above oil's trend line may lead to a spike to $115-$120 per barrel.",
+        "Semiconductors may see corrections of 40-50% due to hedge fund exposure.",
+        "SMH ETF's previous bull runs saw 240% gains, suggesting a potential 40% pullback.",
+        "Palo Alto Networks and Crowdstrike show potential shorting opportunities at $255 and $635, respectively.",
+        "Bitcoin could fall to $60,000 or even $50,000 if the $71,500 level is breached."
+      ],
+      "signal_strength": 8,
+      "themes": [
+        "market analysis",
+        "oil prices",
+        "yields",
+        "semiconductors",
+        "technical analysis",
+        "economic indicators"
+      ],
+      "positioning_implication": "Monitor oil and yield correlations for market shifts; prepare for semiconductor corrections, evaluate potential short positions in trending stocks.",
+      "time_horizon": "short",
+      "shelf_life": "Short",
+      "thumbnail": "https://i.ytimg.com/vi/7Ubv-Wtx29M/hqdefault.jpg",
+      "video_url": "https://www.youtube.com/watch?v=7Ubv-Wtx29M",
+      "cluster_id": 0,
+      "category": "General Financial Investing and Speculation"
+    }
+  ],
+  "category_intelligence": {
+    "General Financial Investing and Speculation": {
+      "name": "General Financial Investing and Speculation",
+      "meta_summary": "",
+      "convergence_score": 0.0,
+      "percentile": 0.0,
+      "regime_state": "Neutral",
+      "clusters": [
+        {
+          "id": 2,
+          "name": "Yield Curve Inversion Intensifying Downturn Risk",
+          "description": "The narrative highlights a shift in market behavior, emphasizing the 10-year yield and 'sleeper hold' patterns as harbingers of a potential economic downturn.",
+          "bias": "defensive",
+          "regime": "Emerging",
+          "size": 1,
+          "strength": 1.0,
+          "coherence": 1.0,
+          "channels": [
+            "Verified Investing"
+          ],
+          "avg_signal": 7.0,
+          "briefs": [
+            {
+              "episode_title": "$5B Deal Can't Save GOOGL Today \ud83d\udcc9",
+              "channel": "Verified Investing",
+              "duration_minutes": 25,
+              "podcast_date": "2026-05-20",
+              "processing_date": "2024-02-22",
+              "one_line_summary": "Markets show a slight character change with attention needed for 10-year yield and sleeper hold patterns signaling a potential downturn.",
+              "core_claims": [
+                "The S&P 500 chart shows another down day, only about 2% down from the top, suggesting a potential correction.",
+                "The 10-year yield is ripping off the charts, applying pressure in the markets.",
+                "Two sleeper holds are present on two critical indices, indicating bearish patterns, particularly on the weekly time frame, which is more dominant than the daily.",
+                "The presenter sees support for the IWM at the 50% area of a parallel channel at $268.90.",
+                "The 10-year yield hit resistance at the bottom of a parallel channel at 4.687%, indicating that stocks and equities will remain under pressure if it maintains this level.",
+                "Nvidia's earnings on Wednesday could buck current trends, impacting SMH; potential support is at $503.45."
+              ],
+              "signal_strength": 7,
+              "themes": [
+                "market analysis",
+                "technical indicators",
+                "sleeper holds",
+                "yield curve",
+                "risk assessment",
+                "trading patterns"
+              ],
+              "positioning_implication": "Reduce exposure to equities and tech stocks, closely monitoring the 10-year yield and market patterns for potential shorting opportunities. Hedge portfolios against a market downturn.",
+              "time_horizon": "medium",
+              "shelf_life": "Medium",
+              "thumbnail": "https://i.ytimg.com/vi/QD64aDt1A2M/hqdefault.jpg",
+              "video_url": "https://www.youtube.com/watch?v=QD64aDt1A2M",
+              "cluster_id": 2,
+              "category": "General Financial Investing and Speculation"
+            }
+          ]
+        },
+        {
+          "id": 1,
+          "name": "US-China Economic Power Struggle Intensifying",
+          "description": "The narrative highlights the increasing economic competition between the US and China as the global geopolitical landscape shifts away from military dominance.",
+          "bias": "neutral",
+          "regime": "Emerging",
+          "size": 1,
+          "strength": 1.0,
+          "coherence": 1.0,
+          "channels": [
+            "David Lin"
+          ],
+          "avg_signal": 8.0,
+          "briefs": [
+            {
+              "episode_title": "Economy To Enter Most Dangerous Decade; What's Next For Jobs, Global Wars | George Friedman",
+              "channel": "David Lin",
+              "duration_minutes": 56,
+              "podcast_date": "2026-05-20",
+              "processing_date": "2024-05-22",
+              "one_line_summary": "The global geopolitical system is shifting from military to economic power, impacting the relationship between the US and China.",
+              "core_claims": [
+                "China's economic dependence on exports to the US is critical for its wealth development.",
+                "China is no longer a communist power in any meaningful sense; it's an authoritarian country emphasizing its private sector.",
+                "A new world order is emerging, pivoting on economic competition rather than the threat of war.",
+                "Free trade, once a principle emerging post-World War II, may not be viable or in the best interest of each country in the new age."
+              ],
+              "signal_strength": 8,
+              "themes": [
+                "geopolitics",
+                "economic order",
+                "china-us relations",
+                "economic power",
+                "trade",
+                "military decline"
+              ],
+              "positioning_implication": "Reassess global risk models to account for the rising importance of economic interdependence as a deterrent to military conflict. Prioritize investment in sectors that benefit from non-military competition between major powers.",
+              "time_horizon": "long",
+              "shelf_life": "Medium",
+              "thumbnail": "https://i.ytimg.com/vi/oWkRr_KJho8/hqdefault.jpg",
+              "video_url": "https://www.youtube.com/watch?v=oWkRr_KJho8",
+              "cluster_id": 1,
+              "category": "General Financial Investing and Speculation"
+            }
+          ]
+        },
+        {
+          "id": 0,
+          "name": "Yields Tightening Oil's Market Grip",
+          "description": "Market direction is increasingly dictated by the interplay between oil prices and 10-year Treasury yields.",
+          "bias": "neutral",
+          "regime": "Emerging",
+          "size": 1,
+          "strength": 1.0,
+          "coherence": 1.0,
+          "channels": [
+            "Verified Investing"
+          ],
+          "avg_signal": 8.0,
+          "briefs": [
+            {
+              "episode_title": "Trading The Markets: Oil & Yields Trigger Fear, Investors Bullish",
+              "channel": "Verified Investing",
+              "duration_minutes": 22,
+              "podcast_date": "2026-05-20",
+              "processing_date": "2026-05-20",
+              "one_line_summary": "Market behavior hinges on oil and 10-year yield trends, influencing stock market direction.",
+              "core_claims": [
+                "A daily close above oil's trend line may lead to a spike to $115-$120 per barrel.",
+                "Semiconductors may see corrections of 40-50% due to hedge fund exposure.",
+                "SMH ETF's previous bull runs saw 240% gains, suggesting a potential 40% pullback.",
+                "Palo Alto Networks and Crowdstrike show potential shorting opportunities at $255 and $635, respectively.",
+                "Bitcoin could fall to $60,000 or even $50,000 if the $71,500 level is breached."
+              ],
+              "signal_strength": 8,
+              "themes": [
+                "market analysis",
+                "oil prices",
+                "yields",
+                "semiconductors",
+                "technical analysis",
+                "economic indicators"
+              ],
+              "positioning_implication": "Monitor oil and yield correlations for market shifts; prepare for semiconductor corrections, evaluate potential short positions in trending stocks.",
+              "time_horizon": "short",
+              "shelf_life": "Short",
+              "thumbnail": "https://i.ytimg.com/vi/7Ubv-Wtx29M/hqdefault.jpg",
+              "video_url": "https://www.youtube.com/watch?v=7Ubv-Wtx29M",
+              "cluster_id": 0,
+              "category": "General Financial Investing and Speculation"
+            }
+          ]
+        }
+      ],
+      "should_generate": false
+    },
+    "Precious Metals": {
+      "name": "Precious Metals",
+      "meta_summary": "",
+      "convergence_score": 0.0,
+      "percentile": 0.0,
+      "regime_state": "Neutral",
+      "clusters": [
+        {
+          "id": 0,
+          "name": "Uranium Market: Bull Market Intensifying",
+          "description": "The uranium market's underlying bullish trend strengthens despite short-term sentiment fluctuations, indicating persistent investment potential.",
+          "bias": "constructive",
+          "regime": "Emerging",
+          "size": 1,
+          "strength": 0.0,
+          "coherence": 1.0,
+          "channels": [
+            "Commodity Culture"
+          ],
+          "avg_signal": 8.0,
+          "briefs": [
+            {
+              "episode_title": "Early Days' in 'Unprecedented' URANIUM Bull Cycle - 'You Haven't Missed the Opportunity'",
+              "channel": "Commodity Culture",
+              "duration_minutes": 31,
+              "podcast_date": "2026-04-18",
+              "processing_date": "2026-05-20",
+              "one_line_summary": "The uranium market exhibits early-stage bull market characteristics despite perceived sentiment dips, presenting ongoing opportunities.",
+              "core_claims": [
+                "Uranium prices have stabilized in the mid-to-high $80s per pound.",
+                "The uranium market is consolidating, positioning itself for the next leg up in 2026.",
+                "Long-term investors haven't fully entered the uranium market, signaling early-stage opportunity.",
+                "Cameco's production guidance cut and flooding incidents highlight uranium supply vulnerabilities.",
+                "The uranium market's supply currently cannot keep up with demand, and any setbacks add up quickly.",
+                "Energy security concerns in light of Middle East events are a potential catalyst for the next uranium bull cycle leg."
+              ],
+              "signal_strength": 8,
+              "themes": [
+                "uranium",
+                "commodities",
+                "supply chain",
+                "mining",
+                "investment",
+                "market analysis"
+              ],
+              "positioning_implication": "Maintain or establish exposure to uranium, recognizing the inherent volatility and early-stage characteristics. Prioritize entities positioned to benefit from increased long-term demand driven by energy security concerns.",
+              "time_horizon": "medium",
+              "shelf_life": "Medium",
+              "thumbnail": "https://i.ytimg.com/vi/9Qrlu6MalJE/hqdefault.jpg",
+              "video_url": "https://www.youtube.com/watch?v=9Qrlu6MalJE",
+              "cluster_id": 0,
+              "category": "Precious Metals"
+            }
+          ]
+        }
+      ],
+      "should_generate": false
+    },
+    "Artificial Intelligence": {
+      "name": "Artificial Intelligence",
+      "meta_summary": "",
+      "convergence_score": 0.0,
+      "percentile": 0.0,
+      "regime_state": "Neutral",
+      "clusters": [
+        {
+          "id": 0,
+          "name": "Agentic Protocols: Accelerating User Experience",
+          "description": "Agentic protocols are rapidly evolving, promising to significantly improve customer experience through enhanced AI workflows and interoperability.",
+          "bias": "constructive",
+          "regime": "Emerging",
+          "size": 1,
+          "strength": 0.0,
+          "coherence": 1.0,
+          "channels": [
+            "AI News & Strategy Daily | Nate B Jones"
+          ],
+          "avg_signal": 8.0,
+          "briefs": [
+            {
+              "episode_title": "Google Spent a Year Stitching MCP, A2A, AG-UI Together. I/O Today.",
+              "channel": "AI News & Strategy Daily | Nate B Jones",
+              "duration_minutes": 24,
+              "podcast_date": "2026-05-20",
+              "processing_date": "2026-05-20",
+              "one_line_summary": "Six agent protocols launched in the last year are shaping agentic systems, impacting customer experience.",
+              "core_claims": [
+                "MCP standardizes tool access but introduces security risks needing scopes, approval flows, and audit trails.",
+                "A2A enables agent coordination across product/company boundaries, adding latency, failure, and permission complexity.",
+                "AG-UI is critical for building trust in agentic workflows by providing a human control layer, not just driving the user interface."
+              ],
+              "signal_strength": 8,
+              "themes": [
+                "agentic protocols",
+                "security",
+                "ai workflows",
+                "interoperability",
+                "user experience",
+                "payments"
+              ],
+              "positioning_implication": "Prioritize security protocols and human-in-the-loop validation for agentic systems. Design agent workflows considering delegated expertise outside primary agents.",
+              "time_horizon": "medium",
+              "shelf_life": "Medium",
+              "thumbnail": "https://i.ytimg.com/vi/zP6TnEiueEc/hqdefault.jpg",
+              "video_url": "https://www.youtube.com/watch?v=zP6TnEiueEc",
+              "cluster_id": 0,
+              "category": "Artificial Intelligence"
+            }
+          ]
+        }
+      ],
+      "should_generate": false
+    }
+  },
+  "clusters": []
+}

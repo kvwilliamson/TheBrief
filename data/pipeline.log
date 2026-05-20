@@ -8630,3 +8630,133 @@
 2026-05-19 07:37:24,967 - INFO - ==================================================
 2026-05-19 07:37:24,967 - INFO - Pipeline Execution Complete
 2026-05-19 07:37:24,967 - INFO - ==================================================
+2026-05-20 07:32:33,258 - INFO - ==================================================
+2026-05-20 07:32:33,258 - INFO - Starting TheBrief Daily Pipeline
+2026-05-20 07:32:33,258 - INFO - ==================================================
+2026-05-20 07:32:33,258 - INFO - 
+--- Phase 1: Discovery ---
+2026-05-20 07:32:33,262 - INFO - Discovering videos published after 2026-05-19T07:32:33.262113+00:00 (24h lookback)
+2026-05-20 07:32:33,726 - INFO - Found 1 new potential videos on GoldSilver .
+2026-05-20 07:32:33,735 - INFO - Found 1 new potential videos on Kitco NEWS.
+2026-05-20 07:32:33,763 - INFO - Found 1 new potential videos on Wall Street Bullion .
+2026-05-20 07:32:33,989 - INFO - Found 3 new potential videos on AI News & Strategy Daily | Nate B Jones.
+2026-05-20 07:32:34,209 - INFO - Found 1 new potential videos on Clive Thompson.
+2026-05-20 07:32:34,226 - INFO - Found 2 new potential videos on David Lin .
+2026-05-20 07:32:34,345 - INFO - Found 1 new potential videos on TheTechnicalTraders.
+2026-05-20 07:32:34,447 - INFO - Found 4 new potential videos on Verified Investing.
+2026-05-20 07:32:34,682 - INFO - Found 1 new potential videos on Miles Franklin Media.
+2026-05-20 07:32:34,731 - INFO - Found 1 new potential videos on CPM Group.
+2026-05-20 07:32:34,769 - INFO - Found 1 new potential videos on Adam Taggart | Thoughtful Money®.
+2026-05-20 07:32:34,780 - INFO - Found 1 new potential videos on Commodity Culture.
+2026-05-20 07:32:35,058 - INFO - Found 2 new potential videos on Wes Roth.
+2026-05-20 07:32:35,173 - INFO - Found 2 new potential videos on The Prof G Pod – Scott Galloway.
+2026-05-20 07:32:35,330 - INFO - Found 16 total long-form videos across all channels.
+2026-05-20 07:32:35,352 - INFO - Discovery complete. Added 16 new videos to queue.
+2026-05-20 07:32:35,352 - INFO - 
+--- Phase 2: Extraction ---
+2026-05-20 07:32:35,597 - INFO - yt-dlp version: 2026.03.17
+2026-05-20 07:32:35,956 - INFO - POT-related packages: bgutil-ytdlp-pot-provider 1.3.1
+2026-05-20 07:32:35,979 - INFO - bgutil HTTP server not available on port 4416 (will rely on cookies)
+2026-05-20 07:32:35,979 - INFO - Extracting audio for LIVE Q & A WITH MILES FRANKLIN (oOTsM1hXwzM)...
+2026-05-20 07:33:13,782 - INFO - Successfully extracted: audio/oOTsM1hXwzM.mp3
+2026-05-20 07:33:22,681 - INFO - Extracting audio for Economy To Enter Most Dangerous Decade; What's Next For Jobs, Global Wars | George Friedman (oWkRr_KJho8)...
+2026-05-20 07:33:47,128 - INFO - Successfully extracted: audio/oWkRr_KJho8.mp3
+2026-05-20 07:33:58,504 - INFO - Extracting audio for GOOGLE IO DEVELOPER STREAM (RIfYuusHqnc)...
+2026-05-20 07:34:20,447 - INFO - Successfully extracted: audio/RIfYuusHqnc.mp3
+2026-05-20 07:34:27,089 - INFO - Extracting audio for $5B Deal Can't Save GOOGL Today 📉 (QD64aDt1A2M)...
+2026-05-20 07:34:42,859 - INFO - Successfully extracted: audio/QD64aDt1A2M.mp3
+2026-05-20 07:34:54,626 - INFO - Extracting audio for Why China Matters More Than Ever for Gold and Silver (H8jB9O1y_nk)...
+2026-05-20 07:35:17,044 - INFO - Successfully extracted: audio/H8jB9O1y_nk.mp3
+2026-05-20 07:35:28,880 - INFO - Extracting audio for GOOGLE IO   |  LET"S GOOOOOOOOOOOOOOOOOO!!! (pAZx6pDstaE)...
+2026-05-20 07:36:41,853 - INFO - Successfully extracted: audio/pAZx6pDstaE.mp3
+2026-05-20 07:36:52,793 - INFO - Extracting audio for Why Gold Needs a $500 Drop to Flush Out "Momentum" Buyers | Ted Oakley (OLj8lkGd9o4)...
+2026-05-20 07:37:19,272 - INFO - Successfully extracted: audio/OLj8lkGd9o4.mp3
+2026-05-20 07:37:28,207 - INFO - Extracting audio for Silver Price Shock — Why Gold & Silver Are About to Make Their Biggest Move Yet (Sf868L0g_A8)...
+2026-05-20 07:37:40,901 - INFO - Successfully extracted: audio/Sf868L0g_A8.mp3
+2026-05-20 07:37:50,508 - INFO - Extracting audio for 'Bitcoin Is Going To Zero' Warns World Gold Council CEO David Tait (sUQj17Hf3-I)...
+2026-05-20 07:38:09,350 - INFO - Successfully extracted: audio/sUQj17Hf3-I.mp3
+2026-05-20 07:38:16,081 - INFO - Extracting audio for Buyers Step In At The Gap Fill — Top Afternoon Long Setups (z8vLOLq_5cs)...
+2026-05-20 07:38:26,504 - INFO - Successfully extracted: audio/z8vLOLq_5cs.mp3
+2026-05-20 07:38:35,849 - INFO - Extracting audio for The Doubters Are Wrong: Boom Times Ahead For The USA | Dr Art Laffer (d9AP2GLycZQ)...
+2026-05-20 07:39:14,458 - INFO - Successfully extracted: audio/d9AP2GLycZQ.mp3
+2026-05-20 07:39:20,609 - INFO - Extracting audio for 'Early Days' in 'Unprecedented' URANIUM Bull Cycle - 'You Haven't Missed the Opportunity' (9Qrlu6MalJE)...
+2026-05-20 07:39:35,484 - INFO - Successfully extracted: audio/9Qrlu6MalJE.mp3
+2026-05-20 07:39:41,385 - INFO - Extracting audio for Google Spent a Year Stitching MCP, A2A, AG-UI Together. I/O Today. (zP6TnEiueEc)...
+2026-05-20 07:39:56,452 - INFO - Successfully extracted: audio/zP6TnEiueEc.mp3
+2026-05-20 07:40:02,914 - INFO - Extracting audio for Trading The Markets: Oil & Yields Trigger Fear, Investors Bullish (7Ubv-Wtx29M)...
+2026-05-20 07:40:15,626 - INFO - Successfully extracted: audio/7Ubv-Wtx29M.mp3
+2026-05-20 07:40:20,995 - INFO - Extracting audio for Tues, May 19, 2026 Financial news.  Is Nvidia about to break the bull-run? Oil, gold, silver... (EMXa_0xMAoM)...
+2026-05-20 07:40:36,647 - INFO - Successfully extracted: audio/EMXa_0xMAoM.mp3
+2026-05-20 07:40:41,864 - INFO - Extracting audio for Trump Promised to Be Tough on China. Xi Outplayed Him. | China Decode (EBmtV5Suxv0)...
+2026-05-20 07:41:04,030 - INFO - Successfully extracted: audio/EBmtV5Suxv0.mp3
+2026-05-20 07:41:04,031 - INFO - Extraction complete. 16/16 audio files ready. (Time: 508.1s)
+2026-05-20 07:41:04,031 - INFO - 
+--- Phase 3: Summarization (Direct Audio) ---
+2026-05-20 07:41:05,685 - INFO - Generating Brief for GOOGLE IO DEVELOPER STREAM (RIfYuusHqnc)...
+2026-05-20 07:41:05,687 - INFO - AFC is enabled with max remote calls: 10.
+2026-05-20 07:41:05,710 - INFO - Generating Brief for Economy To Enter Most Dangerous Decade; What's Next For Jobs, Global Wars | George Friedman (oWkRr_KJho8)...
+2026-05-20 07:41:05,711 - INFO - AFC is enabled with max remote calls: 10.
+2026-05-20 07:41:05,926 - INFO - Generating Brief for LIVE Q & A WITH MILES FRANKLIN (oOTsM1hXwzM)...
+2026-05-20 07:41:05,927 - INFO - AFC is enabled with max remote calls: 10.
+2026-05-20 07:41:07,270 - ERROR - Error summarising audio LIVE Q & A WITH MILES FRANKLIN: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more details.', 'status': 'RESOURCE_EXHAUSTED'}}
+2026-05-20 07:41:08,806 - INFO - Generating Brief for $5B Deal Can't Save GOOGL Today 📉 (QD64aDt1A2M)...
+2026-05-20 07:41:08,807 - INFO - AFC is enabled with max remote calls: 10.
+2026-05-20 07:41:16,967 - INFO - ✅ Brief successfully generated for $5B Deal Can't Save GOOGL Today 📉
+2026-05-20 07:41:18,160 - INFO - Generating Brief for Why China Matters More Than Ever for Gold and Silver (H8jB9O1y_nk)...
+2026-05-20 07:41:18,161 - INFO - AFC is enabled with max remote calls: 10.
+2026-05-20 07:41:18,939 - ERROR - Error summarising audio Why China Matters More Than Ever for Gold and Silver: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more details.', 'status': 'RESOURCE_EXHAUSTED'}}
+2026-05-20 07:41:21,643 - INFO - Generating Brief for GOOGLE IO   |  LET"S GOOOOOOOOOOOOOOOOOO!!! (pAZx6pDstaE)...
+2026-05-20 07:41:21,644 - INFO - AFC is enabled with max remote calls: 10.
+2026-05-20 07:41:21,891 - INFO - ✅ Brief successfully generated for Economy To Enter Most Dangerous Decade; What's Next For Jobs, Global Wars | George Friedman
+2026-05-20 07:41:22,163 - ERROR - Error summarising audio GOOGLE IO DEVELOPER STREAM: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more details.', 'status': 'RESOURCE_EXHAUSTED'}}
+2026-05-20 07:41:23,535 - INFO - Generating Brief for Why Gold Needs a $500 Drop to Flush Out "Momentum" Buyers | Ted Oakley (OLj8lkGd9o4)...
+2026-05-20 07:41:23,536 - INFO - AFC is enabled with max remote calls: 10.
+2026-05-20 07:41:23,566 - INFO - Generating Brief for Silver Price Shock — Why Gold & Silver Are About to Make Their Biggest Move Yet (Sf868L0g_A8)...
+2026-05-20 07:41:23,567 - INFO - AFC is enabled with max remote calls: 10.
+2026-05-20 07:41:24,710 - ERROR - Error summarising audio Why Gold Needs a $500 Drop to Flush Out "Momentum" Buyers | Ted Oakley: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more details.', 'status': 'RESOURCE_EXHAUSTED'}}
+2026-05-20 07:41:25,625 - ERROR - Error summarising audio GOOGLE IO   |  LET"S GOOOOOOOOOOOOOOOOOO!!!: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more details.', 'status': 'RESOURCE_EXHAUSTED'}}
+2026-05-20 07:41:26,486 - INFO - Generating Brief for 'Bitcoin Is Going To Zero' Warns World Gold Council CEO David Tait (sUQj17Hf3-I)...
+2026-05-20 07:41:26,487 - INFO - AFC is enabled with max remote calls: 10.
+2026-05-20 07:41:27,048 - INFO - Generating Brief for Buyers Step In At The Gap Fill — Top Afternoon Long Setups (z8vLOLq_5cs)...
+2026-05-20 07:41:27,049 - INFO - AFC is enabled with max remote calls: 10.
+2026-05-20 07:41:27,455 - ERROR - Error summarising audio 'Bitcoin Is Going To Zero' Warns World Gold Council CEO David Tait: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more details.', 'status': 'RESOURCE_EXHAUSTED'}}
+2026-05-20 07:41:28,332 - ERROR - Schema parsing error for Silver Price Shock — Why Gold & Silver Are About to Make Their Biggest Move Yet: Expecting value: line 1 column 1074 (char 1073)
+2026-05-20 07:41:29,322 - INFO - Generating Brief for The Doubters Are Wrong: Boom Times Ahead For The USA | Dr Art Laffer (d9AP2GLycZQ)...
+2026-05-20 07:41:29,323 - INFO - AFC is enabled with max remote calls: 10.
+2026-05-20 07:41:30,015 - INFO - Generating Brief for 'Early Days' in 'Unprecedented' URANIUM Bull Cycle - 'You Haven't Missed the Opportunity' (9Qrlu6MalJE)...
+2026-05-20 07:41:30,016 - INFO - AFC is enabled with max remote calls: 10.
+2026-05-20 07:41:30,576 - ERROR - Error summarising audio The Doubters Are Wrong: Boom Times Ahead For The USA | Dr Art Laffer: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more details.', 'status': 'RESOURCE_EXHAUSTED'}}
+2026-05-20 07:41:31,944 - INFO - Generating Brief for Google Spent a Year Stitching MCP, A2A, AG-UI Together. I/O Today. (zP6TnEiueEc)...
+2026-05-20 07:41:31,945 - INFO - AFC is enabled with max remote calls: 10.
+2026-05-20 07:41:33,991 - ERROR - Schema parsing error for Buyers Step In At The Gap Fill — Top Afternoon Long Setups: Expecting value: line 1 column 1258 (char 1257)
+2026-05-20 07:41:35,415 - INFO - Generating Brief for Trading The Markets: Oil & Yields Trigger Fear, Investors Bullish (7Ubv-Wtx29M)...
+2026-05-20 07:41:35,416 - INFO - AFC is enabled with max remote calls: 10.
+2026-05-20 07:41:35,991 - INFO - ✅ Brief successfully generated for 'Early Days' in 'Unprecedented' URANIUM Bull Cycle - 'You Haven't Missed the Opportunity'
+2026-05-20 07:41:37,289 - INFO - ✅ Brief successfully generated for Google Spent a Year Stitching MCP, A2A, AG-UI Together. I/O Today.
+2026-05-20 07:41:37,507 - INFO - Generating Brief for Tues, May 19, 2026 Financial news.  Is Nvidia about to break the bull-run? Oil, gold, silver... (EMXa_0xMAoM)...
+2026-05-20 07:41:37,508 - INFO - AFC is enabled with max remote calls: 10.
+2026-05-20 07:41:38,272 - ERROR - Error summarising audio Tues, May 19, 2026 Financial news.  Is Nvidia about to break the bull-run? Oil, gold, silver...: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more details.', 'status': 'RESOURCE_EXHAUSTED'}}
+2026-05-20 07:41:38,896 - INFO - Generating Brief for Trump Promised to Be Tough on China. Xi Outplayed Him. | China Decode (EBmtV5Suxv0)...
+2026-05-20 07:41:38,897 - INFO - AFC is enabled with max remote calls: 10.
+2026-05-20 07:41:39,988 - ERROR - Error summarising audio Trump Promised to Be Tough on China. Xi Outplayed Him. | China Decode: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more details.', 'status': 'RESOURCE_EXHAUSTED'}}
+2026-05-20 07:41:40,595 - INFO - ✅ Brief successfully generated for Trading The Markets: Oil & Yields Trigger Fear, Investors Bullish
+2026-05-20 07:41:40,595 - INFO - --- Phase 3: Category Synthesis (5 assets across categories) ---
+2026-05-20 07:41:40,596 - INFO - Analyzing 3 categories: General Financial Investing and Speculation, Precious Metals, Artificial Intelligence
+2026-05-20 07:41:40,596 - INFO - Processing Synthesis for sector: General Financial Investing and Speculation (3 assets)...
+2026-05-20 07:41:40,629 - INFO - AFC is enabled with max remote calls: 10.
+2026-05-20 07:41:41,790 - INFO - AFC is enabled with max remote calls: 10.
+2026-05-20 07:41:42,699 - INFO - AFC is enabled with max remote calls: 10.
+2026-05-20 07:41:43,550 - INFO - ✅ Synthesis complete for General Financial Investing and Speculation
+2026-05-20 07:41:43,550 - INFO - Processing Synthesis for sector: Precious Metals (1 assets)...
+2026-05-20 07:41:43,551 - INFO - AFC is enabled with max remote calls: 10.
+2026-05-20 07:41:44,394 - INFO - ✅ Synthesis complete for Precious Metals
+2026-05-20 07:41:44,395 - INFO - Processing Synthesis for sector: Artificial Intelligence (1 assets)...
+2026-05-20 07:41:44,396 - INFO - AFC is enabled with max remote calls: 10.
+2026-05-20 07:41:45,308 - INFO - ✅ Synthesis complete for Artificial Intelligence
+2026-05-20 07:41:45,321 - INFO - Summarization complete. 5 briefs written to briefs/2026-05-20.md (Time: 41.2s)
+2026-05-20 07:41:46,572 - INFO - Email digest sent successfully to kwilliamson.mail@gmail.com.
+2026-05-20 07:41:47,175 - INFO - Email digest sent successfully to kochava72@gmail.com.
+2026-05-20 07:41:47,214 - INFO - Queue cleared.
+2026-05-20 07:41:47,219 - INFO - ==================================================
+2026-05-20 07:41:47,220 - INFO - Pipeline Execution Complete
+2026-05-20 07:41:47,220 - INFO - ==================================================
