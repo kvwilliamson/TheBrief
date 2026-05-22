@@ -1,0 +1,444 @@
+{
+  "date": "2026-05-22",
+  "briefs": [
+    {
+      "episode_title": "Oil Headlines Trigger Buying, Semi's Ignore NVDA, Massive Upside",
+      "channel": "Verified Investing",
+      "duration_minutes": 24,
+      "podcast_date": "2026-05-22",
+      "processing_date": "2026-05-22",
+      "one_line_summary": "Oil headline leaks designed to suppress oil prices and inflate markets ahead of the holiday weekend.",
+      "core_claims": [
+        "Administration attempts to manipulate market prices by leaking positive oil headlines.",
+        "S&P and NASDAQ ended with small gains.",
+        "NASDAQ breadth was negative, but a few select companies were up.",
+        "Semi market caps are skewing regular NASDAQ performance vs equal weight NASDAQ.",
+        "10-year yield came in helping the market maintain a positive bias."
+      ],
+      "signal_strength": 8,
+      "themes": [
+        "market manipulation",
+        "oil prices",
+        "semiconductors",
+        "market breadth",
+        "earnings reports"
+      ],
+      "positioning_implication": "Be aware of manufactured volatility driven by headline events. Hedge with inverse correlated assets, but recognize this manipulation tends to fade after the holiday weekend.",
+      "time_horizon": "short",
+      "shelf_life": "Short",
+      "thumbnail": "https://i.ytimg.com/vi/J12V-4CFsiw/hqdefault.jpg",
+      "video_url": "https://www.youtube.com/watch?v=J12V-4CFsiw",
+      "cluster_id": 2,
+      "category": "General Financial Investing and Speculation"
+    },
+    {
+      "episode_title": "This Is the Moment the Global Metals Market Cracks | Andy Schectman & Michelle Makori",
+      "channel": "Miles Franklin Media",
+      "duration_minutes": 110,
+      "podcast_date": "2026-05-22",
+      "processing_date": "2026-05-22",
+      "one_line_summary": "Global metal pricing power shifts East as new exchanges expose West's paper market vulnerabilities.",
+      "core_claims": [
+        "Singapore's ABEX exchange is launching physically deliverable silver futures contracts, kilo-bar based, tailored for Asian industrial demand, mirroring their successful gold contract.",
+        "China's active role in expanding the Shanghai Metals Exchange and acquiring the London Metals Exchange (LME) positions it to monopolize precious and base metals.",
+        "The rise of BRICS nations building alternative financial rails and the UAE's strategic shifts signal a move away from Western-dominated systems.",
+        "Growing fragmentation in gold and silver pricing (COMEX, Shanghai, Singapore) reveals discrepancies between paper and physical markets, eroding confidence.",
+        "China's limitation on exporting Dore bars while keeping refined silver product inside increases supply pressure.",
+        "The increasing movement of metal into Singapore volts and the implementation of Hong Kong's gold system, combined with central bank accumulation is creating real market pressure."
+      ],
+      "signal_strength": 8,
+      "themes": [
+        "metals market",
+        "price discovery",
+        "brics",
+        "financial architecture",
+        "geopolitics",
+        "commodities",
+        "tokenization"
+      ],
+      "positioning_implication": "De-emphasize Western benchmarks; prioritize physical metal positions and jurisdictions with expanding industrial demand.",
+      "time_horizon": "medium",
+      "shelf_life": "Medium",
+      "thumbnail": "https://i.ytimg.com/vi/IMCUgGplYLs/hqdefault.jpg",
+      "video_url": "https://www.youtube.com/watch?v=IMCUgGplYLs",
+      "cluster_id": 0,
+      "category": "Precious Metals"
+    },
+    {
+      "episode_title": "Composer 2.5 and I INTERVIEWED THE CEO OF ALPHABET",
+      "channel": "Matthew Berman",
+      "duration_minutes": 44,
+      "podcast_date": "2026-05-22",
+      "processing_date": "2026-05-22",
+      "one_line_summary": "Composer 2.5 positions itself as the best coding model due to its efficient price-to-performance ratio despite not being the most intelligent.",
+      "core_claims": [
+        "Cursor's Composer 2.5 coding model appears to have the best price to performance ratio in the market.",
+        "Composer 2.5 is built on the Kimmy open-source family of models.",
+        "Composer 2.5's coding ability benefits from improved reinforcement learning methods, incorporating text feedback and assigning credit across hundreds of thousands of tokens.",
+        "Composer 2.5 is trained using twenty-five times more synthetic tasks than its predecessor, Composer 2.",
+        "Composer 2.5 is priced at 50 cents per million input tokens and $2.50 per million output tokens.",
+        "SpaceX AI is confirmed to acquire Cursor within 30 days of their IPO."
+      ],
+      "signal_strength": 8,
+      "themes": [
+        "ai models",
+        "coding",
+        "cost optimization",
+        "open source",
+        "market trends",
+        "performance analysis"
+      ],
+      "positioning_implication": "Focus on cost-effective AI solutions for coding tasks, considering open-source alternatives. Evaluate Cursor's model for optimized budget allocation in AI projects.",
+      "time_horizon": "short",
+      "shelf_life": "Medium",
+      "thumbnail": "https://i.ytimg.com/vi/tk9lt-9x8mE/hqdefault.jpg",
+      "video_url": "https://www.youtube.com/watch?v=tk9lt-9x8mE",
+      "cluster_id": 0,
+      "category": "Artificial Intelligence"
+    },
+    {
+      "episode_title": "NVDA Pulls Back, ARM Goes Vertical \u2014 Where I'm Buying And Shorting Today",
+      "channel": "Verified Investing",
+      "duration_minutes": 15,
+      "podcast_date": "2026-05-22",
+      "processing_date": "2026-05-22",
+      "one_line_summary": "The analyst identifies specific entry points for shorting overextended stocks and buying into pullbacks, while also noting potential support and resistance levels.",
+      "core_claims": [
+        "USO has a potential long entry point at $138.60 based on an upsloping trendline and chart gap.",
+        "Bloom Energy is overextended, with a shortable level at a $320 pierce for a day trade, but a close above the upsloping trendline could signal a move to $350.",
+        "SOXX needs to take out the lows of the day at $515.08 to continue its sell-off; resistance is seen at $530.",
+        "Nvidia's pullback offers a day trade long opportunity at $216.61, with swing trade potential at $212.42 if it breaks below the previous gap.",
+        "QBTS's resistance level sits at $24.77, where break above with confirmation would establish long play, $19.31 for pickup on sell off.",
+        "Intuit has support around $306.61, a potential swing trade opportunity for the next three days. closing below may result in a drop to $283.26 and would require the price to drop back into entry price for a swing trade.",
+        "ARM's overextended chart, after a 35% move, is due for a pullback, with a swing trade short level at $288.34 and a day trade range between $282 and $288.",
+        "DE's potential entry point for a day trade with a 1.76% pullback, is at $507.74, and scalp level. heading all the way back down to about $488.",
+        "BEKE minor position long on day trade with break at $16, with stop-out at $15.79 on 15 minute closing basis.",
+        "HOG entry price for day trade approximately $22 conservative short term at 1/20th position, and re-enter at $18 for a swing trade after upsloping trendline break."
+      ],
+      "signal_strength": 7,
+      "themes": [
+        "technical analysis",
+        "shorting opportunities",
+        "long positions",
+        "day trading",
+        "swing trading",
+        "semiconductors",
+        "energy sector"
+      ],
+      "positioning_implication": "Consider shorting overextended assets with defined risk parameters, and prepare to enter long positions on fundamentally sound companies experiencing technical pullbacks.",
+      "time_horizon": "short",
+      "shelf_life": "Short",
+      "thumbnail": "https://i.ytimg.com/vi/YbpBg0WtIUs/hqdefault.jpg",
+      "video_url": "https://www.youtube.com/watch?v=YbpBg0WtIUs",
+      "cluster_id": 1,
+      "category": "General Financial Investing and Speculation"
+    },
+    {
+      "episode_title": "\ud83d\udea8 OIL SPIKES Past $100 As Iran Deal Collapses! Nvidia BEATS But Stalls?! | My Trading Game Plan",
+      "channel": "Verified Investing",
+      "duration_minutes": 20,
+      "podcast_date": "2026-05-22",
+      "processing_date": "2026-05-22",
+      "one_line_summary": "Nvidia's flat performance and a failed Iran nuclear deal are driving market uncertainty and commodity price fluctuations.",
+      "core_claims": [
+        "Nvidia's earnings beat expectations, but its stock remains flat, impacting other semiconductors.",
+        "Oil prices are spiking above $100 a barrel due to the collapse of the Iran nuclear deal.",
+        "The Supreme Leader of Iran's stance on uranium is a major obstacle to the deal.",
+        "Rising oil prices are pushing yields up and causing the stock market to fall.",
+        "Ralph Lauren's strong performance suggests a two-tiered economy where high-end retail thrives despite broader economic struggles."
+      ],
+      "signal_strength": 8,
+      "themes": [
+        "market analysis",
+        "economic indicators",
+        "geopolitics",
+        "investment strategy",
+        "technical analysis",
+        "oil prices"
+      ],
+      "positioning_implication": "Exercise caution and monitor technical indicators, focusing on potential shorting opportunities in overvalued sectors and hedging against commodity price increases. Adapt strategies based on confirmed trend reversals.",
+      "time_horizon": "short",
+      "shelf_life": "Short",
+      "thumbnail": "https://i.ytimg.com/vi/fYN6cAFdiiw/hqdefault.jpg",
+      "video_url": "https://www.youtube.com/watch?v=fYN6cAFdiiw",
+      "cluster_id": 0,
+      "category": "General Financial Investing and Speculation"
+    }
+  ],
+  "category_intelligence": {
+    "General Financial Investing and Speculation": {
+      "name": "General Financial Investing and Speculation",
+      "meta_summary": "",
+      "convergence_score": 0.0,
+      "percentile": 0.0,
+      "regime_state": "Neutral",
+      "clusters": [
+        {
+          "id": 2,
+          "name": "Oil Price Suppression Intensifying Market Manipulation",
+          "description": "Headline leaks suggest a coordinated effort to artificially lower oil prices, potentially inflating market valuations before a holiday.",
+          "bias": "defensive",
+          "regime": "Emerging",
+          "size": 1,
+          "strength": 1.0,
+          "coherence": 1.0,
+          "channels": [
+            "Verified Investing"
+          ],
+          "avg_signal": 8.0,
+          "briefs": [
+            {
+              "episode_title": "Oil Headlines Trigger Buying, Semi's Ignore NVDA, Massive Upside",
+              "channel": "Verified Investing",
+              "duration_minutes": 24,
+              "podcast_date": "2026-05-22",
+              "processing_date": "2026-05-22",
+              "one_line_summary": "Oil headline leaks designed to suppress oil prices and inflate markets ahead of the holiday weekend.",
+              "core_claims": [
+                "Administration attempts to manipulate market prices by leaking positive oil headlines.",
+                "S&P and NASDAQ ended with small gains.",
+                "NASDAQ breadth was negative, but a few select companies were up.",
+                "Semi market caps are skewing regular NASDAQ performance vs equal weight NASDAQ.",
+                "10-year yield came in helping the market maintain a positive bias."
+              ],
+              "signal_strength": 8,
+              "themes": [
+                "market manipulation",
+                "oil prices",
+                "semiconductors",
+                "market breadth",
+                "earnings reports"
+              ],
+              "positioning_implication": "Be aware of manufactured volatility driven by headline events. Hedge with inverse correlated assets, but recognize this manipulation tends to fade after the holiday weekend.",
+              "time_horizon": "short",
+              "shelf_life": "Short",
+              "thumbnail": "https://i.ytimg.com/vi/J12V-4CFsiw/hqdefault.jpg",
+              "video_url": "https://www.youtube.com/watch?v=J12V-4CFsiw",
+              "cluster_id": 2,
+              "category": "General Financial Investing and Speculation"
+            }
+          ]
+        },
+        {
+          "id": 1,
+          "name": "Technicals: Shorting Overextended Stocks Intensifying",
+          "description": "Technical analysis identifies short entry points in overextended stocks and long entry points during pullbacks, focusing on semiconductors and energy.",
+          "bias": "neutral",
+          "regime": "Emerging",
+          "size": 1,
+          "strength": 1.0,
+          "coherence": 1.0,
+          "channels": [
+            "Verified Investing"
+          ],
+          "avg_signal": 7.0,
+          "briefs": [
+            {
+              "episode_title": "NVDA Pulls Back, ARM Goes Vertical \u2014 Where I'm Buying And Shorting Today",
+              "channel": "Verified Investing",
+              "duration_minutes": 15,
+              "podcast_date": "2026-05-22",
+              "processing_date": "2026-05-22",
+              "one_line_summary": "The analyst identifies specific entry points for shorting overextended stocks and buying into pullbacks, while also noting potential support and resistance levels.",
+              "core_claims": [
+                "USO has a potential long entry point at $138.60 based on an upsloping trendline and chart gap.",
+                "Bloom Energy is overextended, with a shortable level at a $320 pierce for a day trade, but a close above the upsloping trendline could signal a move to $350.",
+                "SOXX needs to take out the lows of the day at $515.08 to continue its sell-off; resistance is seen at $530.",
+                "Nvidia's pullback offers a day trade long opportunity at $216.61, with swing trade potential at $212.42 if it breaks below the previous gap.",
+                "QBTS's resistance level sits at $24.77, where break above with confirmation would establish long play, $19.31 for pickup on sell off.",
+                "Intuit has support around $306.61, a potential swing trade opportunity for the next three days. closing below may result in a drop to $283.26 and would require the price to drop back into entry price for a swing trade.",
+                "ARM's overextended chart, after a 35% move, is due for a pullback, with a swing trade short level at $288.34 and a day trade range between $282 and $288.",
+                "DE's potential entry point for a day trade with a 1.76% pullback, is at $507.74, and scalp level. heading all the way back down to about $488.",
+                "BEKE minor position long on day trade with break at $16, with stop-out at $15.79 on 15 minute closing basis.",
+                "HOG entry price for day trade approximately $22 conservative short term at 1/20th position, and re-enter at $18 for a swing trade after upsloping trendline break."
+              ],
+              "signal_strength": 7,
+              "themes": [
+                "technical analysis",
+                "shorting opportunities",
+                "long positions",
+                "day trading",
+                "swing trading",
+                "semiconductors",
+                "energy sector"
+              ],
+              "positioning_implication": "Consider shorting overextended assets with defined risk parameters, and prepare to enter long positions on fundamentally sound companies experiencing technical pullbacks.",
+              "time_horizon": "short",
+              "shelf_life": "Short",
+              "thumbnail": "https://i.ytimg.com/vi/YbpBg0WtIUs/hqdefault.jpg",
+              "video_url": "https://www.youtube.com/watch?v=YbpBg0WtIUs",
+              "cluster_id": 1,
+              "category": "General Financial Investing and Speculation"
+            }
+          ]
+        },
+        {
+          "id": 0,
+          "name": "Geopolitics Intensifying Market Uncertainty",
+          "description": "Iran deal failure and Nvidia's stagnation amplify market volatility and commodity price swings.",
+          "bias": "defensive",
+          "regime": "Emerging",
+          "size": 1,
+          "strength": 1.0,
+          "coherence": 1.0,
+          "channels": [
+            "Verified Investing"
+          ],
+          "avg_signal": 8.0,
+          "briefs": [
+            {
+              "episode_title": "\ud83d\udea8 OIL SPIKES Past $100 As Iran Deal Collapses! Nvidia BEATS But Stalls?! | My Trading Game Plan",
+              "channel": "Verified Investing",
+              "duration_minutes": 20,
+              "podcast_date": "2026-05-22",
+              "processing_date": "2026-05-22",
+              "one_line_summary": "Nvidia's flat performance and a failed Iran nuclear deal are driving market uncertainty and commodity price fluctuations.",
+              "core_claims": [
+                "Nvidia's earnings beat expectations, but its stock remains flat, impacting other semiconductors.",
+                "Oil prices are spiking above $100 a barrel due to the collapse of the Iran nuclear deal.",
+                "The Supreme Leader of Iran's stance on uranium is a major obstacle to the deal.",
+                "Rising oil prices are pushing yields up and causing the stock market to fall.",
+                "Ralph Lauren's strong performance suggests a two-tiered economy where high-end retail thrives despite broader economic struggles."
+              ],
+              "signal_strength": 8,
+              "themes": [
+                "market analysis",
+                "economic indicators",
+                "geopolitics",
+                "investment strategy",
+                "technical analysis",
+                "oil prices"
+              ],
+              "positioning_implication": "Exercise caution and monitor technical indicators, focusing on potential shorting opportunities in overvalued sectors and hedging against commodity price increases. Adapt strategies based on confirmed trend reversals.",
+              "time_horizon": "short",
+              "shelf_life": "Short",
+              "thumbnail": "https://i.ytimg.com/vi/fYN6cAFdiiw/hqdefault.jpg",
+              "video_url": "https://www.youtube.com/watch?v=fYN6cAFdiiw",
+              "cluster_id": 0,
+              "category": "General Financial Investing and Speculation"
+            }
+          ]
+        }
+      ],
+      "should_generate": false
+    },
+    "Precious Metals": {
+      "name": "Precious Metals",
+      "meta_summary": "",
+      "convergence_score": 0.0,
+      "percentile": 0.0,
+      "regime_state": "Neutral",
+      "clusters": [
+        {
+          "id": 0,
+          "name": "Eastward Metal Pricing Power Intensifying",
+          "description": "The East's growing influence in metal exchanges challenges Western dominance in price discovery, potentially reshaping global commodity markets.",
+          "bias": "constructive",
+          "regime": "Emerging",
+          "size": 1,
+          "strength": 0.0,
+          "coherence": 1.0,
+          "channels": [
+            "Miles Franklin Media"
+          ],
+          "avg_signal": 8.0,
+          "briefs": [
+            {
+              "episode_title": "This Is the Moment the Global Metals Market Cracks | Andy Schectman & Michelle Makori",
+              "channel": "Miles Franklin Media",
+              "duration_minutes": 110,
+              "podcast_date": "2026-05-22",
+              "processing_date": "2026-05-22",
+              "one_line_summary": "Global metal pricing power shifts East as new exchanges expose West's paper market vulnerabilities.",
+              "core_claims": [
+                "Singapore's ABEX exchange is launching physically deliverable silver futures contracts, kilo-bar based, tailored for Asian industrial demand, mirroring their successful gold contract.",
+                "China's active role in expanding the Shanghai Metals Exchange and acquiring the London Metals Exchange (LME) positions it to monopolize precious and base metals.",
+                "The rise of BRICS nations building alternative financial rails and the UAE's strategic shifts signal a move away from Western-dominated systems.",
+                "Growing fragmentation in gold and silver pricing (COMEX, Shanghai, Singapore) reveals discrepancies between paper and physical markets, eroding confidence.",
+                "China's limitation on exporting Dore bars while keeping refined silver product inside increases supply pressure.",
+                "The increasing movement of metal into Singapore volts and the implementation of Hong Kong's gold system, combined with central bank accumulation is creating real market pressure."
+              ],
+              "signal_strength": 8,
+              "themes": [
+                "metals market",
+                "price discovery",
+                "brics",
+                "financial architecture",
+                "geopolitics",
+                "commodities",
+                "tokenization"
+              ],
+              "positioning_implication": "De-emphasize Western benchmarks; prioritize physical metal positions and jurisdictions with expanding industrial demand.",
+              "time_horizon": "medium",
+              "shelf_life": "Medium",
+              "thumbnail": "https://i.ytimg.com/vi/IMCUgGplYLs/hqdefault.jpg",
+              "video_url": "https://www.youtube.com/watch?v=IMCUgGplYLs",
+              "cluster_id": 0,
+              "category": "Precious Metals"
+            }
+          ]
+        }
+      ],
+      "should_generate": false
+    },
+    "Artificial Intelligence": {
+      "name": "Artificial Intelligence",
+      "meta_summary": "",
+      "convergence_score": 0.0,
+      "percentile": 0.0,
+      "regime_state": "Neutral",
+      "clusters": [
+        {
+          "id": 0,
+          "name": "AI Model Cost Optimization Intensifying",
+          "description": "Highlights the growing importance of cost-effectiveness in AI model selection, even at the expense of peak intelligence.",
+          "bias": "neutral",
+          "regime": "Emerging",
+          "size": 1,
+          "strength": 0.0,
+          "coherence": 1.0,
+          "channels": [
+            "Matthew Berman"
+          ],
+          "avg_signal": 8.0,
+          "briefs": [
+            {
+              "episode_title": "Composer 2.5 and I INTERVIEWED THE CEO OF ALPHABET",
+              "channel": "Matthew Berman",
+              "duration_minutes": 44,
+              "podcast_date": "2026-05-22",
+              "processing_date": "2026-05-22",
+              "one_line_summary": "Composer 2.5 positions itself as the best coding model due to its efficient price-to-performance ratio despite not being the most intelligent.",
+              "core_claims": [
+                "Cursor's Composer 2.5 coding model appears to have the best price to performance ratio in the market.",
+                "Composer 2.5 is built on the Kimmy open-source family of models.",
+                "Composer 2.5's coding ability benefits from improved reinforcement learning methods, incorporating text feedback and assigning credit across hundreds of thousands of tokens.",
+                "Composer 2.5 is trained using twenty-five times more synthetic tasks than its predecessor, Composer 2.",
+                "Composer 2.5 is priced at 50 cents per million input tokens and $2.50 per million output tokens.",
+                "SpaceX AI is confirmed to acquire Cursor within 30 days of their IPO."
+              ],
+              "signal_strength": 8,
+              "themes": [
+                "ai models",
+                "coding",
+                "cost optimization",
+                "open source",
+                "market trends",
+                "performance analysis"
+              ],
+              "positioning_implication": "Focus on cost-effective AI solutions for coding tasks, considering open-source alternatives. Evaluate Cursor's model for optimized budget allocation in AI projects.",
+              "time_horizon": "short",
+              "shelf_life": "Medium",
+              "thumbnail": "https://i.ytimg.com/vi/tk9lt-9x8mE/hqdefault.jpg",
+              "video_url": "https://www.youtube.com/watch?v=tk9lt-9x8mE",
+              "cluster_id": 0,
+              "category": "Artificial Intelligence"
+            }
+          ]
+        }
+      ],
+      "should_generate": false
+    }
+  },
+  "clusters": []
+}
