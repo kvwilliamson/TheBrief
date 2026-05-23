@@ -8896,3 +8896,110 @@
 2026-05-22 07:42:54,546 - INFO - ==================================================
 2026-05-22 07:42:54,546 - INFO - Pipeline Execution Complete
 2026-05-22 07:42:54,546 - INFO - ==================================================
+2026-05-23 07:11:08,596 - INFO - ==================================================
+2026-05-23 07:11:08,596 - INFO - Starting TheBrief Daily Pipeline
+2026-05-23 07:11:08,596 - INFO - ==================================================
+2026-05-23 07:11:08,596 - INFO - 
+--- Phase 1: Discovery ---
+2026-05-23 07:11:08,600 - INFO - Discovering videos published after 2026-05-22T07:11:08.600188+00:00 (24h lookback)
+2026-05-23 07:11:09,021 - INFO - Found 1 new potential videos on GoldSilver .
+2026-05-23 07:11:09,293 - INFO - Found 1 new potential videos on Wall Street Bullion .
+2026-05-23 07:11:09,420 - INFO - Found 3 new potential videos on AI News & Strategy Daily | Nate B Jones.
+2026-05-23 07:11:09,743 - INFO - Found 1 new potential videos on Kitco NEWS.
+2026-05-23 07:11:09,766 - INFO - Found 1 new potential videos on David Lin .
+2026-05-23 07:11:09,826 - INFO - Found 2 new potential videos on TheTechnicalTraders.
+2026-05-23 07:11:10,290 - INFO - Found 1 new potential videos on CPM Group.
+2026-05-23 07:11:10,380 - INFO - Found 3 new potential videos on Verified Investing.
+2026-05-23 07:11:10,555 - INFO - Found 1 new potential videos on Felix & Friends (Goat Academy).
+2026-05-23 07:11:10,636 - INFO - Found 1 new potential videos on Commodity Culture.
+2026-05-23 07:11:10,825 - INFO - Found 2 new potential videos on The Prof G Pod – Scott Galloway.
+2026-05-23 07:11:11,023 - INFO - Found 12 total long-form videos across all channels.
+2026-05-23 07:11:11,041 - INFO - Discovery complete. Added 12 new videos to queue.
+2026-05-23 07:11:11,042 - INFO - 
+--- Phase 2: Extraction ---
+2026-05-23 07:11:11,295 - INFO - yt-dlp version: 2026.03.17
+2026-05-23 07:11:11,665 - INFO - POT-related packages: bgutil-ytdlp-pot-provider 1.3.1
+2026-05-23 07:11:11,688 - INFO - bgutil HTTP server not available on port 4416 (will rely on cookies)
+2026-05-23 07:11:11,688 - INFO - Extracting audio for Greed Dominates Into Holiday As More Cracks Emerge In Debt Markets, Economy & Narratives (V7vgE7SRndI)...
+2026-05-23 07:11:25,696 - INFO - Successfully extracted: audio/V7vgE7SRndI.mp3
+2026-05-23 07:11:36,306 - INFO - Extracting audio for Market Crash In 2026? Chief Economist Reveals A New 3-Year Cycle | Anna Wong (mWvNRRkcd_c)...
+2026-05-23 07:11:51,045 - INFO - Successfully extracted: audio/mWvNRRkcd_c.mp3
+2026-05-23 07:12:02,085 - INFO - Extracting audio for Warsh Nomination Was the Biggest ‘Hit Job’ on Precious Metals | Mark Thornton (o5Q-LwLoMz4)...
+2026-05-23 07:12:32,271 - INFO - Successfully extracted: audio/o5Q-LwLoMz4.mp3
+2026-05-23 07:12:42,279 - INFO - Extracting audio for Silver Just Hit a Breaking Point — Buy BEFORE This Happens! (XHAjYpvGRJQ)...
+2026-05-23 07:12:58,010 - INFO - Successfully extracted: audio/XHAjYpvGRJQ.mp3
+2026-05-23 07:13:06,783 - INFO - Extracting audio for US Military 'Trapped' in Iran - 'We're in Uncharted Territory': Col. Douglas Macgregor (CXdytBe4CzU)...
+2026-05-23 07:13:31,565 - INFO - Successfully extracted: audio/CXdytBe4CzU.mp3
+2026-05-23 07:13:41,905 - INFO - Extracting audio for Yields Climb, Semis Surge — Why The Next Move Could Break Everything (8xphXC1jFi4)...
+2026-05-23 07:13:54,087 - INFO - Successfully extracted: audio/8xphXC1jFi4.mp3
+2026-05-23 07:14:00,784 - INFO - Extracting audio for How America Became a Loophole Economy (DmPIKeLtaLk)...
+2026-05-23 07:14:15,832 - INFO - Successfully extracted: audio/DmPIKeLtaLk.mp3
+2026-05-23 07:14:20,879 - INFO - Extracting audio for The One AI Writing Hack Nobody Talks About. (ltbzgzZZmgI)...
+2026-05-23 07:14:37,665 - INFO - Successfully extracted: audio/ltbzgzZZmgI.mp3
+2026-05-23 07:14:43,621 - INFO - Extracting audio for Market remains bullish and metals are neutral + (NVDA & SPCX Hype) (JW9eYvwW_Tk)...
+2026-05-23 07:14:52,952 - INFO - Successfully extracted: audio/JW9eYvwW_Tk.mp3
+2026-05-23 07:15:02,176 - INFO - Extracting audio for Crude Oil Plunges! Crucial Technical Levels To Watch (6_58L6_48U4)...
+2026-05-23 07:15:15,273 - INFO - Successfully extracted: audio/6_58L6_48U4.mp3
+2026-05-23 07:15:20,705 - INFO - Extracting audio for Is There A Potential Future For A Gold Standard (zZfOgjJ0WWs)...
+2026-05-23 07:15:37,934 - INFO - Successfully extracted: audio/zZfOgjJ0WWs.mp3
+2026-05-23 07:15:45,918 - INFO - Extracting audio for The $14 Stock You’ll Wish You Bought before the SpaceX IPO (FJhjpqVaXbY)...
+2026-05-23 07:16:02,038 - INFO - Successfully extracted: audio/FJhjpqVaXbY.mp3
+2026-05-23 07:16:02,039 - INFO - Extraction complete. 12/12 audio files ready. (Time: 290.4s)
+2026-05-23 07:16:02,039 - INFO - 
+--- Phase 3: Summarization (Direct Audio) ---
+2026-05-23 07:16:03,743 - INFO - Generating Brief for Market Crash In 2026? Chief Economist Reveals A New 3-Year Cycle | Anna Wong (mWvNRRkcd_c)...
+2026-05-23 07:16:03,746 - INFO - AFC is enabled with max remote calls: 10.
+2026-05-23 07:16:04,067 - INFO - Generating Brief for Warsh Nomination Was the Biggest ‘Hit Job’ on Precious Metals | Mark Thornton (o5Q-LwLoMz4)...
+2026-05-23 07:16:04,068 - INFO - AFC is enabled with max remote calls: 10.
+2026-05-23 07:16:04,175 - INFO - Generating Brief for Greed Dominates Into Holiday As More Cracks Emerge In Debt Markets, Economy & Narratives (V7vgE7SRndI)...
+2026-05-23 07:16:04,176 - INFO - AFC is enabled with max remote calls: 10.
+2026-05-23 07:16:09,152 - INFO - ✅ Brief successfully generated for Greed Dominates Into Holiday As More Cracks Emerge In Debt Markets, Economy & Narratives
+2026-05-23 07:16:09,163 - ERROR - Schema parsing error for Market Crash In 2026? Chief Economist Reveals A New 3-Year Cycle | Anna Wong: Expecting value: line 1 column 1236 (char 1235)
+2026-05-23 07:16:10,682 - INFO - Generating Brief for Silver Just Hit a Breaking Point — Buy BEFORE This Happens! (XHAjYpvGRJQ)...
+2026-05-23 07:16:10,683 - INFO - AFC is enabled with max remote calls: 10.
+2026-05-23 07:16:11,983 - INFO - Generating Brief for US Military 'Trapped' in Iran - 'We're in Uncharted Territory': Col. Douglas Macgregor (CXdytBe4CzU)...
+2026-05-23 07:16:11,985 - INFO - AFC is enabled with max remote calls: 10.
+2026-05-23 07:16:13,167 - ERROR - Error summarising audio US Military 'Trapped' in Iran - 'We're in Uncharted Territory': Col. Douglas Macgregor: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more details.', 'status': 'RESOURCE_EXHAUSTED'}}
+2026-05-23 07:16:15,319 - INFO - Generating Brief for Yields Climb, Semis Surge — Why The Next Move Could Break Everything (8xphXC1jFi4)...
+2026-05-23 07:16:15,320 - INFO - AFC is enabled with max remote calls: 10.
+2026-05-23 07:16:17,080 - INFO - ✅ Brief successfully generated for Silver Just Hit a Breaking Point — Buy BEFORE This Happens!
+2026-05-23 07:16:18,538 - INFO - Generating Brief for How America Became a Loophole Economy (DmPIKeLtaLk)...
+2026-05-23 07:16:18,539 - INFO - AFC is enabled with max remote calls: 10.
+2026-05-23 07:16:20,886 - ERROR - Schema parsing error for Yields Climb, Semis Surge — Why The Next Move Could Break Everything: Expecting value: line 1 column 1434 (char 1433)
+2026-05-23 07:16:22,995 - INFO - Generating Brief for The One AI Writing Hack Nobody Talks About. (ltbzgzZZmgI)...
+2026-05-23 07:16:22,996 - INFO - AFC is enabled with max remote calls: 10.
+2026-05-23 07:16:24,985 - INFO - ✅ Brief successfully generated for How America Became a Loophole Economy
+2026-05-23 07:16:25,863 - ERROR - Error summarising audio Warsh Nomination Was the Biggest ‘Hit Job’ on Precious Metals | Mark Thornton: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more details.', 'status': 'RESOURCE_EXHAUSTED'}}
+2026-05-23 07:16:26,260 - INFO - Generating Brief for Market remains bullish and metals are neutral + (NVDA & SPCX Hype) (JW9eYvwW_Tk)...
+2026-05-23 07:16:26,261 - INFO - AFC is enabled with max remote calls: 10.
+2026-05-23 07:16:27,967 - INFO - Generating Brief for Crude Oil Plunges! Crucial Technical Levels To Watch (6_58L6_48U4)...
+2026-05-23 07:16:27,968 - INFO - AFC is enabled with max remote calls: 10.
+2026-05-23 07:16:30,511 - INFO - ✅ Brief successfully generated for Market remains bullish and metals are neutral + (NVDA & SPCX Hype)
+2026-05-23 07:16:31,832 - INFO - Generating Brief for Is There A Potential Future For A Gold Standard (zZfOgjJ0WWs)...
+2026-05-23 07:16:31,833 - INFO - AFC is enabled with max remote calls: 10.
+2026-05-23 07:16:33,016 - INFO - ✅ Brief successfully generated for The One AI Writing Hack Nobody Talks About.
+2026-05-23 07:16:34,052 - INFO - ✅ Brief successfully generated for Crude Oil Plunges! Crucial Technical Levels To Watch
+2026-05-23 07:16:34,672 - INFO - Generating Brief for The $14 Stock You’ll Wish You Bought before the SpaceX IPO (FJhjpqVaXbY)...
+2026-05-23 07:16:34,673 - INFO - AFC is enabled with max remote calls: 10.
+2026-05-23 07:16:35,675 - ERROR - Error summarising audio The $14 Stock You’ll Wish You Bought before the SpaceX IPO: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more details.', 'status': 'RESOURCE_EXHAUSTED'}}
+2026-05-23 07:16:42,719 - ERROR - Schema parsing error for Is There A Potential Future For A Gold Standard: Expecting value: line 1 column 1250 (char 1249)
+2026-05-23 07:16:43,331 - INFO - --- Phase 3: Category Synthesis (6 assets across categories) ---
+2026-05-23 07:16:43,331 - INFO - Analyzing 3 categories: General Financial Investing and Speculation, Precious Metals, Artificial Intelligence
+2026-05-23 07:16:43,331 - INFO - Processing Synthesis for sector: General Financial Investing and Speculation (4 assets)...
+2026-05-23 07:16:43,361 - INFO - AFC is enabled with max remote calls: 10.
+2026-05-23 07:16:44,415 - INFO - AFC is enabled with max remote calls: 10.
+2026-05-23 07:16:45,396 - INFO - AFC is enabled with max remote calls: 10.
+2026-05-23 07:16:46,543 - INFO - ✅ Synthesis complete for General Financial Investing and Speculation
+2026-05-23 07:16:46,543 - INFO - Processing Synthesis for sector: Precious Metals (1 assets)...
+2026-05-23 07:16:46,544 - INFO - AFC is enabled with max remote calls: 10.
+2026-05-23 07:16:47,455 - INFO - ✅ Synthesis complete for Precious Metals
+2026-05-23 07:16:47,455 - INFO - Processing Synthesis for sector: Artificial Intelligence (1 assets)...
+2026-05-23 07:16:47,456 - INFO - AFC is enabled with max remote calls: 10.
+2026-05-23 07:16:48,262 - INFO - ✅ Synthesis complete for Artificial Intelligence
+2026-05-23 07:16:48,277 - INFO - Summarization complete. 6 briefs written to briefs/2026-05-23.md (Time: 46.2s)
+2026-05-23 07:16:49,701 - INFO - Email digest sent successfully to kwilliamson.mail@gmail.com.
+2026-05-23 07:16:50,279 - INFO - Email digest sent successfully to kochava72@gmail.com.
+2026-05-23 07:16:50,292 - INFO - Queue cleared.
+2026-05-23 07:16:50,292 - INFO - ==================================================
+2026-05-23 07:16:50,293 - INFO - Pipeline Execution Complete
+2026-05-23 07:16:50,293 - INFO - ==================================================
