@@ -1,0 +1,268 @@
+{
+  "date": "2026-05-25",
+  "briefs": [
+    {
+      "episode_title": "Why the AI boom is about to hit a wall",
+      "channel": "AI News & Strategy Daily | Nate B Jones",
+      "duration_minutes": 33,
+      "podcast_date": "2026-05-25",
+      "processing_date": "2024-05-29",
+      "one_line_summary": "AI vendors are facing capacity constraints due to supply chain limitations affecting hardware manufacturing.",
+      "core_claims": [
+        "Microsoft will spend $190 billion on CAPEX this calendar year but still expects to be capacity constrained through year-end.",
+        "AI vendor contracts are evolving from software-based agreements to supply contracts due to hyperscaler spending and resource rationing.",
+        "Global data center electricity consumption is projected to roughly double to about 945 terawatt-hours by 2030."
+      ],
+      "signal_strength": 8,
+      "themes": [
+        "ai infrastructure",
+        "supply chain",
+        "capacity constraints",
+        "capital expenditure",
+        "investment strategy",
+        "vendor contracts"
+      ],
+      "positioning_implication": "Re-evaluate AI investment strategies to account for infrastructure limitations and supply chain dependencies.",
+      "time_horizon": "medium",
+      "shelf_life": "Medium",
+      "thumbnail": "https://i.ytimg.com/vi/Poyi6X7rOwY/hqdefault.jpg",
+      "video_url": "https://www.youtube.com/watch?v=Poyi6X7rOwY",
+      "cluster_id": 0,
+      "category": "Artificial Intelligence"
+    },
+    {
+      "episode_title": "Will End Of Iran War & New Rate Cut Hopes Be Enough For Silver in 2026?",
+      "channel": "Bald Guy Money",
+      "duration_minutes": 13,
+      "podcast_date": "2026-05-25",
+      "processing_date": "2024-05-26",
+      "one_line_summary": "Silver's price consolidation amidst geopolitical news and rate cut expectations may trigger an upward trend, though hitting $300 this summer is unlikely.",
+      "core_claims": [
+        "Silver price is not consistently making lower lows and lower highs on a monthly closing basis.",
+        "Silver's lows in April and May were higher than the previous months.",
+        "An upward trend for silver is evident when looking at the average annual price since 2000.",
+        "Expect $60 silver by 2026 due to the crunch on supply.",
+        "If the silver price replicates the most explosive five-month period ever between September 1979 and January 1980, silver could reach $332 an ounce.",
+        "Silver's price may recover and see new highs in mid-July, aligning with Michael Oliver's timeline."
+      ],
+      "signal_strength": 7,
+      "themes": [
+        "silver",
+        "price analysis",
+        "market trends",
+        "economic forecast",
+        "geopolitics",
+        "interest rates"
+      ],
+      "positioning_implication": "Consider a cautiously optimistic outlook for silver, anticipating upward movement but calibrating expectations based on conservative growth models and Federal Reserve actions.  Allocate capital gradually to account for volatility.",
+      "time_horizon": "medium",
+      "shelf_life": "Medium",
+      "thumbnail": "https://i.ytimg.com/vi/xwnGbEQENgU/hqdefault.jpg",
+      "video_url": "https://www.youtube.com/watch?v=xwnGbEQENgU",
+      "cluster_id": 0,
+      "category": "General Financial Investing and Speculation"
+    },
+    {
+      "episode_title": "Silver to $100 by July, $200 by the Year-End \u2013 This Is How the Price Will Move | Mario Innecco",
+      "channel": "Miles Franklin Media",
+      "duration_minutes": 57,
+      "podcast_date": "2026-05-25",
+      "processing_date": "2024-05-25",
+      "one_line_summary": "A global sovereign debt crisis is coming, and gold may reach $7,000 by year-end while silver hits $100 by July.",
+      "core_claims": [
+        "Gold could reach $7,000 by the end of this year.",
+        "Silver can reach $100 per ounce by July.",
+        "A global sovereign debt crisis is imminent.",
+        "The conflict in Iran will accelerate de-dollarization."
+      ],
+      "signal_strength": 8,
+      "themes": [
+        "precious metals",
+        "economic crisis",
+        "de-dollarization",
+        "geopolitics",
+        "sovereign debt",
+        "inflation"
+      ],
+      "positioning_implication": "Shift portfolio allocation towards hard assets, anticipating currency system instability and accelerated de-dollarization.",
+      "time_horizon": "medium",
+      "shelf_life": "Medium",
+      "thumbnail": "https://i.ytimg.com/vi/RUhTPZk-orY/hqdefault.jpg",
+      "video_url": "https://www.youtube.com/watch?v=RUhTPZk-orY",
+      "cluster_id": 0,
+      "category": "Precious Metals"
+    }
+  ],
+  "category_intelligence": {
+    "Artificial Intelligence": {
+      "name": "Artificial Intelligence",
+      "meta_summary": "",
+      "convergence_score": 0.0,
+      "percentile": 0.0,
+      "regime_state": "Neutral",
+      "clusters": [
+        {
+          "id": 0,
+          "name": "AI Vendor Capacity Tightening",
+          "description": "AI vendors face hardware supply chain constraints, limiting capacity and potentially impacting investment strategies.",
+          "bias": "neutral",
+          "regime": "Emerging",
+          "size": 1,
+          "strength": 0.0,
+          "coherence": 1.0,
+          "channels": [
+            "AI News & Strategy Daily | Nate B Jones"
+          ],
+          "avg_signal": 8.0,
+          "briefs": [
+            {
+              "episode_title": "Why the AI boom is about to hit a wall",
+              "channel": "AI News & Strategy Daily | Nate B Jones",
+              "duration_minutes": 33,
+              "podcast_date": "2026-05-25",
+              "processing_date": "2024-05-29",
+              "one_line_summary": "AI vendors are facing capacity constraints due to supply chain limitations affecting hardware manufacturing.",
+              "core_claims": [
+                "Microsoft will spend $190 billion on CAPEX this calendar year but still expects to be capacity constrained through year-end.",
+                "AI vendor contracts are evolving from software-based agreements to supply contracts due to hyperscaler spending and resource rationing.",
+                "Global data center electricity consumption is projected to roughly double to about 945 terawatt-hours by 2030."
+              ],
+              "signal_strength": 8,
+              "themes": [
+                "ai infrastructure",
+                "supply chain",
+                "capacity constraints",
+                "capital expenditure",
+                "investment strategy",
+                "vendor contracts"
+              ],
+              "positioning_implication": "Re-evaluate AI investment strategies to account for infrastructure limitations and supply chain dependencies.",
+              "time_horizon": "medium",
+              "shelf_life": "Medium",
+              "thumbnail": "https://i.ytimg.com/vi/Poyi6X7rOwY/hqdefault.jpg",
+              "video_url": "https://www.youtube.com/watch?v=Poyi6X7rOwY",
+              "cluster_id": 0,
+              "category": "Artificial Intelligence"
+            }
+          ]
+        }
+      ],
+      "should_generate": false
+    },
+    "General Financial Investing and Speculation": {
+      "name": "General Financial Investing and Speculation",
+      "meta_summary": "",
+      "convergence_score": 0.0,
+      "percentile": 0.0,
+      "regime_state": "Neutral",
+      "clusters": [
+        {
+          "id": 0,
+          "name": "Silver: Geopolitics Intensifying Price Consolidation",
+          "description": "Silver's price consolidation, influenced by geopolitics and rate cut expectations, suggests a potential upward trend, albeit with limited near-term gains.",
+          "bias": "neutral",
+          "regime": "Emerging",
+          "size": 1,
+          "strength": 0.0,
+          "coherence": 1.0,
+          "channels": [
+            "Bald Guy Money"
+          ],
+          "avg_signal": 7.0,
+          "briefs": [
+            {
+              "episode_title": "Will End Of Iran War & New Rate Cut Hopes Be Enough For Silver in 2026?",
+              "channel": "Bald Guy Money",
+              "duration_minutes": 13,
+              "podcast_date": "2026-05-25",
+              "processing_date": "2024-05-26",
+              "one_line_summary": "Silver's price consolidation amidst geopolitical news and rate cut expectations may trigger an upward trend, though hitting $300 this summer is unlikely.",
+              "core_claims": [
+                "Silver price is not consistently making lower lows and lower highs on a monthly closing basis.",
+                "Silver's lows in April and May were higher than the previous months.",
+                "An upward trend for silver is evident when looking at the average annual price since 2000.",
+                "Expect $60 silver by 2026 due to the crunch on supply.",
+                "If the silver price replicates the most explosive five-month period ever between September 1979 and January 1980, silver could reach $332 an ounce.",
+                "Silver's price may recover and see new highs in mid-July, aligning with Michael Oliver's timeline."
+              ],
+              "signal_strength": 7,
+              "themes": [
+                "silver",
+                "price analysis",
+                "market trends",
+                "economic forecast",
+                "geopolitics",
+                "interest rates"
+              ],
+              "positioning_implication": "Consider a cautiously optimistic outlook for silver, anticipating upward movement but calibrating expectations based on conservative growth models and Federal Reserve actions.  Allocate capital gradually to account for volatility.",
+              "time_horizon": "medium",
+              "shelf_life": "Medium",
+              "thumbnail": "https://i.ytimg.com/vi/xwnGbEQENgU/hqdefault.jpg",
+              "video_url": "https://www.youtube.com/watch?v=xwnGbEQENgU",
+              "cluster_id": 0,
+              "category": "General Financial Investing and Speculation"
+            }
+          ]
+        }
+      ],
+      "should_generate": false
+    },
+    "Precious Metals": {
+      "name": "Precious Metals",
+      "meta_summary": "",
+      "convergence_score": 0.0,
+      "percentile": 0.0,
+      "regime_state": "Neutral",
+      "clusters": [
+        {
+          "id": 0,
+          "name": "Sovereign Debt Crisis Intensifying Gold Rally",
+          "description": "The narrative suggests a sovereign debt crisis will accelerate the appreciation of precious metals, particularly gold and silver.",
+          "bias": "constructive",
+          "regime": "Emerging",
+          "size": 1,
+          "strength": 0.0,
+          "coherence": 1.0,
+          "channels": [
+            "Miles Franklin Media"
+          ],
+          "avg_signal": 8.0,
+          "briefs": [
+            {
+              "episode_title": "Silver to $100 by July, $200 by the Year-End \u2013 This Is How the Price Will Move | Mario Innecco",
+              "channel": "Miles Franklin Media",
+              "duration_minutes": 57,
+              "podcast_date": "2026-05-25",
+              "processing_date": "2024-05-25",
+              "one_line_summary": "A global sovereign debt crisis is coming, and gold may reach $7,000 by year-end while silver hits $100 by July.",
+              "core_claims": [
+                "Gold could reach $7,000 by the end of this year.",
+                "Silver can reach $100 per ounce by July.",
+                "A global sovereign debt crisis is imminent.",
+                "The conflict in Iran will accelerate de-dollarization."
+              ],
+              "signal_strength": 8,
+              "themes": [
+                "precious metals",
+                "economic crisis",
+                "de-dollarization",
+                "geopolitics",
+                "sovereign debt",
+                "inflation"
+              ],
+              "positioning_implication": "Shift portfolio allocation towards hard assets, anticipating currency system instability and accelerated de-dollarization.",
+              "time_horizon": "medium",
+              "shelf_life": "Medium",
+              "thumbnail": "https://i.ytimg.com/vi/RUhTPZk-orY/hqdefault.jpg",
+              "video_url": "https://www.youtube.com/watch?v=RUhTPZk-orY",
+              "cluster_id": 0,
+              "category": "Precious Metals"
+            }
+          ]
+        }
+      ],
+      "should_generate": false
+    }
+  },
+  "clusters": []
+}
