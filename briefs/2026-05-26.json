@@ -1,0 +1,497 @@
+{
+  "date": "2026-05-26",
+  "briefs": [
+    {
+      "episode_title": "Claude, The Pope, and AGI",
+      "channel": "Wes Roth",
+      "duration_minutes": 19,
+      "podcast_date": "2026-05-26",
+      "processing_date": "2026-05-26",
+      "one_line_summary": "The Vatican and Anthropic collaborate on AI ethics, addressing job displacement and AI regulation, highlighting the complex societal impacts of AI beyond its technical capabilities.",
+      "core_claims": [
+        "Anthropic partners with the Vatican to discuss AI ethics globally, signaling a serious collaboration, not just a PR event.",
+        "Anthropic's ethical collaboration with the Catholic Church signifies a historical first where an AI company receives a form of endorsement from the Pope.",
+        "AI's potential to displace jobs is acknowledged as a central concern by both Anthropic and the Vatican, prompting discussions on managing the transition.",
+        "AI labs are framed as entities that require oversight and cannot be trusted by default due to the inherent biases of their creators and potential risks to humanity.",
+        "AI's behavior, driven by vast amounts of human knowledge, exhibits unique and sometimes unsettling characteristics, highlighting the limitations of traditional engineering perspectives.",
+        "The discourse extends beyond mere income concerns to acknowledge work's role in providing identity, belonging, dignity, and family stability, aspects that require consideration in any AI-driven societal shift."
+      ],
+      "signal_strength": 9,
+      "themes": [
+        "ai ethics",
+        "job displacement",
+        "catholic church",
+        "regulation",
+        "interpretability",
+        "societal impact"
+      ],
+      "positioning_implication": "Anticipate shifts in ethical frameworks and policy discussions as religious institutions engage with AI development. Consider strategies for managing potential job losses and ensuring equitable access to resources in an AI-driven economy.",
+      "time_horizon": "medium",
+      "shelf_life": "Medium",
+      "thumbnail": "https://i.ytimg.com/vi/uFnxyXlRxag/hqdefault.jpg",
+      "video_url": "https://www.youtube.com/watch?v=uFnxyXlRxag",
+      "cluster_id": 0,
+      "category": "Artificial Intelligence"
+    },
+    {
+      "episode_title": "Silver Price CRASH to $20 CONFIRMED?! This Is Worse Than We Thought",
+      "channel": "Wall Street Bullion",
+      "duration_minutes": 30,
+      "podcast_date": "2026-05-26",
+      "processing_date": "2024-02-01",
+      "one_line_summary": "The period of explosive precious metal price moves is over, shifting market dynamics into a bearish, DCA-focused phase.",
+      "core_claims": [
+        "Explosive price movements in gold and silver are over.",
+        "Gold and silver markets are now in a dollar-cost averaging (DCA) phase.",
+        "Elevated inflation is expected to persist for a long period.",
+        "Energy demand will increase due to American and European reindustrialization.",
+        "The US is enacting a siege against Iran's nuclear material development."
+      ],
+      "signal_strength": 7,
+      "themes": [
+        "precious metals",
+        "market analysis",
+        "inflation",
+        "geopolitics",
+        "energy markets",
+        "investing"
+      ],
+      "positioning_implication": "Shift investment strategies to focus on long-term accumulation of precious metals and hedging against geopolitical instability and energy market volatility.",
+      "time_horizon": "medium",
+      "shelf_life": "Medium",
+      "thumbnail": "https://i.ytimg.com/vi/cvNn7vreY0o/hqdefault.jpg",
+      "video_url": "https://www.youtube.com/watch?v=cvNn7vreY0o",
+      "cluster_id": 0,
+      "category": "Precious Metals"
+    },
+    {
+      "episode_title": "Scott Galloway : The Real Problem with CEO Pay | Office Hours",
+      "channel": "The Prof G Pod \u2013 Scott Galloway",
+      "duration_minutes": 30,
+      "podcast_date": "2026-05-26",
+      "processing_date": "2026-05-26",
+      "one_line_summary": "CEO pay is excessively high relative to worker pay, which necessitates progressive tax policies.",
+      "core_claims": [
+        "S&P 500 CEO pay rose 26% between 2024 and 2025, while average hourly earnings for private-sector workers rose just 1.3% in real terms.",
+        "In 2024, the CEO-to-worker pay ratio was 281 to 1, significantly higher than historical levels, such as 21 to 1 in 1965.",
+        "By 2023, the ratio of CEO pay to the average top 0.1% earner had risen to 7.5x, compared to almost 3x between 1965 and 1978.",
+        "Progressive tax policies should target a 70% marginal tax rate on high earners like Elon Musk, and corporations should pay an alternative minimum tax of 40% as opposed to the current average closer to 15%.",
+        "Lowering rates for earners and increasing rates for owners will equalize the tax burden.",
+        "Imposing a \\$25/hour minimum wage and taxing high CEO compensation will yield better outcomes for most stakeholders, as money cannot buy happiness after a certain threshold."
+      ],
+      "signal_strength": 8,
+      "themes": [
+        "ceo pay",
+        "income inequality",
+        "tax policy",
+        "social construct",
+        "volunteerism",
+        "masculinity"
+      ],
+      "positioning_implication": "Advocate for progressive tax reforms and policies that prioritize earnings over ownership to address income inequality.  Encourage corporate structures that reward broad-based value creation rather than disproportionately benefiting top executives.",
+      "time_horizon": "long",
+      "shelf_life": "Medium",
+      "thumbnail": "https://i.ytimg.com/vi/ZYYPYCFf_WA/hqdefault.jpg",
+      "video_url": "https://www.youtube.com/watch?v=ZYYPYCFf_WA",
+      "cluster_id": 2,
+      "category": "General Financial Investing and Speculation"
+    },
+    {
+      "episode_title": "Bitcoin In 'Midcycle Reset', CEO Reveals What History Says Comes Next | Norma Chu",
+      "channel": "David Lin",
+      "duration_minutes": 45,
+      "podcast_date": "2026-05-26",
+      "processing_date": "2024-06-04",
+      "one_line_summary": "DDC's CEO outlines Bitcoin treasury strategy amidst perceived mid-cycle reset and potential sector consolidation.",
+      "core_claims": [
+        "A portion of US-listed digital asset treasury companies trading today will consolidate, get acquired, or exit the strategy entirely by the end of 2028.",
+        "DDC's average cost on its current Bitcoin holding is $80,000, one of the lowest cost bases among all US listed peers.",
+        "The internal Bitcoin acquisition target by the end of the year is to hit the 5,000-6,000 range.",
+        "DDC's next milestone in the next couple of years will be top 10 globally or 14,000 Bitcoin."
+      ],
+      "signal_strength": 7,
+      "themes": [
+        "bitcoin",
+        "treasury strategy",
+        "consolidation",
+        "risk management",
+        "ai integration",
+        "entrepreneurship"
+      ],
+      "positioning_implication": "Prioritize adaptable strategies that can accommodate potential market corrections and industry shifts. Consider diversifying resources to reinforce core operational strengths.",
+      "time_horizon": "medium",
+      "shelf_life": "Medium",
+      "thumbnail": "https://i.ytimg.com/vi/atp6YKYgV_Q/hqdefault.jpg",
+      "video_url": "https://www.youtube.com/watch?v=atp6YKYgV_Q",
+      "cluster_id": 0,
+      "category": "General Financial Investing and Speculation"
+    },
+    {
+      "episode_title": "The First Domino in the US Debt Crisis",
+      "channel": "Felix & Friends (Goat Academy)",
+      "duration_minutes": 34,
+      "podcast_date": "2026-05-26",
+      "processing_date": "2026-05-26",
+      "one_line_summary": "A major US ally requested a dollar lifeline threatening to sell oil in Chinese Yuan, potentially unraveling the dollar's global dominance.",
+      "core_claims": [
+        "The United Arab Emirates requested a currency swap line from the US Treasury.",
+        "The UAE implied it might sell oil in Chinese Renminbi if denied dollar access.",
+        "Many Gulf and Asian allies have requested similar dollar lifelines.",
+        "Central banks are holding more reserves in gold than in US debt for the first time in over 35 years.",
+        "Goldman Sachs and JP Morgan predict a further 10% decline in the dollar's value.",
+        "The speaker predicts interest rates are going to go to 6% in the U.S."
+      ],
+      "signal_strength": 9,
+      "themes": [
+        "geopolitics",
+        "economics",
+        "debt crisis",
+        "currency war",
+        "investment strategy",
+        "treasury bonds"
+      ],
+      "positioning_implication": "De-risk portfolios exposed to dollar depreciation; consider diversifying into hard assets and energy. Understand that bond markets have more control over the Fed than the Fed has on them.",
+      "time_horizon": "medium",
+      "shelf_life": "Medium",
+      "thumbnail": "https://i.ytimg.com/vi/-e5HoR4T8Zk/hqdefault.jpg",
+      "video_url": "https://www.youtube.com/watch?v=-e5HoR4T8Zk",
+      "cluster_id": 0,
+      "category": "General Financial Investing and Speculation"
+    },
+    {
+      "episode_title": "Monday May 25, 2026: Financial Markets update. Wars, Stocks, Oil, Gold, Silver, and SpaceX",
+      "channel": "Clive Thompson",
+      "duration_minutes": 20,
+      "podcast_date": "2026-05-26",
+      "processing_date": "2024-01-26",
+      "one_line_summary": "Stock market indices have shown gains for eight consecutive weeks, while the SpaceX IPO and geopolitical factors are influencing financial markets.",
+      "core_claims": [
+        "US stock market saw another week of gains, with Dow Jones hitting an all-time record after eight weeks of increases, a 1 in 256 chance.",
+        "Strait of Hormuz is partially open, but Iran is charging $150,000 security fees with some ships being refused entry, particularly Western vessels.",
+        "Negotiations between the USA and Iran are reportedly uncertain; contradicting previous week reports, stock markets are not significantly reacting to this news.",
+        "SpaceX aims to raise $50-$75 billion, targeting a market capitalization of $1.75-$2 trillion, with 30% allocation for public offering, higher than most NASDAQ flotations.",
+        "A 'fast entry rule' will allow SpaceX into the NASDAQ 100 index 15 days after IPO, meaning that individuals owning an exchange traded fund will own a slice of SpaceX.",
+        "There is growing criticism towards super control of Elon Musk and a small float size of SpaceX, which causes its shares to trade at a higher price."
+      ],
+      "signal_strength": 7,
+      "themes": [
+        "financial markets",
+        "spacex",
+        "ipo",
+        "geopolitics",
+        "market analysis",
+        "investment"
+      ],
+      "positioning_implication": "Monitor geopolitical events and regulatory shifts around upcoming IPOs; assess asset weighting relative to indexes.",
+      "time_horizon": "short",
+      "shelf_life": "Medium",
+      "thumbnail": "https://i.ytimg.com/vi/B5SJYKmKWzk/hqdefault.jpg",
+      "video_url": "https://www.youtube.com/watch?v=B5SJYKmKWzk",
+      "cluster_id": 1,
+      "category": "General Financial Investing and Speculation"
+    }
+  ],
+  "category_intelligence": {
+    "Artificial Intelligence": {
+      "name": "Artificial Intelligence",
+      "meta_summary": "",
+      "convergence_score": 0.0,
+      "percentile": 0.0,
+      "regime_state": "Neutral",
+      "clusters": [
+        {
+          "id": 0,
+          "name": "AI Ethics: Regulation Intensifying",
+          "description": "The Vatican's involvement signals growing institutional focus on AI ethics, specifically regarding job displacement and regulatory frameworks.",
+          "bias": "neutral",
+          "regime": "Emerging",
+          "size": 1,
+          "strength": 0.0,
+          "coherence": 1.0,
+          "channels": [
+            "Wes Roth"
+          ],
+          "avg_signal": 9.0,
+          "briefs": [
+            {
+              "episode_title": "Claude, The Pope, and AGI",
+              "channel": "Wes Roth",
+              "duration_minutes": 19,
+              "podcast_date": "2026-05-26",
+              "processing_date": "2026-05-26",
+              "one_line_summary": "The Vatican and Anthropic collaborate on AI ethics, addressing job displacement and AI regulation, highlighting the complex societal impacts of AI beyond its technical capabilities.",
+              "core_claims": [
+                "Anthropic partners with the Vatican to discuss AI ethics globally, signaling a serious collaboration, not just a PR event.",
+                "Anthropic's ethical collaboration with the Catholic Church signifies a historical first where an AI company receives a form of endorsement from the Pope.",
+                "AI's potential to displace jobs is acknowledged as a central concern by both Anthropic and the Vatican, prompting discussions on managing the transition.",
+                "AI labs are framed as entities that require oversight and cannot be trusted by default due to the inherent biases of their creators and potential risks to humanity.",
+                "AI's behavior, driven by vast amounts of human knowledge, exhibits unique and sometimes unsettling characteristics, highlighting the limitations of traditional engineering perspectives.",
+                "The discourse extends beyond mere income concerns to acknowledge work's role in providing identity, belonging, dignity, and family stability, aspects that require consideration in any AI-driven societal shift."
+              ],
+              "signal_strength": 9,
+              "themes": [
+                "ai ethics",
+                "job displacement",
+                "catholic church",
+                "regulation",
+                "interpretability",
+                "societal impact"
+              ],
+              "positioning_implication": "Anticipate shifts in ethical frameworks and policy discussions as religious institutions engage with AI development. Consider strategies for managing potential job losses and ensuring equitable access to resources in an AI-driven economy.",
+              "time_horizon": "medium",
+              "shelf_life": "Medium",
+              "thumbnail": "https://i.ytimg.com/vi/uFnxyXlRxag/hqdefault.jpg",
+              "video_url": "https://www.youtube.com/watch?v=uFnxyXlRxag",
+              "cluster_id": 0,
+              "category": "Artificial Intelligence"
+            }
+          ]
+        }
+      ],
+      "should_generate": false
+    },
+    "Precious Metals": {
+      "name": "Precious Metals",
+      "meta_summary": "",
+      "convergence_score": 0.0,
+      "percentile": 0.0,
+      "regime_state": "Neutral",
+      "clusters": [
+        {
+          "id": 0,
+          "name": "Precious Metals Bearish Pivot",
+          "description": "Precious metals markets are transitioning from explosive gains to a bearish, dollar-cost averaging driven environment.",
+          "bias": "counter-consensus",
+          "regime": "Emerging",
+          "size": 1,
+          "strength": 0.0,
+          "coherence": 1.0,
+          "channels": [
+            "Wall Street Bullion"
+          ],
+          "avg_signal": 7.0,
+          "briefs": [
+            {
+              "episode_title": "Silver Price CRASH to $20 CONFIRMED?! This Is Worse Than We Thought",
+              "channel": "Wall Street Bullion",
+              "duration_minutes": 30,
+              "podcast_date": "2026-05-26",
+              "processing_date": "2024-02-01",
+              "one_line_summary": "The period of explosive precious metal price moves is over, shifting market dynamics into a bearish, DCA-focused phase.",
+              "core_claims": [
+                "Explosive price movements in gold and silver are over.",
+                "Gold and silver markets are now in a dollar-cost averaging (DCA) phase.",
+                "Elevated inflation is expected to persist for a long period.",
+                "Energy demand will increase due to American and European reindustrialization.",
+                "The US is enacting a siege against Iran's nuclear material development."
+              ],
+              "signal_strength": 7,
+              "themes": [
+                "precious metals",
+                "market analysis",
+                "inflation",
+                "geopolitics",
+                "energy markets",
+                "investing"
+              ],
+              "positioning_implication": "Shift investment strategies to focus on long-term accumulation of precious metals and hedging against geopolitical instability and energy market volatility.",
+              "time_horizon": "medium",
+              "shelf_life": "Medium",
+              "thumbnail": "https://i.ytimg.com/vi/cvNn7vreY0o/hqdefault.jpg",
+              "video_url": "https://www.youtube.com/watch?v=cvNn7vreY0o",
+              "cluster_id": 0,
+              "category": "Precious Metals"
+            }
+          ]
+        }
+      ],
+      "should_generate": false
+    },
+    "General Financial Investing and Speculation": {
+      "name": "General Financial Investing and Speculation",
+      "meta_summary": "",
+      "convergence_score": 0.0,
+      "percentile": 0.0,
+      "regime_state": "Neutral",
+      "clusters": [
+        {
+          "id": 0,
+          "name": "Dollar Dominance Eroding Amidst Geopolitical Pressure",
+          "description": "Highlights the interplay between Bitcoin treasury strategies, potential sector consolidation, and a major US ally's threat to bypass the dollar, signaling a possible shift in global financial power.",
+          "bias": "defensive",
+          "regime": "Accelerating",
+          "size": 2,
+          "strength": 1.2486720427366549,
+          "coherence": 0.6243360213683274,
+          "channels": [
+            "Felix & Friends (Goat Academy)",
+            "David Lin"
+          ],
+          "avg_signal": 8.0,
+          "briefs": [
+            {
+              "episode_title": "Bitcoin In 'Midcycle Reset', CEO Reveals What History Says Comes Next | Norma Chu",
+              "channel": "David Lin",
+              "duration_minutes": 45,
+              "podcast_date": "2026-05-26",
+              "processing_date": "2024-06-04",
+              "one_line_summary": "DDC's CEO outlines Bitcoin treasury strategy amidst perceived mid-cycle reset and potential sector consolidation.",
+              "core_claims": [
+                "A portion of US-listed digital asset treasury companies trading today will consolidate, get acquired, or exit the strategy entirely by the end of 2028.",
+                "DDC's average cost on its current Bitcoin holding is $80,000, one of the lowest cost bases among all US listed peers.",
+                "The internal Bitcoin acquisition target by the end of the year is to hit the 5,000-6,000 range.",
+                "DDC's next milestone in the next couple of years will be top 10 globally or 14,000 Bitcoin."
+              ],
+              "signal_strength": 7,
+              "themes": [
+                "bitcoin",
+                "treasury strategy",
+                "consolidation",
+                "risk management",
+                "ai integration",
+                "entrepreneurship"
+              ],
+              "positioning_implication": "Prioritize adaptable strategies that can accommodate potential market corrections and industry shifts. Consider diversifying resources to reinforce core operational strengths.",
+              "time_horizon": "medium",
+              "shelf_life": "Medium",
+              "thumbnail": "https://i.ytimg.com/vi/atp6YKYgV_Q/hqdefault.jpg",
+              "video_url": "https://www.youtube.com/watch?v=atp6YKYgV_Q",
+              "cluster_id": 0,
+              "category": "General Financial Investing and Speculation"
+            },
+            {
+              "episode_title": "The First Domino in the US Debt Crisis",
+              "channel": "Felix & Friends (Goat Academy)",
+              "duration_minutes": 34,
+              "podcast_date": "2026-05-26",
+              "processing_date": "2026-05-26",
+              "one_line_summary": "A major US ally requested a dollar lifeline threatening to sell oil in Chinese Yuan, potentially unraveling the dollar's global dominance.",
+              "core_claims": [
+                "The United Arab Emirates requested a currency swap line from the US Treasury.",
+                "The UAE implied it might sell oil in Chinese Renminbi if denied dollar access.",
+                "Many Gulf and Asian allies have requested similar dollar lifelines.",
+                "Central banks are holding more reserves in gold than in US debt for the first time in over 35 years.",
+                "Goldman Sachs and JP Morgan predict a further 10% decline in the dollar's value.",
+                "The speaker predicts interest rates are going to go to 6% in the U.S."
+              ],
+              "signal_strength": 9,
+              "themes": [
+                "geopolitics",
+                "economics",
+                "debt crisis",
+                "currency war",
+                "investment strategy",
+                "treasury bonds"
+              ],
+              "positioning_implication": "De-risk portfolios exposed to dollar depreciation; consider diversifying into hard assets and energy. Understand that bond markets have more control over the Fed than the Fed has on them.",
+              "time_horizon": "medium",
+              "shelf_life": "Medium",
+              "thumbnail": "https://i.ytimg.com/vi/-e5HoR4T8Zk/hqdefault.jpg",
+              "video_url": "https://www.youtube.com/watch?v=-e5HoR4T8Zk",
+              "cluster_id": 0,
+              "category": "General Financial Investing and Speculation"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "name": "CEO Pay Intensifying Tax Policy Debate",
+          "description": "The narrative suggests growing disparity in CEO versus worker compensation is fueling demands for more progressive taxation.",
+          "bias": "counter-consensus",
+          "regime": "Emerging",
+          "size": 1,
+          "strength": 1.0,
+          "coherence": 1.0,
+          "channels": [
+            "The Prof G Pod \u2013 Scott Galloway"
+          ],
+          "avg_signal": 8.0,
+          "briefs": [
+            {
+              "episode_title": "Scott Galloway : The Real Problem with CEO Pay | Office Hours",
+              "channel": "The Prof G Pod \u2013 Scott Galloway",
+              "duration_minutes": 30,
+              "podcast_date": "2026-05-26",
+              "processing_date": "2026-05-26",
+              "one_line_summary": "CEO pay is excessively high relative to worker pay, which necessitates progressive tax policies.",
+              "core_claims": [
+                "S&P 500 CEO pay rose 26% between 2024 and 2025, while average hourly earnings for private-sector workers rose just 1.3% in real terms.",
+                "In 2024, the CEO-to-worker pay ratio was 281 to 1, significantly higher than historical levels, such as 21 to 1 in 1965.",
+                "By 2023, the ratio of CEO pay to the average top 0.1% earner had risen to 7.5x, compared to almost 3x between 1965 and 1978.",
+                "Progressive tax policies should target a 70% marginal tax rate on high earners like Elon Musk, and corporations should pay an alternative minimum tax of 40% as opposed to the current average closer to 15%.",
+                "Lowering rates for earners and increasing rates for owners will equalize the tax burden.",
+                "Imposing a \\$25/hour minimum wage and taxing high CEO compensation will yield better outcomes for most stakeholders, as money cannot buy happiness after a certain threshold."
+              ],
+              "signal_strength": 8,
+              "themes": [
+                "ceo pay",
+                "income inequality",
+                "tax policy",
+                "social construct",
+                "volunteerism",
+                "masculinity"
+              ],
+              "positioning_implication": "Advocate for progressive tax reforms and policies that prioritize earnings over ownership to address income inequality.  Encourage corporate structures that reward broad-based value creation rather than disproportionately benefiting top executives.",
+              "time_horizon": "long",
+              "shelf_life": "Medium",
+              "thumbnail": "https://i.ytimg.com/vi/ZYYPYCFf_WA/hqdefault.jpg",
+              "video_url": "https://www.youtube.com/watch?v=ZYYPYCFf_WA",
+              "cluster_id": 2,
+              "category": "General Financial Investing and Speculation"
+            }
+          ]
+        },
+        {
+          "id": 1,
+          "name": "Markets Converging: SpaceX IPO, Geopolitics Intensifying",
+          "description": "The narrative highlights the confluence of sustained market gains, the SpaceX IPO, and geopolitical risks, suggesting a complex interplay influencing investment decisions.",
+          "bias": "neutral",
+          "regime": "Emerging",
+          "size": 1,
+          "strength": 1.0,
+          "coherence": 1.0,
+          "channels": [
+            "Clive Thompson"
+          ],
+          "avg_signal": 7.0,
+          "briefs": [
+            {
+              "episode_title": "Monday May 25, 2026: Financial Markets update. Wars, Stocks, Oil, Gold, Silver, and SpaceX",
+              "channel": "Clive Thompson",
+              "duration_minutes": 20,
+              "podcast_date": "2026-05-26",
+              "processing_date": "2024-01-26",
+              "one_line_summary": "Stock market indices have shown gains for eight consecutive weeks, while the SpaceX IPO and geopolitical factors are influencing financial markets.",
+              "core_claims": [
+                "US stock market saw another week of gains, with Dow Jones hitting an all-time record after eight weeks of increases, a 1 in 256 chance.",
+                "Strait of Hormuz is partially open, but Iran is charging $150,000 security fees with some ships being refused entry, particularly Western vessels.",
+                "Negotiations between the USA and Iran are reportedly uncertain; contradicting previous week reports, stock markets are not significantly reacting to this news.",
+                "SpaceX aims to raise $50-$75 billion, targeting a market capitalization of $1.75-$2 trillion, with 30% allocation for public offering, higher than most NASDAQ flotations.",
+                "A 'fast entry rule' will allow SpaceX into the NASDAQ 100 index 15 days after IPO, meaning that individuals owning an exchange traded fund will own a slice of SpaceX.",
+                "There is growing criticism towards super control of Elon Musk and a small float size of SpaceX, which causes its shares to trade at a higher price."
+              ],
+              "signal_strength": 7,
+              "themes": [
+                "financial markets",
+                "spacex",
+                "ipo",
+                "geopolitics",
+                "market analysis",
+                "investment"
+              ],
+              "positioning_implication": "Monitor geopolitical events and regulatory shifts around upcoming IPOs; assess asset weighting relative to indexes.",
+              "time_horizon": "short",
+              "shelf_life": "Medium",
+              "thumbnail": "https://i.ytimg.com/vi/B5SJYKmKWzk/hqdefault.jpg",
+              "video_url": "https://www.youtube.com/watch?v=B5SJYKmKWzk",
+              "cluster_id": 1,
+              "category": "General Financial Investing and Speculation"
+            }
+          ]
+        }
+      ],
+      "should_generate": false
+    }
+  },
+  "clusters": []
+}
