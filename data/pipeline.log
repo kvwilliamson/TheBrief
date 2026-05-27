@@ -9213,3 +9213,132 @@
 2026-05-26 07:35:16,276 - INFO - ==================================================
 2026-05-26 07:35:16,277 - INFO - Pipeline Execution Complete
 2026-05-26 07:35:16,277 - INFO - ==================================================
+2026-05-27 07:45:43,939 - INFO - ==================================================
+2026-05-27 07:45:43,939 - INFO - Starting TheBrief Daily Pipeline
+2026-05-27 07:45:43,939 - INFO - ==================================================
+2026-05-27 07:45:43,940 - INFO - 
+--- Phase 1: Discovery ---
+2026-05-27 07:45:43,943 - INFO - Discovering videos published after 2026-05-26T07:45:43.943700+00:00 (24h lookback)
+2026-05-27 07:45:44,405 - INFO - Found 1 new potential videos on GoldSilver .
+2026-05-27 07:45:44,442 - INFO - Found 1 new potential videos on Wall Street Bullion .
+2026-05-27 07:45:44,497 - INFO - Found 1 new potential videos on Kitco NEWS.
+2026-05-27 07:45:44,702 - INFO - Found 2 new potential videos on David Lin .
+2026-05-27 07:45:44,739 - INFO - Found 3 new potential videos on AI News & Strategy Daily | Nate B Jones.
+2026-05-27 07:45:44,899 - INFO - Found 4 new potential videos on TheTechnicalTraders.
+2026-05-27 07:45:45,160 - INFO - Found 4 new potential videos on Verified Investing.
+2026-05-27 07:45:45,213 - INFO - Found 1 new potential videos on Commodity Culture.
+2026-05-27 07:45:45,332 - INFO - Found 2 new potential videos on Adam Taggart | Thoughtful Money®.
+2026-05-27 07:45:45,353 - INFO - Found 1 new potential videos on CPM Group.
+2026-05-27 07:45:45,378 - INFO - Found 1 new potential videos on Miles Franklin Media.
+2026-05-27 07:45:45,470 - INFO - Found 1 new potential videos on Matthew Berman.
+2026-05-27 07:45:45,737 - INFO - Found 3 new potential videos on The Prof G Pod – Scott Galloway.
+2026-05-27 07:45:45,885 - INFO - Found 16 total long-form videos across all channels.
+2026-05-27 07:45:45,911 - INFO - Discovery complete. Added 16 new videos to queue.
+2026-05-27 07:45:45,911 - INFO - 
+--- Phase 2: Extraction ---
+2026-05-27 07:45:46,166 - INFO - yt-dlp version: 2026.03.17
+2026-05-27 07:45:46,526 - INFO - POT-related packages: bgutil-ytdlp-pot-provider 1.3.1
+2026-05-27 07:45:46,549 - INFO - bgutil HTTP server not available on port 4416 (will rely on cookies)
+2026-05-27 07:45:46,549 - INFO - Extracting audio for Live Q & A with Miles Franklin (5RtXPjqhYR8)...
+2026-05-27 07:46:22,908 - INFO - Successfully extracted: audio/5RtXPjqhYR8.mp3
+2026-05-27 07:46:33,001 - INFO - Extracting audio for What todays price action means and where things are headed next. (70w3qEF-a90)...
+2026-05-27 07:46:44,218 - INFO - Successfully extracted: audio/70w3qEF-a90.mp3
+2026-05-27 07:46:50,566 - INFO - Extracting audio for $16 Trillion Spending Shock Is Here; Investor Says Watch These 3 Sectors | Jay Pelosky (XfBVDHU2H6k)...
+2026-05-27 07:47:13,519 - INFO - Successfully extracted: audio/XfBVDHU2H6k.mp3
+2026-05-27 07:47:22,941 - INFO - Extracting audio for Copper At Record Prices: What Happens Next? (5del_CLCgvE)...
+2026-05-27 07:47:35,410 - INFO - Successfully extracted: audio/5del_CLCgvE.mp3
+2026-05-27 07:47:44,304 - INFO - Extracting audio for Tech Reclaims All-Time Highs! Is This Leg Sustainable? (ctuX-bGjSvI)...
+2026-05-27 07:48:00,776 - INFO - Successfully extracted: audio/ctuX-bGjSvI.mp3
+2026-05-27 07:48:09,348 - INFO - Extracting audio for Why Silver's $125 Peak Was Just The First Stop | Peter Schiff (fSkNQ_Ho9mI)...
+2026-05-27 07:48:38,430 - INFO - Successfully extracted: audio/fSkNQ_Ho9mI.mp3
+2026-05-27 07:48:48,451 - INFO - Extracting audio for 🚨 Silver's MOMENT Has Arrived — Here's What's Coming (AXWw9VqLH30)...
+2026-05-27 07:48:59,497 - INFO - Successfully extracted: audio/AXWw9VqLH30.mp3
+2026-05-27 07:49:05,499 - INFO - Extracting audio for 'Generational' Reckoning: Economy Collapses If Resource Crisis Continues | Brian Paes-Braga (sg3AS-154Cw)...
+2026-05-27 07:49:27,928 - INFO - Successfully extracted: audio/sg3AS-154Cw.mp3
+2026-05-27 07:49:33,884 - INFO - Extracting audio for Cursor just beat EVERYONE. (GBISeUYMzoU)...
+2026-05-27 07:49:53,157 - INFO - Successfully extracted: audio/GBISeUYMzoU.mp3
+2026-05-27 07:50:02,499 - INFO - Extracting audio for SILVER To Enter 'New Reality' of $300 - $500, Shorts Will 'Get BURIED': Michael Oliver (gCZC4ItFboQ)...
+2026-05-27 07:50:28,823 - INFO - Successfully extracted: audio/gCZC4ItFboQ.mp3
+2026-05-27 07:50:38,841 - INFO - Extracting audio for Quantum Stocks Crack — Is This The Buy Zone Or The Trap? (elMckBscbtI)...
+2026-05-27 07:50:49,096 - INFO - Successfully extracted: audio/elMckBscbtI.mp3
+2026-05-27 07:50:56,553 - INFO - Extracting audio for This Simple Strategy Can Save Retirees Thousands (or More) | Julia Lembcke (dAkKPhVSibI)...
+2026-05-27 07:51:31,043 - INFO - Successfully extracted: audio/dAkKPhVSibI.mp3
+2026-05-27 07:51:41,388 - INFO - Extracting audio for Big stock market rally underway, and AI, SpaceX and Middle East all juicing equities higher. (NRtopb7vy4Q)...
+2026-05-27 07:51:51,884 - INFO - Successfully extracted: audio/NRtopb7vy4Q.mp3
+2026-05-27 07:51:58,877 - INFO - Extracting audio for Shopify CEO Reveals Their Secret AI Developer (NRBQmwlILjk)...
+2026-05-27 07:52:12,134 - INFO - Successfully extracted: audio/NRBQmwlILjk.mp3
+2026-05-27 07:52:19,634 - INFO - Extracting audio for 🚨 MARKET MANIA: Institutions Won't Let Market Down Til 1.75T SpaceX IPO, Oil, Yields, Gold, Bitcoin (woJiQ28ssHs)...
+2026-05-27 07:52:33,636 - INFO - Successfully extracted: audio/woJiQ28ssHs.mp3
+2026-05-27 07:52:44,368 - INFO - Extracting audio for Why China Keeps Selling U.S. Treasuries | China Decode (fN6AGGhDp5s)...
+2026-05-27 07:53:07,617 - INFO - Successfully extracted: audio/fN6AGGhDp5s.mp3
+2026-05-27 07:53:07,618 - INFO - Extraction complete. 16/16 audio files ready. (Time: 441.1s)
+2026-05-27 07:53:07,618 - INFO - 
+--- Phase 3: Summarization (Direct Audio) ---
+2026-05-27 07:53:08,784 - INFO - Generating Brief for What todays price action means and where things are headed next. (70w3qEF-a90)...
+2026-05-27 07:53:08,786 - INFO - AFC is enabled with max remote calls: 10.
+2026-05-27 07:53:09,463 - INFO - Generating Brief for Live Q & A with Miles Franklin (5RtXPjqhYR8)...
+2026-05-27 07:53:09,464 - INFO - AFC is enabled with max remote calls: 10.
+2026-05-27 07:53:09,501 - INFO - Generating Brief for $16 Trillion Spending Shock Is Here; Investor Says Watch These 3 Sectors | Jay Pelosky (XfBVDHU2H6k)...
+2026-05-27 07:53:09,502 - INFO - AFC is enabled with max remote calls: 10.
+2026-05-27 07:53:14,316 - INFO - ✅ Brief successfully generated for What todays price action means and where things are headed next.
+2026-05-27 07:53:15,550 - INFO - Generating Brief for Copper At Record Prices: What Happens Next? (5del_CLCgvE)...
+2026-05-27 07:53:15,551 - INFO - AFC is enabled with max remote calls: 10.
+2026-05-27 07:53:16,499 - INFO - ✅ Brief successfully generated for $16 Trillion Spending Shock Is Here; Investor Says Watch These 3 Sectors | Jay Pelosky
+2026-05-27 07:53:17,651 - INFO - Generating Brief for Tech Reclaims All-Time Highs! Is This Leg Sustainable? (ctuX-bGjSvI)...
+2026-05-27 07:53:17,652 - INFO - AFC is enabled with max remote calls: 10.
+2026-05-27 07:53:18,501 - ERROR - Error summarising audio Tech Reclaims All-Time Highs! Is This Leg Sustainable?: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more details.', 'status': 'RESOURCE_EXHAUSTED'}}
+2026-05-27 07:53:18,672 - INFO - ✅ Brief successfully generated for Live Q & A with Miles Franklin
+2026-05-27 07:53:19,972 - INFO - Generating Brief for 🚨 Silver's MOMENT Has Arrived — Here's What's Coming (AXWw9VqLH30)...
+2026-05-27 07:53:19,974 - INFO - AFC is enabled with max remote calls: 10.
+2026-05-27 07:53:19,996 - INFO - Generating Brief for Why Silver's $125 Peak Was Just The First Stop | Peter Schiff (fSkNQ_Ho9mI)...
+2026-05-27 07:53:19,997 - INFO - AFC is enabled with max remote calls: 10.
+2026-05-27 07:53:20,662 - ERROR - Schema parsing error for Copper At Record Prices: What Happens Next?: Expecting value: line 1 column 1167 (char 1166)
+2026-05-27 07:53:21,214 - ERROR - Error summarising audio Why Silver's $125 Peak Was Just The First Stop | Peter Schiff: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more details.', 'status': 'RESOURCE_EXHAUSTED'}}
+2026-05-27 07:53:22,820 - INFO - Generating Brief for 'Generational' Reckoning: Economy Collapses If Resource Crisis Continues | Brian Paes-Braga (sg3AS-154Cw)...
+2026-05-27 07:53:22,821 - INFO - AFC is enabled with max remote calls: 10.
+2026-05-27 07:53:23,049 - INFO - Generating Brief for Cursor just beat EVERYONE. (GBISeUYMzoU)...
+2026-05-27 07:53:23,050 - INFO - AFC is enabled with max remote calls: 10.
+2026-05-27 07:53:24,354 - ERROR - Error summarising audio 'Generational' Reckoning: Economy Collapses If Resource Crisis Continues | Brian Paes-Braga: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more details.', 'status': 'RESOURCE_EXHAUSTED'}}
+2026-05-27 07:53:24,607 - INFO - ✅ Brief successfully generated for 🚨 Silver's MOMENT Has Arrived — Here's What's Coming
+2026-05-27 07:53:25,889 - INFO - Generating Brief for SILVER To Enter 'New Reality' of $300 - $500, Shorts Will 'Get BURIED': Michael Oliver (gCZC4ItFboQ)...
+2026-05-27 07:53:25,890 - INFO - AFC is enabled with max remote calls: 10.
+2026-05-27 07:53:26,352 - INFO - Generating Brief for Quantum Stocks Crack — Is This The Buy Zone Or The Trap? (elMckBscbtI)...
+2026-05-27 07:53:26,353 - INFO - AFC is enabled with max remote calls: 10.
+2026-05-27 07:53:27,336 - ERROR - Error summarising audio SILVER To Enter 'New Reality' of $300 - $500, Shorts Will 'Get BURIED': Michael Oliver: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more details.', 'status': 'RESOURCE_EXHAUSTED'}}
+2026-05-27 07:53:28,477 - INFO - ✅ Brief successfully generated for Cursor just beat EVERYONE.
+2026-05-27 07:53:29,147 - INFO - Generating Brief for This Simple Strategy Can Save Retirees Thousands (or More) | Julia Lembcke (dAkKPhVSibI)...
+2026-05-27 07:53:29,148 - INFO - AFC is enabled with max remote calls: 10.
+2026-05-27 07:53:29,526 - INFO - Generating Brief for Big stock market rally underway, and AI, SpaceX and Middle East all juicing equities higher. (NRtopb7vy4Q)...
+2026-05-27 07:53:29,527 - INFO - AFC is enabled with max remote calls: 10.
+2026-05-27 07:53:30,277 - ERROR - Error summarising audio This Simple Strategy Can Save Retirees Thousands (or More) | Julia Lembcke: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more details.', 'status': 'RESOURCE_EXHAUSTED'}}
+2026-05-27 07:53:31,580 - INFO - Generating Brief for Shopify CEO Reveals Their Secret AI Developer (NRBQmwlILjk)...
+2026-05-27 07:53:31,581 - INFO - AFC is enabled with max remote calls: 10.
+2026-05-27 07:53:33,534 - INFO - ✅ Brief successfully generated for Quantum Stocks Crack — Is This The Buy Zone Or The Trap?
+2026-05-27 07:53:34,379 - ERROR - Schema parsing error for Big stock market rally underway, and AI, SpaceX and Middle East all juicing equities higher.: Expecting value: line 1 column 1373 (char 1372)
+2026-05-27 07:53:35,451 - INFO - Generating Brief for 🚨 MARKET MANIA: Institutions Won't Let Market Down Til 1.75T SpaceX IPO, Oil, Yields, Gold, Bitcoin (woJiQ28ssHs)...
+2026-05-27 07:53:35,453 - INFO - AFC is enabled with max remote calls: 10.
+2026-05-27 07:53:35,907 - INFO - Generating Brief for Why China Keeps Selling U.S. Treasuries | China Decode (fN6AGGhDp5s)...
+2026-05-27 07:53:35,909 - INFO - AFC is enabled with max remote calls: 10.
+2026-05-27 07:53:36,882 - INFO - ✅ Brief successfully generated for Shopify CEO Reveals Their Secret AI Developer
+2026-05-27 07:53:37,083 - ERROR - Error summarising audio Why China Keeps Selling U.S. Treasuries | China Decode: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more details.', 'status': 'RESOURCE_EXHAUSTED'}}
+2026-05-27 07:53:41,066 - ERROR - Schema parsing error for 🚨 MARKET MANIA: Institutions Won't Let Market Down Til 1.75T SpaceX IPO, Oil, Yields, Gold, Bitcoin: Expecting value: line 1 column 1238 (char 1237)
+2026-05-27 07:53:41,569 - INFO - --- Phase 3: Category Synthesis (7 assets across categories) ---
+2026-05-27 07:53:41,570 - INFO - Analyzing 3 categories: General Financial Investing and Speculation, Precious Metals, Artificial Intelligence
+2026-05-27 07:53:41,570 - INFO - Processing Synthesis for sector: General Financial Investing and Speculation (3 assets)...
+2026-05-27 07:53:41,599 - INFO - AFC is enabled with max remote calls: 10.
+2026-05-27 07:53:42,467 - INFO - AFC is enabled with max remote calls: 10.
+2026-05-27 07:53:43,291 - INFO - ✅ Synthesis complete for General Financial Investing and Speculation
+2026-05-27 07:53:43,291 - INFO - Processing Synthesis for sector: Precious Metals (2 assets)...
+2026-05-27 07:53:43,294 - INFO - AFC is enabled with max remote calls: 10.
+2026-05-27 07:53:44,417 - INFO - ✅ Synthesis complete for Precious Metals
+2026-05-27 07:53:44,417 - INFO - Processing Synthesis for sector: Artificial Intelligence (2 assets)...
+2026-05-27 07:53:44,421 - INFO - AFC is enabled with max remote calls: 10.
+2026-05-27 07:53:45,163 - INFO - AFC is enabled with max remote calls: 10.
+2026-05-27 07:53:46,249 - INFO - ✅ Synthesis complete for Artificial Intelligence
+2026-05-27 07:53:46,266 - INFO - Summarization complete. 7 briefs written to briefs/2026-05-27.md (Time: 38.6s)
+2026-05-27 07:53:47,697 - INFO - Email digest sent successfully to kwilliamson.mail@gmail.com.
+2026-05-27 07:53:48,491 - INFO - Email digest sent successfully to kochava72@gmail.com.
+2026-05-27 07:53:48,511 - INFO - Queue cleared.
+2026-05-27 07:53:48,516 - INFO - ==================================================
+2026-05-27 07:53:48,517 - INFO - Pipeline Execution Complete
+2026-05-27 07:53:48,517 - INFO - ==================================================
