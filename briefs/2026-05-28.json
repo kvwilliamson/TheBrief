@@ -1,0 +1,724 @@
+{
+  "date": "2026-05-28",
+  "briefs": [
+    {
+      "episode_title": "Oil Pulls Back But Hormuz Energy Crisis Lurks!",
+      "channel": "Verified Investing",
+      "duration_minutes": 40,
+      "podcast_date": "2026-05-28",
+      "processing_date": "2026-05-28",
+      "one_line_summary": "Indices show slight pullback, but semi's display bearish signals, and Mid-East tensions could trigger oil crisis.",
+      "core_claims": [
+        "S&P 500 down 0.02% with a recovery on the 10-minute chart, indicating an attempted breakdown prevented by a 1:10 candle.",
+        "Nasdaq (QQQ) closed down 0.11%, maintaining position above an inclining trendline, with support at $728 and resistance at $767.47 within a parallel channel.",
+        "SMH (Semiconductors) down 1.1%, indicating a potential bearish engulfing reversal daily candle avoided by late-day rebound, still in overbought territory.",
+        "IWM (Russell 2000) down 0.05%, kept afloat by lower 10-year yields, with resistance at $295.58 and support on an inclining trendline at $279.60.",
+        "Ten-year yield is falling, needing a close under 4.483% to confirm a failed move to the upside, with support at 4.396% and resistance at 4.567%.",
+        "US Oil is down despite broader market negatives, anticipating a peace deal is unlikely, projecting global economic stress and triggering investors to hit sell button."
+      ],
+      "signal_strength": 8,
+      "themes": [
+        "market analysis",
+        "semiconductors",
+        "oil prices",
+        "geopolitics",
+        "technical indicators",
+        "trend analysis"
+      ],
+      "positioning_implication": "Monitor semiconductor sector for risk-off signals, and assess geopolitical stability impacting oil assets.  Be wary of 'buy the dip' narratives in tech.",
+      "time_horizon": "short",
+      "shelf_life": "Short",
+      "thumbnail": "https://i.ytimg.com/vi/WYPsYvGxzKQ/hqdefault.jpg",
+      "video_url": "https://www.youtube.com/watch?v=WYPsYvGxzKQ",
+      "cluster_id": 0,
+      "category": "General Financial Investing and Speculation"
+    },
+    {
+      "episode_title": "The \"AI Job Apocalypse\" is CANCELLED!",
+      "channel": "Wes Roth",
+      "duration_minutes": 22,
+      "podcast_date": "2026-05-28",
+      "processing_date": "2024-02-23",
+      "one_line_summary": "Claims of AI-driven job apocalypse are softening, signaling a shift towards viewing AI as a productivity multiplier rather than a job destroyer.",
+      "core_claims": [
+        "Sam Altman and Dario Amadei are softening their stance on AI's potential to cause mass job displacement.",
+        "Dario Amadei now describes AI as a 'productivity multiplier' instead of a 'job destroyer'.",
+        "Increased AI adoption leads to more work, shifting the bottleneck from production to judgment and taste.",
+        "Initial data shows some reduction in entry-level work demand, but no clear evidence of a 'massive job apocalypse'.",
+        "AI can automate the middle of tasks, leaving humans in control of task definition and outcome evaluation.",
+        "AI is disproportionately affecting different companies, depending on their data, workflow, and AI usage capabilities."
+      ],
+      "signal_strength": 8,
+      "themes": [
+        "ai",
+        "job market",
+        "automation",
+        "productivity",
+        "economic impact",
+        "future of work"
+      ],
+      "positioning_implication": "Re-evaluate workforce planning to focus on human-AI collaboration rather than outright job displacement. Prioritize judgment, taste, and strategic decision-making in future skills development.",
+      "time_horizon": "medium",
+      "shelf_life": "Medium",
+      "thumbnail": "https://i.ytimg.com/vi/jZg1EkujbJ0/hqdefault.jpg",
+      "video_url": "https://www.youtube.com/watch?v=jZg1EkujbJ0",
+      "cluster_id": 1,
+      "category": "Artificial Intelligence"
+    },
+    {
+      "episode_title": "\u2018There Is A 100% Certainty\u2019 Bonds Won\u2019t Save Your Retirement Warns Strategist | John D\u2019Agostino",
+      "channel": "David Lin",
+      "duration_minutes": 52,
+      "podcast_date": "2026-05-28",
+      "processing_date": "2026-05-28",
+      "one_line_summary": "Bonds will not provide sufficient retirement income, but market structure legislation for crypto signals economic impact and offers opportunity.",
+      "core_claims": [
+        "Bonds will not provide sufficient retirement income, necessitating riskier assets.",
+        "The probability of reverting back to pre-digital money transfer capabilities is virtually zero.",
+        "Market structure legislation for crypto is occurring due to recognition of its impactful presence in the U.S. economy.",
+        "Prediction markets are more accurate at predicting interest rate hikes and cuts than top pollsters.",
+        "US is the envy of global capital markets, and this can be bigger moving from T+24 hours to T+24 seconds.",
+        "AI will decide to use crypto as a value transfer mechanism."
+      ],
+      "signal_strength": 8,
+      "themes": [
+        "retirement",
+        "bonds",
+        "market structure",
+        "crypto",
+        "regulation",
+        "prediction markets",
+        "AI"
+      ],
+      "positioning_implication": "Shift portfolio allocation away from bonds towards risk assets; monitor regulatory developments in crypto for opportunities.",
+      "time_horizon": "medium",
+      "shelf_life": "Medium",
+      "thumbnail": "https://i.ytimg.com/vi/kTaZhZ4GEBs/hqdefault.jpg",
+      "video_url": "https://www.youtube.com/watch?v=kTaZhZ4GEBs",
+      "cluster_id": 2,
+      "category": "General Financial Investing and Speculation"
+    },
+    {
+      "episode_title": "This Silver Price Move Has Me SERIOUSLY Worried Right Now",
+      "channel": "Wall Street Bullion",
+      "duration_minutes": 29,
+      "podcast_date": "2026-05-28",
+      "processing_date": "2024-05-29",
+      "one_line_summary": "Precious metal prices have shown substantial long-term increases compared to income and housing, making them a hedge against economic uncertainty.",
+      "core_claims": [
+        "Silver has increased 1400% and Gold has increased 1450% since 2000.",
+        "The average income in the U.S. has increased around 190% since 2000.",
+        "Average housing prices have increased around 230% since 2000.",
+        "Cutting rates is the only way to continue printing money, but is not the answer to the inflationary problem.",
+        "The Fed is likely to cut rates, despite the debt in the system."
+      ],
+      "signal_strength": 8,
+      "themes": [
+        "precious metals",
+        "silver",
+        "gold",
+        "investment",
+        "inflation",
+        "economic forecast"
+      ],
+      "positioning_implication": "Favor investments that outperform general inflationary trends and maintain value amidst potential currency devaluation; consider precious metals as a long-term protective asset.",
+      "time_horizon": "long",
+      "shelf_life": "Medium",
+      "thumbnail": "https://i.ytimg.com/vi/OhK71GWNVEk/hqdefault.jpg",
+      "video_url": "https://www.youtube.com/watch?v=OhK71GWNVEk",
+      "cluster_id": 0,
+      "category": "Precious Metals"
+    },
+    {
+      "episode_title": "Finally a good benchmark (DeepSWE)",
+      "channel": "Matthew Berman",
+      "duration_minutes": 16,
+      "podcast_date": "2026-05-28",
+      "processing_date": "2026-05-28",
+      "one_line_summary": "DeepSWE benchmark reflects real-world coding tasks, differentiating model efficacy based on task completion, not recall.",
+      "core_claims": [
+        "DeepSWE tasks are written from scratch, contamination-free, unlike benchmarks derived from public commits.",
+        "DeepSWE is high diversity, spans across 91 repositories and 5 languages.",
+        "DeepSWE prompts are half the length of SWE-bench pro, yet solutions require 5.5 times more code.",
+        "DeepSWE's verifiers align more closely with real task success with 0.3% false positive rate versus 8.5% from SWE-bench.",
+        "GPT-5.5 demonstrates 15+ point difference versus Opus 4.7 on DeepSWE.",
+        "GPT-5.5 cost per trial is $5.80, while Claude Opus 4.7 comes in at nearly 3 times the expense at $16."
+      ],
+      "signal_strength": 9,
+      "themes": [
+        "ai benchmarks",
+        "coding agents",
+        "gpt-5.5",
+        "data science",
+        "model evaluation"
+      ],
+      "positioning_implication": "Prioritize models demonstrating superior performance on realistic benchmarks like DeepSWE. Quantify ROI beyond recall abilities.",
+      "time_horizon": "medium",
+      "shelf_life": "Medium",
+      "thumbnail": "https://i.ytimg.com/vi/6LwQ8RbU9as/hqdefault.jpg",
+      "video_url": "https://www.youtube.com/watch?v=6LwQ8RbU9as",
+      "cluster_id": 0,
+      "category": "Artificial Intelligence"
+    },
+    {
+      "episode_title": "Should You Still Trust US Stocks? Scott Galloway's 20-Year Investing Playbook | Office Hours",
+      "channel": "The Prof G Pod \u2013 Scott Galloway",
+      "duration_minutes": 23,
+      "podcast_date": "2026-05-28",
+      "processing_date": "2024-05-28",
+      "one_line_summary": "Diversification across asset classes and geographies is key for young investors with long-term horizons, despite US equity's recent dominance.",
+      "core_claims": [
+        "US equities' outperformance from 2010-2024 is historically long, with average cycles being 8 years since 1975.",
+        "Vanguard projects US stocks returning 4-5% annually over the next 5-10 years due to stretched large-cap tech valuations.",
+        "Vanguard gives a 70% probability that international stocks will outperform the US over the next decade.",
+        "Fidelity projects US equities returning 3.2% over the next 20 years, a third of returns delivered since 2005.",
+        "Over half of the international sector trades at or below their 20-year median forward P/E, while every US sector trades above it."
+      ],
+      "signal_strength": 9,
+      "themes": [
+        "investing",
+        "global markets",
+        "diversification",
+        "risk management",
+        "asset allocation",
+        "economic cycles"
+      ],
+      "positioning_implication": "Shift portfolio allocation towards international equities and alternative assets, especially for younger investors with long-term horizons who can absorb more risk. Diversify to include bonds, PE, and venture capital, while maintaining a low-cost fund strategy.",
+      "time_horizon": "long",
+      "shelf_life": "Medium",
+      "thumbnail": "https://i.ytimg.com/vi/slGd70gnLB0/hqdefault.jpg",
+      "video_url": "https://www.youtube.com/watch?v=slGd70gnLB0",
+      "cluster_id": 3,
+      "category": "General Financial Investing and Speculation"
+    },
+    {
+      "episode_title": "Precious Metals: Gold Breaking Down Today & the Coin Toss Question",
+      "channel": "TheTechnicalTraders",
+      "duration_minutes": 12,
+      "podcast_date": "2026-05-28",
+      "processing_date": "2026-05-28",
+      "one_line_summary": "Equities are up as oil drops on potential truce news; markets are trending positively, but trading based on news is volatile; precious metals are down as money flows into risk-on assets.",
+      "core_claims": [
+        "Crude oil is down 5%, potentially due to truce news in the Strait of Hormuz, which is helping to push equities higher.",
+        "The NASDAQ is popping and moving on news, but this makes it choppy and volatile.",
+        "Markets dipped into oversold territory within an uptrend, stair-stepping higher with green bars.",
+        "Gold and silver are down as money seems to be flowing into risk-on assets like small caps and growth stocks.",
+        "Miners have given back a significant portion of yesterday's gains, indicating precious metals are becoming a defensive play.",
+        "Crude oil is trading sideways in a premium chaos price mode, influenced by weekly news and speculation."
+      ],
+      "signal_strength": 7,
+      "themes": [
+        "market trends",
+        "commodities",
+        "equities",
+        "risk assessment",
+        "precious metals",
+        "oil prices"
+      ],
+      "positioning_implication": "Reduce exposure to precious metals and increase exposure to risk-on equities, particularly technology and growth stocks; Monitor news related to the Strait of Hormuz for potential impacts on oil and equities.",
+      "time_horizon": "short",
+      "shelf_life": "Short",
+      "thumbnail": "https://i.ytimg.com/vi/vMVmR6iINX4/hqdefault.jpg",
+      "video_url": "https://www.youtube.com/watch?v=vMVmR6iINX4",
+      "cluster_id": 0,
+      "category": "General Financial Investing and Speculation"
+    },
+    {
+      "episode_title": "'Major Risk' Ahead For Markets But THESE Mining Stocks Will Outperform: Mining Stock Monkey",
+      "channel": "Commodity Culture",
+      "duration_minutes": 62,
+      "podcast_date": "2026-05-28",
+      "processing_date": "2026-05-28",
+      "one_line_summary": "Mining stocks hold asymmetric risk-reward and government bond yields pose major market risks.",
+      "core_claims": [
+        "Gold prices could reach $50,000 or $100,000 in the speaker's lifetime due to dollar devaluation.",
+        "Agnico Eagle trades at approximately 16x forward free cash flow, while Newmont trades at around 12x.",
+        "Gold prices could potentially drop by 70% if gold falls from $4500 to $2500, due to collapsing margins and bearish sentiment.",
+        "Closing the Strait of Hormuz is considered the largest oil supply disruption in history.",
+        "Hercules' copper deposit at Leviathan is estimated between 300-800 million tons.",
+        "Weaton Precious Metals stock is expected to have more growth than Franco Nevada over the next five years."
+      ],
+      "signal_strength": 8,
+      "themes": [
+        "mining stocks",
+        "precious metals",
+        "market risk",
+        "government debt",
+        "inflation",
+        "investment strategy"
+      ],
+      "positioning_implication": "Favor opportunities with asymmetric upside potential in mining sector, hedging against government debt risk.",
+      "time_horizon": "medium",
+      "shelf_life": "Medium",
+      "thumbnail": "https://i.ytimg.com/vi/8JKo4bJCjLA/hqdefault.jpg",
+      "video_url": "https://www.youtube.com/watch?v=8JKo4bJCjLA",
+      "cluster_id": 0,
+      "category": "Precious Metals"
+    },
+    {
+      "episode_title": "Dot-Com 2.0? Semiconductor MU & SK Hynix Hit $1 Trillion as Warning Signs Flash for Traders",
+      "channel": "Verified Investing",
+      "duration_minutes": 19,
+      "podcast_date": "2026-05-28",
+      "processing_date": "2026-05-28",
+      "one_line_summary": "Semiconductor market rally shows signs of late-stage exuberance and concentration risks akin to the dot-com bubble era.",
+      "core_claims": [
+        "Micron and SK Hynix have reached $1 trillion valuations, but SK Hynix showed a bearish topping tail signal.",
+        "The current semiconductor rally is the most vertical run yet, indicating programmed 'buy the dip' mentality among investors.",
+        "Equal-weight indices are lagging semiconductor-heavy indices, suggesting concentration is affecting market dynamics.",
+        "Nvidia is showing weakness despite overall semiconductor strength, potentially signaling rotation or profit-taking by major holders.",
+        "Walmart's underperformance and warnings about the consumer sector raise concerns about broader economic health.",
+        "Global markets like the KOSPI and Nikkei are showing bearish signals, indicating potential reversals."
+      ],
+      "signal_strength": 9,
+      "themes": [
+        "semiconductors",
+        "market analysis",
+        "economic indicators",
+        "investment strategy",
+        "risk assessment",
+        "dot-com bubble"
+      ],
+      "positioning_implication": "Reduce exposure to highly concentrated semiconductor positions; monitor broader market breath and economic indicators for signs of reversal. Shift focus towards value and defensive sectors.",
+      "time_horizon": "medium",
+      "shelf_life": "Medium",
+      "thumbnail": "https://i.ytimg.com/vi/NbsdFBj1Ras/hqdefault.jpg",
+      "video_url": "https://www.youtube.com/watch?v=NbsdFBj1Ras",
+      "cluster_id": 1,
+      "category": "General Financial Investing and Speculation"
+    }
+  ],
+  "category_intelligence": {
+    "General Financial Investing and Speculation": {
+      "name": "General Financial Investing and Speculation",
+      "meta_summary": "",
+      "convergence_score": 0.0,
+      "percentile": 0.0,
+      "regime_state": "Neutral",
+      "clusters": [
+        {
+          "id": 0,
+          "name": "Oil Geopolitics Intensifying Market Risk",
+          "description": "Geopolitical tensions and oil price volatility are converging, creating market risk and influencing asset allocation decisions.\n\u26a1 Convergence Alert: Overlap detected with [Precious Metals: Inflation Hedge Intensifying] in Precious Metals (0.76 sim)",
+          "bias": "defensive",
+          "regime": "Accelerating",
+          "size": 2,
+          "strength": 1.500537207757855,
+          "coherence": 0.7502686038789275,
+          "channels": [
+            "Verified Investing",
+            "TheTechnicalTraders"
+          ],
+          "avg_signal": 7.5,
+          "briefs": [
+            {
+              "episode_title": "Oil Pulls Back But Hormuz Energy Crisis Lurks!",
+              "channel": "Verified Investing",
+              "duration_minutes": 40,
+              "podcast_date": "2026-05-28",
+              "processing_date": "2026-05-28",
+              "one_line_summary": "Indices show slight pullback, but semi's display bearish signals, and Mid-East tensions could trigger oil crisis.",
+              "core_claims": [
+                "S&P 500 down 0.02% with a recovery on the 10-minute chart, indicating an attempted breakdown prevented by a 1:10 candle.",
+                "Nasdaq (QQQ) closed down 0.11%, maintaining position above an inclining trendline, with support at $728 and resistance at $767.47 within a parallel channel.",
+                "SMH (Semiconductors) down 1.1%, indicating a potential bearish engulfing reversal daily candle avoided by late-day rebound, still in overbought territory.",
+                "IWM (Russell 2000) down 0.05%, kept afloat by lower 10-year yields, with resistance at $295.58 and support on an inclining trendline at $279.60.",
+                "Ten-year yield is falling, needing a close under 4.483% to confirm a failed move to the upside, with support at 4.396% and resistance at 4.567%.",
+                "US Oil is down despite broader market negatives, anticipating a peace deal is unlikely, projecting global economic stress and triggering investors to hit sell button."
+              ],
+              "signal_strength": 8,
+              "themes": [
+                "market analysis",
+                "semiconductors",
+                "oil prices",
+                "geopolitics",
+                "technical indicators",
+                "trend analysis"
+              ],
+              "positioning_implication": "Monitor semiconductor sector for risk-off signals, and assess geopolitical stability impacting oil assets.  Be wary of 'buy the dip' narratives in tech.",
+              "time_horizon": "short",
+              "shelf_life": "Short",
+              "thumbnail": "https://i.ytimg.com/vi/WYPsYvGxzKQ/hqdefault.jpg",
+              "video_url": "https://www.youtube.com/watch?v=WYPsYvGxzKQ",
+              "cluster_id": 0,
+              "category": "General Financial Investing and Speculation"
+            },
+            {
+              "episode_title": "Precious Metals: Gold Breaking Down Today & the Coin Toss Question",
+              "channel": "TheTechnicalTraders",
+              "duration_minutes": 12,
+              "podcast_date": "2026-05-28",
+              "processing_date": "2026-05-28",
+              "one_line_summary": "Equities are up as oil drops on potential truce news; markets are trending positively, but trading based on news is volatile; precious metals are down as money flows into risk-on assets.",
+              "core_claims": [
+                "Crude oil is down 5%, potentially due to truce news in the Strait of Hormuz, which is helping to push equities higher.",
+                "The NASDAQ is popping and moving on news, but this makes it choppy and volatile.",
+                "Markets dipped into oversold territory within an uptrend, stair-stepping higher with green bars.",
+                "Gold and silver are down as money seems to be flowing into risk-on assets like small caps and growth stocks.",
+                "Miners have given back a significant portion of yesterday's gains, indicating precious metals are becoming a defensive play.",
+                "Crude oil is trading sideways in a premium chaos price mode, influenced by weekly news and speculation."
+              ],
+              "signal_strength": 7,
+              "themes": [
+                "market trends",
+                "commodities",
+                "equities",
+                "risk assessment",
+                "precious metals",
+                "oil prices"
+              ],
+              "positioning_implication": "Reduce exposure to precious metals and increase exposure to risk-on equities, particularly technology and growth stocks; Monitor news related to the Strait of Hormuz for potential impacts on oil and equities.",
+              "time_horizon": "short",
+              "shelf_life": "Short",
+              "thumbnail": "https://i.ytimg.com/vi/vMVmR6iINX4/hqdefault.jpg",
+              "video_url": "https://www.youtube.com/watch?v=vMVmR6iINX4",
+              "cluster_id": 0,
+              "category": "General Financial Investing and Speculation"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "name": "Crypto Market Structure Intensifying Retirement Income Pressure",
+          "description": "Market structure legislation for crypto assets is poised to impact retirement income strategies, as traditional bond yields remain insufficient.",
+          "bias": "constructive",
+          "regime": "Emerging",
+          "size": 1,
+          "strength": 1.0,
+          "coherence": 1.0,
+          "channels": [
+            "David Lin"
+          ],
+          "avg_signal": 8.0,
+          "briefs": [
+            {
+              "episode_title": "\u2018There Is A 100% Certainty\u2019 Bonds Won\u2019t Save Your Retirement Warns Strategist | John D\u2019Agostino",
+              "channel": "David Lin",
+              "duration_minutes": 52,
+              "podcast_date": "2026-05-28",
+              "processing_date": "2026-05-28",
+              "one_line_summary": "Bonds will not provide sufficient retirement income, but market structure legislation for crypto signals economic impact and offers opportunity.",
+              "core_claims": [
+                "Bonds will not provide sufficient retirement income, necessitating riskier assets.",
+                "The probability of reverting back to pre-digital money transfer capabilities is virtually zero.",
+                "Market structure legislation for crypto is occurring due to recognition of its impactful presence in the U.S. economy.",
+                "Prediction markets are more accurate at predicting interest rate hikes and cuts than top pollsters.",
+                "US is the envy of global capital markets, and this can be bigger moving from T+24 hours to T+24 seconds.",
+                "AI will decide to use crypto as a value transfer mechanism."
+              ],
+              "signal_strength": 8,
+              "themes": [
+                "retirement",
+                "bonds",
+                "market structure",
+                "crypto",
+                "regulation",
+                "prediction markets",
+                "AI"
+              ],
+              "positioning_implication": "Shift portfolio allocation away from bonds towards risk assets; monitor regulatory developments in crypto for opportunities.",
+              "time_horizon": "medium",
+              "shelf_life": "Medium",
+              "thumbnail": "https://i.ytimg.com/vi/kTaZhZ4GEBs/hqdefault.jpg",
+              "video_url": "https://www.youtube.com/watch?v=kTaZhZ4GEBs",
+              "cluster_id": 2,
+              "category": "General Financial Investing and Speculation"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "name": "Diversification Intensifying Amid US Equity Dominance",
+          "description": "The narrative emphasizes the growing importance of diversification for young investors, even with the strong performance of US equities.",
+          "bias": "constructive",
+          "regime": "Emerging",
+          "size": 1,
+          "strength": 1.0,
+          "coherence": 1.0,
+          "channels": [
+            "The Prof G Pod \u2013 Scott Galloway"
+          ],
+          "avg_signal": 9.0,
+          "briefs": [
+            {
+              "episode_title": "Should You Still Trust US Stocks? Scott Galloway's 20-Year Investing Playbook | Office Hours",
+              "channel": "The Prof G Pod \u2013 Scott Galloway",
+              "duration_minutes": 23,
+              "podcast_date": "2026-05-28",
+              "processing_date": "2024-05-28",
+              "one_line_summary": "Diversification across asset classes and geographies is key for young investors with long-term horizons, despite US equity's recent dominance.",
+              "core_claims": [
+                "US equities' outperformance from 2010-2024 is historically long, with average cycles being 8 years since 1975.",
+                "Vanguard projects US stocks returning 4-5% annually over the next 5-10 years due to stretched large-cap tech valuations.",
+                "Vanguard gives a 70% probability that international stocks will outperform the US over the next decade.",
+                "Fidelity projects US equities returning 3.2% over the next 20 years, a third of returns delivered since 2005.",
+                "Over half of the international sector trades at or below their 20-year median forward P/E, while every US sector trades above it."
+              ],
+              "signal_strength": 9,
+              "themes": [
+                "investing",
+                "global markets",
+                "diversification",
+                "risk management",
+                "asset allocation",
+                "economic cycles"
+              ],
+              "positioning_implication": "Shift portfolio allocation towards international equities and alternative assets, especially for younger investors with long-term horizons who can absorb more risk. Diversify to include bonds, PE, and venture capital, while maintaining a low-cost fund strategy.",
+              "time_horizon": "long",
+              "shelf_life": "Medium",
+              "thumbnail": "https://i.ytimg.com/vi/slGd70gnLB0/hqdefault.jpg",
+              "video_url": "https://www.youtube.com/watch?v=slGd70gnLB0",
+              "cluster_id": 3,
+              "category": "General Financial Investing and Speculation"
+            }
+          ]
+        },
+        {
+          "id": 1,
+          "name": "Semiconductor Rally: Exuberance Intensifying",
+          "description": "The semiconductor market rally is exhibiting late-stage exuberance and concentration risks, drawing parallels to the dot-com bubble.",
+          "bias": "defensive",
+          "regime": "Emerging",
+          "size": 1,
+          "strength": 1.0,
+          "coherence": 1.0,
+          "channels": [
+            "Verified Investing"
+          ],
+          "avg_signal": 9.0,
+          "briefs": [
+            {
+              "episode_title": "Dot-Com 2.0? Semiconductor MU & SK Hynix Hit $1 Trillion as Warning Signs Flash for Traders",
+              "channel": "Verified Investing",
+              "duration_minutes": 19,
+              "podcast_date": "2026-05-28",
+              "processing_date": "2026-05-28",
+              "one_line_summary": "Semiconductor market rally shows signs of late-stage exuberance and concentration risks akin to the dot-com bubble era.",
+              "core_claims": [
+                "Micron and SK Hynix have reached $1 trillion valuations, but SK Hynix showed a bearish topping tail signal.",
+                "The current semiconductor rally is the most vertical run yet, indicating programmed 'buy the dip' mentality among investors.",
+                "Equal-weight indices are lagging semiconductor-heavy indices, suggesting concentration is affecting market dynamics.",
+                "Nvidia is showing weakness despite overall semiconductor strength, potentially signaling rotation or profit-taking by major holders.",
+                "Walmart's underperformance and warnings about the consumer sector raise concerns about broader economic health.",
+                "Global markets like the KOSPI and Nikkei are showing bearish signals, indicating potential reversals."
+              ],
+              "signal_strength": 9,
+              "themes": [
+                "semiconductors",
+                "market analysis",
+                "economic indicators",
+                "investment strategy",
+                "risk assessment",
+                "dot-com bubble"
+              ],
+              "positioning_implication": "Reduce exposure to highly concentrated semiconductor positions; monitor broader market breath and economic indicators for signs of reversal. Shift focus towards value and defensive sectors.",
+              "time_horizon": "medium",
+              "shelf_life": "Medium",
+              "thumbnail": "https://i.ytimg.com/vi/NbsdFBj1Ras/hqdefault.jpg",
+              "video_url": "https://www.youtube.com/watch?v=NbsdFBj1Ras",
+              "cluster_id": 1,
+              "category": "General Financial Investing and Speculation"
+            }
+          ]
+        }
+      ],
+      "should_generate": false
+    },
+    "Artificial Intelligence": {
+      "name": "Artificial Intelligence",
+      "meta_summary": "",
+      "convergence_score": 0.0,
+      "percentile": 0.0,
+      "regime_state": "Neutral",
+      "clusters": [
+        {
+          "id": 1,
+          "name": "AI Job Apocalypse Narrative: Eroding",
+          "description": "The narrative of AI causing mass job displacement is losing momentum, with increasing focus on AI's potential to enhance productivity.",
+          "bias": "constructive",
+          "regime": "Emerging",
+          "size": 1,
+          "strength": 1.0,
+          "coherence": 1.0,
+          "channels": [
+            "Wes Roth"
+          ],
+          "avg_signal": 8.0,
+          "briefs": [
+            {
+              "episode_title": "The \"AI Job Apocalypse\" is CANCELLED!",
+              "channel": "Wes Roth",
+              "duration_minutes": 22,
+              "podcast_date": "2026-05-28",
+              "processing_date": "2024-02-23",
+              "one_line_summary": "Claims of AI-driven job apocalypse are softening, signaling a shift towards viewing AI as a productivity multiplier rather than a job destroyer.",
+              "core_claims": [
+                "Sam Altman and Dario Amadei are softening their stance on AI's potential to cause mass job displacement.",
+                "Dario Amadei now describes AI as a 'productivity multiplier' instead of a 'job destroyer'.",
+                "Increased AI adoption leads to more work, shifting the bottleneck from production to judgment and taste.",
+                "Initial data shows some reduction in entry-level work demand, but no clear evidence of a 'massive job apocalypse'.",
+                "AI can automate the middle of tasks, leaving humans in control of task definition and outcome evaluation.",
+                "AI is disproportionately affecting different companies, depending on their data, workflow, and AI usage capabilities."
+              ],
+              "signal_strength": 8,
+              "themes": [
+                "ai",
+                "job market",
+                "automation",
+                "productivity",
+                "economic impact",
+                "future of work"
+              ],
+              "positioning_implication": "Re-evaluate workforce planning to focus on human-AI collaboration rather than outright job displacement. Prioritize judgment, taste, and strategic decision-making in future skills development.",
+              "time_horizon": "medium",
+              "shelf_life": "Medium",
+              "thumbnail": "https://i.ytimg.com/vi/jZg1EkujbJ0/hqdefault.jpg",
+              "video_url": "https://www.youtube.com/watch?v=jZg1EkujbJ0",
+              "cluster_id": 1,
+              "category": "Artificial Intelligence"
+            }
+          ]
+        },
+        {
+          "id": 0,
+          "name": "AI Benchmark Efficacy Tightening",
+          "description": "The DeepSWE benchmark sharpens focus on real-world coding task completion, forcing more rigorous model evaluation.",
+          "bias": "constructive",
+          "regime": "Emerging",
+          "size": 1,
+          "strength": 1.0,
+          "coherence": 1.0,
+          "channels": [
+            "Matthew Berman"
+          ],
+          "avg_signal": 9.0,
+          "briefs": [
+            {
+              "episode_title": "Finally a good benchmark (DeepSWE)",
+              "channel": "Matthew Berman",
+              "duration_minutes": 16,
+              "podcast_date": "2026-05-28",
+              "processing_date": "2026-05-28",
+              "one_line_summary": "DeepSWE benchmark reflects real-world coding tasks, differentiating model efficacy based on task completion, not recall.",
+              "core_claims": [
+                "DeepSWE tasks are written from scratch, contamination-free, unlike benchmarks derived from public commits.",
+                "DeepSWE is high diversity, spans across 91 repositories and 5 languages.",
+                "DeepSWE prompts are half the length of SWE-bench pro, yet solutions require 5.5 times more code.",
+                "DeepSWE's verifiers align more closely with real task success with 0.3% false positive rate versus 8.5% from SWE-bench.",
+                "GPT-5.5 demonstrates 15+ point difference versus Opus 4.7 on DeepSWE.",
+                "GPT-5.5 cost per trial is $5.80, while Claude Opus 4.7 comes in at nearly 3 times the expense at $16."
+              ],
+              "signal_strength": 9,
+              "themes": [
+                "ai benchmarks",
+                "coding agents",
+                "gpt-5.5",
+                "data science",
+                "model evaluation"
+              ],
+              "positioning_implication": "Prioritize models demonstrating superior performance on realistic benchmarks like DeepSWE. Quantify ROI beyond recall abilities.",
+              "time_horizon": "medium",
+              "shelf_life": "Medium",
+              "thumbnail": "https://i.ytimg.com/vi/6LwQ8RbU9as/hqdefault.jpg",
+              "video_url": "https://www.youtube.com/watch?v=6LwQ8RbU9as",
+              "cluster_id": 0,
+              "category": "Artificial Intelligence"
+            }
+          ]
+        }
+      ],
+      "should_generate": false
+    },
+    "Precious Metals": {
+      "name": "Precious Metals",
+      "meta_summary": "",
+      "convergence_score": 0.0,
+      "percentile": 0.0,
+      "regime_state": "Neutral",
+      "clusters": [
+        {
+          "id": 0,
+          "name": "Precious Metals: Inflation Hedge Intensifying",
+          "description": "Precious metals are increasingly viewed as a hedge against inflation and economic uncertainty, with mining stocks offering asymmetric risk-reward profiles.",
+          "bias": "constructive",
+          "regime": "Accelerating",
+          "size": 2,
+          "strength": 1.2945002651194315,
+          "coherence": 0.6472501325597158,
+          "channels": [
+            "Wall Street Bullion",
+            "Commodity Culture"
+          ],
+          "avg_signal": 8.0,
+          "briefs": [
+            {
+              "episode_title": "This Silver Price Move Has Me SERIOUSLY Worried Right Now",
+              "channel": "Wall Street Bullion",
+              "duration_minutes": 29,
+              "podcast_date": "2026-05-28",
+              "processing_date": "2024-05-29",
+              "one_line_summary": "Precious metal prices have shown substantial long-term increases compared to income and housing, making them a hedge against economic uncertainty.",
+              "core_claims": [
+                "Silver has increased 1400% and Gold has increased 1450% since 2000.",
+                "The average income in the U.S. has increased around 190% since 2000.",
+                "Average housing prices have increased around 230% since 2000.",
+                "Cutting rates is the only way to continue printing money, but is not the answer to the inflationary problem.",
+                "The Fed is likely to cut rates, despite the debt in the system."
+              ],
+              "signal_strength": 8,
+              "themes": [
+                "precious metals",
+                "silver",
+                "gold",
+                "investment",
+                "inflation",
+                "economic forecast"
+              ],
+              "positioning_implication": "Favor investments that outperform general inflationary trends and maintain value amidst potential currency devaluation; consider precious metals as a long-term protective asset.",
+              "time_horizon": "long",
+              "shelf_life": "Medium",
+              "thumbnail": "https://i.ytimg.com/vi/OhK71GWNVEk/hqdefault.jpg",
+              "video_url": "https://www.youtube.com/watch?v=OhK71GWNVEk",
+              "cluster_id": 0,
+              "category": "Precious Metals"
+            },
+            {
+              "episode_title": "'Major Risk' Ahead For Markets But THESE Mining Stocks Will Outperform: Mining Stock Monkey",
+              "channel": "Commodity Culture",
+              "duration_minutes": 62,
+              "podcast_date": "2026-05-28",
+              "processing_date": "2026-05-28",
+              "one_line_summary": "Mining stocks hold asymmetric risk-reward and government bond yields pose major market risks.",
+              "core_claims": [
+                "Gold prices could reach $50,000 or $100,000 in the speaker's lifetime due to dollar devaluation.",
+                "Agnico Eagle trades at approximately 16x forward free cash flow, while Newmont trades at around 12x.",
+                "Gold prices could potentially drop by 70% if gold falls from $4500 to $2500, due to collapsing margins and bearish sentiment.",
+                "Closing the Strait of Hormuz is considered the largest oil supply disruption in history.",
+                "Hercules' copper deposit at Leviathan is estimated between 300-800 million tons.",
+                "Weaton Precious Metals stock is expected to have more growth than Franco Nevada over the next five years."
+              ],
+              "signal_strength": 8,
+              "themes": [
+                "mining stocks",
+                "precious metals",
+                "market risk",
+                "government debt",
+                "inflation",
+                "investment strategy"
+              ],
+              "positioning_implication": "Favor opportunities with asymmetric upside potential in mining sector, hedging against government debt risk.",
+              "time_horizon": "medium",
+              "shelf_life": "Medium",
+              "thumbnail": "https://i.ytimg.com/vi/8JKo4bJCjLA/hqdefault.jpg",
+              "video_url": "https://www.youtube.com/watch?v=8JKo4bJCjLA",
+              "cluster_id": 0,
+              "category": "Precious Metals"
+            }
+          ]
+        }
+      ],
+      "should_generate": false
+    }
+  },
+  "clusters": []
+}
