@@ -9475,3 +9475,144 @@
 2026-05-28 07:48:55,844 - INFO - ==================================================
 2026-05-28 07:48:55,844 - INFO - Pipeline Execution Complete
 2026-05-28 07:48:55,844 - INFO - ==================================================
+2026-05-29 07:39:58,820 - INFO - ==================================================
+2026-05-29 07:39:58,820 - INFO - Starting TheBrief Daily Pipeline
+2026-05-29 07:39:58,820 - INFO - ==================================================
+2026-05-29 07:39:58,820 - INFO - 
+--- Phase 1: Discovery ---
+2026-05-29 07:39:58,824 - INFO - Discovering videos published after 2026-05-28T07:39:58.824244+00:00 (24h lookback)
+2026-05-29 07:39:59,254 - INFO - Found 2 new potential videos on GoldSilver .
+2026-05-29 07:39:59,325 - INFO - Found 1 new potential videos on Kitco NEWS.
+2026-05-29 07:39:59,555 - INFO - Found 1 new potential videos on Wall Street Bullion .
+2026-05-29 07:39:59,619 - INFO - Found 3 new potential videos on AI News & Strategy Daily | Nate B Jones.
+2026-05-29 07:39:59,921 - INFO - Found 1 new potential videos on David Lin .
+2026-05-29 07:39:59,936 - INFO - Found 1 new potential videos on Clive Thompson.
+2026-05-29 07:40:00,106 - INFO - Found 2 new potential videos on TheTechnicalTraders.
+2026-05-29 07:40:00,222 - INFO - Found 5 new potential videos on Verified Investing.
+2026-05-29 07:40:00,439 - INFO - Found 1 new potential videos on CPM Group.
+2026-05-29 07:40:00,459 - INFO - Found 1 new potential videos on Adam Taggart | Thoughtful Money®.
+2026-05-29 07:40:00,540 - INFO - Found 1 new potential videos on Commodity Culture.
+2026-05-29 07:40:00,600 - INFO - Found 1 new potential videos on Miles Franklin Media.
+2026-05-29 07:40:00,606 - INFO - Found 2 new potential videos on Matthew Berman.
+2026-05-29 07:40:00,775 - INFO - Found 1 new potential videos on Wes Roth.
+2026-05-29 07:40:00,834 - INFO - Found 2 new potential videos on The Prof G Pod – Scott Galloway.
+2026-05-29 07:40:01,014 - INFO - Found 18 total long-form videos across all channels.
+2026-05-29 07:40:01,046 - INFO - Discovery complete. Added 18 new videos to queue.
+2026-05-29 07:40:01,046 - INFO - 
+--- Phase 2: Extraction ---
+2026-05-29 07:40:01,288 - INFO - yt-dlp version: 2026.03.17
+2026-05-29 07:40:01,645 - INFO - POT-related packages: bgutil-ytdlp-pot-provider 1.3.1
+2026-05-29 07:40:01,668 - INFO - bgutil HTTP server not available on port 4416 (will rely on cookies)
+2026-05-29 07:40:01,669 - INFO - Extracting audio for Anthropic just dropped Opus 4.8... (WOAH) (t3uBGhpii6w)...
+2026-05-29 07:40:18,288 - INFO - Successfully extracted: audio/t3uBGhpii6w.mp3
+2026-05-29 07:40:23,766 - INFO - Extracting audio for SpaceX, OpenAI & Anthropic IPOs: Is Silver the Overlooked AI Trade? (El-uv0ow7UI)...
+2026-05-29 07:40:58,204 - INFO - Successfully extracted: audio/El-uv0ow7UI.mp3
+2026-05-29 07:41:04,898 - INFO - Extracting audio for The New Invisible Hand Reshapes The Global Economy | Yat Siu (kNw8gxTfxPI)...
+2026-05-29 07:41:23,796 - INFO - Successfully extracted: audio/kNw8gxTfxPI.mp3
+2026-05-29 07:41:34,879 - INFO - Extracting audio for Claude Opus 4.8 Is Too Smart… and TOO HONEST (F_6go08nHv4)...
+2026-05-29 07:41:47,427 - INFO - Successfully extracted: audio/F_6go08nHv4.mp3
+2026-05-29 07:41:56,579 - INFO - Extracting audio for New All-Time Highs! Why SMH Missed The Celebration 🚀 (lKEUYoLgOeY)...
+2026-05-29 07:42:12,114 - INFO - Successfully extracted: audio/lKEUYoLgOeY.mp3
+2026-05-29 07:42:23,600 - INFO - Extracting audio for Gavin Newsom: California’s Housing Crisis Is Its Original Sin (wsqcbRkIWbU)...
+2026-05-29 07:42:57,398 - INFO - Successfully extracted: audio/wsqcbRkIWbU.mp3
+2026-05-29 07:43:04,438 - INFO - Extracting audio for OPUS 4.8!!! (also maybe GPT5.6??) (4n_pxHZfTC8)...
+2026-05-29 07:44:15,476 - INFO - Successfully extracted: audio/4n_pxHZfTC8.mp3
+2026-05-29 07:44:26,377 - INFO - Extracting audio for 2026 Silver Market Outlook: The Definitive Source for Silver Data and Insight (pUjNkfOWFVc)...
+2026-05-29 07:45:15,342 - INFO - Successfully extracted: audio/pUjNkfOWFVc.mp3
+2026-05-29 07:45:25,169 - INFO - Extracting audio for URGENT: Silver Price Is About To Do Something NOBODY Expected (Kz3biBk56Lo)...
+2026-05-29 07:45:36,548 - INFO - Successfully extracted: audio/Kz3biBk56Lo.mp3
+2026-05-29 07:45:47,362 - INFO - Extracting audio for The Real Reason Gold Dropped: It Is Becoming The World's 'Neutral Asset' - Peter Boockvar (DHw-jEbMs_o)...
+2026-05-29 07:46:13,348 - INFO - Successfully extracted: audio/DHw-jEbMs_o.mp3
+2026-05-29 07:46:22,986 - INFO - Extracting audio for 'Dangerous Game' in Iran Could Lead to 'Catastrophic' Energy Crisis: Doomberg (vxIcdcL7wxY)...
+2026-05-29 07:46:43,730 - INFO - Successfully extracted: audio/vxIcdcL7wxY.mp3
+2026-05-29 07:46:53,996 - INFO - Extracting audio for Markets Don't Care About Inflation Anymore — Until They Do (DzptPPtnrd8)...
+2026-05-29 07:47:06,268 - INFO - Successfully extracted: audio/DzptPPtnrd8.mp3
+2026-05-29 07:47:12,821 - INFO - Extracting audio for I Used to Have a Peaceful Life. Then I Started Investing. (vT9XgeCclpU)...
+2026-05-29 07:47:25,418 - INFO - Successfully extracted: audio/vT9XgeCclpU.mp3
+2026-05-29 07:47:30,961 - INFO - Extracting audio for This Trigger Could Send Stocks Bubbling Sharply Higher | Darius Dale (AaVjxiFROOU)...
+2026-05-29 07:48:22,779 - INFO - Successfully extracted: audio/AaVjxiFROOU.mp3
+2026-05-29 07:48:29,440 - INFO - Extracting audio for A Cursor Agent Wiped a Database in 9 Seconds. Agent Analytics Would Have Seen It Coming. (n0nC1kmztSk)...
+2026-05-29 07:48:40,910 - INFO - Successfully extracted: audio/n0nC1kmztSk.mp3
+2026-05-29 07:48:46,281 - INFO - Extracting audio for Want to make trading simple, stop guessing, predicting, and just follow... (NC6GySoGXME)...
+2026-05-29 07:48:59,568 - INFO - Successfully extracted: audio/NC6GySoGXME.mp3
+2026-05-29 07:49:06,876 - INFO - Extracting audio for PCE Sparks Bounce As Oil Inch Inches Up, Nasdaq Hitting a Wall? (Dell, Bitcoin & Oil Levels) (TCIU03ZECLA)...
+2026-05-29 07:49:22,487 - INFO - Successfully extracted: audio/TCIU03ZECLA.mp3
+2026-05-29 07:49:32,164 - INFO - Extracting audio for SILVER - Large open interest in July.  Why silver loooks like a "Buy". 20 Large silver miners named. (ElAdjkpWELo)...
+2026-05-29 07:49:48,293 - INFO - Successfully extracted: audio/ElAdjkpWELo.mp3
+2026-05-29 07:49:48,294 - INFO - Extraction complete. 18/18 audio files ready. (Time: 586.6s)
+2026-05-29 07:49:48,294 - INFO - 
+--- Phase 3: Summarization (Direct Audio) ---
+2026-05-29 07:49:50,166 - INFO - Generating Brief for Anthropic just dropped Opus 4.8... (WOAH) (t3uBGhpii6w)...
+2026-05-29 07:49:50,168 - INFO - AFC is enabled with max remote calls: 10.
+2026-05-29 07:49:50,356 - INFO - Generating Brief for The New Invisible Hand Reshapes The Global Economy | Yat Siu (kNw8gxTfxPI)...
+2026-05-29 07:49:50,357 - INFO - AFC is enabled with max remote calls: 10.
+2026-05-29 07:49:50,761 - INFO - Generating Brief for SpaceX, OpenAI & Anthropic IPOs: Is Silver the Overlooked AI Trade? (El-uv0ow7UI)...
+2026-05-29 07:49:50,762 - INFO - AFC is enabled with max remote calls: 10.
+2026-05-29 07:49:56,181 - INFO - ✅ Brief successfully generated for Anthropic just dropped Opus 4.8... (WOAH)
+2026-05-29 07:49:57,794 - INFO - Generating Brief for Claude Opus 4.8 Is Too Smart… and TOO HONEST (F_6go08nHv4)...
+2026-05-29 07:49:57,795 - INFO - AFC is enabled with max remote calls: 10.
+2026-05-29 07:49:58,521 - INFO - ✅ Brief successfully generated for The New Invisible Hand Reshapes The Global Economy | Yat Siu
+2026-05-29 07:49:59,513 - INFO - ✅ Brief successfully generated for SpaceX, OpenAI & Anthropic IPOs: Is Silver the Overlooked AI Trade?
+2026-05-29 07:50:00,289 - INFO - Generating Brief for New All-Time Highs! Why SMH Missed The Celebration 🚀 (lKEUYoLgOeY)...
+2026-05-29 07:50:00,291 - INFO - AFC is enabled with max remote calls: 10.
+2026-05-29 07:50:01,215 - ERROR - Error summarising audio New All-Time Highs! Why SMH Missed The Celebration 🚀: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more details.', 'status': 'RESOURCE_EXHAUSTED'}}
+2026-05-29 07:50:01,826 - INFO - Generating Brief for Gavin Newsom: California’s Housing Crisis Is Its Original Sin (wsqcbRkIWbU)...
+2026-05-29 07:50:01,828 - INFO - AFC is enabled with max remote calls: 10.
+2026-05-29 07:50:03,677 - INFO - ✅ Brief successfully generated for Claude Opus 4.8 Is Too Smart… and TOO HONEST
+2026-05-29 07:50:04,906 - INFO - Generating Brief for OPUS 4.8!!! (also maybe GPT5.6??) (4n_pxHZfTC8)...
+2026-05-29 07:50:04,907 - INFO - AFC is enabled with max remote calls: 10.
+2026-05-29 07:50:05,734 - INFO - Generating Brief for 2026 Silver Market Outlook: The Definitive Source for Silver Data and Insight (pUjNkfOWFVc)...
+2026-05-29 07:50:05,735 - INFO - AFC is enabled with max remote calls: 10.
+2026-05-29 07:50:07,173 - ERROR - Error summarising audio 2026 Silver Market Outlook: The Definitive Source for Silver Data and Insight: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more details.', 'status': 'RESOURCE_EXHAUSTED'}}
+2026-05-29 07:50:07,189 - ERROR - Error summarising audio OPUS 4.8!!! (also maybe GPT5.6??): 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more details.', 'status': 'RESOURCE_EXHAUSTED'}}
+2026-05-29 07:50:09,284 - INFO - Generating Brief for The Real Reason Gold Dropped: It Is Becoming The World's 'Neutral Asset' - Peter Boockvar (DHw-jEbMs_o)...
+2026-05-29 07:50:09,285 - INFO - AFC is enabled with max remote calls: 10.
+2026-05-29 07:50:09,596 - INFO - Generating Brief for URGENT: Silver Price Is About To Do Something NOBODY Expected (Kz3biBk56Lo)...
+2026-05-29 07:50:09,597 - INFO - AFC is enabled with max remote calls: 10.
+2026-05-29 07:50:10,771 - INFO - ✅ Brief successfully generated for Gavin Newsom: California’s Housing Crisis Is Its Original Sin
+2026-05-29 07:50:12,144 - INFO - Generating Brief for 'Dangerous Game' in Iran Could Lead to 'Catastrophic' Energy Crisis: Doomberg (vxIcdcL7wxY)...
+2026-05-29 07:50:12,145 - INFO - AFC is enabled with max remote calls: 10.
+2026-05-29 07:50:14,525 - ERROR - Schema parsing error for URGENT: Silver Price Is About To Do Something NOBODY Expected: Expecting value: line 1 column 1132 (char 1131)
+2026-05-29 07:50:16,092 - INFO - ✅ Brief successfully generated for The Real Reason Gold Dropped: It Is Becoming The World's 'Neutral Asset' - Peter Boockvar
+2026-05-29 07:50:16,231 - INFO - Generating Brief for Markets Don't Care About Inflation Anymore — Until They Do (DzptPPtnrd8)...
+2026-05-29 07:50:16,233 - INFO - AFC is enabled with max remote calls: 10.
+2026-05-29 07:50:17,188 - ERROR - Error summarising audio Markets Don't Care About Inflation Anymore — Until They Do: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more details.', 'status': 'RESOURCE_EXHAUSTED'}}
+2026-05-29 07:50:17,617 - INFO - Generating Brief for I Used to Have a Peaceful Life. Then I Started Investing. (vT9XgeCclpU)...
+2026-05-29 07:50:17,618 - INFO - AFC is enabled with max remote calls: 10.
+2026-05-29 07:50:18,537 - ERROR - Error summarising audio I Used to Have a Peaceful Life. Then I Started Investing.: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more details.', 'status': 'RESOURCE_EXHAUSTED'}}
+2026-05-29 07:50:19,323 - INFO - ✅ Brief successfully generated for 'Dangerous Game' in Iran Could Lead to 'Catastrophic' Energy Crisis: Doomberg
+2026-05-29 07:50:19,867 - INFO - Generating Brief for This Trigger Could Send Stocks Bubbling Sharply Higher | Darius Dale (AaVjxiFROOU)...
+2026-05-29 07:50:19,868 - INFO - AFC is enabled with max remote calls: 10.
+2026-05-29 07:50:20,426 - INFO - Generating Brief for A Cursor Agent Wiped a Database in 9 Seconds. Agent Analytics Would Have Seen It Coming. (n0nC1kmztSk)...
+2026-05-29 07:50:20,427 - INFO - AFC is enabled with max remote calls: 10.
+2026-05-29 07:50:20,757 - INFO - Generating Brief for Want to make trading simple, stop guessing, predicting, and just follow... (NC6GySoGXME)...
+2026-05-29 07:50:20,758 - INFO - AFC is enabled with max remote calls: 10.
+2026-05-29 07:50:21,179 - ERROR - Error summarising audio A Cursor Agent Wiped a Database in 9 Seconds. Agent Analytics Would Have Seen It Coming.: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more details.', 'status': 'RESOURCE_EXHAUSTED'}}
+2026-05-29 07:50:21,510 - ERROR - Error summarising audio Want to make trading simple, stop guessing, predicting, and just follow...: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more details.', 'status': 'RESOURCE_EXHAUSTED'}}
+2026-05-29 07:50:21,794 - ERROR - Error summarising audio This Trigger Could Send Stocks Bubbling Sharply Higher | Darius Dale: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more details.', 'status': 'RESOURCE_EXHAUSTED'}}
+2026-05-29 07:50:23,577 - INFO - Generating Brief for PCE Sparks Bounce As Oil Inch Inches Up, Nasdaq Hitting a Wall? (Dell, Bitcoin & Oil Levels) (TCIU03ZECLA)...
+2026-05-29 07:50:23,578 - INFO - AFC is enabled with max remote calls: 10.
+2026-05-29 07:50:23,745 - INFO - Generating Brief for SILVER - Large open interest in July.  Why silver loooks like a "Buy". 20 Large silver miners named. (ElAdjkpWELo)...
+2026-05-29 07:50:23,746 - INFO - AFC is enabled with max remote calls: 10.
+2026-05-29 07:50:24,567 - ERROR - Error summarising audio PCE Sparks Bounce As Oil Inch Inches Up, Nasdaq Hitting a Wall? (Dell, Bitcoin & Oil Levels): 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more details.', 'status': 'RESOURCE_EXHAUSTED'}}
+2026-05-29 07:50:24,643 - ERROR - Error summarising audio SILVER - Large open interest in July.  Why silver loooks like a "Buy". 20 Large silver miners named.: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more details.', 'status': 'RESOURCE_EXHAUSTED'}}
+2026-05-29 07:50:25,504 - INFO - --- Phase 3: Category Synthesis (7 assets across categories) ---
+2026-05-29 07:50:25,504 - INFO - Analyzing 3 categories: Artificial Intelligence, General Financial Investing and Speculation, Precious Metals
+2026-05-29 07:50:25,504 - INFO - Processing Synthesis for sector: Artificial Intelligence (2 assets)...
+2026-05-29 07:50:25,531 - INFO - AFC is enabled with max remote calls: 10.
+2026-05-29 07:50:26,647 - INFO - ✅ Synthesis complete for Artificial Intelligence
+2026-05-29 07:50:26,647 - INFO - Processing Synthesis for sector: General Financial Investing and Speculation (3 assets)...
+2026-05-29 07:50:26,651 - INFO - AFC is enabled with max remote calls: 10.
+2026-05-29 07:50:27,565 - INFO - AFC is enabled with max remote calls: 10.
+2026-05-29 07:50:28,508 - INFO - ✅ Synthesis complete for General Financial Investing and Speculation
+2026-05-29 07:50:28,508 - INFO - Processing Synthesis for sector: Precious Metals (2 assets)...
+2026-05-29 07:50:28,512 - INFO - AFC is enabled with max remote calls: 10.
+2026-05-29 07:50:29,482 - INFO - AFC is enabled with max remote calls: 10.
+2026-05-29 07:50:30,309 - INFO - ✅ Synthesis complete for Precious Metals
+2026-05-29 07:50:30,328 - INFO - Summarization complete. 7 briefs written to briefs/2026-05-29.md (Time: 42.0s)
+2026-05-29 07:50:32,048 - INFO - Email digest sent successfully to kwilliamson.mail@gmail.com.
+2026-05-29 07:50:32,759 - INFO - Email digest sent successfully to kochava72@gmail.com.
+2026-05-29 07:50:32,771 - INFO - Queue cleared.
+2026-05-29 07:50:32,777 - INFO - ==================================================
+2026-05-29 07:50:32,777 - INFO - Pipeline Execution Complete
+2026-05-29 07:50:32,777 - INFO - ==================================================

@@ -1,0 +1,566 @@
+{
+  "date": "2026-05-29",
+  "briefs": [
+    {
+      "episode_title": "Anthropic just dropped Opus 4.8... (WOAH)",
+      "channel": "Matthew Berman",
+      "duration_minutes": 22,
+      "podcast_date": "2026-05-29",
+      "processing_date": "2026-05-29",
+      "one_line_summary": "Anthropic's Opus 4.8 boasts improved intelligence and speed while maintaining the same cost, challenging existing benchmarks and revealing a new dynamic workflows feature.",
+      "core_claims": [
+        "Opus 4.8 offers sharper judgment, potentially reducing token usage at the same cost as 4.7.",
+        "Fast mode on Opus 4.8 runs roughly 2.5 times faster, enabling 250 tokens per second versus 100 previously.",
+        "Opus 4.8 achieves 69.2% on Agentic Coding with Swe-bench Pro, a 5% increase from 4.7 and surpassing GPT-5.5.",
+        "New \"Dynamic Workflows\" in Claude code utilize hundreds of parallel sub-agents for complex tasks, now finishing projects in days that previously took quarters.",
+        "Opus 4.8 showcases a 140-point improvement in real-world knowledge work in the GDPVALAA benchmark over the previous Opus 4.7 model and GPT 5.5."
+      ],
+      "signal_strength": 9,
+      "themes": [
+        "ai models",
+        "benchmarking",
+        "cost efficiency",
+        "parallel processing",
+        "workflow automation",
+        "compute infrastructure"
+      ],
+      "positioning_implication": "Assess workload suitability for parallel processing. Prioritize cost-effective high-throughput tasks given increased computational resources, considering potential API cost increases.",
+      "time_horizon": "short",
+      "shelf_life": "Medium",
+      "thumbnail": "https://i.ytimg.com/vi/t3uBGhpii6w/hqdefault.jpg",
+      "video_url": "https://www.youtube.com/watch?v=t3uBGhpii6w",
+      "cluster_id": 0,
+      "category": "Artificial Intelligence"
+    },
+    {
+      "episode_title": "The New Invisible Hand Reshapes The Global Economy | Yat Siu",
+      "channel": "David Lin",
+      "duration_minutes": 56,
+      "podcast_date": "2026-05-29",
+      "processing_date": "2026-05-29",
+      "one_line_summary": "AI agent technologies will scale personalized human interaction, impacting industries from media to workforce development.",
+      "core_claims": [
+        "AI productivity will increase by 1000x.",
+        "Blockchain solves digital identity verification for anonymous interactions.",
+        "AI agents can perform microtransactions and scale personalized fan community building.",
+        "The most valuable skill will be orchestrating AI agents, not doing a single task well."
+      ],
+      "signal_strength": 8,
+      "themes": [
+        "ai agents",
+        "blockchain",
+        "digital identity",
+        "future of work",
+        "creator economy",
+        "media disruption",
+        "productivity"
+      ],
+      "positioning_implication": "Strategically position for decentralized systems integrating AI agents across diverse economic activities; expect substantial productivity gains and value shifts.",
+      "time_horizon": "medium",
+      "shelf_life": "Medium",
+      "thumbnail": "https://i.ytimg.com/vi/kNw8gxTfxPI/hqdefault.jpg",
+      "video_url": "https://www.youtube.com/watch?v=kNw8gxTfxPI",
+      "cluster_id": 1,
+      "category": "General Financial Investing and Speculation"
+    },
+    {
+      "episode_title": "SpaceX, OpenAI & Anthropic IPOs: Is Silver the Overlooked AI Trade?",
+      "channel": "Miles Franklin Media",
+      "duration_minutes": 56,
+      "podcast_date": "2026-05-29",
+      "processing_date": "2024-05-29",
+      "one_line_summary": "Upcoming tech IPOs, particularly SpaceX, OpenAI, and Anthropic, hold significance for capital flows, AI infrastructure, energy, satellites, data centers, commodities, and precious metals like silver, potentially accelerated by orbital data centers and industrial demand.",
+      "core_claims": [
+        "SpaceX is aiming for a $2 trillion valuation on its first day of trading, but will only sell about $75 billion worth of stock.",
+        "Polymarket predicts SpaceX will close above a $2 trillion market cap on its first day of trading.",
+        "Musk is trying to get Nasdaq to accelerate the adoption process of SpaceX into the index within two weeks of its IPO.",
+        "If SpaceX becomes a $2 trillion stock, it may acquire Tesla via a stock conversion.",
+        "Orbital data centers, shared by Google, Anthropic, and OpenAI, will require high solar capacity and dramatically increase silver demand.",
+        "Anthropic is currently searching for data centers to rent capacity, due to a miscalculation in compute needs."
+      ],
+      "signal_strength": 7,
+      "themes": [
+        "ipos",
+        "artificial intelligence",
+        "silver",
+        "commodities",
+        "spacex",
+        "macroeconomics",
+        "energy",
+        "tesla"
+      ],
+      "positioning_implication": "Consider the impact of tech IPOs on commodity demand and potential shifts in market dynamics. Monitor energy market stability and central bank actions to inform investment strategies.",
+      "time_horizon": "medium",
+      "shelf_life": "Medium",
+      "thumbnail": "https://i.ytimg.com/vi/El-uv0ow7UI/hqdefault.jpg",
+      "video_url": "https://www.youtube.com/watch?v=El-uv0ow7UI",
+      "cluster_id": 1,
+      "category": "Precious Metals"
+    },
+    {
+      "episode_title": "Claude Opus 4.8 Is Too Smart\u2026 and TOO HONEST",
+      "channel": "Wes Roth",
+      "duration_minutes": 23,
+      "podcast_date": "2026-05-29",
+      "processing_date": "2026-05-29",
+      "one_line_summary": "Claude Opus 4.8 exhibits increased honesty and improved agent capabilities, but benchmark performance varies and potential issues arise from code migration tasks.",
+      "core_claims": [
+        "Opus 4.8 is more honest in its responses, avoiding unsupported claims, but benchmark performance is not universally better than previous models.",
+        "Opus 4.8 can perform code base migrations across hundreds of thousands of lines of code, from kickoff to merge, using dynamic workflows.",
+        "Opus 4.8 uses new effort levels like 'Ultra Code' that enables it to take on bigger tasks and plan work across hundreds of parallel sub-agents.",
+        "Fast mode pricing for the API is three times cheaper than previous models and about 2.5 times the speed."
+      ],
+      "signal_strength": 7,
+      "themes": [
+        "ai models",
+        "natural language processing",
+        "agent capabilities",
+        "honesty",
+        "dynamic workflows",
+        "code migration"
+      ],
+      "positioning_implication": "Evaluate Opus 4.8 for complex, long-term tasks requiring reliability and transparency, but verify benchmark performance for specific use cases before full adoption. Consider the implications of AI honesty on business outcomes.",
+      "time_horizon": "medium",
+      "shelf_life": "Medium",
+      "thumbnail": "https://i.ytimg.com/vi/F_6go08nHv4/hqdefault.jpg",
+      "video_url": "https://www.youtube.com/watch?v=F_6go08nHv4",
+      "cluster_id": 0,
+      "category": "Artificial Intelligence"
+    },
+    {
+      "episode_title": "Gavin Newsom: California\u2019s Housing Crisis Is Its Original Sin",
+      "channel": "The Prof G Pod \u2013 Scott Galloway",
+      "duration_minutes": 59,
+      "podcast_date": "2026-05-29",
+      "processing_date": "2026-05-29",
+      "one_line_summary": "California's housing crisis, rooted in insufficient supply, defines its challenges and angers.",
+      "core_claims": [
+        "California is now the fourth largest economy in the world.",
+        "California's housing shortage defines people's anger.",
+        "Homelessness is a byproduct of failing to build enough housing.",
+        "California has seen a 59% increase in total housing construction.",
+        "California has seen a 56% reduction in permitting times."
+      ],
+      "signal_strength": 8,
+      "themes": [
+        "california",
+        "housing",
+        "homelessness",
+        "policy",
+        "economics",
+        "taxation",
+        "regulation"
+      ],
+      "positioning_implication": "Emphasize supply-side solutions and regulatory reforms to address housing affordability and related social issues; fiscal policy should incentivize development while considering broader economic competitiveness.",
+      "time_horizon": "long",
+      "shelf_life": "Medium",
+      "thumbnail": "https://i.ytimg.com/vi/wsqcbRkIWbU/hqdefault.jpg",
+      "video_url": "https://www.youtube.com/watch?v=wsqcbRkIWbU",
+      "cluster_id": 0,
+      "category": "General Financial Investing and Speculation"
+    },
+    {
+      "episode_title": "The Real Reason Gold Dropped: It Is Becoming The World's 'Neutral Asset' - Peter Boockvar",
+      "channel": "Kitco NEWS",
+      "duration_minutes": 43,
+      "podcast_date": "2026-05-29",
+      "processing_date": "2024-05-29",
+      "one_line_summary": "Gold is undergoing a digestion phase, with geopolitical factors, rate dynamics, and government liquidity needs influencing its market behavior.",
+      "core_claims": [
+        "Real incomes have fallen for three consecutive months.",
+        "Savings rates dropped to 2.6%, the lowest since 2022.",
+        "Gold is becoming a 'neutral asset' used for settling transactions between countries avoiding the U.S. dollar.",
+        "Data center build-outs account for 150 basis points of Q1 GDP growth of 1.6%.",
+        "Private credit default rates have risen to 6%, the highest level recorded by Fitch.",
+        "US tech faces its most formidable competitor in China, partially due to US policies."
+      ],
+      "signal_strength": 8,
+      "themes": [
+        "gold",
+        "inflation",
+        "macroeconomics",
+        "geopolitics",
+        "market analysis",
+        "central banks"
+      ],
+      "positioning_implication": "Assess the impact of geopolitical events and central bank policies on portfolio allocation. Consider diversifying into less crowded sectors like consumer staples.",
+      "time_horizon": "medium",
+      "shelf_life": "Medium",
+      "thumbnail": "https://i.ytimg.com/vi/DHw-jEbMs_o/hqdefault.jpg",
+      "video_url": "https://www.youtube.com/watch?v=DHw-jEbMs_o",
+      "cluster_id": 0,
+      "category": "General Financial Investing and Speculation"
+    },
+    {
+      "episode_title": "'Dangerous Game' in Iran Could Lead to 'Catastrophic' Energy Crisis: Doomberg",
+      "channel": "Commodity Culture",
+      "duration_minutes": 56,
+      "podcast_date": "2026-05-29",
+      "processing_date": "2026-05-29",
+      "one_line_summary": "Escalation in Iran/Ukraine could trigger catastrophic energy market disruption, which the current market is underpricing, while the current oil market resilience is surprising due to China's buying strategies.",
+      "core_claims": [
+        "Analyst surprise at oil market resilience is attributed to China's pre-war buying and import decreases.",
+        "Iran's threat to proactively target oil and gas assets is underestimated by the 'finished the job' crowd, despite demonstrating this capability.",
+        "Analysts are warning that a pipeline that circumvents a straight through the United Arab Emirates will be destroyed.",
+        "Analysts are warning that the East-West pipeline across Saudi Arabia will be destroyed and the Red Sea will be closed.",
+        "Russia has been treating this as a special military operation, which is minimizing the impact on the average Russian.",
+        "With the Iranian attacks in the Strait of Hormuz, it has made it clear that it cannot be reopened militarily."
+      ],
+      "signal_strength": 9,
+      "themes": [
+        "geopolitics",
+        "energy crisis",
+        "iran",
+        "ukraine",
+        "china",
+        "oil market",
+        "black swan"
+      ],
+      "positioning_implication": "De-risk portfolios anticipating potential energy price shocks and geopolitical escalations; re-evaluate supply chain vulnerabilities.",
+      "time_horizon": "short",
+      "shelf_life": "Medium",
+      "thumbnail": "https://i.ytimg.com/vi/vxIcdcL7wxY/hqdefault.jpg",
+      "video_url": "https://www.youtube.com/watch?v=vxIcdcL7wxY",
+      "cluster_id": 0,
+      "category": "Precious Metals"
+    }
+  ],
+  "category_intelligence": {
+    "Artificial Intelligence": {
+      "name": "Artificial Intelligence",
+      "meta_summary": "",
+      "convergence_score": 0.0,
+      "percentile": 0.0,
+      "regime_state": "Neutral",
+      "clusters": [
+        {
+          "id": 0,
+          "name": "AI Model Benchmarks Converging",
+          "description": "New AI model benchmarks are converging as Anthropic's Opus 4.8 challenges existing performance metrics, revealing workflow automation capabilities and code migration issues.",
+          "bias": "neutral",
+          "regime": "Accelerating",
+          "size": 2,
+          "strength": 1.716161957134892,
+          "coherence": 0.858080978567446,
+          "channels": [
+            "Wes Roth",
+            "Matthew Berman"
+          ],
+          "avg_signal": 8.0,
+          "briefs": [
+            {
+              "episode_title": "Anthropic just dropped Opus 4.8... (WOAH)",
+              "channel": "Matthew Berman",
+              "duration_minutes": 22,
+              "podcast_date": "2026-05-29",
+              "processing_date": "2026-05-29",
+              "one_line_summary": "Anthropic's Opus 4.8 boasts improved intelligence and speed while maintaining the same cost, challenging existing benchmarks and revealing a new dynamic workflows feature.",
+              "core_claims": [
+                "Opus 4.8 offers sharper judgment, potentially reducing token usage at the same cost as 4.7.",
+                "Fast mode on Opus 4.8 runs roughly 2.5 times faster, enabling 250 tokens per second versus 100 previously.",
+                "Opus 4.8 achieves 69.2% on Agentic Coding with Swe-bench Pro, a 5% increase from 4.7 and surpassing GPT-5.5.",
+                "New \"Dynamic Workflows\" in Claude code utilize hundreds of parallel sub-agents for complex tasks, now finishing projects in days that previously took quarters.",
+                "Opus 4.8 showcases a 140-point improvement in real-world knowledge work in the GDPVALAA benchmark over the previous Opus 4.7 model and GPT 5.5."
+              ],
+              "signal_strength": 9,
+              "themes": [
+                "ai models",
+                "benchmarking",
+                "cost efficiency",
+                "parallel processing",
+                "workflow automation",
+                "compute infrastructure"
+              ],
+              "positioning_implication": "Assess workload suitability for parallel processing. Prioritize cost-effective high-throughput tasks given increased computational resources, considering potential API cost increases.",
+              "time_horizon": "short",
+              "shelf_life": "Medium",
+              "thumbnail": "https://i.ytimg.com/vi/t3uBGhpii6w/hqdefault.jpg",
+              "video_url": "https://www.youtube.com/watch?v=t3uBGhpii6w",
+              "cluster_id": 0,
+              "category": "Artificial Intelligence"
+            },
+            {
+              "episode_title": "Claude Opus 4.8 Is Too Smart\u2026 and TOO HONEST",
+              "channel": "Wes Roth",
+              "duration_minutes": 23,
+              "podcast_date": "2026-05-29",
+              "processing_date": "2026-05-29",
+              "one_line_summary": "Claude Opus 4.8 exhibits increased honesty and improved agent capabilities, but benchmark performance varies and potential issues arise from code migration tasks.",
+              "core_claims": [
+                "Opus 4.8 is more honest in its responses, avoiding unsupported claims, but benchmark performance is not universally better than previous models.",
+                "Opus 4.8 can perform code base migrations across hundreds of thousands of lines of code, from kickoff to merge, using dynamic workflows.",
+                "Opus 4.8 uses new effort levels like 'Ultra Code' that enables it to take on bigger tasks and plan work across hundreds of parallel sub-agents.",
+                "Fast mode pricing for the API is three times cheaper than previous models and about 2.5 times the speed."
+              ],
+              "signal_strength": 7,
+              "themes": [
+                "ai models",
+                "natural language processing",
+                "agent capabilities",
+                "honesty",
+                "dynamic workflows",
+                "code migration"
+              ],
+              "positioning_implication": "Evaluate Opus 4.8 for complex, long-term tasks requiring reliability and transparency, but verify benchmark performance for specific use cases before full adoption. Consider the implications of AI honesty on business outcomes.",
+              "time_horizon": "medium",
+              "shelf_life": "Medium",
+              "thumbnail": "https://i.ytimg.com/vi/F_6go08nHv4/hqdefault.jpg",
+              "video_url": "https://www.youtube.com/watch?v=F_6go08nHv4",
+              "cluster_id": 0,
+              "category": "Artificial Intelligence"
+            }
+          ]
+        }
+      ],
+      "should_generate": false
+    },
+    "General Financial Investing and Speculation": {
+      "name": "General Financial Investing and Speculation",
+      "meta_summary": "",
+      "convergence_score": 0.0,
+      "percentile": 0.0,
+      "regime_state": "Neutral",
+      "clusters": [
+        {
+          "id": 0,
+          "name": "California Housing Crisis Intensifying Gold's Digestion",
+          "description": "California's housing shortage exacerbates economic anxieties while gold navigates geopolitical and monetary policy pressures.",
+          "bias": "neutral",
+          "regime": "Accelerating",
+          "size": 2,
+          "strength": 1.1321591730296896,
+          "coherence": 0.5660795865148448,
+          "channels": [
+            "Kitco NEWS",
+            "The Prof G Pod \u2013 Scott Galloway"
+          ],
+          "avg_signal": 8.0,
+          "briefs": [
+            {
+              "episode_title": "Gavin Newsom: California\u2019s Housing Crisis Is Its Original Sin",
+              "channel": "The Prof G Pod \u2013 Scott Galloway",
+              "duration_minutes": 59,
+              "podcast_date": "2026-05-29",
+              "processing_date": "2026-05-29",
+              "one_line_summary": "California's housing crisis, rooted in insufficient supply, defines its challenges and angers.",
+              "core_claims": [
+                "California is now the fourth largest economy in the world.",
+                "California's housing shortage defines people's anger.",
+                "Homelessness is a byproduct of failing to build enough housing.",
+                "California has seen a 59% increase in total housing construction.",
+                "California has seen a 56% reduction in permitting times."
+              ],
+              "signal_strength": 8,
+              "themes": [
+                "california",
+                "housing",
+                "homelessness",
+                "policy",
+                "economics",
+                "taxation",
+                "regulation"
+              ],
+              "positioning_implication": "Emphasize supply-side solutions and regulatory reforms to address housing affordability and related social issues; fiscal policy should incentivize development while considering broader economic competitiveness.",
+              "time_horizon": "long",
+              "shelf_life": "Medium",
+              "thumbnail": "https://i.ytimg.com/vi/wsqcbRkIWbU/hqdefault.jpg",
+              "video_url": "https://www.youtube.com/watch?v=wsqcbRkIWbU",
+              "cluster_id": 0,
+              "category": "General Financial Investing and Speculation"
+            },
+            {
+              "episode_title": "The Real Reason Gold Dropped: It Is Becoming The World's 'Neutral Asset' - Peter Boockvar",
+              "channel": "Kitco NEWS",
+              "duration_minutes": 43,
+              "podcast_date": "2026-05-29",
+              "processing_date": "2024-05-29",
+              "one_line_summary": "Gold is undergoing a digestion phase, with geopolitical factors, rate dynamics, and government liquidity needs influencing its market behavior.",
+              "core_claims": [
+                "Real incomes have fallen for three consecutive months.",
+                "Savings rates dropped to 2.6%, the lowest since 2022.",
+                "Gold is becoming a 'neutral asset' used for settling transactions between countries avoiding the U.S. dollar.",
+                "Data center build-outs account for 150 basis points of Q1 GDP growth of 1.6%.",
+                "Private credit default rates have risen to 6%, the highest level recorded by Fitch.",
+                "US tech faces its most formidable competitor in China, partially due to US policies."
+              ],
+              "signal_strength": 8,
+              "themes": [
+                "gold",
+                "inflation",
+                "macroeconomics",
+                "geopolitics",
+                "market analysis",
+                "central banks"
+              ],
+              "positioning_implication": "Assess the impact of geopolitical events and central bank policies on portfolio allocation. Consider diversifying into less crowded sectors like consumer staples.",
+              "time_horizon": "medium",
+              "shelf_life": "Medium",
+              "thumbnail": "https://i.ytimg.com/vi/DHw-jEbMs_o/hqdefault.jpg",
+              "video_url": "https://www.youtube.com/watch?v=DHw-jEbMs_o",
+              "cluster_id": 0,
+              "category": "General Financial Investing and Speculation"
+            }
+          ]
+        },
+        {
+          "id": 1,
+          "name": "AI Agents Intensifying Media Disruption",
+          "description": "AI agents scaling personalized interaction accelerate media disruption and reshape workforce development.",
+          "bias": "neutral",
+          "regime": "Emerging",
+          "size": 1,
+          "strength": 1.0,
+          "coherence": 1.0,
+          "channels": [
+            "David Lin"
+          ],
+          "avg_signal": 8.0,
+          "briefs": [
+            {
+              "episode_title": "The New Invisible Hand Reshapes The Global Economy | Yat Siu",
+              "channel": "David Lin",
+              "duration_minutes": 56,
+              "podcast_date": "2026-05-29",
+              "processing_date": "2026-05-29",
+              "one_line_summary": "AI agent technologies will scale personalized human interaction, impacting industries from media to workforce development.",
+              "core_claims": [
+                "AI productivity will increase by 1000x.",
+                "Blockchain solves digital identity verification for anonymous interactions.",
+                "AI agents can perform microtransactions and scale personalized fan community building.",
+                "The most valuable skill will be orchestrating AI agents, not doing a single task well."
+              ],
+              "signal_strength": 8,
+              "themes": [
+                "ai agents",
+                "blockchain",
+                "digital identity",
+                "future of work",
+                "creator economy",
+                "media disruption",
+                "productivity"
+              ],
+              "positioning_implication": "Strategically position for decentralized systems integrating AI agents across diverse economic activities; expect substantial productivity gains and value shifts.",
+              "time_horizon": "medium",
+              "shelf_life": "Medium",
+              "thumbnail": "https://i.ytimg.com/vi/kNw8gxTfxPI/hqdefault.jpg",
+              "video_url": "https://www.youtube.com/watch?v=kNw8gxTfxPI",
+              "cluster_id": 1,
+              "category": "General Financial Investing and Speculation"
+            }
+          ]
+        }
+      ],
+      "should_generate": false
+    },
+    "Precious Metals": {
+      "name": "Precious Metals",
+      "meta_summary": "",
+      "convergence_score": 0.0,
+      "percentile": 0.0,
+      "regime_state": "Neutral",
+      "clusters": [
+        {
+          "id": 1,
+          "name": "AI IPOs Intensifying Capital Flow Pressures",
+          "description": "Upcoming tech IPOs, especially in AI and space, are poised to concentrate capital flows and reshape investment landscapes across multiple sectors.",
+          "bias": "constructive",
+          "regime": "Emerging",
+          "size": 1,
+          "strength": 1.0,
+          "coherence": 1.0,
+          "channels": [
+            "Miles Franklin Media"
+          ],
+          "avg_signal": 7.0,
+          "briefs": [
+            {
+              "episode_title": "SpaceX, OpenAI & Anthropic IPOs: Is Silver the Overlooked AI Trade?",
+              "channel": "Miles Franklin Media",
+              "duration_minutes": 56,
+              "podcast_date": "2026-05-29",
+              "processing_date": "2024-05-29",
+              "one_line_summary": "Upcoming tech IPOs, particularly SpaceX, OpenAI, and Anthropic, hold significance for capital flows, AI infrastructure, energy, satellites, data centers, commodities, and precious metals like silver, potentially accelerated by orbital data centers and industrial demand.",
+              "core_claims": [
+                "SpaceX is aiming for a $2 trillion valuation on its first day of trading, but will only sell about $75 billion worth of stock.",
+                "Polymarket predicts SpaceX will close above a $2 trillion market cap on its first day of trading.",
+                "Musk is trying to get Nasdaq to accelerate the adoption process of SpaceX into the index within two weeks of its IPO.",
+                "If SpaceX becomes a $2 trillion stock, it may acquire Tesla via a stock conversion.",
+                "Orbital data centers, shared by Google, Anthropic, and OpenAI, will require high solar capacity and dramatically increase silver demand.",
+                "Anthropic is currently searching for data centers to rent capacity, due to a miscalculation in compute needs."
+              ],
+              "signal_strength": 7,
+              "themes": [
+                "ipos",
+                "artificial intelligence",
+                "silver",
+                "commodities",
+                "spacex",
+                "macroeconomics",
+                "energy",
+                "tesla"
+              ],
+              "positioning_implication": "Consider the impact of tech IPOs on commodity demand and potential shifts in market dynamics. Monitor energy market stability and central bank actions to inform investment strategies.",
+              "time_horizon": "medium",
+              "shelf_life": "Medium",
+              "thumbnail": "https://i.ytimg.com/vi/El-uv0ow7UI/hqdefault.jpg",
+              "video_url": "https://www.youtube.com/watch?v=El-uv0ow7UI",
+              "cluster_id": 1,
+              "category": "Precious Metals"
+            }
+          ]
+        },
+        {
+          "id": 0,
+          "name": "Geopolitical Risks Intensifying Energy Market Vulnerability",
+          "description": "Escalating geopolitical tensions in Iran/Ukraine heighten the risk of a catastrophic energy market disruption, currently underestimated by market participants, despite China's strategic oil purchases.",
+          "bias": "defensive",
+          "regime": "Emerging",
+          "size": 1,
+          "strength": 1.0,
+          "coherence": 1.0,
+          "channels": [
+            "Commodity Culture"
+          ],
+          "avg_signal": 9.0,
+          "briefs": [
+            {
+              "episode_title": "'Dangerous Game' in Iran Could Lead to 'Catastrophic' Energy Crisis: Doomberg",
+              "channel": "Commodity Culture",
+              "duration_minutes": 56,
+              "podcast_date": "2026-05-29",
+              "processing_date": "2026-05-29",
+              "one_line_summary": "Escalation in Iran/Ukraine could trigger catastrophic energy market disruption, which the current market is underpricing, while the current oil market resilience is surprising due to China's buying strategies.",
+              "core_claims": [
+                "Analyst surprise at oil market resilience is attributed to China's pre-war buying and import decreases.",
+                "Iran's threat to proactively target oil and gas assets is underestimated by the 'finished the job' crowd, despite demonstrating this capability.",
+                "Analysts are warning that a pipeline that circumvents a straight through the United Arab Emirates will be destroyed.",
+                "Analysts are warning that the East-West pipeline across Saudi Arabia will be destroyed and the Red Sea will be closed.",
+                "Russia has been treating this as a special military operation, which is minimizing the impact on the average Russian.",
+                "With the Iranian attacks in the Strait of Hormuz, it has made it clear that it cannot be reopened militarily."
+              ],
+              "signal_strength": 9,
+              "themes": [
+                "geopolitics",
+                "energy crisis",
+                "iran",
+                "ukraine",
+                "china",
+                "oil market",
+                "black swan"
+              ],
+              "positioning_implication": "De-risk portfolios anticipating potential energy price shocks and geopolitical escalations; re-evaluate supply chain vulnerabilities.",
+              "time_horizon": "short",
+              "shelf_life": "Medium",
+              "thumbnail": "https://i.ytimg.com/vi/vxIcdcL7wxY/hqdefault.jpg",
+              "video_url": "https://www.youtube.com/watch?v=vxIcdcL7wxY",
+              "cluster_id": 0,
+              "category": "Precious Metals"
+            }
+          ]
+        }
+      ],
+      "should_generate": false
+    }
+  },
+  "clusters": []
+}
