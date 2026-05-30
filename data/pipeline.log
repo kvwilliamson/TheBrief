@@ -9616,3 +9616,114 @@
 2026-05-29 07:50:32,777 - INFO - ==================================================
 2026-05-29 07:50:32,777 - INFO - Pipeline Execution Complete
 2026-05-29 07:50:32,777 - INFO - ==================================================
+2026-05-30 07:18:01,883 - INFO - ==================================================
+2026-05-30 07:18:01,883 - INFO - Starting TheBrief Daily Pipeline
+2026-05-30 07:18:01,883 - INFO - ==================================================
+2026-05-30 07:18:01,883 - INFO - 
+--- Phase 1: Discovery ---
+2026-05-30 07:18:01,887 - INFO - Discovering videos published after 2026-05-29T07:18:01.887657+00:00 (24h lookback)
+2026-05-30 07:18:02,246 - INFO - Found 2 new potential videos on GoldSilver .
+2026-05-30 07:18:02,330 - INFO - Found 1 new potential videos on Wall Street Bullion .
+2026-05-30 07:18:02,421 - INFO - Found 1 new potential videos on Kitco NEWS.
+2026-05-30 07:18:02,556 - INFO - Found 1 new potential videos on Yankee Stacking.
+2026-05-30 07:18:02,656 - INFO - Found 3 new potential videos on AI News & Strategy Daily | Nate B Jones.
+2026-05-30 07:18:02,849 - INFO - Found 2 new potential videos on TheTechnicalTraders.
+2026-05-30 07:18:02,950 - INFO - Found 1 new potential videos on Felix & Friends (Goat Academy).
+2026-05-30 07:18:03,161 - INFO - Found 3 new potential videos on Verified Investing.
+2026-05-30 07:18:03,183 - INFO - Found 1 new potential videos on Commodity Culture.
+2026-05-30 07:18:03,343 - INFO - Found 2 new potential videos on Matthew Berman.
+2026-05-30 07:18:03,380 - INFO - Found 1 new potential videos on CPM Group.
+2026-05-30 07:18:03,492 - INFO - Found 1 new potential videos on Adam Taggart | Thoughtful Money®.
+2026-05-30 07:18:03,499 - INFO - Found 1 new potential videos on Wes Roth.
+2026-05-30 07:18:03,732 - INFO - Found 2 new potential videos on The Prof G Pod – Scott Galloway.
+2026-05-30 07:18:03,876 - INFO - Found 12 total long-form videos across all channels.
+2026-05-30 07:18:03,900 - INFO - Discovery complete. Added 12 new videos to queue.
+2026-05-30 07:18:03,900 - INFO - 
+--- Phase 2: Extraction ---
+2026-05-30 07:18:04,148 - INFO - yt-dlp version: 2026.03.17
+2026-05-30 07:18:04,496 - INFO - POT-related packages: bgutil-ytdlp-pot-provider 1.3.1
+2026-05-30 07:18:04,518 - INFO - bgutil HTTP server not available on port 4416 (will rely on cookies)
+2026-05-30 07:18:04,519 - INFO - Extracting audio for Ghost AI let's AI Agents build disposable worlds (hGCrvDDpl5w)...
+2026-05-30 07:18:19,615 - INFO - Successfully extracted: audio/hGCrvDDpl5w.mp3
+2026-05-30 07:18:29,262 - INFO - Extracting audio for IS STACKING SILVER EAGLES DUMB NOW?  What about the PREMIUMS?? (BPg64-kJMxc)...
+2026-05-30 07:18:38,391 - INFO - Successfully extracted: audio/BPg64-kJMxc.mp3
+2026-05-30 07:18:44,497 - INFO - Extracting audio for Mega Trends Changing, Oil May Be The Death Of Tech (GdUkwRoecKg)...
+2026-05-30 07:18:56,346 - INFO - Successfully extracted: audio/GdUkwRoecKg.mp3
+2026-05-30 07:19:07,986 - INFO - Extracting audio for Why Silver Could Drop First, Then Rally Later (hpCiSGxsH6E)...
+2026-05-30 07:19:25,877 - INFO - Successfully extracted: audio/hpCiSGxsH6E.mp3
+2026-05-30 07:19:32,562 - INFO - Extracting audio for They Were WRONG: Silver Price Just Hit a Historic Turning Point Nobody Is Talking About (aDFtzrtxPG8)...
+2026-05-30 07:19:44,140 - INFO - Successfully extracted: audio/aDFtzrtxPG8.mp3
+2026-05-30 07:19:50,002 - INFO - Extracting audio for The Pope is into AI (HoMvCjnpAJ8)...
+2026-05-30 07:20:04,981 - INFO - Successfully extracted: audio/HoMvCjnpAJ8.mp3
+2026-05-30 07:20:12,066 - INFO - Extracting audio for 9 Weeks Up & Way Overextended — The S&P 500 Setup Every Trader Must See (KSNCJMf_9vs)...
+2026-05-30 07:20:21,794 - INFO - Successfully extracted: audio/KSNCJMf_9vs.mp3
+2026-05-30 07:20:32,503 - INFO - Extracting audio for Iran, SpaceX, and a Nervous Bond Market | The Week (LWenWzDQZY8)...
+2026-05-30 07:20:45,189 - INFO - Successfully extracted: audio/LWenWzDQZY8.mp3
+2026-05-30 07:20:56,861 - INFO - Extracting audio for URANIUM Poised For 'Major Breakout' - Fundamentals 'Never Been Stronger': Jon Bey (YFZpE44gWQ0)...
+2026-05-30 07:21:11,425 - INFO - Successfully extracted: audio/YFZpE44gWQ0.mp3
+2026-05-30 07:21:22,962 - INFO - Extracting audio for Cheap software made your PM job harder, not easier. Here's the new job. (b6J387xJvHg)...
+2026-05-30 07:21:35,427 - INFO - Successfully extracted: audio/b6J387xJvHg.mp3
+2026-05-30 07:21:44,120 - INFO - Extracting audio for Market Game Plan: The DELL Insanity, Consumer Crash, Oil 'Deal' And Top Trades (9a1nXY_RM6U)...
+2026-05-30 07:21:57,042 - INFO - Successfully extracted: audio/9a1nXY_RM6U.mp3
+2026-05-30 07:22:06,992 - INFO - Extracting audio for This is Bigger Than Palantir & Nvidia. These 5 Stocks Win the Next AI Boom (ySPZxegniU8)...
+2026-05-30 07:22:22,271 - INFO - Successfully extracted: audio/ySPZxegniU8.mp3
+2026-05-30 07:22:22,271 - INFO - Extraction complete. 12/12 audio files ready. (Time: 257.8s)
+2026-05-30 07:22:22,272 - INFO - 
+--- Phase 3: Summarization (Direct Audio) ---
+2026-05-30 07:22:23,683 - INFO - Generating Brief for Ghost AI let's AI Agents build disposable worlds (hGCrvDDpl5w)...
+2026-05-30 07:22:23,685 - INFO - AFC is enabled with max remote calls: 10.
+2026-05-30 07:22:23,702 - INFO - Generating Brief for IS STACKING SILVER EAGLES DUMB NOW?  What about the PREMIUMS?? (BPg64-kJMxc)...
+2026-05-30 07:22:23,703 - INFO - AFC is enabled with max remote calls: 10.
+2026-05-30 07:22:23,747 - INFO - Generating Brief for Mega Trends Changing, Oil May Be The Death Of Tech (GdUkwRoecKg)...
+2026-05-30 07:22:23,748 - INFO - AFC is enabled with max remote calls: 10.
+2026-05-30 07:22:28,976 - INFO - ✅ Brief successfully generated for IS STACKING SILVER EAGLES DUMB NOW?  What about the PREMIUMS??
+2026-05-30 07:22:29,182 - INFO - ✅ Brief successfully generated for Mega Trends Changing, Oil May Be The Death Of Tech
+2026-05-30 07:22:30,207 - INFO - Generating Brief for Why Silver Could Drop First, Then Rally Later (hpCiSGxsH6E)...
+2026-05-30 07:22:30,208 - INFO - AFC is enabled with max remote calls: 10.
+2026-05-30 07:22:30,310 - INFO - ✅ Brief successfully generated for Ghost AI let's AI Agents build disposable worlds
+2026-05-30 07:22:30,324 - INFO - Generating Brief for They Were WRONG: Silver Price Just Hit a Historic Turning Point Nobody Is Talking About (aDFtzrtxPG8)...
+2026-05-30 07:22:30,328 - INFO - AFC is enabled with max remote calls: 10.
+2026-05-30 07:22:31,473 - INFO - Generating Brief for The Pope is into AI (HoMvCjnpAJ8)...
+2026-05-30 07:22:31,474 - INFO - AFC is enabled with max remote calls: 10.
+2026-05-30 07:22:35,174 - ERROR - Schema parsing error for The Pope is into AI: Expecting value: line 1 column 1381 (char 1380)
+2026-05-30 07:22:35,671 - ERROR - Schema parsing error for They Were WRONG: Silver Price Just Hit a Historic Turning Point Nobody Is Talking About: Expecting value: line 1 column 1064 (char 1063)
+2026-05-30 07:22:35,739 - ERROR - Schema parsing error for Why Silver Could Drop First, Then Rally Later: Expecting value: line 1 column 1324 (char 1323)
+2026-05-30 07:22:36,628 - INFO - Generating Brief for 9 Weeks Up & Way Overextended — The S&P 500 Setup Every Trader Must See (KSNCJMf_9vs)...
+2026-05-30 07:22:36,629 - INFO - AFC is enabled with max remote calls: 10.
+2026-05-30 07:22:37,075 - INFO - Generating Brief for URANIUM Poised For 'Major Breakout' - Fundamentals 'Never Been Stronger': Jon Bey (YFZpE44gWQ0)...
+2026-05-30 07:22:37,077 - INFO - AFC is enabled with max remote calls: 10.
+2026-05-30 07:22:37,406 - INFO - Generating Brief for Iran, SpaceX, and a Nervous Bond Market | The Week (LWenWzDQZY8)...
+2026-05-30 07:22:37,407 - INFO - AFC is enabled with max remote calls: 10.
+2026-05-30 07:22:42,487 - ERROR - Schema parsing error for Iran, SpaceX, and a Nervous Bond Market | The Week: Expecting value: line 1 column 1124 (char 1123)
+2026-05-30 07:22:42,679 - ERROR - Schema parsing error for URANIUM Poised For 'Major Breakout' - Fundamentals 'Never Been Stronger': Jon Bey: Expecting value: line 1 column 1104 (char 1103)
+2026-05-30 07:22:43,085 - INFO - ✅ Brief successfully generated for 9 Weeks Up & Way Overextended — The S&P 500 Setup Every Trader Must See
+2026-05-30 07:22:43,935 - INFO - Generating Brief for Cheap software made your PM job harder, not easier. Here's the new job. (b6J387xJvHg)...
+2026-05-30 07:22:43,936 - INFO - AFC is enabled with max remote calls: 10.
+2026-05-30 07:22:44,157 - INFO - Generating Brief for This is Bigger Than Palantir & Nvidia. These 5 Stocks Win the Next AI Boom (ySPZxegniU8)...
+2026-05-30 07:22:44,158 - INFO - AFC is enabled with max remote calls: 10.
+2026-05-30 07:22:44,160 - INFO - Generating Brief for Market Game Plan: The DELL Insanity, Consumer Crash, Oil 'Deal' And Top Trades (9a1nXY_RM6U)...
+2026-05-30 07:22:44,162 - INFO - AFC is enabled with max remote calls: 10.
+2026-05-30 07:22:48,336 - INFO - ✅ Brief successfully generated for Cheap software made your PM job harder, not easier. Here's the new job.
+2026-05-30 07:22:49,277 - INFO - ✅ Brief successfully generated for This is Bigger Than Palantir & Nvidia. These 5 Stocks Win the Next AI Boom
+2026-05-30 07:22:49,948 - INFO - ✅ Brief successfully generated for Market Game Plan: The DELL Insanity, Consumer Crash, Oil 'Deal' And Top Trades
+2026-05-30 07:22:49,949 - INFO - --- Phase 3: Category Synthesis (7 assets across categories) ---
+2026-05-30 07:22:49,949 - INFO - Analyzing 3 categories: Precious Metals, General Financial Investing and Speculation, Artificial Intelligence
+2026-05-30 07:22:49,949 - INFO - Processing Synthesis for sector: Precious Metals (1 assets)...
+2026-05-30 07:22:49,955 - INFO - AFC is enabled with max remote calls: 10.
+2026-05-30 07:22:50,707 - INFO - ✅ Synthesis complete for Precious Metals
+2026-05-30 07:22:50,707 - INFO - Processing Synthesis for sector: General Financial Investing and Speculation (4 assets)...
+2026-05-30 07:22:50,732 - INFO - AFC is enabled with max remote calls: 10.
+2026-05-30 07:22:51,433 - INFO - AFC is enabled with max remote calls: 10.
+2026-05-30 07:22:52,306 - INFO - AFC is enabled with max remote calls: 10.
+2026-05-30 07:22:53,113 - INFO - ✅ Synthesis complete for General Financial Investing and Speculation
+2026-05-30 07:22:53,113 - INFO - Processing Synthesis for sector: Artificial Intelligence (2 assets)...
+2026-05-30 07:22:53,117 - INFO - AFC is enabled with max remote calls: 10.
+2026-05-30 07:22:54,122 - INFO - AFC is enabled with max remote calls: 10.
+2026-05-30 07:22:54,895 - INFO - ✅ Synthesis complete for Artificial Intelligence
+2026-05-30 07:22:54,912 - INFO - Summarization complete. 7 briefs written to briefs/2026-05-30.md (Time: 32.6s)
+2026-05-30 07:22:55,887 - INFO - Email digest sent successfully to kwilliamson.mail@gmail.com.
+2026-05-30 07:22:56,599 - INFO - Email digest sent successfully to kochava72@gmail.com.
+2026-05-30 07:22:56,613 - INFO - Queue cleared.
+2026-05-30 07:22:56,618 - INFO - ==================================================
+2026-05-30 07:22:56,618 - INFO - Pipeline Execution Complete
+2026-05-30 07:22:56,618 - INFO - ==================================================

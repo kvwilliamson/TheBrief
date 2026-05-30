@@ -1,0 +1,578 @@
+{
+  "date": "2026-05-30",
+  "briefs": [
+    {
+      "episode_title": "IS STACKING SILVER EAGLES DUMB NOW?  What about the PREMIUMS??",
+      "channel": "Yankee Stacking",
+      "duration_minutes": 17,
+      "podcast_date": "2026-05-30",
+      "processing_date": "2024-01-26",
+      "one_line_summary": "Stacking American Silver Eagles is not a bad idea if premiums are reasonable due to recognizability and trust.",
+      "core_claims": [
+        "American Silver Eagles premiums are worth it because they are well recognized and trusted within the bullion community globally.",
+        "People will learn the value of silver quickly during a crisis or collapse.",
+        "Government-minted bullion is a vote of confidence, stamped on each coin.",
+        "Counterfeiting is more common with numismatic coins; bullion American Silver Eagles are less likely to be counterfeited in large scale."
+      ],
+      "signal_strength": 7,
+      "themes": [
+        "silver eagles",
+        "stacking",
+        "precious metals",
+        "numismatics",
+        "counterfeiting",
+        "premiums"
+      ],
+      "positioning_implication": "Prioritize American Silver Eagles for their potential recognizability and trust during crises, considering the premiums as a price for certification-like assurance. Be wary of numismatic counterfeiting, less so for standard bullion.",
+      "time_horizon": "medium",
+      "shelf_life": "Medium",
+      "thumbnail": "https://i.ytimg.com/vi/BPg64-kJMxc/hqdefault.jpg",
+      "video_url": "https://www.youtube.com/watch?v=BPg64-kJMxc",
+      "cluster_id": 0,
+      "category": "Precious Metals"
+    },
+    {
+      "episode_title": "Mega Trends Changing, Oil May Be The Death Of Tech",
+      "channel": "Verified Investing",
+      "duration_minutes": 23,
+      "podcast_date": "2026-05-30",
+      "processing_date": "2026-05-30",
+      "one_line_summary": "Markets may be shifting from semiconductors to software stocks as investors anticipate economic data and geopolitical deal fatigue.",
+      "core_claims": [
+        "Markets closed flattish, with eyes on the Strait of Hormuz deal that might be announced over the weekend.",
+        "A rotation into software stocks like Oracle and Microsoft is observed, potentially drawing money from overbought semiconductors.",
+        "A trend line drawn from the March 30th low is critical; breaking below it could signal a change in market character.",
+        "Lower oil prices and 10-year yields generally correlate with a higher stock market, stability below 4.5% on the 10-year yield is favorable.",
+        "VIX nearing the alert zone (below 15) indicates complacency, often preceding market shocks.",
+        "BTC may be setting up for bear flag breakout down to 60k."
+      ],
+      "signal_strength": 7,
+      "themes": [
+        "market rotation",
+        "software stocks",
+        "oil prices",
+        "geopolitical risk",
+        "vix",
+        "btc"
+      ],
+      "positioning_implication": "Anticipate sectoral shifts, consider hedging strategies based on VIX levels, and monitor economic data releases for directional cues.",
+      "time_horizon": "short",
+      "shelf_life": "Short",
+      "thumbnail": "https://i.ytimg.com/vi/GdUkwRoecKg/hqdefault.jpg",
+      "video_url": "https://www.youtube.com/watch?v=GdUkwRoecKg",
+      "cluster_id": 0,
+      "category": "General Financial Investing and Speculation"
+    },
+    {
+      "episode_title": "Ghost AI let's AI Agents build disposable worlds",
+      "channel": "Wes Roth",
+      "duration_minutes": 32,
+      "podcast_date": "2026-05-30",
+      "processing_date": "2024-02-01",
+      "one_line_summary": "AI agents can benefit from disposable database copies for experimentation, enabling isolated testing and cleaner evaluation of changes.",
+      "core_claims": [
+        "AI agents interacting with databases pose risks of irreversible data corruption.",
+        "Ghost AI provides isolated PostgreSQL databases for AI agents, allowing for experimentation without compromising primary data.",
+        "With Ghost AI,  agents can test changes (pricing logic, data models) in a contained environment.",
+        "Ghost AI allows creating multiple Ghost databases for each agent.",
+        "Experimentation with a coding tool can be done through Codex.",
+        "AI software development is moving from a single shot generation to parallel exploration."
+      ],
+      "signal_strength": 8,
+      "themes": [
+        "ai agents",
+        "database management",
+        "version control",
+        "software development",
+        "testing",
+        "cost control"
+      ],
+      "positioning_implication": "Embrace tools that enable isolated environments for AI agent experimentation to mitigate data corruption risks and facilitate cleaner evaluation of changes. Prioritize platforms that offer cost controls and simplify database forking for enhanced experimentation workflows.",
+      "time_horizon": "medium",
+      "shelf_life": "Medium",
+      "thumbnail": "https://i.ytimg.com/vi/hGCrvDDpl5w/hqdefault.jpg",
+      "video_url": "https://www.youtube.com/watch?v=hGCrvDDpl5w",
+      "cluster_id": 1,
+      "category": "Artificial Intelligence"
+    },
+    {
+      "episode_title": "9 Weeks Up & Way Overextended \u2014 The S&P 500 Setup Every Trader Must See",
+      "channel": "Verified Investing",
+      "duration_minutes": 17,
+      "podcast_date": "2026-05-30",
+      "processing_date": "2024-05-30",
+      "one_line_summary": "The S&P 500 is overextended and ripe for pullback, despite potential bullishness prior to a rollover.",
+      "core_claims": [
+        "S&P 500 could reach $780 if it confirms a continuation move on the weekly timeframe.",
+        "The stock market is overextended and due for a pullback of 19-20% from the March 30, 2026 lows.",
+        "Potential downside move for QQQ to $681.43, potentially back to $637.03 if trendlines break.",
+        "SOXX could pull back to at least $533.55, potentially down to $461.71, a substantial pivot top.",
+        "ASTS has the potential to go up once it successfully launches satellites and takes out the $129.89 level, potentially reaching $150-$200.",
+        "Shortable level for MU today is $1047.47; the target for MU is $461.54, though it won't happen overnight.",
+        "Nvidia: If the upsloping trendline is recaptured, it could head to $235.80; if it breaks below $206.88, it could head down to $195.29.",
+        "Oracle's shortable level is $223.01; a break above this on a 15-minute basis indicates more upside potential.",
+        "ARM's next shortable level is $375, with support at $302.67; a strong gap in the charts allows for a good day trade.",
+        "GAP has a potential for a day trade at $20.05, and a swing trade at $19.70."
+      ],
+      "signal_strength": 8,
+      "themes": [
+        "market analysis",
+        "technical analysis",
+        "trading strategies",
+        "pullback",
+        "semiconductor",
+        "satellites"
+      ],
+      "positioning_implication": "Consider short positions in overextended assets, but monitor key levels for confirmation and reversals. Risk mitigation is key.",
+      "time_horizon": "short",
+      "shelf_life": "Short",
+      "thumbnail": "https://i.ytimg.com/vi/KSNCJMf_9vs/hqdefault.jpg",
+      "video_url": "https://www.youtube.com/watch?v=KSNCJMf_9vs",
+      "cluster_id": 2,
+      "category": "General Financial Investing and Speculation"
+    },
+    {
+      "episode_title": "Cheap software made your PM job harder, not easier. Here's the new job.",
+      "channel": "AI News & Strategy Daily | Nate B Jones",
+      "duration_minutes": 18,
+      "podcast_date": "2026-05-30",
+      "processing_date": "2024-05-29",
+      "one_line_summary": "Product Management shifts from rationing engineering resources to classifying software abundance in the age of AI.",
+      "core_claims": [
+        "PM's are moving from prototype creation to market understanding.",
+        "AI makes generation easier, moving the bottleneck to human expertise.",
+        "The product function must facilitate broad building while carefully deciding what to support."
+      ],
+      "signal_strength": 9,
+      "themes": [
+        "product management",
+        "ai",
+        "software abundance",
+        "prototyping",
+        "market judgment",
+        "technical systems"
+      ],
+      "positioning_implication": "Shift focus from prototype creation to market understanding and technical judgment. Prioritize classifying and strategizing with software abundance over managing engineering scarcity.",
+      "time_horizon": "medium",
+      "shelf_life": "Medium",
+      "thumbnail": "https://i.ytimg.com/vi/b6J387xJvHg/hqdefault.jpg",
+      "video_url": "https://www.youtube.com/watch?v=b6J387xJvHg",
+      "cluster_id": 0,
+      "category": "Artificial Intelligence"
+    },
+    {
+      "episode_title": "This is Bigger Than Palantir & Nvidia. These 5 Stocks Win the Next AI Boom",
+      "channel": "Felix & Friends (Goat Academy)",
+      "duration_minutes": 34,
+      "podcast_date": "2026-05-30",
+      "processing_date": "2024-02-29",
+      "one_line_summary": "Identified five stocks poised to benefit from the next phase of the AI boom by addressing power-related bottlenecks.",
+      "core_claims": [
+        "Nuclear energy is the only 24/7 baseload answer for AI's power demands.",
+        "US data center demand is projected to grow four times in the next four years.",
+        "NANO Nuclear acquired Secure Transportation Services, becoming the delivery truck for the nuclear industry.",
+        "US government has selected OCLO to utilize plutonium as fuel.",
+        "Five stocks have violent run ups and violent collapses down."
+      ],
+      "signal_strength": 7,
+      "themes": [
+        "ai",
+        "energy",
+        "nuclear",
+        "investing",
+        "stocks",
+        "bottlenecks"
+      ],
+      "positioning_implication": "Focus investment strategies on infrastructure bottlenecks rather than direct beneficiaries of AI adoption to capture value.",
+      "time_horizon": "medium",
+      "shelf_life": "Medium",
+      "thumbnail": "https://i.ytimg.com/vi/ySPZxegniU8/hqdefault.jpg",
+      "video_url": "https://www.youtube.com/watch?v=ySPZxegniU8",
+      "cluster_id": 1,
+      "category": "General Financial Investing and Speculation"
+    },
+    {
+      "episode_title": "Market Game Plan: The DELL Insanity, Consumer Crash, Oil 'Deal' And Top Trades",
+      "channel": "Verified Investing",
+      "duration_minutes": 25,
+      "podcast_date": "2026-05-30",
+      "processing_date": "2026-05-30",
+      "one_line_summary": "Market analysis highlights oil deal impacts, consumer sector struggles, and AI-driven stock surges amidst low volatility.",
+      "core_claims": [
+        "Oil trades around $87/barrel with potential further decline pending US-Iran deal to reopen the Strait of Hormuz.",
+        "AI-related stocks have surged 100-200% since March, demonstrating extreme market behavior.",
+        "Dell's stock spiked 35-40% following earnings, despite overbought conditions, reflecting AI sector's momentum.",
+        "Consumer sector is struggling, evident in crushed stocks of Gap and American Eagle Outfitters.",
+        "Excluding CAPEX and AI spending, the economy would be in negative growth.",
+        "Bitcoin's performance has been weak and is at risk of a larger downside move if it closes below the $72,880-$73,000 area."
+      ],
+      "signal_strength": 8,
+      "themes": [
+        "market analysis",
+        "oil prices",
+        "consumer spending",
+        "ai stocks",
+        "volatility",
+        "bitcoin"
+      ],
+      "positioning_implication": "Exercise caution in consumer discretionary and commodities; favor short-term trades; monitor AI sector for bubble signals.",
+      "time_horizon": "short",
+      "shelf_life": "Short",
+      "thumbnail": "https://i.ytimg.com/vi/9a1nXY_RM6U/hqdefault.jpg",
+      "video_url": "https://www.youtube.com/watch?v=9a1nXY_RM6U",
+      "cluster_id": 0,
+      "category": "General Financial Investing and Speculation"
+    }
+  ],
+  "category_intelligence": {
+    "Precious Metals": {
+      "name": "Precious Metals",
+      "meta_summary": "",
+      "convergence_score": 0.0,
+      "percentile": 0.0,
+      "regime_state": "Neutral",
+      "clusters": [
+        {
+          "id": 0,
+          "name": "Silver Eagles: Premiums Eroding Stacking Thesis",
+          "description": "The narrative suggests that high premiums on American Silver Eagles are undermining the rationale for stacking them as a reliable investment.",
+          "bias": "defensive",
+          "regime": "Emerging",
+          "size": 1,
+          "strength": 0.0,
+          "coherence": 1.0,
+          "channels": [
+            "Yankee Stacking"
+          ],
+          "avg_signal": 7.0,
+          "briefs": [
+            {
+              "episode_title": "IS STACKING SILVER EAGLES DUMB NOW?  What about the PREMIUMS??",
+              "channel": "Yankee Stacking",
+              "duration_minutes": 17,
+              "podcast_date": "2026-05-30",
+              "processing_date": "2024-01-26",
+              "one_line_summary": "Stacking American Silver Eagles is not a bad idea if premiums are reasonable due to recognizability and trust.",
+              "core_claims": [
+                "American Silver Eagles premiums are worth it because they are well recognized and trusted within the bullion community globally.",
+                "People will learn the value of silver quickly during a crisis or collapse.",
+                "Government-minted bullion is a vote of confidence, stamped on each coin.",
+                "Counterfeiting is more common with numismatic coins; bullion American Silver Eagles are less likely to be counterfeited in large scale."
+              ],
+              "signal_strength": 7,
+              "themes": [
+                "silver eagles",
+                "stacking",
+                "precious metals",
+                "numismatics",
+                "counterfeiting",
+                "premiums"
+              ],
+              "positioning_implication": "Prioritize American Silver Eagles for their potential recognizability and trust during crises, considering the premiums as a price for certification-like assurance. Be wary of numismatic counterfeiting, less so for standard bullion.",
+              "time_horizon": "medium",
+              "shelf_life": "Medium",
+              "thumbnail": "https://i.ytimg.com/vi/BPg64-kJMxc/hqdefault.jpg",
+              "video_url": "https://www.youtube.com/watch?v=BPg64-kJMxc",
+              "cluster_id": 0,
+              "category": "Precious Metals"
+            }
+          ]
+        }
+      ],
+      "should_generate": false
+    },
+    "General Financial Investing and Speculation": {
+      "name": "General Financial Investing and Speculation",
+      "meta_summary": "",
+      "convergence_score": 0.0,
+      "percentile": 0.0,
+      "regime_state": "Neutral",
+      "clusters": [
+        {
+          "id": 0,
+          "name": "AI Stocks Pivoting Amidst Geopolitical Fatigue",
+          "description": "The narrative suggests a market rotation from semiconductors to software, fueled by AI optimism and diminishing tolerance for geopolitical risks.",
+          "bias": "neutral",
+          "regime": "Accelerating",
+          "size": 2,
+          "strength": 1.4695330662990773,
+          "coherence": 0.7347665331495387,
+          "channels": [
+            "Verified Investing"
+          ],
+          "avg_signal": 7.5,
+          "briefs": [
+            {
+              "episode_title": "Mega Trends Changing, Oil May Be The Death Of Tech",
+              "channel": "Verified Investing",
+              "duration_minutes": 23,
+              "podcast_date": "2026-05-30",
+              "processing_date": "2026-05-30",
+              "one_line_summary": "Markets may be shifting from semiconductors to software stocks as investors anticipate economic data and geopolitical deal fatigue.",
+              "core_claims": [
+                "Markets closed flattish, with eyes on the Strait of Hormuz deal that might be announced over the weekend.",
+                "A rotation into software stocks like Oracle and Microsoft is observed, potentially drawing money from overbought semiconductors.",
+                "A trend line drawn from the March 30th low is critical; breaking below it could signal a change in market character.",
+                "Lower oil prices and 10-year yields generally correlate with a higher stock market, stability below 4.5% on the 10-year yield is favorable.",
+                "VIX nearing the alert zone (below 15) indicates complacency, often preceding market shocks.",
+                "BTC may be setting up for bear flag breakout down to 60k."
+              ],
+              "signal_strength": 7,
+              "themes": [
+                "market rotation",
+                "software stocks",
+                "oil prices",
+                "geopolitical risk",
+                "vix",
+                "btc"
+              ],
+              "positioning_implication": "Anticipate sectoral shifts, consider hedging strategies based on VIX levels, and monitor economic data releases for directional cues.",
+              "time_horizon": "short",
+              "shelf_life": "Short",
+              "thumbnail": "https://i.ytimg.com/vi/GdUkwRoecKg/hqdefault.jpg",
+              "video_url": "https://www.youtube.com/watch?v=GdUkwRoecKg",
+              "cluster_id": 0,
+              "category": "General Financial Investing and Speculation"
+            },
+            {
+              "episode_title": "Market Game Plan: The DELL Insanity, Consumer Crash, Oil 'Deal' And Top Trades",
+              "channel": "Verified Investing",
+              "duration_minutes": 25,
+              "podcast_date": "2026-05-30",
+              "processing_date": "2026-05-30",
+              "one_line_summary": "Market analysis highlights oil deal impacts, consumer sector struggles, and AI-driven stock surges amidst low volatility.",
+              "core_claims": [
+                "Oil trades around $87/barrel with potential further decline pending US-Iran deal to reopen the Strait of Hormuz.",
+                "AI-related stocks have surged 100-200% since March, demonstrating extreme market behavior.",
+                "Dell's stock spiked 35-40% following earnings, despite overbought conditions, reflecting AI sector's momentum.",
+                "Consumer sector is struggling, evident in crushed stocks of Gap and American Eagle Outfitters.",
+                "Excluding CAPEX and AI spending, the economy would be in negative growth.",
+                "Bitcoin's performance has been weak and is at risk of a larger downside move if it closes below the $72,880-$73,000 area."
+              ],
+              "signal_strength": 8,
+              "themes": [
+                "market analysis",
+                "oil prices",
+                "consumer spending",
+                "ai stocks",
+                "volatility",
+                "bitcoin"
+              ],
+              "positioning_implication": "Exercise caution in consumer discretionary and commodities; favor short-term trades; monitor AI sector for bubble signals.",
+              "time_horizon": "short",
+              "shelf_life": "Short",
+              "thumbnail": "https://i.ytimg.com/vi/9a1nXY_RM6U/hqdefault.jpg",
+              "video_url": "https://www.youtube.com/watch?v=9a1nXY_RM6U",
+              "cluster_id": 0,
+              "category": "General Financial Investing and Speculation"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "name": "S&P 500 Pullback Risk Intensifying",
+          "description": "Highlights the increasing vulnerability of the S&P 500 to a correction, driven by overextension despite short-term bullish possibilities.",
+          "bias": "defensive",
+          "regime": "Emerging",
+          "size": 1,
+          "strength": 1.0,
+          "coherence": 1.0,
+          "channels": [
+            "Verified Investing"
+          ],
+          "avg_signal": 8.0,
+          "briefs": [
+            {
+              "episode_title": "9 Weeks Up & Way Overextended \u2014 The S&P 500 Setup Every Trader Must See",
+              "channel": "Verified Investing",
+              "duration_minutes": 17,
+              "podcast_date": "2026-05-30",
+              "processing_date": "2024-05-30",
+              "one_line_summary": "The S&P 500 is overextended and ripe for pullback, despite potential bullishness prior to a rollover.",
+              "core_claims": [
+                "S&P 500 could reach $780 if it confirms a continuation move on the weekly timeframe.",
+                "The stock market is overextended and due for a pullback of 19-20% from the March 30, 2026 lows.",
+                "Potential downside move for QQQ to $681.43, potentially back to $637.03 if trendlines break.",
+                "SOXX could pull back to at least $533.55, potentially down to $461.71, a substantial pivot top.",
+                "ASTS has the potential to go up once it successfully launches satellites and takes out the $129.89 level, potentially reaching $150-$200.",
+                "Shortable level for MU today is $1047.47; the target for MU is $461.54, though it won't happen overnight.",
+                "Nvidia: If the upsloping trendline is recaptured, it could head to $235.80; if it breaks below $206.88, it could head down to $195.29.",
+                "Oracle's shortable level is $223.01; a break above this on a 15-minute basis indicates more upside potential.",
+                "ARM's next shortable level is $375, with support at $302.67; a strong gap in the charts allows for a good day trade.",
+                "GAP has a potential for a day trade at $20.05, and a swing trade at $19.70."
+              ],
+              "signal_strength": 8,
+              "themes": [
+                "market analysis",
+                "technical analysis",
+                "trading strategies",
+                "pullback",
+                "semiconductor",
+                "satellites"
+              ],
+              "positioning_implication": "Consider short positions in overextended assets, but monitor key levels for confirmation and reversals. Risk mitigation is key.",
+              "time_horizon": "short",
+              "shelf_life": "Short",
+              "thumbnail": "https://i.ytimg.com/vi/KSNCJMf_9vs/hqdefault.jpg",
+              "video_url": "https://www.youtube.com/watch?v=KSNCJMf_9vs",
+              "cluster_id": 2,
+              "category": "General Financial Investing and Speculation"
+            }
+          ]
+        },
+        {
+          "id": 1,
+          "name": "AI Power Bottlenecks Intensifying",
+          "description": "Highlights investment opportunities in energy and nuclear stocks as AI's power demands strain existing infrastructure.",
+          "bias": "constructive",
+          "regime": "Emerging",
+          "size": 1,
+          "strength": 1.0,
+          "coherence": 1.0,
+          "channels": [
+            "Felix & Friends (Goat Academy)"
+          ],
+          "avg_signal": 7.0,
+          "briefs": [
+            {
+              "episode_title": "This is Bigger Than Palantir & Nvidia. These 5 Stocks Win the Next AI Boom",
+              "channel": "Felix & Friends (Goat Academy)",
+              "duration_minutes": 34,
+              "podcast_date": "2026-05-30",
+              "processing_date": "2024-02-29",
+              "one_line_summary": "Identified five stocks poised to benefit from the next phase of the AI boom by addressing power-related bottlenecks.",
+              "core_claims": [
+                "Nuclear energy is the only 24/7 baseload answer for AI's power demands.",
+                "US data center demand is projected to grow four times in the next four years.",
+                "NANO Nuclear acquired Secure Transportation Services, becoming the delivery truck for the nuclear industry.",
+                "US government has selected OCLO to utilize plutonium as fuel.",
+                "Five stocks have violent run ups and violent collapses down."
+              ],
+              "signal_strength": 7,
+              "themes": [
+                "ai",
+                "energy",
+                "nuclear",
+                "investing",
+                "stocks",
+                "bottlenecks"
+              ],
+              "positioning_implication": "Focus investment strategies on infrastructure bottlenecks rather than direct beneficiaries of AI adoption to capture value.",
+              "time_horizon": "medium",
+              "shelf_life": "Medium",
+              "thumbnail": "https://i.ytimg.com/vi/ySPZxegniU8/hqdefault.jpg",
+              "video_url": "https://www.youtube.com/watch?v=ySPZxegniU8",
+              "cluster_id": 1,
+              "category": "General Financial Investing and Speculation"
+            }
+          ]
+        }
+      ],
+      "should_generate": false
+    },
+    "Artificial Intelligence": {
+      "name": "Artificial Intelligence",
+      "meta_summary": "",
+      "convergence_score": 0.0,
+      "percentile": 0.0,
+      "regime_state": "Neutral",
+      "clusters": [
+        {
+          "id": 1,
+          "name": "AI Agent Testing Accelerating via Disposable Databases",
+          "description": "This narrative highlights the growing adoption of disposable databases to accelerate AI agent testing and development cycles.",
+          "bias": "constructive",
+          "regime": "Emerging",
+          "size": 1,
+          "strength": 1.0,
+          "coherence": 1.0,
+          "channels": [
+            "Wes Roth"
+          ],
+          "avg_signal": 8.0,
+          "briefs": [
+            {
+              "episode_title": "Ghost AI let's AI Agents build disposable worlds",
+              "channel": "Wes Roth",
+              "duration_minutes": 32,
+              "podcast_date": "2026-05-30",
+              "processing_date": "2024-02-01",
+              "one_line_summary": "AI agents can benefit from disposable database copies for experimentation, enabling isolated testing and cleaner evaluation of changes.",
+              "core_claims": [
+                "AI agents interacting with databases pose risks of irreversible data corruption.",
+                "Ghost AI provides isolated PostgreSQL databases for AI agents, allowing for experimentation without compromising primary data.",
+                "With Ghost AI,  agents can test changes (pricing logic, data models) in a contained environment.",
+                "Ghost AI allows creating multiple Ghost databases for each agent.",
+                "Experimentation with a coding tool can be done through Codex.",
+                "AI software development is moving from a single shot generation to parallel exploration."
+              ],
+              "signal_strength": 8,
+              "themes": [
+                "ai agents",
+                "database management",
+                "version control",
+                "software development",
+                "testing",
+                "cost control"
+              ],
+              "positioning_implication": "Embrace tools that enable isolated environments for AI agent experimentation to mitigate data corruption risks and facilitate cleaner evaluation of changes. Prioritize platforms that offer cost controls and simplify database forking for enhanced experimentation workflows.",
+              "time_horizon": "medium",
+              "shelf_life": "Medium",
+              "thumbnail": "https://i.ytimg.com/vi/hGCrvDDpl5w/hqdefault.jpg",
+              "video_url": "https://www.youtube.com/watch?v=hGCrvDDpl5w",
+              "cluster_id": 1,
+              "category": "Artificial Intelligence"
+            }
+          ]
+        },
+        {
+          "id": 0,
+          "name": "Product Management Pivoting to AI-Driven Abundance",
+          "description": "Product management is shifting from resource scarcity to managing software abundance enabled by AI, requiring new strategies for prototyping and market judgment.",
+          "bias": "constructive",
+          "regime": "Emerging",
+          "size": 1,
+          "strength": 1.0,
+          "coherence": 1.0,
+          "channels": [
+            "AI News & Strategy Daily | Nate B Jones"
+          ],
+          "avg_signal": 9.0,
+          "briefs": [
+            {
+              "episode_title": "Cheap software made your PM job harder, not easier. Here's the new job.",
+              "channel": "AI News & Strategy Daily | Nate B Jones",
+              "duration_minutes": 18,
+              "podcast_date": "2026-05-30",
+              "processing_date": "2024-05-29",
+              "one_line_summary": "Product Management shifts from rationing engineering resources to classifying software abundance in the age of AI.",
+              "core_claims": [
+                "PM's are moving from prototype creation to market understanding.",
+                "AI makes generation easier, moving the bottleneck to human expertise.",
+                "The product function must facilitate broad building while carefully deciding what to support."
+              ],
+              "signal_strength": 9,
+              "themes": [
+                "product management",
+                "ai",
+                "software abundance",
+                "prototyping",
+                "market judgment",
+                "technical systems"
+              ],
+              "positioning_implication": "Shift focus from prototype creation to market understanding and technical judgment. Prioritize classifying and strategizing with software abundance over managing engineering scarcity.",
+              "time_horizon": "medium",
+              "shelf_life": "Medium",
+              "thumbnail": "https://i.ytimg.com/vi/b6J387xJvHg/hqdefault.jpg",
+              "video_url": "https://www.youtube.com/watch?v=b6J387xJvHg",
+              "cluster_id": 0,
+              "category": "Artificial Intelligence"
+            }
+          ]
+        }
+      ],
+      "should_generate": false
+    }
+  },
+  "clusters": []
+}
