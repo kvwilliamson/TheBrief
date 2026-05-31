@@ -1,0 +1,247 @@
+{
+  "date": "2026-05-31",
+  "briefs": [
+    {
+      "episode_title": "Gold Is $4,500 \u2013 Why Are Mining Stocks Still So Cheap? | Michael Gentile & Ryan Petrillo",
+      "channel": "Miles Franklin Media",
+      "duration_minutes": 51,
+      "podcast_date": "2026-05-31",
+      "processing_date": "2026-05-31",
+      "one_line_summary": "Junior mining company success rates remain low, precious metals mainstream adoption is nascent, and commodity sector investment has been historically scarce.",
+      "core_claims": [
+        "Taking 1,000 junior mining companies, only approximately 2-5 will become a mine.",
+        "The precious metals industry has been starved of capital for the last ten years.",
+        "It takes 5-10 years of investment, equity raising, building, and engineering studies to bring new gold supply online.",
+        "Gold producers are producing gold at a $4,500/ounce selling price at a $2,000/ounce production cost.",
+        "Central banks hold around 30% of assets in physical gold, while ultra-high-net-worth families hold less than 1%."
+      ],
+      "signal_strength": 8,
+      "themes": [
+        "mining",
+        "gold",
+        "finance",
+        "economics",
+        "investment strategies",
+        "philanthropy"
+      ],
+      "positioning_implication": "Favor active investment strategies in junior mining and consider increasing exposure to physical gold to align with central bank asset allocations.",
+      "time_horizon": "long",
+      "shelf_life": "Medium",
+      "thumbnail": "https://i.ytimg.com/vi/KbgI7gdDkXg/hqdefault.jpg",
+      "video_url": "https://www.youtube.com/watch?v=KbgI7gdDkXg",
+      "cluster_id": 0,
+      "category": "Precious Metals"
+    },
+    {
+      "episode_title": "Don't Fool Yourself: A Market Pullback Is Extremely Likely Now | Lance Roberts",
+      "channel": "Adam Taggart | Thoughtful Money\u00ae",
+      "duration_minutes": 71,
+      "podcast_date": "2026-05-31",
+      "processing_date": "2026-05-31",
+      "one_line_summary": "Market pullback is increasingly likely due to rare historical advance streak, suggesting a correction is highly probable.",
+      "core_claims": [
+        "Historically, markets rarely advance for more than eight consecutive weeks, making a correction probable.",
+        "A 7.5% market decline is possible based on Fibonacci retracement levels and prior breakout highs.",
+        "Semiconductors and technology stocks, which led recent gains, are expected to experience the most significant retracements during a correction.",
+        "Since 1965, S&P has gone nine weeks straight only four times, with a twelve week advance in 1985 being the exception."
+      ],
+      "signal_strength": 7,
+      "themes": [
+        "market correction",
+        "technical analysis",
+        "fibonacci retracement",
+        "semiconductors",
+        "economic indicators",
+        "risk management"
+      ],
+      "positioning_implication": "Shift investment bias towards defensive sectors like staples and utilities to mitigate potential losses during a market correction.",
+      "time_horizon": "short",
+      "shelf_life": "Short",
+      "thumbnail": "https://i.ytimg.com/vi/N4u-jMoiqpY/hqdefault.jpg",
+      "video_url": "https://www.youtube.com/watch?v=N4u-jMoiqpY",
+      "cluster_id": 0,
+      "category": "General Financial Investing and Speculation"
+    },
+    {
+      "episode_title": "How to Fix Bad Timing Once and For All",
+      "channel": "Felix & Friends (Goat Academy)",
+      "duration_minutes": 58,
+      "podcast_date": "2026-05-31",
+      "processing_date": "2026-05-31",
+      "one_line_summary": "Avoid large investment losses by using specific rules to track money flow and household names' potential dangers.",
+      "core_claims": [
+        "Buying and holding everything, even in a bull market, involves both losers and winners, with losers dragging down performance.",
+        "Household name stocks can decline significantly while the market rises, emphasizing the need to track money flow, not brand reputation.",
+        "Switching from losing stocks (like Lulu Lemon) to winners (like Caterpillar) avoids losses and captures significant gains (e.g., 80% swing).",
+        "Using the 150-day moving average line as a sell signal can prevent significant losses.",
+        "One can make their portfolio function on autopilot.",
+        "Goat Academy's alumni reported close to $90,000 gained in the first 90 days of working with Felix."
+      ],
+      "signal_strength": 8,
+      "themes": [
+        "investment strategy",
+        "risk management",
+        "trading rules",
+        "portfolio optimization",
+        "financial education",
+        "wealth building"
+      ],
+      "positioning_implication": "Implement a disciplined, rules-based approach to investing, focusing on active management and risk control rather than passive buy-and-hold strategies.  Prioritize money flow analysis and sector rotation over brand loyalty to improve portfolio performance.",
+      "time_horizon": "medium",
+      "shelf_life": "Medium",
+      "thumbnail": "https://i.ytimg.com/vi/4hHgmLMEJcY/hqdefault.jpg",
+      "video_url": "https://www.youtube.com/watch?v=4hHgmLMEJcY",
+      "cluster_id": 0,
+      "category": "General Financial Investing and Speculation"
+    }
+  ],
+  "category_intelligence": {
+    "Precious Metals": {
+      "name": "Precious Metals",
+      "meta_summary": "",
+      "convergence_score": 0.0,
+      "percentile": 0.0,
+      "regime_state": "Neutral",
+      "clusters": [
+        {
+          "id": 0,
+          "name": "Mining Sector: Investment Stalling",
+          "description": "Investment scarcity and low success rates are preventing precious metals adoption, indicating a stall in mining sector growth.",
+          "bias": "defensive",
+          "regime": "Emerging",
+          "size": 1,
+          "strength": 0.0,
+          "coherence": 1.0,
+          "channels": [
+            "Miles Franklin Media"
+          ],
+          "avg_signal": 8.0,
+          "briefs": [
+            {
+              "episode_title": "Gold Is $4,500 \u2013 Why Are Mining Stocks Still So Cheap? | Michael Gentile & Ryan Petrillo",
+              "channel": "Miles Franklin Media",
+              "duration_minutes": 51,
+              "podcast_date": "2026-05-31",
+              "processing_date": "2026-05-31",
+              "one_line_summary": "Junior mining company success rates remain low, precious metals mainstream adoption is nascent, and commodity sector investment has been historically scarce.",
+              "core_claims": [
+                "Taking 1,000 junior mining companies, only approximately 2-5 will become a mine.",
+                "The precious metals industry has been starved of capital for the last ten years.",
+                "It takes 5-10 years of investment, equity raising, building, and engineering studies to bring new gold supply online.",
+                "Gold producers are producing gold at a $4,500/ounce selling price at a $2,000/ounce production cost.",
+                "Central banks hold around 30% of assets in physical gold, while ultra-high-net-worth families hold less than 1%."
+              ],
+              "signal_strength": 8,
+              "themes": [
+                "mining",
+                "gold",
+                "finance",
+                "economics",
+                "investment strategies",
+                "philanthropy"
+              ],
+              "positioning_implication": "Favor active investment strategies in junior mining and consider increasing exposure to physical gold to align with central bank asset allocations.",
+              "time_horizon": "long",
+              "shelf_life": "Medium",
+              "thumbnail": "https://i.ytimg.com/vi/KbgI7gdDkXg/hqdefault.jpg",
+              "video_url": "https://www.youtube.com/watch?v=KbgI7gdDkXg",
+              "cluster_id": 0,
+              "category": "Precious Metals"
+            }
+          ]
+        }
+      ],
+      "should_generate": false
+    },
+    "General Financial Investing and Speculation": {
+      "name": "General Financial Investing and Speculation",
+      "meta_summary": "",
+      "convergence_score": 0.0,
+      "percentile": 0.0,
+      "regime_state": "Neutral",
+      "clusters": [
+        {
+          "id": 0,
+          "name": "Market Correction Risks Intensifying",
+          "description": "The narrative suggests a growing likelihood of a market pullback driven by technical indicators and money flow analysis.",
+          "bias": "defensive",
+          "regime": "Accelerating",
+          "size": 2,
+          "strength": 1.1556712741935233,
+          "coherence": 0.5778356370967617,
+          "channels": [
+            "Adam Taggart | Thoughtful Money\u00ae",
+            "Felix & Friends (Goat Academy)"
+          ],
+          "avg_signal": 7.5,
+          "briefs": [
+            {
+              "episode_title": "Don't Fool Yourself: A Market Pullback Is Extremely Likely Now | Lance Roberts",
+              "channel": "Adam Taggart | Thoughtful Money\u00ae",
+              "duration_minutes": 71,
+              "podcast_date": "2026-05-31",
+              "processing_date": "2026-05-31",
+              "one_line_summary": "Market pullback is increasingly likely due to rare historical advance streak, suggesting a correction is highly probable.",
+              "core_claims": [
+                "Historically, markets rarely advance for more than eight consecutive weeks, making a correction probable.",
+                "A 7.5% market decline is possible based on Fibonacci retracement levels and prior breakout highs.",
+                "Semiconductors and technology stocks, which led recent gains, are expected to experience the most significant retracements during a correction.",
+                "Since 1965, S&P has gone nine weeks straight only four times, with a twelve week advance in 1985 being the exception."
+              ],
+              "signal_strength": 7,
+              "themes": [
+                "market correction",
+                "technical analysis",
+                "fibonacci retracement",
+                "semiconductors",
+                "economic indicators",
+                "risk management"
+              ],
+              "positioning_implication": "Shift investment bias towards defensive sectors like staples and utilities to mitigate potential losses during a market correction.",
+              "time_horizon": "short",
+              "shelf_life": "Short",
+              "thumbnail": "https://i.ytimg.com/vi/N4u-jMoiqpY/hqdefault.jpg",
+              "video_url": "https://www.youtube.com/watch?v=N4u-jMoiqpY",
+              "cluster_id": 0,
+              "category": "General Financial Investing and Speculation"
+            },
+            {
+              "episode_title": "How to Fix Bad Timing Once and For All",
+              "channel": "Felix & Friends (Goat Academy)",
+              "duration_minutes": 58,
+              "podcast_date": "2026-05-31",
+              "processing_date": "2026-05-31",
+              "one_line_summary": "Avoid large investment losses by using specific rules to track money flow and household names' potential dangers.",
+              "core_claims": [
+                "Buying and holding everything, even in a bull market, involves both losers and winners, with losers dragging down performance.",
+                "Household name stocks can decline significantly while the market rises, emphasizing the need to track money flow, not brand reputation.",
+                "Switching from losing stocks (like Lulu Lemon) to winners (like Caterpillar) avoids losses and captures significant gains (e.g., 80% swing).",
+                "Using the 150-day moving average line as a sell signal can prevent significant losses.",
+                "One can make their portfolio function on autopilot.",
+                "Goat Academy's alumni reported close to $90,000 gained in the first 90 days of working with Felix."
+              ],
+              "signal_strength": 8,
+              "themes": [
+                "investment strategy",
+                "risk management",
+                "trading rules",
+                "portfolio optimization",
+                "financial education",
+                "wealth building"
+              ],
+              "positioning_implication": "Implement a disciplined, rules-based approach to investing, focusing on active management and risk control rather than passive buy-and-hold strategies.  Prioritize money flow analysis and sector rotation over brand loyalty to improve portfolio performance.",
+              "time_horizon": "medium",
+              "shelf_life": "Medium",
+              "thumbnail": "https://i.ytimg.com/vi/4hHgmLMEJcY/hqdefault.jpg",
+              "video_url": "https://www.youtube.com/watch?v=4hHgmLMEJcY",
+              "cluster_id": 0,
+              "category": "General Financial Investing and Speculation"
+            }
+          ]
+        }
+      ],
+      "should_generate": false
+    }
+  },
+  "clusters": []
+}
