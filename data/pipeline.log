@@ -9784,3 +9784,79 @@
 2026-05-31 07:38:43,064 - INFO - ==================================================
 2026-05-31 07:38:43,065 - INFO - Pipeline Execution Complete
 2026-05-31 07:38:43,065 - INFO - ==================================================
+2026-06-01 08:12:10,749 - INFO - ==================================================
+2026-06-01 08:12:10,749 - INFO - Starting TheBrief Daily Pipeline
+2026-06-01 08:12:10,749 - INFO - ==================================================
+2026-06-01 08:12:10,749 - INFO - 
+--- Phase 1: Discovery ---
+2026-06-01 08:12:10,753 - INFO - Discovering videos published after 2026-05-31T08:12:10.753098+00:00 (24h lookback)
+2026-06-01 08:12:11,314 - INFO - Found 1 new potential videos on Bald Guy Money.
+2026-06-01 08:12:11,342 - INFO - Found 1 new potential videos on GoldSilver .
+2026-06-01 08:12:11,580 - INFO - Found 2 new potential videos on AI News & Strategy Daily | Nate B Jones.
+2026-06-01 08:12:11,833 - INFO - Found 2 new potential videos on Clive Thompson.
+2026-06-01 08:12:11,876 - INFO - Found 1 new potential videos on Felix & Friends (Goat Academy).
+2026-06-01 08:12:11,891 - INFO - Found 1 new potential videos on TheTechnicalTraders.
+2026-06-01 08:12:12,210 - INFO - Found 1 new potential videos on Miles Franklin Media.
+2026-06-01 08:12:12,291 - INFO - Found 2 new potential videos on Adam Taggart | Thoughtful Money®.
+2026-06-01 08:12:12,543 - INFO - Found 2 new potential videos on Verified Investing.
+2026-06-01 08:12:12,623 - INFO - Found 1 new potential videos on The Prof G Pod – Scott Galloway.
+2026-06-01 08:12:12,793 - INFO - Found 7 total long-form videos across all channels.
+2026-06-01 08:12:12,808 - INFO - Discovery complete. Added 7 new videos to queue.
+2026-06-01 08:12:12,809 - INFO - 
+--- Phase 2: Extraction ---
+2026-06-01 08:12:13,051 - INFO - yt-dlp version: 2026.03.17
+2026-06-01 08:12:13,406 - INFO - POT-related packages: bgutil-ytdlp-pot-provider 1.3.1
+2026-06-01 08:12:13,428 - INFO - bgutil HTTP server not available on port 4416 (will rely on cookies)
+2026-06-01 08:12:13,429 - INFO - Extracting audio for This is why I am buying Gilead Sciences (not investment advice) (GPhs69JHvWg)...
+2026-06-01 08:12:23,578 - INFO - Successfully extracted: audio/GPhs69JHvWg.mp3
+2026-06-01 08:12:31,796 - INFO - Extracting audio for He Called Silver’s 35% Pullback – Now He Says This Happens Next | Mike Lee (IIqzf5mb6R8)...
+2026-06-01 08:12:52,296 - INFO - Successfully extracted: audio/IIqzf5mb6R8.mp3
+2026-06-01 08:13:02,854 - INFO - Extracting audio for Microsoft Says 86% Treat AI Output as a Starting Point. Your Resume Just Stopped Working. (UsCgEuIAclE)...
+2026-06-01 08:13:14,153 - INFO - Successfully extracted: audio/UsCgEuIAclE.mp3
+2026-06-01 08:13:24,051 - INFO - Extracting audio for DEBATE: Does The Entire World Face A "Bronze Age Type" Collapse? | Brent Johnson vs Craig Tindale (KaqjVxGEhKg)...
+2026-06-01 08:14:01,631 - INFO - Successfully extracted: audio/KaqjVxGEhKg.mp3
+2026-06-01 08:14:08,701 - INFO - Extracting audio for Don't Ignore My Gold & Silver "Boom Signal" - It's Flashing Again! (VI8ze2YvAYE)...
+2026-06-01 08:14:19,986 - INFO - Successfully extracted: audio/VI8ze2YvAYE.mp3
+2026-06-01 08:14:28,143 - INFO - Extracting audio for Markets Hit Records, Tech Stocks Surge. My Tech pick.  And my "millionaire" client goes to jail. (omGd9Ad6dWg)...
+2026-06-01 08:14:52,015 - INFO - Successfully extracted: audio/omGd9Ad6dWg.mp3
+2026-06-01 08:15:01,814 - INFO - Extracting audio for A 10 Bagger Like These Stocks May Never Happen Again (GPu66SAZFI0)...
+2026-06-01 08:15:18,889 - INFO - Successfully extracted: audio/GPu66SAZFI0.mp3
+2026-06-01 08:15:18,890 - INFO - Extraction complete. 7/7 audio files ready. (Time: 185.5s)
+2026-06-01 08:15:18,890 - INFO - 
+--- Phase 3: Summarization (Direct Audio) ---
+2026-06-01 08:15:19,981 - INFO - Generating Brief for This is why I am buying Gilead Sciences (not investment advice) (GPhs69JHvWg)...
+2026-06-01 08:15:19,983 - INFO - AFC is enabled with max remote calls: 10.
+2026-06-01 08:15:20,338 - INFO - Generating Brief for Microsoft Says 86% Treat AI Output as a Starting Point. Your Resume Just Stopped Working. (UsCgEuIAclE)...
+2026-06-01 08:15:20,339 - INFO - AFC is enabled with max remote calls: 10.
+2026-06-01 08:15:20,614 - INFO - Generating Brief for He Called Silver’s 35% Pullback – Now He Says This Happens Next | Mike Lee (IIqzf5mb6R8)...
+2026-06-01 08:15:20,615 - INFO - AFC is enabled with max remote calls: 10.
+2026-06-01 08:15:23,850 - ERROR - Schema parsing error for This is why I am buying Gilead Sciences (not investment advice): Expecting value: line 1 column 997 (char 996)
+2026-06-01 08:15:26,590 - INFO - Generating Brief for DEBATE: Does The Entire World Face A "Bronze Age Type" Collapse? | Brent Johnson vs Craig Tindale (KaqjVxGEhKg)...
+2026-06-01 08:15:26,591 - INFO - AFC is enabled with max remote calls: 10.
+2026-06-01 08:15:26,670 - INFO - ✅ Brief successfully generated for Microsoft Says 86% Treat AI Output as a Starting Point. Your Resume Just Stopped Working.
+2026-06-01 08:15:27,915 - ERROR - Error summarising audio DEBATE: Does The Entire World Face A "Bronze Age Type" Collapse? | Brent Johnson vs Craig Tindale: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more details.', 'status': 'RESOURCE_EXHAUSTED'}}
+2026-06-01 08:15:28,342 - INFO - Generating Brief for Don't Ignore My Gold & Silver "Boom Signal" - It's Flashing Again! (VI8ze2YvAYE)...
+2026-06-01 08:15:28,343 - INFO - AFC is enabled with max remote calls: 10.
+2026-06-01 08:15:30,233 - INFO - Generating Brief for Markets Hit Records, Tech Stocks Surge. My Tech pick.  And my "millionaire" client goes to jail. (omGd9Ad6dWg)...
+2026-06-01 08:15:30,234 - INFO - AFC is enabled with max remote calls: 10.
+2026-06-01 08:15:32,269 - INFO - ✅ Brief successfully generated for He Called Silver’s 35% Pullback – Now He Says This Happens Next | Mike Lee
+2026-06-01 08:15:33,168 - ERROR - Error summarising audio Markets Hit Records, Tech Stocks Surge. My Tech pick.  And my "millionaire" client goes to jail.: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more details.', 'status': 'RESOURCE_EXHAUSTED'}}
+2026-06-01 08:15:33,386 - INFO - Generating Brief for A 10 Bagger Like These Stocks May Never Happen Again (GPu66SAZFI0)...
+2026-06-01 08:15:33,387 - INFO - AFC is enabled with max remote calls: 10.
+2026-06-01 08:15:34,438 - ERROR - Error summarising audio A 10 Bagger Like These Stocks May Never Happen Again: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more details.', 'status': 'RESOURCE_EXHAUSTED'}}
+2026-06-01 08:15:35,203 - ERROR - Schema parsing error for Don't Ignore My Gold & Silver "Boom Signal" - It's Flashing Again!: Expecting value: line 1 column 1155 (char 1154)
+2026-06-01 08:15:35,685 - INFO - --- Phase 3: Category Synthesis (2 assets across categories) ---
+2026-06-01 08:15:35,685 - INFO - Analyzing 2 categories: Artificial Intelligence, Precious Metals
+2026-06-01 08:15:35,685 - INFO - Processing Synthesis for sector: Artificial Intelligence (1 assets)...
+2026-06-01 08:15:35,691 - INFO - AFC is enabled with max remote calls: 10.
+2026-06-01 08:15:36,570 - INFO - ✅ Synthesis complete for Artificial Intelligence
+2026-06-01 08:15:36,571 - INFO - Processing Synthesis for sector: Precious Metals (1 assets)...
+2026-06-01 08:15:36,572 - INFO - AFC is enabled with max remote calls: 10.
+2026-06-01 08:15:37,613 - INFO - ✅ Synthesis complete for Precious Metals
+2026-06-01 08:15:37,621 - INFO - Summarization complete. 2 briefs written to briefs/2026-06-01.md (Time: 18.7s)
+2026-06-01 08:15:38,914 - INFO - Email digest sent successfully to kwilliamson.mail@gmail.com.
+2026-06-01 08:15:39,483 - INFO - Email digest sent successfully to kochava72@gmail.com.
+2026-06-01 08:15:39,526 - INFO - Queue cleared.
+2026-06-01 08:15:39,526 - INFO - ==================================================
+2026-06-01 08:15:39,527 - INFO - Pipeline Execution Complete
+2026-06-01 08:15:39,527 - INFO - ==================================================

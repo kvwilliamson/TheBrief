@@ -1,0 +1,178 @@
+{
+  "date": "2026-06-01",
+  "briefs": [
+    {
+      "episode_title": "Microsoft Says 86% Treat AI Output as a Starting Point. Your Resume Just Stopped Working.",
+      "channel": "AI News & Strategy Daily | Nate B Jones",
+      "duration_minutes": 10,
+      "podcast_date": "2026-06-01",
+      "processing_date": "2024-02-01",
+      "one_line_summary": "Traditional metrics of productivity are losing value as AI increasingly blurs the line between genuine and superficial accomplishment.",
+      "core_claims": [
+        "86% of people treat AI output as a starting point.",
+        "58% of AI users produce work they could not have a year ago; among advanced users, this rises to 80%."
+      ],
+      "signal_strength": 9,
+      "themes": [
+        "ai impact",
+        "productivity",
+        "skills",
+        "evaluation",
+        "hiring",
+        "talent management"
+      ],
+      "positioning_implication": "Prioritize evaluation methods focusing on live reasoning and decision-making processes over polished outputs.  Emphasis shift to showing how you learn and update thinking in response to challenges.",
+      "time_horizon": "short",
+      "shelf_life": "Medium",
+      "thumbnail": "https://i.ytimg.com/vi/UsCgEuIAclE/hqdefault.jpg",
+      "video_url": "https://www.youtube.com/watch?v=UsCgEuIAclE",
+      "cluster_id": 0,
+      "category": "Artificial Intelligence"
+    },
+    {
+      "episode_title": "He Called Silver\u2019s 35% Pullback \u2013 Now He Says This Happens Next | Mike Lee",
+      "channel": "Miles Franklin Media",
+      "duration_minutes": 38,
+      "podcast_date": "2026-06-01",
+      "processing_date": "2026-06-01",
+      "one_line_summary": "AI infrastructure spending is widely misunderstood, and despite global economic concerns, certain equities present opportunities.",
+      "core_claims": [
+        "The amount of data for large language models is growing at a hockey stick exponential growth rate.",
+        "A trillion dollars of AI infrastructure spend is estimated next year, and is expected to grow to three trillion annually in 2030.",
+        "Analysts were expecting 13% year-over-year growth, but results have come in at 28%.",
+        "Silver is expected to grind up to $100 in the next year.",
+        "The cost of capital for Coreweave has dropped from mid-teens to mid-single digits over the last year."
+      ],
+      "signal_strength": 7,
+      "themes": [
+        "ai infrastructure",
+        "market analysis",
+        "investment opportunities",
+        "gold",
+        "silver",
+        "macroeconomics"
+      ],
+      "positioning_implication": "Favor companies poised to benefit from AI infrastructure and data demands; allocate strategically to precious metals as hedges against global economic uncertainty. Adapt investment strategies to navigate potential geopolitical risks.",
+      "time_horizon": "medium",
+      "shelf_life": "Medium",
+      "thumbnail": "https://i.ytimg.com/vi/IIqzf5mb6R8/hqdefault.jpg",
+      "video_url": "https://www.youtube.com/watch?v=IIqzf5mb6R8",
+      "cluster_id": 0,
+      "category": "Precious Metals"
+    }
+  ],
+  "category_intelligence": {
+    "Artificial Intelligence": {
+      "name": "Artificial Intelligence",
+      "meta_summary": "",
+      "convergence_score": 0.0,
+      "percentile": 0.0,
+      "regime_state": "Neutral",
+      "clusters": [
+        {
+          "id": 0,
+          "name": "AI Eroding Productivity Metrics",
+          "description": "The increasing influence of AI is rendering traditional productivity measurements less reliable for evaluating genuine output.",
+          "bias": "neutral",
+          "regime": "Emerging",
+          "size": 1,
+          "strength": 0.0,
+          "coherence": 1.0,
+          "channels": [
+            "AI News & Strategy Daily | Nate B Jones"
+          ],
+          "avg_signal": 9.0,
+          "briefs": [
+            {
+              "episode_title": "Microsoft Says 86% Treat AI Output as a Starting Point. Your Resume Just Stopped Working.",
+              "channel": "AI News & Strategy Daily | Nate B Jones",
+              "duration_minutes": 10,
+              "podcast_date": "2026-06-01",
+              "processing_date": "2024-02-01",
+              "one_line_summary": "Traditional metrics of productivity are losing value as AI increasingly blurs the line between genuine and superficial accomplishment.",
+              "core_claims": [
+                "86% of people treat AI output as a starting point.",
+                "58% of AI users produce work they could not have a year ago; among advanced users, this rises to 80%."
+              ],
+              "signal_strength": 9,
+              "themes": [
+                "ai impact",
+                "productivity",
+                "skills",
+                "evaluation",
+                "hiring",
+                "talent management"
+              ],
+              "positioning_implication": "Prioritize evaluation methods focusing on live reasoning and decision-making processes over polished outputs.  Emphasis shift to showing how you learn and update thinking in response to challenges.",
+              "time_horizon": "short",
+              "shelf_life": "Medium",
+              "thumbnail": "https://i.ytimg.com/vi/UsCgEuIAclE/hqdefault.jpg",
+              "video_url": "https://www.youtube.com/watch?v=UsCgEuIAclE",
+              "cluster_id": 0,
+              "category": "Artificial Intelligence"
+            }
+          ]
+        }
+      ],
+      "should_generate": false
+    },
+    "Precious Metals": {
+      "name": "Precious Metals",
+      "meta_summary": "",
+      "convergence_score": 0.0,
+      "percentile": 0.0,
+      "regime_state": "Neutral",
+      "clusters": [
+        {
+          "id": 0,
+          "name": "AI Infrastructure Investment Opportunities Intensifying",
+          "description": "Despite macroeconomic headwinds, AI infrastructure equities are presenting unique investment opportunities, suggesting a decoupling from broader market anxieties.",
+          "bias": "constructive",
+          "regime": "Emerging",
+          "size": 1,
+          "strength": 0.0,
+          "coherence": 1.0,
+          "channels": [
+            "Miles Franklin Media"
+          ],
+          "avg_signal": 7.0,
+          "briefs": [
+            {
+              "episode_title": "He Called Silver\u2019s 35% Pullback \u2013 Now He Says This Happens Next | Mike Lee",
+              "channel": "Miles Franklin Media",
+              "duration_minutes": 38,
+              "podcast_date": "2026-06-01",
+              "processing_date": "2026-06-01",
+              "one_line_summary": "AI infrastructure spending is widely misunderstood, and despite global economic concerns, certain equities present opportunities.",
+              "core_claims": [
+                "The amount of data for large language models is growing at a hockey stick exponential growth rate.",
+                "A trillion dollars of AI infrastructure spend is estimated next year, and is expected to grow to three trillion annually in 2030.",
+                "Analysts were expecting 13% year-over-year growth, but results have come in at 28%.",
+                "Silver is expected to grind up to $100 in the next year.",
+                "The cost of capital for Coreweave has dropped from mid-teens to mid-single digits over the last year."
+              ],
+              "signal_strength": 7,
+              "themes": [
+                "ai infrastructure",
+                "market analysis",
+                "investment opportunities",
+                "gold",
+                "silver",
+                "macroeconomics"
+              ],
+              "positioning_implication": "Favor companies poised to benefit from AI infrastructure and data demands; allocate strategically to precious metals as hedges against global economic uncertainty. Adapt investment strategies to navigate potential geopolitical risks.",
+              "time_horizon": "medium",
+              "shelf_life": "Medium",
+              "thumbnail": "https://i.ytimg.com/vi/IIqzf5mb6R8/hqdefault.jpg",
+              "video_url": "https://www.youtube.com/watch?v=IIqzf5mb6R8",
+              "cluster_id": 0,
+              "category": "Precious Metals"
+            }
+          ]
+        }
+      ],
+      "should_generate": false
+    }
+  },
+  "clusters": []
+}
