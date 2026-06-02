@@ -9860,3 +9860,102 @@
 2026-06-01 08:15:39,526 - INFO - ==================================================
 2026-06-01 08:15:39,527 - INFO - Pipeline Execution Complete
 2026-06-01 08:15:39,527 - INFO - ==================================================
+2026-06-02 07:58:39,344 - INFO - ==================================================
+2026-06-02 07:58:39,344 - INFO - Starting TheBrief Daily Pipeline
+2026-06-02 07:58:39,344 - INFO - ==================================================
+2026-06-02 07:58:39,344 - INFO - 
+--- Phase 1: Discovery ---
+2026-06-02 07:58:39,348 - INFO - Discovering videos published after 2026-06-01T07:58:39.348250+00:00 (24h lookback)
+2026-06-02 07:58:39,752 - INFO - Found 1 new potential videos on Wall Street Bullion .
+2026-06-02 07:58:39,824 - INFO - Found 1 new potential videos on Kitco NEWS.
+2026-06-02 07:58:39,866 - INFO - Found 1 new potential videos on GoldSilver .
+2026-06-02 07:58:39,977 - INFO - Found 1 new potential videos on Yankee Stacking.
+2026-06-02 07:58:40,039 - INFO - Found 3 new potential videos on AI News & Strategy Daily | Nate B Jones.
+2026-06-02 07:58:40,159 - INFO - Found 2 new potential videos on David Lin .
+2026-06-02 07:58:40,256 - INFO - Found 1 new potential videos on TheTechnicalTraders.
+2026-06-02 07:58:40,263 - INFO - Found 1 new potential videos on Clive Thompson.
+2026-06-02 07:58:40,280 - INFO - Found 4 new potential videos on Verified Investing.
+2026-06-02 07:58:40,413 - INFO - Found 1 new potential videos on Felix & Friends (Goat Academy).
+2026-06-02 07:58:40,462 - INFO - Found 1 new potential videos on Miles Franklin Media.
+2026-06-02 07:58:40,605 - INFO - Found 1 new potential videos on Matthew Berman.
+2026-06-02 07:58:40,710 - INFO - Found 1 new potential videos on Wes Roth.
+2026-06-02 07:58:40,845 - INFO - Found 2 new potential videos on The Prof G Pod – Scott Galloway.
+2026-06-02 07:58:40,986 - INFO - Found 13 total long-form videos across all channels.
+2026-06-02 07:58:41,012 - INFO - Discovery complete. Added 13 new videos to queue.
+2026-06-02 07:58:41,012 - INFO - 
+--- Phase 2: Extraction ---
+2026-06-02 07:58:41,254 - INFO - yt-dlp version: 2026.03.17
+2026-06-02 07:58:41,613 - INFO - POT-related packages: bgutil-ytdlp-pot-provider 1.3.1
+2026-06-02 07:58:41,636 - INFO - bgutil HTTP server not available on port 4416 (will rely on cookies)
+2026-06-02 07:58:41,636 - INFO - Extracting audio for GPT-5.6 about to DROP (cS0Tm6ddnsQ)...
+2026-06-02 07:58:55,540 - INFO - Successfully extracted: audio/cS0Tm6ddnsQ.mp3
+2026-06-02 07:59:06,132 - INFO - Extracting audio for LIVE Q & A WITH MILES FRANKLIN (f1UFE2_iXVc)...
+2026-06-02 07:59:43,341 - INFO - Successfully extracted: audio/f1UFE2_iXVc.mp3
+2026-06-02 07:59:50,686 - INFO - Extracting audio for Next Mega Selloff Trigger Revealed, And It's Not What You Think | Marko Papic (nY7N1jvTEyA)...
+2026-06-02 08:00:09,538 - INFO - Successfully extracted: audio/nY7N1jvTEyA.mp3
+2026-06-02 08:00:18,279 - INFO - Extracting audio for BULLION DEALER'S BLUNT WARNING "THEY'RE PROMOTING WHAT THEY HAVE TO SELL!" (XKKanon32YM)...
+2026-06-02 08:00:31,511 - INFO - Successfully extracted: audio/XKKanon32YM.mp3
+2026-06-02 08:00:42,694 - INFO - Extracting audio for Tech Explodes To New Records! NVDA Sparks Massive Rally 🚀 (aBBvAFUrkvE)...
+2026-06-02 08:01:00,061 - INFO - Successfully extracted: audio/aBBvAFUrkvE.mp3
+2026-06-02 08:01:05,080 - INFO - Extracting audio for When should you sell your stocks? Do you take profits too early? Should you keep your losers? (GRTRHBDSHRA)...
+2026-06-02 08:01:18,937 - INFO - Successfully extracted: audio/GRTRHBDSHRA.mp3
+2026-06-02 08:01:25,605 - INFO - Extracting audio for Silver Price Is About To EXPLODE — Here's Why I'm Buying RIGHT NOW (m7GPrWSw-K4)...
+2026-06-02 08:01:40,547 - INFO - Successfully extracted: audio/m7GPrWSw-K4.mp3
+2026-06-02 08:01:49,238 - INFO - Extracting audio for Miami Beach Mayor: Is Miami The Next NYC? Why Big Businesses Are Fleeing South | Steven Meiner (DaxpC0UgzSI)...
+2026-06-02 08:02:11,539 - INFO - Successfully extracted: audio/DaxpC0UgzSI.mp3
+2026-06-02 08:02:22,552 - INFO - Extracting audio for Oil Spikes on Iran News, ARM Rips, NVIDIA Bear Flag — Today's Full Breakdown (4coPuRvCO2M)...
+2026-06-02 08:02:34,828 - INFO - Successfully extracted: audio/4coPuRvCO2M.mp3
+2026-06-02 08:02:43,879 - INFO - Extracting audio for Scott Answers: Is AI Replacing Middle Management? | Office Hours (jtQM_noMaoI)...
+2026-06-02 08:02:58,145 - INFO - Successfully extracted: audio/jtQM_noMaoI.mp3
+2026-06-02 08:03:09,358 - INFO - Extracting audio for Oil & Dollar Dally, while Metals Decline (-dapJ2_unZ0)...
+2026-06-02 08:03:18,718 - INFO - Successfully extracted: audio/-dapJ2_unZ0.mp3
+2026-06-02 08:03:23,858 - INFO - Extracting audio for TECH IS UNSTOPPABLE! Software RIPS Again, Nvidia CRUSHES Rivals (Key S&P 500 Levels!) (U5-uhsqBDrY)...
+2026-06-02 08:03:38,318 - INFO - Successfully extracted: audio/U5-uhsqBDrY.mp3
+2026-06-02 08:03:43,505 - INFO - Extracting audio for The Only SpaceX IPO Video Investors Need to Watch (1W92VarLwn8)...
+2026-06-02 08:04:03,150 - INFO - Successfully extracted: audio/1W92VarLwn8.mp3
+2026-06-02 08:04:03,150 - INFO - Extraction complete. 13/13 audio files ready. (Time: 321.5s)
+2026-06-02 08:04:03,150 - INFO - 
+--- Phase 3: Summarization (Direct Audio) ---
+2026-06-02 08:04:04,192 - INFO - Generating Brief for GPT-5.6 about to DROP (cS0Tm6ddnsQ)...
+2026-06-02 08:04:04,194 - INFO - AFC is enabled with max remote calls: 10.
+2026-06-02 08:04:04,434 - INFO - Generating Brief for Next Mega Selloff Trigger Revealed, And It's Not What You Think | Marko Papic (nY7N1jvTEyA)...
+2026-06-02 08:04:04,435 - INFO - AFC is enabled with max remote calls: 10.
+2026-06-02 08:04:04,572 - INFO - Generating Brief for LIVE Q & A WITH MILES FRANKLIN (f1UFE2_iXVc)...
+2026-06-02 08:04:04,573 - INFO - AFC is enabled with max remote calls: 10.
+2026-06-02 08:04:05,433 - ERROR - Error summarising audio GPT-5.6 about to DROP: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash is no longer available. Please update your code to use a newer model for the latest features and improvements.', 'status': 'NOT_FOUND'}}
+2026-06-02 08:04:05,531 - ERROR - Error summarising audio Next Mega Selloff Trigger Revealed, And It's Not What You Think | Marko Papic: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash is no longer available. Please update your code to use a newer model for the latest features and improvements.', 'status': 'NOT_FOUND'}}
+2026-06-02 08:04:06,030 - ERROR - Error summarising audio LIVE Q & A WITH MILES FRANKLIN: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash is no longer available. Please update your code to use a newer model for the latest features and improvements.', 'status': 'NOT_FOUND'}}
+2026-06-02 08:04:06,870 - INFO - Generating Brief for BULLION DEALER'S BLUNT WARNING "THEY'RE PROMOTING WHAT THEY HAVE TO SELL!" (XKKanon32YM)...
+2026-06-02 08:04:06,871 - INFO - AFC is enabled with max remote calls: 10.
+2026-06-02 08:04:07,353 - INFO - Generating Brief for Tech Explodes To New Records! NVDA Sparks Massive Rally 🚀 (aBBvAFUrkvE)...
+2026-06-02 08:04:07,355 - INFO - AFC is enabled with max remote calls: 10.
+2026-06-02 08:04:07,514 - ERROR - Error summarising audio BULLION DEALER'S BLUNT WARNING "THEY'RE PROMOTING WHAT THEY HAVE TO SELL!": 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash is no longer available. Please update your code to use a newer model for the latest features and improvements.', 'status': 'NOT_FOUND'}}
+2026-06-02 08:04:07,806 - INFO - Generating Brief for When should you sell your stocks? Do you take profits too early? Should you keep your losers? (GRTRHBDSHRA)...
+2026-06-02 08:04:07,807 - INFO - AFC is enabled with max remote calls: 10.
+2026-06-02 08:04:08,265 - ERROR - Error summarising audio Tech Explodes To New Records! NVDA Sparks Massive Rally 🚀: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash is no longer available. Please update your code to use a newer model for the latest features and improvements.', 'status': 'NOT_FOUND'}}
+2026-06-02 08:04:08,693 - ERROR - Error summarising audio When should you sell your stocks? Do you take profits too early? Should you keep your losers?: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash is no longer available. Please update your code to use a newer model for the latest features and improvements.', 'status': 'NOT_FOUND'}}
+2026-06-02 08:04:08,928 - INFO - Generating Brief for Silver Price Is About To EXPLODE — Here's Why I'm Buying RIGHT NOW (m7GPrWSw-K4)...
+2026-06-02 08:04:08,929 - INFO - AFC is enabled with max remote calls: 10.
+2026-06-02 08:04:09,605 - ERROR - Error summarising audio Silver Price Is About To EXPLODE — Here's Why I'm Buying RIGHT NOW: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash is no longer available. Please update your code to use a newer model for the latest features and improvements.', 'status': 'NOT_FOUND'}}
+2026-06-02 08:04:09,968 - INFO - Generating Brief for Miami Beach Mayor: Is Miami The Next NYC? Why Big Businesses Are Fleeing South | Steven Meiner (DaxpC0UgzSI)...
+2026-06-02 08:04:09,969 - INFO - AFC is enabled with max remote calls: 10.
+2026-06-02 08:04:09,998 - INFO - Generating Brief for Oil Spikes on Iran News, ARM Rips, NVIDIA Bear Flag — Today's Full Breakdown (4coPuRvCO2M)...
+2026-06-02 08:04:09,999 - INFO - AFC is enabled with max remote calls: 10.
+2026-06-02 08:04:10,644 - ERROR - Error summarising audio Oil Spikes on Iran News, ARM Rips, NVIDIA Bear Flag — Today's Full Breakdown: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash is no longer available. Please update your code to use a newer model for the latest features and improvements.', 'status': 'NOT_FOUND'}}
+2026-06-02 08:04:10,966 - ERROR - Error summarising audio Miami Beach Mayor: Is Miami The Next NYC? Why Big Businesses Are Fleeing South | Steven Meiner: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash is no longer available. Please update your code to use a newer model for the latest features and improvements.', 'status': 'NOT_FOUND'}}
+2026-06-02 08:04:11,102 - INFO - Generating Brief for Scott Answers: Is AI Replacing Middle Management? | Office Hours (jtQM_noMaoI)...
+2026-06-02 08:04:11,103 - INFO - AFC is enabled with max remote calls: 10.
+2026-06-02 08:04:11,832 - ERROR - Error summarising audio Scott Answers: Is AI Replacing Middle Management? | Office Hours: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash is no longer available. Please update your code to use a newer model for the latest features and improvements.', 'status': 'NOT_FOUND'}}
+2026-06-02 08:04:12,062 - INFO - Generating Brief for Oil & Dollar Dally, while Metals Decline (-dapJ2_unZ0)...
+2026-06-02 08:04:12,063 - INFO - AFC is enabled with max remote calls: 10.
+2026-06-02 08:04:12,557 - INFO - Generating Brief for TECH IS UNSTOPPABLE! Software RIPS Again, Nvidia CRUSHES Rivals (Key S&P 500 Levels!) (U5-uhsqBDrY)...
+2026-06-02 08:04:12,558 - INFO - AFC is enabled with max remote calls: 10.
+2026-06-02 08:04:12,600 - ERROR - Error summarising audio Oil & Dollar Dally, while Metals Decline: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash is no longer available. Please update your code to use a newer model for the latest features and improvements.', 'status': 'NOT_FOUND'}}
+2026-06-02 08:04:13,056 - INFO - Generating Brief for The Only SpaceX IPO Video Investors Need to Watch (1W92VarLwn8)...
+2026-06-02 08:04:13,057 - INFO - AFC is enabled with max remote calls: 10.
+2026-06-02 08:04:13,381 - ERROR - Error summarising audio TECH IS UNSTOPPABLE! Software RIPS Again, Nvidia CRUSHES Rivals (Key S&P 500 Levels!): 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash is no longer available. Please update your code to use a newer model for the latest features and improvements.', 'status': 'NOT_FOUND'}}
+2026-06-02 08:04:14,156 - ERROR - Error summarising audio The Only SpaceX IPO Video Investors Need to Watch: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash is no longer available. Please update your code to use a newer model for the latest features and improvements.', 'status': 'NOT_FOUND'}}
+2026-06-02 08:04:14,661 - WARNING - No briefs were successfully generated.
+2026-06-02 08:04:14,661 - INFO - ==================================================
+2026-06-02 08:04:14,661 - INFO - Pipeline Execution Complete
+2026-06-02 08:04:14,661 - INFO - ==================================================
