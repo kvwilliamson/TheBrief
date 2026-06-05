@@ -10159,3 +10159,96 @@
 2026-06-04 08:02:39,463 - INFO - ==================================================
 2026-06-04 08:02:39,463 - INFO - Pipeline Execution Complete
 2026-06-04 08:02:39,463 - INFO - ==================================================
+2026-06-05 07:48:29,696 - INFO - ==================================================
+2026-06-05 07:48:29,697 - INFO - Starting TheBrief Daily Pipeline
+2026-06-05 07:48:29,697 - INFO - ==================================================
+2026-06-05 07:48:29,697 - INFO - 
+--- Phase 1: Discovery ---
+2026-06-05 07:48:29,700 - INFO - Discovering videos published after 2026-06-04T07:48:29.700708+00:00 (24h lookback)
+2026-06-05 07:48:30,115 - INFO - Found 1 new potential videos on Kitco NEWS.
+2026-06-05 07:48:30,234 - INFO - Found 1 new potential videos on GoldSilver .
+2026-06-05 07:48:30,241 - INFO - Found 1 new potential videos on Wall Street Bullion .
+2026-06-05 07:48:30,363 - INFO - Found 3 new potential videos on AI News & Strategy Daily | Nate B Jones.
+2026-06-05 07:48:30,507 - INFO - Found 1 new potential videos on David Lin .
+2026-06-05 07:48:30,680 - INFO - Found 1 new potential videos on TheTechnicalTraders.
+2026-06-05 07:48:30,771 - INFO - Found 1 new potential videos on Felix & Friends (Goat Academy).
+2026-06-05 07:48:30,842 - INFO - Found 1 new potential videos on Adam Taggart | Thoughtful Money®.
+2026-06-05 07:48:30,923 - INFO - Found 5 new potential videos on Verified Investing.
+2026-06-05 07:48:31,093 - INFO - Found 2 new potential videos on Matthew Berman.
+2026-06-05 07:48:31,117 - INFO - Found 1 new potential videos on CPM Group.
+2026-06-05 07:48:31,161 - INFO - Found 1 new potential videos on Commodity Culture.
+2026-06-05 07:48:31,208 - INFO - Found 2 new potential videos on The Prof G Pod – Scott Galloway.
+2026-06-05 07:48:31,427 - INFO - Found 12 total long-form videos across all channels.
+2026-06-05 07:48:31,448 - INFO - Discovery complete. Added 12 new videos to queue.
+2026-06-05 07:48:31,449 - INFO - 
+--- Phase 2: Extraction ---
+2026-06-05 07:48:31,702 - INFO - yt-dlp version: 2026.03.17
+2026-06-05 07:48:32,070 - INFO - POT-related packages: bgutil-ytdlp-pot-provider 1.3.1
+2026-06-05 07:48:32,094 - INFO - bgutil HTTP server not available on port 4416 (will rely on cookies)
+2026-06-05 07:48:32,094 - INFO - Extracting audio for Stocks Could Go ‘Absolutely Ludicrous’ Before The Next Correction | Chris Vermeulen (JcBPvJ0pl5A)...
+2026-06-05 07:48:53,790 - INFO - Successfully extracted: audio/JcBPvJ0pl5A.mp3
+2026-06-05 07:49:01,973 - INFO - Extracting audio for Bulls Buy The Dip! Markets Defy Busted Tech Earnings 🚀 (CB2IkFEwHWI)...
+2026-06-05 07:49:17,544 - INFO - Successfully extracted: audio/CB2IkFEwHWI.mp3
+2026-06-05 07:49:25,839 - INFO - Extracting audio for Why People Are Losing Faith in Healthcare (llLg-ptTmRE)...
+2026-06-05 07:49:53,801 - INFO - Successfully extracted: audio/llLg-ptTmRE.mp3
+2026-06-05 07:50:00,874 - INFO - Extracting audio for Anthopic did a thing... (a56T6OQtwEg)...
+2026-06-05 07:50:47,690 - INFO - Successfully extracted: audio/a56T6OQtwEg.mp3
+2026-06-05 07:50:58,722 - INFO - Extracting audio for Gold Strategy: Why You Must Store Metals Outside The Banking System | Marc Faber (yFpwUtau350)...
+2026-06-05 07:51:30,631 - INFO - Successfully extracted: audio/yFpwUtau350.mp3
+2026-06-05 07:51:39,545 - INFO - Extracting audio for ✅ Brace Yourself! Andy Schectman REVEALS What's Really About to Happen to Silver Price Right Now (aUbFUrq7Ea8)...
+2026-06-05 07:51:55,439 - INFO - Successfully extracted: audio/aUbFUrq7Ea8.mp3
+2026-06-05 07:52:05,386 - INFO - Extracting audio for 'Pick a Number' on SILVER as Shorts Set to BURN in 'Unstoppable' Rally: Ed Steer (I2oGMydv-FY)...
+2026-06-05 07:52:30,505 - INFO - Successfully extracted: audio/I2oGMydv-FY.mp3
+2026-06-05 07:52:40,981 - INFO - Extracting audio for The Market Is Rotating Fast — Here's Every Level You Need Right Now (duoYICcjl5c)...
+2026-06-05 07:52:53,999 - INFO - Successfully extracted: audio/duoYICcjl5c.mp3
+2026-06-05 07:53:04,391 - INFO - Extracting audio for A.I. Mania Creating Twin Bubbles In Stock Prices AND Earnings | New Harbor Financial (8__0jwt-Lqg)...
+2026-06-05 07:53:34,915 - INFO - Successfully extracted: audio/8__0jwt-Lqg.mp3
+2026-06-05 07:53:44,514 - INFO - Extracting audio for Tech Sector Is Breaking (bSkE6PD8QNw)...
+2026-06-05 07:53:53,407 - INFO - Successfully extracted: audio/bSkE6PD8QNw.mp3
+2026-06-05 07:54:02,958 - INFO - Extracting audio for AI BUBBLE BURSTING? Broadcom & CrowdStrike Shock The Market! (fAnErg4nyp8)...
+2026-06-05 07:54:16,145 - INFO - Successfully extracted: audio/fAnErg4nyp8.mp3
+2026-06-05 07:54:27,086 - INFO - Extracting audio for The Exact Date of Next Stock Market Crash (YhxvTte1Vpk)...
+2026-06-05 07:54:45,291 - INFO - Successfully extracted: audio/YhxvTte1Vpk.mp3
+2026-06-05 07:54:45,291 - INFO - Extraction complete. 12/12 audio files ready. (Time: 373.2s)
+2026-06-05 07:54:45,292 - INFO - 
+--- Phase 3: Summarization (Direct Audio) ---
+2026-06-05 07:54:46,813 - INFO - Generating Brief for Bulls Buy The Dip! Markets Defy Busted Tech Earnings 🚀 (CB2IkFEwHWI)...
+2026-06-05 07:54:46,815 - INFO - AFC is enabled with max remote calls: 10.
+2026-06-05 07:54:47,044 - INFO - Generating Brief for Why People Are Losing Faith in Healthcare (llLg-ptTmRE)...
+2026-06-05 07:54:47,045 - INFO - AFC is enabled with max remote calls: 10.
+2026-06-05 07:54:47,097 - INFO - Generating Brief for Stocks Could Go ‘Absolutely Ludicrous’ Before The Next Correction | Chris Vermeulen (JcBPvJ0pl5A)...
+2026-06-05 07:54:47,098 - INFO - AFC is enabled with max remote calls: 10.
+2026-06-05 07:54:47,693 - ERROR - Error summarising audio Bulls Buy The Dip! Markets Defy Busted Tech Earnings 🚀: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash is no longer available. Please update your code to use a newer model for the latest features and improvements.', 'status': 'NOT_FOUND'}}
+2026-06-05 07:54:48,191 - ERROR - Error summarising audio Why People Are Losing Faith in Healthcare: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash is no longer available. Please update your code to use a newer model for the latest features and improvements.', 'status': 'NOT_FOUND'}}
+2026-06-05 07:54:48,224 - ERROR - Error summarising audio Stocks Could Go ‘Absolutely Ludicrous’ Before The Next Correction | Chris Vermeulen: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash is no longer available. Please update your code to use a newer model for the latest features and improvements.', 'status': 'NOT_FOUND'}}
+2026-06-05 07:54:50,506 - INFO - Generating Brief for ✅ Brace Yourself! Andy Schectman REVEALS What's Really About to Happen to Silver Price Right Now (aUbFUrq7Ea8)...
+2026-06-05 07:54:50,507 - INFO - AFC is enabled with max remote calls: 10.
+2026-06-05 07:54:50,528 - INFO - Generating Brief for Anthopic did a thing... (a56T6OQtwEg)...
+2026-06-05 07:54:50,529 - INFO - AFC is enabled with max remote calls: 10.
+2026-06-05 07:54:50,584 - INFO - Generating Brief for Gold Strategy: Why You Must Store Metals Outside The Banking System | Marc Faber (yFpwUtau350)...
+2026-06-05 07:54:50,585 - INFO - AFC is enabled with max remote calls: 10.
+2026-06-05 07:54:51,228 - ERROR - Error summarising audio ✅ Brace Yourself! Andy Schectman REVEALS What's Really About to Happen to Silver Price Right Now: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash is no longer available. Please update your code to use a newer model for the latest features and improvements.', 'status': 'NOT_FOUND'}}
+2026-06-05 07:54:51,736 - ERROR - Error summarising audio Anthopic did a thing...: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash is no longer available. Please update your code to use a newer model for the latest features and improvements.', 'status': 'NOT_FOUND'}}
+2026-06-05 07:54:51,798 - ERROR - Error summarising audio Gold Strategy: Why You Must Store Metals Outside The Banking System | Marc Faber: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash is no longer available. Please update your code to use a newer model for the latest features and improvements.', 'status': 'NOT_FOUND'}}
+2026-06-05 07:54:53,190 - INFO - Generating Brief for The Market Is Rotating Fast — Here's Every Level You Need Right Now (duoYICcjl5c)...
+2026-06-05 07:54:53,191 - INFO - AFC is enabled with max remote calls: 10.
+2026-06-05 07:54:53,614 - INFO - Generating Brief for 'Pick a Number' on SILVER as Shorts Set to BURN in 'Unstoppable' Rally: Ed Steer (I2oGMydv-FY)...
+2026-06-05 07:54:53,616 - INFO - AFC is enabled with max remote calls: 10.
+2026-06-05 07:54:53,845 - ERROR - Error summarising audio The Market Is Rotating Fast — Here's Every Level You Need Right Now: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash is no longer available. Please update your code to use a newer model for the latest features and improvements.', 'status': 'NOT_FOUND'}}
+2026-06-05 07:54:53,911 - INFO - Generating Brief for A.I. Mania Creating Twin Bubbles In Stock Prices AND Earnings | New Harbor Financial (8__0jwt-Lqg)...
+2026-06-05 07:54:53,912 - INFO - AFC is enabled with max remote calls: 10.
+2026-06-05 07:54:54,693 - ERROR - Error summarising audio 'Pick a Number' on SILVER as Shorts Set to BURN in 'Unstoppable' Rally: Ed Steer: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash is no longer available. Please update your code to use a newer model for the latest features and improvements.', 'status': 'NOT_FOUND'}}
+2026-06-05 07:54:55,126 - ERROR - Error summarising audio A.I. Mania Creating Twin Bubbles In Stock Prices AND Earnings | New Harbor Financial: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash is no longer available. Please update your code to use a newer model for the latest features and improvements.', 'status': 'NOT_FOUND'}}
+2026-06-05 07:54:55,570 - INFO - Generating Brief for Tech Sector Is Breaking (bSkE6PD8QNw)...
+2026-06-05 07:54:55,571 - INFO - AFC is enabled with max remote calls: 10.
+2026-06-05 07:54:56,205 - ERROR - Error summarising audio Tech Sector Is Breaking: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash is no longer available. Please update your code to use a newer model for the latest features and improvements.', 'status': 'NOT_FOUND'}}
+2026-06-05 07:54:56,232 - INFO - Generating Brief for AI BUBBLE BURSTING? Broadcom & CrowdStrike Shock The Market! (fAnErg4nyp8)...
+2026-06-05 07:54:56,232 - INFO - AFC is enabled with max remote calls: 10.
+2026-06-05 07:54:56,959 - INFO - Generating Brief for The Exact Date of Next Stock Market Crash (YhxvTte1Vpk)...
+2026-06-05 07:54:56,960 - INFO - AFC is enabled with max remote calls: 10.
+2026-06-05 07:54:57,281 - ERROR - Error summarising audio AI BUBBLE BURSTING? Broadcom & CrowdStrike Shock The Market!: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash is no longer available. Please update your code to use a newer model for the latest features and improvements.', 'status': 'NOT_FOUND'}}
+2026-06-05 07:54:57,712 - ERROR - Error summarising audio The Exact Date of Next Stock Market Crash: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash is no longer available. Please update your code to use a newer model for the latest features and improvements.', 'status': 'NOT_FOUND'}}
+2026-06-05 07:54:58,150 - WARNING - No briefs were successfully generated.
+2026-06-05 07:54:58,150 - INFO - ==================================================
+2026-06-05 07:54:58,150 - INFO - Pipeline Execution Complete
+2026-06-05 07:54:58,150 - INFO - ==================================================
