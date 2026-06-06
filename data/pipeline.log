@@ -10252,3 +10252,102 @@
 2026-06-05 07:54:58,150 - INFO - ==================================================
 2026-06-05 07:54:58,150 - INFO - Pipeline Execution Complete
 2026-06-05 07:54:58,150 - INFO - ==================================================
+2026-06-06 07:21:32,942 - INFO - ==================================================
+2026-06-06 07:21:32,942 - INFO - Starting TheBrief Daily Pipeline
+2026-06-06 07:21:32,942 - INFO - ==================================================
+2026-06-06 07:21:32,942 - INFO - 
+--- Phase 1: Discovery ---
+2026-06-06 07:21:32,945 - INFO - Discovering videos published after 2026-06-05T07:21:32.945855+00:00 (24h lookback)
+2026-06-06 07:21:33,413 - INFO - Found 1 new potential videos on Kitco NEWS.
+2026-06-06 07:21:33,469 - INFO - Found 1 new potential videos on GoldSilver .
+2026-06-06 07:21:33,588 - INFO - Found 1 new potential videos on Wall Street Bullion .
+2026-06-06 07:21:33,765 - INFO - Found 1 new potential videos on AI News & Strategy Daily | Nate B Jones.
+2026-06-06 07:21:33,945 - INFO - Found 1 new potential videos on David Lin .
+2026-06-06 07:21:34,018 - INFO - Found 1 new potential videos on TheTechnicalTraders.
+2026-06-06 07:21:34,202 - INFO - Found 3 new potential videos on Verified Investing.
+2026-06-06 07:21:34,287 - INFO - Found 1 new potential videos on Miles Franklin Media.
+2026-06-06 07:21:34,481 - INFO - Found 2 new potential videos on Matthew Berman.
+2026-06-06 07:21:34,490 - INFO - Found 1 new potential videos on Adam Taggart | Thoughtful Money®.
+2026-06-06 07:21:34,493 - INFO - Found 1 new potential videos on CPM Group.
+2026-06-06 07:21:34,532 - INFO - Found 1 new potential videos on Commodity Culture.
+2026-06-06 07:21:34,611 - INFO - Found 1 new potential videos on Wes Roth.
+2026-06-06 07:21:34,916 - INFO - Found 2 new potential videos on The Prof G Pod – Scott Galloway.
+2026-06-06 07:21:35,085 - INFO - Found 13 total long-form videos across all channels.
+2026-06-06 07:21:35,106 - INFO - Discovery complete. Added 13 new videos to queue.
+2026-06-06 07:21:35,106 - INFO - 
+--- Phase 2: Extraction ---
+2026-06-06 07:21:35,361 - INFO - yt-dlp version: 2026.03.17
+2026-06-06 07:21:35,732 - INFO - POT-related packages: bgutil-ytdlp-pot-provider 1.3.1
+2026-06-06 07:21:35,754 - INFO - bgutil HTTP server not available on port 4416 (will rely on cookies)
+2026-06-06 07:21:35,755 - INFO - Extracting audio for Anthropic Calls for "Global AI Pause" (4rEgNiP5V2E)...
+2026-06-06 07:21:57,266 - INFO - Successfully extracted: audio/4rEgNiP5V2E.mp3
+2026-06-06 07:22:04,297 - INFO - Extracting audio for Yields Spike, Tech Crashes: No Rate Cuts Until 2027? 📉 (E5fkoOw7vd4)...
+2026-06-06 07:22:22,831 - INFO - Successfully extracted: audio/E5fkoOw7vd4.mp3
+2026-06-06 07:22:30,726 - INFO - Extracting audio for The Real Reason Bitcoin Is Struggling Right Now | Cory Klippsten (whXd5xbhj_c)...
+2026-06-06 07:23:17,495 - INFO - Successfully extracted: audio/whXd5xbhj_c.mp3
+2026-06-06 07:23:25,079 - INFO - Extracting audio for Silver Price Warning: Why The $70 Level Matters (TZ38IVsejB4)...
+2026-06-06 07:23:44,027 - INFO - Successfully extracted: audio/TZ38IVsejB4.mp3
+2026-06-06 07:23:54,128 - INFO - Extracting audio for Silver Selloff Tests $500 Target: Why Shorts Had "Better Cover" | Michael Oliver (AgRDbqkgU8A)...
+2026-06-06 07:24:25,100 - INFO - Successfully extracted: audio/AgRDbqkgU8A.mp3
+2026-06-06 07:24:33,193 - INFO - Extracting audio for BREAKING: Silver Prices Are COLLAPSING Right Now — Here's Why (F12ORXk_kJA)...
+2026-06-06 07:24:47,805 - INFO - Successfully extracted: audio/F12ORXk_kJA.mp3
+2026-06-06 07:24:56,829 - INFO - Extracting audio for Market ‘Exuberance Going To Die’; Investor Called This Pullback | Ran Neuner (--Lhs8iUM_U)...
+2026-06-06 07:25:17,696 - INFO - Successfully extracted: audio/--Lhs8iUM_U.mp3
+2026-06-06 07:25:24,296 - INFO - Extracting audio for The 10-Year Yield Is Breaking Markets — Here's What Happens Next (R4cPEL5Dfco)...
+2026-06-06 07:25:37,486 - INFO - Successfully extracted: audio/R4cPEL5Dfco.mp3
+2026-06-06 07:25:43,889 - INFO - Extracting audio for AI, GLP-1s, and Scott's Iran War Reversal | The Week (uWB-o07A36s)...
+2026-06-06 07:25:58,336 - INFO - Successfully extracted: audio/uWB-o07A36s.mp3
+2026-06-06 07:26:03,670 - INFO - Extracting audio for This Metal Quietly Up 10x Since 2025 and We're Still in Early Innings (xIrp7UzVnxs)...
+2026-06-06 07:26:15,917 - INFO - Successfully extracted: audio/xIrp7UzVnxs.mp3
+2026-06-06 07:26:24,603 - INFO - Extracting audio for My Codex Ran 800 Million Tokens in A Day. The Real Story Isn't Cost. (l8BloTSLK6M)...
+2026-06-06 07:26:39,378 - INFO - Successfully extracted: audio/l8BloTSLK6M.mp3
+2026-06-06 07:26:50,421 - INFO - Extracting audio for It’s starting… (XzUB8_gj6xM)...
+2026-06-06 07:27:14,774 - INFO - Successfully extracted: audio/XzUB8_gj6xM.mp3
+2026-06-06 07:27:22,915 - INFO - Extracting audio for AI Trade Unwinds, Jobs Report Beat Raises Odds Of Rate Hike, Bitcoin Sliding Is Warning Risk Assets (r-scf4rP3R0)...
+2026-06-06 07:27:38,437 - INFO - Successfully extracted: audio/r-scf4rP3R0.mp3
+2026-06-06 07:27:38,438 - INFO - Extraction complete. 13/13 audio files ready. (Time: 362.7s)
+2026-06-06 07:27:38,438 - INFO - 
+--- Phase 3: Summarization (Direct Audio) ---
+2026-06-06 07:27:40,483 - INFO - Generating Brief for Anthropic Calls for "Global AI Pause" (4rEgNiP5V2E)...
+2026-06-06 07:27:40,485 - INFO - AFC is enabled with max remote calls: 10.
+2026-06-06 07:27:40,634 - INFO - Generating Brief for Yields Spike, Tech Crashes: No Rate Cuts Until 2027? 📉 (E5fkoOw7vd4)...
+2026-06-06 07:27:40,635 - INFO - AFC is enabled with max remote calls: 10.
+2026-06-06 07:27:40,824 - INFO - Generating Brief for The Real Reason Bitcoin Is Struggling Right Now | Cory Klippsten (whXd5xbhj_c)...
+2026-06-06 07:27:40,825 - INFO - AFC is enabled with max remote calls: 10.
+2026-06-06 07:27:41,499 - ERROR - Error summarising audio Anthropic Calls for "Global AI Pause": 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash is no longer available. Please update your code to use a newer model for the latest features and improvements.', 'status': 'NOT_FOUND'}}
+2026-06-06 07:27:41,644 - ERROR - Error summarising audio Yields Spike, Tech Crashes: No Rate Cuts Until 2027? 📉: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash is no longer available. Please update your code to use a newer model for the latest features and improvements.', 'status': 'NOT_FOUND'}}
+2026-06-06 07:27:42,701 - ERROR - Error summarising audio The Real Reason Bitcoin Is Struggling Right Now | Cory Klippsten: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash is no longer available. Please update your code to use a newer model for the latest features and improvements.', 'status': 'NOT_FOUND'}}
+2026-06-06 07:27:43,822 - INFO - Generating Brief for Silver Selloff Tests $500 Target: Why Shorts Had "Better Cover" | Michael Oliver (AgRDbqkgU8A)...
+2026-06-06 07:27:43,823 - INFO - AFC is enabled with max remote calls: 10.
+2026-06-06 07:27:44,033 - INFO - Generating Brief for Silver Price Warning: Why The $70 Level Matters (TZ38IVsejB4)...
+2026-06-06 07:27:44,034 - INFO - AFC is enabled with max remote calls: 10.
+2026-06-06 07:27:44,720 - INFO - Generating Brief for BREAKING: Silver Prices Are COLLAPSING Right Now — Here's Why (F12ORXk_kJA)...
+2026-06-06 07:27:44,721 - INFO - AFC is enabled with max remote calls: 10.
+2026-06-06 07:27:44,945 - ERROR - Error summarising audio Silver Price Warning: Why The $70 Level Matters: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash is no longer available. Please update your code to use a newer model for the latest features and improvements.', 'status': 'NOT_FOUND'}}
+2026-06-06 07:27:45,135 - ERROR - Error summarising audio Silver Selloff Tests $500 Target: Why Shorts Had "Better Cover" | Michael Oliver: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash is no longer available. Please update your code to use a newer model for the latest features and improvements.', 'status': 'NOT_FOUND'}}
+2026-06-06 07:27:45,455 - ERROR - Error summarising audio BREAKING: Silver Prices Are COLLAPSING Right Now — Here's Why: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash is no longer available. Please update your code to use a newer model for the latest features and improvements.', 'status': 'NOT_FOUND'}}
+2026-06-06 07:27:47,234 - INFO - Generating Brief for The 10-Year Yield Is Breaking Markets — Here's What Happens Next (R4cPEL5Dfco)...
+2026-06-06 07:27:47,235 - INFO - AFC is enabled with max remote calls: 10.
+2026-06-06 07:27:47,461 - INFO - Generating Brief for Market ‘Exuberance Going To Die’; Investor Called This Pullback | Ran Neuner (--Lhs8iUM_U)...
+2026-06-06 07:27:47,462 - INFO - AFC is enabled with max remote calls: 10.
+2026-06-06 07:27:47,765 - INFO - Generating Brief for AI, GLP-1s, and Scott's Iran War Reversal | The Week (uWB-o07A36s)...
+2026-06-06 07:27:47,766 - INFO - AFC is enabled with max remote calls: 10.
+2026-06-06 07:27:47,941 - ERROR - Error summarising audio The 10-Year Yield Is Breaking Markets — Here's What Happens Next: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash is no longer available. Please update your code to use a newer model for the latest features and improvements.', 'status': 'NOT_FOUND'}}
+2026-06-06 07:27:48,548 - ERROR - Error summarising audio AI, GLP-1s, and Scott's Iran War Reversal | The Week: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash is no longer available. Please update your code to use a newer model for the latest features and improvements.', 'status': 'NOT_FOUND'}}
+2026-06-06 07:27:48,549 - ERROR - Error summarising audio Market ‘Exuberance Going To Die’; Investor Called This Pullback | Ran Neuner: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash is no longer available. Please update your code to use a newer model for the latest features and improvements.', 'status': 'NOT_FOUND'}}
+2026-06-06 07:27:50,291 - INFO - Generating Brief for This Metal Quietly Up 10x Since 2025 and We're Still in Early Innings (xIrp7UzVnxs)...
+2026-06-06 07:27:50,292 - INFO - AFC is enabled with max remote calls: 10.
+2026-06-06 07:27:50,589 - INFO - Generating Brief for My Codex Ran 800 Million Tokens in A Day. The Real Story Isn't Cost. (l8BloTSLK6M)...
+2026-06-06 07:27:50,590 - INFO - AFC is enabled with max remote calls: 10.
+2026-06-06 07:27:50,921 - ERROR - Error summarising audio This Metal Quietly Up 10x Since 2025 and We're Still in Early Innings: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash is no longer available. Please update your code to use a newer model for the latest features and improvements.', 'status': 'NOT_FOUND'}}
+2026-06-06 07:27:50,980 - INFO - Generating Brief for It’s starting… (XzUB8_gj6xM)...
+2026-06-06 07:27:50,981 - INFO - AFC is enabled with max remote calls: 10.
+2026-06-06 07:27:51,433 - ERROR - Error summarising audio My Codex Ran 800 Million Tokens in A Day. The Real Story Isn't Cost.: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash is no longer available. Please update your code to use a newer model for the latest features and improvements.', 'status': 'NOT_FOUND'}}
+2026-06-06 07:27:52,418 - ERROR - Error summarising audio It’s starting…: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash is no longer available. Please update your code to use a newer model for the latest features and improvements.', 'status': 'NOT_FOUND'}}
+2026-06-06 07:27:53,083 - INFO - Generating Brief for AI Trade Unwinds, Jobs Report Beat Raises Odds Of Rate Hike, Bitcoin Sliding Is Warning Risk Assets (r-scf4rP3R0)...
+2026-06-06 07:27:53,084 - INFO - AFC is enabled with max remote calls: 10.
+2026-06-06 07:27:53,926 - ERROR - Error summarising audio AI Trade Unwinds, Jobs Report Beat Raises Odds Of Rate Hike, Bitcoin Sliding Is Warning Risk Assets: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash is no longer available. Please update your code to use a newer model for the latest features and improvements.', 'status': 'NOT_FOUND'}}
+2026-06-06 07:27:54,409 - WARNING - No briefs were successfully generated.
+2026-06-06 07:27:54,409 - INFO - ==================================================
+2026-06-06 07:27:54,409 - INFO - Pipeline Execution Complete
+2026-06-06 07:27:54,409 - INFO - ==================================================
