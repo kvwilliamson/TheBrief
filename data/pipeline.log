@@ -10351,3 +10351,45 @@
 2026-06-06 07:27:54,409 - INFO - ==================================================
 2026-06-06 07:27:54,409 - INFO - Pipeline Execution Complete
 2026-06-06 07:27:54,409 - INFO - ==================================================
+2026-06-07 07:40:48,846 - INFO - ==================================================
+2026-06-07 07:40:48,846 - INFO - Starting TheBrief Daily Pipeline
+2026-06-07 07:40:48,846 - INFO - ==================================================
+2026-06-07 07:40:48,846 - INFO - 
+--- Phase 1: Discovery ---
+2026-06-07 07:40:48,850 - INFO - Discovering videos published after 2026-06-06T07:40:48.850214+00:00 (24h lookback)
+2026-06-07 07:40:49,435 - INFO - Found 1 new potential videos on GoldSilver .
+2026-06-07 07:40:49,669 - INFO - Found 3 new potential videos on AI News & Strategy Daily | Nate B Jones.
+2026-06-07 07:40:49,868 - INFO - Found 1 new potential videos on Clive Thompson.
+2026-06-07 07:40:50,367 - INFO - Found 2 new potential videos on Verified Investing.
+2026-06-07 07:40:50,496 - INFO - Found 1 new potential videos on Adam Taggart | Thoughtful Money®.
+2026-06-07 07:40:50,615 - INFO - Found 1 new potential videos on Matthew Berman.
+2026-06-07 07:40:50,747 - INFO - Found 1 new potential videos on The Prof G Pod – Scott Galloway.
+2026-06-07 07:40:50,896 - INFO - Found 3 total long-form videos across all channels.
+2026-06-07 07:40:50,901 - INFO - Discovery complete. Added 3 new videos to queue.
+2026-06-07 07:40:50,902 - INFO - 
+--- Phase 2: Extraction ---
+2026-06-07 07:40:51,150 - INFO - yt-dlp version: 2026.03.17
+2026-06-07 07:40:51,511 - INFO - POT-related packages: bgutil-ytdlp-pot-provider 1.3.1
+2026-06-07 07:40:51,534 - INFO - bgutil HTTP server not available on port 4416 (will rely on cookies)
+2026-06-07 07:40:51,534 - INFO - Extracting audio for Sun Jun 8, Financial news.  Geneva goes into "lockdown ahead of G7.  AI stocks plunge.  SpaceX (YvEGPCRpouA)...
+2026-06-07 07:41:16,093 - INFO - Successfully extracted: audio/YvEGPCRpouA.mp3
+2026-06-07 07:41:24,963 - INFO - Extracting audio for Perplexity Just Built an AI That Does Everything (udS9osDCJKo)...
+2026-06-07 07:41:38,533 - INFO - Successfully extracted: audio/udS9osDCJKo.mp3
+2026-06-07 07:41:45,839 - INFO - Extracting audio for Is The Rally Over? Has The Pullback Now Started? | Lance Roberts (pS-8qYOXP8o)...
+2026-06-07 07:42:39,336 - INFO - Successfully extracted: audio/pS-8qYOXP8o.mp3
+2026-06-07 07:42:39,336 - INFO - Extraction complete. 3/3 audio files ready. (Time: 107.8s)
+2026-06-07 07:42:39,336 - INFO - 
+--- Phase 3: Summarization (Direct Audio) ---
+2026-06-07 07:42:41,196 - INFO - Generating Brief for Perplexity Just Built an AI That Does Everything (udS9osDCJKo)...
+2026-06-07 07:42:41,198 - INFO - AFC is enabled with max remote calls: 10.
+2026-06-07 07:42:41,642 - INFO - Generating Brief for Sun Jun 8, Financial news.  Geneva goes into "lockdown ahead of G7.  AI stocks plunge.  SpaceX (YvEGPCRpouA)...
+2026-06-07 07:42:41,643 - INFO - AFC is enabled with max remote calls: 10.
+2026-06-07 07:42:41,820 - ERROR - Error summarising audio Perplexity Just Built an AI That Does Everything: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash is no longer available. Please update your code to use a newer model for the latest features and improvements.', 'status': 'NOT_FOUND'}}
+2026-06-07 07:42:42,454 - INFO - Generating Brief for Is The Rally Over? Has The Pullback Now Started? | Lance Roberts (pS-8qYOXP8o)...
+2026-06-07 07:42:42,457 - INFO - AFC is enabled with max remote calls: 10.
+2026-06-07 07:42:42,779 - ERROR - Error summarising audio Sun Jun 8, Financial news.  Geneva goes into "lockdown ahead of G7.  AI stocks plunge.  SpaceX: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash is no longer available. Please update your code to use a newer model for the latest features and improvements.', 'status': 'NOT_FOUND'}}
+2026-06-07 07:42:44,615 - ERROR - Error summarising audio Is The Rally Over? Has The Pullback Now Started? | Lance Roberts: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash is no longer available. Please update your code to use a newer model for the latest features and improvements.', 'status': 'NOT_FOUND'}}
+2026-06-07 07:42:45,333 - WARNING - No briefs were successfully generated.
+2026-06-07 07:42:45,333 - INFO - ==================================================
+2026-06-07 07:42:45,333 - INFO - Pipeline Execution Complete
+2026-06-07 07:42:45,333 - INFO - ==================================================
