@@ -10538,3 +10538,117 @@
 2026-06-09 07:38:33,883 - INFO - ==================================================
 2026-06-09 07:38:33,883 - INFO - Pipeline Execution Complete
 2026-06-09 07:38:33,883 - INFO - ==================================================
+2026-06-10 07:48:53,629 - INFO - ==================================================
+2026-06-10 07:48:53,629 - INFO - Starting TheBrief Daily Pipeline
+2026-06-10 07:48:53,629 - INFO - ==================================================
+2026-06-10 07:48:53,629 - INFO - 
+--- Phase 1: Discovery ---
+2026-06-10 07:48:53,633 - INFO - Discovering videos published after 2026-06-09T07:48:53.633648+00:00 (24h lookback)
+2026-06-10 07:48:54,064 - INFO - Found 1 new potential videos on Wall Street Bullion .
+2026-06-10 07:48:54,070 - INFO - Found 1 new potential videos on GoldSilver .
+2026-06-10 07:48:54,196 - INFO - Found 1 new potential videos on Kitco NEWS.
+2026-06-10 07:48:54,397 - INFO - Found 1 new potential videos on AI News & Strategy Daily | Nate B Jones.
+2026-06-10 07:48:54,490 - INFO - Found 2 new potential videos on David Lin .
+2026-06-10 07:48:54,603 - INFO - Found 4 new potential videos on Verified Investing.
+2026-06-10 07:48:54,671 - INFO - Found 1 new potential videos on TheTechnicalTraders.
+2026-06-10 07:48:54,754 - INFO - Found 1 new potential videos on Felix & Friends (Goat Academy).
+2026-06-10 07:48:55,022 - INFO - Found 4 new potential videos on Matthew Berman.
+2026-06-10 07:48:55,067 - INFO - Found 1 new potential videos on Miles Franklin Media.
+2026-06-10 07:48:55,080 - INFO - Found 1 new potential videos on Commodity Culture.
+2026-06-10 07:48:55,131 - INFO - Found 2 new potential videos on Adam Taggart | Thoughtful Money®.
+2026-06-10 07:48:55,350 - INFO - Found 1 new potential videos on Wes Roth.
+2026-06-10 07:48:55,362 - INFO - Found 2 new potential videos on The Prof G Pod – Scott Galloway.
+2026-06-10 07:48:55,560 - INFO - Found 16 total long-form videos across all channels.
+2026-06-10 07:48:55,589 - INFO - Discovery complete. Added 16 new videos to queue.
+2026-06-10 07:48:55,590 - INFO - 
+--- Phase 2: Extraction ---
+2026-06-10 07:48:55,843 - INFO - yt-dlp version: 2026.06.09
+2026-06-10 07:48:56,192 - INFO - POT-related packages: bgutil-ytdlp-pot-provider 1.3.1
+2026-06-10 07:48:56,214 - INFO - bgutil HTTP server not available on port 4416 (will rely on cookies)
+2026-06-10 07:48:56,214 - INFO - Extracting audio for MYTHOS MYTHOS MYTHOS (Ou-0vjl6FZo)...
+2026-06-10 07:49:13,744 - INFO - Successfully extracted: audio/Ou-0vjl6FZo.mp3
+2026-06-10 07:49:19,868 - INFO - Extracting audio for AI’s Biggest Bottleneck Is America’s Next National Emergency | Algo Grande Copper (e4LRakHlaiY)...
+2026-06-10 07:49:40,059 - INFO - Successfully extracted: audio/e4LRakHlaiY.mp3
+2026-06-10 07:49:46,558 - INFO - Extracting audio for The Silver Supply Shock Nobody Sees Coming | Alasdair Macleod & Michelle Makori (Pt. 1/2) (kEtKhzEFdwA)...
+2026-06-10 07:50:13,145 - INFO - Successfully extracted: audio/kEtKhzEFdwA.mp3
+2026-06-10 07:50:19,915 - INFO - Extracting audio for New Lows Form Before CPI: Is Today's Afternoon Bounce Sustainable? (OaZCQbcIa5c)...
+2026-06-10 07:50:35,576 - INFO - Successfully extracted: audio/OaZCQbcIa5c.mp3
+2026-06-10 07:50:46,812 - INFO - Extracting audio for Why Gold, Silver and Tech Are Crashing Together: Bubba Horwitz Calls It a ‘100% Margin Call’ (09K7rE5xf90)...
+2026-06-10 07:51:07,961 - INFO - Successfully extracted: audio/09K7rE5xf90.mp3
+2026-06-10 07:51:13,902 - INFO - Extracting audio for Mythos 5 is WILD... (xUbIVUnQnZg)...
+2026-06-10 07:51:29,247 - INFO - Successfully extracted: audio/xUbIVUnQnZg.mp3
+2026-06-10 07:51:38,360 - INFO - Extracting audio for MYTHOS is LIVE!!!! (e-4xG1U7M70)...
+2026-06-10 07:52:26,899 - INFO - Successfully extracted: audio/e-4xG1U7M70.mp3
+2026-06-10 07:52:35,160 - INFO - Extracting audio for Silver Price Is COLLAPSING Fast | Will It Rebound or Crash Even Further? (Vi8HQ5BDp8s)...
+2026-06-10 07:52:48,374 - INFO - Successfully extracted: audio/Vi8HQ5BDp8s.mp3
+2026-06-10 07:52:53,848 - INFO - Extracting audio for Stocks Face A ‘Vicious’ Unwind; Which Sectors Win Out? | David Hay (qUxpYVmsn_Q)...
+2026-06-10 07:53:16,116 - INFO - Successfully extracted: audio/qUxpYVmsn_Q.mp3
+2026-06-10 07:53:22,712 - INFO - Extracting audio for This Pullback Is Setting Up Big Long Opportunities Across the Market (U8pQc6ZFtkA)...
+2026-06-10 07:53:36,016 - INFO - Successfully extracted: audio/U8pQc6ZFtkA.mp3
+2026-06-10 07:53:43,182 - INFO - Extracting audio for Extreme Valuations + Rising Volatility = 'Wild Ride' Ahead For Markets | Jonathan Wellum (EoUJfrCDHvg)...
+2026-06-10 07:54:19,198 - INFO - Successfully extracted: audio/EoUJfrCDHvg.mp3
+2026-06-10 07:54:28,468 - INFO - Extracting audio for 'Significant' Supply Deficit Will Keep Sending COPPER Prices Soaring (oP8IARH3erU)...
+2026-06-10 07:54:44,201 - INFO - Successfully extracted: audio/oP8IARH3erU.mp3
+2026-06-10 07:54:50,583 - INFO - Extracting audio for Market internal are weakening, IPO's are pending, investors are hyped up! (fimmqkvcpOQ)...
+2026-06-10 07:54:59,171 - INFO - Successfully extracted: audio/fimmqkvcpOQ.mp3
+2026-06-10 07:55:08,320 - INFO - Extracting audio for MARKET FLUSH AHEAD? S&P 500 & Nasdaq Form Critical Bearish Pattern! 🚨 (0U6xsVtN5b8)...
+2026-06-10 07:55:22,428 - INFO - Successfully extracted: audio/0U6xsVtN5b8.mp3
+2026-06-10 07:55:32,926 - INFO - Extracting audio for SpaceX Just Triggered the Biggest Unwind in Financial History - GET READY NOW! (20Y1OG5SFfo)...
+2026-06-10 07:55:49,410 - INFO - Successfully extracted: audio/20Y1OG5SFfo.mp3
+2026-06-10 07:55:56,296 - INFO - Extracting audio for China’s New AI Breakthrough Has Silicon Valley Nervous | China Decode (-lxjIf6p4wU)...
+2026-06-10 07:56:21,623 - INFO - Successfully extracted: audio/-lxjIf6p4wU.mp3
+2026-06-10 07:56:21,624 - INFO - Extraction complete. 16/16 audio files ready. (Time: 445.4s)
+2026-06-10 07:56:21,624 - INFO - 
+--- Phase 3: Summarization (Direct Audio) ---
+2026-06-10 07:56:23,752 - INFO - Generating Brief for AI’s Biggest Bottleneck Is America’s Next National Emergency | Algo Grande Copper (e4LRakHlaiY)...
+2026-06-10 07:56:23,754 - INFO - AFC is enabled with max remote calls: 10.
+2026-06-10 07:56:23,897 - INFO - Generating Brief for The Silver Supply Shock Nobody Sees Coming | Alasdair Macleod & Michelle Makori (Pt. 1/2) (kEtKhzEFdwA)...
+2026-06-10 07:56:23,898 - INFO - AFC is enabled with max remote calls: 10.
+2026-06-10 07:56:24,190 - INFO - Generating Brief for MYTHOS MYTHOS MYTHOS (Ou-0vjl6FZo)...
+2026-06-10 07:56:24,193 - INFO - AFC is enabled with max remote calls: 10.
+2026-06-10 07:56:25,031 - ERROR - Error summarising audio MYTHOS MYTHOS MYTHOS: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash is no longer available. Please update your code to use a newer model for the latest features and improvements.', 'status': 'NOT_FOUND'}}
+2026-06-10 07:56:25,048 - ERROR - Error summarising audio AI’s Biggest Bottleneck Is America’s Next National Emergency | Algo Grande Copper: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash is no longer available. Please update your code to use a newer model for the latest features and improvements.', 'status': 'NOT_FOUND'}}
+2026-06-10 07:56:25,095 - ERROR - Error summarising audio The Silver Supply Shock Nobody Sees Coming | Alasdair Macleod & Michelle Makori (Pt. 1/2): 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash is no longer available. Please update your code to use a newer model for the latest features and improvements.', 'status': 'NOT_FOUND'}}
+2026-06-10 07:56:26,861 - INFO - Generating Brief for New Lows Form Before CPI: Is Today's Afternoon Bounce Sustainable? (OaZCQbcIa5c)...
+2026-06-10 07:56:26,862 - INFO - AFC is enabled with max remote calls: 10.
+2026-06-10 07:56:27,566 - ERROR - Error summarising audio New Lows Form Before CPI: Is Today's Afternoon Bounce Sustainable?: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash is no longer available. Please update your code to use a newer model for the latest features and improvements.', 'status': 'NOT_FOUND'}}
+2026-06-10 07:56:27,623 - INFO - Generating Brief for Why Gold, Silver and Tech Are Crashing Together: Bubba Horwitz Calls It a ‘100% Margin Call’ (09K7rE5xf90)...
+2026-06-10 07:56:27,624 - INFO - AFC is enabled with max remote calls: 10.
+2026-06-10 07:56:28,012 - INFO - Generating Brief for Mythos 5 is WILD... (xUbIVUnQnZg)...
+2026-06-10 07:56:28,013 - INFO - AFC is enabled with max remote calls: 10.
+2026-06-10 07:56:28,646 - ERROR - Error summarising audio Why Gold, Silver and Tech Are Crashing Together: Bubba Horwitz Calls It a ‘100% Margin Call’: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash is no longer available. Please update your code to use a newer model for the latest features and improvements.', 'status': 'NOT_FOUND'}}
+2026-06-10 07:56:28,801 - ERROR - Error summarising audio Mythos 5 is WILD...: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash is no longer available. Please update your code to use a newer model for the latest features and improvements.', 'status': 'NOT_FOUND'}}
+2026-06-10 07:56:30,354 - INFO - Generating Brief for Silver Price Is COLLAPSING Fast | Will It Rebound or Crash Even Further? (Vi8HQ5BDp8s)...
+2026-06-10 07:56:30,355 - INFO - AFC is enabled with max remote calls: 10.
+2026-06-10 07:56:30,754 - INFO - Generating Brief for MYTHOS is LIVE!!!! (e-4xG1U7M70)...
+2026-06-10 07:56:30,757 - INFO - AFC is enabled with max remote calls: 10.
+2026-06-10 07:56:31,028 - ERROR - Error summarising audio Silver Price Is COLLAPSING Fast | Will It Rebound or Crash Even Further?: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash is no longer available. Please update your code to use a newer model for the latest features and improvements.', 'status': 'NOT_FOUND'}}
+2026-06-10 07:56:31,116 - INFO - Generating Brief for Stocks Face A ‘Vicious’ Unwind; Which Sectors Win Out? | David Hay (qUxpYVmsn_Q)...
+2026-06-10 07:56:31,117 - INFO - AFC is enabled with max remote calls: 10.
+2026-06-10 07:56:32,476 - ERROR - Error summarising audio Stocks Face A ‘Vicious’ Unwind; Which Sectors Win Out? | David Hay: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash is no longer available. Please update your code to use a newer model for the latest features and improvements.', 'status': 'NOT_FOUND'}}
+2026-06-10 07:56:32,712 - ERROR - Error summarising audio MYTHOS is LIVE!!!!: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash is no longer available. Please update your code to use a newer model for the latest features and improvements.', 'status': 'NOT_FOUND'}}
+2026-06-10 07:56:33,262 - INFO - Generating Brief for This Pullback Is Setting Up Big Long Opportunities Across the Market (U8pQc6ZFtkA)...
+2026-06-10 07:56:33,263 - INFO - AFC is enabled with max remote calls: 10.
+2026-06-10 07:56:34,030 - ERROR - Error summarising audio This Pullback Is Setting Up Big Long Opportunities Across the Market: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash is no longer available. Please update your code to use a newer model for the latest features and improvements.', 'status': 'NOT_FOUND'}}
+2026-06-10 07:56:35,364 - INFO - Generating Brief for 'Significant' Supply Deficit Will Keep Sending COPPER Prices Soaring (oP8IARH3erU)...
+2026-06-10 07:56:35,365 - INFO - AFC is enabled with max remote calls: 10.
+2026-06-10 07:56:35,934 - INFO - Generating Brief for Market internal are weakening, IPO's are pending, investors are hyped up! (fimmqkvcpOQ)...
+2026-06-10 07:56:35,935 - INFO - AFC is enabled with max remote calls: 10.
+2026-06-10 07:56:36,180 - INFO - Generating Brief for Extreme Valuations + Rising Volatility = 'Wild Ride' Ahead For Markets | Jonathan Wellum (EoUJfrCDHvg)...
+2026-06-10 07:56:36,182 - INFO - AFC is enabled with max remote calls: 10.
+2026-06-10 07:56:36,220 - ERROR - Error summarising audio 'Significant' Supply Deficit Will Keep Sending COPPER Prices Soaring: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash is no longer available. Please update your code to use a newer model for the latest features and improvements.', 'status': 'NOT_FOUND'}}
+2026-06-10 07:56:36,842 - ERROR - Error summarising audio Market internal are weakening, IPO's are pending, investors are hyped up!: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash is no longer available. Please update your code to use a newer model for the latest features and improvements.', 'status': 'NOT_FOUND'}}
+2026-06-10 07:56:37,893 - ERROR - Error summarising audio Extreme Valuations + Rising Volatility = 'Wild Ride' Ahead For Markets | Jonathan Wellum: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash is no longer available. Please update your code to use a newer model for the latest features and improvements.', 'status': 'NOT_FOUND'}}
+2026-06-10 07:56:38,415 - INFO - Generating Brief for SpaceX Just Triggered the Biggest Unwind in Financial History - GET READY NOW! (20Y1OG5SFfo)...
+2026-06-10 07:56:38,417 - INFO - AFC is enabled with max remote calls: 10.
+2026-06-10 07:56:38,645 - INFO - Generating Brief for MARKET FLUSH AHEAD? S&P 500 & Nasdaq Form Critical Bearish Pattern! 🚨 (0U6xsVtN5b8)...
+2026-06-10 07:56:38,646 - INFO - AFC is enabled with max remote calls: 10.
+2026-06-10 07:56:39,319 - ERROR - Error summarising audio MARKET FLUSH AHEAD? S&P 500 & Nasdaq Form Critical Bearish Pattern! 🚨: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash is no longer available. Please update your code to use a newer model for the latest features and improvements.', 'status': 'NOT_FOUND'}}
+2026-06-10 07:56:39,529 - ERROR - Error summarising audio SpaceX Just Triggered the Biggest Unwind in Financial History - GET READY NOW!: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash is no longer available. Please update your code to use a newer model for the latest features and improvements.', 'status': 'NOT_FOUND'}}
+2026-06-10 07:56:40,404 - INFO - Generating Brief for China’s New AI Breakthrough Has Silicon Valley Nervous | China Decode (-lxjIf6p4wU)...
+2026-06-10 07:56:40,405 - INFO - AFC is enabled with max remote calls: 10.
+2026-06-10 07:56:41,699 - ERROR - Error summarising audio China’s New AI Breakthrough Has Silicon Valley Nervous | China Decode: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash is no longer available. Please update your code to use a newer model for the latest features and improvements.', 'status': 'NOT_FOUND'}}
+2026-06-10 07:56:42,139 - WARNING - No briefs were successfully generated.
+2026-06-10 07:56:42,139 - INFO - ==================================================
+2026-06-10 07:56:42,140 - INFO - Pipeline Execution Complete
+2026-06-10 07:56:42,140 - INFO - ==================================================
