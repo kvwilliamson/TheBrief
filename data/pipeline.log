@@ -10652,3 +10652,107 @@
 2026-06-10 07:56:42,139 - INFO - ==================================================
 2026-06-10 07:56:42,140 - INFO - Pipeline Execution Complete
 2026-06-10 07:56:42,140 - INFO - ==================================================
+2026-06-11 08:01:14,957 - INFO - ==================================================
+2026-06-11 08:01:14,957 - INFO - Starting TheBrief Daily Pipeline
+2026-06-11 08:01:14,957 - INFO - ==================================================
+2026-06-11 08:01:14,958 - INFO - 
+--- Phase 1: Discovery ---
+2026-06-11 08:01:14,961 - INFO - Discovering videos published after 2026-06-10T08:01:14.961684+00:00 (24h lookback)
+2026-06-11 08:01:15,386 - INFO - Found 1 new potential videos on Kitco NEWS.
+2026-06-11 08:01:15,449 - INFO - Found 1 new potential videos on Wall Street Bullion .
+2026-06-11 08:01:15,512 - INFO - Found 1 new potential videos on GoldSilver .
+2026-06-11 08:01:15,699 - INFO - Found 3 new potential videos on David Lin .
+2026-06-11 08:01:15,721 - INFO - Found 2 new potential videos on AI News & Strategy Daily | Nate B Jones.
+2026-06-11 08:01:15,727 - INFO - Found 2 new potential videos on TheTechnicalTraders.
+2026-06-11 08:01:15,897 - INFO - Found 4 new potential videos on Verified Investing.
+2026-06-11 08:01:16,056 - INFO - Found 1 new potential videos on Adam Taggart | Thoughtful Money®.
+2026-06-11 08:01:16,112 - INFO - Found 1 new potential videos on CPM Group.
+2026-06-11 08:01:16,191 - INFO - Found 1 new potential videos on Commodity Culture.
+2026-06-11 08:01:16,203 - INFO - Found 1 new potential videos on Miles Franklin Media.
+2026-06-11 08:01:16,309 - INFO - Found 1 new potential videos on Matthew Berman.
+2026-06-11 08:01:16,322 - INFO - Found 1 new potential videos on Wes Roth.
+2026-06-11 08:01:16,464 - INFO - Found 2 new potential videos on The Prof G Pod – Scott Galloway.
+2026-06-11 08:01:16,604 - INFO - Found 14 total long-form videos across all channels.
+2026-06-11 08:01:16,632 - INFO - Discovery complete. Added 14 new videos to queue.
+2026-06-11 08:01:16,632 - INFO - 
+--- Phase 2: Extraction ---
+2026-06-11 08:01:16,891 - INFO - yt-dlp version: 2026.06.09
+2026-06-11 08:01:17,247 - INFO - POT-related packages: bgutil-ytdlp-pot-provider 1.3.1
+2026-06-11 08:01:17,270 - INFO - bgutil HTTP server not available on port 4416 (will rely on cookies)
+2026-06-11 08:01:17,270 - INFO - Extracting audio for Fable JUST made EVERYONE MAD... (deFvnmibzow)...
+2026-06-11 08:01:30,411 - INFO - Successfully extracted: audio/deFvnmibzow.mp3
+2026-06-11 08:01:40,979 - INFO - Extracting audio for Financial System Shock: Why Your Money May Never Work The Same | Mike Belshe (4r7Cn2x2uMs)...
+2026-06-11 08:02:00,760 - INFO - Successfully extracted: audio/4r7Cn2x2uMs.mp3
+2026-06-11 08:02:10,117 - INFO - Extracting audio for Will Gold Price Collapse To $3,000? Inflation To Get Ugly | Lobo Tiggre (YeEM5-WQXqU)...
+2026-06-11 08:02:33,234 - INFO - Successfully extracted: audio/YeEM5-WQXqU.mp3
+2026-06-11 08:02:40,708 - INFO - Extracting audio for This Is What Happens If Fort Knox Gets Audited | Alasdair Macleod & Michelle Makori (Pt 2/2) (FUy7t4L0sRY)...
+2026-06-11 08:03:14,266 - INFO - Successfully extracted: audio/FUy7t4L0sRY.mp3
+2026-06-11 08:03:20,237 - INFO - Extracting audio for Highest CPI Since 2023: Bearish Technical Signs Still Looming (gmy8CnJ4WOM)...
+2026-06-11 08:03:35,941 - INFO - Successfully extracted: audio/gmy8CnJ4WOM.mp3
+2026-06-11 08:03:47,362 - INFO - Extracting audio for Meltdown Begins: Trader Called Pullback, Warns Another 50% Crash Next | Gareth Soloway (IDtLD_2jfcM)...
+2026-06-11 08:04:07,620 - INFO - Successfully extracted: audio/IDtLD_2jfcM.mp3
+2026-06-11 08:04:17,944 - INFO - Extracting audio for Silver Price WARNING — Panic Selling Is Destroying The Market Right Now (-TIhLUp2GkE)...
+2026-06-11 08:04:30,094 - INFO - Successfully extracted: audio/-TIhLUp2GkE.mp3
+2026-06-11 08:04:39,883 - INFO - Extracting audio for AI Boom = Commodities Super-Boom?  | Tavi Costa (piKsr4W3sZo)...
+2026-06-11 08:05:26,681 - INFO - Successfully extracted: audio/piKsr4W3sZo.mp3
+2026-06-11 08:05:37,207 - INFO - Extracting audio for 'Massive CRISIS in Markets' But SILVER To 'Over $300, Very Quickly': Matthew Piepenburg (NUwA9-nsMaU)...
+2026-06-11 08:06:00,285 - INFO - Successfully extracted: audio/NUwA9-nsMaU.mp3
+2026-06-11 08:06:10,888 - INFO - Extracting audio for Everything Is Red — Here Are Your Exact Buy Levels for NVDA, META, SMCI & More (i-cwDcVxzxs)...
+2026-06-11 08:06:20,656 - INFO - Successfully extracted: audio/i-cwDcVxzxs.mp3
+2026-06-11 08:06:31,869 - INFO - Extracting audio for Why Jeff Bezos Is Wrong About Taxes | Office Hours (aaxUgQKp1aU)...
+2026-06-11 08:06:44,958 - INFO - Successfully extracted: audio/aaxUgQKp1aU.mp3
+2026-06-11 08:06:55,384 - INFO - Extracting audio for Stop Picking Between Claude Code and Codex | Do This Instead (R2-Y1Hjwx2U)...
+2026-06-11 08:07:08,297 - INFO - Successfully extracted: audio/R2-Y1Hjwx2U.mp3
+2026-06-11 08:07:19,287 - INFO - Extracting audio for Is A Stock Market Crash Starting? Are You Going To Protect Your Account After The Rally Ends? (mThruZ9c_sE)...
+2026-06-11 08:07:30,166 - INFO - Successfully extracted: audio/mThruZ9c_sE.mp3
+2026-06-11 08:07:38,625 - INFO - Extracting audio for CRITICAL Market Shift! S&P & NASDAQ Hit New Lower Low, CPI Data Relief, SpaceX IPO (Gi6wzz0o7Os)...
+2026-06-11 08:07:51,946 - INFO - Successfully extracted: audio/Gi6wzz0o7Os.mp3
+2026-06-11 08:07:51,947 - INFO - Extraction complete. 14/14 audio files ready. (Time: 394.7s)
+2026-06-11 08:07:51,947 - INFO - 
+--- Phase 3: Summarization (Direct Audio) ---
+2026-06-11 08:07:53,123 - INFO - Generating Brief for Will Gold Price Collapse To $3,000? Inflation To Get Ugly | Lobo Tiggre (YeEM5-WQXqU)...
+2026-06-11 08:07:53,125 - INFO - AFC is enabled with max remote calls: 10.
+2026-06-11 08:07:53,340 - INFO - Generating Brief for Financial System Shock: Why Your Money May Never Work The Same | Mike Belshe (4r7Cn2x2uMs)...
+2026-06-11 08:07:53,342 - INFO - AFC is enabled with max remote calls: 10.
+2026-06-11 08:07:53,377 - INFO - Generating Brief for Fable JUST made EVERYONE MAD... (deFvnmibzow)...
+2026-06-11 08:07:53,378 - INFO - AFC is enabled with max remote calls: 10.
+2026-06-11 08:07:54,047 - ERROR - Error summarising audio Will Gold Price Collapse To $3,000? Inflation To Get Ugly | Lobo Tiggre: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash is no longer available. Please update your code to use a newer model for the latest features and improvements.', 'status': 'NOT_FOUND'}}
+2026-06-11 08:07:54,082 - ERROR - Error summarising audio Fable JUST made EVERYONE MAD...: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash is no longer available. Please update your code to use a newer model for the latest features and improvements.', 'status': 'NOT_FOUND'}}
+2026-06-11 08:07:54,204 - ERROR - Error summarising audio Financial System Shock: Why Your Money May Never Work The Same | Mike Belshe: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash is no longer available. Please update your code to use a newer model for the latest features and improvements.', 'status': 'NOT_FOUND'}}
+2026-06-11 08:07:55,672 - INFO - Generating Brief for Highest CPI Since 2023: Bearish Technical Signs Still Looming (gmy8CnJ4WOM)...
+2026-06-11 08:07:55,674 - INFO - AFC is enabled with max remote calls: 10.
+2026-06-11 08:07:56,043 - INFO - Generating Brief for This Is What Happens If Fort Knox Gets Audited | Alasdair Macleod & Michelle Makori (Pt 2/2) (FUy7t4L0sRY)...
+2026-06-11 08:07:56,044 - INFO - AFC is enabled with max remote calls: 10.
+2026-06-11 08:07:56,395 - INFO - Generating Brief for Meltdown Begins: Trader Called Pullback, Warns Another 50% Crash Next | Gareth Soloway (IDtLD_2jfcM)...
+2026-06-11 08:07:56,396 - INFO - AFC is enabled with max remote calls: 10.
+2026-06-11 08:07:56,588 - ERROR - Error summarising audio Highest CPI Since 2023: Bearish Technical Signs Still Looming: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash is no longer available. Please update your code to use a newer model for the latest features and improvements.', 'status': 'NOT_FOUND'}}
+2026-06-11 08:07:57,349 - ERROR - Error summarising audio Meltdown Begins: Trader Called Pullback, Warns Another 50% Crash Next | Gareth Soloway: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash is no longer available. Please update your code to use a newer model for the latest features and improvements.', 'status': 'NOT_FOUND'}}
+2026-06-11 08:07:57,569 - ERROR - Error summarising audio This Is What Happens If Fort Knox Gets Audited | Alasdair Macleod & Michelle Makori (Pt 2/2): 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash is no longer available. Please update your code to use a newer model for the latest features and improvements.', 'status': 'NOT_FOUND'}}
+2026-06-11 08:07:57,852 - INFO - Generating Brief for Silver Price WARNING — Panic Selling Is Destroying The Market Right Now (-TIhLUp2GkE)...
+2026-06-11 08:07:57,853 - INFO - AFC is enabled with max remote calls: 10.
+2026-06-11 08:07:58,597 - ERROR - Error summarising audio Silver Price WARNING — Panic Selling Is Destroying The Market Right Now: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash is no longer available. Please update your code to use a newer model for the latest features and improvements.', 'status': 'NOT_FOUND'}}
+2026-06-11 08:07:59,214 - INFO - Generating Brief for 'Massive CRISIS in Markets' But SILVER To 'Over $300, Very Quickly': Matthew Piepenburg (NUwA9-nsMaU)...
+2026-06-11 08:07:59,215 - INFO - AFC is enabled with max remote calls: 10.
+2026-06-11 08:08:00,266 - ERROR - Error summarising audio 'Massive CRISIS in Markets' But SILVER To 'Over $300, Very Quickly': Matthew Piepenburg: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash is no longer available. Please update your code to use a newer model for the latest features and improvements.', 'status': 'NOT_FOUND'}}
+2026-06-11 08:08:00,372 - INFO - Generating Brief for AI Boom = Commodities Super-Boom?  | Tavi Costa (piKsr4W3sZo)...
+2026-06-11 08:08:00,373 - INFO - AFC is enabled with max remote calls: 10.
+2026-06-11 08:08:00,460 - INFO - Generating Brief for Everything Is Red — Here Are Your Exact Buy Levels for NVDA, META, SMCI & More (i-cwDcVxzxs)...
+2026-06-11 08:08:00,461 - INFO - AFC is enabled with max remote calls: 10.
+2026-06-11 08:08:01,307 - ERROR - Error summarising audio Everything Is Red — Here Are Your Exact Buy Levels for NVDA, META, SMCI & More: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash is no longer available. Please update your code to use a newer model for the latest features and improvements.', 'status': 'NOT_FOUND'}}
+2026-06-11 08:08:01,854 - INFO - Generating Brief for Why Jeff Bezos Is Wrong About Taxes | Office Hours (aaxUgQKp1aU)...
+2026-06-11 08:08:01,855 - INFO - AFC is enabled with max remote calls: 10.
+2026-06-11 08:08:02,680 - ERROR - Error summarising audio AI Boom = Commodities Super-Boom?  | Tavi Costa: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash is no longer available. Please update your code to use a newer model for the latest features and improvements.', 'status': 'NOT_FOUND'}}
+2026-06-11 08:08:02,722 - INFO - Generating Brief for Stop Picking Between Claude Code and Codex | Do This Instead (R2-Y1Hjwx2U)...
+2026-06-11 08:08:02,723 - INFO - AFC is enabled with max remote calls: 10.
+2026-06-11 08:08:02,827 - ERROR - Error summarising audio Why Jeff Bezos Is Wrong About Taxes | Office Hours: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash is no longer available. Please update your code to use a newer model for the latest features and improvements.', 'status': 'NOT_FOUND'}}
+2026-06-11 08:08:03,345 - ERROR - Error summarising audio Stop Picking Between Claude Code and Codex | Do This Instead: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash is no longer available. Please update your code to use a newer model for the latest features and improvements.', 'status': 'NOT_FOUND'}}
+2026-06-11 08:08:04,142 - INFO - Generating Brief for Is A Stock Market Crash Starting? Are You Going To Protect Your Account After The Rally Ends? (mThruZ9c_sE)...
+2026-06-11 08:08:04,144 - INFO - AFC is enabled with max remote calls: 10.
+2026-06-11 08:08:04,297 - INFO - Generating Brief for CRITICAL Market Shift! S&P & NASDAQ Hit New Lower Low, CPI Data Relief, SpaceX IPO (Gi6wzz0o7Os)...
+2026-06-11 08:08:04,298 - INFO - AFC is enabled with max remote calls: 10.
+2026-06-11 08:08:04,747 - ERROR - Error summarising audio Is A Stock Market Crash Starting? Are You Going To Protect Your Account After The Rally Ends?: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash is no longer available. Please update your code to use a newer model for the latest features and improvements.', 'status': 'NOT_FOUND'}}
+2026-06-11 08:08:05,082 - ERROR - Error summarising audio CRITICAL Market Shift! S&P & NASDAQ Hit New Lower Low, CPI Data Relief, SpaceX IPO: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash is no longer available. Please update your code to use a newer model for the latest features and improvements.', 'status': 'NOT_FOUND'}}
+2026-06-11 08:08:05,569 - WARNING - No briefs were successfully generated.
+2026-06-11 08:08:05,569 - INFO - ==================================================
+2026-06-11 08:08:05,569 - INFO - Pipeline Execution Complete
+2026-06-11 08:08:05,569 - INFO - ==================================================
